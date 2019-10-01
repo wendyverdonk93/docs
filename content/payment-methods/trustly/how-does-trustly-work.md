@@ -1,0 +1,76 @@
+---
+title: "Trustly, How does it work?"
+weight: 21
+meta_title: "Trustly, how does it work? - MultiSafepay Support"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+# How does it work?
+When the customer selects the payment method Trustly, the customer needs to select the desired country.
+By doing so, all online banks that are connected to the payment method Trustly will be presented to the customer.
+The customer can finalize the payment by logging in with the banking details.
+
+## Transaction flow
+The transaction flow shows the different possibilities a transaction is able to process. This differs per payment method.
+
+* Order status      
+The order status indicates the status of the order, such as completed, pending or rejected. 
+The order status is independent of the incoming or outgoing payment of the transaction.     
+
+* Transaction status      
+The transaction status indicates the payment status of the transaction, such as pending, completed or rejected. 
+Once the transaction status shows as completed, the amount of the transaction is added to your MultiSafepay balance.
+
+| Order Status | Transaction Status | Description                                                                                                                       |
+|--------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Initialized  | Initialized      | A payment link has been generated, but no payment has been received yet.                                                          |
+| Completed    | Completed        | A successful Trustly transaction has been received and the funds will be added to your MultiSafepay Control balance.              |
+| Declined     | Declined         | Transaction has been rejected.                                                                                                    |
+| Uncleared    | Uncleared        | Transaction is considered a high risk and the customer needs to do something in their account (for instance funding the balance). |
+| Expired      | Expired          | An unfinished transaction will automatically expire after a predefined period.                                                    |
+| Void         | Cancelled        | Transaction has been cancelled.                                                                                                   |
+
+
+### Refund flow
+
+| Order Status   | Transaction Status  | Description                                                                             |
+|----------------|-------------------|-----------------------------------------------------------------------------------------|
+| Initialized    | Initialized       | A refund has been requested.                                                            |
+| Completed      | Completed         | Refund has been successfully processed.                                                 |
+
+Full [API reference](/api/#trustly) on the payment method Trustly.
+
+
+| Supported plugins                                                                                                                 | Version                      |
+|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------|  
+| [Magento 2](/integrations/magento2/)                                                                                                   | Available from version 1.5.0 |  
+| [Magento 1](/integrations/magento1/)                                                                                                   | Available from version 2.4.1 |
+| [WooCommerce](/integrations/woocommerce/)                                                                                              | Available from version 3.2.0 |
+| [OpenCart](/integrations/opencart/)                                                                                                    | Available from version 2.2.0 |
+| [PrestaShop 1.7](/integrations/prestashop-1-7/)                                                                                        | Available from version 4.2.0 |
+| [CS-Cart](/integrations/cs-cart/)                                                                                                      | Available from version 1.3.0 |
+| [Drupal 8](/integrations/drupal8/)                                                                                                     | Available from version 1.0   |
+| [Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) | Available from version 2.0.2 |
+| [X-Cart](/integrations/x-cart/)                                                                                                        | Available from version 2.2.0 |
+| [Shopify](/integrations/shopify/)                                                                                                      | Available from Shopify       |
+
+
+
+## Product rules
+Some rules may apply to certain payment methods. These rules apply to the payment method Trustly.
+
+* Refunding more than the stated amount of the original transaction is possible with the payment method Trustly. More information available in [Refund more than original amount](/faq/finance/refund-more-than-original-amount/)
+
+* Transactions successfully received with the payment method Trustly have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
+
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. <br>    
+Full documentation on the lifetime of a payment link can be found on our FAQ page, [Lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+<br>
+
+* In exceptional cases, the uncleared status can occur within the payment method Trustly. 
+In this case, it is up to Trustly to inform MultiSafepay of the correct status. This can be a completed status as well as a declined and / or expired status.
+The uncleared status automatically expires after 5 days
+
+* Trustly can be offered in the following  [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/)     
+  * Euros (EUR)       
+  * Pounds (GBP)       
+  * Swedish krona (SEK).

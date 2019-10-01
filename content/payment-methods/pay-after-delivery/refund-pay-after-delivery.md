@@ -1,0 +1,74 @@
+---
+title : "How to refund a Pay After Delivery transaction"
+Weight: 23
+meta_title: "Pay After Delivery, how to refund a transaction - MultiSafepay Support"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+# Request refund
+There are 3 ways to refund a Pay After Delivery order in the [MultiSafepay Control](https://merchant.multisafepay.com).
+
+In all three cases of a reimbursement, only an amount will be refunded if a payment is linked to the transaction.
+If no payment is linked to the transaction, only a credit on the invoice will take place.
+
+
+## Full refund order
+The order can be fully reimbursed by the refund option.
+
+1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Select _transaction overview_
+3. With the search function you can find the transaction
+4. Click on the transaction to open it
+5. Select _refund order_
+6. _Full refund_
+7. _Save_.
+
+The order is cancelled.
+
+## Partial refund
+The order can be partially reimbursed in the checkout editor.  
+
+1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Select _transaction overview_
+3. With the search function you can find the transaction
+4. Click on the transaction to open it
+5. Select _refund order_
+6. _Edit_
+7. Choose the page(s) you want to deduct from the order
+8. _Save_.
+
+The order shows the credited page with the deducted amount added to the order.
+A new payment link is generated and send to the customer with the adjusted invoice.
+
+## Add a discount
+Instead of deleting an page in the checkout editor you may want to add a discount.  
+
+1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Select _transaction overview_
+3. With the search function you can find the transaction
+4. Click on the transaction to open it
+5. Select _refund order_
+6. Choose _edit_
+7. Add the discount as a new page in the checkout editor
+For example _-1 -> discount -> amount  -> VAT_
+8. Add the new order line to the order to deduct the amount given as a discount
+9. _Save_.
+
+A discount is added to the transaction.  
+A new invoice will with the adjusted payment link will be send to the customer.
+
+In most plugins you can also refund. See the [Plugin FAQ](/integrations/) for more information.
+
+## Complete own funds 
+
+In some cases, the customer pays the outstanding amount of the Pay After Delivery transaction directly to the webshop. Link the received payment to the outstanding transaction via _Complete own Funds_. Hereby you complete the outstanding transaction. The total amount of the transaction is deducted from your MultiSafepay balance. 
+
+1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Select _transaction overview_
+3. With the search function you can find the transaction
+4. Click on the transaction to open it
+5. Select _Complete own funds_ 
+6. Place a comment 
+7. Complete 
+8. The funds will be deducted from your MultiSafepay balance
+9. The invoice has been settled
+

@@ -1,0 +1,107 @@
+---
+title : "Release Notes PrestaShop plugin"
+meta_title: "PrestaShop 1.7 plugin changelog - MultiSafepay Documentation Center"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+
+## 4.4.0
+Release date: July 3rd, 2019
+
+### Added
++ PLGPRSS-244: Add support for tokenization
+
+### Changed
++ PLGPRSS17-35: Display proper gateway name as used payment method, instead of gateway code
+
+***
+
+## 4.3.1
+Release date: May 15th, 2019
+
+### Fixed
++ PLGPRSS-372: Prevent creation of duplicate orders
+
+## 4.3.0
+Release date: April 25th, 2019
+
+### Added
++ PLGPRSS-274: Add iDEAL QR payment method
++ PLGPRSS-311: Add transaction ID to payment details when viewing order in backend
+
+### Changed
++ PLGPRSS-225: Change way path to plugin js/css files is determined to prevent sporadic loading issue
++ PLGPRSS-351: Change merchant_item_id to support product variants
++ PLGPRSS-261: Improve parsing of address into street and apartment
++ PLGPRSS-335: Correct spelling ING Home'Pay
+
+### Fixed
++ PLGPRSS-353: Fix no payment methods visible after updating carriers
++ PLGPRSS-356: Fix refund issue for products with a variation
++ PLGPRSS-348: Fix when installing through commandline, config is not initialized
++ PLGPRSS-347: Fix warning during sorting of gateways and giftcards
++ PLGPRSS-345: Prevent order status be changed on not MultiSafepay orders
+
+### Removed
++ PLGPRSS-283: Remove Klarna invoice link
+
+***
+
+## 4.2.0
+Release date: May 25th, 2018
+
+### Improvements
++ PLGPRSS-312: Add support for Santander Betaalplan payment method
++ PLGPRSS-313: Add support for AfterPay payment method
++ PLGPRSS-314: Add support for Trustly payment method
+
+***
+
+## 4.1.0
+Release date: May 8th, 2018
+
+### Improvements
++ PLGPRSS-222 Add Dutch translations
++ PLGPRSS-240 Support direct transactions for iDEAL, Pay After Delivery, E-Invoice, Bank transfer, ING Home'Pay, KBC and PayPal
++ PLGPRSS-246 Add check to see if test/live option corresponds with the used API key
++ PLGPRSS-253 Add warning when enable gateway and not available in MultiSafepay Control
++ PLGPRSS-276 Multiple transactions created after multiple clicks on the order-confirmation button
++ PLGPRSS-277 Update Klarna payment method logo
++ PLGPRSS-278 Remove MultiSafepay.js from the front-end
++ PLGPRSS-280 Add Italian translation
++ PLGPRSS-286 Remove debugging statement
++ PLGPRSS-310 Add message to order in case amount paid is not equal to order amount
+
+### Fixes
++ PLGPRSS-248 When in debug mode a long list of warnings is displayed when entering the configuration.
++ PLGPRSS-254 Gateway not visible when min_amount is filled and Max_amount not.
++ PLGPRSS-255 Changes in the configuration are not showed
++ PLGPRSS-257 Parsing address failed when the house-number is on the second address row.
++ PLGPRSS-258 Order-confirmation page not always shown, due order not existing yet
++ PLGPRSS-268 Change gateway-code ING to INGHOME
++ PLGPRSS-269 Updates within payment method configuration are not updated on save
++ PLGPRSS-281 gateway_info undefined when using direct transactions
++ PLGPRSS-285 No gateways available for virtual products
++ PLGPRSS-287 Fix spelling mistake gezondheidsbon
++ PLGPRSS-288 Update uninstall function to unregister missing hooks
++ PLGPRSS-293 Wrong spelling of some gateway names
++ PLGPRSS-294 Pay After Delivery uncleared stays on 'Payment accepted' after declining from MultiSafepay side.
++ PLGPRSS-301 Pay After Delivery E-invoice form layout error with non-English languages
++ PLGPRSS-303 Order creation failed when order amount differs from paid amount
+
+### Changes
++ PLGPRSS-245 Combine Live- Test- API key to just one API-Key
++ PLGPRSS-249 Remove min/max amount for gift cards in the configuration
++ PLGPRSS-250 Remove IP-restriction in the configuration of PAD/KLARNA/E-INVOICE
++ PLGPRSS-265 Replace DAYS_ACTIVE by SECONDS_ACTIVE
++ PLGPRSS-275 Make form fields required for iDEAL, Pay After Delivery, E-Invoice
++ PLGPRSS-297 Change the message of the redirect to the order-history page
+
+***
+
+## 4.0.0
+Release date: January 9th, 2018
+
+### Improvements
++ Initial release for PrestaShop 1.7
+
+***

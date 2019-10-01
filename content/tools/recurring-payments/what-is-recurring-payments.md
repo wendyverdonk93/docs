@@ -1,0 +1,54 @@
+---
+title : "Recurring payment, What is it?"
+weight: 56
+meta_title: "Recurring Payment, what is it? - MultiSafepay Support"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+## 1. Introduction
+Recurring payments are automatic payments which enable you to charge a customer bank account or credit card on a regular basis. Your customers must initiate the first payment themselves. You must also take steps to make your customers aware that you will be charging them on a recurring basis. You can do this at the checkout process, but it is sufficient to include this in your General Terms & Conditions and require the customer to agree to those Terms & Conditions before checkout. You should also inform your customers in advance of each transaction. Recurring payments are a perfect solution for companies who charge their customers with a monthly or yearly subscription.
+
+MultiSafepay supports two payment methods for recurring payments:
+
+- Credit cards (Visa, Mastercard and American Express)
+- SEPA Direct Debit (SDD), optionally you can use iDEAL or SOFORT Banking for an
+initial payment and continue with recurring direct debits.
+
+_We offer an workaround option to use Bancontact for an initial payment. Contact your Account Manager for more information_.
+
+Top 3 things you need to know before using recurring payments:
+
+- Merchants are responsible for scheduling recurring payments and optional retries
+- In order to use recurring payments, our screening department must specifically enable this functionality in your MultiSafepay Control
+- Merchants are responsible for informing customers about commitment to frequent charges and storing mandates.
+
+## 2. Important Terms
+* Initial Payment  
+The first payment initiated by a customer with acknowledgement and approval of a recurring charge
+
+* Subsequent Payments  
+All payments following the Initial Payment
+
+* SEPA (Single Euro Payments Area)  
+All countries within the European Union and Norway, Iceland, Liechtenstein, Switzerland and Monaco
+
+* SEPA Direct Debit  
+The international SEPA Direct Debit
+
+* Single Direct Debit  
+A direct debit on which the customer approved to a single withdrawal
+
+* Recurring Direct Debit  
+A recurring direct debit on which the customer approved to regular withdrawals
+
+* Chargeback  
+When a customer revoked the payment.
+
+## 3. Requirements
+In order to use the recurring payments functionality, you need to have the following:
+
+* An active MultiSafepay Control account  
+
+* Recurring payments enabled by the screening department of MultiSafepay.
+
+If your account has not been enabled with the recurring payments functionality, please contact us.
+Without recurring payments being enabled by our screening department, you will not be able to initiate and process recurring payments.

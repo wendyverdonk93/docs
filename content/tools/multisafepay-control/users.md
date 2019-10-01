@@ -1,0 +1,63 @@
+---
+title : "User configuration"
+weight: 35
+meta_title: "MultiSafepay Control - User Configuration - MultiSafepay Support"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+
+## How do I add a user to my MultiSafepay Control?
+
+To add users with different permission profiles to your [MultiSafepay Control](https://merchant.multisafepay.com), please refer to the steps below:
+
+1. Log in on your [MultiSafepay Control](https://merchant.multisafepay.com)
+2. Once logged in, navigate to _Settings_ on the left side menu
+3. Click on _User management_
+4. Click on _Add new user_ on the top right corner
+5. Fill in the required credentials and put the _Status_ on _Active_
+6. Select the appropriate user rights on the right side
+7. Click on _Add user_ on the top right corner.
+
+> There is an unlimited amount of users you may add to your account. It is not possible to delete a user from your user management. However, it is possible to disable them.
+
+If you are uncertain on which rights to assign to the user you are about to add, hover your mouse cursor above the question marks for a detailed explanation.
+
+_or_
+
+See all the user rights explained below:
+
+### Administrator
+
+* Has access to all functionalities within the account.
+
+### Reporting
+
+* Sees all transactions
+* Create and download reports
+* Sees the current balance of the account
+* Able to generate payment links.
+
+### Technical
+
+* Add and adjust a website
+* Add and adjust payment pages
+* Edit email templates.
+
+### Refund
+
+* Create refunds
+* Sees all transactions
+* Able to generate payment links.
+
+### Basic
+
+* Sees all transactions
+* Able to generate payment link.
+
+### DisableBalance
+
+* Will hide your account balance for the user.
+
+### Uncleared
+
+* Able to accept or decline uncleared transactions.
+

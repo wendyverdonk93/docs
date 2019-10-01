@@ -1,0 +1,269 @@
+---
+title : "Test Payment Details"
+meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Support"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+
+By thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
+
+Testing with our test credentials can only be done in you MultiSafepay Test Control. Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge
+
+With a successful connection with your test or staging environment, you can immediately start testing.
+
+Additional payment methods and outgoing payments are disabled by default.
+Contact our support department at <support@multisafepay.com> to assist you further. Or call us +31 20 8500 500
+
+## AfterPay
+
+Contact our Integration Team to enable the payment method AfterPay in your MultiSafepay Test Control. <integration@multisafepay.com>
+
+## Alipay
+
+MultiSafepay provides a test platform for Alipay transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Cancelled |
+
+## American Express
+
+MultiSafepay provides a test platform for American Express transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
+
+* cvc 123
+* Select a date in the future for the expiry date
+
+| Card number         | Status    | Description              |
+| ------------------- | --------- | ------------------------ |
+| 3782 8224 6310 005  | Completed | Transaction is Completed (not 3D enrolled) |
+| 3742 0000 0000 004  | Declined  | Transaction is Declined |
+| 3787 3449 3671 000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+
+## Bancontact
+
+MultiSafepay provides a test platform for Bancontact transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
+
+| Card number           | Status    | Description              |
+| --------------------- | --------- | ------------------------ |
+| 6703 4500 0546 1000 5 | Completed | Transaction is Completed (3D enrolled) |
+| 6703 4500 0546 1000 9 | Declined  | Transaction is Declined (card needs to be 3D enrolled) |
+| 6703 9902 9900 0004 5 | Declined  | Transaction is Declined (failed 3D authentication) |
+| 6703 9902 9900 0001 1	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
+
+## BankTransfer
+
+MultiSafepay provides a test platform for BankTransfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
+
+| IBAN               | Status    | Description              |
+| ------------------ | --------- | ------------------------ |
+| NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized (after 1 minute it is Completed) |
+| NL87ABNA0000000002 | Initialized/Expired/Completed | Transaction is Initialized ( after 1 minute it is Expired, and 1 minute later it is Completed) |
+| NL87ABNA0000000003 | Initialized/Expired | Transaction is Initialized ( after 1 minute it is Expired) |
+| NL87ABNA0000000004 | Initialized/Declined | Transaction is Initialized ( after 1 minute it is Declined) |
+
+## Belfius
+
+MultiSafepay provides a test platform for Belfius transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Cancelled |
+
+
+## CartaSi
+MultiSafepay provides the Visa test credantials to test the payment method CartaSi.
+
+The payment method CartaSi is shown as a payment option on the Payment page of MultiSafepay depending on:
+
+1. The Visa gateway needs to be enabled.
+2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
+
+## Carte Bleue
+
+MultiSafepay provides the Visa test credantials to test the payment method Carte Bleue.
+
+The payment method Carte Bleue is shown as a payment option on the Payment page of MultiSafepay depending on:
+
+1. The Visa gateway needs to be enabled.
+2. The locale needs to be fr_FR (France) in the transaction call received by MultiSafepay.
+
+## Dankort
+
+MultiSafepay provides the Visa test credantials to test the payment method Dankort.
+
+The payment method Dankort is shown as a payment option on the Payment page of MultiSafepay depending on:
+
+1. The Visa gateway needs to be enabled.
+2. The locale needs to be da_DK (Denmark) in the transaction call received by MultiSafepay.
+
+## SEPA Direct Debit
+
+MultiSafepay provides a test platform for SEPA Direct Debit transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
+
+| IBAN               | Status    | Description              |
+| ------------------ | --------- | ------------------------ |
+| NL87ABNA0000000001 | Initialized/Completed | Transaction is Initialized (after 2 minutes it is Completed) |
+| NL87ABNA0000000002 | Initialized/Declined | Transaction is Initialized (after 2 minutes it is Declined) |
+| NL87ABNA0000000003 | Initialized/Uncleared/Completed | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Completed) |
+| NL87ABNA0000000004 | Initialized/Uncleared/Declined | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Declined) |
+
+## Dotpay
+
+MultiSafepay provides a test platform for Dotpay transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Declined | Transaction is Declined |
+
+## E-invoicing
+
+MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delivery transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| Address               | Status    | Description              |
+| ------------------ | --------- | ------------------------ |
+| Kraanspoor 39C <br/> 1033SC Amsterdam | Completed | Transaction is Completed |
+
+
+## Gift cards
+
+Currently no test data available for the payment method gift cards.
+
+When activating a gift card as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+
+## Giropay / EPS
+
+MultiSafepay provides a test platform for Giropay/EPS transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| BIC     | Status    | Description              |
+| ------- | --------- | ------------------------ |
+| Any BIC | Completed | Transaction is Completed |
+| Any BIC | Declined  | Transaction is Declined |
+
+Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
+
+## iDEAL
+
+MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| Status                | Description              |
+| --------------------- | ------------------------ |
+| Completed             | Transaction is Completed |
+| Declined              | Transaction is Declined |
+| Cancelled             | Transaction is Cancelled |
+| Initialized/Completed | Transaction is Initialized (after 1 minute it is changed to Completed) |
+| Initialized/Declined  | Transaction is Initialized (after 1 minute it is changed to Declined) |
+
+
+## ING Home'Pay 
+
+MultiSafepay provides a test platform for ING Home'Pay transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Cancelled |
+
+
+## KBC
+
+The payment method KBC can only be processed on our new Payment page starting with PayV2.
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is void / cancelled |
+
+## Klarna
+
+Klarna provides their own [Test Credentials](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+
+## Maestro
+
+MultiSafepay provides a test platform for Maestro transactions. The simulation is similar to the Visa test platform. For extensive testing please use the Visa test platform. By entering a test card number, you will be able to simulate the outcome of the transaction.
+
+| Card number      | Status    | Description              |
+| -----------------| --------- | ------------------------ |
+| 6759 0000 0000 5 | Completed | Transaction is Completed (3D enrolled)
+
+
+## Mastercard
+
+MultiSafepay provides a test platform for Mastercard transactions. The simulation is similar to the Visa test platform. For extensive testing please use the Visa test platform. By entering a test card number, you will be able to simulate the outcome of the transaction.
+
+
+* cvc 123
+* Select a date in the future for the expiry date
+
+| Card number         | Status    | Description              |
+| ------------------- | --------- | ------------------------ |
+| 5500 0000 0000 0004 | Completed | Transaction is Completed (not 3D enrolled) |
+
+## Pay After Delivery (Betaal na Ontvangst)
+
+MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delivery transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| Address               | Status    | Description              |
+| ------------------ | --------- | ------------------------ |
+| Kraanspoor 39C <br/> 1033SC Amsterdam | Completed | Transaction is Completed |
+| Vlierweg 12D <br/> 1032LG Amsterdam | Declined | Transaction is Declined |
+
+
+## PayPal
+
+MultiSafepay provides a test platform for PayPal transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Declined | Transaction is Declined |
+| Initialized / Completed | Payment blocked by PayPal (then accepted) |
+| Initialized / Declined | Payment blocked by PayPal (then declined) |
+| Cancelled | Transaction is Cancelled |
+
+
+## Recurring payment
+
+Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/)
+
+
+## Santander
+
+Currently no test data available for the payment method Santander.
+
+When activating Santander as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+
+## SOFORT Banking
+
+MultiSafepay provides a test platform for SOFORT Banking transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Cancelled |
+
+## Trustly 
+
+MultiSafepay provides a test platform for Trustly transactions. During the payment process you will be able to simulate the outcome of the transaction.
+
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Cancelled |
+
+## Visa
+
+MultiSafepay provides a test platform for Visa transactions. By entering a test card number you will be able to simulate the outcome of the transaction.
+
+* cvc 123
+* Select a date in the future for the expiry date
+
+| Card number         | Status    | Description              |
+| ------------------- | --------- | ------------------------ |
+| 4111 1111 1111 1111 | Completed | Transaction is Completed (3D enrolled) |
+| 4012 0010 3844 3335 | Completed | Transaction is Completed (not 3D enrolled) |
+| 4917 3000 0000 0008 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+| 4462 0000 0000 0003 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Completed) |
+| 4012 0010 3746 1114 | Declined  | Transaction is Declined (failed 3D authentication) |
+| 4012 0010 3848 8884 | Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |

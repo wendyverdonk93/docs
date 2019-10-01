@@ -1,0 +1,41 @@
+---
+title : "MultiSafepay Drupal 8 installation & configuration manual"
+meta_title: "Drupal 8 plugin manual - MultiSafepay Documentation Center"
+meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+---
+
+## Introduction  
+This manual helps merchants process MultiSafepay payments as quickly as possible from a Drupal 8 webshop. For some steps in this manual, assistance from your technical partner may be required.
+
+The installation can be carried out in three ways:
+
++ SFTP
++ Composer
++ backend
+
+In this manual we describe the installation via Composer.
+We recommend you install the plugin first on a test environment, and make sure you have made a backup.
+
+{{% contactdetails %}}
+
+## 1. Requirements  - Drupal 8.x
+- Tested on PHP 7.2
+- Drupal Commerce 2.x
+
+## 2. Installation  Run the following commands via the CLI:
+
+```
+composer require drupal/commerce_multisafepay
+```
+
+After running these commands, the latest stable release is downloaded and installed within your Drupal 8 webshop.
+
+## 3. Configuration  
+1. Login on the backend of your webshop and navigate to _Commerce->Configuration->Payments->MultiSafepay settings_.
+On this page you can fill in your API details. {{% account_info %}}
+2. Navigate to _Commerce->Configuration->Payments->Payment gateways_.
+This page contains the configuration options for all payment methods supported by MultiSafepay.  
+Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
+
+## 4. Congratulations
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
