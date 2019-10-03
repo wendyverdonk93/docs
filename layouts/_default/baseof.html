@@ -32,6 +32,7 @@
 
 
   <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet" />
   <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
 
   {{ partial "favicon" . }}
@@ -41,13 +42,11 @@
 
 
 <body>
-    <div class="page">
-      <div class="content">
+    <div>
         {{ block "main" . }}{{ end }}
-      </div>
+        <footer>{{ partial "footer" . }}</footer>
     </div>
     {{ partial "menu" . }}
-  <footer>{{ partial "footer" . }}</footer>
 </body>
 
 </html>

@@ -1,14 +1,9 @@
 {{ define "main"}}
-<div class="doccenter-home">
-  <div class="container">
-    <div id="hero">
-      <h1>{{ .Title }}</h1>
-    </div>
-    {{ partial "search_form" . }}
-  </div>
+<div class="container-fluid header-background">
+    <h1 class="header__title">{{ .Title }}</h1>
+  {{ partial "search_form" . }}
 </div>
-<div id="main">
-  <div id="components" class="mainmenu-block">
+<div class="container-fluid">
     {{ $tiles := .Params.tiles }}
     <div class="row">
       {{ range $i, $section := $tiles }}
@@ -17,20 +12,18 @@
           <div class="col-8">
             {{ with $section.url }}<a href="{{ . }}"
               >{{ end }}{{ .Title }}
-              <h3>{{ $section.title }}</h3>
+              <h3 class="text-dark">{{ $section.title }}</h3>
               <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
               </p>
             </a>
           </div>
           <div class="col-4">
-            {{ with $section.logo }}<img src="{{ . }}" />{{ end }}
+            {{ with $section.logo }}<img src="{{ . }}" class="img-fluid integrations__svg" alt="{{ $section.title }}"/> {{ end }}
           </div>
         </div>
       </div>
       {{ end }}
     </div>
-  </div>
-  <hr class="divider" />
   {{ partial "call_to_action" . }}
 </div>
 {{ end }}

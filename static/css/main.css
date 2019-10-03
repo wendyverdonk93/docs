@@ -1,0 +1,31 @@
+.header-background {
+  background-image: url('../img/blue-gradient.jpg');
+  background-size: cover;
+  height: 665px;
+}
+
+.header__title {
+  color: white;
+}
+
+.integrations__svg {
+  width: 50px;
+  height: 50px;
+}
+
+.msp-app {
+  background-color: #f9f9f9;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.msp-app__img {
+  margin-top: -120px;
+  margin-bottom: 0;
+}
+
+
+.msp-logo-footer{
+	width: 250px;
+	height: 150px;
+}
