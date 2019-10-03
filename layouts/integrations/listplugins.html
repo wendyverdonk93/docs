@@ -1,97 +1,25 @@
 {{ define "main"}}
-<div class="sticky-menu">
-    <div class="js-toc toc">
-    </div>
-</div>
-<div id="main">
-    <div id="hero">
-        <h1>{{ .Title }}</h1>
-    </div>
-    <section class="integrations">
-        <div id="components" class="scrollable js-toc-content">
-            <h1 class="integrations-header" id="integrations-plugins">Plugins</h1>
-            <div class="row gutters">
-                {{ $tiles := .Params.plugins }} {{ range $i, $section := $tiles }}
-                <div class="col col-4 item payment-method">
-                    {{ with $section.url }}
-                    <h4><a href="{{ . }}">{{ end }}{{ .Title }}</h4>
-          {{ with $section.logo }}<h2>
-            <div class="payment-method-img"><img src="{{ . }}" width="190c" class="fa fa-{{ . }}"></div>
-          </h2>{{ end }}
+<div class="container-fluid">
+  <div class="row">
+    {{ $tiles := .Params.plugins }} {{ range $section := $tiles }}
+    <div class="col-6 ">
+      <div class="row border m-2 p-2">
+        <div class="col-8">
           <h3>{{ $section.title }}</h3>
-          </a>
-                </div>
-                {{ end }}
-            </div>
-            <h1 class="integrations-header" id="integrations-hosted">Hosted plugins</h1>
-            <div class="row gutters">
-                {{ $tiles := .Params.hosted }} {{ range $i, $section := $tiles }}
-                <div class="col col-4 item payment-method">
-                    {{ with $section.url }}
-                    <h4><a href="{{ . }}">{{ end }}{{ .Title }}</h4>
-          {{ with $section.logo }}<h2>
-            <div class="payment-method-img"><img src="{{ . }}" width="190c" class="fa fa-{{ . }}"></div>
-          </h2>{{ end }}
-          <h3>{{ $section.title }}</h3>
-          </a>
-                </div>
-                {{ end }}
-            </div>
-            <h1 class="integrations-header" id="integrations-sdk">SDK's</h1>
-            <div class="row gutters">
-                {{ $tiles := .Params.sdk }} {{ range $i, $section := $tiles }}
-                <div class="col col-4 item payment-method">
-                    {{ with $section.url }}
-                    <h4><a href="{{ . }}">{{ end }}{{ .Title }}</h4>
-          {{ with $section.logo }}<h2>
-            <div class="payment-method-img"><img src="{{ . }}" width="190c" class="fa fa-{{ . }}"></div>
-          </h2>{{ end }}
-          <h3>{{ $section.title }}</h3>
-          </a>
-                </div>
-                {{ end }}
-            </div>
-            <h1 class="integrations-header" id="integrations-wrappers">Wrappers</h1>
-            <div class="row gutters">
-                {{ $tiles := .Params.wrappers }} {{ range $i, $section := $tiles }}
-                <div class="col col-4 item payment-method">
-                    {{ with $section.url }}
-                    <h4><a href="{{ . }}" target="_blank">{{ end }}{{ .Title }}</h4>
-          {{ with $section.logo }}<h2><img src="{{ . }}" width="190c" class="fa fa-{{ . }}"></h2>{{ end }}
-          <h3>{{ $section.title }}</h3>
-          </a>
-                </div>
-                {{ end }}
-            </div>
-            <h1 class="integrations-header" id="integrations-community">Community</h1>
-            <div class="row gutters">
-                {{ $tiles := .Params.community }} {{ range $i, $section := $tiles }}
-                <div class="col col-4 item payment-method">
-                    {{ with $section.url }}
-                    <h4><a href="{{ . }}" target="_blank">{{ end }}{{ .Title }}</h4>
-          {{ with $section.logo }}<h2><img src="{{ . }}" width="190c" class="fa fa-{{ . }}"></h2>{{ end }}
-          <h3>{{ $section.title }}</h3>
-          </a>
-                </div>
-                {{ end }}
-            </div>
+          <p>lorem ipsum</p>
+          <a href="{{ . }}">more info</a>
+          <a href="{{ . }}">download</a>
+          <!-- {{ with $section.url }}
+          <a href="{{ . }}">{{ end }}{{ .Title }}</a> -->
         </div>
-    </section>
+        <div class="col-4">
+          {{ with $section.logo }}
+          <img src="{{ . }}" width="190c" class="fa fa-{{ . }}" />
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
 </div>
-<div class="page-filler-bottom">
-</div>
-<script>
-    tocbot.init({
-        // Where to render the table of contents.
-        tocSelector: '.js-toc',
-        // Where to grab the headings to build the table of contents.
-        contentSelector: '.js-toc-content',
-        // Which headings to grab inside of the contentSelector element.
-        headingSelector: 'h1',
-        listClass: 'toc-list-h',
-        listItemClass: 'toc-list-item-h',
-        activeLinkClass: 'active-link',
-    });
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
 {{ end }}
