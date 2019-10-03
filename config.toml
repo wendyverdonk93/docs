@@ -1,3 +1,27 @@
-baseURL = "http://example.org/"
+baseURL = "https://docs.multisafepay.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "MultiSafepay Docs"
+
+# Code higlighting settings
+pygmentsCodefences = true
+pygmentsCodeFencesGuesSsyntax = false
+pygmentsOptions = ""
+pygmentsStyle = "monokai"
+# The monokai stylesheet is included in the base template.
+pygmentsUseClasses = true
+
+[outputs]
+    home = [ "HTML", "JSON"]
+    page = [ "HTML"]
+
+[blackfriday]
+hrefTargetBlank = true
+
+#CUSTOM PARAMS
+[params]
+    search = true
+
+# Configure the language example tabs.
+[[params.language_tabs]]
+key = "shell"
+name = "Shell"

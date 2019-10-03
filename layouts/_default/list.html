@@ -1,0 +1,30 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{ .Page.Title}}</h1>
+    {{ .Content}}
+  </div>
+  <div id="components">
+  <div id="kube-features">
+      <div class="row gutters">
+          {{ $tiles := .Params.tiles }}
+          {{ range $i, $section := $tiles }}
+      <div class="col col-4 item">
+          {{ if $section.usp_img }}
+          <figure>              
+              <img alt="Baseline" height="48" src="{{ print "/img/kube/icon-" $section.usp_img ".png" | relURL }}" width="48">
+          </figure>
+          {{ end }}
+          <h3>{{ $section.usp_title }}</h3>        
+          <p>{{ $section.usp_desc }}</p>
+      </div>
+      {{ end }}          
+    </div>
+</div>
+</div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}

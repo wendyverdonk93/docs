@@ -127,32 +127,32 @@ class ViewController: UIViewController {
 1. The following snapshots will walk you through some of features offered by the Fastcheckout iOS SDK.
     * Logging in with a registered email: 
         
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-1.png" title="screenshot 1">}}
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-2.png" title="screenshot 2">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-1.png" title="screenshot 1">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-2.png" title="screenshot 2">}}
 
     * Logging in with a non-registered email will automatically take the user to the register SDK screen: 
 
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-3.png" title="screenshot 3">}}
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-4.png" title="screenshot 4">}}
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-5.png" title="screenshot 5">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-3.png" title="screenshot 3">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-4.png" title="screenshot 4">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-5.png" title="screenshot 5">}}
 
     * If the user is registered and resets its email account, the SDK  will automatically send a new security code to new entered email: 
 
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-6.png" title="screenshot 6">}}
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-7.png" title="screenshot 7">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-6.png" title="screenshot 6">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-7.png" title="screenshot 7">}}
 
     * Once the user enters the security code received by email (if the security code is received via SMS it will automatically get added to appropriate field, and the SDK will move into the following state) the SDK will ask for a new security PIN, once entered, the SDK will provide Biometric options (in iOS face recognition is also available):
 
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-8.png" title="screenshot 8">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-8.png" title="screenshot 8">}}
 
     * The checkout process follows. From a merchant’s shop checkout option, the SDK enters into the checkout process. The first view will be the delivery view with shipping options if available. Once the continue button is selected, the SDK moves into the Payment screen and the payment logic follows.
     
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-9.png" title="screenshot 9">}}
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-10.png" title="screenshot 10">}}
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-11.png" title="screenshot 11">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-9.png" title="screenshot 9">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-10.png" title="screenshot 10">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-11.png" title="screenshot 11">}}
     
     * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client App about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s shop.
 
-      {{< zoomable class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-12.png" title="screenshot 12">}}
+      {{< zoom_able class="img-size" url="/integrations/fastcheckout-ios/fastcheckout-ios-12.png" title="screenshot 12">}}
 
 

@@ -1,0 +1,26 @@
+{{ if .CurrentSection.Params.repo_url }}
+<!--<script>
+  $(document).ready (function () {
+    $.getJSON("https://api.github.com/repos/{{ .CurrentSection.Params.repo_url }}/releases/latest").done(function (data) {
+      $ ('#plugin-download').attr ('href', data.zipball_url); 
+    })
+  });
+</script>-->
+{{ end }}
+<div id="action-buttons">
+  {{ if .CurrentSection.Params.download_url }}
+  <a id="plugin-download" class="button primary big" href="{{.CurrentSection.Params.download_url}}" onclick="_gaq.push(['_trackEvent', 'kube', 'download']);">Download</a>
+  {{ end }}
+  {{ if .CurrentSection.Params.github_url }}
+  <a target="_blank" class="button outline big" href="{{.CurrentSection.Params.github_url}}" onclick="_gaq.push(['_trackEvent', 'kube', 'github']);">View on Github</a>
+  {{ end }}
+  {{ if .CurrentSection.Params.manual }}
+  <a target="_self" class="button outline big" href="{{ .CurrentSection.URL | relURL }}manual" onclick="_gaq.push(['_trackEvent', 'kube', 'manual']);">Manual</a>
+  {{ end }}
+  {{ if .CurrentSection.Params.changelog_url }}
+  <a target="_self" class="button outline big" href="{{ .CurrentSection.URL | relURL }}changelog" onclick="_gaq.push(['_trackEvent', 'kube', 'changelog']);">Changelog</a>
+  {{ end }}
+  {{ if .CurrentSection.Params.faq }}
+  <a target="_self" class="button outline big" href="{{ .CurrentSection.URL | relURL }}faq" onclick="_gaq.push(['_trackEvent', 'kube', 'faq']);">FAQ</a>
+  {{ end }}
+</div>
