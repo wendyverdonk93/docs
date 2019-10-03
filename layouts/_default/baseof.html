@@ -29,7 +29,10 @@
   <link rel="canonical" href="{{ .Permalink }}"> {{ if (isset .Params "prev") }}
   <link rel="prev" href="{{ .Params.prev }}"> {{ end }} {{ if (isset .Params "next") }}
   <link rel="next" href="{{ .Params.next }}"> {{ end }}
+
+
   <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
 
   {{ partial "favicon" . }}
 
@@ -37,10 +40,13 @@
 </head>
 
 
-<body class="page-kube">
-  {{ partial "menu" . }}
-  <main>{{ block "main" . }}{{ end }}</main>
-  
+<body>
+    <div class="page">
+      <div class="content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+    {{ partial "menu" . }}
   <footer>{{ partial "footer" . }}</footer>
 </body>
 
