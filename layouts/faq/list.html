@@ -1,31 +1,25 @@
 {{ define "main"}}
-<div id="main" class="faq">
-  <div id="hero">
-    <h1>{{ .Title }}</h1>
+<div class="container">
+  <div>
+    <p>{{ .Title }}</p>
+    <p>lorem ipsum</p>
   </div>
-  {{ if .Sections }}
-  {{ $numberOfSections := len .Sections }}
-  {{ $sectionDivisor := math.Ceil (div $numberOfSections 2.0) }}
-  <div class="container">
-      {{ range $index, $section := .Sections }}
-        {{ if modBool $index $sectionDivisor }}<div class="col-sm-6">{{ end}}
-          <h3>{{ .Title }}</h3>
-          <ul>
-              {{ range .Pages }}
-              <li><a id="{{ .Title | urlize}}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-              {{ end }}
-          </ul>
-        {{ if modBool (add $index 1) $sectionDivisor }}</div>{{ end}}
-      {{ end }}
-  </div>
-  {{ end }}
   {{ if .Pages }}
-  <div class="container">
-          <ul>
-              {{ range .Pages }}
-              <li><a id="{{ .Title | urlize}}" href="{{ .Permalink }}">{{ .Title }}</a></li>
-              {{ end }}
-          </ul>
+  <div class="row">
+    {{ range .Pages }}
+    <div class="col-6">
+          <div class="row border m-2 p-2">
+            <div class="col-8">
+              <a id="{{ .Title | urlize}}" href="{{ .Permalink }}">{{ .Title }}</a>
+              <p>{{ .Params.meta_description }}</p>
+            </div>
+            <div class="col-4">
+                  <img class="faq-svg" src="{{ .Params.logo }}" />
+              </div>
+          </div>
+          
+      </div>
+            {{ end }}
   </div>
   {{ end }}
 </div>
