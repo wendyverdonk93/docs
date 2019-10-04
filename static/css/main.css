@@ -8,7 +8,8 @@
   color: white;
 }
 
-.integrations__svg {
+.integrations__svg,
+.faq-svg {
   width: 50px;
   height: 50px;
 }
@@ -24,8 +25,7 @@
   margin-bottom: 0;
 }
 
-
-.msp-logo-footer{
-	width: 250px;
-	height: 150px;
+.msp-logo-footer {
+  width: 250px;
+  height: 150px;
 }
