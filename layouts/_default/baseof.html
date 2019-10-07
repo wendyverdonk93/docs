@@ -34,9 +34,7 @@
   <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
   <link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet" />
   <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
-
-  {{ partial "favicon" . }}
-
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico">
 
 </head>
 
@@ -45,6 +43,7 @@
  
     <div>
         {{ partial "header" .}}
+        {{ partial "breadcrumb" .}}
         {{ block "main" . }}{{ end }}
         <footer>{{ partial "footer" . }}</footer>
     </div>
