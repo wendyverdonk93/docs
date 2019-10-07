@@ -42,7 +42,9 @@
 
 
 <body>
+ 
     <div>
+        {{ partial "header" .}}
         {{ block "main" . }}{{ end }}
         <footer>{{ partial "footer" . }}</footer>
     </div>
