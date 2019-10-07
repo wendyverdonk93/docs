@@ -16,7 +16,7 @@ The installation can be carried out in three ways:
 In this manual we describe the installation via Composer.
 We recommend you install the plugin first on a test environment, and make sure you have made a backup.
 
-{{% contactdetails %}}
+{{% contact_details %}}
 
 ## 1. Requirements  - Drupal 8.x
 - Tested on PHP 7.2

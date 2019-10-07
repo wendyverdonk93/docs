@@ -1,0 +1,3 @@
+<a href="{{ .Get "url"}}" class="img-zoomable" >
+    <img {{ with .Get "class"}} class="{{.}}"{{ end }} {{ with .Get "height"}} height="{{.}}"{{ end }} {{ with .Get "width"}} width="{{.}}"{{ end }} src="{{ .Get "url"}}" title="{{ .Get "title"}}">
+</a>

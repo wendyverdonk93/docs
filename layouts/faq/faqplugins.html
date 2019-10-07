@@ -1,0 +1,42 @@
+{{ define "main"}}
+{{ partial "action_buttons_faq" .}}
+<div class="container">
+  <div>
+    <h1>{{ .Title }}</h1>
+    <p>lorem ipsum lorem ipsum</p>
+  </div>
+  <section>
+    <div id="accordion">
+      {{ range.Pages.ByWeight }}
+      <div class="border mb-5">
+        <div id="heading-{{ .Title | urlize}}">
+          <h5
+            class="mb-0"
+            data-toggle="collapse"
+            data-target="#{{ .Title | urlize}}"
+            aria-expanded="true"
+            aria-controls="{{ .Title | urlize}}"
+          >
+            <img class="faq-svg" src="/icons/Arrow.svg" />
+            <button class="btn btn-link">
+              {{ .Title }}
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="{{ .Title | urlize}}"
+          class="collapse"
+          aria-labelledby="heading-{{ .Title | urlize}}"
+          data-parent="#accordion"
+        >
+          <div>
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

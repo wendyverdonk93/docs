@@ -1,0 +1,45 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+<div id="main">
+  <div id="kube-component" class="index">
+    <div class="row">
+      <div class="col-3 sidebar-sticky">
+        <aside id="toc" class="sticky">
+          <h4> 
+            What's on this page 
+          </h4>
+          <div class="js-toc toc">
+
+          </div>
+        </aside>
+      </div>
+
+      <div class="col-9 js-toc-content">
+        <div id="hero">
+          <h1>{{ .Title}}</h1>
+          <p class="hero-lead">
+            {{/* .Params.bref | safeHTML */}}
+          </p>
+
+        </div>
+        {{ range .Data.Pages }}
+        <section class="index-section" id="{{ .Title }}">
+          {{ .Content }}
+        </section>
+        {{ end }}
+        {{ partial "bottom-block" .}}
+      </div>
+    </div> <!-- Inject script tag in this template -->
+    <div class="page-filler-bottom"></div>
+    {{if .Params.script}}
+    {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
+    {{ partial (string $script) .}}
+    {{end }}
+
+    <script src="{{ "/js/scroll-menu.js" | relURL }}" type="text/javascript">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+  </div>
+</div>
+{{ end }}

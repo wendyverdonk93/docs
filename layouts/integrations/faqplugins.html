@@ -1,0 +1,37 @@
+{{ define "main"}}
+<div id="main">
+  <div id="hero">
+    <h1>{{ .Title }}</h1>
+    <p class="hero-lead"></p>
+  </div>
+  {{ partial "action_buttons_faq" .}}
+  <section class="cd-faq">
+      <ul class="cd-faq-categories">
+            {{ $currentNode := . }}
+        {{ range .Site.Menus.main }}
+        <li><a {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} class="selected" href="{{.URL}}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    
+      <div class="cd-faq-items">
+          {{ range .Pages.ByWeight }}  
+        <ul id="" class="cd-faq-group">
+          <li class="cd-faq-title"><h2></h2></li>
+        
+          <li>
+            <a id={{ .Title | urlize}} class="cd-faq-trigger" href="#{{ .Title | urlize}}">{{ .Title }}</a>
+            <div class="cd-faq-content">
+              <p>{{ .Content }}</p>
+            </div>
+          </li>
+          
+        </ul>
+        {{ end }}
+      </div>
+      <a href="#0" class="cd-close-panel">Close</a>
+    </section>
+    <script src="{{ .Site.BaseURL }}js/jquery.js"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.mobile.custom.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/main.js"></script>        
+    </div>
+{{ end }}

@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+    {{ .Content }}
+ 
+    <h3>Search:</h3>
+    <input id="search" type="text" id="searchbox" placeholder="Just start typing...">
+ 
+    <h3>Results:</h3>
+    <ul id="results"></ul>
+ 
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/flexsearch.min.js"></script>
+    <script type="text/javascript" src="/js/flex_search.js"></script>
+{{ partial "footer.html" . }}

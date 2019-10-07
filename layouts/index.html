@@ -1,0 +1,29 @@
+{{ define "main"}}
+<div class="container-fluid header-background">
+    <h1 class="header__title">{{ .Title }}</h1>
+  {{ partial "search_form" . }}
+</div>
+<div class="container-fluid">
+    {{ $tiles := .Params.tiles }}
+    <div class="row">
+      {{ range $i, $section := $tiles }}
+      <div class="col-md-6">
+        <div class="border rounded row m-2 p-2">
+          <div class="col-8">
+            {{ with $section.url }}<a href="{{ . }}"
+              >{{ end }}{{ .Title }}
+              <h3 class="text-dark">{{ $section.title }}</h3>
+              <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+              </p>
+            </a>
+          </div>
+          <div class="col-4">
+            {{ with $section.logo }}<img src="{{ . }}" class="img-fluid integrations__svg" alt="{{ $section.title }}"/> {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  {{ partial "call_to_action" . }}
+</div>
+{{ end }}

@@ -1,0 +1,26 @@
+{{ define "main"}}
+<div class="container">
+  <div>
+    <p>{{ .Title }}</p>
+    <p>lorem ipsum</p>
+  </div>
+  {{ if .Pages }}
+  <div class="row">
+    {{ range .Pages }}
+    <div class="col-6">
+          <div class="row border m-2 p-2">
+            <div class="col-8">
+              <a id="{{ .Title | urlize}}" href="{{ .Permalink }}">{{ .Title }}</a>
+              <p>{{ .Params.meta_description }}</p>
+            </div>
+            <div class="col-4">
+                  <img class="faq-svg" src="{{ .Params.logo }}" />
+              </div>
+          </div>
+          
+      </div>
+            {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

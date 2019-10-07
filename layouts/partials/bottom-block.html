@@ -1,0 +1,155 @@
+<style>
+    body {
+        font-family: Arial;
+    }
+
+    .tabs {
+        margin-bottom: 0px;
+        padding-left: 20px;
+    }
+
+    /* Style the tab */
+    nav.tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #006693;
+    }
+
+    /* Style the buttons inside the tab */
+    nav.tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    .button.outline {
+        border-color: #ffffff;
+    }
+
+
+    /* Change background color of buttons on hover */
+    .button.outline:hover {
+        border-color: #ffffff;
+    }
+
+    /* Create an active/current tablink class */
+    button.outline.active {
+        border-bottom: 2px solid #FF3366;
+    }
+
+    .div.col-2.button.outline {
+        border-color: #a9a9a9 !important;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        padding-left: 20px;
+        display: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    div.col-10.text {
+        margin: 10px 0;
+        padding-top: 10px;
+        width: 80%;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    div.col-2.but {
+        margin: 10px 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    div.col-10.text-nor {
+        margin: 10px 0;
+        margin-right: none;
+        padding-top: 10px;
+        border-bottom: 1px solid #e4e4e4;
+    }
+    div.col-10.text-fr {
+        margin: 10px 0;
+        margin-right: none;
+        padding-top: 10px;
+        border-bottom: 1px solid #e4e4e4;
+        width:100%;
+    }
+
+    .footer-tab {
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+    }
+
+    .button.outline-2 {
+        color: black;
+        background: 0 0;
+        border-width: 2px;
+        border-color: #a9a9a9
+    }
+
+    .bolew-x>div:nth-last-of-type(-n+2) {
+        border-bottom: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+    .col-2.but {
+        margin: 0px!important;
+        padding-bottom: 0px!important;
+        border-bottom: 0px!important;
+    }
+    .col-10.text-fr {
+        width: 83.33333%!important;
+    }
+    }
+</style>
+</head>
+
+<body>
+    <div class="footer-tab">
+        <nav class="tabs" data-kube="tabs" data-equal="true">
+            <button class="button outline active" onclick="openTab(event, 'Support')"><i class="fas fa-globe"></i> Other languages</button>
+        </nav>
+
+        <section id="Support" class="tabcontent" style="display: block;">
+            <div class="row content bolew-x">
+                <div class="col-10 text-nor"><span class="flag-icon flag-icon-nl"></span>   Liever uitleg in het Nederlands? Neem contact op met uw accountmanager.                    </div>
+                <div class="col-2 but">
+                </div>
+                <div class="col-10 text-nor"><span class="flag-icon flag-icon-it"></span> Vuoi ricevere informazioni in italiano? Contatta il tuo account manager.</div>
+                <div class="col-2 but"></div>
+                <div class="col-10 text-nor"><span class="flag-icon flag-icon-es"></span> Prefieres tener la explicación en Español? Contacta con tu gerente de cuentas.</div>
+                <div class="col-2 but"></div>
+                <div class="col-10 text-fr"><span class="flag-icon flag-icon-fr"></span> Vous préférez une explication en français? Contactez votre gestionnaire de compte.
+                </div> 
+                <div class="col-1 but"></div>
+            </div>
+        </section>
+    </div>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("button outline");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <!-- Inject script tag in this template  -->
+    {{if .Params.script}}
+    {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
+    {{ partial (string $script) .}}
+    {{end }}
+    </div>

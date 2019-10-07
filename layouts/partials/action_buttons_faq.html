@@ -1,0 +1,13 @@
+<div id="action-buttons">
+  {{ if .CurrentSection.Params.download_url }}
+  <a class="button primary big" href="{{.CurrentSection.Params.download_url}}" onclick="_gaq.push(['_trackEvent', 'kube', 'download']);">Download</a>
+  {{ end }}
+  {{ if .CurrentSection.Params.github_url }}
+  <a target="_blank" class="button outline big" href="{{.CurrentSection.Params.github_url}}" onclick="_gaq.push(['_trackEvent', 'kube', 'github']);">View on Github</a>
+  {{ end }}
+  <a target="_self" class="button outline big" href="{{ .CurrentSection.Parent.URL | relURL }}manual" onclick="_gaq.push(['_trackEvent', 'kube', 'manual']);">Manual</a>
+  {{ if .CurrentSection.Params.download_url }}
+  <a target="_self" class="button outline big" href="{{ .CurrentSection.Parent.URL | relURL }}changelog" onclick="_gaq.push(['_trackEvent', 'kube', 'changelog']);">Changelog</a>
+  {{ end }}
+  <a target="_self" class="button outline big" href="{{ .CurrentSection.Parent.URL | relURL }}faq" onclick="_gaq.push(['_trackEvent', 'kube', 'faq']);">FAQ</a>
+</div>
