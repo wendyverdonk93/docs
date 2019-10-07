@@ -45,6 +45,7 @@
  
     <div>
         {{ partial "header" .}}
+        {{ partial "breadcrumb" .}}
         {{ block "main" . }}{{ end }}
         <footer>{{ partial "footer" . }}</footer>
     </div>
