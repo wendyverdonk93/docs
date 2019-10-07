@@ -6,6 +6,7 @@ download_url : "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.
 changelog_url : "."
 manual: "."
 faq: "."
+layout: 'single'
 newsletter : "Magento 2"
 meta_title: "Magento 2 plugin integration - MultiSafepay Documentation Center"		
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
