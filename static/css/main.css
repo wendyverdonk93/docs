@@ -67,6 +67,36 @@
   font-size: 2rem;
   line-height: 29px;
 }
+/**********************/
+
+/********* BLOCK  *************/
+
+div.block {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+div.block-item {
+  padding: 25px;
+  margin: 25px;
+  border-radius: 7px;
+  box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
+  position: relative;
+}
+.block-item:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
+  top: -4px;
+}
+
+.block-item a:hover {
+  text-decoration: none;
+  color: #232323;
+}
+
+.block-item a {
+  color: #232323;
+}
 
 /**********************/
 
