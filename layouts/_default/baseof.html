@@ -43,8 +43,7 @@
  
     <div>
         {{ partial "header" .}}
-        {{ if .IsHome }}
-        {{ else }}
+        {{ if not .IsHome }}
         {{ partial "breadcrumb" .}}
         {{ end }}
         {{ block "main" . }}{{ end }}

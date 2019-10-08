@@ -1,9 +1,7 @@
-<div class="row breadcrumb-row with-subnavigation">
-  <div class="col-sm-12">
-    <ol class="breadcrumb library-breadcrumb">               
-      {{ template "breadcrumb" (dict "p1" . "p2" .) }}
-    </ol>
-  </div>
+<div>
+  <ol class="breadcrumb">
+    {{ template "breadcrumb" (dict "p1" . "p2" .) }}
+  </ol>
 </div>      
 {{ define "breadcrumb" }}
 {{ if .p1.Parent }}
@@ -12,18 +10,18 @@
 {{ template "breadcrumb" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 {{ end }}
 <li>
-  {{ if eq .p1 .p2 }}
-  {{ if .p1.Params.breadcrumb_title }}
-    {{ .p1.Params.breadcrumb_title }}
-    {{ else }}
-    {{ .p1.Title }}
-    {{ end }}
+{{ if eq .p1 .p2 }}
+{{ if .p1.Params.breadcrumb_title }}
+  {{ .p1.Params.breadcrumb_title }}
   {{ else }}
-    {{ if .p1.Params.breadcrumb_title }}
-    <a href="{{ .p1.Permalink }}">{{ .p1.Params.breadcrumb_title }}</a>
-    {{ else }}
-    <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
-    {{ end }}
+  {{ .p1.Title }}
   {{ end }}
+{{ else }}
+  {{ if .p1.Params.breadcrumb_title }}
+  <a href="{{ .p1.Permalink }}">{{ .p1.Params.breadcrumb_title }}</a>
+  {{ else }}
+  <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
+  {{ end }}
+{{ end }}
 </li>
 {{ end }}
