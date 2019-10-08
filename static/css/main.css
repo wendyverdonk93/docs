@@ -112,10 +112,7 @@ ol.breadcrumb {
 }
 /**********************/
 .search {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: -10px;
+  margin: 20px 20px -10px 20px;
 }
 
 .search-form-input { 
@@ -144,7 +141,7 @@ ol.breadcrumb {
     left: 50px;
   }
   .button.primary {
-    background: #f94f77!important;
+    background: #f94f77;
     -webkit-border-radius: 5;
     -moz-border-radius: 5;
     border-radius: 5px;
