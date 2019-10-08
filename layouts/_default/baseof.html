@@ -47,8 +47,8 @@
         {{ partial "breadcrumb" .}}
         {{ end }}
         {{ block "main" . }}{{ end }}
+        <footer>{{ partial "footer" . }}</footer>
       </div>
-      <footer>{{ partial "footer" . }}</footer>
     {{ partial "menu" . }}
     <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>

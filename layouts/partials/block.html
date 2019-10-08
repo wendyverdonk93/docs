@@ -1,9 +1,9 @@
-<div class="container-fluid">
+<div class="container-fluid block">
     {{ $tiles := .Params.data }}
     <div class="row">
       {{ range $i, $section := $tiles }}
-      <div class="col-md-6">
-        <div class="border rounded row m-2 p-2">
+      <div class="col-md-6 ">
+        <div class="row block-item">
           <div class="col-8">
             {{ with $section.url }}<a href="{{ . }}"
               >{{ end }}{{ .Title }}
@@ -12,7 +12,7 @@
               </p>
             </a>
           </div>
-          <div class="col-4">
+          <div class="col-4 d-flex align-items-center justify-content-center">
             {{ with $section.logo }}<img src="{{ . }}" class="img-fluid integrations__svg" alt="{{ $section.title }}"/> {{ end }}
           </div>
         </div>
