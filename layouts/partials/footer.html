@@ -1,47 +1,51 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-3">
-      <ul>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-      </ul>
-    </div>
-    <div class="col-sm-3">
-      <ul>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-      </ul>
-    </div>
-    <div class="col-sm-3">
-      <ul>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-      </ul>
-    </div>
-    <div class="col-sm-3">
-      <ul>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-        <li>lorem ipsum</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 text-center">
-      <a href="https://multisafepay.com"
-        ><img class="msp-logo-footer" src="{{ relURL "logo/MSP-logo.svg" }}"
-        /></a
-      >
+{{ if not .IsHome }}
+<div class="footer-background">
+  {{ end }}
+  <div class="container-fluid">
+    <div class="row footer-list">
+      <div class="col-sm-3">
+        <ul>
+          <li><h4 class="footer-title-list">lorem ipsum</h4></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <ul>
+          <li><h4 class="footer-title-list">lorem ipsum</h4></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <ul>
+          <li><h4 class="footer-title-list">lorem ipsum</h4></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <ul>
+          <li><h4 class="footer-title-list">lorem ipsum</h4></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+          <li><a href="">lorem ipsum</a></li>
+        </ul>
+      </div>
     </div>
   </div>
+  {{ if not .IsHome }}
+</div>
+{{ end }}
+<div class="text-center">
+  <a href="https://multisafepay.com"
+    ><img class="msp-logo-footer" src="{{ relURL "logo/MSP-logo.svg" }}" /></a
+  >
 </div>
