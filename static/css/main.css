@@ -8,8 +8,7 @@
   color: white;
 }
 
-.integrations__svg,
-.faq-svg {
+.integrations__svg, .faq-svg {
   width: 50px;
   height: 50px;
 }
@@ -70,3 +69,14 @@
 }
 
 /**********************/
+
+.breadcrumb>li+li:before {
+  padding-left: 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+
+ol.breadcrumb {
+  background-color: transparent;
+  content: "/\00a0";
+}
