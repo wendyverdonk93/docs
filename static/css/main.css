@@ -18,7 +18,7 @@
   font-weight: 500;
 }
 
-.integrations__svg,
+.block-item img,
 .faq-svg {
   width: 50px;
   height: 50px;
@@ -116,18 +116,23 @@ div.block-item {
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   position: relative;
 }
+
 .block-item:hover {
   transition: all 0.2s ease-out;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   top: -4px;
 }
 
-.block-item a:hover {
+.block-item .block-item__title:hover {
   text-decoration: none;
   color: #232323;
 }
 
-.block-item a {
+.block-item p {
+  color: #000000;
+}
+
+.block-item .block-item__title {
   color: #232323;
 }
 
@@ -175,17 +180,32 @@ ol.breadcrumb {
   left: 50px;
 }
 
-.button.primary {
+/********** BUTTONS ************/
+
+.primary:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.secondary:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.primary {
   background: #f94f77;
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
+  background-image: linear-gradient(to bottom, #f94f77, #cd3458);
   border-radius: 5px;
-  -webkit-box-shadow: 0px 1px 1px #666666;
-  -moz-box-shadow: 0px 1px 1px #666666;
-  box-shadow: 0px 1px 1px #666666;
   color: #ffffff;
   border: 0px;
-  text-decoration: none;
+  padding: 12px 25px;
+}
+
+.secondary {
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 12px;
+  border-radius: 5px;
 }
 
 .button.outline {
@@ -201,4 +221,10 @@ ol.breadcrumb {
   height: 5px;
   background: #3fa9f5;
   margin-left: 0;
+}
+
+/******** LIST ********/
+
+.list-title {
+  margin-left: 25px;
 }
