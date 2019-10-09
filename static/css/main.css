@@ -26,13 +26,35 @@
 
 .msp-app {
   background-color: #f9f9f9;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 50px;
+}
+
+.msp-app-text img {
+  height: 35px;
+}
+
+.msp-app-text > p:first-of-type {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+div.msp-app-text {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+div.msp-app-text p:last-child {
+  color: #999999;
+  font-size: 0.8rem;
+  padding: 10px;
 }
 
 .msp-app__img {
   margin-top: -120px;
   margin-bottom: 0;
+  width: 339px;
+  height: 515px;
 }
 
 .msp-logo-footer {
