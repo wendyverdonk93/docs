@@ -1,5 +1,4 @@
-<div class="container-fluid block">
-    {{ $tiles := .Params.data }}
+{{ $tiles := .Params.data }}
     <div class="row">
       {{ range $i, $section := $tiles }}
       <div class="col-md-6 ">
@@ -18,4 +17,3 @@
         </div>
       </div>
       {{ end }}
-</div>
