@@ -48,17 +48,19 @@
         {{ partial "breadcrumb" .}}
         {{ end }}
         {{ block "main" . }}{{ end }}
-        <footer>
-            {{ if .IsHome }}
-          {{ partial "footer" . }}
-          {{ end }}
+        {{ if not .IsHome }}
+<footer class="footer-background">
+  {{ else }}
+  <footer>
+      {{ partial "footer" . }}
+  {{ end }}
             <div class="text-center">
                 <a href="https://multisafepay.com"
                   ><img class="msp-logo-footer" src="{{ relURL "logo/MSP-logo.svg" }}" /></a
                 >
               </div>
         </footer>
-      </div>
+     </div>
     {{ partial "menu" . }}
     <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
