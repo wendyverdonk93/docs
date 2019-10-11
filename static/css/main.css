@@ -18,10 +18,16 @@
   font-weight: 500;
 }
 
-.block-item img,
-.faq-svg {
+.block-item img{
   width: 50px;
+}
+
+
+.faq-svg {
+  width: 25px;
   height: 50px;
+  margin: 10px 25px 10px 25px;
+
 }
 
 .msp-app {
@@ -120,24 +126,48 @@ div.block-item {
   position: relative;
 }
 
-.block-item:hover {
+.block-item:hover, .block-faq:hover {
   transition: all 0.2s ease-out;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   top: -4px;
 }
 
-.block-item .block-item__title:hover {
+.block-item .block-item__title:hover,.block-faq .block-faq__title:hover {
   text-decoration: none;
   color: #232323;
 }
 
-.block-item p {
+.block-item,.block-faq p {
   color: #000000;
 }
 
-.block-item .block-item__title {
+.block-item .block-item__title,.block-faq .block-faq__title {
   color: #232323;
 }
+
+.block-faq {
+  margin: 0px 25px 25px 0px;
+  border-radius: 7px;
+  box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
+  position: relative;
+
+}
+
+.faq.btn.btn-link {
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+
+}
+div.faq-content{
+  margin: 10px 75px 10px 75px;
+  padding: 0rem 1.1rem 0.5rem 1.1rem;
+}
+.line{
+  margin: 0px 5.85rem 0px 5.85rem;
+  border-bottom: 1px solid #b3b3b3;
+  position: relative;
+  }
 
 /********** BREADCRUMB ************/
 
