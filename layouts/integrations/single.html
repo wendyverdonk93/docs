@@ -1,20 +1,56 @@
 {{ define "main"}}
   <div class="container">
     <div class="row">
-    {{ partial "toc" .}}
-      <div class="col-8">
+      <div class="col-10">
+        <div class="row">
+            <div class="col-8">
           <h1>{{ .Title}}</h1>
           <hr class="separator">
+            </div>
+            <div class = "col-2">
+                {{ if .Params.logo }}
+                <img class="plugin-logo" src="{{ .Params.logo }}">
+                {{ end }}                
+            </div>
+        </div>
+          <div class="row"> 
+              <div class="col-8">
+                  {{ if .Params.description }}
+                  {{ .Params.description }}
+                  {{ end }}
+                  <div class="row pt-3 pb-3">
+                    <div class="col">
+                        <a class="secondary" href="">View on Github</a>
+                        <a class="primary" href="">download</a>
+                    </div>
+                  </div>
+              </div>
+              <div class = "col-2">
+                  {{ if .Params.magento_image }}
+                  <img class ="magento-certimage" src="{{ .Params.magento_image }}" alt= "{{ .Params.magento_image_alt }}" >
+                  {{ end }}                
+              </div>
+            </div>
+        <div class="row">
+        <div class="col-10 js-toc-content">
+          {{ .Content}}
+        </div>
       </div>
-     <div class="col-4">
-          <p>image</p>
       </div>
-    {{ .Content}}
-<!-- Inject script tag in this template  -->
-    {{if .Params.script}}
-     {{ $script := (delimit (slice "scripts" .Params.script) "/")}}
-    {{ partial (string $script) .}}
-    {{end }}
+        <div class="col-2 sticky-top">
+          <aside id="toc">
+            <h5 class="toc-title"> 
+             On this page
+            </h5>
+            <div class="js-toc toc">
+  
+            </div>
+          </aside>
+        </div>
+        </div>
     </div>
-    </div>
+    <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
+    <script src="{{ "/js/scroll-menu.js" | relURL }}" type="text/javascript">
+    </script>
 {{ end }}
+
