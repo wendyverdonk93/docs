@@ -18,16 +18,14 @@
   font-weight: 500;
 }
 
-.block-item img{
+.block-item img {
   width: 50px;
 }
-
 
 .faq-svg {
   width: 25px;
   height: 50px;
   margin: 10px 25px 10px 25px;
-
 }
 
 .msp-app {
@@ -126,22 +124,26 @@ div.block-item {
   position: relative;
 }
 
-.block-item:hover, .block-faq:hover {
+.block-item:hover,
+.block-faq:hover {
   transition: all 0.2s ease-out;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   top: -4px;
 }
 
-.block-item .block-item__title:hover,.block-faq .block-faq__title:hover {
+.block-item .block-item__title:hover,
+.block-faq .block-faq__title:hover {
   text-decoration: none;
   color: #232323;
 }
 
-.block-item,.block-faq p {
+.block-item,
+.block-faq p {
   color: #000000;
 }
 
-.block-item .block-item__title,.block-faq .block-faq__title {
+.block-item .block-item__title,
+.block-faq .block-faq__title {
   color: #232323;
 }
 
@@ -150,24 +152,22 @@ div.block-item {
   border-radius: 7px;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   position: relative;
-
 }
 
 .faq.btn.btn-link {
-    font-weight: 400;
-    color: #000000;
-    text-decoration: none;
-
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
 }
-div.faq-content{
+div.faq-content {
   margin: 10px 75px 10px 75px;
   padding: 0rem 1.1rem 0.5rem 1.1rem;
 }
-.line{
+.line {
   margin: 0px 5.85rem 0px 5.85rem;
   border-bottom: 1px solid #b3b3b3;
   position: relative;
-  }
+}
 
 /********** BREADCRUMB ************/
 
@@ -265,21 +265,21 @@ ol.breadcrumb {
 /******** TOC ********/
 
 .toc {
-  overflow-y: auto
+  overflow-y: auto;
 }
 
-.toc>.toc-list {
+.toc > .toc-list {
   overflow: hidden;
-  position: relative
+  position: relative;
 }
 
-.toc>.toc-list li {
-  list-style: none
+.toc > .toc-list li {
+  list-style: none;
 }
 
 .toc-list {
   margin: 0;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 a.toc-link {
@@ -288,7 +288,7 @@ a.toc-link {
 }
 
 .toc-title {
-  font-size:18px
+  font-size: 18px;
 }
 
 .is-collapsible {
@@ -307,9 +307,8 @@ a.toc-link {
 }
 
 .is-active-link {
-  
-  font-size:16px;
-  font-weight:500;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .toc-link.node-name--H1.is-active-link {
@@ -317,7 +316,7 @@ a.toc-link {
 }
 
 .toc-link::before {
-  background-color: #EEE;
+  background-color: #eee;
   content: ' ';
   display: inline-block;
   height: inherit;
@@ -328,50 +327,11 @@ a.toc-link {
 }
 
 .is-active-link::before {
-  background-color: #3FA9F5;
-}
-
-
-.toc-list-item-h {
-  display: flex;
-  flex: 1 1 auto;
-  /* Default */
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
-}
-
-.toc-list-item-h {
-  border-color: #ffffff;
-}
-
-.toc-list-item-h>a {
-  width: 100%;
-  text-align: center;
-  background-color: inherit;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  margin: 0 10px;
-}
-
-/* Change background color of buttons on hover */
-
-.toc-list-item-h>a:hover {
-  border-bottom: 2px solid #acacac;
-  text-decoration: none;
-}
-
-/* Create an active/current tablink class */
-
-.toc-list-item-h>a.active-link {
-  border-bottom: 2px solid #FF3366;
+  background-color: #3fa9f5;
 }
 
 .sticky-top {
-  height:20px;
+  height: 20px;
 }
 
 /**********************/
@@ -382,5 +342,5 @@ img.plugin-logo {
 }
 
 img.magento-certimage {
-  margin-left:5rem;
+  margin-left: 5rem;
 }
