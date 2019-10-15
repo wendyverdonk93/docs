@@ -14,4 +14,5 @@ description : "Easily integrate MultiSafepay payment solutions into your Magento
 logo: "/logo/Plugins/Magento_2.svg"
 magento_image: "middle_solution_specialist_m2.png"
 magento_image_alt : "Magento 2 Solution Specialist"
+changelog: /integrations/magento2/changelog/
 ---
