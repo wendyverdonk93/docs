@@ -344,3 +344,52 @@ img.plugin-logo {
 img.magento-certimage {
   margin-left: 5rem;
 }
+
+/********* NEWSLETTER  *************/
+
+.newsletter {
+  background-image: url('../img/blue-gradient.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.newsletter div.container,
+.newsletter div.container .row {
+  height: 100%;
+}
+
+.newsletter input.newsletter-input {
+  width: 70%;
+}
+
+@media only screen and (max-width: 968px) {
+  .newsletter input.newsletter-input {
+    width: auto;
+  }
+}
+
+.newsletter .newsletter-input {
+  border-radius: 6px 0 0 6px;
+}
+
+.newsletter input.primary {
+  border-radius: 0 6px 6px 0;
+}
+
+.newsletter input {
+  height: 50px;
+}
+
+.newsletter-text {
+  padding-right: 10%;
+}
+
+/**********************/
+
+/********* NEWSLETTER  *************/
+
+.changelog {
+  background-color: #f9f9f9;
+}
+
+/**********************/
