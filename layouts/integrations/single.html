@@ -10,7 +10,7 @@
             <div class = "col-2">
                 {{ if .Params.logo }}
                 <img class="plugin-logo" src="{{ .Params.logo }}">
-                {{ end }}                
+                {{ end }}
             </div>
         </div>
           <div class="row"> 
@@ -18,12 +18,18 @@
                   {{ if .Params.description }}
                   {{ .Params.description }}
                   {{ end }}
+                  {{ if or (isset .Params "github_url") (isset .Params "download_url") }}
                   <div class="row pt-3 pb-3">
                     <div class="col">
+                        {{ if isset .Params "github_url"}}
                         <a class="secondary" href="">View on Github</a>
+                        {{ end }}
+                        {{ if isset .Params "download_url" }}
                         <a class="primary" href="">download</a>
+                        {{ end }}
                     </div>
                   </div>
+                  {{ end }}
               </div>
               <div class = "col-2">
                   {{ if .Params.magento_image }}
@@ -52,7 +58,9 @@
     {{ if isset .Params "changelog" }}
     {{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
     {{ end }}
+    {{ if isset .Params "changelog" }}
     {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
+    {{ end }}
     <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
     <script src="{{ "/js/scroll-menu.js" | relURL }}" type="text/javascript">
     </script>
