@@ -28,7 +28,7 @@
               <div class = "col-2">
                   {{ if .Params.magento_image }}
                   <img class ="magento-certimage" src="{{ .Params.magento_image }}" alt= "{{ .Params.magento_image_alt }}" >
-                  {{ end }}                
+                  {{ end }}
               </div>
             </div>
         <div class="row">
@@ -49,6 +49,7 @@
         </div>
         </div>
     </div>
+    {{ partial "newsletter" (dict "title" .Title) }}
     <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
     <script src="{{ "/js/scroll-menu.js" | relURL }}" type="text/javascript">
     </script>

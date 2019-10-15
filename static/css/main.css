@@ -344,3 +344,39 @@ img.plugin-logo {
 img.magento-certimage {
   margin-left: 5rem;
 }
+
+/********* NEWSLETTER  *************/
+
+.newsletter {
+  background-image: url('../img/blue-gradient.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.newsletter div.container,
+.newsletter div.container .row {
+  height: 100%;
+}
+
+.newsletter input.newsletter-input {
+width: 80%;
+}
+
+.newsletter input{
+  border-radius: 6px 0 0 6px;
+}
+
+.newsletter button{
+  border-radius: 0 6px 6px 0;
+}
+
+.newsletter input,
+.newsletter button.primary {
+  height: 50px;
+}
+
+.newsletter form div.row{
+  padding-right: 400px;
+}
+
+/**********************/
