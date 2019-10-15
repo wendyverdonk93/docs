@@ -49,7 +49,10 @@
         </div>
         </div>
     </div>
-    {{ partial "newsletter" (dict "title" .Title) }}
+    {{ if isset .Params "changelog" }}
+    {{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
+    {{ end }}
+    {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
     <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
     <script src="{{ "/js/scroll-menu.js" | relURL }}" type="text/javascript">
     </script>
