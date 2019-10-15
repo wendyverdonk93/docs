@@ -359,24 +359,37 @@ img.magento-certimage {
 }
 
 .newsletter input.newsletter-input {
-width: 80%;
+  width: 70%;
 }
 
-.newsletter input{
+@media only screen and (max-width: 968px) {
+  .newsletter input.newsletter-input {
+    width: auto;
+  }
+}
+
+.newsletter .newsletter-input {
   border-radius: 6px 0 0 6px;
 }
 
-.newsletter button{
+.newsletter input.primary {
   border-radius: 0 6px 6px 0;
 }
 
-.newsletter input,
-.newsletter button.primary {
+.newsletter input {
   height: 50px;
 }
 
-.newsletter form div.row{
-  padding-right: 400px;
+.newsletter-text {
+  padding-right: 10%;
+}
+
+/**********************/
+
+/********* NEWSLETTER  *************/
+
+.changelog {
+  background-color: #f9f9f9;
 }
 
 /**********************/
