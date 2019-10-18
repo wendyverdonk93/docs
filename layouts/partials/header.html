@@ -1,6 +1,10 @@
-<nav class="navbar navbar-expand-lg">
+{{ if .IsHome }}
+  <nav class="navbar navbar-expand-lg">
+{{ else }}
+  <nav class="header-background navbar navbar-expand-lg">
+{{ end }}
     <span id="hamburger" class="Sticky">
-        <a href="#menu" class="mburger mburger--collapse">
+        <a href="#menu" class="mburger mburger--collapse text-white">
             <b></b>
             <b></b>
             <b></b>
@@ -8,12 +12,12 @@
     </span>
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" href="https://www.multisafepay.com/contact"
+      <a class="nav-link text-white" href="https://www.multisafepay.com/contact"
         >Contact</a
       >
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://www.multisafepay.com/login/">Login</a>
+      <a class="nav-link text-white login" href="https://www.multisafepay.com/login/">Login</a>
     </li>
   </ul>
 </nav>
