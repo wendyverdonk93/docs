@@ -43,7 +43,9 @@
 <body>
  
     <div>
+        {{ if not .IsHome }}
         {{ partial "header" .}}
+        {{ end }}
         {{ if not .IsHome }}
         {{ partial "breadcrumb" .}}
         {{ end }}
