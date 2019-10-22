@@ -1,10 +1,26 @@
-<div id ="page">
         <nav id="menu">
                 <div id="panel-menu">
                     <ul>
-                        <li><a href="#/"><i class="fa fa-plug fa-lg" aria-hidden="true"></i> Integrations</a></li>
-                        <li><span><i class="fa fa-code fa-lg" aria-hidden="true"></i>
-                             API</span>
+                        <li>
+                            <span>
+                                <a>
+                                    <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                                    Integrations
+                                </a>
+                            </span>
+                            <ul>
+                                <li><a href="/integrations/plugins">Plugins</a></li>
+                                <li><a href="/integrations/hosted">Hosted Plugins</a></li>
+                                <li><a href="/integrations/sdk">SDK</a></li>
+                                <li><a href="/integrations/wrappers">Wrappers</a></li>
+                                <li><a href="/integrations/community">Community</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                             API
+                            </span>
                             <ul>
                                 <li><a href="#/">History</a></li>
                                 <li><span>The team</span>
@@ -17,18 +33,29 @@
                                 <li><a href="#/">Our address</a></li>
                             </ul>
                         </li>
-                        <li><a href="#/"><i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i> FAQ</a></li>
-                        <li><a href="default.html"><i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                        <li>
+                            <span>
+                            <a href="faq"><i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i> 
+                                    FAQ
+                                </a>
+                            </span>
+                            <ul>
+                                <li><a href="/faq/api/">Plugins</a></li>
+                                <li><a href="/integrations/hosted">Hosted Plugins</a></li>
+                                <li><a href="/integrations/sdk">SDK</a></li>
+                                <li><a href="/integrations/wrappers">Wrappers</a></li>
+                                <li><a href="/integrations/community">Community</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="payment-methods"><i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
                              Payment Methods</a></li>
-                        <li><a href="onepage.html"><i class="fa fa-wrench fa-lg" aria-hidden="true"></i>
+                        <li><a href="tools"><i class="fa fa-wrench fa-lg" aria-hidden="true"></i>
                              Tools</a></li>
                         <li><a href="onepage.html"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i>
                              Popular</a></li>
                     </ul>
                 </div>
             </nav>
-        </div>
-        <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
 <!-- Fire the plugin -->
 <script>
         new Mmenu(
@@ -38,28 +65,30 @@
                 setSelected	: true,
                 counters	: false,
                 sidebar: {
-                collapsed: 550,
-                expanded: 700
+                collapsed: 850,
+                expanded: 1000
             },
                 navbars		: [
                     
                 {
              "position": "top",
              "content": [
-             '<a class="navbar-brand" href="#"><img width="300" src="/logo/MSP-Docs_logo.svg"></a>'
+             '<a class="navbar-brand" href="/"><img width="300" src="/logo/MSP-Docs_logo.svg"></a>'
              ]
           }
           ,
                     {
-                        "content"		:   {{ partial "search_form" . }}
+                        "position": "top",
+                     "content": [
+                        "searchfield"
+                     ]
                     },
                     {
                         content		: [ 'prev', 'breadcrumbs' ]
                     },
                     {
                         position	: 'bottom',
-                        content		: [ '<button class="button outline" type="button">Contact</button>',
-                    '<button class="button primary" type="button">Sign up</button>' ]
+                        content		: [ '<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>' ]
                     },
                     
                 ]
@@ -80,5 +109,3 @@
             }
         });
     </script>
-</body>
-</html>

@@ -1,3 +1,4 @@
+<div class="container pt-3 pb-5">
 {{ $tiles := .Params.data }}
     <div class="row">
       {{ range $i, $section := $tiles }}
@@ -7,7 +8,7 @@
             {{ with $section.url }}
             <div class="block-item__title"
               >{{ end }}{{ .Title }}
-              <h3 class="text-dark">{{ $section.title }}</h3>
+              <h4 class="text-dark">{{ $section.title }}</h4>
               <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
               </p>
             </div>
@@ -19,3 +20,4 @@
       </div>
       {{ end }}
       </div>
+    </div>
