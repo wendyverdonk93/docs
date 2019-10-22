@@ -117,8 +117,8 @@ div.block {
 }
 
 .row.block-item {
-  padding: 25px;
-  margin: 25px;
+  padding: 25px 15px;
+  margin: 10px;
   border-radius: 7px;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   position: relative;
@@ -186,7 +186,6 @@ ol.breadcrumb {
 
 .search-form-input {
   width: 50%;
-  border-radius: 6px;
   height: 50px;
   background: url(/icons/Search.svg) no-repeat scroll 16px 5px;
   padding-left: 50px;
@@ -240,11 +239,6 @@ ol.breadcrumb {
   border: 1px solid #000000;
   padding: 12px;
   border-radius: 5px;
-}
-
-.button.outline {
-  border-color: #353535;
-  color: #353535;
 }
 
 /**********************/
@@ -385,15 +379,10 @@ img.magento-certimage {
   padding-right: 10%;
 }
 
-/**********************/
-
 /********* NEWSLETTER  *************/
-
 .changelog {
   background-color: #f9f9f9;
 }
-
-/**********************/
 
 /********* NAVBAR  *************/
 
@@ -411,4 +400,60 @@ img.magento-certimage {
   background-position: 10px 11px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-clip: padding-box;
+}
+
+.menu-buttons {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.menu-buttons a {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu-buttons .outline {
+  border: 1px solid #f94f77;
+}
+
+.menu-buttons a:last-child {
+  border: 1px solid #f94f77;
+  background-image: url(/icons/Login.svg);
+  background-size: 50px 17px;
+  background-repeat: no-repeat;
+  background-position: 10px 11px;
+  background-clip: padding-box;
+}
+
+/********* SEARCH RESULT  *************/
+
+.search-results {
+  width: 40%;
+  margin-left: 5%;
+  padding: 5px
+}
+
+.search-results a {
+  color: #000000;
+  font-size: 0.9rem;
+}
+
+.search-results a:hover {
+  text-decoration: none;
+}
+
+.search-results a:before {
+  content: "-";
+  padding: 0 5px;
+  text-align: left;
+}
+
+.search-results div:first-child {
+  padding-top: 0;
+}
+
+.search-results div[role='option'] {
+  padding: 2px;
+  margin-left: 22px;
 }
