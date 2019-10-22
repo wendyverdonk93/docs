@@ -36,13 +36,13 @@
   <link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet" />
   <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
   <link rel="shortcut icon" type="image/png" href="/favicon.ico">
-
+  <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
 </head>
 
 
 <body>
- 
-    <div>
+    <div id="page" class="page">
+        {{ partial "menu" . }}
         {{ if not .IsHome }}
         {{ partial "header" .}}
         {{ end }}
@@ -63,7 +63,8 @@
               </div>
         </footer>
      </div>
-    {{ partial "menu" . }}
+    
+     
     <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
     <script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/flexsearch.min.js"></script>
