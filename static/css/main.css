@@ -116,7 +116,7 @@ div.block {
   padding-right: 40px;
 }
 
-.row.block-item {
+.row .block-item {
   padding: 25px 15px;
   margin: 10px;
   border-radius: 7px;
@@ -149,7 +149,6 @@ div.block {
 }
 
 .block-faq {
-  margin: 0px 25px 25px 0px;
   border-radius: 7px;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
   position: relative;
@@ -161,8 +160,8 @@ div.block {
   text-decoration: none;
 }
 div.faq-content {
-  margin: 10px 75px 10px 75px;
-  padding: 0rem 1.1rem 0.5rem 1.1rem;
+  margin: 10px 75px;
+  padding: 0rem 1.1rem 1.5rem 1.1rem;
 }
 .line {
   margin: 0px 5.85rem 0px 5.85rem;
@@ -431,7 +430,7 @@ img.magento-certimage {
 .search-results {
   width: 40%;
   margin-left: 5%;
-  padding: 5px
+  padding: 5px;
 }
 
 .search-results a {
@@ -444,7 +443,7 @@ img.magento-certimage {
 }
 
 .search-results a:before {
-  content: "-";
+  content: '-';
   padding: 0 5px;
   text-align: left;
 }
@@ -456,4 +455,29 @@ img.magento-certimage {
 .search-results div[role='option'] {
   padding: 2px;
   margin-left: 22px;
+}
+
+/********* BOTTOM BLOCK LANG  *************/
+
+.tabs {
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+
+.tabs button.outline {
+  border-color: #ffffff;
+}
+
+.globe {
+  filter: invert(55%) sepia(45%) saturate(1111%) hue-rotate(177deg)
+    brightness(101%) contrast(92%);
+  margin-bottom: 3px;
+}
+
+.other-lang {
+  display: block;
+}
+.other-lang p {
+  margin: 10px 0;
+  display: block;
 }
