@@ -25,3 +25,65 @@ hrefTargetBlank = true
 [[params.language_tabs]]
 key = "shell"
 name = "Shell"
+
+# Menu config
+[[menu.main]]
+    name = "Integrations"
+    url  = "/integrations/"
+    identifier = "integrations"
+    pre = "fa fa-plug fa-lg"
+    weight = 10
+
+[[menu.main]]
+    name = "Plugins"
+    url  = "/integrations/plugins"
+    parent = "integrations"
+    weight = 10
+
+[[menu.main]]
+    name = "Hosted Plugins"
+    url  = "/integrations/hosted"
+    parent = "integrations"
+    weight = 20
+
+[[menu.main]]
+    name = "SDK"
+    url  = "/integrations/sdk"
+    parent = "integrations"
+    weight = 30
+
+[[menu.main]]
+    name = "Wrappers"
+    url  = "/integrations/wrappers"
+    parent = "integrations"
+    weight = 40
+
+[[menu.main]]
+    name = "Community"
+    url  = "/integrations/community"
+    parent = "integrations"
+    weight = 50
+
+[[menu.main]]
+    name = "FAQ"
+    url  = "/faq/"
+    pre = "fa fa-question-circle-o fa-lg"
+    weight = 30
+
+[[menu.main]]
+    name = "Payment Methods"
+    url  = "/payment-methods/"
+    pre = "fa fa-credit-card fa-lg"
+    weight = 40
+
+[[menu.main]]
+    name = "API"
+    url  = "/api/"
+    pre = "fa fa-code fa-lg"
+    weight = 20
+
+[[menu.main]]
+    name = "Tools"
+    url  = "/tools/"
+    pre = "fa fa-wrench fa-lg"
+    weight = 50
