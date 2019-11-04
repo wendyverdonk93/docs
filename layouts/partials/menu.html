@@ -1,4 +1,4 @@
-<!--wat?-->
+{{ $.Scratch.Set "path" (print "/" .File.Path)  }}
 <nav id="menu">
     <div id="panel-menu">
         <ul>
@@ -14,7 +14,7 @@
                     </span>
                     <ul>
                         {{range .Children}}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        <li {{if in ($.Scratch.Get "path") .URL }}class="Selected"{{end}}><a href="{{ .URL }}">{{ .Name }}</a></li>
                         {{end}}
                     </ul>
                 </li>
@@ -22,7 +22,7 @@
                     <li><a href="{{ .URL }}"><i class="{{ .Pre }}" aria-hidden="true"></i>{{ .Name }}</a></li>
                 {{end}}
             {{ end }}
-        </ul>
+        </ul>    
     </div>
 </nav>
 
@@ -40,7 +40,6 @@
                 expanded: 1000
             },
             navbars: [
-
                 {
                     "position": "top",
                     "content": [
@@ -72,12 +71,4 @@
             }
         }
     );
-
-    document.addEventListener('click', function (evnt) {
-        var anchor = evnt.target.closest('a[href^="#/"]');
-        if (anchor) {
-            alert('Thank you for clicking, but that\'s a demo link.');
-            evnt.preventDefault();
-        }
-    });
 </script>
