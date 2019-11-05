@@ -1,5 +1,10 @@
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+
 {{ $.Scratch.Set "path" (print "/" .File.Path)  }}
-<nav id="menu">
+<nav id="menu" class="mm-wrapper_sidebar-opened">
     <div id="panel-menu">
         <ul>
             {{ $currentPage := . }}
@@ -29,16 +34,15 @@
 <!-- Fire the plugin -->
 <script>
 
-    let menu = new Mmenu(
-        document.querySelector('#menu'),
+    let menu = new Mmenu('#menu',
         {
             extensions: ['theme-white'],
             setSelected: true,
             counters: false,
             sidebar: {
-                collapsed: 850,
-                expanded: 1000
-            },
+                    collapsed: "(min-width: 550px)",
+                    expanded: "(min-width: 700px)"
+                },
             navbars: [
                 {
                     "position": "top",
@@ -60,8 +64,7 @@
                     position: 'bottom',
                     content: ['<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>']
                 },
-
-            ]
+            ],
         },
         {
             navbars: {
@@ -69,6 +72,31 @@
                     removeFirst: true
                 }
             }
+        },
+        {
+            offCanvas: {
+                page: {
+                    selector: "#page"
+                }
+            }
         }
-    );
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                console.log(">close?");
+                console.log(t);
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+            console.log(">open?");
+            console.log(t);
+        }, 100)
+    })
+};
 </script>
