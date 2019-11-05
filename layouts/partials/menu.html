@@ -39,15 +39,19 @@
             extensions: ['theme-white'],
             iconPanels: {
                     add: !0,
-                    hideDivider: !0,
-                    hideNavbar: !0,
+                    blockPanel: false,
+                    hideDivider: true,
+                    hideNavbar: true,
                     visible: "first"
             },
-            setSelected: true,
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
             counters: false,
             sidebar: {
-                    collapsed: "(min-width: 550px)",
-                    expanded: "(min-width: 960px)"
+                    collapsed: "(min-width: 350px)",
+                    expanded: "(min-width: 720px)"
                 },
             navbars: [
                 {
@@ -86,15 +90,11 @@ window.onload = () => {
     menu.bind("close:finish", function() {
             setTimeout(function() {
                 t.attr("href", "#menu")
-                console.log(">close?");
-                console.log(t);
                 }, 100)
             }),
     menu.bind("open:finish", function() {
         setTimeout(function() {
             t.attr("href", "#page")
-            console.log(">open?");
-            console.log(t);
         }, 100)
     })
 };
