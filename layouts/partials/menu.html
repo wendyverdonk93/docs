@@ -37,11 +37,17 @@
     let menu = new Mmenu('#menu',
         {
             extensions: ['theme-white'],
+            iconPanels: {
+                    add: !0,
+                    hideDivider: !0,
+                    hideNavbar: !0,
+                    visible: "first"
+            },
             setSelected: true,
             counters: false,
             sidebar: {
                     collapsed: "(min-width: 550px)",
-                    expanded: "(min-width: 700px)"
+                    expanded: "(min-width: 960px)"
                 },
             navbars: [
                 {
@@ -70,13 +76,6 @@
             navbars: {
                 breadcrumbs: {
                     removeFirst: true
-                }
-            }
-        },
-        {
-            offCanvas: {
-                page: {
-                    selector: "#page"
                 }
             }
         }

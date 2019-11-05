@@ -425,6 +425,10 @@ img.magento-certimage {
   background-clip: padding-box;
 }
 
+.mm-panel_iconpanel-first .fa {
+  color: #3fa9f5;
+}
+
 /********* SEARCH RESULT  *************/
 
 .search-results {
