@@ -128,9 +128,10 @@ div.block {
 .block-faq:hover {
   transition: all 0.2s ease-out;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
-  top: -4px;
+  transform: translateY(-0.2rem);
   text-decoration: none;
 }
+
 
 .block-item .block-item__title:hover,
 .block-faq .block-faq__title:hover {
