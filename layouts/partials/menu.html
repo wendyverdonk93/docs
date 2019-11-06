@@ -3,7 +3,11 @@
   integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
   crossorigin="anonymous"></script>
 
-{{ $.Scratch.Set "path" (print "/" .File.Path)  }}
+
+  <link rel='stylesheet' id='fontawesome-css' href='https://use.fontawesome.com/releases/v5.0.1/css/all.css?ver=4.9.1' type='text/css' media='all' />
+
+
+  {{ $.Scratch.Set "path" (print "/" .File.Path)  }}
 <nav id="menu" class="mm-wrapper_sidebar-opened">
     <div id="panel-menu">
         <ul>
@@ -36,7 +40,10 @@
 
     let menu = new Mmenu('#menu',
         {
-            extensions: ['theme-white'],
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
             iconPanels: {
                     add: !0,
                     blockPanel: false,
@@ -62,8 +69,8 @@
                 }
                 ,
                 {
-                    "position": "top",
-                    "content": [
+                    position: "top",
+                    content: [
                         "searchfield"
                     ]
                 },
@@ -75,6 +82,10 @@
                     content: ['<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>']
                 },
             ],
+            searchfield: {
+                showTextItems: true,
+                placeholder: "Search documentation..."
+		    }
         },
         {
             navbars: {
