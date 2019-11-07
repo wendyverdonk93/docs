@@ -3,6 +3,7 @@
 :root {
   --mm-sidebar-collapsed-size: 60px !important;
   --mm-iconbar-size:0 !important;
+  --mm-sidebar-expanded-size: 350px;
 }
 
 /**********************/
@@ -389,8 +390,6 @@ img.magento-certimage {
 
 @media (min-width: 1200px) {
   #page {
-      width: calc(100% - 440px);
-      transform: translate3d(440px,0,0);
       transition: none;
   }
 }
