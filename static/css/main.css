@@ -1,3 +1,9 @@
+/********** VARS ************/
+
+:root {
+  --mm-sidebar-collapsed-size: 60px !important;
+}
+
 /**********************/
 
 .header-background-home {
@@ -211,7 +217,7 @@ ol.breadcrumb {
 }
 
 .mm-listitem:after {
-  left: 50px;
+  left: 60px;
 }
 
 /********** BUTTONS ************/
@@ -469,6 +475,8 @@ ul.navbar-nav.ml-auto {
 
 .mm-panel_iconpanel-first .fa {
   color: #3fa9f5;
+  width: 20px;
+  margin-right: 20px;
 }
 
 .mm-navbars_top > .mm-navbar {
