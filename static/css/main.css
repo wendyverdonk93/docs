@@ -2,6 +2,7 @@
 
 :root {
   --mm-sidebar-collapsed-size: 60px !important;
+  --mm-iconbar-size:0 !important;
 }
 
 /**********************/
@@ -401,12 +402,11 @@ img.magento-certimage {
 
 /********* NAVBAR  *************/
 
-
-
 nav.navbar {
   position: sticky;
   top: 0;
   z-index: 50;
+  height: 76px;
 }
 
 .navbar a:hover {
@@ -431,6 +431,10 @@ nav.navbar {
     display: flex;
     flex-direction: row;
   }
+
+  a.navbar-brand > img {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -438,6 +442,14 @@ nav.navbar {
   {
     display: none;
   }
+}
+
+.mm-navbar > .navbar-brand {
+  padding: 15px 0;
+}
+
+.navbar-brand > img {
+  width: 200px;
 }
 
 ul.navbar-nav.ml-auto {

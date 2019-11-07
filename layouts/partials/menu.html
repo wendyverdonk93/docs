@@ -31,15 +31,15 @@
 
     let menu = new Mmenu('#menu',
         {
+            "offCanvas": {
+        "zposition": "front"
+    },
             extensions: [
                 'theme-white',
                 'pagedim-black'
             ],
             iconPanels: {
-                    add: !0,
-                    blockPanel: false,
-                    hideDivider: true,
-                    hideNavbar: true,
+                    add: true,
                     visible: "first"
             },
             setSelected: {
@@ -48,14 +48,14 @@
                 },
             counters: false,
             sidebar: {
-                    collapsed: "(min-width: 350px)",
-                    expanded: "(min-width: 1200px)"
+                    collapsed: 768,
+                    expanded: 1200
                 },
             navbars: [
                 {
                     "position": "top",
                     "content": [
-                        '<a class="navbar-brand" href="/"><img width="300" src="/logo/MSP-Docs_logo.svg"></a>'
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
                     ]
                 }
                 ,
