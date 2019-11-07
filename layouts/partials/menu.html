@@ -1,111 +1,103 @@
-        <nav id="menu">
-                <div id="panel-menu">
+  {{ $.Scratch.Set "path" (print "/" .File.Path)  }}
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                {{if .HasChildren}}
+                <li>
+                    <span>
+                        <a href="{{ .URL }}">
+                            <i class="{{ .Pre }}" aria-hidden="true"></i>
+                            {{ .Name }}
+                        </a>
+                    </span>
                     <ul>
-                        <li>
-                            <span>
-                                <a>
-                                    <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
-                                    Integrations
-                                </a>
-                            </span>
-                            <ul>
-                                <li><a href="/integrations/plugins">Plugins</a></li>
-                                <li><a href="/integrations/hosted">Hosted Plugins</a></li>
-                                <li><a href="/integrations/sdk">SDK</a></li>
-                                <li><a href="/integrations/wrappers">Wrappers</a></li>
-                                <li><a href="/integrations/community">Community</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span>
-                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
-                             API
-                            </span>
-                            <ul>
-                                <li><a href="#/">History</a></li>
-                                <li><span>The team</span>
-                                    <ul>
-                                        <li><a href="#/">Management</a></li>
-                                        <li><a href="#/">Sales</a></li>
-                                        <li><a href="#/">Development</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#/">Our address</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <span>
-                            <a href="faq"><i class="fa fa-question-circle-o fa-lg" aria-hidden="true"></i> 
-                                    FAQ
-                                </a>
-                            </span>
-                            <ul>
-                                <li><a href="/faq/api/">Plugins</a></li>
-                                <li><a href="/integrations/hosted">Hosted Plugins</a></li>
-                                <li><a href="/integrations/sdk">SDK</a></li>
-                                <li><a href="/integrations/wrappers">Wrappers</a></li>
-                                <li><a href="/integrations/community">Community</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="payment-methods"><i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
-                             Payment Methods</a></li>
-                        <li><a href="tools"><i class="fa fa-wrench fa-lg" aria-hidden="true"></i>
-                             Tools</a></li>
-                        <li><a href="onepage.html"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i>
-                             Popular</a></li>
+                        {{range .Children}}
+                        <li {{if in ($.Scratch.Get "path") .URL }}class="Selected"{{end}}><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{end}}
                     </ul>
-                </div>
-            </nav>
+                </li>
+                {{else}}
+                    <li><a href="{{ .URL }}"><i class="{{ .Pre }}" aria-hidden="true"></i>{{ .Name }}</a></li>
+                {{end}}
+            {{ end }}
+        </ul>    
+    </div>
+</nav>
+
 <!-- Fire the plugin -->
 <script>
-        new Mmenu(
-            document.querySelector('#menu'),
-            {
-                extensions	: [ 'theme-white'],
-                setSelected	: true,
-                counters	: false,
-                sidebar: {
-                collapsed: 850,
-                expanded: 1000
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: !0,
+                    blockPanel: false,
+                    hideDivider: true,
+                    hideNavbar: true,
+                    visible: "first"
             },
-                navbars		: [
-                    
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: "(min-width: 350px)",
+                    expanded: "(min-width: 720px)"
+                },
+            navbars: [
                 {
-             "position": "top",
-             "content": [
-             '<a class="navbar-brand" href="/"><img width="300" src="/logo/MSP-Docs_logo.svg"></a>'
-             ]
-          }
-          ,
-                    {
-                        "position": "top",
-                     "content": [
+                    "position": "top",
+                    "content": [
+                        '<a class="navbar-brand" href="/"><img width="300" src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                }
+                ,
+                {
+                    position: "top",
+                    content: [
                         "searchfield"
-                     ]
-                    },
-                    {
-                        content		: [ 'prev', 'breadcrumbs' ]
-                    },
-                    {
-                        position	: 'bottom',
-                        content		: [ '<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>' ]
-                    },
-                    
-                ]
-            },
-            {
-    navbars		: {
-        breadcrumbs	: {
-            removeFirst	: true
-        }
-    }
-}
-        );
-        document.addEventListener( 'click', function( evnt ) {
-            var anchor = evnt.target.closest( 'a[href^="#/"]' );
-            if ( anchor ) {
-                alert('Thank you for clicking, but that\'s a demo link.');
-                evnt.preventDefault();
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+                {
+                    position: 'bottom',
+                    content: ['<div class="menu-buttons"><a href="https://www.multisafepay.com/contact" class="outline bg-white text-dark" >Contact</a><a href="https://www.multisafepay.com/login/" class="primary text-white">Sign up</a></div>']
+                },
+            ],
+            searchfield: {
+                showTextItems: true,
+                placeholder: "Search documentation..."
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
             }
-        });
-    </script>
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
