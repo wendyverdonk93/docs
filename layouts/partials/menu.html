@@ -36,10 +36,7 @@
                 'pagedim-black'
             ],
             iconPanels: {
-                    add: !0,
-                    blockPanel: false,
-                    hideDivider: true,
-                    hideNavbar: true,
+                    add: true,
                     visible: "first"
             },
             setSelected: {
@@ -48,17 +45,16 @@
                 },
             counters: false,
             sidebar: {
-                    collapsed: "(min-width: 350px)",
-                    expanded: "(min-width: 720px)"
+                    collapsed: 768,
+                    expanded: 1200
                 },
             navbars: [
                 {
-                    "position": "top",
-                    "content": [
-                        '<a class="navbar-brand" href="/"><img width="300" src="/logo/MSP-Docs_logo.svg"></a>'
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
                     ]
-                }
-                ,
+                },
                 {
                     position: "top",
                     content: [
