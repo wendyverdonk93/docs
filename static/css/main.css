@@ -127,11 +127,22 @@ div.block {
 }
 
 .row .block-item {
-  padding: 25px 15px;
-  margin: 10px;
   border-radius: 7px;
   box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
-  position: relative;
+}
+
+.block-item-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-item-text{
+  height: 74px; /* lines height * 3 */
+}
+
+.remove-decoration {
+  text-decoration: none;
+  color: initial;
 }
 
 .block-item:hover,
