@@ -1,0 +1,33 @@
+<section id="FAQ">
+    <div class="container pt-5 pb-5">
+        <h3>FAQ</h3>
+        <div id="accordion" class="row">
+        {{range .Sections}}
+            {{ range .Pages}}
+                <div class="col-md-6 pb-4">
+                    <div class="block-faq">
+                        <div id="heading-{{ .Title | urlize}}">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#{{ .Title | urlize}}" aria-expanded="true"
+                                aria-controls="{{ .Title | urlize}}">
+                                <img class="faq-svg" src="/icons/Arrow.svg" />
+                                <button class="faq btn btn-link">
+                                    {{ .Title }}
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="{{ .Title | urlize}}" class="collapse" aria-labelledby="heading-{{ .Title | urlize}}"
+                            data-parent="#accordion">
+                            <div class="line"></div>
+                            <div class="faq-content">
+                                {{ .Content }}
+                                <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{ end }}
+        {{end}}
+        </div>
+    </div>
+</section>
