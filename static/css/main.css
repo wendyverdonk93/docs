@@ -25,7 +25,7 @@
 .faq-svg {
   width: 25px;
   height: 50px;
-  margin: 10px 25px 10px 25px;
+  margin: 0 15px;
 }
 
 .msp-app {
@@ -159,15 +159,27 @@ div.block {
   color: #000000;
   text-decoration: none;
 }
-div.faq-content {
-  margin: 10px 75px;
-  padding: 0rem 1.1rem 1.5rem 1.1rem;
-}
+
 .line {
-  margin: 0px 5.85rem 0px 5.85rem;
   border-bottom: 1px solid #b3b3b3;
-  position: relative;
 }
+/********** FAQ ************/
+.faq-title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.faq-content {
+  margin-right: 50px;
+}
+
+.faq-content  p {
+  margin: 0;
+}
+/**********************/
+
 
 /********** BREADCRUMB ************/
 

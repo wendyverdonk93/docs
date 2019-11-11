@@ -8,40 +8,33 @@
   <section>
     <div id="accordion" class="row">
       {{ range.Pages.ByWeight }}
-      <div class="col-md-6 pb-4">
-        <div class="block-faq">
+      <div class="col-lg-6 pb-4">
+        <div class="block-faq py-3 px-4">
           <div id="heading-{{ .Title | urlize}}">
-            <h5
-              class="mb-0"
-              data-toggle="collapse"
-              data-target="#{{ .Title | urlize}}"
-              aria-expanded="true"
-              aria-controls="{{ .Title | urlize}}"
-            >
+            <div class="mb-0 faq-title-block" data-toggle="collapse" data-target="#{{ .Title | urlize}}"
+              aria-expanded="true" aria-controls="{{ .Title | urlize}}">
               <img class="faq-svg" src="/icons/Arrow.svg" />
-              <button class="faq btn btn-link">
-                {{ .Title }}
-              </button>
-            </h5>  
+              <b class="px-3">{{ .Title }}</b>
+            </div>
           </div>
 
-          <div
-            id="{{ .Title | urlize}}"
-            class="collapse"
-            aria-labelledby="heading-{{ .Title | urlize}}"
-            data-parent="#accordion"
-          >
-          <div class="line"></div>
-            <div class="faq-content">
+          <div id="{{ .Title | urlize}}" class="collapse faq-content" aria-labelledby="heading-{{ .Title | urlize}}"
+            data-parent="#accordion">
+            <div class="mx-3 line"></div>
+            <div class="p-3">
               {{ .Content }}
+            </div>
+            {{ if isset .Params "read-more" }}
+            <div class="p-3">
               <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
             </div>
+            {{end}}
           </div>
         </div>
       </div>
       {{ end }}
     </div>
   </section>
-  {{ partial "bottom-block" . }} 
+  {{ partial "bottom-block" . }}
 </div>
 {{ end }}
