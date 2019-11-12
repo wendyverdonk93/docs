@@ -61,8 +61,15 @@
     </div>
     {{ if isset .Params "changelog" }}
       {{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
-      {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
     {{ end }}
+
+    {{ if isset .Params "faq" }}
+      {{ partial "single-faq" . }}
+    {{ end }}
+
+    {{ if isset .Params "newsletter" }}
+      {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
+    {{end}}
     
     <script src="{{ "/js/tocbot.min.js" | relURL }}"></script>
     <script src="{{ "/js/scroll-menu.js" | relURL }}" type="text/javascript">
