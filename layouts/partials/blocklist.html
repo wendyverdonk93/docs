@@ -1,9 +1,9 @@
 <div class="container pt-3 pb-5">
 {{ $tiles := .Params.data }}
-    <div class="row">
+    <div class="row pb-5">
       {{ range $i, $section := $tiles }}
       <div class="col-md-6 ">
-        <a  href="{{ $section.url }}" class="row block-item">
+        <a  href="{{ $section.url }}" class="row block-item my-3 mx-1 p-4">
           <div class="col-8">
             {{ with $section.url }}
             <div class="block-item__title"
