@@ -23,7 +23,11 @@
                                 <p>{{ .Params.description_short }}</p>
                             </div>
                             <div class="block-item-buttons pt-2">
+                                {{ if .Params.redirect_show_info }}
+                                    <a class="secondary" href="{{ .Params.redirect_show_info.url }}">{{ .Params.redirect_show_info.text }}</a>
+                                {{ else }}
                                 <a class="secondary" href="{{ .Permalink }}">more info</a>
+                                {{ end }}
                                 {{ if .Params.download_url }}
                                 <a class="primary ml-4" href="{{ .Params.download_url }}">download</a>
                                 {{ end }}
