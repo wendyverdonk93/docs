@@ -246,6 +246,27 @@ ol.breadcrumb {
   left: 60px;
 }
 
+.mm-navbars_top > .mm-navbar:last-child {
+  background-color: white !important;
+  color: #3fa9f5;
+  font-weight: bold;
+}
+
+.mm-btn_next:after, .mm-btn_prev:before {
+  border-color: #3fa9f5;
+}
+
+.mm-navbars_top > .mm-navbar:nth-last-child(2) {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mm-navbar__breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /********** BUTTONS ************/
 
 .primary:hover {
@@ -500,7 +521,7 @@ ul.navbar-nav.ml-auto {
   background-image: url(/icons/Login.svg);
   background-size: 50px 17px;
   background-repeat: no-repeat;
-  background-position: 10px 11px;
+  background-position: 0 11px;
   background-clip: padding-box;
 }
 
@@ -512,6 +533,7 @@ ul.navbar-nav.ml-auto {
 
 .mm-navbars_top > .mm-navbar {
   background-color: #f9f9f9;
+  padding: 0 5px;
 }
 
 .mm-panels {
@@ -596,4 +618,18 @@ ul.navbar-nav.ml-auto {
 .other-lang p {
   margin: 10px 0;
   display: block;
+}
+
+ /*** page shadow ***/
+#page::before {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  content: "";
+  display: block;
+  width: 20px;
+  height: 120%;
+  position: absolute;
+  right: 100%;
+  top: -10%;
+  z-index: 100;
+  clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
 }
