@@ -246,6 +246,27 @@ ol.breadcrumb {
   left: 60px;
 }
 
+.mm-navbars_top > .mm-navbar:last-child {
+  background-color: white !important;
+  color: #3fa9f5;
+  font-weight: bold;
+}
+
+.mm-btn_prev:before {
+  border-color: #3fa9f5;
+}
+
+.mm-navbars_top > .mm-navbar:nth-last-child(2) {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mm-navbar__breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 /********** BUTTONS ************/
 
 .primary:hover {
@@ -512,6 +533,7 @@ ul.navbar-nav.ml-auto {
 
 .mm-navbars_top > .mm-navbar {
   background-color: #f9f9f9;
+  padding: 0 5px;
 }
 
 .mm-panels {
