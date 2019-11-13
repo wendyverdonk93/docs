@@ -37,4 +37,13 @@
   </section>
   {{ partial "bottom-block" . }}
 </div>
+
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    $(".faq-title-block").click(function(){
+      $(this).find("img").toggleClass('rotated');
+    })
+  });
+</script>
 {{ end }}

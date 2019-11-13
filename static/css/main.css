@@ -597,3 +597,12 @@ ul.navbar-nav.ml-auto {
   margin: 10px 0;
   display: block;
 }
+
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+  transition: all 0.2s ease-out;
+}
