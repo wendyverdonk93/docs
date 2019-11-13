@@ -252,7 +252,7 @@ ol.breadcrumb {
   font-weight: bold;
 }
 
-.mm-btn_prev:before {
+.mm-btn_next:after, .mm-btn_prev:before {
   border-color: #3fa9f5;
 }
 
