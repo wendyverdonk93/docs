@@ -521,7 +521,7 @@ ul.navbar-nav.ml-auto {
   background-image: url(/icons/Login.svg);
   background-size: 50px 17px;
   background-repeat: no-repeat;
-  background-position: 10px 11px;
+  background-position: 0 11px;
   background-clip: padding-box;
 }
 
