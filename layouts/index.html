@@ -3,19 +3,19 @@
     {{ if .IsHome }}
     {{ partial "header" .}}
     {{ end }}
-  <div>
-    <div class="container">
-      <h1 class="header__title">{{ .Title }}</h1>
-      <hr  class="separator">
-      <p class="text-white">lorem ipsum lorem ipsum</p>
-      {{ partial "search_form" . }}
+    <div>
+        <div class="container">
+            <h1 class="header__title">{{ .Title }}</h1>
+            <hr class="separator">
+            <p class="text-white">lorem ipsum lorem ipsum</p>
+            {{ partial "search_form" . }}
+        </div>
     </div>
-  </div>
+</div>
+<div class="container">
+    {{ partial "blocklist" . }}
 </div>
 <div>
-  {{ partial "blocklist" . }}
-</div>
-<div>
-  {{ partial "call_to_action" . }}
+    {{ partial "call_to_action" . }}
 </div>
 {{ end }}
