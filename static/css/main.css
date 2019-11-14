@@ -620,6 +620,15 @@ ul.navbar-nav.ml-auto {
   display: block;
 }
 
+
+.rotated {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+  transition: all 0.2s ease-out;
+}
  /*** page shadow ***/
 #page::before {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -632,4 +641,5 @@ ul.navbar-nav.ml-auto {
   top: -10%;
   z-index: 100;
   clip-path: polygon(30px 0, 30px 100%, 19px 100%, 19px 0);
+
 }
