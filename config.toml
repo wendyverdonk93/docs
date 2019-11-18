@@ -9,6 +9,7 @@ pygmentsOptions = ""
 pygmentsStyle = "monokai"
 # The monokai stylesheet is included in the base template.
 pygmentsUseClasses = true
+paginate = 3
 
 [outputs]
     home = [ "HTML", "JSON"]

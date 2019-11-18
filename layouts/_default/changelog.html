@@ -1,0 +1,11 @@
+{{ define "main"}}
+    {{ $paginator := .Paginator }}
+    <div class="container">
+        {{ range $paginator.Pages}}
+            {{.Content}}
+        {{ end }}
+    </div>
+    {{ if gt $paginator.TotalPages 1 }}
+        {{ template "_internal/pagination.html" . }}
+    {{ end }}
+{{ end }}
