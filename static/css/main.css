@@ -216,6 +216,24 @@ ol.breadcrumb {
 
 /**********************/
 
+.mm-searchfield__input {
+  margin: 0 10px;
+}
+
+.mm-searchfield input {
+  background: url(/icons/Search.svg) no-repeat scroll 16px 5px;
+  padding-left: 50px;
+  height: 50px;
+  background-size: 20px 35px;
+  background-color: #ffffff;
+  border: 1px solid red;
+}
+
+.mm-navbars_top * {
+  background-color: #f9f9f9;
+  padding: 5px 0;
+}
+
 .search-form-input {
     width: 50%;
     height: 50px;
@@ -241,12 +259,14 @@ ol.breadcrumb {
     -webkit-text-stroke: 2px white;
 }
 
+#mm-0 .mm-listitem:after, #mm-1 .mm-listitem:after {
+    left: 0;
+}
 .mm-listitem:after {
     left: 60px;
 }
 
 .mm-navbars_top>.mm-navbar:last-child {
-    background-color: white !important;
     color: #3fa9f5;
     font-weight: bold;
 }
@@ -332,7 +352,6 @@ a.toc-link {
 }
 
 .is-collapsible {
-    max-height: 1000px;
     overflow: hidden;
     transition: all 300ms ease-in-out;
 }
@@ -635,6 +654,45 @@ ul.navbar-nav.ml-auto {
 
 .manual ol li {
     padding-left: 15px;
+}
+
+.manual .content>*:not(pre), .manual .content>pre code {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .manual .content>*:not(pre), .manual .content>pre code {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .manual .content>*:not(pre), .manual .content>pre code {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .manual .content>*:not(pre), .manual .content>pre code {
+        max-width: 960px;
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+    .manual .content ul, .manual .content ol {
+        padding-right: 105px;
+        padding-left: 105px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .manual .content>*:not(pre), .manual .content>pre code {
+        max-width: 1140px;
+    }
 }
 
 .rotated {
