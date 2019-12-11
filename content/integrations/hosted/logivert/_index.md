@@ -7,6 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/LogiVert.svg"
 weight: 90
 title_short: "LogiVert"
+description_short: Activation of the MultiSafepay plugin for your LogiVert ecommerce software.
 ---
 
 Easily integrate MultiSafepay payment solutions into your LogiVert app. This app is managed by LogiVert, for support please contact [LogiVert](https://www.logivert.com/nl/ons-bedrijf/c-2)

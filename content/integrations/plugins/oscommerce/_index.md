@@ -10,6 +10,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/OsCommerce.svg"
 weight: 140
 title_short: "OsCommerce"
+description_short: Easily integrate MultiSafepay solutions to your OsCommerce online store management system with the latest and free plugin.
 ---
 MultiSafepay currently does not offer maintenance and/or support for the plugin OsCommerce. For further information, it is advised to follow the movement of OsCommerce.
 

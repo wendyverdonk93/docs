@@ -12,6 +12,7 @@ weight: 70
 title_short: "PrestaShop 1.7"
 layout: 'single'
 changelog: 'https://github.com/MultiSafepay/PrestaShop/blob/master/CHANGELOG.md'
+description_short: A straightforward integration between the newest MultiSafepay plugin and the PrestaShop 1.7 open source ecommerce solution.
 ---
 
 Easily integrate MultiSafepay payment solutions into your Prestashop 1.7 webshop with the free plugin.

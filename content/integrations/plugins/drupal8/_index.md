@@ -10,6 +10,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/Drupal_8.svg"
 weight: 100
 title_short: "Drupal 8"
+description_short: A straightforward integration between the newest MultiSafepay plugin and the Drupal 8 ecommerce platform.
 ---
 Easily integrate MultiSafepay payment solutions into your Drupal 8 webshop with the free plugin.
 <br>

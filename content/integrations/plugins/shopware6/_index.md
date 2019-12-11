@@ -8,6 +8,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/Shopware_6.svg"
 weight: 120
 title_short: "Shopware 6"
+description_short: An effortless integration of MultiSafepay payment solutions to the Shopware 6 ecommerce platform.
 ---
 
 # Available soon 

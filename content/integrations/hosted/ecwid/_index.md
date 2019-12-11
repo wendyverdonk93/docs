@@ -7,6 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/Ecwid.svg"
 weight: 60
 title_short: "Ecwid"
+description_short: Configure the MultiSafepay payment services to your Ecwid ecommerce shopping platform with the latest plugin.
 ---
 
 Easily integrate MultiSafepay payment solutions into your Ecwid store.

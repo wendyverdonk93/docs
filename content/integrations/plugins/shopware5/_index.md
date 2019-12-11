@@ -10,6 +10,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/Shopware_5.svg"
 weight: 110
 title_short: "Shopware 5"
+description_short: Integration of the latest MultiSafepay plugin with the cutting edge technology Shopware 5 ecommerce software.
 ---
 
 Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin.

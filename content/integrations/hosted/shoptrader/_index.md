@@ -7,6 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/Shoptrader.svg"
 weight: 90
 title_short: "Shoptrader"
+description_short: Set up your Shoptrader webshop with the MultiSafepay plugin at ease.
 ---
 Easily integrate MultiSafepay payment solutions into your Shoptrader with this free app.<br>
 This app is managed by our partner Shoptrader, for support please contact [Shoptrader](https://www.shoptrader.nl/contact/)

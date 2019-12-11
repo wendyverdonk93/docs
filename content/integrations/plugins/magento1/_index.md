@@ -11,7 +11,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/Magento.svg"
 weight: 30
 title_short: "Magento 1"
-description_short: "Easily integrate MultiSafepay payment solutions into your Magento 1 webshop with the free and completely new MultiSafepay Magento 1 plugin."
+description_short: "Easily integrate MultiSafepay payment solutions into your Magento 1 webshop with the free and completely new plugin."
 ---
 
 Easily integrate MultiSafepay payment solutions into your Magento 1 webshop with the free plugin. Our Magento 1 plugin is professionally supported by a certified Magento Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay.

@@ -5,4 +5,5 @@ title_short: "Omnipay"
 redirect_show_info:
     url: "https://github.com/thephpleague/omnipay-multisafepay"
     text: "View on Github"
+description_short: View the wrapper from payment processing library Omnipay, suitable for MultiSafepay.
 ---

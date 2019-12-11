@@ -10,5 +10,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/CS-Cart.svg"
 weight: 80
 title_short: "CS-Cart"
+description_short: Effortlessly integrate the newest MultiSafepay payment solutions to your CS-Cart online webshop.
 ---
 Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin.

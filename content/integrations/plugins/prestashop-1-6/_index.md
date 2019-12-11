@@ -10,6 +10,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 60
 title_short: "PrestaShop 1.6"
+description_short: A straightforward integration between the newest MultiSafepay plugin and the PrestaShop 1.6 open source ecommerce solution.
 ---
 Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin.
 

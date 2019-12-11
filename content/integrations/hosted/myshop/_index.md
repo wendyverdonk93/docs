@@ -7,6 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/myShop.svg"
 weight: 120
 title_short: "myShop"
+description_short: Configuration of the MultiSafepay payment solutions to your myShop webshop platform.
 ---
 Easily integrate MultiSafepay payment solutions into your myShop with this free app.<br>
 This app is managed by our partner myShop, for support please contact [myShop](https://www.myshop.com/contact/)

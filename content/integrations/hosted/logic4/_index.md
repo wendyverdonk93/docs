@@ -7,5 +7,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 logo: "/logo/Integrations/Logic_4.svg"
 weight: 70
 title_short: "Logic4"
+description_short: Integrate the MultiSafepay payment solutions to your Logic4 ERP & webshop platform.
 ---
 This plugin is managed by our partner, for support please contact [Logic4](https://www.logic4.nl/contact).

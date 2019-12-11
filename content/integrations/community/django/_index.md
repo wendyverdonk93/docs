@@ -5,4 +5,5 @@ title_short: "Django"
 redirect_show_info:
     url: "https://github.com/edoburu/django-multisafepay"
     text: "View on Github"
+description_short: View the open-source web framework code from Django written in Python suitable for the MultiSafepay API.
 ---
