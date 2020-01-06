@@ -11,6 +11,7 @@
 
 .header-background-home {
     height: 665px;
+    margin-top: -76px;
 }
 
 .header-background-home div:first-child {
@@ -21,6 +22,7 @@
     background-image: url('../img/blue-gradient.jpg');
     background-size: cover;
 }
+
 
 .header__title {
     color: #ffffff;
@@ -44,18 +46,23 @@
     margin-bottom: 50px;
 }
 
-.msp-app-text img {
-    height: 35px;
-}
-
-.msp-app-text>p:first-of-type {
-    margin-top: 20px;
-    margin-bottom: 50px;
+.app-store-icon > img {
+    height: 100%;
 }
 
 div.msp-app-text {
-    padding-top: 50px;
-    padding-left: 70px;
+    padding: 25px;
+}
+
+@media (min-width: 980px) {
+    div.msp-app-text {
+        padding: 50px 0 0 70px; 
+    }
+
+    .msp-app-text>p:first-of-type {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
 }
 
 div.msp-app-text p:last-child {
@@ -687,16 +694,37 @@ ul.navbar-nav.ml-auto {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 1140px;
     }
+    .rotated {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        /* IE 9 */
+        -moz-transform: rotate(180deg);
+        /* Firefox */
+        -webkit-transform: rotate(180deg);
+        /* Safari and Chrome */
+        -o-transform: rotate(180deg);
+        /* Opera */
+        transition: all 0.2s ease-out;
+    }
 }
 
-.rotated {
-  transform: rotate(180deg);
-  -ms-transform: rotate(180deg); /* IE 9 */
-  -moz-transform: rotate(180deg); /* Firefox */
-  -webkit-transform: rotate(180deg); /* Safari and Chrome */
-  -o-transform: rotate(180deg); /* Opera */
-  transition: all 0.2s ease-out;
+.mm-menu_iconpanel .mm-panels>.mm-panel:not(.mm-panel_iconpanel-first):not(.mm-panel_iconpanel-0) {
+    left: var(--mm-sidebar-collapsed-size)
 }
+.mm-panel_opened-parent .mm-panel__blocker {
+    opacity: 0.0 !important;
+}
+
+#search-input {
+    width: 80%;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(0, 0, 0, 0.1) !important;
+}
+#search-input:focus{
+    outline: none;
+}
+
   
 /*** page shadow ***/
 #page::before {
