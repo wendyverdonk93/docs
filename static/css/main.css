@@ -21,6 +21,10 @@ body {
     color: #232323;
 }
 
+a, a:hover {
+    color: #008DCB;
+}
+
 .header-background-home {
     height: 665px;
     margin-top: -76px;
@@ -52,7 +56,7 @@ body {
 
 .block-item img {
     width: 50px;
-
+    height: 115px;
 }
 
 .faq-svg {
@@ -105,7 +109,7 @@ div.msp-app-text {
 div.msp-app-text p:last-child {
     color: #999999;
     font-size: 0.8rem;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .msp-app__img {
@@ -131,6 +135,8 @@ div.msp-app-text p:last-child {
 .footer-list {
     padding-bottom: 30px;
     padding-top: 40px;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 .footer-list ul {
@@ -279,7 +285,7 @@ ol.breadcrumb {
     margin: 0 10px;
 }
 
-.mm-searchfield input {
+.mm-searchfield input, .mm-searchfield input:hover , .mm-searchfield input:active  {
     background: url(/icons/Search.svg) no-repeat scroll 16px 5px;
     padding-left: 50px;
     height: 50px;
@@ -318,6 +324,10 @@ ol.breadcrumb {
     -webkit-text-stroke: 2px white;
 }
 
+.mm-listitem__text {
+    line-height: 25px;
+}
+
 #mm-0 .mm-listitem:after, #mm-1 .mm-listitem:after {
     left: 0;
 }
@@ -349,6 +359,21 @@ ol.breadcrumb {
 
 /********** BUTTONS ************/
 
+.primary, .secondary {
+    text-align: center;
+}
+
+.js-toc-content .primary {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+}
+
+@media (min-width: 980px) {
+    .js-toc-content .primary {
+        margin-left: 0 !important;
+        margin-top: 0;
+    }
+}
 .primary:hover {
     color: #ffffff;
     text-decoration: none;
@@ -361,16 +386,26 @@ ol.breadcrumb {
 
 .primary {
     background: #f94f77;
+    background-image: -webkit-linear-gradient(top,#f94f77,#cd3458);
+    background-image: -moz-linear-gradient(top,#f94f77,#cd3458);
+    background-image: -ms-linear-gradient(top,#f94f77,#cd3458);
+    background-image: -o-linear-gradient(top,#f94f77,#cd3458);
+    background-image: linear-gradient(to bottom,#f94f77,#cd3458);
     border-radius: 5px;
     color: #ffffff;
     border: 0px;
     padding: 12px 25px;
 }
+@media (min-width: 980px) {
+    .secondary{
+        padding: 12px;
+    }
+}
 
 .secondary {
     color: #000000;
     border: 1px solid #000000;
-    padding: 12px;
+    padding: 9px 6px;
     border-radius: 5px;
 }
 
@@ -530,13 +565,13 @@ nav.navbar {
 
 .navbar a.login {
     border-radius: 3px;
-    padding-left: 2.5rem !important;
-    padding-right: 0.5rem !important;
+    padding-left: 3.5rem !important;
+    padding-right: 1.5rem !important;
     margin-left: 1rem;
     background-image: url(/icons/Login.svg);
     background-size: 12px 16px;
     background-repeat: no-repeat;
-    background-position: 0.75rem 0.75rem;
+    background-position: 1.25rem 0.75rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-clip: padding-box;
 }
@@ -598,7 +633,7 @@ ul.navbar-nav.ml-auto {
         padding: 10px;
     }
 
-    .menu-buttons a:last-child {
+    .menu-buttons a:last-child div {
         background-image: url(/icons/Login.svg);
         background-size: 50px 17px;
         background-repeat: no-repeat;
@@ -607,7 +642,13 @@ ul.navbar-nav.ml-auto {
     }
 }
 
-
+.signup {
+    display: inline-block;
+    height: 1.4rem;
+    text-align: center;
+    padding: 0 1rem 0 0;
+    margin-top: -4px;
+}
 
 .menu-buttons .outline {
     border: 1px solid #f94f77;
@@ -745,6 +786,11 @@ ul.navbar-nav.ml-auto {
     font-family: 'Source Code Pro', monospace;
 }
 
+.small-vertical {
+    flex-direction: column;
+    display: flex;
+}
+
 @media (min-width: 576px) {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 540px;
@@ -754,6 +800,11 @@ ul.navbar-nav.ml-auto {
 @media (min-width: 768px) {
     .manual .content>*:not(pre), .manual .content>pre code {
         max-width: 720px;
+    }
+
+    .small-vertical {
+        flex-direction: row;
+        display: block;
     }
 }
 
