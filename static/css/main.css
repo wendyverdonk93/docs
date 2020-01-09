@@ -26,7 +26,7 @@ a, a:hover {
 }
 
 .header-background-home {
-    height: 665px;
+    height: 565px;
     margin-top: -76px;
 }
 
@@ -427,6 +427,10 @@ ol.breadcrumb {
     overflow-y: auto;
 }
 
+.toc-list {
+    padding-inline-start: 2rem;
+}
+
 .toc>.toc-list {
     overflow: hidden;
     position: relative;
@@ -587,7 +591,7 @@ nav.navbar {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1439px) {
     #docs-logo, #hamburger {
         display: none;
     }
@@ -1001,4 +1005,10 @@ div#results a:hover {
 
 .manual .col-md-9 > p, .manual .col-md-9 > ul, .manual .col-md-9 > ol, .manual .col-md-9 pre {
     margin-left: 2rem;
+}
+
+
+.img-size {
+    max-height: 250px;
+    margin-left: 3rem;
 }

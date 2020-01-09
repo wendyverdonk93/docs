@@ -2,13 +2,14 @@
 title : "Getting started"
 meta_title: "FAQ Getting Started - Start - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+read_more: "."
 ---
 
 ## Getting Started
 
 Here you find all the information you need to start processing payments with MultiSafepay.
 
-### 1. Create a MultiSafepay Control
+### 1. Create a MultiSafepay Control account
 |[Create a test account](https://testmerchant.multisafepay.com/signup)|[Create a live account](https://merchant.multisafepay.com/signup)|
 |---|---|
 |Test MultiSafepay's solutions|Process real online payments|

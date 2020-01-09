@@ -27,9 +27,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Paysafecard
 + SOFORT Banking
 + TrustPay
-+ Visa (including CartaSi, Carte Bleue & Dankort).
++ Visa (including CartaSi, Cartes Bancaires & Dankort).
 
-## Gift cards
+Gift cards
 
 + Beauty and Welness gift card
 + Boekenbon

@@ -14,7 +14,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Dotpay
 + Einvoice
 + EPS
-+ Ferbuy
 + Giropay
 + iDEAL
 + ING Home'Pay
@@ -27,9 +26,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + SOFORT Banking
 + Trustly
 + TrustPay
-+ Visa (including CartaSi, Carte Bleue & Dankort).
++ Visa (including CartaSi, Cartes Bancaires & Dankort).
 
-## Gift cards
+Gift cards
 
 + Baby gift card
 + Beauty and Welness gift card
