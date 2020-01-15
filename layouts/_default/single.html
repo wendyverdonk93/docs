@@ -1,4 +1,5 @@
 {{ define "main"}}
+{{ if (not ( isset .Params "hideMenu" ))}}
 <div class="sticky-with-menu">
     <div class="container">
         <aside id="toc" class="col-md-3 offset-md-9">
@@ -11,6 +12,8 @@
         </aside>
     </div>
 </div>
+{{end}}
+
 <div class="js-toc-content">
 <div class="container">
     <div class="row">
