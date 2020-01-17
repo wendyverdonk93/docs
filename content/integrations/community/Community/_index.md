@@ -22,4 +22,4 @@ We would like to outline the main requirements that community hosters should adh
 * It is required for the community plugin to have shipping updates. A support tab would be ideal to have, but is not compulsory.
 * If you have any further questions about being part of the community plugin team, feel free to contact <integration@multisafepay.com>
 
-Once the plugin has been approved, we will happily promote it.
+Once the community integration has been approved, we will happily promote it.
