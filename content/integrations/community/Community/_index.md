@@ -1,5 +1,5 @@
 ---
-title : "Community plugin requirements"
+title : "Community integration requirements"
 meta_title: "Submit a community integration"
 layout: 'paymentdetails'
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
@@ -11,12 +11,12 @@ hideMenu: '.'
 
 At MultiSafepay, our developers code on a daily basis to process in-house transactions. However, there are also many fantastic developers worldwide who code wrappers, plugins, applications and other various code in order to work with us.
 
-We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to appear on our site, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>.
+We are happy to accompany you starting with a place on our documentation page as well as assist you on marketing level. If you would like for your project to appear on our siteplease contact the MultiSafepay Integration Team at <integration@multisafepay.com>.
 
 We would like to outline the main requirements that community hosters should adhere to if they wish to be a part of the MultiSafepay community.
  These agreements are the following:
 
-* The UA code should be visible and provided on the page (in JSON) and further include the configuration of the plugin and the usage.
+* The [plugin information](https://docs.multisafepay.com/api/#plugin-information) should be visible and provided on the page (in JSON) and further include the configuration of the plugin and the usage.
 * The readme should indicate that full responsibility lies with the developer of the community plugin. This includes customer support and maintenance of the code. It should also indicate that the plugin was not created by MultiSafepay.
 * If MultiSafepay decides to add the community plugin as one of the supported plugins by MultiSafepay, we will have the authority to also remove the community plugin without the breach of contract.
 * It is required for the community plugin to have shipping updates. A support tab would be ideal to have, but is not compulsory.
