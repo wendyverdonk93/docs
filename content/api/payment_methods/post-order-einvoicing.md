@@ -39,12 +39,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "forwarded_ip": "",
         "first_name": "Testperson-nl",
         "last_name": "Approved",
-        "address1": "Neherkade",
-        "address2": "",
-        "house_number": "39c",
+        "address1": "Kraanspoor",
+        "house_number": "39C",
         "zip_code": "1033 SC",
-        "city": "Gravenhage",
-        "state": "",
+        "city": "Amsterdam",
         "country": "NL",
         "email": "test@example.com",
         "referrer": "http://www.example.com",
@@ -53,12 +51,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "delivery": {
         "first_name": "Testperson-nl",
         "last_name": "Approved",
-        "address1": "Neherkade",
-        "address2": "",
-        "house_number": "39c",
+        "address1": "Kraanspoor",
+        "house_number": "39C",
         "zip_code": "1033 SC",
-        "city": "Gravenhage",
-        "state": "",
+        "city": "Amsterdam",
         "country": "NL",
         "phone": "",
         "email": ""
@@ -222,11 +218,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "first_name": "Testperson-nl",
             "last_name": "Approved",
             "address1": "Neherkade",
-            "address2": null,
             "house_number": "39c",
             "zip_code": "1033SC",
             "city": "Gravenhage",
-            "state": null,
             "country": "NL",
             "country_name": null,
             "phone1": "0612345678",
@@ -408,10 +402,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "currency": "EUR",
     "amount": "26000",
     "description": "Test Order Description",
-    "var1": "",
-    "var2": "",
-    "var3": "",
-    "items": "",
     "manual": "false",
     "gateway_info": {
         "email": "example@multisafepay.com"
@@ -436,11 +426,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "address2": "",
         "house_number": "39",
         "zip_code": "1033 SC",
         "city": "Amsterdam",
-        "state": "",
         "country": "NL",
         "email": "example@multisafepay.com",
         "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
@@ -450,13 +438,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "address2": "",
         "house_number": "39",
         "zip_code": "1033 SC",
         "city": "Amsterdam",
-        "state": "",
         "country": "NL",
-        "phone": "0202 8500 500",
+        "phone": "020 8500 500",
         "email": "example@multisafepay.com"
     },
     "shopping_cart": {
@@ -655,9 +641,6 @@ Creates a redirect E-Invoice order to be paid after delivery.
 | shopping_cart                  | object   | Contains all order rules and applicable tax classes.                                   |
 | checkout_options               | object   | Contains the definitions for the VAT class.
 | gateway_info                   | object   | Contains the issuer_id.                                                                 |
-| birthday                       | string   | The birthdate of the customer in the format yyyy-mm-dd.                                |
-| bank_account                   | string   | The formatted IBAN for the customer. This is required for credit checks.               |
-| phone                          | string   | The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. |
 | email                          | string   | The email address to which the system can send payment instructions to the customer.   |
 | ip_address                     | string   | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                                                                                                                                                                           |
 | forwarded_ip                   | string   | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
