@@ -16,9 +16,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "currency": "EUR",
     "amount": "37380",
     "description": "Test Order Description",
-    "var1": "",
-    "var2": "",
-    "var3": "",
     "items": "",
     "manual": "false",
     "payment_options": {
@@ -38,7 +35,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "email": "rejection@afterpay.nl",
+        "email": "approved@afterpay.nl",
         "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
@@ -50,8 +47,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
-        "email": "rejection@afterpay.nl"
+        "phone": "0208500500",
+        "email": "approved@afterpay.nl"
     },
     "gateway_info": {
         "birthday": "1970-07-10",
@@ -175,11 +172,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": "0.0825",
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": "0.08375",
-                            "country": "US"
+                            "country": "NL"
                         }
                     ]
                 }
@@ -219,8 +216,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "country": "NL",
             "country_name": null,
             "phone1": "020 8500 500",
-            "phone2": "",
-            "email": "test@example.com"
+            "email": "example@multisafepay.com"
         },
         "payment_details": {
             "recurring_id": null,
@@ -366,7 +362,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": 0.0825,
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": 0.08375,
@@ -423,7 +419,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": "example@multisafepay.com"
     },
     "shopping_cart": {
@@ -574,7 +570,6 @@ Creates an AfterPay order to be paid after delivery.
 | phone                              | string | The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. |
 | email                              | string | The email address where the system can send payment instructions to the customer. |
 | gender                             | string | The gender salutation of the customer. Options: mr, mrs, miss. |
-| personal_number  -                 | string | The personal ID of the customer. Required in countries: FI, SE, NO Optional in countries: DE, AT, CH, BE, NL, DK. |
 | ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
 | forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
 Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).

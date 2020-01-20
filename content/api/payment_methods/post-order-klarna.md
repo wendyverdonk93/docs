@@ -16,15 +16,12 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "currency": "EUR",
     "amount": "26000",
     "description": "Test Order Description",
-    "var1": "",
-    "var2": "",
-    "var3": "",
     "items": "",
     "manual": "false",
     "gateway_info": {
         "birthday": "1970-07-10",
         "gender": "male",
-        "phone": "0612345678",
+        "phone": "0208500500",
         "email": "youremail@email.com"
     },
     "payment_options": {
@@ -34,7 +31,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US",
+        "locale": "nl_NL",
         "ip_address": "31.148.195.10",
         "forwarded_ip": "",
         "first_name": "Testperson-nl",
@@ -56,8 +53,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
-        "email": ""
+        "phone": "0208500500",
+        "email": "example@multisafepay.com"
     },
     "shopping_cart": {
         "items": [
@@ -175,7 +172,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": "0.0825",
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": "0.08375",
@@ -211,7 +208,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "description": "Test Order Description",
     "manual": "false",
     "gateway_info": {
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": "example@multisafepay.com"
     },
     "payment_options": {
@@ -250,7 +247,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": "example@multisafepay.com"
     },
     "shopping_cart": {
@@ -369,11 +366,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": "0.0825",
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": "0.08375",
-                            "country": "US"
+                            "country": "NL"
                         }
                     ]
                 }

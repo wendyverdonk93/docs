@@ -15,9 +15,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "currency": "EUR",
     "amount": "26000",
     "description": "Test Order Description",
-    "var1": "",
-    "var2": "",
-    "var3": "",
     "items": "",
     "manual": "false",
     "gateway_info": {
@@ -214,7 +211,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "gateway_info": {
         "birthday": "1979-02-22",
         "bank_account": "0417164300",
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": "example@multisafepay.com"
     },
     "payment_options": {
@@ -538,7 +535,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
       "account_holder_name": 417164300,
       "account_id": "1980-01-30",
       "external_transaction_id": null,
-      "invoice_url": "https://testpayv2.multisafepay.com/orders/e61d7dbbfd48053ee5873553707986a5",
+      "invoice_url": "https://payv2.multisafepay.com/orders/e61d7dbbfd48053ee5873553707986a5",
       "recurring_id": null,
       "recurring_model": null,
       "type": "PAYAFTER"
@@ -615,9 +612,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "status": "uncleared",
     "transaction_id": 4022655,
-    "var1": null,
-    "var2": null,
-    "var3": null,
     "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US&#34",
     "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }

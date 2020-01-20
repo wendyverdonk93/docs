@@ -16,16 +16,13 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "currency": "EUR",
     "amount": "26000",
     "description": "Test Order Description",
-    "var1": "",
-    "var2": "",
-    "var3": "",
     "items": "",
     "manual": "false",
     "gateway_info": {
         "birthday": "1980-01-30",
         "bankaccount": "0417164300",
         "phone": "0208500500",
-        "email": "example@example.com"
+        "email": "example@multisafepay.com"
     },
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -34,7 +31,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "close_window": ""
     },
     "customer": {
-        "locale": "us",
+        "locale": "nl_NL",
         "ip_address": "31.148.195.10",
         "forwarded_ip": "",
         "first_name": "Testperson-nl",
@@ -175,7 +172,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": "0.0825",
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": "0.08375",
@@ -202,9 +199,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "currency": "EUR",
         "amount": 26000,
         "description": "Test Order Description",
-        "var1": null,
-        "var2": null,
-        "var3": null,
         "items": "",
         "amount_refunded": 0,
         "status": "completed",
@@ -214,18 +208,17 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "fastcheckout": "NO",
         "modified": "2017-09-29T16:13:10",
         "customer": {
-            "locale": "en_US",
+            "locale": "nl_NL",
             "first_name": "Testperson-nl",
             "last_name": "Approved",
-            "address1": "Neherkade",
-            "house_number": "39c",
-            "zip_code": "1033SC",
-            "city": "Gravenhage",
+            "address1": "Kraanspoor",
+            "house_number": "39C",
+            "zip_code": "1033 SC",
+            "city": "Amsterdam",
             "country": "NL",
             "country_name": null,
-            "phone1": "0612345678",
-            "phone2": "",
-            "email": "test@example.com"
+            "phone1": "0208500500",
+            "email": "example@multisafepay.com"
         },
         "payment_details": {
             "recurring_id": null,
@@ -371,7 +364,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": 0.0825,
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": 0.08375,
@@ -442,7 +435,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
+        "phone": "02085000500",
         "email": "example@multisafepay.com"
     },
     "shopping_cart": {
@@ -561,11 +554,11 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     "rules": [
                         {
                             "rate": "0.0825",
-                            "country": "US"
+                            "country": "NL"
                         },
                         {
                             "rate": "0.08375",
-                            "country": "US"
+                            "country": "NL"
                         }
                     ]
                 }
@@ -581,7 +574,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "success": true,
     "data": {
         "order_id": "my-order-id-1",
-        "payment_url": "https://testpayv2.multisafepay.com/connect/82v6HsoQhaR823uIZ7hexDMwQyielzLrdox/?lang=nl_NL"
+        "payment_url": "https://payv2.multisafepay.com/connect/82v6HsoQhaR823uIZ7hexDMwQyielzLrdox/?lang=nl_NL"
     }
 }
 ```
