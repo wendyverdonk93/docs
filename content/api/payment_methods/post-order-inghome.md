@@ -102,4 +102,4 @@ customer                       | object | Contains personal information about th
 
 
 Please make sure you check out our dedicated documentation for [ING Home'Pay](/payment-methods/ing-home-pay/).
-{{% /description %}}
+{{< /description >}}

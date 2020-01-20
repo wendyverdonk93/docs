@@ -60,4 +60,4 @@ All parameters shown are required.
 
 
 Please make sure you check out our dedicated documentation for [American Express](/payment-methods/creditcards/)
-{{% /description %}}
+{{< /description >}}

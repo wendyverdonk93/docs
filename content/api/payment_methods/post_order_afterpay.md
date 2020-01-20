@@ -4,6 +4,7 @@ meta_title: "API - Create AfterPay order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< code-block >}}
+
 > POST - /orders
 
 ```shell
@@ -396,10 +397,167 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     }
 }
 ```
-{{< /code-block >}}
+> POST - /orders
 
+```shell
+
+{
+    "type": "redirect",
+    "gateway": "AFTERPAY",
+    "order_id": "my-order-id-1",
+    "currency": "EUR",
+    "amount": 37485,
+    "description": "Test Order Description",
+    "manual": "false",
+    "payment_options": {
+        "notification_url": "http://www.example.com/client/notification?type=notification&#34",
+        "redirect_url": "http://www.example.com/client/notification?type=redirect&#34",
+        "cancel_url": "http: //www.example.com/client/notification?type=cancel&#34",
+    },
+    "customer": {
+        "locale": "nl_NL",
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
+        "address1": "Kraanspoor",
+        "house_number": "39",
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
+        "country": "NL",
+        "email": "example@multisafepay.com"
+    },
+    "delivery": {
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
+        "address1": "Kraanspoor",
+        "house_number": "39",
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
+        "country": "NL",
+        "phone": "020 8500 500",
+        "email": "example@multisafepay.com"
+    },
+    "shopping_cart": {
+        "items": [
+            {
+                "name": "Geometric Candle Holders",
+                "description": "",
+                "unit_price": 90,
+                "quantity": 3,
+                "merchant_item_id": "1111",
+                "tax_table_selector": "BTW21",
+                "weight": {
+                    "unit": "KG",
+                    "value": "12"
+                }
+            },
+            {
+                "name": "Nice apple",
+                "description": "",
+                "unit_price": 35,
+                "quantity": 1,
+                "merchant_item_id": "666666",
+                "tax_table_selector": "BTW9",
+                "weight": {
+                    "unit": "KG",
+                    "value": "20"
+                }
+            },
+            {
+                "name": "Flat Rate - Fixed",
+                "description": "Shipping",
+                "unit_price": 10,
+                "quantity": 1,
+                "merchant_item_id": "msp-shipping",
+                "tax_table_selector": "none",
+                "weight": {
+                    "unit": "KG",
+                    "value": "0"
+                }
+            }
+        ]
+    },
+    "checkout_options": {
+        "tax_tables": {
+            "default": {
+                "shipping_taxed": "true",
+                "rate": 0.21
+            },
+            "alternate": [
+                {
+                    "name": "BTW21",
+                    "standalone": true,
+                    "rules": [
+                        {
+                            "rate": 0.21
+                        }
+                    ]
+                },
+                {
+                    "name": "BTW9",
+                    "standalone": true,
+                    "rules": [
+                        {
+                            "rate": 0.09
+                        }
+                    ]
+                },
+                {
+                    "name": "BTW6",
+                    "standalone": true,
+                    "rules": [
+                        {
+                            "rate": 0.06
+                        }
+                    ]
+                },
+                {
+                    "name": "BTW0",
+                    "standalone": true,
+                    "rules": [
+                        {
+                            "rate": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "none",
+                    "standalone": false,
+                    "rules": [
+                        {
+                            "rate": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "FEE",
+                    "standalone": false,
+                    "rules": [
+                        {
+                            "rate": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+```
+> JSON Response 
+
+```shell
+{
+    "success": true,
+    "data": {
+        "order_id": "my-order-id-1",
+        "payment_url": "https://payv2.multisafepay.com/connect/137LMJCe0GP8238bseHBnf97COSGr7mKGku/?lang=nl_NL"
+    }
+}
+```
+{{< /code-block >}}
 {{< description >}}
+
 ## AfterPay
+### Direct
 
 
 Creates an AfterPay order to be paid after delivery.
@@ -433,4 +591,32 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/).
 
-{{% /description %}}
+## Redirect
+
+Creates an AfterPay order to be paid after delivery.
+
+* Redirect transaction requires all fields completed properly
+
+* All parameters shown are required field(s)
+
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| type                               | string | Specifies the payment flow for the checkout process. Options: direct, redirect.       |
+| gateway                            | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: AFTERPAY. |
+| order_id                           | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.  |
+| currency                           | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
+| amount                             | integer | The amount (in cents) that the customer needs to pay. |
+| description                        | string | A free text description which will be shown with the order in MultiSafepay Control. If the customers bank supports it this description will also be shown on the customers bank statement. Max 200 characters. HTML is no longer supported. Use the required 'shopping-cart' object for this. |
+| payment_options                    | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |                                                                                     
+| customer                           | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i> |                                                                                   
+| delivery                           | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i> | |                                                                                    
+| shopping_cart                      | object | Contains all purchased items including tax class.                                   |
+| checkout_options                   | object | Contains the definitions for the VAT class. |                                                    
+| personal_number  -                 | string | The personal ID of the customer. Required in countries: FI, SE, NO Optional in countries: DE, AT, CH, BE, NL, DK. |
+| ip_address                         | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
+| forwarded_ip                       | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                          |
+Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
+
+Make sure you check out our dedicated documentation for [AfterPay](/payment-methods/afterpay/).
+{{< /description >}}
+

@@ -63,4 +63,4 @@ All parameters shown are required.
 
 Please make sure you check out our dedicated documentation for [credit cards](/payment-methods/creditcards/credit-card-payment-page/)
 
-{{% /description %}}
+{{< /description >}}
