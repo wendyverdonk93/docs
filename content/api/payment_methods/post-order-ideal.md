@@ -74,8 +74,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ```
 {{< /code-block >}}
 {{< description >}}
-## iDEAL 
-### Redirect - iDEAL
+
+## iDEAL
+## Redirect
+
 
 * All parameters shown are required field(s)
 
@@ -95,7 +97,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 
 
-### Direct - iDEAL
+
+### Direct
 Supplying an issuer is required only when you submit your request as _direct_. The customer will be redirected to the selected bank to proceed with finalizing the payment. 
 
 * All parameters shown are required field(s)
@@ -109,4 +112,5 @@ Supplying an issuer is required only when you submit your request as _direct_. T
 
 Please make sure you check out our dedicated documentation for [iDEAL](/payment-methods/ideal/).
 
-{{% /description %}}
+{{< /description >}}
+

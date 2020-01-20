@@ -57,4 +57,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 
 Please make sure you check out our dedicated documentation for [Giropay](/payment-methods/giropay/).
-{{% /description %}}
+{{< /description >}}

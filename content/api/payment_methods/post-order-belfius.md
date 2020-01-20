@@ -55,4 +55,4 @@ customer                       | object |                                       
 
 
 Please make sure you check out our dedicated documentation for [Belfius](/payment-methods/belfius/).
-{{% /description %}}
+{{< /description >}}

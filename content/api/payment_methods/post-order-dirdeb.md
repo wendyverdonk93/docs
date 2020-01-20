@@ -189,4 +189,4 @@ forwarded_ip                      | string  | The X-FORWARDED-FOR header of the 
 
 Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/).
 
-{{% /description %}}
+{{< /description >}}
