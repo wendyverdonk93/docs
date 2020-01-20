@@ -64,9 +64,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 > JSON Response 
 
 ```shell 
-DOCS-783: Direct iDEAL - wrong response
-
-
 {
   "success": true,
   "data": {
