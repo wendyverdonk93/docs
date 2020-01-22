@@ -7,7 +7,6 @@ layout: "faqdetail"
 __Credit cards__
 
 + [American Express](/payment-methods/creditcards/)
-+ [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
@@ -45,4 +44,24 @@ __Wallet__
 __Prepaid cards__ 
 
 + [Paysafecard](/payment-methods/paysafecard/)
-+ Fashion Cheque
++ Babygiftcard
++ Beauty and wellness
++ Boekenbon
++ Erotiekbon
++ Fashioncheque
++ Fashion gift card
++ Fietsenbon
++ Gezondheidsbon
++ Givacard
++ Goodcard
++ Nationale tuinbon
++ Nationale verwencadeaubon
++ Parfumcadeaukaart
++ Podium
++ Sport en fit
++ VVV giftcard
++ Webshop Giftcard
++ Wellness gift card
++ Wijncadeau
++ Winkelcheque
++ Yourgift

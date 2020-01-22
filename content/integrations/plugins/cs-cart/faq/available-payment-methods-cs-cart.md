@@ -7,7 +7,6 @@ layout: "faqdetail"
 __Credit cards__
 
 + [American Express](/payment-methods/creditcards/)
-+ [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
@@ -21,7 +20,6 @@ __Banks__
 + [EPS](/payment-methods/eps/)
 + [Giropay](/payment-methods/giropay/)
 + [iDEAL](/payment-methods/ideal/)
-+ [iDEAL QR](/payment-methods/idealqr/)
 + [ING Home'Pay](/payment-methods/ing-home-pay/)
 + [KBC](/payment-methods/kbc/)
 + [Maestro](/payment-methods/maestro/)
@@ -32,11 +30,12 @@ __Banks__
 __Billing suite__
 
 + [Afterpay](/payment-methods/afterpay/)
-+ [Betaalplan](/payment-methods/betaalplan/)
 + [E-Invoice](/payment-methods/e-invoicing/)
-+ [Klarna](/payment-methods/klarna)
++ [Klarna](/payment-methods/klarna/)
 
 __Wallet__ 
 
-+ [Alipay](/payment-methods/alipay/)
 + [PayPal](/payment-methods/paypal/)
+
+__Prepaid cards__
++[Paysafecard](/payment-methods/prepaid-cards/paysafecard/)

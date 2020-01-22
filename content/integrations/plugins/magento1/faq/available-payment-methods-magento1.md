@@ -19,6 +19,7 @@ __Banks__
 + [Direct Debit](/payment-methods/direct-debit/)
 + [Dotpay](/payment-methods/dotpay/)
 + [EPS](/payment-methods/eps/)
++ Ferbuy
 + [Giropay](/payment-methods/giropay/)
 + [iDEAL](/payment-methods/ideal/)
 + [iDEAL QR](/payment-methods/idealqr/)
@@ -39,6 +40,7 @@ __Billing suite__
 __Wallet__ 
 
 + [Alipay](/payment-methods/alipay/)
++ Apple Pay
 + [PayPal](/payment-methods/paypal/)
 
 __Prepaid cards__ 
@@ -55,6 +57,7 @@ __Prepaid cards__
 + Lief
 + Parfumcadeaukaart
 + ParfumNL
++ Podium cadeaukaart
 + Sport en Fit
 + VVV gift card
 + Webgift

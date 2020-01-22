@@ -30,6 +30,7 @@ __Banks__
 
 __Billing suite__
 
++ [Afterpay](/payment-methods/afterpay/)
 + [Betaalplan](/payment-methods/betaalplan/)
 + [E-Invoice](/payment-methods/e-invoicing/)
 + [Klarna](/payment-methods/klarna)

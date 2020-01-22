@@ -47,17 +47,21 @@ __Prepaid cards__
 + Baby gift card
 + Beauty and Welness gift card
 + Boekenbon
-+ De grote speelgoedwinkel
 + Erotiekbon
++ Fashion Cheque
 + Fashion gift card
++ Fietsenbon
 + Gezondheidsbon
 + Givacard
-+ Lief
++ Goodcard
++ Nationale tuinbon
++ Nationale verwencadeaubon
 + Parfumcadeaukaart
-+ ParfumNL
++ Podium
 + Sport en Fit
 + VVV gift card
-+ Webgift
++ Webshop gift card
++ Wellness gift card
 + Wijncadeau
++ Winkelcheque
 + Yourgift
-+ Fashion Cheque

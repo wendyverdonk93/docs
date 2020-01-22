@@ -50,15 +50,20 @@ __Prepaid cards__
 + Boekenbon
 + De grote speelgoedwinkel
 + Erotiekbon
++ Fashion Cheque
 + Fashion gift card
++ Fietsenbon
 + Gezondheidsbon
 + Givacard
++ Goodcard
 + Lief
++ Nationale tuinbon
++ Nationale verwencadeaubon
 + Parfumcadeaukaart
-+ ParfumNL
++ Podium
 + Sport en Fit
 + VVV gift card
 + Webgift
++ Wellness giftcard
 + Wijncadeau
 + Yourgift
-+ Fashion Cheque

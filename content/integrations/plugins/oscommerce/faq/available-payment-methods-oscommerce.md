@@ -7,7 +7,6 @@ layout: "faqdetail"
 __Credit cards__
 
 + [American Express](/payment-methods/creditcards/)
-+ [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
@@ -15,7 +14,6 @@ __Banks__
 
 + [Bancontact](/payment-methods/bancontact/)
 + [Bank transfer](/payment-methods/bank-transfer/)
-+ [Belfius](/payment-methods/belfius/)
 + [Direct Debit](/payment-methods/direct-debit/)
 + [Dotpay](/payment-methods/dotpay/)
 + [EPS](/payment-methods/eps/)
@@ -31,7 +29,6 @@ __Banks__
 
 __Billing suite__
 
-+ [Betaalplan](/payment-methods/betaalplan/)
 + [E-Invoice](/payment-methods/e-invoicing/)
 + [Klarna](/payment-methods/klarna)
 
@@ -45,18 +42,27 @@ __Prepaid cards__
 + [Paysafecard](/payment-methods/paysafecard/)
 + Baby gift card
 + Beauty and Welness gift card
++ Bloemencadeau
 + Boekenbon
++ Brouwmarkt
 + De grote speelgoedwinkel
 + Erotiekbon
++ Fashion Cheque
 + Fashion gift card
 + Gezondheidsbon
 + Givacard
++ Goodcard
++ Jewelstore
++ Kelly gift card
 + Lief
++ Nationale tuibon
 + Parfumcadeaukaart
 + ParfumNL
++ Podium
 + Sport en Fit
 + VVV gift card
-+ Webgift
-+ Wijncadeau
++ Webshop gift card
++ Wellness gift card
++ Wijn cadeau
 + Yourgift
-+ Fashion Cheque
++ Winkelcheque

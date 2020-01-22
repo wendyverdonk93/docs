@@ -6,8 +6,6 @@ layout: "faqdetail"
 ---
 __Credit cards__
 
-+ [American Express](/payment-methods/creditcards/)
-+ [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
@@ -17,24 +15,13 @@ __Banks__
 + [Bank transfer](/payment-methods/bank-transfer/)
 + [Belfius](/payment-methods/belfius/)
 + [Direct Debit](/payment-methods/direct-debit/)
-+ [Dotpay](/payment-methods/dotpay/)
-+ [EPS](/payment-methods/eps/)
 + [Giropay](/payment-methods/giropay/)
 + [iDEAL](/payment-methods/ideal/)
-+ [iDEAL QR](/payment-methods/idealqr/)
-+ [ING Home'Pay](/payment-methods/ing-home-pay/)
-+ [KBC](/payment-methods/kbc/)
 + [Maestro](/payment-methods/maestro/)
 + [SOFORT Banking](/payment-methods/sofort-banking/)
 + [Trustly](/payment-methods/trustly/)
 + [TrustPay](/payment-methods/trustpay/)
 
-__Billing suite__
+__Prepaid cards__ 
 
-+ [Betaalplan](/payment-methods/betaalplan/)
-+ [E-Invoice](/payment-methods/e-invoicing/)
-+ [Klarna](/payment-methods/klarna)
-
-__Wallet__ 
-
-+ [PayPal](/payment-methods/paypal/)
++ [Paysafecard](/payment-methods/paysafecard/)

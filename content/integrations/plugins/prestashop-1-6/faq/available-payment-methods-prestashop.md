@@ -30,7 +30,6 @@ __Banks__
 
 __Billing suite__
 
-+ [Betaalplan](/payment-methods/betaalplan/)
 + [E-Invoice](/payment-methods/e-invoicing/)
 + [Klarna](/payment-methods/klarna)
 
@@ -48,6 +47,7 @@ __Prepaid cards__
 + De grote speelgoedwinkel
 + Erotiekbon
 + Fashion gift card
++ Fietsenbon
 + Gezondheidsbon
 + Givacard
 + Lief
@@ -55,7 +55,7 @@ __Prepaid cards__
 + ParfumNL
 + Sport en Fit
 + VVV gift card
-+ Webgift
++ Webshop gift card
 + Wijncadeau
 + Yourgift
 + Fashion Cheque
