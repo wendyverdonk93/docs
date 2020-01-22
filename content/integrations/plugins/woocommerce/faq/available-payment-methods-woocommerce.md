@@ -57,7 +57,7 @@ __Prepaid cards__
 + ParfumNL
 + Sport en Fit
 + VVV gift card
-+ Webgift
++ Webshop gift card
 + Wijncadeau
 + Yourgift
 + Fashion Cheque
