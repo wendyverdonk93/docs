@@ -50,7 +50,7 @@ __Prepaid cards__
 + Givacard
 + Goodcard
 + Jewelstore
-+ Kellygiftcard
++ Kelly gift card
 + Lief
 + Nationale tuinbon
 + Parfumcadeaukaart

@@ -44,7 +44,7 @@ __Wallet__
 __Prepaid cards__ 
 
 + [Paysafecard](/payment-methods/paysafecard/)
-+ Babygiftcard
++ Baby gift card
 + Beauty and wellness
 + Boekenbon
 + Erotiekbon
@@ -60,7 +60,7 @@ __Prepaid cards__
 + Podium
 + Sport en fit
 + VVV giftcard
-+ Webshop Giftcard
++ Webshop gift card
 + Wellness gift card
 + Wijncadeau
 + Winkelcheque

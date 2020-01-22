@@ -64,6 +64,6 @@ __Prepaid cards__
 + Sport en Fit
 + VVV gift card
 + Webshop gift card
-+ Wellness giftcard
++ Wellness gift card
 + Wijncadeau
 + Yourgift

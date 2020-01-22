@@ -62,8 +62,8 @@ __Prepaid cards__
 + Podium cadeaukaart
 + Sport en Fit
 + VVV gift card
-+ Webshop Giftcard
-+ Wellness Giftcard
++ Webshop gift card
++ Wellness gift card
 + Wijn cadeau
 + Winkel Cheque
 + Yourgift
