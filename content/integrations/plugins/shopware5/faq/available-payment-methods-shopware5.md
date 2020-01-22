@@ -59,7 +59,7 @@ __Prepaid cards__
 + Parfumcadeaukaart
 + Podium
 + Sport en fit
-+ VVV giftcard
++ VVV gift card
 + Webshop gift card
 + Wellness gift card
 + Wijncadeau
