@@ -72,6 +72,6 @@ Some rules may apply to certain payment methods. For Direct Debit, the following
  <br>        
 Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.<br>
 
-* Payments done through Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
+* Payments done through Direct Debit are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
 

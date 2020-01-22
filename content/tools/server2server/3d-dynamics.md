@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ##  Dynamic 3D Secure
 
-Based on a predefined set of rules, an order will be processed with or without [3D Secure](/faq/risk-and-fraud/what-is-3d-secure/).
+Based on a predefined set of rules, an order will be processed with or without [3D Secure](/faq/risk-and-fraud/what-is-3d-secure/)
 
 A request to activate Dynamic 3D Secure is submitted via your account manager by email <sales@multisafepay.com>
 

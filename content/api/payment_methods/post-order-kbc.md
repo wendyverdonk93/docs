@@ -56,5 +56,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                       | object | Contains personal information about the customer.                                        |
 
 
-Please make sure you check out our dedicated documentation for [KBC](/payment-methods/kbc/).
+Please make sure you check out our dedicated documentation for [KBC](/payment-methods/kbc/)
 {{< /description >}}

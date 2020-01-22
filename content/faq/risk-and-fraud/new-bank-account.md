@@ -5,7 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 ### A new bank account
-If you would like to add a new bank account for payouts, please add the new IBAN in your [MultiSafepay Control](https://merchant.multisafepay.com/). A payment in the amount of 1 EUR transferred from your business bank account (you can initiate this procedure in MultiSafepay Control) is required. Alternatively, you can provide a copy of a bank statement/screenshot taken of your online banking environment including IBAN and company name. 
+If you would like to add a new bank account for payouts, please add the new IBAN in your [MultiSafepay Control](https://merchant.multisafepay.com/) A payment in the amount of 1 EUR transferred from your business bank account (you can initiate this procedure in MultiSafepay Control) is required. Alternatively, you can provide a copy of a bank statement/screenshot taken of your online banking environment including IBAN and company name. 
 
 _Important: The company name on your bank statement must be an exact match with one of the trade names on your Chamber of Commerce extract_.
 

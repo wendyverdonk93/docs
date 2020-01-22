@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< code-block >}}
 The days or seconds active indicates the lifetime of a payment link.
 
-The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/).
+The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
 
 
 ```shell 
@@ -37,5 +37,5 @@ The full documentation can be found on our FAQ page, [The lifetime of a payment 
 
 The days or seconds active indicates the lifetime of a payment link.
 
-The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/).
+The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
 {{% /description %}}

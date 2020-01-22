@@ -55,5 +55,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                        | object | Contains the personal information of the customer.                                         |
 
 
-Please make sure you check out our dedicated documentation for [PayPal](/payment-methods/paypal/).
+Please make sure you check out our dedicated documentation for [PayPal](/payment-methods/paypal/)
 {{< /description >}}

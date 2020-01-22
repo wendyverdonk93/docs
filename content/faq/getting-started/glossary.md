@@ -54,5 +54,5 @@ The person or entity that is the ultimate beneficiary of the company. The natura
 Refers to the status of a credit card transaction that has been received, but has not automatically been accepted. This happens whenever a fault-check mechanism (e.g. anti-fraud module) detects unusual patterns in data. 
 
 ### Website
-A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com). Websites serve a multitude of purposes, such as information, entertainment or service-offering.
+A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com) Websites serve a multitude of purposes, such as information, entertainment or service-offering.
 
