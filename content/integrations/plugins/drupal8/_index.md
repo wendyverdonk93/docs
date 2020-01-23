@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for Drupal 8"
-github_url : ""
-download_url : ""
+github_url : "https://github.com/MultiSafepay/drupal-commerce-2/"
+download_url : "https://github.com/MultiSafepay/drupal-commerce-2/releases/download/1.0.0/commerce_multisafepay_1.0.0.zip"
 changelog: https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGELOG.md
 manual: "."
 faq: "."
@@ -12,8 +12,5 @@ logo: "/logo/Plugins/Drupal_8.svg"
 weight: 100
 title_short: "Drupal 8"
 description_short: "Easily integrate MultiSafepay payment solutions into your Drupal 8 webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Drupal 8 webshop with the free plugin.
-
-
-**_We are currently working on delivering you the most seamless Drupal 8 integration. Please bear with us and check regularly for updates! Download will be available soon._**"
+description: "Easily integrate MultiSafepay payment solutions into your Drupal 8 webshop with the free plugin."
 ---
