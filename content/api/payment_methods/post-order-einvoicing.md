@@ -583,7 +583,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## E-invoicing
-### Direct
+### Direct - E-invoicing
 
 Creates a direct E-Invoice order to be paid after delivery.
 
@@ -614,7 +614,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Make sure you check out our dedicated documentation for [E-Invoicing](/payment-methods/e-invoicing/).
 
-### Redirect
+### Redirect - E-invoicing
 
 Creates a redirect E-Invoice order to be paid after delivery.
 
