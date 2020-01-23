@@ -15,7 +15,8 @@ Installation of the plugin can be done in three ways:
 3. Via the MarketPlace.
 
 In this manual we describe the SFTP upload method.
-We recommend that you install the plugin first on a test environment, and make sure you have made a backup. Be sure Magento Compiler is disabled.
+
+{{% introduction_plugin "Magento 1" %}}
 
 
 ### 1. Requirements

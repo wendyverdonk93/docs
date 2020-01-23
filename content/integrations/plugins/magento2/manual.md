@@ -15,7 +15,8 @@ The installation can be carried out in three ways:
 + Magento Marketplace.
 
 In this manual we describe the installation via Composer.
-We recommend that you install the plugin first on a test environment, and make sure you have made a backup.
+
+{{% introduction_plugin "Magento 2" %}}
 
 ### 1. Requirements
 - Magento Open Source version 2.1.x, 2.2.x & 2.3.x
