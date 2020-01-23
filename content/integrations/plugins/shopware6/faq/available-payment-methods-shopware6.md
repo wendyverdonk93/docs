@@ -1,12 +1,13 @@
 ---
-title : "Available payment methods in Shopware 5"
-meta_title: "Shopware 5 plugin available payment methods - MultiSafepay Documentation Center"
+title : "Available payment methods in Shopware 6"
+meta_title: "Shopware 6 plugin available payment methods - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 layout: "faqdetail"
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/creditcards/)
++ [Credit cards](/payment-methods/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
 + [Mastercard](/payment-methods/creditcards/)
 + [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
 
@@ -45,23 +46,19 @@ __Prepaid cards__
 
 + [Paysafecard](/payment-methods/paysafecard/)
 + Baby gift card
-+ Beauty and wellness
++ Beauty and Welness gift card
 + Boekenbon
++ De grote speelgoedwinkel
 + Erotiekbon
-+ Fashioncheque
 + Fashion gift card
-+ Fietsenbon
 + Gezondheidsbon
 + Givacard
-+ Goodcard
-+ Nationale tuinbon
-+ Nationale verwencadeaubon
++ Lief
 + Parfumcadeaukaart
-+ Podium
-+ Sport en fit
++ ParfumNL
++ Sport en Fit
 + VVV gift card
 + Webshop gift card
-+ Wellness gift card
 + Wijncadeau
-+ Winkelcheque
 + Yourgift
++ Fashion Cheque

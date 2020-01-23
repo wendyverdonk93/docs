@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## 3.0.0
 Release date: May 29th, 2017
 ### Improvements
-+ Added all currently available payment methods and giftcards
++ Added all currently available payment methods and gift cards
 + Added translations for Dutch, French, German, Italian, Portuguese and Spanish
 + Added a setting for "days_active"; automatically close an unpaid order without transaction after X number of days.
 + Added a setting to enable or disable payment method icons during the checkout process.
