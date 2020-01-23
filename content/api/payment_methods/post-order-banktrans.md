@@ -147,7 +147,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 
-__Please note: The parameter 'email' must be present, otherwise MultiSafepay will be unable to send the payment details to the consumer.__
+__Please note: The parameter 'email' must be present, otherwise MultiSafepay will be unable to send the payment details to the customer.__
 
 {{< /code-block >}}
 
@@ -155,7 +155,7 @@ __Please note: The parameter 'email' must be present, otherwise MultiSafepay wil
 ## Bank transfer
 ### Redirect - Bank transfer
 
-The bank transfer payment method can either be a direct or redirect order. In this case, the API calls for a __redirect order__ are illustrated; therefore the consumer will be redirected to the MultiSafepay payment page. Please refer to the dedicated documentation regarding creating a [redirect order](/api/#orders).
+The bank transfer payment method can either be a direct or redirect order. In this case, the API calls for a __redirect order__ are illustrated; therefore the customer will be redirected to the MultiSafepay payment page. Please refer to the dedicated documentation regarding creating a [redirect order](/api/#orders).
 
 | Parameter                      | Type     | Description                                                                              |
 |--------------------------------|----------|------------------------------------------------------------------------------------------|
