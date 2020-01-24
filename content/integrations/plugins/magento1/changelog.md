@@ -630,7 +630,7 @@ Release date: Jan 12, 2011
 ### Improvements
 + New order email option is active, you can now set when you want to send the order emails.
 + New feature added that allows for reopening cancelled orders. If a cancelled order got paid by using Second Chance etc, the order will be processed again and an invoice is created etc.
-+ Added gateways for ebon, babygiftcard, boekenbon, erotiekbon, fijncadeau, webshop
++ Added gateways for ebon, baby gift card, boekenbon, erotiekbon, fijncadeau, webshop
 
 
 

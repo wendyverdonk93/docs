@@ -41,7 +41,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 {{< description >}}
 ## American Express
-The consumer will be redirected to a payment page of MultiSafepay for this credit card. The customer will be requested to fill in his credit card credentials.
+The customer will be redirected to a payment page of MultiSafepay for this credit card. The customer will be requested to fill in his credit card credentials.
 
 All parameters shown are required.
 

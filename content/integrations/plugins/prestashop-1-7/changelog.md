@@ -56,7 +56,7 @@ Release date: April 25th, 2019
 + PLGPRSS-353: Fix no payment methods visible after updating carriers
 + PLGPRSS-356: Fix refund issue for products with a variation
 + PLGPRSS-348: Fix when installing through commandline, config is not initialized
-+ PLGPRSS-347: Fix warning during sorting of gateways and giftcards
++ PLGPRSS-347: Fix warning during sorting of gateways and gift cards
 + PLGPRSS-345: Prevent order status be changed on not MultiSafepay orders
 
 ### Removed

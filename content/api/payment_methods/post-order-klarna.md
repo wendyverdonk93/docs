@@ -395,7 +395,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Klarna
-### Direct
+### Direct - Klarna
 Creates a Klarna order to be paid after delivery
 
 Klarna is available as both a direct and redirect request. 
@@ -427,7 +427,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Make sure you check out our dedicated documentation for [Klarna](/payment-methods/klarna/)
 
-### Redirect (Klarna Payments)
+### Redirect - Klarna (Klarna Payments)
 Creates a Klarna Payments Redirect order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.

@@ -153,7 +153,7 @@ Release date: April 5nd, 2017
 + Improve the way errors are logged.
 + Added PaySafeCard as payment method.
 + Added Nationale bioscoopbon as a gift card.
-+ Added option to the global MultiSafepay settings to enable/disable the giftcards as payment method.
++ Added option to the global MultiSafepay settings to enable/disable the gift cards as payment method.
 
 ### Fixes
 + Better algorithm to split address into street, house number
@@ -161,7 +161,7 @@ Release date: April 5nd, 2017
 
 Changes
 + General plugin settings moved to the general checkout-options
-+ Remove BabyGiftcard as payment method
++ Remove Baby gift card as payment method
 
 ***
 

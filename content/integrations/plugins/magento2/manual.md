@@ -15,7 +15,8 @@ The installation can be carried out in three ways:
 + Magento Marketplace.
 
 In this manual we describe the installation via Composer.
-We recommend that you install the plugin first on a test environment, and make sure you have made a backup.
+
+{{% introduction_plugin "Magento 2" %}}
 
 ### 1. Requirements
 - Magento Open Source version 2.1.x, 2.2.x & 2.3.x
@@ -50,9 +51,9 @@ Your Account ID is shown in the dashboard of your MultiSafepay Control in the to
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-3. MultiSafepay Giftcards  
+3. MultiSafepay Gift cards  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Giftcards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
+Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings.  
