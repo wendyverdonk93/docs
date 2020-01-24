@@ -19,7 +19,8 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 ### Websites
 [Google review](https://bit.ly/2zPpp8P)  
 [TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)  
-[Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
+[Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
+[PSP Check](http://pspcheck.nl/multisafepay-review/)
 
 ### Plugins
 [Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2msp.html)<br>
@@ -32,6 +33,8 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)<br>
 [Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)<br>
 [Solaiman el Bacha](https://www.linkedin.com/in/solaimanelbacha/)<br>
+[Robin Smiet](https://www.linkedin.com/in/robin-smiet/)<br>
+[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
 [Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)
 
 ### Sociale media
