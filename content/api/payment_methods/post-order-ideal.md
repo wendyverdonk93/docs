@@ -141,9 +141,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ```
 {{< /code-block >}}
 {{< description >}}
-
 ## iDEAL
-### Redirect
+### Redirect - iDEAL
 
 
 * All parameters shown are required field(s)
@@ -165,7 +164,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 
 
-### Direct
+### Direct - iDEAL
 Supplying an issuer is required only when you submit your request as _direct_. The customer will be redirected to the selected bank to proceed with finalizing the payment. 
 
 * All parameters shown are required field(s)

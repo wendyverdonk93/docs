@@ -621,7 +621,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Pay After Delivery
-### Redirect
+### Redirect - Pay After Delivery
  Creates a redirect request Pay After Delivery order.
 
 * All parameters shown are required field(s)
@@ -652,7 +652,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Make sure you check out our dedicated documentation for [Pay After Delivery](/payment-methods/pay-after-delivery/).
 
-### Direct
+### Direct - Pay After Delivery
  Creates a direct request Pay After Delivery order.
 
 * All parameters shown are required field(s)
