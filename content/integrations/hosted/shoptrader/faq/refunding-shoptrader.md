@@ -5,4 +5,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 Please contact the Integration Team at <integration@multisafepay.com>
 <br>
-You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com).
+You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)

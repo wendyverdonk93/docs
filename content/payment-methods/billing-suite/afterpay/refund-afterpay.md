@@ -8,7 +8,7 @@ read_more: '.'
 
 # Request a refund 
 
-There are 3 ways to refund an AfterPay transaction in [MultiSafepay Control](https://merchant.multisafepay.com).
+There are 3 ways to refund an AfterPay transaction in [MultiSafepay Control](https://merchant.multisafepay.com)
 
 In all three cases of a refund, an amount will be refunded only if a payment is linked to the transaction. If no payment is linked to the transaction, only a credit on the invoice will take place.
 

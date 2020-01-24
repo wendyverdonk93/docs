@@ -5,7 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-Occasionally, you may see an error displayed in the response transaction request, transaction status or in the Offline Actions section of your [MultiSafepay Control](https://merchant.multisafepay.com).
+Occasionally, you may see an error displayed in the response transaction request, transaction status or in the Offline Actions section of your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 Below, there is a list of these error codes and their possible causes. This may be helpful in order for you to diagnose and correct any issues.
 

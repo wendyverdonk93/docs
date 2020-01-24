@@ -26,7 +26,7 @@ The full documentation on how to upload the files via an API request can be acce
 
 The MultiSafepay chargeback team will decide on whether the chargeback can be challenged, based on the quality of the delivered proof.
 
-The chargeback will be shown in a separate transaction connected to the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/). However, The required documentation to challenge the chargeback needs to be uploaded in the original transaction.
+The chargeback will be shown in a separate transaction connected to the original transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/) However, The required documentation to challenge the chargeback needs to be uploaded in the original transaction.
 
 _Please note: the card scheme will make the final decision_.
 

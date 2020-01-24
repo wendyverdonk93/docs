@@ -101,5 +101,5 @@ payment_options                | object | Contains the redirect_url, cancel_url 
 customer                       | object | Contains personal information about the customer.                                          |
 
 
-Please make sure you check out our dedicated documentation for [ING Home'Pay](/payment-methods/ing-home-pay/).
+Please make sure you check out our dedicated documentation for [ING Home'Pay](/payment-methods/ing-home-pay/)
 {{< /description >}}

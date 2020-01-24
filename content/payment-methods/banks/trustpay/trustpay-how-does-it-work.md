@@ -47,6 +47,6 @@ Some rules may apply to certain payment methods. For TrustPay, the following rul
 
 * As it is a standard bank transfer method, an expiry date exception for TrustPay transactions has been set to 10 days
 
-* TrustPay transactions are processed in [Czech Koruna (CZK)](/faq/general/which-currencies-are-supported-by-multisafepay/). 
+* TrustPay transactions are processed in [Czech Koruna (CZK)](/faq/general/which-currencies-are-supported-by-multisafepay/) 
    
  

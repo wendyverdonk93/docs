@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 # Request refund
-A Betaalplan transaction can be either fully or partially refunded in [MultiSafepay Control](https://merchant.multisafepay.com). 
+A Betaalplan transaction can be either fully or partially refunded in [MultiSafepay Control](https://merchant.multisafepay.com) 
 
 In both cases, the amount will be refunded only if there is an initial payment linked to the transaction. Otherwise, only a credit on the invoice will take place.
 

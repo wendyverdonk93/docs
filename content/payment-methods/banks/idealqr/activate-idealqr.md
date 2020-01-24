@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Activate
->_Important: iDEAL QR must be requested manually in order to enable it in your [MultiSafepay Control](https://merchant.multisafepay.com)._
+>_Important: iDEAL QR must be requested manually in order to enable it in your [MultiSafepay Control](https://merchant.multisafepay.com)_
 
 Submit your request to activate iDEAL QR through one of our account managers at <sales@multisafepay.com> 
 

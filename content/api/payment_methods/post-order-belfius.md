@@ -54,5 +54,5 @@ payment_options                | object |                                |
 customer                       | object |                                          |
 
 
-Please make sure you check out our dedicated documentation for [Belfius](/payment-methods/belfius/).
+Please make sure you check out our dedicated documentation for [Belfius](/payment-methods/belfius/)
 {{< /description >}}
