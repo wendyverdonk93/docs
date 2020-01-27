@@ -1067,41 +1067,41 @@ p {
     margin-bottom: 1.6rem;
 }
 
-.faq-content table {
+.faq-content table, .js-toc-content table{
 	margin-bottom: 1em;
 	overflow: auto
 }
 
-.faq-content table tbody{
+.faq-content table tbody, .js-toc-content table tbody{
 	vertical-align: top;
 }
 
-.faq-content table th, .content table td {
+.faq-content table th, .js-toc-content table th, .content table td, .js-toc-content table td {
 	text-align: left;
 	vertical-align: top;
 	line-height: 1.6
 }
-.faq-content table th {
+.faq-content table th, .js-toc-content table th {
 	padding: 0px 10px 5px;
 	border-bottom: 1px solid #ccc;
 	vertical-align: bottom
 }
-.faq-content table td {
+.faq-content table td, .js-toc-content table td {
 	padding: 10px 10px;
 }
-.faq-content table tr:last-child {
+.faq-content table tr:last-child, .js-toc-content table tr:last-child {
 	border-bottom: 1px solid #ccc
 }
-.faq-content table tr:nth-child(odd) > td {
+.faq-content table tr:nth-child(odd) > td, .js-toc-content table tr:nth-child(odd) > td {
 	background-color: #fff
 }
-.faq-content table tr:nth-child(even) > td {
+.faq-content table tr:nth-child(even) > td, .js-toc-content table tr:nth-child(even) > td {
 	background-color: #fafcfd
 }
-.faq-content dt {
+.faq-content dt, .js-toc-content dt{
 	font-weight: bold
 }
-.faq-content dd {
+.faq-content dd, .js-toc-content dd {
 	margin-left: 15px
 }
 
