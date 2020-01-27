@@ -5,7 +5,7 @@ meta_title: "How can I create a MultiSafepay Partner Account? - MultiSafepay Sup
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-## MultiSafepay Partner Account
+## MultiSafepay Partner Account Control
 
 If you would like to create a MultiSafepay Partner Account, we invite you to follow the instructions below:
 
@@ -13,7 +13,7 @@ __Step 1:__ Open the following page: [Signup with MultiSafepay]( https://merchan
 
 __Step 2:__ When logging into your account for the first time, a red button will be visible ‘Go to activation’  indicating that important documentation must be uploaded in order to proceed. This documentation is legally required for verification purposes related to your company and the Ultimate Beneficial Owners (UBO). 
 
-Please kindly upload the following documents and follow the payment instruction:
+Please kindly upload the following documents and follow the payment instruction in the last step:
 
 *	Copy of a certified Chamber of Commerce extract (not older than six months).
 
