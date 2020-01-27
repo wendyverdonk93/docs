@@ -106,4 +106,4 @@ For more information about recurring payments, please refer to our [dedicated pa
 | redirect_url                   | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
 | cancel_url                     | string    | Customer will be redirected to this page after a failed payment.  |  
 
-{{< description >}}
+{{< /description >}}

@@ -43,4 +43,4 @@ Update the order details.
 | ship_date                   | string  | The date that the order was shipped.                                                       |
 | reason                      | string  | Add a short free text memo to the order when setting the shipping status.                  |
 | invoice_id                  | string  | Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control. |
-{{< description >}}
+{{< /description >}}
