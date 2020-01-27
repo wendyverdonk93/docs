@@ -27,6 +27,7 @@ Multisafepay
 Merchant Control
 Merchant Back-office
 MultiSafepay Merchant Control
+MultiSafepay Control Panel
 Merchant Control Panel
 MultiSafepay Panel
 Partner dashboard
