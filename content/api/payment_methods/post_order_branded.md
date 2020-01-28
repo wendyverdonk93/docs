@@ -1,6 +1,6 @@
 ---
 weight: 307
-meta_title: "API - Create A Branded Credit Card order - Developers MultiSafepay"
+meta_title: "API - Create A Co-branded Credit Card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< code-block >}}
@@ -42,7 +42,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 
 {{< description >}}
-## Branded credit card 
+## Co-branded credit card 
 
 
 * All parameters shown are required field(s)
@@ -63,7 +63,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 | ip_address                      | string   | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
 
- The desired logo of a branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
+ The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
 Please make sure to check out our dedicated documentation on [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/)  
 {{< /description >}}
