@@ -1,8 +1,9 @@
 ---
-title: "Where can I find my invoice for the partner reimbursement?"
-weight: 4
-meta_title: "FAQ Partners - Find invoince for partner - MultiSafepay Support"
+title: 'Partner Account Control'
+weight: 40
+meta_title: "Partner Account Control - MultiSafepay Documentation Center"
+layout: 'faqplugins'
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+logo: '/svgs/Payment pages.svg'
+short_description: 'Read more about how you can manage your Partner Account Control'
 ---
-
-We send you the invoice every month by email. You can also request this via <partner@multisafepay.com>

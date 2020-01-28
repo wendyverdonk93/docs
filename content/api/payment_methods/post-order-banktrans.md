@@ -175,7 +175,7 @@ The bank transfer payment method can either be a direct or redirect order. In th
 | email                              | string | The email address where the system can send payment instructions to the customer. |
 
 
-Please make sure you check out our dedicated documentation for [bank transfers](/payment-methods/bank-transfer/).
+Please make sure you check out our dedicated documentation for [bank transfers](/payment-methods/bank-transfer/)
 
 
 ### Direct - Bank transfer

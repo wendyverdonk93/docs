@@ -60,7 +60,7 @@ MultiSafepay can accept on request new currencies for Visa, MasterCard and Maest
 1. The currency is only processed when it is supported by the selected [payment method](/payment-methods/)
 2. The desired currency is correctly processed within the transaction call, received by MultiSafepay when using [JSON](/api/#orders) requests
 3. The plugin settings allow the currency selected
-4. The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com/).
+4. The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 _When multiple currencies are enabled within your MultiSafepay Control, all currencies will be shown under Finance -> Balance_.  
 

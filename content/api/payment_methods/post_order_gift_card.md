@@ -1,5 +1,5 @@
 ---
-weight: 311
+weight: 314
 meta_title: "API - Create gift card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
@@ -100,5 +100,5 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Goodcard                       | GOODCARD                    |   |
 | Givacard                       | Branded gift cards will provide a gateway name upon release of the personilized gift card by our development team.                 |   |          
 
-Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/).
+Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/)
 {{< /description >}}

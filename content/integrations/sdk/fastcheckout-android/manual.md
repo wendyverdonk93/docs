@@ -53,7 +53,7 @@ Check the example below to see how you can setup the environment you want to use
 
 First you have to access into your Back Office and get a valid API Key (_Settings_ → _Website Settings_).
 
-Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk).
+Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
 Add the msp-android-sdk-release.aar as an embedded framework into your project. The next steps will guide you through the process:
 

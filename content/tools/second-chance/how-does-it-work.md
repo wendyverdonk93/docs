@@ -28,13 +28,13 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 3. [Betaalplan](/payment-methods/betaalplan/)
 4. [Pay After Delivery](/payment-methods/pay-after-delivery/)
 5. [Bank transfer](/payment-methods/bank-transfer/)
-6. [Direct Debit](/payment-methods/direct-debit/).
+6. [Direct Debit](/payment-methods/direct-debit/)
 
 
 ## Altering the Second Chance configuration
 At the moment you can not change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
 
-The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail/).
+The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail/)
 
 
 ### External plugins 
@@ -60,7 +60,7 @@ When the seconds_active is set within 84600 seconds (equivalent of 24 hours), th
 
 **When a payment link is set to expire within 24 hours and the Second Chance is enabled, the customer will receive an expired payment link in the Second Chance email.** 
 
-More information on <i>days_active</i> and <i>second_active</i> is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/).
+More information on <i>days_active</i> and <i>second_active</i> is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
 
 
 <br>

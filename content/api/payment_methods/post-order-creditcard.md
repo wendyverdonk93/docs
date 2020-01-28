@@ -1,5 +1,5 @@
 ---
-weight: 306
+weight: 308
 meta_title: "API - Create Credit Card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
@@ -49,7 +49,7 @@ All parameters shown are required.
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: redirect.                   |
-| gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. Options: [CREDITCARD](/payment-methods/creditcards/credit-card-payment-page/). |
+| gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. Options: [CREDITCARD](/payment-methods/creditcards/credit-card-payment-page/) |
 | order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer has to pay.                                     |

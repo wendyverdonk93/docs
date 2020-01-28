@@ -1,5 +1,5 @@
 ---
-weight: 340
+weight: 307
 meta_title: "API - Create A Branded Credit Card order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
@@ -65,5 +65,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
  The desired logo of a branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
-Please make sure to check out our dedicated documentation on [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/).  
+Please make sure to check out our dedicated documentation on [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/)  
 {{< /description >}}

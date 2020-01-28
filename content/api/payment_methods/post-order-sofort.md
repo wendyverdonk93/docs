@@ -1,5 +1,5 @@
 ---
-weight: 321
+weight: 325
 meta_title: "API - Create SOFORT order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
@@ -55,5 +55,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | customer                        | object | Contains personal information about the customer.                                          |
 
 
-Please make sure you check out our dedicated documentation for [SOFORT Banking](/payment-methods/sofort-banking/).
+Please make sure you check out our dedicated documentation for [SOFORT Banking](/payment-methods/sofort-banking/)
 {{< /description >}}

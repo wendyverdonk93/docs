@@ -1,5 +1,5 @@
 ---
-weight: 314
+weight: 315
 meta_title: "API - Create iDEAL QR order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
@@ -67,6 +67,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | max_amount                     | string  | With the max_amount you can specify what the maximum amount can be in case the allow_change_amount option is activated. This parameter is required when allow_change_amount is set. |
 
 
-Please make sure you check out our dedicated documentation for [iDEAL QR](/payment-methods/idealqr/).
+Please make sure you check out our dedicated documentation for [iDEAL QR](/payment-methods/idealqr/)
 
 {{< /description >}}
