@@ -284,3 +284,7 @@ span.m {
 	table-layout: fixed;
     width: 100%;
 }
+
+.content h2 , .content h3 {
+	font-weight: 500;
+}
