@@ -48,7 +48,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "fastcheckout": "NO",
     "modified": "2019-03-11T14:35:13",
     "customer": {
-      "locale": "nl_NL",
+      "locale": "be_BE",
       "first_name": "Testperson-nl",
       "last_name": "Approved",
       "address1": "Kraanspoor",
