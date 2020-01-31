@@ -22,6 +22,21 @@ We support SFTP by username/password and username/SSH keys.
 
 _We only support port 22 & 2222 for SFTP connections_
 
+
+## Requirements
+
+__SFTP - Push Request: For SFTP reporting the following protocol is required:__
+
+sh-ed25519,
+rsa-sha2-512,
+rsa-sha2-256,
+ecdsa-sha2-nistp521,
+ecdsa-sha2-nistp384,
+ecdsa-sha2-nistp256,
+ssh-rsa
+
+This must be supported on the SFTP server otherwise a report cannot be delivered.
+
 ## Frequency
 MultiSafepay can send the Automated Accountant Export daily, weekly or monthly.  You have the option of choosing the frequency and time. Our reference time is Central Eastern Summer Time (CEST).
 
