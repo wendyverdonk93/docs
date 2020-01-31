@@ -8,7 +8,7 @@ read_more: '.'
 ## How it works
 In order to pay with Mastercard, Visa or American Express the customer needs to fill in their card number, CVC-code and expiry date to release a payment. When the 3D Secure is enabled on the credit card, the customer needs to provide an authentic code on the next page to finalize the payment. The 3D secure insures that the customer is the rightful account holder.
 
-As payment processor, MultiSafepay is an acquirer itself for Visa and Mastercard.
+As payment processor, MultiSafepay is an [acquirer](/faq/getting-started/glossary/#acquirer) itself for Visa and Mastercard.
 
 ### "Visa, Mastercard and American Express" transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

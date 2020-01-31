@@ -5,4 +5,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-No, you do not need to perform any change if you already do not apply any surcharges on the products or services your webshop sells.
+No, you do not need to perform any change if you already do not apply any [surcharges](/faq/getting-started/glossary/#surcharge) on the products or services your webshop sells.

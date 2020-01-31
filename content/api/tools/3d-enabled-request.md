@@ -35,7 +35,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ```
 
 > JSON Response     
-> When 3D secure verification is required, the HTML form will be returned and should be rendered.
+> When [3D Secure](/faq/getting-started/glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
 
 ```shell
 "customer_verification": {

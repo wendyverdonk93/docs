@@ -5,7 +5,7 @@ meta_title: "Magento 1 plugin surcharge - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
-Magento 1 allows you to add a payment fee. The payment fee can be a surcharge by percentage or a fixed amount. Each payment method has the option to set a fee.
+Magento 1 allows you to add a payment fee. The payment fee can be a [Surcharge](/faq/getting-started/glossary/#surcharge) by percentage or a fixed amount. Each payment method has the option to set a fee.
 
 Other options available are settings like tax class for payment fee and show payment fee inclusive or exclusive during a checkout procedure.
 

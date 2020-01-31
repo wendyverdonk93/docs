@@ -13,7 +13,7 @@ Your right to apply surcharges may vary accordingly by the payment method and th
 ## What is NOT allowed?
 For the majority of payment transactions, retailers are no longer allowed to charge fees for using specific payment methods. 
 
-Surcharges are banned for:
+[Surcharges](/faq/getting-started/glossary/#surcharge) are banned for:
 
 * All VISA and Mastercard transactions when the consumer's bank or card issuer and the payment provider of the merchant are both located in a European Economic Area (EEA) state
 * Debit Card transactions (for both individuals and business customers)
