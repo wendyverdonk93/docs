@@ -29,6 +29,8 @@ Please follow these steps to refund a Betaalplan transaction:
 
 * Once the refund is confirmed, there is no possibility to reverse the refund
 
+* The initialized refund will be handed over to Santander who will handle the refund request. It is possible to initialize a refund at any time as there is no time limit on processing a refund.
+
 > A refund will only be processed if the balance on your MultiSafepay Control is sufficient.
 
 <br>

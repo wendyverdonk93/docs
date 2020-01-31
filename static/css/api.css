@@ -125,7 +125,7 @@ article {
 
 code.language-shell {
 	color: #F8F8F2;
-	white-space: pre-wrap;
+	white-space: pre-line;
 }
 
 span.s2{
@@ -281,6 +281,6 @@ span.m {
 }
 
 .content table {
-	table-layout: fixed;
+	table-layout: auto;
     width: 100%;
 }

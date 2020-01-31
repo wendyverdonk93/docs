@@ -1,10 +1,12 @@
 ---
 weight: 630
-meta_title: "API - plugin - Developers MultiSafepay"
+meta_title: "API - Plugin - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< description >}}
 ## Plugin information
+
+This plugin information is required for a Community Integration. For more information about these requirments, please visit our [dedicated documentation](https://docs.multisafepay.com/integrations/community/community/) page.
 
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
