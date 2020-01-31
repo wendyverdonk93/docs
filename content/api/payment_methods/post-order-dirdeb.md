@@ -1,6 +1,6 @@
 ---
-weight: 309
-meta_title: "API - Create Direct Debit order - Developers MultiSafepay"
+weight: 341 
+meta_title: "API - Create a SEPA Direct Debit order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< code-block >}}
@@ -62,10 +62,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "gateway_info": {
         "account_id": "NL87ABNA0000000001",
         "account_holder_name": "J Janse",
-        "account_holder_city": "Amsterdam",
-        "account_holder_country": "NL",
         "account_holder_iban": "NL87ABNA0000000001",
-        "account_holder_bic": "NL",
         "emandate": "madateID"
     }
 }
@@ -82,9 +79,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "currency": "EUR",
     "amount": 9743,
     "description": "Test order description",
-    "var1": null,
-    "var2": null,
-    "var3": null,
     "items": "",
     "amount_refunded": 0,
     "status": "initialized",
@@ -116,7 +110,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
       "account_holder_name": "J Janse",
       "external_transaction_id": "6190662598986790",
       "account_iban": "NL87ABNA0000000001",
-      "account_bic": "ABNANL01"
     },
     "costs": [
       {
@@ -134,9 +127,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< /code-block >}}
 {{< description >}}
-## Direct Debit
-### Redirect - Direct Debit
-When submitting a Direct Debit, the transaction data is checked.    
+## SEPA Direct Debit
+### Redirect
+When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html), the transaction data is checked.    
 
 * If approved, we return the status `initialized`.
 * After midnight, the transaction will be forwarded to our bank and the status changes to `uncleared`.
@@ -160,7 +153,7 @@ When submitting a Direct Debit, the transaction data is checked.
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 
 
-### Direct - Direct Debit
+### Direct
 
 * All parameters shown are required field(s)
 
@@ -177,11 +170,7 @@ customer                          | object | Contains the personal information o
 gateway_info                      | object |
 account_id                        | string | IBAN to be charged for the transaction.                                                 |
 account_holder_name               | string | Name of the owner of the bank account to be charged for the transaction.                |
-account_holder_city               | string | Place where the owner of the bank account to be charged for the transaction lives.      |
-account_holder_country            | string | Country where the owner of the bank account to be charged for the transaction lives.    |
 account_holder_iban               | string | IBAN to be charged for the transaction.                                                 |
-account_holder_swift              | string | SWIFT of the bank account to be charged for the transaction.                            |
-account_holder_bic                | string | BIC of the bank account to be charged for the transaction.                              |
 emandate                          | string | For your own adminstration, put the e-mandate here.                                     |
 ip_address                        | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
