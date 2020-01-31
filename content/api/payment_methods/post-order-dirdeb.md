@@ -45,25 +45,31 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "DIRDEB",
+    "recurring_id": "9989709237996847064",
     "currency": "EUR",
     "amount": "1000",
     "description": "Test Order Description",
+    "manual": "false",
     "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
+        "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": ""
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "31.148.195.10",
-        "forwarded_ip": ""
-    },
-    "gateway_info": {
-        "account_id": "NL87ABNA0000000001",
-        "account_holder_name": "J Janse",
-        "account_holder_iban": "NL87ABNA0000000001",
-        "emandate": "madateID"
+        "ip_address": "89.20.162.110",
+        "forwarded_ip": "",
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
+        "address1": "Kraanspoor",
+        "house_number": "39C",
+        "zip_code": "1033 SC",
+        "city": "Amsterdam",
+        "country": "NL",
+        "email": "example@multisafepay.com",
+        "referrer": "http://test.com",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
 }
 ```
@@ -73,54 +79,68 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {
   "success": true,
   "data": {
-    "transaction_id": 259898679,
-    "order_id": "y-order-id-1",
-    "created": "2019-03-08T09:23:46",
-    "currency": "EUR",
-    "amount": 9743,
-    "description": "Test order description",
-    "items": "",
+    "amount": 1000,
     "amount_refunded": 0,
-    "status": "initialized",
-    "financial_status": "initialized",
-    "reason": "",
-    "reason_code": "",
-    "fastcheckout": "NO",
-    "modified": "2019-03-08T09:23:46",
+    "costs": [],
+    "created": "2020-01-31T10:28:31",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
     "customer": {
+      "address1": "Kraanspoor",
+      "city": "Amsterdam",
+      "country": "NL",
+      "country_name": "Netherlands",
+      "email": "example@multisafepay.com",
+      "first_name": "Testperson-nl",
+      "house_number": "39C",
+      "last_name": "Approved",
       "locale": "nl_NL",
-      "first_name": null,
-      "last_name": null,
-      "address1": null,
-      "address2": null,
-      "house_number": null,
-      "zip_code": null,
-      "city": null,
-      "state": null,
-      "country": null,
-      "country_name": null,
-      "phone1": null,
-      "phone2": "",
-      "email": ""
+      "phone1": "0208500500",
+      "zip_code": "1033SC"
     },
+    "description": "Test Order Description",
+    "fastcheckout": "NO",
+    "financial_status": "initialized",
+    "items": null,
+    "modified": "2020-01-31T10:28:31",
+    "order_id": "my-order-id-1",
     "payment_details": {
-      "recurring_id": "",
-      "type": "DIRDEB",
-      "account_id": "NL87ABNA0000000001",
-      "account_holder_name": "J Janse",
-      "external_transaction_id": "6190662598986790",
+      "account_bic": "ABNANL2A",
+      "account_holder_name": "Testperson-nl",
       "account_iban": "NL87ABNA0000000001",
+      "account_id": 1,
+      "external_transaction_id": "7202003040376730",
+      "issuer_id": 3151,
+      "recurring_id": "9989672984696715704",
+      "recurring_model": null,
+      "type": "DIRDEB"
     },
-    "costs": [
+    "payment_methods": [
       {
-        "transaction_id": 279354751,
-        "description": "0.3 For Direct Debit Transactions",
-        "type": "SYSTEM",
-        "amount": 0.3
+        "account_bic": "ABNANL2A",
+        "account_holder_name": "Test-person-nl",
+        "account_iban": "NL87ABNA0000000001",
+        "account_id": 1,
+        "amount": 1000,
+        "currency": "EUR",
+        "description": "Test Order Description",
+        "external_transaction_id": "7202003040376730",
+        "payment_description": "Direct Debit",
+        "status": "initialized",
+        "type": "DIRDEB"
       }
     ],
-    "payment_url": "https://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
-    "cancel_url": "https://www.example.com/client/notification?type=cancel&transactionid=my-order-id-1"
+    "reason": "",
+    "reason_code": "",
+    "related_transactions": null,
+    "status": "initialized",
+    "transaction_id": 4037673,
+    "payment_url": "http://www.example.com/client/notification?type=redirect&transactionid=my-order-id-12",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel&transactionid=my-order-id-12"
   }
 }
 ```
@@ -135,7 +155,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 * After midnight, the transaction will be forwarded to our bank and the status changes to `uncleared`.
 * Once the funds are received on our bank account, the status changes to `completed`.
 
-* All parameters shown are required field(s)
+* All parameters shown are required field(s) for a SEPA _Redirect_ Direct Debit transaction.
 
 | Parameter                      | Type      | Description                                                                             |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -155,7 +175,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 
 ### Direct
 
-* All parameters shown are required field(s)
+* All parameters shown are required field(s) for a SEPA Direct Debit _Direct_ transaction.
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
@@ -167,15 +187,28 @@ amount                            | integer | The amount (in cents) that the cus
 description                       | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this.  |
 payment_options                   | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
 customer                          | object | Contains the personal information of the customer.                                      |
+| ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)  |
+| locale	|  string | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. | 
 gateway_info                      | object |
-account_id                        | string | IBAN to be charged for the transaction.                                                 |
-account_holder_name               | string | Name of the owner of the bank account to be charged for the transaction.                |
-account_holder_iban               | string | IBAN to be charged for the transaction.                                                 |
-emandate                          | string | For your own adminstration, put the e-mandate here.                                     |
-ip_address                        | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
-forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
+recurring_id                       | string | The unique recurring id used for recurring payments.                                               |
 
 
 Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/)
+
+### SEPA Direct Debit transaction with an IBAN
+
+It is possible to process a Direct Debit transaction with an IBAN. In that case, the following parameters are required:
+
+| Parameter                       | Type     | Description                                                                             |
+|---------------------------------|----------|-----------------------------------------------------------------------------------------|
+| gateway_info                    | object | Contains the issuer_id. |
+|account_id	| string |	IBAN to be charged for the transaction.|
+|account_holder_name	|  string  | The customer’s name here if provided in transaction request. |
+| account_holder_city | string | The customer’s city here if provided in transaction request.
+| account_holder_country	| string | The customer’s country here if provided in transaction request. |
+|  account_holder_iban	 |  string |  IBAN to be charged for the transaction. |
+| account_holder_bic  | string | The BIC code related to the IBAN | 
+|  emandate  | string | For your own adminstration, put the e-mandate here. |
+
 
 {{< /description >}}
