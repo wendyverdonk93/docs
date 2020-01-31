@@ -60,6 +60,6 @@ When the customer has not supplied a payment, the transaction can be cancelled b
 8. The funds will be deducted from your MultiSafepay balance
 9. The invoice has been settled
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/) for more information.
+In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information.
 
 <br>
