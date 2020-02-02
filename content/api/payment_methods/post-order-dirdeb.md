@@ -1,6 +1,6 @@
 ---
 weight: 341 
-meta_title: "API - Create a SEPA Direct Debit order - Developers MultiSafepay"
+meta_title: "API - Create a Direct Debit (SEPA) order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< code-block >}}
@@ -147,15 +147,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< /code-block >}}
 {{< description >}}
-## SEPA Direct Debit
+## Direct Debit (SEPA)
 ### Redirect
-When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html), the transaction data is checked.    
+When submitting a [Direct Debit](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html), the transaction data is checked.    
 
 * If approved, we return the status `initialized`.
 * After midnight, the transaction will be forwarded to our bank and the status changes to `uncleared`.
 * Once the funds are received on our bank account, the status changes to `completed`.
 
-* All parameters shown are required field(s) for a SEPA _Redirect_ Direct Debit transaction.
+* All parameters shown are required field(s) for a _Redirect_ Direct Debit transaction.
 
 | Parameter                      | Type      | Description                                                                             |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
@@ -175,7 +175,7 @@ When submitting a [SEPA Direct Debit](https://www.ecb.europa.eu/paym/integration
 
 ### Direct
 
-* All parameters shown are required field(s) for a SEPA Direct Debit _Direct_ transaction.
+* All parameters shown are required field(s) for a Direct Debit _Direct_ transaction.
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
@@ -195,7 +195,7 @@ recurring_id                       | string | The unique recurring id used for r
 
 Please make sure you check out our dedicated documentation for [Direct Debit](/payment-methods/direct-debit/)
 
-### SEPA Direct Debit transaction with an IBAN
+### Direct Debit (SEPA) transaction with an IBAN
 
 It is possible to process a Direct Debit transaction with an IBAN. In that case, the following parameters are required:
 
