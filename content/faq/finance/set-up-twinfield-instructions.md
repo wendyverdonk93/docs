@@ -22,15 +22,14 @@ In order to be able to import an accountant export from your MultiSafepay Contro
 1. Navigate to _Reports_ --> _Accountant Export_ in your MultiSafepay Control
 2. Select a range of dates from _Data Selection_
 3. Select 'MT940' from the field _Report Type_
-4. It is advised to select Yes at _Group costs 1 record_
-5. Select Twinfield from _Speical Format_
+5. Select Twinfield from _Special Format_
 6. Fill in the dummy IBAN number at _Bank Account / IBAN_
 7. Fill in the BIC code in the _BIC_ field.
 
 ## Twinfield Import Instructions
 
-1. Log into your Twinfield account and select the _Cash & banks_ section in the menu.
+1. Log into your Twinfield account and select the _Cash & Banks_ section in the menu.
 2. Select _Cash & Banks_ one more time.
 3. Insert a new code in the _Code_ line, give it a e.g. name MSPAY and press _Next_.
 4. Fill in the required details as Account number, Account name, IBAN, BIC, General ledger account.
-5. Go back to the main _Cash & banks_ section and select _Drag and drop bank statements or browse_. Upload the MT940 statement generated in MultiSafepay Control. 
+5. Go back to the main _Cash & Banks_ section and select _Drag and drop bank statements or browse_. Upload the MT940 statement generated in MultiSafepay Control. 
