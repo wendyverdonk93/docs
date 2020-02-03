@@ -7,7 +7,6 @@ Banktransfer
 Bank Transfer
 Working days
 Charge back
-Charge back
 login details
 creditcard
 e-commerce
@@ -46,4 +45,3 @@ shop
 online shop
 postpay
 post Pay
-postpay
