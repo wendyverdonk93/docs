@@ -33,4 +33,4 @@ Please follow these steps to refund a Betaalplan transaction:
 
 > A refund will only be processed if the balance on your MultiSafepay Control is sufficient.
 
-<br>
+
