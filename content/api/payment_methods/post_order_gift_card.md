@@ -75,30 +75,25 @@ The gateway names of the standard gift cards MultiSafepay offers
 
 | Gift card name                 | Gateway name, gift card     |                         |
 |--------------------------------|-----------------------------|-------------------------| 
-| Nationaletuinbon               | NATNLETUIN                  |   |
-| Goodcard                       | GOODCARD                    |   | 
-| Fashioncheque                  | FASHIONCHQ                  |   |
-| Fietsenbon                     | FIETSENBON                  |   |
-| VVV Cadeaukaart                | VVVGIFTCRD                  |   |
-| Nationaleverwencadeaubon       | NATNLVRWCB                  |   | 
-| Webshopgiftcard                | WEBSHOPGFT                  |   |
-| Vuur & rook gift card           | VRGIFTCARD                  |   | 
-| Wijncadeau                     | WIJNCADEAU                  |   | 
-| Yourgift                       | YOURGIFT                    |   |           
-| Fashiongiftcard                | FASHIONGFT                  |   |
-| Sportenfit                     | SPORTENFIT                  |   | 
-| Gezondheidsbon                 | GEZONDHEID                  |   |
-| Babygiftcard                   | BABYGFTCRD                  |   |     
-| Boekenbon                      | BOEKENBON                   |   |
-| Degrotespeelgoedwinkel         | DEGROTESPL                  |   | 
-| Erotiekbon                     | EROTIEKBON                  |   | 
-| Parfumcadeaukaart              | PARFUMCADE                  |   | 
-| Parfumnl                       | PARFUMNL                    |   |
 | Beautyandwellness              | BEAUTYWELL                  |   |
 | Bloemencadeaukaart             | BLOEMENCAD                  |   |
-| Nationale bioscoopbon          | NATNLBIOSC                  |   | 
-| Goodcard                       | GOODCARD                    |   |
+| Boekenbon                      | BOEKENBON                   |   |
+| Degrotespeelgoedwinkel         | DEGROTESPL                  |   | 
+| Fashioncheque                  | FASHIONCHQ                  |   |
+| Fashiongiftcard                | FASHIONGFT                  |   |
+| Fietsenbon                     | FIETSENBON                  |   |
+| Gezondheidsbon                 | GEZONDHEID                  |   |
 | Givacard                       | Branded gift cards will provide a gateway name upon release of the personilized gift card by our development team.                 |   |          
+| Goodcard                       | GOODCARD                    |   |
+| Nationale bioscoopbon          | NATNLBIOSC                  |   | 
+| Nationaletuinbon               | NATNLETUIN                  |   |
+| Parfumcadeaukaart              | PARFUMCADE                  |   | 
+| Sportenfit                     | SPORTENFIT                  |   | 
+| Vuur & rook gift card           | VRGIFTCARD                  |   | 
+| VVV Cadeaukaart                | VVVGIFTCRD                  |   |
+| Webshopgiftcard                | WEBSHOPGFT                  |   |
+| Wijncadeau                     | WIJNCADEAU                  |   | 
+| Yourgift                       | YOURGIFT                    |   |           
 
 Please make sure you check out our dedicated documentation for [gift cards](/payment-methods/prepaid-cards/gift-cards/)
 {{< /description >}}
