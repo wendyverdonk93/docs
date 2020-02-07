@@ -318,6 +318,7 @@ Redirect 301 /integrations/zencart/changelog/ https://docs.multisafepay.com/inte
 Redirect 301 /integrations/plugins/magento2/changelog/ https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 Redirect 301 /payment-methods/giftcards/branded-personalized-gift-card/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
 Redirect 301 /payment-page-templates/ https://docs.multisafepay.com/tools/payment-pages/payment-page-templates/
+Redirect 301 /integrations/community/community/ https://docs.multisafepay.com/integrations/community/community-integration-requirements/
 
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
