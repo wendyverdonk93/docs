@@ -52,5 +52,5 @@ By default this parameter is 'GET'.
 
 Use our API reference on [server to server](/api/#server-to-server) for more information on how to process a direct credit card payment.
 
-<br>
+
 

@@ -28,4 +28,6 @@ The liability issues involved with 3D secure transactions are outside of the sco
 
 >_MultiSafepay only supports Mastercard Secure Code, Verified by Visa, American Express Safekey and Bancontact 3D_.
 
-<br>
+
+
+

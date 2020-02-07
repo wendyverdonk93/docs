@@ -41,7 +41,7 @@ The Second Chance email can be personalised through an email template. More info
 When enabled, the Second Chance email can have a negative result if, for example, you use an external warehouse system. A simple cron may resolve a conflict between the Second Chance email and a warehouse system. However, it is not a stable solution in all situations. 
 
 **Example:**        
-When an order is cancelled in the webshop, an order can still be paid by Second Chance. This can be done within 30 days or within <i>days_active</i> / <i>second_active</i>. If an order is paid, we will reopen the order within the webshop. A warehouse system may already release the reservation on the order upon receiving a _cancelled_ status, or, in some cases, consider the _cancelled_ status to be permanent. As result, it may be, that the order is no longer available in stock. 
+When an order is cancelled in the webshop, an order can still be paid by Second Chance. This can be done within 30 days or within _days_\__active_ / _second_\__active_. If an order is paid, we will reopen the order within the webshop. A warehouse system may already release the reservation on the order upon receiving a _cancelled_ status, or, in some cases, consider the _cancelled_ status to be permanent. As result, it may be, that the order is no longer available in stock. 
 
 **The Second Chance email is also likely to cause an issue in combination with running an ERP system.** 
 
@@ -50,7 +50,7 @@ The payment link added in the Second Chance email has the same lifetime as the o
 
 
 ### Days and seconds active
-When enabled, the Second Chance email will be sent once after 1 hour and once after 24 hours. This cannot be adjusted at this time. It is, however, possible to influence the life of the payment link by changing the parameters <i>days_active</i> and <i>second_active</i>. 
+When enabled, the Second Chance email will be sent once after 1 hour and once after 24 hours. This cannot be adjusted at this time. It is, however, possible to influence the life of the payment link by changing the parameters _days_\__active_ and _second_\__active_. 
 
 **Example 1:**      
 When the days_active is set to 2, the payment link will automatically expire after the two days. The customer will not be able to complete the payment after the expired period. This ensures that the stock is reversed after the payment link expires.
@@ -60,7 +60,6 @@ When the seconds_active is set within 84600 seconds (equivalent of 24 hours), th
 
 **When a payment link is set to expire within 24 hours and the Second Chance is enabled, the customer will receive an expired payment link in the Second Chance email.** 
 
-More information on <i>days_active</i> and <i>second_active</i> is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
+More information on _days_\__active_ and _second_\__active_ is available on our FAQ page, [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
 
 
-<br>

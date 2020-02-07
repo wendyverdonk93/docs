@@ -67,4 +67,4 @@ By default, all card orders are processed with 3D Secure.
 
 Read more about Dynamic 3D Secure in our FAQ page [Dynamic 3D Secure](/tools/server2server/3d-dynamics/)
 
-<br>
+
