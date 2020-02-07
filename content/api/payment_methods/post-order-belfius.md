@@ -20,7 +20,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "be_BE"
     }
 }
 ```
