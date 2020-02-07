@@ -10,6 +10,15 @@ A customer chooses to pay with SOFORT Banking, authenticates their account, and 
 
 * _Once a payment is completed, the payout is guaranteed and cannot be reversed by the customer_.
 
+## Supported currencies
+
+SOFORT Banking supports the following currencies:
+
+* Euro (EUR)
+* British pounds (GBP)
+* Swiss Franc (CHF)
+* Polish Zloty (PLN)
+
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
