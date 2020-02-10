@@ -44,4 +44,3 @@ If you want to change a Betaalplan order between acceptance of Santander and shi
 5. Refund the required amount: the original or partial amount.
 It is not possible to increase the amount of the initial order. If for some reason this is required, please contact your account manager.
 
-<br>
