@@ -53,4 +53,6 @@ Some rules may apply to certain payment methods. For SOFORT Banking, the followi
 
 * Successful SOFORT Banking transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
-* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page<br>
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+
+
