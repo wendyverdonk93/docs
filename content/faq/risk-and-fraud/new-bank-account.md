@@ -13,4 +13,4 @@ The new bank account will be verified within 5 business days. Please note that w
 
 _If more than a bank account has changed within your company, it is advisable to read the following article [Change of company details](/faq/risk-and-fraud/change-of-company-details/)_
 
-<br>
+

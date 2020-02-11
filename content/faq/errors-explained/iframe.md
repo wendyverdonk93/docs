@@ -27,4 +27,4 @@ Therefore, the following option will be available to you.
  
 If any assistance is requested or needed, please contact our Integration Team at <integration@multisafepay.com>
  
-<br>
+

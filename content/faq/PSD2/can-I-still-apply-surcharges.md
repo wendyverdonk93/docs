@@ -31,7 +31,8 @@ Certain payment methods do not fall under the surcharge prohibition, as follows:
 
 * Business/Corporate credit cards do not fall under this category either and therefore surcharges can still be applied (e.g. Visa World Card Business, Mastercard Business, etc)
 
-* American Express and Diners Club are exceptions from the rule, too. Surcharges for these cards can still be applied regardless.<br>
+* American Express and Diners Club are exceptions from the rule, too. Surcharges for these cards can still be applied regardless.
+
 
 > Please note that for hybrid card schemes such as American Express and Diners Club, it is up to each country to decide whether or not surcharging is allowed. Dutch law does not prohibit it, but other countries such as France, Belgium and the United Kingdom might deal with this differently.
 
@@ -40,5 +41,6 @@ Whereas the new PSD2 is mostly concerned with Business-to-Consumer (B2C) payment
 
 To what concerns B2B payments, credit card payments done by corporate/business customers (corporate/business credit cards) are protected from the ban and can still be surcharged. However, surcharging for direct debit, standard bank transfers and debit card transactions, even if carried out by business customers, are all banned under PSD2. 
 
-<br>
+
+
 _Disclaimer: the information in this article has a general informative purpose. Given the changing nature of the law, rules, regulations and information in general, as well as the risk related to electronic communication, there could be delays, omissions or inaccuracies in the information contained in this article. As a result, the information in this article should not be used in place of a consultation with a professional consultant. We recommend that you consult the competent authority before taking any decision or action. While we have taken the greatest possible care in compiling the information released in the article, MultiSafepay can not guarantee the completeness, timeliness and / or accuracy of the information. As a result, MultiSafepay accepts no responsibility for direct or consequential damages resulting from the use of, reliance on or actions taken based on information provided in this article._

@@ -35,7 +35,8 @@ We keep our colors clean, clear and simple. Just like our products and services.
 
  
 ### Tagline
-Our tagline is Smart Payment Services. <br>
+Our tagline is Smart Payment Services.
+ 
 We can use our tagline individually or combined with the logo. Header font size: 30pt.
 
 ### Subheader

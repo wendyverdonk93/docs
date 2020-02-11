@@ -50,4 +50,5 @@ Once your system receives a notification, it must retrieve the transaction statu
 
 After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within [MultiSafepay Control](https://merchant.multisafepay.com)
 
-<br>
+
+
