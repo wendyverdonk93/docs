@@ -8,7 +8,11 @@ layout: 'single'
 title_short: "Twinfield"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your Twinfield platform"
-description_short: "Read about how you can generate a MultiSafepay export manually or automatically and import to your Twinfield platform"
+description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your Twinfield bookkeeping system."
+extra_button:
+    url: "https://taxnl.wolterskluwer.com/" 
+    text: "Go to site" 
+    type: "primary"
 ---
 
 ### Supported export formats
@@ -17,27 +21,19 @@ Twinfield supports one export format:
 
 * MT940
 
-### How to generate an Accountant Export Report
+### Accountant Export Report
 
-It is possible to generate an Accountant Export Report in your MultiSafepay Control. We invite you to follow these steps:
-
-1. Login to your [MultiSafepay Control](https://merchant.multisafepay.com/) account
-2. Go to Reports and select Accountant export
-3. Fill in the date selection
-4. Change the report type to MT940 format
-5. Generate report
-
-In the Accountant Export Report, all incoming and outgoing completed transactions are displayed in the specified period in which you generate the report. Therefore, you will have an insight into every processed and completed transaction, as well as their associated costs.
+It is possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/how-to-generate-a-mt940-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/). Our dedicated documentation will assist you in this.
 
 ### Automated Accountant Export
 
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/).
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
 
 ### Twinfield Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to follow these set of instructions:
+If you would like to import a MultiSafapay Accountant Export, we would like to kindly ask you to follow these set of instructions:
 
-1. Log into your Twinfield account and select the _Cash & Banks_ section in the menu
+1. Log into your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7) and select the _Cash & Banks_ section in the menu
 2. Select _Cash & Banks_ one more time
 3. Insert a new code in the _Code_ line, give it a e.g. name MSPAY and press Next
 4. Fill in the required details as Account number, Account name, IBAN, BIC, General ledger account

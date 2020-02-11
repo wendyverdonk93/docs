@@ -8,7 +8,11 @@ layout: 'single'
 title_short: "dealer4dealer"
 read_more: "."
 short_description: "Read about how you can generate a MultiSafepay export and import to your deader4dealer platform"
-description_short: "Read about how you can generate a MultiSafepay export manually or automatically and import to your dealer4dealer platform"
+description_short: "Implement MultiSafepay Accountant Export Reports to your deader4dealer platform with ease."
+extra_button:
+    url: "https://dealer4dealer.nl/afletteren-exact-online/" 
+    text: "Go to site" 
+    type: "primary"
 ---
 ### Supported export formats
 
@@ -19,23 +23,11 @@ dealer4dealer supports two specific export formats. These are:
 
 ### Accountant Export Report
 
-In order to export the __CSV__ and __MT940__ reports, please follow the instructions below in your MultiSafepay Control:
-
-### How to generate an Accountant Export Report
-
-It is possible to generate an Accountant Export Report in your MultiSafepay Control. We invite you to follow these steps:
-
-1. Login to your [MultiSafepay Control](https://merchant.multisafepay.com/) account
-2. Go to Reports and select Accountant export
-3. Fill in the date selection
-4. Change the report type to CSV or MT940 format
-5. Generate report
-
-In the Accountant Export Report, all incoming and outgoing completed transactions are displayed in the specified period in which you generate the report. Therefore, you will have an insight into every processed and completed transaction, as well as their associated costs.
+It is possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/how-to-generate-a-mt940-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/). Our dedicated documentation will assist you in this.
 
 ### Automated Accountant Export
 
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/).
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
 
 ### dealer4dealer Import MultiSafepay
 
