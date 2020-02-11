@@ -21,19 +21,23 @@ AFAS Software supports one export format:
 
 * MT940
 
-### Automated Accountant Export
+### AFAS Software Import MultiSafepay
 
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/).
+If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [AFAS Software](https://www.afas.nl/contact) will assist you directly in this.
+
+### Accountant Report Export
+
+MultiSafepay offers two methods to export Accountant reports:
+
+1. _Automatic_
+
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
 
 An automated account export can also be executed using [Forque](https://www.forque.nl/). If you have any questions, we kindly ask you to contact Forque directly.
 
-### Accountant Export Report
+2. _Manual_
 
-It is possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/how-to-generate-a-mt940-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/). Our dedicated documentation will assist you in this.
+It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/) manually. Our dedicated documentation will assist you in this.
 
 
-### AFAS Software Import MultiSafepay
-
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [AFAS Software](https://www.afas.nl/contact) will assit you directly in this.
-
-If you still have inquiries, do not hesitate to contact us at <integration@multisafepay.com> and we will do our best to answer any questions.
+If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.

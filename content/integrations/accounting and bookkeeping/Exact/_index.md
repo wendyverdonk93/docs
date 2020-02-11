@@ -21,14 +21,6 @@ Exact supports one export format:
 
 * MT940
 
-### Accountant Export Report
-
-It is possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/how-to-generate-a-mt940-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/). Our dedicated documentation will assist you in this.
-
-### Automated Accountant Export
-
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/).
-
 ### Exact Import MultiSafepay
 
 If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to follow the set of instructions below:
@@ -44,3 +36,19 @@ If you would like to import a MultiSafapay accountant export, we would like to k
 * the customer’s name and the order amounts that appear in the exported accountant files correspond to those in your accounting platform
 
 __Please note__: _Exact Basic / Standard package does not support the MT940 import function, at least Exact Advanced version is required to import an MT940 report. Lightspeed users must require Lightspeed to perform an adjustment to make sure the order number appears in the correct field in Exact for it to be matched with our MT940._
+
+### Accountant Report Export
+
+MultiSafepay offers two methods to export Accountant reports:
+
+1. _Automatic_
+
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
+
+
+2. _Manual_
+
+It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/) manually. Our dedicated documentation will assist you in this.
+
+
+If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.

@@ -21,16 +21,21 @@ King Business Software supports one export format:
 
 * MT940
 
-### Accountant Export Report
-
-It is possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/how-to-generate-a-mt940-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/). Our dedicated documentation will assist you in this.
-
-### Automated Accountant Export
-
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
-
 ### King Business Software Import MultiSafepay
 
 If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to visit our partner's website. [King](https://service.king.eu/) will assit you directly in this.
 
-If you still have inquiries, do not hesitate to contact us at <integration@multisafepay.com> and we will do our best to answer any questions.
+### Accountant Report Export
+
+MultiSafepay offers two methods to export Accountant reports:
+
+1. _Automatic_
+
+If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
+
+2. _Manual_
+
+It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/) manually. Our dedicated documentation will assist you in this.
+
+
+If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
