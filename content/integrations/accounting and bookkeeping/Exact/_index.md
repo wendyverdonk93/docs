@@ -41,12 +41,12 @@ __Please note__: _Exact Basic / Standard package does not support the MT940 impo
 
 MultiSafepay offers two methods to export Accountant reports:
 
-1. _Automatic_
+#### 1. _Automatic_
 
 If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
 
 
-2. _Manual_
+#### 2. _Manual_
 
 It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/) manually. Our dedicated documentation will assist you in this.
 
