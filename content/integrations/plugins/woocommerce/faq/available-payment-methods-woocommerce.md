@@ -43,21 +43,17 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/paysafecard/)
-+ Baby gift card
 + Beauty and Welness gift card
 + Boekenbon
 + De grote speelgoedwinkel
-+ Erotiekbon
++ Fashion Cheque
 + Fashion gift card
 + Gezondheidsbon
 + Givacard
-+ Lief
 + Parfumcadeaukaart
-+ ParfumNL
++ [Paysafecard](/payment-methods/paysafecard/)
 + Sport en Fit
 + VVV gift card
 + Webshop gift card
 + Wijncadeau
 + Yourgift
-+ Fashion Cheque

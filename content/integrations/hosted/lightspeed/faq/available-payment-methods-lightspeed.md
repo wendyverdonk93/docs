@@ -22,7 +22,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 __Gift cards__
 
-+ E-bon
 + Fashioncheque
 + Fashion gift card
 + VVV gift card

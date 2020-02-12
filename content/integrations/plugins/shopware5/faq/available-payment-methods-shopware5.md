@@ -43,11 +43,8 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/paysafecard/)
-+ Baby gift card
 + Beauty and wellness
 + Boekenbon
-+ Erotiekbon
 + Fashioncheque
 + Fashion gift card
 + Fietsenbon
@@ -55,8 +52,8 @@ __Prepaid cards__
 + Givacard
 + Goodcard
 + Nationale tuinbon
-+ Nationale verwencadeaubon
 + Parfumcadeaukaart
++ [Paysafecard](/payment-methods/paysafecard/)
 + Podium
 + Sport en fit
 + VVV gift card
