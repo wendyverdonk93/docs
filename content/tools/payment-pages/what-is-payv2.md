@@ -14,4 +14,3 @@ MultiSafepay provides two versions of payment pages:
 With the latter, you can use all new payment methods and use our editor for your own styling.
 {{< youtube r1I6pthxlGo >}}
 
-<br>

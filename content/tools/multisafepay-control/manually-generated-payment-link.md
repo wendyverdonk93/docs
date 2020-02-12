@@ -6,8 +6,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-## What is a manually generated payment link and what do merchants use it for? 
-<br>
+## What is a manually generated payment link and what do merchants use it for?
+
 For several scenarios, it can be useful for our merchants to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
 
 Examples:

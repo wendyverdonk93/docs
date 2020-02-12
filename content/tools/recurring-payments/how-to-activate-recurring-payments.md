@@ -6,7 +6,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-Recurring payments are not included by default in your [MultiSafepay Control](https://merchant.multisafepay.com/) <br>
+Recurring payments are not included by default in your [MultiSafepay Control](https://merchant.multisafepay.com/). 
+
+
 A request to activate recurring payments can be sent to either your account manager or to our Risk Team at <screening@multisafepay.com>
 
 There is a fixed limit to the amount of recurring payments you may charge per recurring ID. By default, this can be done once every 24 hours.
