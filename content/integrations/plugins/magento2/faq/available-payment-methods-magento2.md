@@ -35,6 +35,7 @@ __Billing suite__
 + [Betaalplan](/payment-methods/betaalplan/)
 + [E-Invoice](/payment-methods/e-invoicing/)
 + [Klarna](/payment-methods/klarna)
++ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/)
 
 __Wallet__ 
 
