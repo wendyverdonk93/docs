@@ -43,14 +43,11 @@ __Wallet__
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/paysafecard/)
-+ Baby gift card
 + Boekenbon
-+ Erotiekbon
 + Fashion Cheque
 + Fashion gift card
 + Gezondheidsbon
-+ Lief
 + Parfum cadeaukaart
++ [Paysafecard](/payment-methods/paysafecard/)
 + Wijn cadeau
 + Yourgift

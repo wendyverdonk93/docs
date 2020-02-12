@@ -43,7 +43,6 @@ __Prepaid cards__
 + Boekenbon
 + Brouwmarkt
 + De grote speelgoedwinkel
-+ Erotiekbon
 + Fashion Cheque
 + Fashion gift card
 + Gezondheidsbon
@@ -51,10 +50,8 @@ __Prepaid cards__
 + Goodcard
 + Jewelstore
 + Kelly gift card
-+ Lief
 + Nationale tuinbon
 + Parfumcadeaukaart
-+ ParfumNL
 + Podium
 + Sport en Fit
 + VVV gift card
