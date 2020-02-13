@@ -38,4 +38,4 @@ Enabling recurring payment will allow you to collect the amount of a customers b
 
 
 
-<br>
+

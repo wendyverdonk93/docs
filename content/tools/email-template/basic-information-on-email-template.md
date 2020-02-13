@@ -80,6 +80,3 @@ A locale is a set of parameters that defines the user’s language, region and a
 
 
 
-
-
-<br>

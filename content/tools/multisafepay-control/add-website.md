@@ -36,11 +36,12 @@ Follow the following steps to locate your website details:
 
 1. Navigate to _Settings -> Website settings_
 
-2. Open the webshop by clicking on it. <br> The following information will be provided to be able to proceed with establishing the connection:
+2. Open the webshop by clicking on it. The following information will be provided to be able to proceed with establishing the connection:
 
     * API key
     * Site ID
-    * Secure Code.<br>
+    * Secure Code
+    
     
 3. Most plugins supported by MultiSafepay will request an API key, Site ID, Secure code and an Account ID 
     * _Your Account ID is shown in your dashboard in the top right corner behind your company name_ <br>
