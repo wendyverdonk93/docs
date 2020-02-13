@@ -19,7 +19,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "items": "",
     "manual": "false",
     "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
         "close_window": ""
@@ -396,9 +396,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "description": "Test Order Description",
     "manual": "false",
     "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification&#34",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect&#34",
-        "cancel_url": "http: //www.example.com/client/notification?type=cancel&#34",
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "redirect_url": "http://www.example.com/client/notification?type=redirect",
+        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
+        "close_window": ""
     },
     "customer": {
         "locale": "nl_NL",

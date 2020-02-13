@@ -24,7 +24,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "email": "example@example.com"
     },
     "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
+        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
         "close_window": ""
@@ -215,9 +215,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "email": "example@multisafepay.com"
     },
     "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification&#34",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect&#34",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel&#34",
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "redirect_url": "http://www.example.com/client/notification?type=redirect",
+        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
         "close_window": ""
     },
     "plugin": {
@@ -612,7 +612,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "status": "uncleared",
     "transaction_id": 4022655,
-    "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US&#34",
+    "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
     "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }
 }
