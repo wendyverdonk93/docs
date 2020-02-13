@@ -317,6 +317,7 @@ Redirect 301 /integrations/x-cart/changelog/ https://docs.multisafepay.com/integ
 Redirect 301 /integrations/zencart/changelog/ https://docs.multisafepay.com/integrations/plugins/zencart/changelog/
 Redirect 301 /integrations/plugins/magento2/changelog/ https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 Redirect 301 /payment-methods/giftcards/branded-personalized-gift-card/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
+Redirect 301 /techsupport/webshop-access/ https://docs.multisafepay.com/integration-team/webshop-access/
 Redirect 301 /payment-page-templates/ https://docs.multisafepay.com/tools/payment-pages/payment-page-templates/
 Redirect 301 /integrations/community/community/ https://docs.multisafepay.com/integrations/community/community-integration-requirements/
 Redirect 301 /payment-methods/credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
