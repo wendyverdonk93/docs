@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 # How to refund E-Invoicing transaction
-There are 3 ways to refund a E-Invoicing order in your [MultiSafepay Control](https://merchant.multisafepay.com).
+There are 3 ways to refund a E-Invoicing order in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 In all three cases of a refund, only an amount will be refunded if a payment is linked to the transaction.
 If no payment is linked to the transaction, only a credit on the invoice will take place.
@@ -56,4 +56,4 @@ For example _-1 -> discount -> amount  -> VAT_
 The discount is added to the transaction.
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the [Plugin FAQ](/integrations/) for more information.
+In most plugins you can also refund. See the [Plugin FAQ](/integrations/plugins/) for more information.

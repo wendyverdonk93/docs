@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-**_The Automated Accountant Export via SFTP is currently in Beta and is available for testing via [MultiSafepay Test Control](https://testmerchant.multisafepay.com/)_.**
+**_The Automated Accountant Export via SFTP is currently in Beta and is available for testing via [MultiSafepay Test Control](https://testmerchant.multisafepay.com/)_**
 
 ## Accountant Export
 An Accountant Export containing all successful incoming and outgoing transactions, as well as corresponding costs (where applicable), can be generated to serve your bookkeeping needs. 
@@ -22,6 +22,21 @@ We support SFTP by username/password and username/SSH keys.
 
 _We only support port 22 & 2222 for SFTP connections_
 
+
+## Requirements
+
+__SFTP - Push Request: For SFTP reporting the following protocol is required:__
+
+sh-ed25519,
+rsa-sha2-512,
+rsa-sha2-256,
+ecdsa-sha2-nistp521,
+ecdsa-sha2-nistp384,
+ecdsa-sha2-nistp256,
+ssh-rsa
+
+This must be supported on the SFTP server otherwise a report cannot be delivered.
+
 ## Frequency
 MultiSafepay can send the Automated Accountant Export daily, weekly or monthly.  You have the option of choosing the frequency and time. Our reference time is Central Eastern Summer Time (CEST).
 
@@ -35,7 +50,7 @@ The following formats are available for automatically generating an export:
 5. XLS
 6. XLSX
 
-For information regarding the different exports, check out our [exports page](/tools/reports/).   
+For information regarding the different exports, check out our [exports page](/tools/reports/)   
 
 ## How to request an Automated Accountant Export
 
@@ -54,5 +69,5 @@ _Don't forget to add your MultiSafepay Control number_.
 
 ## Whitelisting
 
-If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges/).
+If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges/)
 

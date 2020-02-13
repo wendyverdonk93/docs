@@ -10,7 +10,7 @@ Belfius is similar to other online banking payment methods.<br>
 
 A customer chooses to pay with Belfius, authenticates their account, and confirms the payment.
 
->_Belfius payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)._
+>_Belfius payments can only be processed on our new payment page starting with [PayV2](/tools/payment-pages/what-is-payv2/)_
 
 
 ### Transaction flow

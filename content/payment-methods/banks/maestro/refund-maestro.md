@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## Request refund
-The refund of a transaction with the payment method Maestro can be processed from within your [MultiSafepay Control](https://merchant.multisafepay.com).
+The refund of a transaction with the payment method Maestro can be processed from within your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 Please follow these steps:
 

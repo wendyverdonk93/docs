@@ -48,7 +48,7 @@ Please refer to the Multisafepay API Documentation to perform different calls th
 
 First you have to access into your Back Office and get a valid API Key (_Settings_ → _Website Settings_).
 
-Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
+Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
 
 Add the FastcheckoutKit.xcframework as an embedded framework into your project. The next steps will guide you through the process:
 
@@ -183,7 +183,7 @@ self.manager = FastcheckoutManager(client: client)
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-ios/fastcheckout-ios-10.png" title="screenshot 10">}}
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-ios/fastcheckout-ios-11.png" title="screenshot 11">}}
     
-    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client App about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
+    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client app about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
 
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-ios/fastcheckout-ios-12.png" title="screenshot 12">}}
 

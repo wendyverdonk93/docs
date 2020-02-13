@@ -10,7 +10,7 @@ MultiSafepay offers you the ability to capture credit card payments either [part
 
 ## What are the features of Manual Capture?
 * **Control**: Greater control over authorization of payments, whereby funds can be collected at a later stage in full, partial or multiple captures.
-* **Trust**: Consumers will not be billed for goods or services immediately, but instead only be charged when they have received them. The payment(s) will also not appear until the amount has been captured, thus increasing trust in your brand.
+* **Trust**: Customers will not be billed for goods or services immediately, but instead only be charged when they have received them. The payment(s) will also not appear until the amount has been captured, thus increasing trust in your brand.
 * **Alignment**: It is now possible to align charges and shipments. Administration efforts are now minimalized, along with simplification of your finance flow.
 * **Less chargebacks**: Un-shipped, delayed or denied orders will not have their payments captured, thus decreasing the likelihood of chargebacks and reimbursements.
 

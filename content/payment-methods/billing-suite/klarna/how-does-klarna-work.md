@@ -9,7 +9,7 @@ read_more: '.'
 ## Integration
 Before integration can start, every merchant needs to sign an additional independent agreement with Klarna, where pricing is agreed upon and where the merchant is given a Klarna Merchant Number (EID) and a Shared Secret (Password). These credentials should be sent to MultiSafepay in order for us to be able to configure the Klarna Gateway within your MultiSafepay Control account. MultiSafepay will give all the necessary support during this process and when it is possible, facilitates the contract.
 
-Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api/).
+Once the Klarna Gateway is configured, you can start your integration using our plugins or by creating your own implementation with our [API](/api/)
 
 ## Activate an order
 When a customer chooses to pay with Klarna, MultiSafepay will create a Klarna transaction marked "Not Shipped". After the order is shipped by the merchant to the customer, the order needs to be activated to start the communication process to the customer. After 14 business days, MultiSafepay will receive the funds from Klarna and will add the amount to your MultiSafepay Control balance.

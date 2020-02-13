@@ -53,7 +53,7 @@ Check the example below to see how you can setup the environment you want to use
 
 First you have to access into your Back Office and get a valid API Key (_Settings_ → _Website Settings_).
 
-Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk).
+Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk)
 
 Add the msp-android-sdk-release.aar as an embedded framework into your project. The next steps will guide you through the process:
 
@@ -284,7 +284,7 @@ sdk.setStyles(styles);
 1. The following snapshots will walk you through some of features offered by the Fastcheckout Android SDK. The Fastcheckout iOS SDK provides the same functionalities.
     * Logging in with a registered email: 
         
-      {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
+      {{< zoom_able class="img-size zoomable" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-1.png" title="screenshot 1">}}
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-2.png" title="screenshot 2">}}
 
     * Logging in with a non-registered email will automatically take the user to the register SDK screen: 
@@ -310,6 +310,6 @@ sdk.setStyles(styles);
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-12.png" title="screenshot 12">}}
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-13.png" title="screenshot 13">}}
     
-    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client App about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
+    * Once the payment process is completed the SDK will proceed to the “transaction is complete” screen. The SDK callback will notify the client app about this or any other results (uncleared, cancel, etc.). Pressing the button “Back to Shop” will redirect the user to the Merchant’s webshop.
 
       {{< zoom_able class="img-size" url="/integrations/sdk/fastcheckout-android/fastcheckout-android-14.png" title="screenshot 14">}}

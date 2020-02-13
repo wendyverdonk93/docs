@@ -10,8 +10,9 @@ read_more: '.'
 ### The customer  
 Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <merchant@afterpay.com> or via +31 207230230.
 
-* When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules
-<br>
+* When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules.
+
+
 
 * When an AfterPay transaction is marked with the status _uncleared_, AfterPay will authorize or decline the transaction
 
@@ -82,6 +83,6 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 
 * As a rule of thumb, post-payment methods do not allow the use of a [giftcard](/payment-methods/gift-cards/) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. AfterPay). Our platform would otherwise interpret the giftcard as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using giftcards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
 
-* Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/).
+* Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
 * Afterpay requires an additional API key for Belgium. This can be requested directly at Afterpay.

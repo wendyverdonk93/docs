@@ -75,6 +75,6 @@ https://www.example.com/ext/modules/payment/multisafepay/notify_checkout.php?typ
 > Please note that if for any reason the notification URL setup fails, you can manually create a backend order and use the payment link that our plugin places in the notes.
 
 
-Read more about [how the notification URL works](/faq/api/how-does-the-notification-url-work/).
+Read more about [how the notification URL works](/faq/api/how-does-the-notification-url-work/)
 
 

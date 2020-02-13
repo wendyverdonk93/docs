@@ -17,5 +17,5 @@ An order needs to be created to process the payment transaction. You have two ma
 You can also create a:
 
 + Checkout order: This type creates a "Fast Checkout Order"
-+ Payment link: A payment link is created and listed in the MultiSafepay Control Panel.
++ Payment link: A payment link is created and listed in the MultiSafepay Control.
 {{% /description %}}

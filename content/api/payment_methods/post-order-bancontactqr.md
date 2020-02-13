@@ -1,5 +1,5 @@
 ---
-weight: 324 
+weight: 303
 meta_title: "API - Create Bancontact QR order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
@@ -61,5 +61,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 <aside class="warning">After placing the order, you will receive 2 links as response on a successfull Bancontact QR request: a payment link and a qr_url. This qr_url contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point. QR image generation can be done at a bpost system or within the postman application at bpost.</aside>
 
-Please make sure you check out our dedicated documentation for [Bancontact](/payment-methods/bancontact/).
+Please make sure you check out our dedicated documentation for [Bancontact](/payment-methods/bancontact/)
 {{< /description >}}

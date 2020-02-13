@@ -8,7 +8,7 @@ read_more: '.'
 
 # Request a refund 
 
-There are 3 ways to refund an AfterPay transaction in [MultiSafepay Control](https://merchant.multisafepay.com).
+There are 3 ways to refund an AfterPay transaction in [MultiSafepay Control](https://merchant.multisafepay.com)
 
 In all three cases of a refund, an amount will be refunded only if a payment is linked to the transaction. If no payment is linked to the transaction, only a credit on the invoice will take place.
 
@@ -56,6 +56,6 @@ Instead of deleting an item in the checkout editor you may want to add a discoun
 The discount is added to the transaction.
 A new payment link is generated and sent to the customer with the adjusted invoice.
 
-In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/) for more information.
+In most plugins you can also refund. See the corresponding [plugin FAQ](/integrations/plugins/) for more information.
 
-<br>
+

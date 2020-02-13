@@ -4,7 +4,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 {{< code-block >}}
 > POST - /orders
-> POST - /orders
 
 ```shell
 
@@ -35,7 +34,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ```
 
 > JSON Response     
-> When 3D secure verification is required, the HTML form will be returned and should be rendered.
+> When [3D Secure](/faq/getting-started/glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
 
 ```shell
 "customer_verification": {
@@ -46,7 +45,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 
 {{< description >}}
-## Server to Server
+## Server to Server API Calls
 ### 3D Enabled Request
 
 
@@ -72,5 +71,5 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | card_cvc                       | string    | Card CVC number. This might vary depending of the card type. Some cards like MAESTRO may not be required. |
 
 
-Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/).
+Please make sure you check out our dedicated documentation on [Server to Server](/tools/server2server/)
 {{% /description %}}

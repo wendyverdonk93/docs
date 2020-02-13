@@ -61,6 +61,7 @@ a, a:hover {
 
 .faq-svg {
     width: 25px;
+    min-width: 25px;
     height: 50px;
     margin: 0 15px;
     transform: rotate(0deg);
@@ -437,6 +438,14 @@ ol.breadcrumb {
     border: 1px solid #000000;
     padding: 7px 6px;
     border-radius: 5px;
+}
+
+#error-page-container{
+    padding-top: 6rem;
+}
+
+#error-page-container .padding-error-page{
+    margin-bottom: 7rem;
 }
 
 
@@ -1062,46 +1071,101 @@ div#results a:hover {
     margin-left: 3rem;
 }
 
+.img-zoomable img{
+    -webkit-transition: all 0.35s ease-in-out;    
+    -moz-transition: all 0.35s ease-in-out;    
+    transition: all 0.35s ease-in-out;     
+    cursor: -webkit-zoom-in;      
+    cursor: -moz-zoom-in;      
+    cursor: zoom-in; 
+}
+
+.img-zoomable.selected img{
+    -ms-transform: scale(2.5);    
+    -moz-transform: scale(2.5);  
+    -webkit-transform: scale(2.5);  
+    -o-transform: scale(2.5);  
+    transform: scale(2.5);    
+    position:relative;      
+    z-index:100;  
+    cursor: -webkit-zoom-out;      
+    cursor: -moz-zoom-out;      
+    cursor: zoom-out; 
+}
 
 p {
     margin-bottom: 1.6rem;
 }
 
-.faq-content table {
+.payment-detail table {
+    margin-bottom: 1em;
+    overflow: auto
+}
+.payment-detail table th, .content table td {
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.6
+}
+.payment-detail table th {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: bottom
+}
+.payment-detail table td {
+    padding: 10px
+}
+.payment-detail table tr:last-child {
+    border-bottom: 1px solid #ccc
+}
+.payment-detail table tr:nth-child(odd) > td {
+    background-color: #fff
+}
+.payment-detail table tr:nth-child(even) > td {
+    background-color: #fafcfd
+}
+.payment-detail dt {
+    font-weight: bold
+}
+.payment-detail dd {
+    margin-left: 15px
+}
+
+.faq-content table, .js-toc-content table{ 
+
 	margin-bottom: 1em;
 	overflow: auto
 }
 
-.faq-content table tbody{
+.faq-content table tbody, .js-toc-content table tbody{
 	vertical-align: top;
 }
 
-.faq-content table th, .content table td {
+.faq-content table th, .js-toc-content table th, .content table td, .js-toc-content table td {
 	text-align: left;
 	vertical-align: top;
 	line-height: 1.6
 }
-.faq-content table th {
+.faq-content table th, .js-toc-content table th {
 	padding: 0px 10px 5px;
 	border-bottom: 1px solid #ccc;
 	vertical-align: bottom
 }
-.faq-content table td {
+.faq-content table td, .js-toc-content table td {
 	padding: 10px 10px;
 }
-.faq-content table tr:last-child {
+.faq-content table tr:last-child, .js-toc-content table tr:last-child {
 	border-bottom: 1px solid #ccc
 }
-.faq-content table tr:nth-child(odd) > td {
+.faq-content table tr:nth-child(odd) > td, .js-toc-content table tr:nth-child(odd) > td {
 	background-color: #fff
 }
-.faq-content table tr:nth-child(even) > td {
+.faq-content table tr:nth-child(even) > td, .js-toc-content table tr:nth-child(even) > td {
 	background-color: #fafcfd
 }
-.faq-content dt {
+.faq-content dt, .js-toc-content dt{
 	font-weight: bold
 }
-.faq-content dd {
+.faq-content dd, .js-toc-content dd {
 	margin-left: 15px
 }
 
@@ -1125,6 +1189,19 @@ p {
     border: 1px solid #fff;
 }
 
+#submitting-a-discount-with-the-payment-method-klarna-is-processed-on-a-negative-amount-instead-of-on-a-negative-quantity-this-method-of-adding-a-discount-only-applies-to-a-successfully-placed-klarna-transaction-more-information-about-how-to-add-a-discount-before-the-transaction-request-is-submitted-to-multisafepay-is-available-on-our-api-documentation-page-api-discount, #the-chargeback-reason-codes-regarding-customer-disputes-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-american-express-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code-1, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-mastercard-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-visa-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-visa-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-visa-are-explained-below, #please-note-the-alipay-payment-method-can-only-be-used-with-a-verified-alipay-account-that-is-linked-to-a-chinese-bank-all-other-transactions-will-be-unsuccessful{
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
 p {
     font-weight: 300;
 }
