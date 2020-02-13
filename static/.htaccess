@@ -7,7 +7,7 @@ Redirect 301 /payment-methods/bancontact/what-is-bancontact/ https://docs.multis
 Redirect 301 /payment-methods/bank-transfer/what-is-bank-transfer/ https://docs.multisafepay.com/payment-methods/banks/bank-transfer/what-is-bank-transfer/
 Redirect 301 /payment-methods/belfius/what-is-belfius/ https://docs.multisafepay.com/payment-methods/banks/belfius/what-is-belfius/
 Redirect 301 /payment-methods/betaalplan/what-is-betaalplan/ https://docs.multisafepay.com/payment-methods/billing-suite/betaalplan/what-is-betaalplan/
-Redirect 301 /payment-methods/creditcards/credit-card-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/credit-card-what-is-it/
+Redirect 301 /payment-methods/creditcards/credit-card-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/credit-card-what-is-it/
 Redirect 301 /payment-methods/direct-debit/what-is-direct-debit/ https://docs.multisafepay.com/payment-methods/banks/direct-debit/what-is-direct-debit/
 Redirect 301 /payment-methods/dotpay/dotpay-what-is-it/ https://docs.multisafepay.com/payment-methods/banks/dotpay/dotpay-what-is-it/
 Redirect 301 /payment-methods/ing-home-pay/what-is-ing-home-pay/ https://docs.multisafepay.com/payment-methods/banks/ing-home-pay/what-is-ing-home-pay/
@@ -33,7 +33,7 @@ Redirect 301 /payment-methods/bancontact/how-does-bancontact-work/ https://docs.
 Redirect 301 /payment-methods/bank-transfer/how-does-bank-transfer-work/ https://docs.multisafepay.com/payment-methods/banks/bank-transfer/how-does-bank-transfer-work/
 Redirect 301 /payment-methods/belfius/how-does-belfius-work/ https://docs.multisafepay.com/payment-methods/banks/belfius/how-does-belfius-work/
 Redirect 301 /payment-methods/betaalplan/how-does-betaalplan-work/ https://docs.multisafepay.com/payment-methods/billing-suite/betaalplan/how-does-betaalplan-work/
-Redirect 301 /payment-methods/creditcards/credit-card-how-does-it-work/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/credit-card-how-does-it-work/
+Redirect 301 /payment-methods/creditcards/credit-card-how-does-it-work/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/credit-card-how-does-it-work/
 Redirect 301 /payment-methods/direct-debit/how-does-direct-debit-work/ https://docs.multisafepay.com/payment-methods/banks/direct-debit/how-does-direct-debit-work/
 Redirect 301 /payment-methods/dotpay/dotpay-how-does-it-work/ https://docs.multisafepay.com/payment-methods/banks/dotpay/dotpay-how-does-it-work/
 Redirect 301 /payment-methods/e-invoicing/how-does-e-invoicing-work/ https://docs.multisafepay.com/payment-methods/billing-suite/e-invoicing/how-does-e-invoicing-work/
@@ -73,7 +73,7 @@ Redirect 301 /payment-methods/paysafecard/activate-paysafecard/ https://docs.mul
 Redirect 301 /payment-methods/sofort-banking/activate-sofort-banking/ https://docs.multisafepay.com/payment-methods/banks/sofort-banking/activate-sofort-banking/
 Redirect 301 /payment-methods/trustpay/activate-trustpay/ https://docs.multisafepay.com/payment-methods/banks/trustpay/activate-trustpay/
 Redirect 301 /payment-methods/trustly/activate-trustly/ https://docs.multisafepay.com/payment-methods/banks/trustly/activate-trustly/
-Redirect 301 /payment-methods/creditcards/activate-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/activate-credit-cards/
+Redirect 301 /payment-methods/creditcards/activate-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
 Redirect 301 /payment-methods/gift-cards/activate-gift-cards/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
 Redirect 301 /payment-methods/ideal/activate-ideal/ https://docs.multisafepay.com/payment-methods/banks/ideal/activate-ideal/
 Redirect 301 /payment-methods/idealqr/activate-idealqr/ https://docs.multisafepay.com/payment-methods/banks/idealqr/activate-idealqr/
@@ -93,7 +93,7 @@ Redirect 301 /payment-methods/paypal/refund-paypal/ https://docs.multisafepay.co
 Redirect 301 /payment-methods/paysafecard/refund-paysafecard/ https://docs.multisafepay.com/payment-methods/prepaid-cards/paysafecard/refund-paysafecard/
 Redirect 301 /payment-methods/trustly/refund-trustly/ https://docs.multisafepay.com/payment-methods/banks/trustly/refund-trustly/
 Redirect 301 /payment-methods/bank-transfer/refund-bank-transfer/ https://docs.multisafepay.com/payment-methods/banks/bank-transfer/refund-bank-transfer/
-Redirect 301 /payment-methods/creditcards/refund-credit-card/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/refund-credit-card/
+Redirect 301 /payment-methods/creditcards/refund-credit-card/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/refund-credit-card/
 Redirect 301 /payment-methods/gift-cards/refund-gift-card/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/refund-gift-card/
 Redirect 301 /payment-methods/afterpay/refund-afterpay/ https://docs.multisafepay.com/payment-methods/billing-suite/afterpay/refund-afterpay/
 Redirect 301 /payment-methods/alipay/refund-alipay/ https://docs.multisafepay.com/payment-methods/wallet/alipay/refund-alipay/
@@ -102,32 +102,32 @@ Redirect 301 /payment-methods/eps/refund/ https://docs.multisafepay.com/payment-
 Redirect 301 /payment-methods/sofort-banking/refund-sofort-banking/ https://docs.multisafepay.com/payment-methods/banks/sofort-banking/refund-sofort-banking/
 Redirect 301 /payment-methods/trustpay/refund-trustpay/ https://docs.multisafepay.com/payment-methods/banks/trustpay/refund-trustpay/
 Redirect 301 /payment-methods/ideal/refund-ideal/ https://docs.multisafepay.com/payment-methods/banks/ideal/refund-ideal/
-Redirect 301 /payment-methods/creditcards/american-express/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/american-express/
-Redirect 301 /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
+Redirect 301 /payment-methods/creditcards/american-express/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/american-express/
+Redirect 301 /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
 Redirect 301 /payment-methods/gift-cards/test-gift-cards/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/test-gift-cards/
 Redirect 301 /payment-methods/bank-transfer/bank-accounts/ https://docs.multisafepay.com/payment-methods/banks/bank-transfer/bank-accounts/
-Redirect 301 /payment-methods/creditcards/credit-card-payment-page/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/credit-card-payment-page/
-Redirect 301 /payment-methods/creditcards/what-is-3d-secure/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/what-is-3d-secure/
-Redirect 301 /payment-methods/creditcards/chargebacks/what-is-a-chargeback/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/chargebacks/what-is-a-chargeback/
+Redirect 301 /payment-methods/creditcards/credit-card-payment-page/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/credit-card-payment-page/
+Redirect 301 /payment-methods/creditcards/what-is-3d-secure/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
+Redirect 301 /payment-methods/creditcards/chargebacks/what-is-a-chargeback/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/chargebacks/what-is-a-chargeback/
 Redirect 301 /payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/which-gift-cards-are-accepted-by-multisafepay/
 Redirect 301 /payment-methods/gift-cards/branded-personalized-gift-card/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
-Redirect 301 /payment-methods/creditcards/chargebacks/dispute-chargeback/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/chargebacks/dispute-chargeback/
-Redirect 301 /payment-methods/creditcards/what-is-a-chargeback/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/what-is-a-chargeback/
-Redirect 301 /payment-methods/creditcards/what-is-interchange/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/what-is-interchange/
-Redirect 301 /payment-methods/creditcards/purchasing-card/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/purchasing-card/
+Redirect 301 /payment-methods/creditcards/chargebacks/dispute-chargeback/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/chargebacks/dispute-chargeback/
+Redirect 301 /payment-methods/creditcards/what-is-a-chargeback/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/what-is-a-chargeback/
+Redirect 301 /payment-methods/creditcards/what-is-interchange/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/what-is-interchange/
+Redirect 301 /payment-methods/creditcards/purchasing-card/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/purchasing-card/
 Redirect 301 /payment-methods/sofort-banking/ https://docs.multisafepay.com/payment-methods/banks/sofort-banking/
 Redirect 301 /payment-methods/maestro/ https://docs.multisafepay.com/payment-methods/banks/maestro/
 Redirect 301 /payment-methods/bank-transfer/ https://docs.multisafepay.com/payment-methods/banks/bank-transfer/
 Redirect 301 /payment-methods/ing-home-pay/ https://docs.multisafepay.com/payment-methods/banks/ing-home-pay/
-Redirect 301 /payment-methods/creditcards/chargebacks/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/chargebacks/
+Redirect 301 /payment-methods/creditcards/chargebacks/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/chargebacks/
 Redirect 301 /payment-methods/kbc/ https://docs.multisafepay.com/payment-methods/banks/kbc/
 Redirect 301 /payment-methods/belfius/ https://docs.multisafepay.com/payment-methods/banks/belfius/
 Redirect 301 /payment-methods/direct-debit/ https://docs.multisafepay.com/payment-methods/banks/direct-debit/
 Redirect 301 /payment-methods/eps/ https://docs.multisafepay.com/payment-methods/banks/eps/
 Redirect 301 /payment-methods/trustly/ https://docs.multisafepay.com/payment-methods/banks/trustly/
 Redirect 301 /payment-methods/giropay/ https://docs.multisafepay.com/payment-methods/banks/giropay/
-Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-cards/creditcards/
-Redirect 301 /payment-methods/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-cards/branded-credit-cards/
+Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/
+Redirect 301 /payment-methods/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/
 Redirect 301 /payment-methods/pay-after-delivery/ https://docs.multisafepay.com/payment-methods/billing-suite/pay-after-delivery/
 Redirect 301 /payment-methods/afterpay/ https://docs.multisafepay.com/payment-methods/billing-suite/afterpay/
 Redirect 301 /payment-methods/klarna/ https://docs.multisafepay.com/payment-methods/billing-suite/klarna/
@@ -185,9 +185,9 @@ Redirect 301 /integrations/x-cart/faq/refunding-x-cart/ https://docs.multisafepa
 Redirect 301 /integrations/zencart/faq/refunding-zen-cart/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/refunding-zen-cart/
 Redirect 301 /integrations/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/
 Redirect 301 /integrations/magento1/faq/ship-automatically-in-magento1/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/ship-automatically-in-magento1/
-Redirect 301 /payment-methods/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-cards/branded-credit-cards/cartasi-what-is-it/
-Redirect 301 /payment-methods/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-cards/branded-credit-cards/carte-bleue-what-is-it/
-Redirect 301 /payment-methods/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-cards/branded-credit-cards/dankort-what-is-it/
+Redirect 301 /payment-methods/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/cartasi-what-is-it/
+Redirect 301 /payment-methods/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/
+Redirect 301 /payment-methods/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
 Redirect 301 /integrations/prestashop-1-6/faq/do-you-support-thirty-bees/ https://docs.multisafepay.com/integrations/plugins/prestashop-1-6/faq/do-you-support-thirty-bees/
 Redirect 301 /integrations/prestashop-1-7/faq/do-you-support-thirty-bees/ https://docs.multisafepay.com/integrations/plugins/prestashop-1-7/faq/do-you-support-thirty-bees/
 Redirect 301 /integrations/shopfactory/faq/does-globecharge-support-multisafepay/ https://docs.multisafepay.com/integrations/hosted/shopfactory/faq/does-globecharge-support-multisafepay/
@@ -300,7 +300,7 @@ Redirect 301 /integrations/prestashop-1-6/faq/payment-fee-surcharges/ https://do
 Redirect 301 /integrations/prestashop-1-7/faq/payment-fee-surcharges/ https://docs.multisafepay.com/integrations/plugins/prestashop-1-7/faq/payment-fee-surcharges/
 Redirect 301 /integrations/magento2/faq/payment-links-in-order-confirmation-for-backend-orders/ https://docs.multisafepay.com/integrations/plugins/magento2/faq/payment-links-in-order-confirmation-for-backend-orders/
 Redirect 301 /integrations/magento2/faq/pending-payment-order-lifetime/ https://docs.multisafepay.com/integrations/plugins/magento2/faq/pending-payment-order-lifetime/
-Redirect 301 /payment-methods/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-cards/branded-credit-cards/postepay/
+Redirect 301 /payment-methods/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
 Redirect 301 /integrations/cs-cart/changelog/ https://docs.multisafepay.com/integrations/plugins/cs-cart/changelog/
 Redirect 301 /integrations/drupal7/changelog/ https://docs.multisafepay.com/integrations/plugins/drupal7/changelog/
 Redirect 301 /integrations/drupal8/changelog/ https://docs.multisafepay.com/integrations/plugins/drupal8/changelog/
@@ -319,6 +319,10 @@ Redirect 301 /integrations/plugins/magento2/changelog/ https://github.com/MultiS
 Redirect 301 /payment-methods/giftcards/branded-personalized-gift-card/ https://docs.multisafepay.com/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
 Redirect 301 /payment-page-templates/ https://docs.multisafepay.com/tools/payment-pages/payment-page-templates/
 Redirect 301 /integrations/community/community/ https://docs.multisafepay.com/integrations/community/community-integration-requirements/
+Redirect 301 /payment-methods/credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
+Redirect 301 /payment-methods/credit-cards/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/
+Redirect 301 /payment-methods/credit-cards/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/
+
 
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
