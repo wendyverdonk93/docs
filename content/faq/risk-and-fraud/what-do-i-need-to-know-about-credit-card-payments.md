@@ -46,5 +46,4 @@ The following information should be available on your website when accepting cre
 * Contact data like email address and phone number 
 * Acknowledgment terms in the checkout for client, preferably a tickbox.
 
-<br>
 

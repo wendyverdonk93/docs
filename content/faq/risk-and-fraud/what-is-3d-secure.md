@@ -10,4 +10,5 @@ read_more: "."
 
 When a chargeback is filed against the merchant, and the transaction was carried out through the 3D Secure system, the acquiring bank is responsible for the costs and not the merchant.
 
-<br>
+
+

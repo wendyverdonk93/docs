@@ -13,4 +13,3 @@ If there are changes noted during the review, MultiSafepay will contact the merc
 
 _Not responding to our request for new documentation and/or information will results in a pause of your payouts. Never responding to our requests / not willing to comply, can eventually lead to a one-sided termination of the contract_.
 
-<br>

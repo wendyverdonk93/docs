@@ -8,4 +8,5 @@ MultiSafepay does not only believe in preventing fraud, but actively tracks and 
 
 We offer the highest industry protection as per PCI DSS standards, HTTPS, data encryption and 3D Secure technology. MultiSafepay processes and acquires for Visa and Mastercard, and we are therefore required to comply with the card schemes operating regulations.
 
-<br>
+
+

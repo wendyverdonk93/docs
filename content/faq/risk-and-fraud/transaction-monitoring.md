@@ -15,4 +15,3 @@ Besides the invoice, additional questions can be asked for investigative purpose
 
 For further information contact your account manager or email us at <support@multisafepay.com>
 
-<br>

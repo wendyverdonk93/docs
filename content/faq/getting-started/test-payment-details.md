@@ -126,7 +126,7 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 | Address               | Status    | Description              |
 | ------------------ | --------- | ------------------------ |
-| Kraanspoor 39C <br/> 1033SC Amsterdam | Completed | Transaction is Completed |
+| Kraanspoor 39C - 1033SC Amsterdam | Completed | Transaction is Completed |
 
 
 ## Gift cards
@@ -209,8 +209,8 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 | Address               | Status    | Description              |
 | ------------------ | --------- | ------------------------ |
-| Kraanspoor 39C <br/> 1033SC Amsterdam | Completed | Transaction is Completed |
-| Vlierweg 12D <br/> 1032LG Amsterdam | Declined | Transaction is Declined |
+| Kraanspoor 39C - 1033SC Amsterdam | Completed | Transaction is Completed |
+| Vlierweg 12D - 1032LG Amsterdam | Declined | Transaction is Declined |
 
 
 ## PayPal

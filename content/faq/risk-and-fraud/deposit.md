@@ -17,4 +17,4 @@ In case the merchant goes bankrupt, MultiSafepay will not be able to collect the
 
 If financials are requested, we would like to receive the most recent balance sheet, profit and loss statement. 
 
-<br>
+
