@@ -2,7 +2,7 @@
 title : "MultiSafepay app for Dynamicweb"
 meta_title: "Dynamicweb plugin integration - MultiSafepay Documentation Center"
 layout: 'single'
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "MultiSafepay app for Dynamicweb. Easily integrate MultiSafepay payment solutions into your Dynamicweb platform with the free app"
 logo: "/logo/Integrations/Dynamic_Web.svg"
 weight: 10
 title_short: "Dynamicweb"
