@@ -7,7 +7,7 @@ read_more: '.'
 ---
 
 ## Customize your E-mail template
-With the MultiSafepay e-mailtemplate editor, it is possible to fully customize the e-mails that your customers will receive. Before you start customizing the mailing templates, we want to advice you that you should have a basic to advanced knowledge about the markup langauge HTML/CSS.
+With the MultiSafepay e-mailtemplate editor, it is possible to fully customize the e-mails that your customers will receive. Before you start customizing the mailing templates, we would like to advise you that you should have a basic to advanced understanding about the markup langauge HTML/CSS.
 
 ## Customize the E-mail template in pure HTML/CSS
 In the editor you can switch the view to pure HTML/CSS by pressing the button Source in the second row of the editor. This will make it possible to create/edit a e-mail template with pure HTML/CSS code.
