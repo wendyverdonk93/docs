@@ -274,7 +274,7 @@ In order for this chargeback to be disputed we need the following documentation 
 4. Proof that the documents were sent and received by American Express within the reply by date on the disputes inquiry letter.
 
 **Reason Code: 4534 - Multiple ROCs**\
-Cardholder advises, despite prior charges with you, the dispute this charge
+Cardholder advised, despite prior charges with you, the dispute this charge
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 1. Fully itemized documents that link the cardholder to each charge processed and proves that all transactions are valid.
