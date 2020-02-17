@@ -1,7 +1,7 @@
 ---
 title : "Can I apply surcharges to customers outside the European Union?"
 meta_title: "FAQ PSD2 - PSD2 customers outside European Union - MultiSafepay Documentation Center"
-meta_description: "PSD2 customers outside European Union"
+meta_description: "PSD2 regulation and practices for your payments and surcharges outside European Union, shown and explained by MultiSafepay"
 read_more: "."
 ---
 
