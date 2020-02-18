@@ -12,7 +12,7 @@ Kraanspoor 39<br>
 ## Bus from the Central Station in Amsterdam
 
 Busses 391 and 394. Get out at busstop Stenendokweg.
-<br><img src='../map2.jpg'>
+<br><img src='../Bus.jpg'>
 
 ## Bus from metro Noorderpark
 Busses 34 and 35. Get out at busstop Stenendokweg.<br>
@@ -22,7 +22,7 @@ Busses 34 and 35. Get out at busstop Stenendokweg.<br>
 
 Ferry 905,
 Halte Veer NDSM Werf, Amsterdam
-<br><img src='../map1.jpg'>
+<br><img src='../ndsm.jpg'>
 
 ## Ferry times Amsterdam Central to NDSM Werf
 <br><img src='../ferrytimes.jpg'>
