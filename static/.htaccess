@@ -323,6 +323,7 @@ Redirect 301 /integrations/community/community/ https://docs.multisafepay.com/in
 Redirect 301 /payment-methods/credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
 Redirect 301 /payment-methods/credit-cards/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/
 Redirect 301 /payment-methods/credit-cards/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/
+Redirect 301 /plugins/ https://docs.multisafepay.com/integrations/plugins/
 
 
 #URL Mapper - Magento2 plugin
