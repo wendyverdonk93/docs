@@ -67,5 +67,5 @@ Full documentation can be found on our [lifetime of a payment link](/faq/api/lif
 
       Hungarian forint (HUF)
 
-      Polish złoty (PLN).
+      Polish złoty (PLN)
 
