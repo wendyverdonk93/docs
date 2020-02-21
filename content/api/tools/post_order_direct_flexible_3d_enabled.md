@@ -113,8 +113,6 @@ weight: 1330
 {{< /code-block >}}
 
 {{< description >}}
-## Flexible 3D 
-> COMING SOON: Flexible 3D for Server to Server 
 
 ### Direct, Flexible 3D set on _false_
 
