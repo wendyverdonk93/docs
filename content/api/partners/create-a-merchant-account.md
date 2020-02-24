@@ -58,6 +58,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## Create a merchant account
 
+__Please note: This API call currently only works in a 'Live' environment. The functioning of this API call in the 'Test' environment will follow.__ 
+
+If you have any questions, please contact <integration@multisafepay.com>
+
 | Parameter                   | Type      | Description                                                                                |
 |-----------------------------|-----------|--------------------------------------------------------------------------------------------|
 | product                     | string    | Select the desired MultiSafepay subscription: Connect 300, Connect 1000 or FastCheckout.    | 
