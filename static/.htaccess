@@ -324,7 +324,8 @@ Redirect 301 /payment-methods/credit-cards/ https://docs.multisafepay.com/paymen
 Redirect 301 /payment-methods/credit-cards/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/
 Redirect 301 /payment-methods/credit-cards/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/
 Redirect 301 /plugins/ https://docs.multisafepay.com/integrations/plugins/
-
+Redirect 301 /partners/ https://docs.multisafepay.com/tools/partner-account-control/
+Redirect 301 /partners/faq/what-is-the-kickback-commission-for-partners/ https://docs.multisafepay.com/tools/partner-account-control/
 
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
