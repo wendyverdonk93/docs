@@ -7,12 +7,12 @@ weight: 1320
 ```shell 
 
 {
-    "type": "redirect",
+    "type": "direct",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": 100,
+    "amount": 10,
     "gateway": "CREDITCARD",
-    "description": "Test Product Description",
+    "description": "Test Order Description",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -26,8 +26,9 @@ weight: 1320
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
+        "address2": "",
         "house_number": "39C",
-        "zip_code": "1033 SC",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "phone": "0208500500",
@@ -36,13 +37,14 @@ weight: 1320
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
     "gateway_info": {
-	"flexible_3d": true,
+        "flexible_3d": true,
         "card_number": "",
         "card_holder_name": "",
         "card_expiry_date": "",
         "card_cvc": ""
     }
 }
+
 
 ```
 > JSON Response
@@ -51,17 +53,82 @@ weight: 1320
 {
   "success": true,
   "data": {
+    "amount": 10,
+    "amount_refunded": 0,
+    "costs": [],
+    "created": "2020-02-24T15:11:23",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "address1": "Kraanspoor",
+      "address2": ,
+      "city": "Amsterdam",
+      "country": "NL",
+      "country_name": Netherlands,
+      "email": "example@multisafepay.com",
+      "first_name": "Testperson-nl",
+      "house_number": "39C",
+      "last_name": "Approved",
+      "locale": "nl_NL",
+      "phone1": "0208500500",
+      "zip_code": "1033SC"
+    },
+    "description": "Test Product Description",
+    "fastcheckout": "NO",
+    "financial_status": "initialized",
+    "items": null,
+    "modified": "2020-02-24T15:11:23",
     "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/12bqtNOrXKvw23VfjRgt1ELeOlUcHfmZwM7/?lang=nl_NL"
+    "payment_details": {
+      "account_holder_name": "",
+      "account_id": null,
+      "card_expiry_date": ,
+      "external_transaction_id": null,
+      "last4": ,
+      "recurring_id": null,
+      "recurring_model": null,
+      "type": "MASTERCARD"
+    },
+    "payment_methods": [
+      {
+        "account_holder_name": "",
+        "amount": 10,
+        "card_expiry_date": ,
+        "currency": "EUR",
+        "description": "Test Product Description",
+        "payment_description": "MasterCard",
+        "status": "initialized",
+        "type": "MASTERCARD"
+      }
+    ],
+    "reason": "3DS Enrolled",
+    "reason_code": "",
+    "related_transactions": null,
+    "status": "initialized",
+    "transaction_id": 335244060,
+    "var1": null,
+    "var2": null,
+    "var3": null,
+    "customer_verification": {
+      "html": "<html>\n <head>\n  <title>PaReq Form Submission</title>\n  <script type=\"text/javascript\">\n    function onLoadHandler(){ document.getElementById('PaReqForm').submit(); }\n  </script>\n </head>\n <body onLoad=\"onLoadHandler();\">\n  <form id=\"PaReqForm\" action=\"https://www.securesuite.co.uk/ing_retail/tdsecure/opt_in_dispatcher.jsp?VAA=B\" method=\"post\">\n   <noscript>\n    <center><br/>\n     <h1>Processing your Transaction</h1>\n     <h2>JavaScript is currently disabled or not supported by your browser.</h2><br/>\n     <h3>Please click Proceed to continue the processing of your transaction.</h3>\n     <input type=\"submit\" value=\"Proceed\"/>\n    </center>\n   </noscript>\n   <input type=\"hidden\" name=\"PaReq\" value=\"eJxVkslu2zAQhl/FyL3iKss0JgTSOkhzUBEkvrg3mhrbCqwlFNXaefoOvdQtIAjzDZf5/xnCchcQ\r\nF2/ox4AWShwGt8VJXd3feZ1XxUZzqaZGy02+LtTaOOlm1bQQSvE7Cy8Pr/hh4ReGoe5aKzKeSWBX\r\npNuC37k2WnD+4+vzDyunRmracUFoMDwvrOA8fcDOCK1r0C4f35aT9AN2YvDd2MZwtLmcAbsCjGFv\r\ndzH2c8aacR/rwW2wd8cvFTZd5ruG9ftxW7fb0I09izhEillDFtvYMZEVZ8XpFmA3uS9jigaqeqgr\r\nu3r3n6v3/a5sHvXPxUqVy/KzfMrF+un3PbC0AyoX0UouOZdST4SeCzGXCtgpD65JcsknOT+H0KcK\r\nD7f8vww0i4CtP1pTJK9XAjz0XUvKLUn+G0OFg7d96KrRx0mCUPeR+k/V0wqwm5tv39MofKQua14I\r\nYZSQxmjNc5OGclpIVWpqrVSckhcAlo6yy7ypU6dnQtF/z+cPnVPCWQ==\"/>\n   <input type=\"hidden\" name=\"TermUrl\" value=\"https://pay.multisafepay.com/direct/complete/?mspid=335263060\"/>\n   <input type=\"hidden\" name=\"MD\" value=\"b73b9a2a8d671330null,c45d7f40236942f5b73b9a2a8d671330\"/>\n  </form>\n   </body>\n</html>\n",
+      "type": "form"
+    },
+    "payment_url": "http://10.1.10.111/testtool/client/json-live/notification?type=redirect&transactionid=test-order-2102-9",
+    "cancel_url": "http://10.1.10.111/testtool/client/json-live/notification?type=cancel&transactionid=test-order-2102-9"
   }
 }
+
 
 ```
 {{< /code-block >}}
 
 {{< description >}}
 
-### Redirect Server to Server, Flexible 3D set on _true_
+### Direct Server to Server, Flexible 3D set on _true_
 
 Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
 
