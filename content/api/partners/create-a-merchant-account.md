@@ -15,6 +15,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     "company_name": "Company name Partner",
     "address1": "Kraanspoor",
     "address2": "",
+    "house_number": "39C"
     "zip_code": "1033SC",
     "city": "Amsterdam",
     "email": "",
