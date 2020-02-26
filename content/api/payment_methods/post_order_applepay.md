@@ -37,18 +37,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 }
 ```
 
-> How to detect Apple Pay on a device
-
-```shell
-try {
-    if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
-    console.log('ApplePay available');
-    }
-    } catch (error) {
-    console.debug('An error occurred while verifying if Apple Pay is available:', error);
-    }
-```
-
 {{< /code-block >}}
 
 {{< description >}}
@@ -57,12 +45,22 @@ try {
 
 All parameters shown are required field(s) for a Apple Pay _Redirect_ transaction. 
 
-It must be noted that the 'gateway' parameter for the Apple Pay redirect transaction __must be set to 'APPLEPAY'__ in order to force the user to the payment page for Apple Pay. By doing so, the API will detect whether the device being used supports Apple Pay or not.
+It must be noted that the 'gateway' parameter for the Apple Pay redirect transaction __must be set to 'APPLEPAY'__ in order for Apple Pay to be preselected on the payment page. The payment page will detect whether the device being used supports Apple Pay or not.
 
-If the device supports Apple Pay, the user will be directed to the Apple Pay interface where a payment can be completed. If the device does not support Apple Pay, an error will be displayed. 
+If the device supports Apple Pay, the user will be directed to the Apple Pay interface where a payment can be completed. If the device does not support Apple Pay, an error will be displayed. The following code will allow the detection of Apple Pay. This can be implemented to your platform:
 
-_The code which can be implemented to detect Apple Pay can be viewed under the API call of an Apple Pay transaction._ __See the right side of this page.__
+__How to detect Apple Pay on a device__
 
+```JavaScript
+try {
+    if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
+    console.log('ApplePay available');
+    }
+    } catch (error) {
+    console.debug('An error occurred while verifying if Apple Pay is available:', error);
+    }
+```
+If this code is not implemented in your back-end platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay, thus we highly reccomend using the abovementioned code to avoid any issues.
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
