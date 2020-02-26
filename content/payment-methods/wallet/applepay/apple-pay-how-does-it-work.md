@@ -8,13 +8,13 @@ read_more: '.'
 
 ## How it works
 
-Apple Pay is a payment method that works on the basis on acting as a virtual wallet that enables seamless NFC payments. 
+Apple Pay is a payment method that works on the basis of acting as a virtual wallet that enables seamless NFC payments. 
 
-Consumers input their credit card information into the Apple Pay app where it is digitized in the form of an encrypted token. Consumers can authorize payments by using either [Touch ID] or [Face ID] on a payment terminal. The tokenized data is encrpyted and sent to MultiSafepay where it is then decrypted and forwarded to the relevant payment scheme. MultiSafepay supports the [Visa], [Mastercard] and [Maestro] payment schemes for Apple Pay.
+Consumers input their credit card information into the Apple Pay app where it is digitized in the form of an encrypted token. Consumers can authorize payments by using either [Touch ID or Face ID](https://www.apple.com/apple-pay/) on a payment terminal. The tokenized data is encrpyted and sent to MultiSafepay where it is then decrypted and forwarded to the relevant payment scheme. MultiSafepay supports the [Visa and Mastercard](https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/) payment schemes for Apple Pay.
 
-MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction.
+MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction. Read more about [standard credit card transactions](https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
 
-In order to integrate your Apple Pay with MultiSafepay, the Apple Pay account API settings must be configured. Once the integration is completed, you can receive payments through this gateway by using one of our plugins or by implementing a custom integration with our API.
+In order to integrate the Apple Pay services with MultiSafepay, the Apple Pay account API settings must be configured. Once the integration is completed, you can receive payments through this gateway by using one of our plugins or by implementing a custom integration with our API.
 
 ## Transaction Flow
 
@@ -26,16 +26,16 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-Apple Pay transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving a credit card payment:
+Apple Pay transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving an Apple Pay payment:
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Initialized | Initialized | A payment link has been generated, but no payment has been received yet.  | 
-| Completed   | Completed   | A successful credit card  transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
+| Initialized | Initialized | A payment link has been generated to initialize an Apple Pay payment, but no payment has yet been received.  | 
+| Completed   | Completed   | A successful Apple Pay transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)  | 
-| Declined    | Declined    | Transaction has been rejected. [read more on credit card status 'declined'. What does this mean?](/payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
+| Declined    | Declined    | Transaction has been rejected. [Read more on the  'declined' status. What does this mean?](/payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
-| Void        | Cancelled    | Transaction has been cancelled.   | 
+| Void        | Void    | Transaction has been cancelled.   | 
 
 ### Refund flow
 
@@ -43,10 +43,20 @@ Apple Pay transactions received by MultiSafepay will be processed through our fr
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)         |               
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/payment-methods/credit-and-debit-cards/creditcards/chargebacks/)         |               
 
-The full API reference for Apple Pay can be found [here]
+The full API reference for Apple Pay can be found [here](https://docs.multisafepay.com/api/#applepay)
 
 ## Product Rules
 
-To be continued
+The product rules for Apple Pay remain similar to those of the product rules from credit card payments. This is due to the nature of the transaction being a typical credit card payment, although through the Apple Pay gateway:
+
+* American Express is currently __not__ supported for Apple Pay payments
+
+* Refunding more than the stated amount of the original transaction is __not__ possible for Apple Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+
+* Visa and Mastercard (Apple Pay) transactions have a maximum refund period. All cards on Apple Pay records can be refunded within 180 days. After this period, it is advised to process the requested refund through a bank transfer
+
+* The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
+
+* Mastercard and Visa (Apple Pay) can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency

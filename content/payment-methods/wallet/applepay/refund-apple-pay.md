@@ -19,7 +19,7 @@ Please follow these steps to refund an Apple Pay transaction:
 
 The transaction and order status are now _initialized_. As long as the transaction and order status are marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly.
 
-A refund will be processed on the Apple Pay account of the customer within the next business day. 
+A refund will be processed on the Apple Pay account and credit card statement of the customer within the next business day. 
 
 >_Outgoing payments will not be processed if your MultiSafepay balance is insufficient._
 

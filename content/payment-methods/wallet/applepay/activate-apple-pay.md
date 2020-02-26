@@ -8,15 +8,15 @@ read_more: '.'
 
 ## Activate
 
-Apple Pay is a standard payment method, although credit card payment methods must be enabled in order for Apple Pay to be approved due to the nature of Apple Pay transactions primarily being executed through credit card payment schemes.
+Apple Pay is a standard payment method, although credit card payment methods must be initially enabled in order for Apple Pay to be approved due to the nature of Apple Pay transactions primarily being completed through credit card payment schemes such as Visa and Mastercard.
 
-Credit cards are additional (non-standard) payment methods which include Visa and Mastercard. You can submit the application to activate the payment methods through your account manager at <sales@multisafepay.com>
+Credit cards are additional (non-standard) payment methods which include Visa and Mastercard. You can submit the application to enable credit cards as a payment method through our Risk team at <risk@multisafepay.com>. __Please also mention alongside your application that you would like for Apple Pay to be enabled.__
 
-To activate Visa and Mastercard as payment methods for your webshop, we would like to receive the following information from you:
+To activate credit cards as payment methods for your webshop, we would like to receive the following information from you:
 
 - Average transaction amount
 - Minimum transaction amount
 - Maximum transaction amount
 - Yearly turnover by credit cards.
 
-When approved by our Risk Team, Visa and Mastercard will be enabled in your MultiSafepay Control as payment methods. It will then be possible to select Apple Pay as a standard payment method. If you would like for your account manager to do this directly for you, please mention this in the email when contacting us at <sales@multisafepay.com>
+When approved by our Risk Team, Visa and Mastercard and Apple Pay will be enabled in your MultiSafepay Control as payment methods.
