@@ -8,7 +8,7 @@ read_more: '.'
 
 ## Activate
 
-Apple Pay is a standard payment method, although credit card payment methods must be initially enabled in order for Apple Pay to be approved due to the nature of Apple Pay transactions primarily being completed through credit card payment schemes such as Visa and Mastercard.
+Apple Pay is a standard payment method, although credit card payment methods must be initially enabled in order for Apple Pay to be approved due to the nature of Apple Pay transactions primarily being completed through credit card payment schemes such as Visa, Mastercard.
 
 Credit cards are additional (non-standard) payment methods which include Visa and Mastercard. You can submit the application to enable credit cards as a payment method through our Risk team at <risk@multisafepay.com>. __Please also mention alongside your application that you would like for Apple Pay to be enabled.__
 
