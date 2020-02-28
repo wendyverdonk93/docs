@@ -86,3 +86,6 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 * Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
 
 * Afterpay requires an additional API key for Belgium. This can be requested directly at Afterpay.
+
+* Refunding via the shopping cart will produce issues if the _merchant-item-id_ for the same product with different specifications is the same. Thus, when multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict when a partial refund is requested. Each merchant-item-id should be unique e.g. for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
+
