@@ -1215,3 +1215,9 @@ p {
 #changelog {
     position: relative;
 }
+
+
+#direct-link{
+    width: 18px;
+    height: 18px;
+}
