@@ -28,7 +28,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 3. [Betaalplan](/payment-methods/betaalplan/)
 4. [Pay After Delivery](/payment-methods/pay-after-delivery/)
 5. [Bank transfer](/payment-methods/bank-transfer/)
-6. [Direct Debit](/payment-methods/direct-debit/)
+6. [SEPA Direct Debit](/payment-methods/direct-debit/)
 
 
 ## Altering the Second Chance configuration

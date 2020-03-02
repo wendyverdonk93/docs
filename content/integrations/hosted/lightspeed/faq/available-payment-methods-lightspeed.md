@@ -7,7 +7,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 + Bancontact
 + Bank transfer
 + Belfius
-+ Direct Debit
++ SEPA Direct Debit
 + Dotpay
 + EPS
 + Giropay
