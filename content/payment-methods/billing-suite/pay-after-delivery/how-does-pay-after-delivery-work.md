@@ -12,7 +12,7 @@ Pay After Delivery is an online payment method that allows customers to pay for 
 
 When an uncleared Pay After Delivery is received, no action is required. Our support team will process the transaction within two business days.
 
-The customer has 14 days to complete the payment after receiving the invoice from MultiFactor.
+The customer has 14 days to complete the payment transaction after receiving the invoice from MultiFactor.
 
 ### Shipped status
 When receiving a Pay After Delivery transaction, it is important to take the following steps:
