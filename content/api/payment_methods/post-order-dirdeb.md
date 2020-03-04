@@ -176,6 +176,6 @@ ip_address                        | string  | The IP address of the customer. "R
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
 
-Read more about [SEPA Direct Debit](/payment-methods/banks/direct-debit/) on our docuemntation page.
+Read more about [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) on our docuemntation page.
 
 {{< /description >}}
