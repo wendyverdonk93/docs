@@ -1221,3 +1221,7 @@ p {
     width: 18px;
     height: 18px;
 }
+
+.cc-revoke{
+    display: none;
+}
