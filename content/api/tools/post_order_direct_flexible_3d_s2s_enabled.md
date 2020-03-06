@@ -1,7 +1,8 @@
 ---
-weight: 1320
+weight: 1330
 ---
 {{< code-block >}}
+
 > POST - /orders 
 
 ```shell 
@@ -26,7 +27,6 @@ weight: 1320
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "address2": "",
         "house_number": "39C",
         "zip_code": "1033SC",
         "city": "Amsterdam",
@@ -44,12 +44,13 @@ weight: 1320
         "card_cvc": ""
     }
 }
-
-
 ```
+
+
 > JSON Response
 
-```shell 
+
+```shell
 {
   "success": true,
   "data": {
@@ -65,7 +66,6 @@ weight: 1320
     },
     "customer": {
       "address1": "Kraanspoor",
-      "address2": ,
       "city": "Amsterdam",
       "country": "NL",
       "country_name": Netherlands,
@@ -75,7 +75,7 @@ weight: 1320
       "last_name": "Approved",
       "locale": "nl_NL",
       "phone1": "0208500500",
-      "zip_code": "1033SC"
+      "zip_code": "1033 SC"
     },
     "description": "Test Product Description",
     "fastcheckout": "NO",
@@ -117,12 +117,10 @@ weight: 1320
       "html": "<html>\n <head>\n  <title>PaReq Form Submission</title>\n  <script type=\"text/javascript\">\n    function onLoadHandler(){ document.getElementById('PaReqForm').submit(); }\n  </script>\n </head>\n <body onLoad=\"onLoadHandler();\">\n  <form id=\"PaReqForm\" action=\"https://www.securesuite.co.uk/ing_retail/tdsecure/opt_in_dispatcher.jsp?VAA=B\" method=\"post\">\n   <noscript>\n    <center><br/>\n     <h1>Processing your Transaction</h1>\n     <h2>JavaScript is currently disabled or not supported by your browser.</h2><br/>\n     <h3>Please click Proceed to continue the processing of your transaction.</h3>\n     <input type=\"submit\" value=\"Proceed\"/>\n    </center>\n   </noscript>\n   <input type=\"hidden\" name=\"PaReq\" value=\"eJxVkslu2zAQhl/FyL3iKss0JgTSOkhzUBEkvrg3mhrbCqwlFNXaefoOvdQtIAjzDZf5/xnCchcQ\r\nF2/ox4AWShwGt8VJXd3feZ1XxUZzqaZGy02+LtTaOOlm1bQQSvE7Cy8Pr/hh4ReGoe5aKzKeSWBX\r\npNuC37k2WnD+4+vzDyunRmracUFoMDwvrOA8fcDOCK1r0C4f35aT9AN2YvDd2MZwtLmcAbsCjGFv\r\ndzH2c8aacR/rwW2wd8cvFTZd5ruG9ftxW7fb0I09izhEillDFtvYMZEVZ8XpFmA3uS9jigaqeqgr\r\nu3r3n6v3/a5sHvXPxUqVy/KzfMrF+un3PbC0AyoX0UouOZdST4SeCzGXCtgpD65JcsknOT+H0KcK\r\nD7f8vww0i4CtP1pTJK9XAjz0XUvKLUn+G0OFg7d96KrRx0mCUPeR+k/V0wqwm5tv39MofKQua14I\r\nYZSQxmjNc5OGclpIVWpqrVSckhcAlo6yy7ypU6dnQtF/z+cPnVPCWQ==\"/>\n   <input type=\"hidden\" name=\"TermUrl\" value=\"https://pay.multisafepay.com/direct/complete/?mspid=335263060\"/>\n   <input type=\"hidden\" name=\"MD\" value=\"b73b9a2a8d671330null,c45d7f40236942f5b73b9a2a8d671330\"/>\n  </form>\n   </body>\n</html>\n",
       "type": "form"
     },
-    "payment_url": "http://10.1.10.111/testtool/client/json-live/notification?type=redirect&transactionid=test-order-2102-9",
-    "cancel_url": "http://10.1.10.111/testtool/client/json-live/notification?type=cancel&transactionid=test-order-2102-9"
+    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel&transactionid=apitool_"
   }
 }
-
-
 ```
 {{< /code-block >}}
 
@@ -137,9 +135,9 @@ Credit card transactions which are processed with the 3D Secure protocol require
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| type                           | string    | Specifies the payment flow for the checkout process. Options: direct.       |
-| gateway                        | string    | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: VISA and MASTERCARD. |
-| order_id                       | integer / string    | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                   |
+| type                           | string    | Specifies the payment flow for the checkout process. Options: Direct.       |
+| gateway                        | string    | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: CREDITCARD. |
+| order_id                       | integer / string    | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                   |
 | currency                       | string    | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer   | The amount (in cents) that the customer needs to pay.        |
 | description                    | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
@@ -147,6 +145,5 @@ Credit card transactions which are processed with the 3D Secure protocol require
 | customer                       | object    | Contains personal information about the customer. |
 | gateway_info                   | object    | Defines certain customer data (payment details). |
 | flexible_3d                    | boolean   | True, enable the 3D secure authentication. False, disable the 3D secure authentication.  |
-| term_url                       | string    | URL that is used to instruct the card issuer where to redirect the authorisation query. |
 
 {{< description >}}
