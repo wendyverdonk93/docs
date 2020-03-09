@@ -11,7 +11,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 Transactions can have the following statuses:
 
-Read more about the difference between the [Transaction Status and the Financial Status](/faq/api/difference-between-financial-status-transaction-status/) on our Documentation Center.
+Read more about the difference between the [Status and the Financial Status](/faq/api/difference-between-status-and-transaction-status/) on our Documentation Center.
 
 | Status           | Name             | Description                                                                                      |
 |------------------|------------------|--------------------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@ Read more about the difference between the [Transaction Status and the Financial
 | refunded         | Refunded         | Payment has been refunded (in full) to the customer.                                             |
 | partial_refunded | Partial Refunded | Payment has been partially refunded to the customer.                                             |
 | reserved         | Reserved         | [payout](/faq/getting-started/glossary/#payout) / refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
-| chargedback      | Chargedback      | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. s|
+| chargedback      | Chargedback      | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. |
 | shipped          | Shipped          | Order for payment has been set to shipped to mark the order as fulfilled and capture the money. |
 
 {{% /description %}}
