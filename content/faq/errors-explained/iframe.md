@@ -11,7 +11,7 @@ An iFrame, also known as an Inline Frame is HTML document embedded inside anothe
 Although MultiSafepay does not prohibit the use of an iFrame, it is not recommended.
 Due to privacy and security reasons it may occur that the selected payment method is non-responsive when using an iFrame.
  
-Banks are loading scripts that cannot be loaded within the iFrame. Also, the checks are very strict on the safety of iFrames when using Google Chrome. Therefore MultiSafepay does not recommend for its merchants to use the iFrame.
+Banks are loading scripts that cannot be loaded within the iFrame. Also, the checks are very strict on the safety of iFrames when using Google Chrome. Therefore, MultiSafepay does not recommend for its merchants to use the iFrame.
 
 If any assistance is requested or needed, please contact our Integration Team at <integration@multisafepay.com>
  
