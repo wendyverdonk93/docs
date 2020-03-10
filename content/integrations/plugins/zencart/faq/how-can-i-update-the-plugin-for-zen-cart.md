@@ -8,7 +8,7 @@ Generally, there are three ways to update a plugin for Zen Cart. This can be don
 
 Before you update the plugin, we strongly recommend you the following:
 
-* Make sure you have a backup of your production environment
-* Test the plugin in a staging environment.
+1. Make sure you have a backup of your production environment
+2. Test the plugin in a staging environment.
 
 Go to our [Manual](/integrations/zencart/manual/) page, download the plugin and follow the instructions from step 2.
