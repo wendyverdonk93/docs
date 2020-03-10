@@ -6,13 +6,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: "."
 ---
 
-The _status_ is related status of the webshop order. In your MultiSafepay Control, this is referred to as the _Order Status_.
-
-The _financial status_ is related to the payout of of the transaction. In your MultiSafepay Control, this is referred to as the _Status_.
-
-On [API](/api/) level this can be seen as:
+On [API](/api/) level this is most commonly illustrated as:
 
 ```
     "status": "",
     "financial_status": "",
 ```
+
+The _status_ is related status of the webshop order. In your MultiSafepay Control, this is referred to as the _Order Status_.
+
+The _financial status_ is related to the payout of of the transaction. In your MultiSafepay Control, this is referred to as the _Status_.
+
+
