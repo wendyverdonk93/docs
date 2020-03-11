@@ -4,6 +4,14 @@ meta_title: "Shopware 5 plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 2.2.1
+Release date: Mar 11th, 2020
+
+## Fixed
++ PLGSHPS-176: Fix payment status stuck on review necessary
+
+***
+
 ## 2.2.0
 Release date: Mar 5th, 2020
 
