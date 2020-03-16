@@ -8,13 +8,10 @@ read_more: '.'
 
 ## How it works
 
-Apple Pay is a payment method that works on the basis of acting as a virtual wallet that enables seamless NFC payments. 
 
-Consumers input their credit card information into the Apple Pay app where it is digitized in the form of an encrypted token. Consumers can authorize payments by using either [Touch ID or Face ID](https://www.apple.com/apple-pay/) on a payment terminal. The tokenized data is encrpyted and sent to MultiSafepay where it is then decrypted and forwarded to the relevant payment scheme. MultiSafepay supports the [Visa and Mastercard](https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/) payment schemes for Apple Pay.
+Consumers input their credit card information into the Apple Pay app where it is digitized in the form of an encrypted token. Consumers can authorize payments by using either [Touch ID or Face ID](https://www.apple.com/apple-pay/) on a payment terminal. The tokenized data is encrpyted and sent to MultiSafepay where it is then decrypted and forwarded to the relevant payment scheme. MultiSafepay supports the Visa, Mastercard and Maestro payment schemes for Apple Pay.
 
 MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction. Read more about [standard credit card transactions](https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
-
-In order to integrate the Apple Pay services with MultiSafepay, the Apple Pay account API settings must be configured. Once the integration is completed, you can receive payments through this gateway by using one of our plugins or by implementing a custom integration with our API.
 
 ## Transaction Flow
 
@@ -55,8 +52,8 @@ The product rules for Apple Pay remain similar to those of the product rules fro
 
 * Refunding more than the stated amount of the original transaction is __not__ possible for Apple Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Visa and Mastercard (Apple Pay) transactions have a maximum refund period. All cards on Apple Pay records can be refunded within 180 days. After this period, it is advised to process the requested refund through a bank transfer
+* Visa, Mastercard and Maestro (Apple Pay) transactions have a maximum refund period. All cards on Apple Pay records can be refunded within 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
 
-* Mastercard and Visa (Apple Pay) can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency
+* Mastercard, Visa and Maestro (Apple Pay) can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency
