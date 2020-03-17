@@ -1,5 +1,5 @@
 ---
-title : "How does the Account Approval works?"
+title : "How does the Account Approval work?"
 meta_title: "FAQ Getting Started - Account approval - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: "."
@@ -15,7 +15,7 @@ Click [here](/faq/getting-started/are-there-any-products-or-services-that-cannot
 In order to perform the check mentioned above, we kindly request you to [upload](https://merchant.multisafepay.com/activation) the following documents in your account:
 
 * Copy of a certified Chamber of Commerce extract (no older than six months)
-* Copy (in color) of a valid ID of the directors and/or of the person(s) with 25 percent or more interest in a company, i.e. shares, control, or profit sharing.
+* Copy (in color) of a valid ID of the directors and/or of the person(s) with 25 percent or more interest in a company, i.e. shares, control, or profit sharing. We advise you to use the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on your passport or ID
 * A payment in the amount of 1 EUR transferred from your business bank account. Important: the trade name of your business bank account must be an exact match to (one of) the trade name(s) listed on you Chamber of Commerce extract.
 * Signed MultiSafepay agreement
 
