@@ -107,6 +107,19 @@ meta_description: In the MultiSafepay Documentation Center all relevant informat
 
 This template can be added to your transaction request for dynamic styling of your payment page.
 
+Below you can find an explanation of the settings which can be included in the transaction request:
+
+| Setting                         | Description                  |
+|-----------------------------------|-------------------------------|
+| hide_logo                | Hides header logo                               | 
+| iframe_mode                        | Hides various sections e.g. logo, header                     |                 
+| hide_flags                       | Hides flags container                       |                
+| hide_powered                       | Hides powered link                     | 
+| hide_cart                       | Hides cart container                   |               
+| hide_btn_cancel                      | Hides button cancel                   |               
+| hide_cc_logos                        | Hides creditcard logos                   |                
+| hide_btn_all_methods                     | Hides all methods button               |                 
+
 Read more about [dynamic styling](https://docs.multisafepay.com/tools/payment-pages/dynamic-templates/) for a payment page.
 
-{{% /description %}}
+{{< /description >}}
