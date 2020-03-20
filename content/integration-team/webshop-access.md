@@ -32,7 +32,7 @@ To benefit the lead time, provide us with available information by answering the
 
   >_Note: MultiSafepay will not be responsible for mistakes made in a live environment._
 
-1. When server access is required, we exclusively work with SFTP/SSH. Due to security reasons, we no longer support the FTP protocol.
+1. When server access is required, we exclusively work with SFTP and SSH. Port 22 should be used for SSH. Due to security reasons, we no longer support the FTP protocol.
 
 2. When an issue cannot be reproduced in a standard staging or test environment it will be considered as a time-box project.
 
