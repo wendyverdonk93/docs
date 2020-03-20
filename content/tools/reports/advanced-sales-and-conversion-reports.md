@@ -29,7 +29,7 @@ With the Conversion Report you get great insights in your websites conversion ra
 * Per Website
 * Per Day
 
-## Advanced Reporting and MultiSafepay Control
+## Advanced Reporting in MultiSafepay Control
 
 Accessing the Advance Sales and Conversion Reports can simply be done by following these steps:
 
