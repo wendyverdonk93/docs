@@ -4,6 +4,23 @@ meta_title: "X-Cart plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 2.3.0
+Release date: Mar 20th, 2020
+
+### Added
++ PLGXCTS-97: Add refund support (full and partial for non billing suite)
++ PLGXCTS-98: Add support for shipment updates
++ PLGXCTS-82: Add compatibility with Value Added Tax / Goods and Service tax module
+
+### Fixed
++ PLGXCTS-89: Correct broken ING Home'Pay title
++ PLGXCTS-86: Fix fatal error when using SOFORT Banking
+
+### Changed
++ PLGXCTS-81: Bump plugin version to become compatible with X-Cart 5.4.x
+
+***
+
 ## 2.2.0
 Release date: Apr 24th, 2019
 
