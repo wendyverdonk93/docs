@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for X-Cart"
 github_url : "https://github.com/MultiSafepay/X-Cart"
-download_url : "https://github.com/MultiSafepay/X-Cart/releases/download/2.2.0/Plugin_XCart_2.2.0.zip"
+download_url : "https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/Plugin_X-Cart_2.3.0.zip"
 changelog_url : "."
 manual: "."
 faq: "."
