@@ -38,9 +38,9 @@ MultiSafepay provides a test platform for American Express transactions. By ente
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 3782 8224 6310 005  | Completed | Transaction is Completed (not 3D enrolled) |
-| 3742 0000 0000 004  | Declined  | Transaction is Declined |
-| 3787 3449 3671 000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+| 378282246310005  | Completed | Transaction is Completed (not 3D enrolled) |
+| 374200000000004  | Declined  | Transaction is Declined |
+| 378734493671000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
 
 ## Bancontact
 
@@ -48,10 +48,10 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 
 | Card number           | Status    | Description              |
 | --------------------- | --------- | ------------------------ |
-| 6703 4500 0546 1000 5 | Completed | Transaction is Completed (3D enrolled) |
-| 6703 4500 0546 1000 9 | Declined  | Transaction is Declined (card needs to be 3D enrolled) |
-| 6703 9902 9900 0004 5 | Declined  | Transaction is Declined (failed 3D authentication) |
-| 6703 9902 9900 0001 1	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
+| 67034500054610005 | Completed | Transaction is Completed (3D enrolled) |
+| 67034500054610009 | Declined  | Transaction is Declined (card needs to be 3D enrolled) |
+| 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
+| 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
 
 ## BankTransfer
 
@@ -188,7 +188,7 @@ MultiSafepay provides a test platform for Maestro transactions. The simulation i
 
 | Card number      | Status    | Description              |
 | -----------------| --------- | ------------------------ |
-| 6759 0000 0000 5 | Completed | Transaction is Completed (3D enrolled)
+| 6759000000005 | Completed | Transaction is Completed (3D enrolled)
 
 
 ## Mastercard
@@ -201,7 +201,7 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 5500 0000 0000 0004 | Completed | Transaction is Completed (not 3D enrolled) |
+| 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
 
 ## Pay After Delivery (Betaal na Ontvangst)
 
@@ -264,9 +264,9 @@ MultiSafepay provides a test platform for Visa transactions. By entering a test 
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 4111 1111 1111 1111 | Completed | Transaction is Completed (3D enrolled) |
-| 4012 0010 3844 3335 | Completed | Transaction is Completed (not 3D enrolled) |
-| 4917 3000 0000 0008 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
-| 4462 0000 0000 0003 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Completed) |
-| 4012 0010 3746 1114 | Declined  | Transaction is Declined (failed 3D authentication) |
-| 4012 0010 3848 8884 | Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
+| 4111111111111111 | Completed | Transaction is Completed (3D enrolled) |
+| 4012001038443335 | Completed | Transaction is Completed (not 3D enrolled) |
+| 4917300000000008 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+| 4462000000000003 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Completed) |
+| 4012001037461114 | Declined  | Transaction is Declined (failed 3D authentication) |
+| 4012001038488884 | Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |

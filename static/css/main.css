@@ -959,20 +959,6 @@ div.sticky-with-menu {
     }
 }
 
-.js-toc-content h1, .js-toc-content h2, .js-toc-content h3, .js-toc-content h4, .js-toc-content h5, .js-toc-content h6 {
-    scroll-margin-top: var(--navbar-height) + 34px;
-}
-
-/*
-.js-toc-content h1:target, .js-toc-content h2:target, .js-toc-content h3:target, .js-toc-content h4:target, .js-toc-content h5:target, .js-toc-content h6:target { 
-    display: block; 
-    content: " "; 
-    margin-top: -110px; 
-    height: 110px; 
-    visibility: hidden; 
-  }
-*/
-
 .js-toc-content {
     margin-top: -1.5rem;
 }
@@ -1194,7 +1180,7 @@ p {
     border: 1px solid #fff;
 }
 
-#submitting-a-discount-with-the-payment-method-klarna-is-processed-on-a-negative-amount-instead-of-on-a-negative-quantity-this-method-of-adding-a-discount-only-applies-to-a-successfully-placed-klarna-transaction-more-information-about-how-to-add-a-discount-before-the-transaction-request-is-submitted-to-multisafepay-is-available-on-our-api-documentation-page-api-discount, #the-chargeback-reason-codes-regarding-customer-disputes-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-american-express-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-american-express-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code-1, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-mastercard-are-explained-below, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-mastercard-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-the-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-customer-dispute-with-the-payment-method-visa-are-explained-below, #the-chargeback-reason-codes-regarding-processing-errors-with-the-payment-method-visa-are-explained-below, #a-chargeback-is-submitted-for-various-reasons-and-linked-to-a-chargeback-reason-code-to-increase-the-chance-of-successfully-fighting-a-chargeback-chargebacks-are-described-per-payment-method-and-per-reason-code, #the-chargeback-reason-codes-regarding-fraud-with-the-payment-method-visa-are-explained-below, #please-note-the-alipay-payment-method-can-only-be-used-with-a-verified-alipay-account-that-is-linked-to-a-chinese-bank-all-other-transactions-will-be-unsuccessful {
+.alert-notice {
     position: relative;
     padding: .75rem 1.25rem;
     margin-bottom: 1rem;
@@ -1224,4 +1210,36 @@ p {
 
 .cc-revoke{
     display: none;
+}
+
+/* Start DOCS-1051 */
+.block-item .col-4 img {
+    width: 60px;
+    height: 65px;
+}
+.block-item .col-3 img {
+    width: 50px;
+    height: 60px;
+}
+.col-4 {
+  height: 121px;
+}
+.p-4 {
+  padding: 2rem!important;
+}
+.block-item-text {
+    margin-bottom: 1.5rem;
+}
+.ml-4, .mx-4 {
+  margin-left: 1.2rem!important;
+}
+.col-8 {
+  padding-right: 0px!important;
+}
+/* End DOCS-1051 */
+
+h6 {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    font-weight: 400;
 }
