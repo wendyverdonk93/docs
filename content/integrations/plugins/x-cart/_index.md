@@ -12,9 +12,6 @@ weight: 150
 title_short: "X-Cart"
 description_short: "Easily integrate MultiSafepay payment solutions into your X-Cart shop with the free plugin."
 description: "Easily integrate MultiSafepay payment solutions into your X-Cart shop with the free plugin.
-
-
-_The X-Cart 5.4 is currently being available in Beta version. For further information, contact the Integrations team at <integration@multisafepay.com>_ "
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
 ---
