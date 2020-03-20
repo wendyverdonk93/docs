@@ -9,8 +9,8 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_plugin "WooCommerce" %}}
 
 ### 1. Requirements
-- Wordpress 3.8+ & Woo-Commerce 2.x & 3.x.
-- Tested on PHP 7.0
+- Wordpress 5.0
+- PHP 7.2
 
 ### 2. Installation
 1. Download the plugin by clicking the Download button in this [page](/integrations/woocommerce/)
