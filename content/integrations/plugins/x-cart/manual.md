@@ -10,7 +10,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ### 1. Requirements
 - X-Cart 5.x        
-- _X-Cart 5.4 is also available in Beta_
 - Tested on PHP 7.0
 
 ### 2. Installation
