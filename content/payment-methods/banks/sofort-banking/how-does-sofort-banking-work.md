@@ -12,7 +12,7 @@ A customer chooses to pay with SOFORT Banking, authenticates their account, and 
 
 ## Supported currencies
 
-SOFORT Banking only support the Euro (EUR).
+SOFORT Banking only supports the Euro (EUR).
 
 The MultiSafepay integration of SOFORT does not support British Pounds (GBP), Swiss Francs (CHF) and Polish Zloty (PLN).
 
