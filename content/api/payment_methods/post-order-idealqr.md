@@ -48,6 +48,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## iDEAL QR
+
+_Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is currently not available._
+
 * All parameters shown are required field(s)
 
 | Parameter                      | Type      | Description                                                                             |
