@@ -74,13 +74,13 @@ MultiSafepay offers the following recurring models: __Card on file (COF), Subscr
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect.        |
 | gateway                         | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) E.g. CREDITCARD. |
-| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer otherwise it will be string.                                   |
+| order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | recurring_model                        | string | The function of the recurring model e.g. Card on file, Subscription, Unscheduled  |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
 | description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 |  payment_options 	|   object	 | 
-| notification_url            | string    | Endpoint where we will send the notifications to. [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+| notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  |
 | customer	| object	 | 

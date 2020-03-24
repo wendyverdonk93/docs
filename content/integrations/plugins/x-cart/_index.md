@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for X-Cart"
 github_url : "https://github.com/MultiSafepay/X-Cart"
-download_url : "https://github.com/MultiSafepay/X-Cart/releases/download/2.2.0/Plugin_XCart_2.2.0.zip"
+download_url : "https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/Plugin_X-Cart_2.3.0.zip"
 changelog_url : "."
 manual: "."
 faq: "."
@@ -11,10 +11,7 @@ logo: "/logo/Plugins/X-Cart.svg"
 weight: 150
 title_short: "X-Cart"
 description_short: "Easily integrate MultiSafepay payment solutions into your X-Cart shop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your X-Cart shop with the free plugin.
-
-
-_The X-Cart 5.4 is currently being available in Beta version. For further information, contact the Integrations team at <integration@multisafepay.com>_ "
+description: "Easily integrate MultiSafepay payment solutions into your X-Cart shop with the free plugin."
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
 ---
