@@ -104,8 +104,6 @@ If this code is not implemented in your back-end platform, consumers choosing Ap
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Read more about [Apple Pay](/payment-methods/wallet/applepay/) on our documentation page.
-
 ### Apple Pay Direct
 
 All parameters shown are required field(s) for a Apple Pay _Direct_ transaction. Please note this is a  simply a _Redirect_ call with 'APPLEPAY' pre-selected.
