@@ -61,7 +61,9 @@ Some rules may apply to certain payment methods. For credit cards, the following
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page
 
-* Mastercard, Visa and American Express can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency 
+* Mastercard, Visa and American Express can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/) as standard currency
+
+* If you refund the transaction (partially) on the same day this is called a reversal. To keep things easy manageable in your reporting, this is logged as a refund. However, your customers might experience otherwise: the transaction in their overview will be adjusted to the new amount (partial reversal) of the order __or__ is not debited at all (full reversal).
 
 
     If a different currency is desired, contact our support department for the possibilities. Submit your request at <support@multisafepay.com>
