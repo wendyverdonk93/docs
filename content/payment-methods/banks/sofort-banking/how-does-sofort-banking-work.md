@@ -12,12 +12,9 @@ A customer chooses to pay with SOFORT Banking, authenticates their account, and 
 
 ## Supported currencies
 
-SOFORT Banking supports the following currencies:
+SOFORT Banking only supports the Euro (EUR).
 
-* Euro (EUR)
-* British pounds (GBP)
-* Swiss Franc (CHF)
-* Polish Zloty (PLN)
+The MultiSafepay integration of SOFORT does not support British Pounds (GBP), Swiss Francs (CHF) and Polish Zloty (PLN).
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -54,5 +51,7 @@ Some rules may apply to certain payment methods. For SOFORT Banking, the followi
 * Successful SOFORT Banking transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
+
+* Minimum amount for SOFORT transactions must be € 0,10 EUR.
 
 
