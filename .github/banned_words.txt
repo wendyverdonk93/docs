@@ -3,8 +3,6 @@ api key
 webshop admin
 back-office
 admin
-Banktransfer
-Bank Transfer
 Working days
 Charge back
 login details
