@@ -13,7 +13,7 @@ meta_description: "MultiSafepay plugin for Vue Storefront. Easily integrate Mult
 description : "Easily integrate MultiSafepay payment solutions into your Vue Storefront webshop with the free and completely new MultiSafepay Vue Storefront plugin."
 changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md"
 weight: 130
-logo: "/logo/Plugins/Magento_2.svg"
+logo: "/logo/Plugins/Vue_Storefront.svg"
 title_short: "Vue Storefront"
 description_short: "The MultiSafepay Vue Storefront plugin. Easily integrate MultiSafepay payment solutions into your Vue Storefront webshop with the free plugin."
 ---

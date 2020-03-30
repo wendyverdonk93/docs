@@ -49,17 +49,21 @@ First, make sure you meet these requirements for your Magento 2 installation.
 
 #### Requirements for Magento 2
 
-MultiSafepay Payments for Magento 2 module installed, you can get it here: https://github.com/MultiSafepay/Magento2Msp - you can follow the installation steps in the README file.
+The requirements for the MultiSafepay Payments for Magento 2 module can be found [here](https://github.com/MultiSafepay/Magento2Msp)
 
-#### Requirements for Vue Storefront API
+Please follow the installation steps in the README file.
 
-Add the Vue Storefront API extension we created for the MultiSafepay Payments API: https://github.com/MultiSafepay/vsf-multisafepay-service-api - you can follow the installation steps in the README.
+#### Requirements for the Vue Storefront API
+
+Add the Vue Storefront API extension we created for the [MultiSafepay Payments API](https://github.com/MultiSafepay/vsf-multisafepay-service-api)
+
+Please follow the installation steps in the README file.
 
 #### Requirements for Vue Storefront
 
-After making sure to meet the above mentioned requirements, please follow the next steps to integrate this module in Vue Storefront.
+After making sure that the abovementioned requirements are met, please follow the next steps to integrate this module to Vue Storefront.
 
-Clone this git repository from within your vue-storefront root folder
+Clone this git repository from within your vue-storefront root folder:
 
 ```shell
 git clone git@github.com:MultiSafepay/vsf-payment-multisafepay.git src/modules/vsf-payment-multisafepay
@@ -96,18 +100,17 @@ Make sure to set the correct location to your API and the routes to the CMS page
 
 #### Integration to theme
 
-We used the default theme, below we'll sum up the changes that are necessary to completely integrate this module to your own theme if you're not using Vue Storefront default theme. We create a isolate components for separate the logic from VSF core.
+We use the default theme, below we will sum up the changes that are necessary to completely integrate this module to your own theme if you're not using Vue Storefront default theme. We create isolate components to separate the logic from VSF core.
 
-- Add a method to the currentPage mixin to hide header and footer when communication with MultiSafepay API is processing - add condition to show header and footer in components depending on this method
-- Remove default ThankYouPage as the customer goes immediately to the MultiSafepay payment gateway to pay for the placed order. The customer comes back to a customized order status page.
+* Add a method to the currentPage mixin to hide header and footer when communication with MultiSafepay API is processing - add condition to show header and footer in components depending on this method
+* Remove default ThankYouPage as the customer goes immediately to the MultiSafepay payment gateway to pay for the placed order. The customer arrives back to a customized order status page.
+* Add PaymentMethods component into Payment checkout component to display Multisafepay payment methods, you can do with two differents approaches:
 
-- Add PaymentMethods component into Payment checkout component to display Multisafepay payment methods, you can do with two differents approaches:
-
-1º You can copy/paste the Payment component from this module to your default theme
+1. You can copy/paste the Payment component from this module to your default theme
 
 Or
 
-2º The first one is removing the following code on Payment componet (core/blocks/Checkout/Payment.vue):
+2. The first one is removing the following code on Payment componet (core/blocks/Checkout/Payment.vue):
 
 ```html
 <div v-for="(method, index) in paymentMethods" :key="index" class="col-md-6">
@@ -148,11 +151,11 @@ import PaymentMethods from "src/modules/vsf-payment-multisafepay/components/Paym
 
 To enable payment methods in your Vue Storefront checkout you have to follow these steps:
 
-1. Enable the payment method in your MultiSafepay dashboard
+1. Enable the payment method in your MultiSafepay Control
 2. Enable the payment method in the MultiSafepay Payments for Magento 2 module in your Magento 2 backend system
 3. Add the payment methods to the payment_methods_mapping property in the order property config.
 
-Here is a example:
+Here is an example:
 
 ```json
 ...
@@ -173,7 +176,7 @@ Here is a example:
 
 ```
 
-To display also the images of each payment methods you have to below payment_methods_mapping the mapping for images, just copy and paste this:
+To display the images of each payment methods you have to below payment_methods_mapping the mapping for images, just copy and paste the following code:
 
 ```json
     "payment_methods_mapping_img": {
