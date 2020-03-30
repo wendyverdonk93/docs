@@ -167,7 +167,7 @@ In the case of a _Redirect_ transaction, the consumer will be sent to the MultiS
 
 ### Direct - iDEAL
 
-In the case of a _Direct_ transaction, the consumer has to choose iDEAL on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
+In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 
 * All parameters shown are required field(s)
 
