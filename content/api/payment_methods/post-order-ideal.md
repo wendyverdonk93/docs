@@ -144,6 +144,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## iDEAL
 ### Redirect - iDEAL
 
+In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
 * All parameters shown are required field(s)
 
@@ -166,7 +167,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ### Direct - iDEAL
 
-Supplying an issuer is required only when you submit your request as _direct_. The customer will be redirected to the selected bank to proceed with finalizing the payment. 
+In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 
 * All parameters shown are required field(s)
 
