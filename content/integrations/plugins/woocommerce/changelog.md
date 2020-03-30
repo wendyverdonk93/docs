@@ -4,6 +4,15 @@ meta_title: "WooCommerce plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 3.5.0
+Release date: Mar 30th, 2020
+
+### Added
++ PLGWOOS-363: Add Apple Pay
++ PLGWOOS-384: Add Direct Bank Transfer
+
+***
+
 ## 3.4.0
 Release date January 6th, 2020
 
