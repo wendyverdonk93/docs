@@ -11,7 +11,6 @@ newsletter : "Vue Storefront"
 meta_title: "Vue Storefront plugin integration - MultiSafepay Documentation Center"		
 meta_description: "MultiSafepay plugin for Vue Storefront. Easily integrate MultiSafepay payment solutions into your Vue Storefront platform with the free plugin"
 description : "Easily integrate MultiSafepay payment solutions into your Vue Storefront webshop with the free and completely new MultiSafepay Vue Storefront plugin."
-changelog: https://github.com/MultiSafepay/vsf-payment-multisafepay"
 weight: 130
 logo: "/logo/Plugins/Vue_Storefront.svg"
 title_short: "Vue Storefront"
