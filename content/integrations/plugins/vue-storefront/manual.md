@@ -9,4 +9,4 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 If you would like to install the MultiSafepay plugin to your Vue Storefront platform, we would kindly like to ask you to read the [installation instructions](https://github.com/MultiSafepay/vsf-payment-multisafepay) on our Github page.
 
 ### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> 
