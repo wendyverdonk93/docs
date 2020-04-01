@@ -4,6 +4,18 @@ meta_title: "Drupal 7 plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 2.2.0
+Release date: Apr 1st, 2020
+
+### Added
++ PLGDRPC-266: Add Apple Pay
++ PLGDRPC-264: Add Direct Bank Transfer
+
+### Changed
++ PLGDRPC-256: Changed Bank transfer from redirect to direct
+
+***
+
 ## 2.1.0
 Release date: Sep 1th, 2017
 ### Changes
