@@ -4,7 +4,7 @@ breadcrumb_title: "PWA Studio"
 github_url : "https://github.com/MultiSafepay/Magento2Msp/tree/progressive-web-app"
 download_url : "https://github.com/MultiSafepay/Magento2Msp.git"
 changelog_url : "."
-manual: "."
+manual: "." 
 layout: 'single'
 newsletter : "PWA Studio"
 meta_title: "PWA Studio plugin integration - MultiSafepay Documentation Center"		
