@@ -3,6 +3,17 @@ title : "Release Notes CS-Cart plugin"
 meta_title: "CS-Cart plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
+## 1.5.0
+Release date - April 1st, 2020
+
+### Added
++ PLGCSCS-117: Add Apple Pay
+
+### Changed
++ PLGCSCS-113: Rename MultiSafepay Wallet to MultiSafepay
+
+***
+
 ##  1.4.0
 Release date - February 26th, 2020
 
