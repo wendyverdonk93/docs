@@ -5,7 +5,6 @@ github_url : "https://github.com/MultiSafepay/vsf-payment-multisafepay"
 download_url : "https://github.com/MultiSafepay/vsf-payment-multisafepay"
 changelog_url : "."
 manual: "."
-faq: "."
 layout: 'single'
 newsletter : "Vue Storefront"
 meta_title: "Vue Storefront plugin integration - MultiSafepay Documentation Center"		
