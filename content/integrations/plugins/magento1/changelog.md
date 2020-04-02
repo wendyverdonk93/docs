@@ -5,6 +5,30 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ---
 
+## 2.6.0
+Release date: Apr. 2nd, 2020
+
+### Added
++ PLGMAGONE-617: Add Apple Pay
++ PLGMAGONE-656: Add Direct Bank Transfer
++ PLGMAGONE-485: Add support for Fooman Surcharge
++ PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
+
+### Fixed
++ PLGMAGONE-654: Fix incorrect character set for translations
++ PLGMAGONE-621: Fix layout issue when OneStepCheckout is used
++ PLGMAGONE-588: Fix missing site secure code in refund request
++ PLGMAGONE-572: Fixed payment fee description not being set
++ PLGMAGONE-526: Fixed undefined variable recurring on E_STRICT mode
++ PLGMAGONE-458: Count gives warning when PHP 7.2 is used
+
+### Changed
++ PLGMAGONE-599: Hide Pay After Delivery when shipping address differs
++ PLGMAGONE-574: Prevent orders to be cancelled when set to processing
++ Update translations for "select your credit card"
+
+***
+
 ## 2.5.1
 Release date: Mar. 25th, 2019
 
