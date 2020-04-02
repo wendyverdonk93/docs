@@ -4,6 +4,17 @@ meta_title: "OpenCart plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 2.3.0
+Release date: April 2nd, 2020
+
+### Added
++ PLGOPNS-178: Add Apple Pay
+
+### Fixed
++ PLGOPNS-170: Fix payment methods not visible in backend order
+
+***
+
 ## 2.2.1
 Release date: March 27th, 2019
 ### Added

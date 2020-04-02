@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay plugin for OpenCart"
 github_url : "https://github.com/MultiSafepay/Opencart"
-download_url : "/integrations/opencart/releases/Plugin_OpenCart_2.2.1.zip"
+download_url : "https://github.com/MultiSafepay/Opencart/releases/download/2.3.0/Plugin_OpenCart_2.3.0.zip"
 manual: "."
 faq: "."
 meta_title: "OpenCart plugin integration - MultiSafepay Documentation Center"
