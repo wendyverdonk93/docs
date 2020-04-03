@@ -65,7 +65,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {
   "success": true,
   "data": {
-    "amount": 100,
+    "amount": 9743,
     "amount_refunded": 0,
     "costs": [
       {
@@ -110,7 +110,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "payment_methods": [
       {
-        "amount": 100,
+        "amount": 9743,
         "currency": "EUR",
         "description": "Test Order Description",
         "external_transaction_id": "P-26660200325-0935",
