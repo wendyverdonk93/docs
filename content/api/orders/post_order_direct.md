@@ -1,6 +1,6 @@
 ---
 weight: 220
-meta_title: "API - Create Direct Order - Developers MultiSafepay"
+meta_title: "API - Create a Direct Order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
@@ -92,8 +92,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 
-## Creates a Direct Order
-Creates a direct order.    
+## Create a Direct Order
 
 Depending on the payment method, additional information should be provided. See each payment method reference for additional information.  
 

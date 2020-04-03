@@ -1,6 +1,6 @@
 ---
 weight: 210
-meta_title: "API - Create an order - Developers MultiSafepay"
+meta_title: "API - Create a Redirect order - Developers MultiSafepay"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 {{< code-block >}}
@@ -61,8 +61,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< /code-block >}}
 
 {{< description >}}
-## Create an order
-Creates redirect order. Default type is "redirect".
+## Create a Redirect order
+
+A _Redirect_ order is the default type.
 
 
 | Parameter                   | Type      | Description                                                                                |
