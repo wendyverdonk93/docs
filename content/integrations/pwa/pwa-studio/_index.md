@@ -6,7 +6,6 @@ download_url : "https://github.com/MultiSafepay/Magento2Msp.git"
 changelog_url : "."
 manual: "." 
 layout: 'single'
-newsletter : "PWA Studio"
 meta_title: "PWA Studio plugin integration - MultiSafepay Documentation Center"		
 meta_description: "MultiSafepay plugin for PWA Studio. Easily integrate MultiSafepay payment solutions into your PWA Studio platform with the free plugin"
 description : "Easily integrate MultiSafepay payment solutions into your PWA Studio webshop with the free and completely new MultiSafepay PWA Studio plugin."
