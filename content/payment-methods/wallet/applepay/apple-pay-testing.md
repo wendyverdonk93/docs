@@ -8,12 +8,6 @@ read_more: '.'
 
 ## Testing
 
-Currently, it is only possible to conduct limited testing with Apple Pay. This can be carried out with [Appetize.io](https://appetize.io/).
+Currently, it is only possible to conduct limited testing with Apple Pay. This can be carried out with [Appetize.io](https://appetize.io/)
 
-This emulator allows the pretransaction to be created when ordering and using the payment method Apple Pay. When attempting to complete the order, you will be blocked on the MultiSafepay payment page with the error "this device is not supported" but the pretransaction with Apple Pay as a gateway will be created.
-
-This allows to see wehther a connection to our server exists. Furthermore, it is not possible to fully complete the test transaction.
-
- 
-
-So you can test the visibility + prestransaction currently.
+This emulator allows the pretransaction to be created when ordering and using the payment method Apple Pay. When attempting to complete the order, you will be blocked on the MultiSafepay payment page with the error "this device is not supported" but the pretransaction with Apple Pay as a gateway will be created to check whether a connection to our server exists. Furthermore, it is not possible to fully complete the test transaction.
