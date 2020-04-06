@@ -57,7 +57,7 @@ Full documentation can be found on our [lifetime of a payment link](/faq/api/lif
 
 * If you would like to make changes in the validation of bank transfers, check whether this is possible in your ecommerce platform
 
-* In order to provide your customer with a local bank account from MultiSafepay (where available), please add the appropriate ISO 3166 code in the transaction request (i.e. "country": "DE",)
+* In order to provide your customer with a local bank account from MultiSafepay (where available), please add the appropriate [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code in the transaction request (i.e. "country": "DE",)
 
 * Payments done through bank transfers can be processed in the following [currencies](/faq/general/which-currencies-are-supported-by-multisafepay/):
 
