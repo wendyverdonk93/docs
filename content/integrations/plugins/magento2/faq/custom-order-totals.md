@@ -6,4 +6,8 @@ layout: "faqdetail"
 read_more: "."
 ---
 
-'Order Totals' including Custom Order Totals from other plugins created by developers may appear on the MultiSafepay checkout page. Unwanted Custom Order Totals can be excluded in the backend of our plugin in Magento 2. This option will however not be required if the plugin or module removes the custom total from the order when it is not being used. 
+From version 1.9.0 and higher, all the order totals, including custom ones, are automatically read and shown on the MultiSafepay payment page.
+
+Some Magento 2 plugins that provide custom order totals do not completely remove these totals from the order and only remove them from the frontend in order for the user not to see them. This results in our plugin picking up the custom order totals that were not visible in the webshop and showing them on the payment page. 
+
+To prevent this from happening, these custom totals can be excluded in the advanced section of the webshop configuration: _Stores_ > _Configuration_ > _MultiSafepay_ > _MultiSafepay Settings_ > _Advanced Settings_ > _Exclude custom totals_.
