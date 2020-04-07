@@ -6,3 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 1. Read the page [How do I get tokenization?](/tools/tokenization/how-do-i-get-tokenization/)
 2. Enable Tokenization via _Stores->Configuration->MultiSafepay->MultiSafepay Settings_.
+
+Note: 
+The Tokenization feature is not available for the Credit Card gateway. 
+You are required to enable the Visa, Mastercard and/or Maestro gateways separately in order to have this feature. This will make the _"Save Card"_ option available during the checkout process.
