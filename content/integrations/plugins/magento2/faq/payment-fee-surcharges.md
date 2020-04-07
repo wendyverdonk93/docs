@@ -4,6 +4,7 @@ weight:
 meta_title: "Magento 2 plugin surcharge - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 layout: "faqdetail"
+read_more: "."
 ---
 
 Adding a payment fee or [Surcharge](/faq/getting-started/glossary/#surcharge) is no longer supported within the plugin in Magento 2.
