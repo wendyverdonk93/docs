@@ -4,6 +4,18 @@ meta_title: "PrestaShop 1.6 plugin changelog - MultiSafepay Documentation Center
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 3.5.0
+Release date: Apr 9th, 2020
+
+### Added
++ PLGPRSS-344: Add AfterPay
+
+### Fixed
++ PLGPRSS-396: Correct spelling of ING Home'Pay
++ PLGPRSS-397: Fix incorrect gateway code for ING Home'Pay
+
+***
+
 ## 3.4.0
 Release date: Apr 2nd, 2020
 
