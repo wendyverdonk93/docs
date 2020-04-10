@@ -22,6 +22,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "customer": {
         "locale": "nl_NL",
+        "country": "NL",
         "ip_address": "89.20.162.110"
         "email": "example@multisafepay.com"
     }
@@ -59,6 +60,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
     },
     "customer": {
         "locale": "nl_NL",
+        "country": "NL",
         "ip_address": "89.20.162.110",
     }
 }
@@ -173,6 +175,7 @@ The bank transfer payment method can either be a direct or redirect order. In th
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. |
 | ip_address                      | string   | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
 | email                              | string | The email address where the system can send payment instructions to the customer. |
+| country                              | string |  Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  |
 
 
 Read more about [bank transfers](/payment-methods/bank-transfer/) on our documentation page.
@@ -195,6 +198,7 @@ Read more about [bank transfers](/payment-methods/bank-transfer/) on our documen
 | cancel_url |	string |	Customer will be redirected to this page after a failed payment. |
 | customer                       | object |                          |
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. |
+| country                              | string |  Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  |
 
 In the JSON response for a direct transaction, it is important to send payment instructions to the customer by yourself. Please be aware that all of the parameters can be different for every single transaction. Do not store this information other than for a specific transaction.
 
