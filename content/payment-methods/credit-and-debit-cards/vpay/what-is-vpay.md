@@ -7,3 +7,4 @@ read_more: '.'
 ---
 ## What it is
 
+V Pay is the European debit card service from VISA Europe. Merchants can offer their consumers online and offline payments, as well as contactless payments throughout Europe.
