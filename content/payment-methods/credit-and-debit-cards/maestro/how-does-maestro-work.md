@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## How it works
->_Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>_
+Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
 
 A Maestro payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by Maestro.
 
