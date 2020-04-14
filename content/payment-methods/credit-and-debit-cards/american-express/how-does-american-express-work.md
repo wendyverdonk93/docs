@@ -1,14 +1,12 @@
 ---
-title: "Maestro, How does it work?"
+title: "American Express, How does it work?"
 weight: 21
-meta_title: "Maestro, how does it work? - MultiSafepay Support"
+meta_title: "American Express, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
 ## How it works
->_American Express payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a American Express payment. Submit your request to enable credit cards (Visa, Mastercard, American Express and Maestro) to your account manager or contact us at <sales@multisafepay.com>_
-
-A Maestro payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by Maestro.
+>American Express payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a American Express payment. Submit your request to enable credit cards (Visa, Mastercard, American Express and Maestro) to your account manager or contact us at <sales@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways an American Express transaction can be processed.
@@ -24,14 +22,14 @@ American Express transactions received by MultiSafepay will be processed through
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet.  | 
-| Completed   | Completed   | A successful American Express  transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
+| Completed   | Completed   | A successful American Express transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)  | 
 | Declined    | Declined    | Transaction has been rejected. [read more on credit card status 'declined'. What does this mean?](/payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 | 
 
-#### Transaction flow when processing on own MID 
+### Transaction flow when processing on own MID 
 > When using an own MID (MerchantID) from American Express, the funds are not processed by MultiSafepay. Instead, the funds will be added to your own balance at American Express.
 
 
@@ -42,7 +40,7 @@ American Express transactions received by MultiSafepay will be processed through
 | Completed   | Initialized | A successful credit card  transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 
 
-#### Refund flow
+### Refund flow
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
