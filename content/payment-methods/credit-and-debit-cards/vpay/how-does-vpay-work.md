@@ -19,7 +19,7 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-V Pay (credit card) transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving a V Pay payment:
+V Pay (debit card) transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving a V Pay payment:
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
