@@ -6,7 +6,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 ## How it works
->_V Pay payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a V Pay payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>_
+V Pay payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a V Pay payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
 
 A V Pay payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by V Pay.
 
@@ -38,7 +38,7 @@ V Pay (debit card) transactions received by MultiSafepay will be processed throu
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/payment-methods/creditcards/what-is-a-chargeback/)              |
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback/)              |
 
 
 The full API reference for V Pay and credit cards can be found [here](/api/#credit-cards)
