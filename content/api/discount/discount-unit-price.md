@@ -40,7 +40,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
         "shop": "ApiTestTool",
         "plugin_version": "1.0.0",
         "shop_version": "1",
-        "partner": "parner",
+        "partner": "partner",
         "shop_root_url": "https://multisafepay.com"
     },
     "customer": {
