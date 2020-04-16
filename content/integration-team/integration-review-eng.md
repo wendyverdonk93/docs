@@ -48,4 +48,5 @@ Our Integration Team will greatly appreciate your effort.
 [LinkedIn](https://www.linkedin.com/company/multisafepay/)<br>
 [Twitter](https://twitter.com/multisafepay)<br>
 [Facebook](https://www.facebook.com/multisafepay)<br>
-[Stackshare](https://stackshare.io/multisafepay/multisafepay)
+[Stackshare](https://stackshare.io/multisafepay/multisafepay)<br>
+[Instagram](https://www.instagram.com/multisafepay/)

@@ -41,4 +41,5 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [LinkedIn](https://www.linkedin.com/company/multisafepay/)<br>
 [Twitter](https://twitter.com/multisafepay)<br>
 [Facebook](https://www.facebook.com/multisafepay)<br>
-[Stackshare](https://stackshare.io/multisafepay/multisafepay)
+[Stackshare](https://stackshare.io/multisafepay/multisafepay)<br>
+[Instagram](https://www.instagram.com/multisafepay/)
