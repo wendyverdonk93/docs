@@ -27,7 +27,7 @@ Plugin and/or integration related information
     "plugin_version": "1.0.0",
     "shop_version": "1",
     "partner": "partner",
-    "shop_root_url": "http://multisafepay.com"
+    "shop_root_url": "https://multisafepay.com"
 }
  ```
 {{< /code-block >}}
