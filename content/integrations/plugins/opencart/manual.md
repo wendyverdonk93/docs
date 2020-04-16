@@ -10,7 +10,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ### 1. Requirements
 - OpenCart 3.x
-- Tested on PHP 7.0
+- Tested on PHP 7.3
 
 ### 2. Installation
  1. Unpack the content of the .ZIP file in the root of your webshop.
