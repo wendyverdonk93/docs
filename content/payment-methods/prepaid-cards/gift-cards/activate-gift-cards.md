@@ -9,11 +9,12 @@ read_more: '.'
 MultiSafepay supports a wide range of gift cards.
 With gift cards, merchants can either accept gift card payments of established gift card issuers or support their own personalized gift card.
 
-MultiSafepay offers 3 gift card connections:
+MultiSafepay offers 4 gift card connections:
 
-* Intersolve
-* FashionCheque
-* 123TCS.
+* [Intersolve](https://intersolve.nl/contact)
+* [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+* [123TCS](https://www.123tcs.com/#Contact)
+* [Givacard](https://www.givacard.nl/)
 
 The majority of the gift cards are issued by Intersolve.
 
@@ -35,8 +36,7 @@ The customer can pay an order with multiple gift cards of the same or multiple d
 The gift card issuer will process the connection with one of the issuers shown below. The request for a gift card goes through the issuer of the gift card itself. For example: the VVV Cadeaukaart can be requested at the VVV office. Subsequently, the connection of the VVV Cadeaukaart will be processed by Intersolve in this case.
 
 
-[Intersolve](https://intersolve.nl/contact)
-
-[Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
-
-[123TCS](https://www.123tcs.com/#Contact)
+* [Intersolve](https://intersolve.nl/contact)
+* [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+* [123TCS](https://www.123tcs.com/#Contact)
+* [Givacard](https://www.givacard.nl/)
