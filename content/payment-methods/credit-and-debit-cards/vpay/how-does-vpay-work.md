@@ -10,6 +10,8 @@ V Pay payments are processed as a credit card payment. Therefore, credit card pa
 
 A V Pay payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by V Pay.
 
+V Pay payments are processed through the VISA gateway when Visa is activated as a payment method in your MultiSafepay Control.
+
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
