@@ -42,7 +42,7 @@ Adding a discount as order rule is a common way to add a discount before submitt
 		"plugin_version": "1.0.0",
 		"shop_version": "1",
 		"partner": "partner",
-		"shop_root_url": "http://multisafepay.com"
+		"shop_root_url": "https://multisafepay.com"
 	},
 	"customer": {
 		"locale": "us",

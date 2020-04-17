@@ -225,7 +225,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
         "plugin_version": "1.0.0",
         "shop_version": "1",
         "partner": "partner",
-        "shop_root_url": "http://multisafepay.com"
+        "shop_root_url": "https://multisafepay.com"
     },
     "customer": {
         "locale": "nl_NL",
