@@ -4,6 +4,14 @@ meta_title: "PrestaShop 1.7 plugin changelog - MultiSafepay Documentation Center
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 4.6.1
+Release date: April 17th, 2020
+
+### Fixed
++ PLGPRSS17-105: Gift cards not visible in checkout
+
+***
+
 ## 4.6.0
 Release date: March 27th, 2020
 
