@@ -11,7 +11,7 @@ read_more: '.'
 
 Consumers input their credit card information into the Apple Pay app where it is digitized in the form of an encrypted token. Consumers can authorize payments by using either [Touch ID or Face ID](https://www.apple.com/apple-pay/) on a payment terminal. The tokenized data is encrpyted and sent to MultiSafepay where it is then decrypted and forwarded to the relevant payment scheme. MultiSafepay supports the Visa, Mastercard and Maestro payment schemes for Apple Pay.
 
-MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction. Read more about [standard credit card transactions](https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
+MultiSafepay authorizes and validates the payment as a standard credit card transaction. Therefore, transaction statuses remain the same as that of a credit card transaction. Read more about [standard credit card transactions](/payment-methods/credit-and-debit-cards/) on our documentation page.
 
 ## Transaction Flow
 
@@ -30,7 +30,7 @@ Apple Pay transactions received by MultiSafepay will be processed through our fr
 | Initialized | Initialized | A payment link has been generated to initialize an Apple Pay payment, but no payment has yet been received.  | 
 | Completed   | Completed   | A successful Apple Pay transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)  | 
-| Declined    | Declined    | Transaction has been rejected. [Read more on the  'declined' status. What does this mean?](/payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
+| Declined    | Declined    | Transaction has been rejected. [Read more on the  'declined' status. What does this mean?](/payment-methods/credit-and-debit-cards/american-express/american-express-status-what-does-this-mean-/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Void    | Transaction has been cancelled.   | 
 

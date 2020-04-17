@@ -6,10 +6,10 @@ layout: "faqdetail"
 ---
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/creditcards/)
-+ [Credit cards](/payment-methods/credit-and-debit-cards/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/creditcards/)
-+ [Visa](/payment-methods/credit-and-debit-cards/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
++ [American Express](/payment-methods/credit-and-debit-cards/american-express/)
++ [Credit cards](/payment-methods/credit-and-debit-cards/) (combine Maestro, Mastercard & Visa in checkout)
++ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard/)
++ [Visa](/payment-methods/credit-and-debit-cards/visa/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
 
 __Banks__
 

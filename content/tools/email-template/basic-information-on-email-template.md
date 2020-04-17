@@ -32,7 +32,7 @@ This email is intended to inform the merchant that a chargeback has taken place.
 
      When the standard or personalized chargeback email template is set up, it is important to add an email to your account to which the embedded email template can be sent. Place the desired email address under your contact information -> chargeback email in your MultiSafepay Control. One or more email addresses can be added. 
 
-     More information about Chargebacks available in [What is a chargeback?](/payment-methods/creditcards/chargebacks/what-is-a-chargeback/)
+     More information about Chargebacks available in [What is a chargeback?](/faq/chargebacks/what-is-a-chargeback/)
 
 3. **Manual capture reservation completed (to customer)**\
 The reserved amount on the customer's credit card has been manually accepted by the merchant. The customer receives a payment confirmation of the accepted payment by mail. 

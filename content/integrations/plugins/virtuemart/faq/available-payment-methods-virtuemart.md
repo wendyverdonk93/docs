@@ -6,8 +6,8 @@ layout: "faqdetail"
 ---
 __Credit cards__
 
-+ [Mastercard](/payment-methods/creditcards/)
-+ [Visa](/payment-methods/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/branded-credit-cards/#cartasi-what-is-it))
++ [Mastercard](/payment-methods/mastercard/)
++ [Visa](/payment-methods/visa/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
 
 __Banks__
 

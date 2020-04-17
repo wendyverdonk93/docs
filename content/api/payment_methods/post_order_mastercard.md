@@ -63,4 +63,4 @@ All parameters shown are required field(s) for A Mastercard _redirect_ transacti
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Read more about [Mastercard](/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
+Read more about [Mastercard](/payment-methods/credit-and-debit-cards/) on our documentation page.
