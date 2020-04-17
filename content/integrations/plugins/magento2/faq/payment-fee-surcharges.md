@@ -11,6 +11,8 @@ Adding a payment fee or [Surcharge](/faq/getting-started/glossary/#surcharge) is
 
 However, an external package of [Fooman](https://store.fooman.co.nz/extensions/magento2) is available. This allows you to still add a payment fee or surcharge within the desired payment method.
 
+Please keep in mind that it is not possible to refund orders that contain a Fooman Surcharge, because the Fooman plugin has an issue with partial refunds, causing wrong amounts to be refunded at MultiSafepay.
+
 >_Do mind that because an external module has to be installed, our Integration Team's help will be limited_.
 
 Of course, we do our best to support and assist as best as possible, but we investigate or reproduce on the core of a plugin. Therefore, we do not guarantee a perfect compatibility when installing an external package.
