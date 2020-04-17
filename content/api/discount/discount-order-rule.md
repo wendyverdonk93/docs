@@ -5,7 +5,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ---
 {{< description >}}
 ## Discount added as order rule (which is non-refundable)
-Adding a discount as order rule is a common way to add a discount before submitting a transaction request at MultiSafepay. However, adding a discount as order rule may result in a conflict when partial refunding a postpaid [payment method](/faq/getting-started/glossary/#payment-method) transaction. This is most common when the discount is a percentage. Adding a discount as seperate discount rule, will conflict with parcially refunding a postpaid payment method transaction as the negative amount cannot be undone. It is not possible to partially refund a negative amount that is added as a discount rule. 
+Adding a discount as order rule is a common way to add a discount before submitting a transaction request at MultiSafepay. However, adding a discount as order rule may result in a conflict when partial refunding a postpaid [payment method](/faq/getting-started/glossary/#payment-method) transaction. This is most common when the discount is a percentage. Adding a discount as seperate discount rule, will conflict with partially refunding a postpaid payment method transaction as the negative amount cannot be undone. It is not possible to partially refund a negative amount that is added as a discount rule. 
 {{% /description %}}
 
 {{< code-block >}}
@@ -41,7 +41,7 @@ Adding a discount as order rule is a common way to add a discount before submitt
 		"shop": "ApiTestTool",
 		"plugin_version": "1.0.0",
 		"shop_version": "1",
-		"partner": "parner",
+		"partner": "partner",
 		"shop_root_url": "http://multisafepay.com"
 	},
 	"customer": {
