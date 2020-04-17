@@ -1,14 +1,16 @@
 ---
-title: "Maestro, How does it work?"
+title: "V Pay, How does it work?"
 weight: 21
-meta_title: "Maestro, how does it work? - MultiSafepay Support"
+meta_title: "V Pay, how does it work? - MultiSafepay Support"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
 ---
 ## How it works
-Maestro payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Maestro payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
+V Pay payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a V Pay payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
 
-A Maestro payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by Maestro.
+A V Pay payment is always validated with the 3D secure code. 3D secure verification is deemed mandatory by V Pay.
+
+V Pay payments are processed through the VISA gateway when Visa is activated as a payment method in your MultiSafepay Control.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -19,12 +21,12 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-Maestro (debit card) transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving a Maestro payment:
+V Pay (debit card) transactions received by MultiSafepay will be processed through our fraud filter. The following statuses are important when receiving a V Pay payment:
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet. | 
-| Completed   | Completed   | A successful Maestro transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
+| Completed   | Completed   | A successful V Pay transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)
 | Declined    | Declined    | Transaction has been rejected. [read more on credit card status 'declined'. What does this mean?](/payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
@@ -41,16 +43,15 @@ Maestro (debit card) transactions received by MultiSafepay will be processed thr
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback/)              |
 
 
-The full API reference for Maestro and credit cards can be found [here](/api/#credit-cards)
+The full API reference for V Pay and credit cards can be found [here](/api/#credit-cards)
 
 ### Product rules
-Some rules may apply to certain payment methods. For Maestro, the following rules apply:
+Some rules may apply to certain payment methods. For V Pay, the following rules apply:
 
-* Refunding more than the stated amount of the original transaction is NOT possible for Maestro. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
+* Refunding more than the stated amount of the original transaction is NOT possible for V Pay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
-* Maestro transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
+* V Pay transactions have a maximum refund period of 180 days. After this period, it is advised to process the requested refund through a bank transfer
 
 * The lifetime of a payment link can be adjusted. This might be beneficial for your inventory. The adjustment can be processed through the days or seconds active. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/) FAQ page.
 
-
-* Payments done through Maestro are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
+* Payments done through V Pay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
