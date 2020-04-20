@@ -78,7 +78,7 @@ MultiSafepay offers the following recurring models: __Card on file (COF), Subscr
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | recurring_model                        | string | The function of the recurring model e.g. Card on file, Subscription, Unscheduled  |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
+| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 |  payment_options 	|   object	 | 
 | notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |

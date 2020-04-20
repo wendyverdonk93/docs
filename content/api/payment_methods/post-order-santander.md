@@ -116,7 +116,7 @@ gateway                         | string | The unique gateway id to immediately 
 order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                     |
 currency                        | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
 amount                          | integer | The amount (in cents) that the customer needs to pay. In this case minimum 30000.         
-description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping cart' objects for this. |
+description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping cart' objects for this. |
 payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                               |
 customer                        | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i>    |
 gateway_info                    | object | Contains the information of the customer needed for the credit check.                     |

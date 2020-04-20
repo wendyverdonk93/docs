@@ -106,7 +106,7 @@ IDEAL, CREDITCARDS, PAYAFTER, EINVOICE, KLARNA, KLARNA_ACC, DIRDEB, DIRECTBANK, 
 | currency                       | string    | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                         | integer   | The amount (in cents) that the customer needs to pay.                                   |
 | gateway                        | string    | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. |
-| description                    | string  | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
+| description                    | string  | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
 | gateway_info                   | object    |                                                             |
 | issuer_id                      | string    | Contains the [issuer_id](/api/#gateway-issuers)    |
 | payment_options                | object    |                             |

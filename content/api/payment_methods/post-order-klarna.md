@@ -410,7 +410,7 @@ However, Klarna Payments (the new environment of Klarna) is only available as a 
 | order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
+| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 | payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
 | customer                        | object | Contains personal information about the customer. <i>Values for first_name and last_name require minimum two characters.</i> |
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |
@@ -441,7 +441,7 @@ Please note this request is for Klarna Payments. This request can only be proces
 | order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is no longer supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
+| description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
 | payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/) |
 | customer                        | object | Contains personal information about the customer. <i>Values for first_name and last_name require minimum two characters.</i> |
 | delivery                        | object | Contains the delivery information for the shipment. <i>Values for first_name and last_name require minimum two characters.</i>  |

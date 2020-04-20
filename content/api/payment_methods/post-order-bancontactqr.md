@@ -54,7 +54,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 | order_id                     | integer / string   | The unique identifier from your system for the order.                                      |
 | currency                     | string   | Has to be EUR. |
 | amount                       | integer  | The amount (in cents)  that the customer has to pay.                                     |
-| description                  | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is no longer supported. Use the 'items' or 'shopping_cart' objects for this. |
+| description                  | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
 | payment_options              | object |                            |
 | gateway_info                 | object | The qr_enabled = 1 invokes the qr_url. This parameter contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point. This QR image generation can be done at a bpost systems or within the postman application at bpost (if possible). 
 | customer                     | object |  |
