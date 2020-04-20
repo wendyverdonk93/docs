@@ -6,13 +6,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 read_more: '.'
 ---
 
-Zero Authorization is an account verification method for credit cards that is used to verify a cardholders information by __not charging the customer__. Instead, an amount of zero (e.g. € 0,00) is temporarily reserved on the card to establish an agreement between the customer and a possible subscription service. The zero amount transaction can be executed with or without [3D Secure](/tools/server2server/), depending on the users’ case. This feature can protect merchants against fraud liability for future transactions.
+Zero Authorization is an account verification method for credit cards that is used to verify a cardholders information __without charging the consumer__. Instead, an amount of zero (€ 0,00) is charged on the card to store the credit card information in the form of a token and to determine whether the card is legitmate or not. After creating the token, is then possible to charge the consumer with a new transaction with either Tokenization or [Recurring Payments](/tools/recurring-payments/)
+
+The zero amount transaction can be executed with or without [3D Secure](/tools/server2server/), depending on the users’ case. This feature can protect merchants against fraud liability for future transactions.
 
 ## What are possible 'Zero Authorization' scenarios?
 
-* __Free trial periods__: In this case, the customer sees as transaction of zero (e.g. € 0,00) for a period of time, such as 14 days. After this period, the customer will be charged for a subscription service (e.g. monthly).
-* __Validation__: An amount of zero can be reserved on the credit card for validation purposes. This assures merchants’ of future subscription payments which can occur on a monthly basis.
-* __User account card management__: An amount of zero can be held on the credit card to authorize the addition of a card to a user account for a specific platform. This is common among airline and hotel reservation websites. The credit card will be saved on the user account making it easier for the customer to pay for future transactions.
+* __Free trial periods__: In this case, the customer sees as transaction of zero (€ 0,00) for a period of time, such as 14 days. After this period, the customer will be charged for a subscription service (e.g. monthly) based on a stored token.
+* __Validation__: An amount of zero can be charged on the credit card for validation purposes. This assures merchants’ of future subscription payments which can occur on a monthly basis.
+* __User account card management__: An amount of zero can be charged on the credit card to authorize the addition of a card to a user account for a specific platform. This is common among airline and hotel reservation websites. The credit card will be saved on the user account making it easier for the customer to pay for future transactions.
 * __Updating personal information__: A merchant may want their customer(s) to update their credit card info when the current credit card information has expired or the account has been blocked. When new card details are entered, a zero amount transaction will authorize the card for future transactions.
 
 ## Transaction overview
