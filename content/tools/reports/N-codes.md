@@ -11,8 +11,8 @@ Below you can find an overview of the N-Codes and their meaning.
 
 | N-Code | Transaction type                                        |   |
 |--------|---------------------------------------------------------|---|
-| N001   | [MASTERCARD](/payment-methods/creditcards/)             |   |
-| N002   | [VISA](/payment-methods/creditcards/)                   |   |
+| N001   | [MASTERCARD](/payment-methods/credit-and-debit-cards/mastercard/)             |   |
+| N002   | [VISA](/payment-methods/credit-and-debit-cards/mastercard/)                   |   |
 | N003   | [MAESTRO](/payment-methods/maestro/)                    |   |
 | N004   | WALLET                                                  |   |
 | N006   | [DANKORT](/payment-methods/branded-credit-cards/)       |   |
@@ -22,7 +22,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N021   | [IDEAL](/payment-methods/ideal/)                        |   |
 | N031   | [GIROPAY](/payment-methods/giropay/)                    |   |
 | N081   | [BANKTRANS](/payment-methods/bank-transfer/)            |   |
-| N085   | [AMEX](/payment-methods/creditcards/)                   |   |
+| N085   | [AMEX](/payment-methods/credit-and-debit-cards/american-express/)                   |   |
 | N086   | [KLARNA](/payment-methods/klarna/)                      |   |
 | N087   | [CARTASI](/payment-methods/branded-credit-cards/)       |   |
 | N088   | [PAYAFTER](/payment-methods/pay-after-delivery/)        |   |
@@ -30,7 +30,7 @@ Below you can find an overview of the N-Codes and their meaning.
 | N092   | [DIRECTBANK](/payment-methods/sofort-banking/)          |   |
 | N093   | CURRENCY CONVERSION                                     |   |
 | N094   | [MISTERCASH](/payment-methods/bancontact/)              |   |
-| N095   | [CHARGEBACK](/payment-methods/creditcards/chargebacks/) |   |
+| N095   | [CHARGEBACK](/faq/chargebacks/) |   |
 | N096   | WITHDRAWAL                                              |   |
 | N097   | Refund                                                  |   |
 | N098   | [COUPON](/payment-methods/gift-cards/)                  |   |
