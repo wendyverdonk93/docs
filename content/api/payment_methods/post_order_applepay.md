@@ -88,7 +88,7 @@ try {
     console.debug('An error occurred while verifying if Apple Pay is available:', error);
     }
 ```
-If this code is not implemented in your back-end platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay, thus we highly reccomend using the abovementioned code to avoid any issues.
+If this code is not implemented in the front-end of you e-commerce platform, consumers choosing Apple Pay on the payment page will be displayed an error if their device does not support Apple Pay. We highly recommend using the abovementioned code to avoid any issues.
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
