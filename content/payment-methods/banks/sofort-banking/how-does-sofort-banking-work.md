@@ -31,7 +31,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed   | Completed   | A successful SOFORT Banking transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Declined    | Declined    | Transaction has been rejected   | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
-| Uncleared     | Uncleared     | Payment has not yet been received by MultiSafepay. Shipping during this period is not advised and MultiSafepay will not take any responsibiloty for this. The Uncleared status may take up to 3 business days to be cleared. | 
+| Uncleared     | Uncleared     | Payment has not yet been received by MultiSafepay. Shipping during this period is not advised and MultiSafepay will not take any responsibility for this. The Uncleared status may take up to 3 business days to be cleared. | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
