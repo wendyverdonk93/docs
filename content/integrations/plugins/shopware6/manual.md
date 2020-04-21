@@ -9,8 +9,10 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{% introduction_plugin "Shopware 6" %}}
 
 ### 1. Requirements
-- Shopware 6.1.x
+- Shopware 6.1.x (_Only 'Company version' supported_)*
 - Tested on PHP 7.2.0
+
+_*Contact your account manager if you require support for paid versions of Shopware 6_
 
 ### 2. Installation & Configuration
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases)
