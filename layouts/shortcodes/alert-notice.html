@@ -1,5 +1,13 @@
-<div class="alert-notice">
-    <span>
-        {{.Inner | markdownify}}
-    </span>
+<div class="alert-notice {{ if .Get "fullwidth"}}w-100 {{ end }}">
+    {{ if .Get "fullwidth"}}
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span-12 text-center">
+                {{.Inner | markdownify}}
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <span> {{.Inner | markdownify}} </span>
+    {{ end }}
 </div>
