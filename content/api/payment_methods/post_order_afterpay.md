@@ -105,7 +105,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.21"
@@ -114,7 +113,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.06"
@@ -123,7 +121,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -132,7 +129,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -141,7 +137,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0"
@@ -150,7 +145,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -159,7 +153,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": "0.00"
@@ -168,7 +161,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": "0.0825",
@@ -287,7 +279,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             },
             "alternate": [
                 {
-                    "standalone": true,
                     "name": "BTW21",
                     "rules": [
                         {
@@ -297,7 +288,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": true,
                     "name": "BTW6",
                     "rules": [
                         {
@@ -307,7 +297,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": true,
                     "name": "BTW0",
                     "rules": [
                         {
@@ -317,7 +306,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "0.0000",
                     "rules": [
                         {
@@ -327,7 +315,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "0.0000",
                     "rules": [
                         {
@@ -337,7 +324,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "FEE",
                     "rules": [
                         {
@@ -347,7 +333,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": "",
                     "name": "none",
                     "rules": [
                         {
@@ -357,7 +342,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                     ]
                 },
                 {
-                    "standalone": true,
                     "name": 2,
                     "rules": [
                         {
@@ -472,7 +456,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.21
@@ -481,7 +464,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW9",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.09
@@ -490,7 +472,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.06
@@ -499,7 +480,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0
@@ -508,7 +488,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -517,7 +496,6 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0

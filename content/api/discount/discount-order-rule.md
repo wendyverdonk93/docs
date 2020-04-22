@@ -131,56 +131,48 @@ Adding a discount as order rule is a common way to add a discount before submitt
 			},
 			"alternate": [{
 					"name": "BTW21",
-					"standalone": true,
 					"rules": [{
 						"rate": 0.21
 					}]
 				},
 				{
 					"name": "BTW6",
-					"standalone": true,
 					"rules": [{
 						"rate": 0.06
 					}]
 				},
 				{
 					"name": "BTW0",
-					"standalone": true,
 					"rules": [{
 						"rate": 0.00
 					}]
 				},
 				{
 					"name": "0.0000",
-					"standalone": false,
 					"rules": [{
 						"rate": 0
 					}]
 				},
 				{
 					"name": "0.0000",
-					"standalone": false,
 					"rules": [{
 						"rate": 0
 					}]
 				},
 				{
 					"name": "FEE",
-					"standalone": false,
 					"rules": [{
 						"rate": 0.00
 					}]
 				},
 				{
 					"name": "none",
-					"standalone": false,
 					"rules": [{
 						"rate": 0.00
 					}]
 				},
 				{
 					"name": "2",
-					"standalone": true,
 					"rules": [{
 							"rate": 0.0825,
 							"country": "US"
