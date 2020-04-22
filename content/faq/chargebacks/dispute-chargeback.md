@@ -361,3 +361,14 @@ In order for this chargeback to be disputed we need the following documentation 
 * Proof that the goods and/or services have indeed been received in full by the cardholder or authorized representative (Proof of delivery) 
 * Proof that the goods and/or services have been delivered to the cardholder's billing address 
 * Proof refuting that the services were cancelled or the goods were returned to the merchant. 
+
+#### Reason Code: 4798
+__Description: American Express fraud dispute__
+
+Cardholder denied authorizing the charge, and your business has been placed in the fraud full recourse program **(Investigation confirms fraud)**
+
+In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
+
+* Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D secure. 3D Secure is a security protocol to prevent fraud.
+
+More information about 3D secure is available in [What is 3D secure](/payment-methods/credit-and-debit-cards/american-express/what-is-3d-secure/)
