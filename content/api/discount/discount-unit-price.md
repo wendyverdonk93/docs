@@ -128,7 +128,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
             "alternate": [
                 {
                     "name": "BTW21",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.21
@@ -137,7 +136,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "BTW6",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.06
@@ -146,7 +144,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "BTW0",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.00
@@ -155,7 +152,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -164,7 +160,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "0.0000",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0
@@ -173,7 +168,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "FEE",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0.00
@@ -182,7 +176,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "none",
-                    "standalone": false,
                     "rules": [
                         {
                             "rate": 0.00
@@ -191,7 +184,6 @@ A discount added as seperate discount rule may conflict in refunding with postpa
                 },
                 {
                     "name": "2",
-                    "standalone": true,
                     "rules": [
                         {
                             "rate": 0.0825,
