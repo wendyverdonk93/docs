@@ -4,6 +4,25 @@ meta_title: "WooCommerce plugin changelog - MultiSafepay Documentation Center"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 ---
 
+## 3.5.1
+Release date: Apr 24th, 2020
+
+### Fixed
++ PLGWOOS-395: Javascript error when Apple Pay is disabled
++ PLGWOOS-389: Fix addressparser not parsing housenumber extension correctly
+
+### Changed
++ PLGWOOS-240: Improve plugin loading by using PSR-4 autoloader
+
+### Removed
++ PLGWOOS-391: Remove TrustPay
++ PLGWOOS-390: Remove FerBuy
++ PLGWOOS-380: Remove Erotiekbon
++ PLGWOOS-327: Remove Lief Cadeaukaart
++ PLGWOOS-326: Remove Fijncadeau
+
+***
+
 ## 3.5.0
 Release date: Mar 30th, 2020
 
