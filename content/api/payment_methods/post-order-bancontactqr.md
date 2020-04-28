@@ -46,7 +46,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## Bancontact QR
 
-Creates a Bancontact QR Redirect order.
+Creates a Bancontact QR [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

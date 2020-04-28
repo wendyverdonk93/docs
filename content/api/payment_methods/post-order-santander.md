@@ -107,7 +107,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 {{< description >}}
 ## Santander Betaalplan
-Creates a Santander Betaalplan Direct order.
+Creates a Santander Betaalplan [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 

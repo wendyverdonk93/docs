@@ -135,7 +135,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Direct Bank Transfer
 
-Creates a Direct Bank Transfer Redirect order.
+Creates a Direct Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -157,7 +157,7 @@ Creates a Direct Bank Transfer Redirect order.
 
 ### Direct Bank Transfer
 
-Creates a Direct Bank Transfer Direct order.
+Creates a Direct Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 

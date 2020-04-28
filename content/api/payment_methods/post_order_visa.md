@@ -47,7 +47,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Visa
 
-Creates a Visa Redirect order.
+Creates a Visa [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

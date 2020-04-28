@@ -47,7 +47,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Mastercard
 
-Creates a Mastercard Redirect order.
+Creates a Mastercard [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

@@ -118,7 +118,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## ING Home'Pay
 ### Direct
 
-Creates an ING Home'Pay Direct order.
+Creates an ING Home'Pay [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -139,7 +139,7 @@ customer                       | object | Contains personal information about th
 Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay/) on our documentation page.
 
 ### Redirect
-Creates an ING Home'Pay Redirect order.
+Creates an ING Home'Pay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

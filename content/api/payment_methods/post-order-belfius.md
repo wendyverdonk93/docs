@@ -120,7 +120,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## Belfius
 ### Redirect
 
-Creates a Belfius Redirect order.
+Creates a Belfius [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -139,7 +139,7 @@ customer                       | object |                                       
 
 ### Direct
 
-Creates a Belfius Direct order.
+Creates a Belfius [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 

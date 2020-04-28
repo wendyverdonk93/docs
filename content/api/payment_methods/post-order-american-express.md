@@ -42,7 +42,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 {{< description >}}
 ## American Express
 
-Creates an American Express Redirect order.
+Creates an American Express [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

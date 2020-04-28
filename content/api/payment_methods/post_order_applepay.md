@@ -75,7 +75,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 ## Apple Pay
 
-Creates an Apple Pay Redirect order.
+Creates an Apple Pay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly.
 
@@ -110,7 +110,7 @@ If this code is not implemented in the front-end of you e-commerce platform, con
 
 ### Apple Pay Direct
 
-Creates an Apple Pay Direct order.
+Creates an Apple Pay [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 Please note this is a  simply a _Redirect_ call with 'APPLEPAY' pre-selected.
 

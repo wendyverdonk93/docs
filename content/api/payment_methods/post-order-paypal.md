@@ -150,7 +150,7 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 ## PayPal
 ### Redirect
 
-Creates a PayPal Redirect order.
+Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -171,7 +171,7 @@ Creates a PayPal Redirect order.
 Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
 
 ### Direct
-Creates a PayPal Direct order.
+Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 
