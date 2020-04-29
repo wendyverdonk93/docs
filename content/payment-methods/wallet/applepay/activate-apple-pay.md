@@ -21,4 +21,4 @@ To activate credit cards as payment methods for your webshop, we would like to r
 
 When approved by our Risk Team, Visa, Mastercard and Apple Pay will be enabled in your MultiSafepay Control as payment methods.
 
-_If credit cards are already enabled as a payment method, you can contact <support@multisafepay.com> and we will activate Apple Pay for you._
+_If credit cards are already enabled as a payment method, you can contact <integration@multisafepay.com> and we will activate Apple Pay for you._
