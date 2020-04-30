@@ -59,7 +59,7 @@ View customer information available in your MultiSafepay Control as well as in y
 ## 3D secure
 3D Secure is an additional security measure intended to reduce fraud. It is an extra step to verify the identity of the actual card holder.
 
-[3D secure, What it is](/payment-methods/credit-and-debit-cards/american-express/what-is-3d-secure/)
+[3D secure, What it is](/faq/general/what-is-3d-secure/)
 
 
 ## List of statuses

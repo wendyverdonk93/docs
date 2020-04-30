@@ -21,7 +21,7 @@ Find out more about the available [currencies](/faq/general/which-currencies-are
 Please note, processing credit card payment through MOTO means skipping the 3D Secure verification and not benefiting from the additional security layer. 
 Completed MOTO credit card payments are thus not 3D Secure enrolled. Therefore, the risk of fraud lies entirely with the merchant. 
 
-For more information, please refer to the page on [Processing credit card payments without 3D secure](/payment-methods/credit-and-debit-cards/american-express/what-is-3d-secure/)
+For more information, please refer to the page on [Processing credit card payments without 3D secure](/faq/general/what-is-3d-secure/)
 
 ## Activating MOTO 
 
