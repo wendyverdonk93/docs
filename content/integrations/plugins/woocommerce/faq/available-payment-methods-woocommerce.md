@@ -27,7 +27,6 @@ __Banks__
 + [Maestro](/payment-methods/maestro/)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking/)
 + [Trustly](/payment-methods/banks/trustly/)
-+ [TrustPay](/payment-methods/banks/trustpay/)
 
 __Billing suite__
 
