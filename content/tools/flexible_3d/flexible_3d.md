@@ -10,7 +10,7 @@ read_more: '.'
 
 Flexible 3D is a feature that allows you to enable/disable 3D Secure at an API level. The Flexible 3D forces whether or not to complete a transaction with the 3D secure verification.
 
-[3D secure, What it is](/payment-methods/credit-and-debit-cards/american-express/what-is-3d-secure/)
+[3D secure, What it is](/faq/general/what-is-3d-secure/)
 
 ## How it works
 

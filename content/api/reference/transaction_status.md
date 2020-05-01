@@ -18,7 +18,7 @@ Read more about the difference between the [Status and the Financial Status](/fa
 | completed        | Completed        | Payment has been successfully completed and [payout](/faq/getting-started/glossary/#payout) is guaranteed. Proceed with fulfillment.      |
 | initialized      | Initialized      | A payment link has been generated, but no payment has been received yet.                         |
 | uncleared        | Uncleared        | Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)                |
-| declined         | Declined         | Rejected by the the issuing bank. Read more about the reason why the transaction is declined in [what does it mean](/payment-methods/credit-and-debit-cards/american-express/american-express-status-what-does-this-mean-/)                                                               |
+| declined         | Declined         | Rejected by the the issuing bank. Read more about the reason why the transaction is declined in [what does it mean](/faq/general/declined-status/)                                                               |
 | cancelled        | Cancelled        | Cancelled by the merchant (only applies to the status Initialized, Uncleared or Reserved). 
 | void             | Void             | Cancelled by the merchant.                 |
 | expired          | Expired          | Depending on the payment method unfinished transactions will close automatically after a predefined period. |
