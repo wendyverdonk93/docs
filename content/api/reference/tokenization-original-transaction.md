@@ -65,7 +65,15 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 This API call allows you to create an original order using a specific recurring model.
 
-MultiSafepay offers the following recurring models: __Card on file (COF), Subscription, Unscheduled__
+MultiSafepay offers the following recurring models: 
+
+1. __Card on file (COF)__: transaction where a cardholder authorized a merchant to store the cardholder's details 
+
+2. __Subscription__: agreement or services that are billed at the end of a merchant’s billing cycle
+
+3. __Unscheduled__: event triggered for application (for example a mobile top up when no credit is left on the phone)
+
+
 
 
 * All parameters shown are required field(s)
