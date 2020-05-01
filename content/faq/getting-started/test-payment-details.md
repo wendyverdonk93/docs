@@ -42,6 +42,10 @@ MultiSafepay provides a test platform for American Express transactions. By ente
 | 374200000000004  | Declined  | Transaction is Declined |
 | 378734493671000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
 
+## Apple Pay
+
+If you would like to test Apple Pay, we kindly invite you to read our page about [Compatibility and Testing](/payment-methods/wallet/applepay/#compatibility-and-testing) which explains how you will be able to execute tests on supported devices.
+
 ## Bancontact
 
 MultiSafepay provides a test platform for Bancontact transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
