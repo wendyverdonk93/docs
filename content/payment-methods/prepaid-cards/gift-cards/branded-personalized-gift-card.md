@@ -2,7 +2,7 @@
 title:  "Branded / Personalized gift card"
 weight: 26
 meta_title: "Branded / Personalized gift cards - MultiSafepay Support"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 Examples of personalized gift card providers are [Givacard](https://www.givacard.nl), [Intersolve](https://intersolve.nl/) and [123TCS](https://www.123tcs.com)
