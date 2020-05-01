@@ -12,12 +12,12 @@ On our API section, you will often see the terms 'Direct' and 'Redirect' being u
 
 A Direct transaction will simply connect you directly to the chosen payment method and will either provide a direct link to the payment method or perform the transaction immediately without the customer having to do anything. Direct transactions can also be carried out on a continuous basis with automated payments, such as [Recurring payments](/tools/recurring-payments/)
 
-_For example, pre-selecting 'IDEAL' as the gateway will take you directly to the payment page of iDEAL, where you will be then able to select the bank you wish to pay with (a valid IssuerID must also be provided only for an iDEAL transaction)_
+_For example, pre-selecting 'iDEAL' as the gateway will take you directly to the respective bank page (a valid IssuerID must also be provided only for an iDEAL transaction)_
 
 ### Redirect
 
-A Redirect transaction will take you to the MultiSafepay payment page where you be presented with the payment method based on what you have pre-selected in the gateway of the API call. 
+A Redirect transaction will redirect the consumer to the MultiSafepay payment page, where they will be presented with the payment method based on what has been pre-selected in the gateway of the API call. 
 
-_For example, pre-selecting iDEAL as the gateway will present the visitor with the banks to select from directly on the MultiSafepay payment page. The customer will then be redirected to the bank they selected to complete the payment._
+_For example, pre-selecting 'Visa' as the gateway will present the consumer with the fields to fill in their Visa credit card information. The consumer will not leave the MultiSafepay payment page._
 
-It is also possile to leave the 'gateway' field empty, this will present the customer with all payment methods from MultiSafepay (subject to the payment methods that are actually enabled for your webshop).
+It is also possible to leave the 'gateway' field empty, this will present the customer with all payment methods from MultiSafepay (subject to the payment methods that are actually enabled for your webshop).
