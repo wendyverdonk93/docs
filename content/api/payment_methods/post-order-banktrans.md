@@ -157,7 +157,7 @@ __Please note: The parameter 'email' must be present, otherwise MultiSafepay wil
 ## Bank transfer
 ### Redirect
 
-Creates a Bank Transfer Redirect order.
+Creates a Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -187,7 +187,7 @@ Read more about [bank transfers](/payment-methods/bank-transfer/) on our documen
 
 ### Direct
 
-Creates a Bank Transfer Direct order.
+Creates a Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 

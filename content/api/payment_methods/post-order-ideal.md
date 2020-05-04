@@ -144,7 +144,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## iDEAL
 ### Redirect
 
-Creates a iDEAL Redirect order.
+Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 In the case of a _Redirect_ transaction, the consumer will be sent to the MultiSafepay payment page where it will then be possible to select iDEAL as a payment method.
 
@@ -170,7 +170,7 @@ In the case of a _Redirect_ transaction, the consumer will be sent to the MultiS
 
 
 ### Direct - iDEAL
-Creates a iDEAL Direct order.
+Creates a iDEAL [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 In the case of a _Direct_ transaction, the consumer has to choose iDEAL and the issuing bank on the checkout page. Once selected, they will be directed to the payment page of the issuing bank, thus skipping the MultiSafepay payment page.
 

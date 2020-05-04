@@ -43,7 +43,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## EPS
 
-Creates an EPS Redirect order.
+Creates an EPS [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

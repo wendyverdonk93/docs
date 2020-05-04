@@ -159,7 +159,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## SOFORT
 ### Redirect
-Creates a SOFORT Redirect order.
+Creates a SOFORT [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -181,7 +181,7 @@ Read more about [SOFORT Banking](/payment-methods/sofort-banking/) on our docume
 
 
 ### Direct
-Creates a SOFORT Direct order.
+Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 

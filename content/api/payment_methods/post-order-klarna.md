@@ -379,8 +379,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Klarna
-### Direct
-Creates a Klarna Direct order to be paid after delivery
+### Redirect
+Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
 
 Klarna is available as both a direct and redirect request. 
 However, Klarna Payments (the new environment of Klarna) is only available as a redirect request. The direct request is no longer supported by Klarna Payments. 
@@ -414,7 +414,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 Read more about [Klarna](/payment-methods/billing-suite/klarna/) on our documentation page.
 
 ### Redirect - Klarna Payments
-Creates a Klarna Payments Redirect order to be paid after delivery
+Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
 

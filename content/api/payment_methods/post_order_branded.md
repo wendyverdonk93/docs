@@ -44,7 +44,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Co-branded credit card 
 
-Creates a Co-branded credit card Redirect order.
+Creates a Co-branded credit card [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

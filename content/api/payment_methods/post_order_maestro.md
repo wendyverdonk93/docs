@@ -43,7 +43,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## Maestro
 
-Creates a Maestro Redirect order.
+Creates a Maestro [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 

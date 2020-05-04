@@ -524,7 +524,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## AfterPay
 ### Direct
 
-Creates an AfterPay order to be paid after delivery.
+Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 
 * Direct transaction requires all fields completed properly
 
@@ -556,7 +556,7 @@ Read more about [AfterPay](/payment-methods/afterpay/) on our documentation page
 
 ### Redirect
 
-Creates an AfterPay order to be paid after delivery.
+Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 
 * Redirect transaction requires all fields completed properly
 

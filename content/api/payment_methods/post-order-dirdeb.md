@@ -130,7 +130,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## SEPA Direct Debit
 ### Redirect
 
-Creates a SEPA Direct Debit Redirect order.
+Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -154,7 +154,7 @@ Creates a SEPA Direct Debit Redirect order.
 
 ### Direct
 
-Creates a SEPA Direct Debit Direct order.
+Creates a SEPA Direct Debit [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 

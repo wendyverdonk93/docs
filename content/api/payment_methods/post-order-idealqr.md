@@ -49,7 +49,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## iDEAL QR
 
-Creates a iDEAL QR Redirect order.
+Creates a iDEAL QR [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 _Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is currently not available._
 

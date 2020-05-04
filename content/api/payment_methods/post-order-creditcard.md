@@ -43,7 +43,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Credit Cards
 
-Creates a Credit Card Redirect order.
+Creates a Credit Card [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
