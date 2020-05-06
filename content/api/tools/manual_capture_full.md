@@ -3,7 +3,7 @@ weight: 1352
 ---
 {{< code-block >}}
 
->POST - /orders/<order_id>capture
+>POST - /orders/{order_id}/capture
 
 ```shell
 {
