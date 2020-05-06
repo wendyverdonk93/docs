@@ -25,8 +25,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "qr_size": 250,
         "allow_multiple": false,
         "allow_change_amount": true,
-        "max_amount": 2000,
-        "max_amount": 500,
+        "max_amount": 2000
+        "min_amount": 500
     },
     "customer": {
         "locale": "en_US"
