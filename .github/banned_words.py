@@ -3,7 +3,6 @@ from pathlib import Path
 
 PATH = '{0}/content'.format(Path(__file__).parent.parent)
 
-
 ignore_characters = ['http',
                 'zoomable',
                 '.multisafepay',
