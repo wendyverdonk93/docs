@@ -24,8 +24,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "gateway_info": {
         "qr_size": 250,
         "allow_multiple": false,
-        "allow_change_amount": false,
-        "max_amount": 1000
+        "allow_change_amount": true,
+        "max_amount": 2000
+        "min_amount": 500
     },
     "customer": {
         "locale": "en_US"
@@ -53,6 +54,9 @@ Creates a iDEAL QR [Redirect](/faq/api/difference-between-direct-and-redirect/) 
 
 _Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is currently not available._
 
+{{< alert-notice >}} Please keep in mind that in case min_amount is not set, the value of amount will be used as the min_amount and vice versa.
+If max_amount is not set, the value of amount will be used as the max_amount for this transaction. In case both min_amount and max_amount are used, the value of amount will be disregarded. {{< /alert-notice >}}
+
 * Redirect transaction requires all fields completed properly
 
 * All parameters shown are required field(s):
@@ -70,8 +74,9 @@ _Please note: If you would like to test iDEAL QR, please note that this will onl
 | gateway_info                   | object  |
 | qr_size:                       | integer | QR image size in pixels, default: 250 - Sizes are between 100 and 2000, if the value does not meet this rule, default is applied. |
 | allow_multiple                 | boolean | With the allow multiple parameter you can specify if a single QR code should be able to be used more than just once. |
-| allow_change_amount            | boolean | With the allow_change_amount_parameter you can specify if a customer should be able to change the amount to pay. Often used for donations.|
-| max_amount                     | string  | With the max_amount you can specify what the maximum amount can be in case the allow_change_amount option is activated. This parameter is required when allow_change_amount is set. |
+| allow_change_amount            | boolean | With the allow_change_amount_parameter you can specify if a customer should be able to change the amount to pay. Requires parameter max_amount or min_amount or both. Often used for donations.|
+|  min_amount                  | string  | With the min_amount you can specify what the minimum amount can be in case the allow_change_amount option is activated. The min_amount should not be bigger than the 'amount'. If only min_amount is used, the 'amount' should be more than the min_amount, therefore the 'amount' = max_amount. |
+| max_amount                     | string  | With the max_amount you can specify what the maximum amount can be in case the allow_change_amount option is activated. If only max_amount is used, the 'amount' should be less than the max_amount. |
 
 
 Read more about [iDEAL QR](/payment-methods/banks/idealqr/) on our documentation page.
