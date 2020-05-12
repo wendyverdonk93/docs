@@ -4,6 +4,9 @@ meta_title: "Magento 1 plugin manual - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
+{{< alert-notice >}} Magento 1 will reach end of life soon. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1 in the future. Please read our [blog](https://www.multisafepay.com/blog/magento-1-the-final-weeks/) for more information and the actions to take.{{< /alert-notice >}}
+
+
 ### Introduction
 
 This manual helps merchants process MultiSafepay payments as quickly as possible from a Magento 1 webshop. For some steps in this manual, assistance from your technical partner may be required.
