@@ -64,5 +64,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 | 112     | Holiday and travel |
 | 113     | Sale and auctions |
 | 114     | Other |
-| 999     | Adult |
 {{% /description %}}

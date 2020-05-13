@@ -14,10 +14,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "success": true,
     "data": [
         {
-            "code": 999,
-            "description": "Adult"
-        },
-        {
             "code": 106,
             "description": "Child and toys"
         }
