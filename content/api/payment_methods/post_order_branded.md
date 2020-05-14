@@ -1,6 +1,6 @@
 ---
 weight: 309
-meta_title: "API - Create A Co-branded Credit Card order - Developers MultiSafepay"
+meta_title: "API - Create a Co-branded Credit Card order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -33,7 +33,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
   "success": true,
   "data": {
-    "order_id": "My-order-id-1",
+    "order_id": "my-order-id-1",
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=it_IT"
   }
 }
@@ -68,5 +68,5 @@ Creates a Co-branded credit card [Redirect](/faq/api/difference-between-direct-a
 
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
-Please make sure to read more about [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/) on our documentation page.
+Please make sure to read more about [CartaSi](/payment-methods/credit-and-debit-cards/cartasi/), [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/), [Dankort](/payment-methods/credit-and-debit-cards/dankort/) and [Postepay](/payment-methods/credit-and-debit-cards/postepay/) on our documentation page.
 {{< /description >}}
