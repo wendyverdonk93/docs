@@ -79,14 +79,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
             "locale": "be_BE",
             "first_name": "Testperson-nl",
             "address1": "Kraanspoor",
-            "address2": null,
-            "house_number": "39",
-            "zip_code": "1033 SC"
+            "house_number": "39C",
+            "zip_code": "1033SC"
             "city": "Amsterdam",
             "country": "NL";,
             "country_name": "Netherlands",
-            "phone1": "020 8500 500",
-            "email": "",
+            "phone1": "0208500500",
+            "email": "example@multisafepay.com",
 },
         "payment_details": {
             "recurring_id": null,
