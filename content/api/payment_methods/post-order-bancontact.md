@@ -22,7 +22,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "nl_NL"
     }
 }
 ```
@@ -50,7 +50,7 @@ Creates a Bancontact [Redirect](/faq/api/difference-between-direct-and-redirect/
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|
-| type                         | string   | Specifies the payment flow for the checkout process. Options: redirect and paymentlink.
+| type                         | string   | Specifies the payment flow for the checkout process. Options: redirect and payment link.
 | gateway                      | string   | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: MISTERCASH. |
 | order_id                     | string   | The unique identifier from your system for the order.                                      |
 | currency                     | string   | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html))  you want the customer to pay with. |
