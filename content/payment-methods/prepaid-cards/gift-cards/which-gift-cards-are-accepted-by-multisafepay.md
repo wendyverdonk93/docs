@@ -10,6 +10,7 @@ Before applying for a gift card, check with your account manager at MultiSafepay
 
 The following gift cards are offered as a standard at MultiSafepay:
 
+* Baby Cadeaubon
 * Beauty & Wellness
 * Boekenbon
 * Fashioncheque 
