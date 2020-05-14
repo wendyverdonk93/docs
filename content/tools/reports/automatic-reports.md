@@ -6,8 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-**_The Automated Accountant Export via SFTP is currently in Beta and is available for testing via [MultiSafepay Test Control](https://testmerchant.multisafepay.com/)_**
-
 ## Accountant Export
 An Accountant Export containing all successful incoming and outgoing transactions, as well as corresponding costs (where applicable), can be generated to serve your bookkeeping needs. 
 
