@@ -1,6 +1,6 @@
 ---
 weight: 316
-meta_title: "API - Create iDEAL order - Developers MultiSafepay"
+meta_title: "API - Create an iDEAL order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -21,7 +21,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "nl_NL"
     }
 }
 ```
@@ -43,11 +43,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {
     "type": "direct",
-    "order_id": "apitool_504957",
+    "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 1000,
     "gateway": "iDEAL",
-    "description": "product description",
+    "description": "Test Order Description",
     "custom_info": {},
     "gateway_info": {
         "issuer_id": "0031"
@@ -71,9 +71,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "amount_refunded": 0,
     "costs": [
       {
-        "amount": 0.49,
-        "description": "0.49 For iDEAL Transactions",
-        "transaction_id": 345498930,
+        "amount":,
+        "description": "",
+        "transaction_id": 77368292,
         "type": "SYSTEM"
       }
     ],
@@ -100,12 +100,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "state": null,
       "zip_code": null
     },
-    "description": "product description",
+    "description": "Test Order Description",
     "fastcheckout": "NO",
     "financial_status": "initialized",
     "items": null,
     "modified": "2020-01-14T12:08:43",
-    "order_id": "apitool_504957",
+    "order_id": "my-order-id-1",
     "payment_details": {
       "account_holder_name": null,
       "account_iban": "https://www.abnamro.nl/en/ideal-betalen/index.html?randomizedstring=8641247395&trxid=1150001181473373",
@@ -120,7 +120,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       {
         "amount": 1000,
         "currency": "EUR",
-        "description": "product description",
+        "description": "Test Order Description",
         "external_transaction_id": "1150001181473373",
         "payment_description": "iDEAL",
         "status": "initialized",
@@ -131,10 +131,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 326349791,
-    "var1": null,
-    "var2": null,
-    "var3": null,
+    "transaction_id": 77368292,
     "payment_url": "https://www.abnamro.nl/en/ideal-betalen/index.html?randomizedstring=8641247395&trxid=1150001181473373"
   }
 }
@@ -165,7 +162,7 @@ In the case of a _Redirect_ transaction, the consumer will be sent to the MultiS
 | redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
 | cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
 | customer                    | object    |                                 |
-| locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
+| locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: nl_NL | 
 
 
 
