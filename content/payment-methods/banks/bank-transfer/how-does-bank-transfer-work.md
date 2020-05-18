@@ -40,7 +40,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 
-The full API reference for bank transfers can be found [here](/api/#bank-transfer).
+The full API reference for bank transfers can be found [here](/api/#bank-transfer)
 
 ### Product rules
 Some rules may apply to certain payment methods. For bank transfer, the following rules apply:
