@@ -116,6 +116,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 This API call allows you to generate a token transaction by using the recurring id and recurring model in the request.
 
+_It must be noted that the recurring_id, recurring_model and reference must be specified in the request in order for the transaction to be processed_
+
 * All parameters shown are required field(s)
 
 | Parameter                       | Type     | Description                                                                             |
