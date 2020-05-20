@@ -79,6 +79,7 @@ The gateway names of the standard gift cards MultiSafepay offers
 
 | Gift card name                 | Gateway name, gift card     |                         |
 |--------------------------------|-----------------------------|-------------------------| 
+| Baby Cadeaubon                 | BABYCAD                     |   |
 | Beautyandwellness              | BEAUTYWELL                  |   |
 | Bloemencadeaukaart             | BLOEMENCAD                  |   |
 | Boekenbon                      | BOEKENBON                   |   |
