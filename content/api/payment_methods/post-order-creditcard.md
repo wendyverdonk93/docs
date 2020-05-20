@@ -24,6 +24,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   "customer": {
     "locale": "nl_NL",
     "ip_address": "127.0.0.1"
+  }
 }
 ```
 
@@ -51,7 +52,7 @@ Creates a Credit Card [Redirect](/faq/api/difference-between-direct-and-redirect
 
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|-----------------------------------------------------------------------------------------|
-| type                            | string | Specifies the payment flow for the checkout process. Options: redirect.                   |
+| type                            | string | Specifies the payment flow for the checkout process. Options: Redirect.                   |
 | gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. Options: [CREDITCARD](/payment-methods/credit-and-debit-cards/) |
 | order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
