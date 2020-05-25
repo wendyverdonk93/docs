@@ -15,7 +15,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "ship_date": "01-01-1911",
     "reason": "Fulfilled by warehouse",
     "invoice_id": "AB12345",
-    "invoice_url": "", "https://mspinvoice-AB12345.com": "
+    "invoice_url": "http://mspinvoice-AB12345.com"
 }
 
 ```
