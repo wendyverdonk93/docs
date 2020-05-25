@@ -8,6 +8,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ```shell
 {
+    "id": "MSP12345",
     "status": "shipped",
     "tracktrace_code": "3SMSP0123456789",
     "tracktrace_url": "http://tracktrace-url.com/",
@@ -45,4 +46,5 @@ Update the order details.
 | ship_date                   | string  | The date that the order was shipped.                                                       |
 | reason                      | string  | Add a short free text memo to the order when setting the shipping status.                  |
 | invoice_id                  | string  | Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control. |
+| invoice_url | string | The invoice url linking to the invoice_id |
 {{< /description >}}
