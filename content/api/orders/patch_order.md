@@ -10,10 +10,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
     "status": "shipped",
     "tracktrace_code": "3SMSP0123456789",
+    "tracktrace_url": "http://tracktrace-url.com/",
     "carrier": "MSP Logistics",
     "ship_date": "01-01-1911",
     "reason": "Fulfilled by warehouse",
-    "invoice_id": "AB12345"
+    "invoice_id": "AB12345",
+    "invoice_url": "", "https://mspinvoice-AB12345.com": "
 }
 
 ```
