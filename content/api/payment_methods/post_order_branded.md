@@ -66,6 +66,8 @@ Creates a Co-branded credit card [Redirect](/faq/api/difference-between-direct-a
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 | ip_address                      | string   | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
 
+__Note: The ip_address parameter is not required, although it's use is recommended to detect fraudulent payments.__
+
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
 Please make sure to read more about [CartaSi](/payment-methods/credit-and-debit-cards/cartasi/), [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/), [Dankort](/payment-methods/credit-and-debit-cards/dankort/) and [Postepay](/payment-methods/credit-and-debit-cards/postepay/) on our documentation page.

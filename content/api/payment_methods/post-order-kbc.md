@@ -196,5 +196,7 @@ Creates a KBC [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 | payment_options                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                              |
 | customer                       | object | Contains personal information about the customer.                                        |
 
+__Note: The ip_address parameter is not required, although it's use is recommended to detect fraudulent payments.__
+
 Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
 {{< /description >}}

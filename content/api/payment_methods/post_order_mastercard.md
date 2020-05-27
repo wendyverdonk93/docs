@@ -66,5 +66,6 @@ Creates a Mastercard [Redirect](/faq/api/difference-between-direct-and-redirect/
 | redirect_url                    | string    | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status uncleared, the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.|
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
+__Note: The ip_address parameter is not required, although it's use is recommended to detect fraudulent payments.__
 
 Read more about [Mastercard](/payment-methods/credit-and-debit-cards/) on our documentation page.
