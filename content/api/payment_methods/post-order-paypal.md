@@ -189,7 +189,7 @@ Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect/) orde
 | payment_options:                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
 | customer                        | object | Contains the personal information of the customer.                                         |
 
-__Note: The ip_address parameter is not required, although it's use is recommended to help detect fraudulent payments.__
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
 Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
 

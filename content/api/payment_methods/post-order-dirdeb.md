@@ -178,7 +178,7 @@ emandate                          | string | For your own adminstration, put the
 ip_address                        | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
 forwarded_ip                      | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |
 
-__Note: The ip_address parameter is not required, although it's use is recommended to help detect fraudulent payments.__
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
 Read more about [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/) on our docuemntation page.
 

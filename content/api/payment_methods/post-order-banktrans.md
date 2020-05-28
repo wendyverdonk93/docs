@@ -181,7 +181,7 @@ Creates a Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redire
 | email                              | string | The email address where the system can send payment instructions to the customer. |
 | country                              | string |  Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  |
 
-__Note: The ip_address parameter is not required, although it's use is recommended to help detect fraudulent payments.__
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
 Read more about [bank transfers](/payment-methods/bank-transfer/) on our documentation page.
 
@@ -210,7 +210,7 @@ Creates a Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect
 | locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. |
 | country                              | string |  Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. 'NL'. This will provide a local bank account to the customer to pay to, where available.  |
 
-__Note: The ip_address parameter is not required, although it's use is recommended to help detect fraudulent payments.__
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
 In the JSON response for a direct transaction, it is important to send payment instructions to the customer by yourself. Please be aware that all of the parameters can be different for every single transaction. Do not store this information other than for a specific transaction.
 
