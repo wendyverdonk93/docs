@@ -1,6 +1,6 @@
 ---
 weight: 320
-meta_title: "API - Create KBC order - Developers MultiSafepay"
+meta_title: "API - Creates a KBC order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "nl_BE"
     }
 }
 ```
@@ -56,7 +56,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "nl_NL",
+        "locale": "nl_BE",
         "ip_address": "89.20.162.110",
         "forwarded_ip": "",
         "first_name": "Testperson-nl",
@@ -104,7 +104,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "customer": {
       "address1": "Kraanspoor",
-      "address2": null,
       "city": "Amsterdam",
       "country": "NL",
       "country_name": null,
@@ -112,7 +111,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "first_name": "Testperson-nl",
       "house_number": 39C,
       "last_name": "Approved",
-      "locale": "nl_NL",
+      "locale": "nl_BE",
       "phone1": "020 8500 500",
       "zip_code": "1033 SC"
     },
