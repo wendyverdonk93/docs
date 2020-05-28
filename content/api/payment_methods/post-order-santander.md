@@ -127,7 +127,7 @@ gateway_info                    | object | Contains the information of the custo
 ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
 forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |   
 
-__Note: The ip_address parameter is not required, although it's use is recommended to detect fraudulent payments.__
+__Note: The ip_address parameter is not required, although it's use is recommended to help detect fraudulent payments.__
 
 Please note that <i>first_name</i> and <i>last_name</i> in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
