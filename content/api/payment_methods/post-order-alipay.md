@@ -182,6 +182,8 @@ Creates a Alipay [Direct](/faq/api/difference-between-direct-and-redirect/) orde
 | payment_options                | object |                           |
 | customer                       | object |                                       |
 
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+
 Read more about [Alipay](/payment-methods/alipay/) on our documentation page.
 
 

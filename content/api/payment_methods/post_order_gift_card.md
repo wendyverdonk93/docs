@@ -71,9 +71,7 @@ Creates a Gift Card [Redirect](/faq/api/difference-between-direct-and-redirect/)
 | country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |
 | email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   |
 
-
-
-
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
 The gateway names of the standard gift cards MultiSafepay offers
 
