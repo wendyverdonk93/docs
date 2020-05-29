@@ -1,5 +1,7 @@
 api
 api key
+API Key
+api KEY
 webshop admin
 back-office
 admin

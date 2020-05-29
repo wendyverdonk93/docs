@@ -1,6 +1,6 @@
 ---
 weight: 379
-meta_title: "API - Create Maestro order - Developers MultiSafepay"
+meta_title: "API - Create a Maestro order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -52,7 +52,7 @@ Creates a Maestro [Redirect](/faq/api/difference-between-direct-and-redirect/) o
 | Parameter                       | Type     | Description                                                                             |
 |---------------------------------|----------|----------------------------------------------------------------------------------------|
 | type                            | string | Specifies the payment flow for the checkout process. Options: redirect.                   |
-| gateway                         | string | Fixed value: [MAESTRO](https://docs.multisafepay.com/payment-methods/banks/maestro/)|
+| gateway                         | string | Fixed value: [MAESTRO](/payment-methods/credit-and-debit-cards/maestro/)|
 | order_id                        | string\|integer | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
 | currency                        | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
 | amount                          | integer | The amount (in cents) that the customer has to pay.                                     |
