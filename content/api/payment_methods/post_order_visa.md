@@ -1,6 +1,6 @@
 ---
 weight: 395
-meta_title: "API - Create Visa transaction - Developers MultiSafepay"
+meta_title: "API - Create a Visa transaction - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -67,4 +67,4 @@ Creates a Visa [Redirect](/faq/api/difference-between-direct-and-redirect/) orde
 | cancel_url                      | string    | Customer will be redirected to this page after a failed payment.  | 
 
 
-Read more about [Visa](/payment-methods/credit-and-debit-cards/creditcards/) on our documentation page.
+Read more about [Visa](/payment-methods/credit-and-debit-cards/visa/) on our documentation page.
