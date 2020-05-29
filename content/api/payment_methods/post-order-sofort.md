@@ -1,6 +1,6 @@
 ---
 weight: 325
-meta_title: "API - Creates a SOFORT order - Developers MultiSafepay"
+meta_title: "API - Create a SOFORT order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -66,7 +66,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": "example@multisafepay.com",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"

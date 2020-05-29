@@ -42,7 +42,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "state": null,
       "country": "NL",
       "country_name": null,
-      "phone1": "020 8500 500",
+      "phone1": "0208500500",
       "phone2": "",
       "email": "test@example.com"
     },
