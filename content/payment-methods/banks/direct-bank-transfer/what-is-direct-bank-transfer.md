@@ -8,4 +8,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Direct Bank Transfer is an innovative ecommerce solution by Deutsche Bank, allowing merchants to collect funds from their end customers who authorise the related payments in an automated, integrated and secure way. It´s based on SEPA transfers (Single Euro Payments Area) and the PSD2 Open Banking API.
 
-The current bank coverage in the live countries Germany, Austria, Netherlands, Italy, Spain and Finland is beyond 98%. The banks offering instant SEPA bank transfers is increasing as further banks migrate to PSD2 APIs'.
+The current bank coverage in the live countries Germany, Austria, Netherlands, Belgium, Italy, Spain and Finland is beyond 98%. The banks offering instant SEPA bank transfers is increasing as further banks migrate to PSD2 APIs'.
