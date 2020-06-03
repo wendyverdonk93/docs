@@ -112,7 +112,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "house_number": "39C",
       "last_name": "Approved",
       "locale": "de_DE",
-      "phone1": "0208 500 500",
+      "phone1": "0208500500",
       "zip_code": "1033 SC"
     },
     "description": "Test Order Description",
