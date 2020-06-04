@@ -1,6 +1,6 @@
 ---
 weight: 318
-meta_title: "API - Create Klarna order - Developers MultiSafepay"
+meta_title: "API - Create a Klarna order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -22,7 +22,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "birthday": "1970-07-10",
         "gender": "male",
         "phone": "0208500500",
-        "email": "youremail@email.com"
+        "email": "example@multisafepay.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -37,8 +37,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "email": "test@example.com",
@@ -49,8 +49,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "phone": "0208500500",
@@ -223,8 +223,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "email": "example@multisafepay.com",
@@ -235,8 +235,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "phone": "0208500500",
