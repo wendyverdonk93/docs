@@ -46,9 +46,9 @@ Please refer to the MultiSafepay API Documentation to perform different calls th
 
 ### Installation
 
-First you have to access into your Back Office and get a valid API Key (_Settings_ → _Website Settings_).
+First you have to access into your Back Office and get a valid API key (_Settings_ → _Website Settings_).
 
-Once you have your valid API Key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
+Once you have your valid API key, you can get the SDK on our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
 
 Add the FastcheckoutKit.xcframework as an embedded framework into your project. The next steps will guide you through the process:
 
