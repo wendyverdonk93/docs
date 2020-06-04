@@ -66,7 +66,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": "example@multisafepay.com",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
@@ -111,6 +111,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "first_name": "Testperson-nl",
       "house_number": 39C,
       "last_name": "Approved",
+      "phone1": "0208500500",
       "locale": "nl_BE",
       "phone1": "020 8500 500",
       "zip_code": "1033 SC"

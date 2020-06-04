@@ -207,7 +207,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
             "city": "Amsterdam",
             "country": "NL",
             "country_name": null,
-            "phone1": "020 8500 500",
+            "phone1": "0208500500",
             "email": "example@multisafepay.com"
         },
         "payment_details": {

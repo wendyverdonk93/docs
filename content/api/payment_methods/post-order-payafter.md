@@ -52,7 +52,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "zip_code": "1033 SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "020 8500 500",
+        "phone": "0208500500",
         "email": ""
     },
     "shopping_cart": {
