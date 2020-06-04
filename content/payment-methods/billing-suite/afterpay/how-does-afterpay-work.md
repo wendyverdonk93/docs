@@ -88,3 +88,5 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 
 * When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
 
+* Having the new payment pages enabled for a specific site profile is necessary in order to process AfterPay payments. 
+You can check this in your [MultiSafepay Control](https://merchant.multisafepay.com/switch-connect-v2) if you navigate to _Settings > Payment pages_
