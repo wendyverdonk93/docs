@@ -1,6 +1,6 @@
 ---
 weight: 317
-meta_title: "API - Create ING Home'Pay order - Developers MultiSafepay"
+meta_title: "API - Create an ING Home'Pay order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "be_BE"
+        "locale": "nl_BE"
     }
 }
 ```
@@ -48,15 +48,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "fastcheckout": "NO",
     "modified": "2019-03-11T14:35:13",
     "customer": {
-      "locale": "be_BE",
+      "locale": "nl_BE",
       "first_name": "Testperson-nl",
       "last_name": "Approved",
       "address1": "Kraanspoor",
       "house_number": "39C",
-      "zip_code": "1033 SC",
+      "zip_code": "1033SC",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": "Netherlands",
       "phone1": "0208500500",
       "email": "example@multisafepay.com",
     },
