@@ -9,6 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 
 {
+    "id": "my-order-id-1",  
     "currency": "EUR",
     "amount": "8",
     "description": "Your refund description"
