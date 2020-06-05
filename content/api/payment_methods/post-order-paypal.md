@@ -1,6 +1,6 @@
 ---
 weight: 323
-meta_title: "API - Create PayPal order - Developers MultiSafepay"
+meta_title: "API - Create a PayPal order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -22,7 +22,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "nl_NL"
     }
 }
 ```
@@ -63,7 +63,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "last_name": "Approved",
         "address1": "Kraanspoor",
         "house_number": "39C",
-        "zip_code": "1033 SC",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "phone": "0208500500",
@@ -92,18 +92,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "customer": {
       "address1": "Kraanspoor",
-      "address2": null,
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": null,
       "email": "example@multisafepay.com",
       "first_name": "Testperson-nl",
       "house_number": "39C",
       "last_name": "Approved",
       "locale": "nl_NL",
       "phone1": "0208500500",
-      "phone2": "",
-      "state": null,
       "zip_code": "1033SC"
     },
     "description": "Test Order Description",
