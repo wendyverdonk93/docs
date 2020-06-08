@@ -1,6 +1,6 @@
 ---
 weight: 302
-meta_title: "API - Create Alipay order - Developers MultiSafepay"
+meta_title: "API - Create an Alipay order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -62,9 +62,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "first_name": "Testperson-nl",
         "last_name": "Approved",
         "address1": "Kraanspoor",
-        "address2": "",
         "house_number": "39C",
-        "zip_code": "1033 SC",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "phone": "0208500500",
@@ -99,12 +98,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
             "first_name": "Testperson-nl",
             "last_name": "",
             "address1": "Kraanspoor",
-            "address2": null,
             "house_number": 39C,
             "city": "Amsterdam",
             "country": "NL",
             "country_name": null,
-            "zip_code": "1033 SC"
+            "zip_code": "1033SC"
             "email": "example@multisafepay.com",
             "locale": "cn_CN",
             "phone1": "0208500500",
@@ -144,7 +142,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Alipay
 ### Redirect
-Creates a Alipay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates an Alipay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -165,7 +163,7 @@ Read more about [Alipay](/payment-methods/alipay/) on our documentation page.
 
 ### Direct
 
-Creates a Alipay [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates an Alipay [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Direct transaction requires all fields completed properly
 
