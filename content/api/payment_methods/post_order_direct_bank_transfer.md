@@ -56,7 +56,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": ""
-    },
+    }
+}
 ```
 
 > JSON Response 
