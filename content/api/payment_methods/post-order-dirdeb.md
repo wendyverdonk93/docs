@@ -61,9 +61,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "gateway_info": {
         "account_id": "NL87ABNA0000000001",
-        "account_holder_name": "J Janse",
+        "account_holder_name": "Example",
         "account_holder_iban": "NL87ABNA0000000001",
-        "emandate": "madateID"
+        "emandate": "mandateID"
     }
 }
 ```
@@ -74,7 +74,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   "success": true,
   "data": {
     "transaction_id": 259898679,
-    "order_id": "y-order-id-1",
+    "order_id": "my-order-id-1",
     "created": "2019-03-08T09:23:46",
     "currency": "EUR",
     "amount": 9743,
@@ -89,34 +89,22 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "modified": "2019-03-08T09:23:46",
     "customer": {
       "locale": "nl_NL",
-      "first_name": null,
-      "last_name": null,
-      "address1": null,
-      "address2": null,
-      "house_number": null,
-      "zip_code": null,
-      "city": null,
-      "state": null,
-      "country": null,
-      "country_name": null,
-      "phone1": null,
-      "phone2": "",
-      "email": ""
+ ...
     },
     "payment_details": {
       "recurring_id": "",
       "type": "DIRDEB",
       "account_id": "NL87ABNA0000000001",
-      "account_holder_name": "J Janse",
+      "account_holder_name": "Example",
       "external_transaction_id": "6190662598986790",
       "account_iban": "NL87ABNA0000000001",
     },
     "costs": [
       {
         "transaction_id": 279354751,
-        "description": "0.3 For SEPA Direct Debit Transactions",
+        "description": "0.0 For SEPA Direct Debit Transactions",
         "type": "SYSTEM",
-        "amount": 0.3
+        "amount": 0.0
       }
     ],
     "payment_url": "https://www.example.com/client/notification?type=redirect&transactionid=my-order-id-1",
