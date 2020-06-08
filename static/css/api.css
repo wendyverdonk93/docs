@@ -85,6 +85,12 @@ article {
 		top: -75px;
 		height: 75px;
 	}
+
+	.content code {
+		display: block;
+		padding: 0;
+		max-width: 0;
+	}
 }
 
 @media (min-width: 1200px) {
