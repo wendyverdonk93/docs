@@ -1,6 +1,6 @@
 ---
 weight: 396
-meta_title: "API - Create Direct Bank Transfer transaction - Developers MultiSafepay"
+meta_title: "API - Create a Direct Bank Transfer transaction - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -56,7 +56,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
         "close_window": ""
-    },
+    }
+}
 ```
 
 > JSON Response 
