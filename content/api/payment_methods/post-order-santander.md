@@ -1,6 +1,6 @@
 ---
 weight: 324
-meta_title: "API - Create Santander Betaalplan order - Developers MultiSafepay"
+meta_title: "API - Create a Santander Betaalplan order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -22,16 +22,15 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US",
+        "locale": "nl_NL",
         "ip_address": "31.148.195.10",
         "forwarded_ip": "",
-        "first_name": "John",
-        "last_name": "Doe",
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
         "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
-        "state": "",
         "country": "NL",
         "email": "test@example.com",
         "referrer": "http://example.com",
@@ -69,20 +68,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "fastcheckout": "NO",
         "modified": "2017-08-07T10:07:07",
         "customer": {
-            "locale": "en_US",
-            "first_name": null,
-            "last_name": null,
-            "address1": null,
-            "address2": null,
-            "house_number": null,
-            "zip_code": null,
-            "city": null,
-            "state": null,
-            "country": null,
-            "country_name": null,
-            "phone1": null,
-            "phone2": "",
-            "email": ""
+            "locale": "nl_NL",
+        ...
         },
         "payment_details": {
             "recurring_id": null,
