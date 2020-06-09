@@ -379,7 +379,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Klarna
-### Redirect
+### Redirect - Klarna
 Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
 
 Klarna is available as both a direct and redirect request. 

@@ -522,7 +522,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 
 ## AfterPay
-### Direct
+### Direct - AfterPay
 
 Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 
@@ -554,7 +554,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [AfterPay](/payment-methods/afterpay/) on our documentation page.
 
-### Redirect
+### Redirect - AfterPay
 
 Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 

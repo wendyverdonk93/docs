@@ -155,7 +155,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## KBC
-### Redirect
+### Redirect - KBC
 
 Creates a KBC [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
@@ -177,7 +177,7 @@ Creates a KBC [Redirect](/faq/api/difference-between-direct-and-redirect/) order
 
 Read more about [KBC](/payment-methods/banks/kbc/) on our documentation page.
 
-### Direct
+### Direct - KBC
 
 Creates a KBC [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 

@@ -139,7 +139,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< /code-block >}}
 {{< description >}}
 ## iDEAL
-### Redirect
+### Redirect - iDEAL
 
 Creates a iDEAL [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 

@@ -597,7 +597,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Pay After Delivery
-### Redirect
+### Redirect - Pay After Delivery
 
 Creates a Pay After Delivery [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
@@ -631,7 +631,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) on our documentation page.
 
-### Direct
+### Direct - Pay After Delivery
 
 Creates a Pay After Delivery [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 

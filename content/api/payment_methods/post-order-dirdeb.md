@@ -116,7 +116,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< /code-block >}}
 {{< description >}}
 ## SEPA Direct Debit
-### Redirect
+### Redirect - SEPA Direct Debit
 
 Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
@@ -140,7 +140,7 @@ Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-re
 | locale                      | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
 
 
-### Direct
+### Direct - SEPA Direct Debit
 
 Creates a SEPA Direct Debit [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 

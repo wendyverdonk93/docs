@@ -141,7 +141,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Alipay
-### Redirect
+### Redirect - Alipay
 Creates an Alipay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
 * Redirect transaction requires all fields completed properly
@@ -161,7 +161,7 @@ Creates an Alipay [Redirect](/faq/api/difference-between-direct-and-redirect/) o
 
 Read more about [Alipay](/payment-methods/alipay/) on our documentation page.
 
-### Direct
+### Direct - Alipay
 
 Creates an Alipay [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 
