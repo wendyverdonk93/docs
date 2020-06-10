@@ -10,7 +10,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 {
     "type": "redirect",
-    "order_id": "my-order-id-4",
+    "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": "1000",
     "description": "Split Payment Order",
@@ -24,7 +24,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
             {
                 "merchant": 1001001,
                 "percentage": 11.2,
-                "description": "percentage fee"
+                "description": "Percentage fee"
             }
         ]
     }
@@ -37,7 +37,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
   "success": true,
   "data": {
-    "order_id": "my-order-id-4",
+    "order_id": "my-order-id-1",
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US"
   }
 }
