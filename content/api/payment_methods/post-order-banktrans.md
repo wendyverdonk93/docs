@@ -155,7 +155,7 @@ __Please note: The parameter 'email' must be present, otherwise MultiSafepay wil
 
 {{< description >}}
 ## Bank transfer
-### Redirect
+### Redirect - Bank Transfer 
 
 Creates a Bank Transfer [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
@@ -186,7 +186,7 @@ __Note: The ip_address parameter is not required, although its use is recommende
 Read more about [bank transfers](/payment-methods/bank-transfer/) on our documentation page.
 
 
-### Direct
+### Direct - Bank Transfer 
 
 Creates a Bank Transfer [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 

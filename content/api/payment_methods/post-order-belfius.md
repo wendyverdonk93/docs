@@ -118,7 +118,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Belfius
-### Redirect
+### Redirect - Belfius 
 
 Creates a Belfius [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
 
@@ -137,7 +137,7 @@ description                    | string | A text which will be shown with the or
 payment_options                | object |                                |
 customer                       | object |                                          |
 
-### Direct
+### Direct - Belfius
 
 Creates a Belfius [Direct](/faq/api/difference-between-direct-and-redirect/) order.
 

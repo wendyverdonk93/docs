@@ -559,7 +559,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## E-invoicing
-### Direct
+### Direct - E-invoicing
 
 Creates a E-invocing [Direct](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery
 
@@ -592,7 +592,7 @@ Please note that <i>first_name</i> and <i>last_name</i> in both _customer_ and _
 
 Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing/) on our documentation page.
 
-### Redirect
+### Redirect - E-invoicing
 
 Creates an E-invoicing [Redirect](/faq/api/difference-between-direct-and-redirect/) order to be paid after delivery.
 
