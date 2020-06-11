@@ -1,6 +1,6 @@
 ---
 weight: 322
-meta_title: "API - Create Pay After Delivery order - Developers MultiSafepay"
+meta_title: "API - Create a Pay After Delivery order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -29,32 +29,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
         "close_window": ""
     },
-    "customer": {
-        "locale": "us",
-        "ip_address": "31.148.195.10",
-        "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "email": "test@example.com",
-        "referrer": "http://www.example.com",
-        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-    },
-    "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "phone": "0208500500",
-        "email": ""
-    },
+...
     "shopping_cart": {
         "items": [
             {
@@ -67,20 +42,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
                 "weight": {
                     "unit": "KG",
                     "value": "12"
-                }
-            },
-            {
-                "name": "Item demo 2",
-                "description": "",
-                "unit_price": "35",
-                "quantity": "2",
-                "merchant_item_id": "666666",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": "20"
-                }
-            },
+              }
+            }
             {
                 "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
@@ -98,76 +61,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "checkout_options": {
         "tax_tables": {
             "default": {
-                "shipping_taxed": "true",
-                "rate": "0.21"
             },
             "alternate": [
-                {
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": "0.21"
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": "0.06"
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0"
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0"
-                        }
-                    ]
-                },
-                {
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
                 {
                     "name": "none",
                     "rules": [
                         {
                             "rate": "0.00"
-                        }
-                    ]
-                },
-                {
-                    "name": "2",
-                    "rules": [
-                        {
-                            "rate": "0.0825",
-                            "country": "US"
-                        },
-                        {
-                            "rate": "0.08375",
-                            "country": "NL"
                         }
                     ]
                 }
@@ -183,7 +83,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
   "success": true,
   "data": {
-    "order_id": "apitool_2710316",
+    "order_id": "my-order-id-1",
     "payment_url": "https://payv2.multisafepay.com/connect/820UDg9zumqA13QovrRq1YVgpdTVxAlpJAP/?lang=nl_NL"
   }
 }
@@ -212,39 +112,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
         "close_window": ""
     },
-    "plugin": {
-        "shop": "ApiTestTool",
-        "plugin_version": "1.0.0",
-        "shop_version": "1",
-        "partner": "partner",
-        "shop_root_url": "https://multisafepay.com"
-    },
-    "customer": {
-        "locale": "nl_NL",
-        "ip_address": "89.20.162.110",
-        "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "email": "example@multisafepay.com",
-        "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
-        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
-    },
-    "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
-        "city": "Amsterdam",
-        "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
-    },
+    ...
     "shopping_cart": {
         "items": [
             {
@@ -259,105 +127,16 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
                     "value": "12"
                 }
             },
-            {
-                "name": "Nice apple",
-                "description": "",
-                "unit_price": "35",
-                "quantity": "2",
-                "merchant_item_id": "333333",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": "20"
-                }
-            },
-            {
-                "name": "Flat Rate - Fixed",
-                "description": "Shipping",
-                "unit_price": "10",
-                "quantity": "1",
-                "merchant_item_id": "msp-shipping",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": "0"
-                }
-            }
         ]
     },
     "checkout_options": {
         "tax_tables": {
-            "default": {
-                "shipping_taxed": "true",
-                "rate": "0.21"
-            },
             "alternate": [
-                {
-                    "name": "BTW21",
-                    "rules": [
-                        {
-                            "rate": "0.21"
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW6",
-                    "rules": [
-                        {
-                            "rate": "0.06"
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW0",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0"
-                        }
-                    ]
-                },
-                {
-                    "name": "0.0000",
-                    "rules": [
-                        {
-                            "rate": "0"
-                        }
-                    ]
-                },
-                {
-                    "name": "FEE",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
                 {
                     "name": "none",
                     "rules": [
                         {
                             "rate": "0.00"
-                        }
-                    ]
-                },
-                {
-                    "name": "2",
-                    "rules": [
-                        {
-                            "rate": "0.0825",
-                            "country": "US"
-                        },
-                        {
-                            "rate": "0.08375",
-                            "country": "US"
                         }
                     ]
                 }
@@ -380,80 +159,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "checkout_options": {
       "alternate": [
         {
-          "name": "BTW21",
-          "rules": [
-            {
-              "country": "",
-              "rate": "0.21"
-            }
-          ],
-        },
-        {
-          "name": "BTW6",
-          "rules": [
-            {
-              "country": "",
-              "rate": "0.06"
-            }
-          ],
-        },
-        {
-          "name": "BTW0",
-          "rules": [
-            {
-              "country": "",
-              "rate": "0.00"
-            }
-          ],
-        },
-        {
-          "name": "0.0000",
-          "rules": [
-            {
-              "country": "",
-              "rate": "0.00"
-            }
-          ],
-        },
-        {
-          "name": "0.0000",
-          "rules": [
-            {
-              "country": "",
-              "rate": "0.00"
-            }
-          ],
-        },
-        {
-          "name": "FEE",
-          "rules": [
-            {
-              "country": "",
-              "rate": "0.00"
-            }
-          ],
-        },
-        {
           "name": "none",
           "rules": [
             {
               "country": "",
               "rate": "0.00"
             }
-          ],
-        },
-        {
-          "name": 2,
-          "rules": [
-            {
-              "country": "NL",
-              "rate": "0.0825"
-            },
-            {
-              "country": "NL",
-              "rate": "0.08375"
-            }
-          ],
+          ]
         }
       ],
       "default": {
@@ -478,114 +190,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "created": "2019-01-12T13:55:38",
     "currency": "EUR",
     "custom_info": {
-      "custom_1": null,
-      "custom_2": null,
-      "custom_3": null
     },
-    "customer": {
-      "address1": "Kraanspoor",
-      "city": "Amsterdam",
-      "country": "NL",
-      "country_name": null,
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
-      "last_name": "Approved",
-      "locale": "nl_NL",
-      "phone1": "0208500500",
-      "phone2": "",
-      "zip_code": "1033 SC"
-    },
-    "description": "Test Order Description",
-    "fastcheckout": "NO",
-    "financial_status": "uncleared",
-    "items": ""
-    "modified": "2019-01-12T13:55:38",
-    "order_adjustment": {
-      "total_adjustment": "0.00",
-      "total_tax": "0.00"
-    },
-    "order_id": "my-order-id-1",
-    "order_total": "260.00",
-    "payment_details": {
-      "account_holder_name": 417164300,
-      "account_id": "1980-01-30",
-      "external_transaction_id": null,
-      "invoice_url": "https://payv2.multisafepay.com/orders/e61d7dbbfd48053ee5873553707986a5",
-      "recurring_id": null,
-      "recurring_model": null,
-      "type": "PAYAFTER"
-    },
-    "payment_methods": [
-      {
-        "account_holder_name": 417164300,
-        "account_id": "1979-01-30",
-        "amount": 26000,
-        "currency": "EUR",
-        "description": "Test Order Description",
-        "payment_description": "Pay after delivery",
-        "status": "uncleared",
-        "type": "PAYAFTER"
-      }
-    ],
-    "reason": "",
-    "reason_code": "",
-    "related_transactions": null,
-    "shopping_cart": {
-      "items": [
-        {
-          "cashback": "",
-          "currency": "EUR",
-          "description": "",
-          "image": "",
-          "merchant_item_id": 111111,
-          "name": "Geometric Candle Holders",
-          "options": [],
-          "product_url": "",
-          "quantity": 2,
-          "tax_table_selector": "none",
-          "unit_price": "90.00",
-          "weight": {
-            "unit": "KG",
-            "value": 12
-          }
-        },
-        {
-          "cashback": "",
-          "currency": "EUR",
-          "description": "",
-          "image": "",
-          "merchant_item_id": 333333,
-          "name": "Nice apple",
-          "options": [],
-          "product_url": "",
-          "quantity": 2,
-          "tax_table_selector": "none",
-          "unit_price": "35.00",
-          "weight": {
-            "unit": "KG",
-            "value": 20
-          }
-        },
-        {
-          "cashback": "",
-          "currency": "EUR",
-          "description": "Shipping",
-          "image": "",
-          "merchant_item_id": "msp-shipping",
-          "name": "Flat Rate - Fixed",
-          "options": [],
-          "product_url": "",
-          "quantity": 1,
-          "tax_table_selector": "none",
-          "unit_price": "10.00",
-          "weight": {
-            "unit": "KG",
-            "value": 0
-          }
-        }
-      ]
-    },
+    ...
+    
     "status": "uncleared",
     "transaction_id": 4022655,
     "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
