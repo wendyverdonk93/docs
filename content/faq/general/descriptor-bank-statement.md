@@ -1,5 +1,5 @@
 ---
-title: "How can i change the descriptor?"
+title: "How can I change the descriptor?"
 weight:
 meta_title: "FAQ General - Descriptor - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
