@@ -17,7 +17,7 @@ Door het schrijven van een eerlijke review of beoordeling, op het platform van u
 Wij waarderen dat enorm en zullen u niet vergeten.
 
 ### Websites
-[Google review](https://bit.ly/2zPpp8P)<br>
+[Google review](https://www.google.com/search?q=multisafepay&oq=multisafepay&aqs=chrome..69i57j35i39l2j0l2j69i60j69i65j69i60.3202j0j7&sourceid=chrome&ie=UTF-8#lrd=0xd732adfcca4d80f:0xbba7e8bdbbf2f9c,3)<br>
 [TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)<br>
 [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
 [PSP Check](http://pspcheck.nl/multisafepay-review/)
