@@ -48,7 +48,7 @@ Read more about Apple Pay on our [API reference](https://docs.multisafepay.com/a
 
 The product rules for Apple Pay remain similar to those of the product rules from credit card payments. This is due to the nature of the transaction being a typical credit card payment, although through the Apple Pay gateway:
 
-* SSL and HTTPS are required for Apple Pay
+* A SSL secured connection (HTTPS) is required for Apple Pay to be visible
 
 * American Express is currently __not__ supported for Apple Pay payments
 
