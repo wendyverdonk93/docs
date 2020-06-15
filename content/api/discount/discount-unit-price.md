@@ -15,7 +15,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
 {
     "type": "redirect",
     "gateway": "PAYAFTER",
-    "order_id": "apitool_5313092",
+    "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 20800,
     ...
