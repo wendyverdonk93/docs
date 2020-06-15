@@ -334,6 +334,23 @@ Redirect 301 /faq/general/can-i-use-multisafepay-with-wix/ https://docs.multisaf
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
 Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
 Redirect 301 /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/ https://docs.multisafepay.com/faq/general/what-is-3d-secure/
-
+Redirect 301 /payment-methods/dotpay/ https://docs.multisafepay.com/payment-methods/banks/dotpay/
+Redirect 301 /faq/general/payment-method-logo/ https://docs.multisafepay.com/faq/general/where-find-logo-payment-methods/
+Redirect 301 /credit-and-debit-cards/american-express/american-express-status-what-does-this-mean-/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/american-express/#declined
+Redirect 301 /faq/finance/reverse-charging-vat/ https://docs.multisafepay.com/faq/finance/vat-general-questions/#is-reverse-charging-vat-possible
+Redirect 301 /payment-methods/bancontact/ https://docs.multisafepay.com/payment-methods/banks/bancontact/
+Redirect 301 /payment-methods/banks/direct-debit/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/
+Redirect 301 /payment-methods/banks/maestro/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/maestro/
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
+Redirect 301 /payment-methods/credit-and-debit-cards/mastercard/visa https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/visa/
+Redirect 301 /payment-methods/mastercard/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/mastercard/
+Redirect 301 /payment-methods/trustpay/ https://docs.multisafepay.com/payment-methods/banks/trustpay/
+Redirect 301 /payment-methods/visa/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/visa/
+Redirect 301 /tools/tokenization/how-do-i-get-tokenization/ https://docs.multisafepay.com/tools/tokenization/
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartasi/#what-is-cartasi
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartes-bancaires/#what-is-cartes-bancaires
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/postepay/
+	
 #DOCS-855: Remove SSL Certificate Renewal January 2020 page
 Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com
