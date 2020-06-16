@@ -65,8 +65,9 @@ Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect/) 
 | redirect_url                   | string   | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.   | 
 | cancel_url                     | string   | Customer will be redirected to this page after a failed payment.                        | 
 | customer                       | object   |                                                                                        |
-                                                                                                       | 
 | email                          | string   | Customer’s provided email address. Used to send Second Chance emails, in fraud checks and the sending bank transfer email.                                                                                                      |
 | locale                     | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes.                       | 
+
 Read more about [TrustPay](/payment-methods/banks/trustpay/) on our documentation page.
+
 {{< /description >}}
