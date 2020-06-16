@@ -30,9 +30,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Chargeback
 
 MultiSafepay can challenge the chargeback on your behalf, but to do so, we need documented proof of the order.
-Upload files / documents via an API request.
 
-_We will be changing the process for handling chargebacks through the API in Q3 2019. Please contact your account manager or contact us at <integration@multisafepay.com> for more information_.
+You can upload the files or documents via an API request or contact our support team at <support@multisafepay.com>
 
 Read more about [chargebacks](/faq/chargebacks/) on our documentation page.
 
