@@ -10,7 +10,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 {
     "type": "direct",
-    "order_id": "My-order-id-3",
+    "order_id": "my-order-id-1",
     "gateway": "gatewaycode",
     "recurring_id": "{recurring_id}",
     "currency": "EUR",
@@ -32,7 +32,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   "success": true,
   "data": {
     "transaction_id": 0000003,
-    "order_id": "My-order-id-3",
+    "order_id": "my-order-id-1",
     "created": "2019-03-04T14:11:37",
     "currency": "EUR",
     "amount": 1000,
