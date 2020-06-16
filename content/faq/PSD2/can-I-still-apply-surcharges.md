@@ -17,7 +17,7 @@ For the majority of payment transactions, retailers are no longer allowed to cha
 
 * All VISA and Mastercard transactions when the consumer's bank or card issuer and the payment provider of the merchant are both located in a European Economic Area (EEA) state
 * Debit Card transactions (for both individuals and business customers)
-* Standard Bank Transfers (for both individuals and business customers)
+* Standard Bank transfers (for both individuals and business customers)
 * SEPA Direct Debit (for both individuals and business customers).
 
 ## What is allowed?
