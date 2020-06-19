@@ -3,7 +3,7 @@ weight: 1355
 ---
 {{< code-block >}}
 
-> PATCH - /capture/<order_id>
+> PATCH - /capture/{order_id}
 
 ```shell
 {
