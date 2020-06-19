@@ -26,7 +26,7 @@ Maestro (debit card) transactions received by MultiSafepay will be processed thr
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet. | 
 | Completed   | Completed   | A successful Maestro transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction/)
-| Declined    | Declined    | Transaction has been rejected. [read more on credit card status 'declined'. What does this mean?](/faq/general/declined-status/) | 
+| Declined    | Declined    | Rejected by the issuing bank. Read more about the reason why the transaction is declined in [what does this mean?](/faq/general/declined-status/) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 | 
