@@ -8,4 +8,4 @@ read_more: '.'
 ## Activate
 EPS is an additional payment method. Therefore, an application is required. Submit your request to one of our account managers at <sales@multisafepay.com>
 
->_Before applying to enable Dotpay, please check with your account manager at MultiSafepay if you are eligible for this payment method._
+>_Before applying to enable EPS, please check with your account manager at MultiSafepay if you are eligible for this payment method._

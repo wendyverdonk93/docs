@@ -20,7 +20,7 @@ Some products and/or services cannot therefore be accepted or can only be sold i
 * Pseudomedicine.
 
 ## Games of chance / Gambling
-* If the provider of games of chance does not have the required licenses
+* Whether you own a license or not, games of chance or gambling are prohibited
 * Binary options or CFDs
 * Penny auctions
 * Pyramid schemes and other methods related to (consciously or subconsiously) ‘get rich quick’ schemes.

@@ -1,6 +1,6 @@
 ---
 weight: 327
-meta_title: "API - Create TrustPay order - Developers MultiSafepay"
+meta_title: "API - Create a TrustPay order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -23,10 +23,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "country": "CZ",
         "email": "test@example.com"
+        "locale": "cs_CZ"
     }
 }
 ```
@@ -67,9 +65,9 @@ Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect/) 
 | redirect_url                   | string   | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.   | 
 | cancel_url                     | string   | Customer will be redirected to this page after a failed payment.                        | 
 | customer                       | object   |                                                                                        |
-| first_name                     | string   | The customer’s first name.                                                              |
-| last_name                      | string   | The customer’s last name.                                                              | 
-| country                        | string   | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)                                                                                                         | 
 | email                          | string   | Customer’s provided email address. Used to send Second Chance emails, in fraud checks and the sending bank transfer email.                                                                                                      |
-Read more about [TrustPay](/payment-methods/banks/trustly/) on our documentation page.
+| locale                     | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes.                       | 
+
+Read more about [TrustPay](/payment-methods/banks/trustpay/) on our documentation page.
+
 {{< /description >}}
