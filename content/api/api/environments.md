@@ -9,13 +9,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 > TEST API
 
 ```
-https://testapi.multisafepay.com/v1/json
+https://testapi.multisafepay.com/v1/
 ```
 
 > LIVE API
 
 ```
-https://api.multisafepay.com/v1/json
+https://api.multisafepay.com/v1/
 ```
 {{< /code-block >}}
 

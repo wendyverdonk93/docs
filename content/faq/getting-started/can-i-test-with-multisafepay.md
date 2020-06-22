@@ -15,7 +15,7 @@ Contact our Integration Team at <integration@multisafepay.com>
 
 ## Test API
 
-`https://testapi.multisafepay.com/v1/json/`
+`https://testapi.multisafepay.com/v1`
 
 Test Steps
 ----------
