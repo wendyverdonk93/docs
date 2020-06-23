@@ -17,7 +17,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "reason": "Fulfilled by warehouse",
     "invoice_id": "AB12345",
     "invoice_url": "http://mspinvoice-AB12345.com"
-     "po_number": ""
+    "po_number": ""
 }
 
 ```
