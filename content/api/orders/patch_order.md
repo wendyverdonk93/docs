@@ -17,6 +17,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "reason": "Fulfilled by warehouse",
     "invoice_id": "AB12345",
     "invoice_url": "http://mspinvoice-AB12345.com"
+     "po_number": ""
 }
 
 ```
@@ -47,4 +48,5 @@ Update the order details.
 | reason                      | string  | Add a short free text memo to the order when setting the shipping status.                  |
 | invoice_id                  | string  | Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control. |
 | invoice_url | string | The invoice url linking to the invoice_id. |
+ po_number | string | The Purchase Order number of the shipping company. |
 {{< /description >}}
