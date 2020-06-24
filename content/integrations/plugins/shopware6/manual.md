@@ -30,4 +30,4 @@ The other fields can be filled accordingly to your own preferences.
 ### 3. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
-You can also join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) for questions as well as MultiSafepays' private [Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
+You can also join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) for questions as well as MultiSafepays' private [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
