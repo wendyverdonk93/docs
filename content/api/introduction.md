@@ -36,5 +36,5 @@ For any questions, do not hesitate to contact us at <integration@multisafepay.co
 
 To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) 
 
-This collection is a group of saved request that allows you to retrieve order information, post payments in our API documentation.
+This collection is a group of saved requests that allows you to retrieve order information, post payments in our API documentation.
 {{% /description %}}
