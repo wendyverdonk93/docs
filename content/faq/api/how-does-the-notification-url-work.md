@@ -5,7 +5,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 ## Notification
-Our API will notify your web server when the status of a transaction changes.  
+Our notifications are webhooks whereby our API will notify your web server when the status of a transaction changes. 
+
+The notification webhooks are triggered by events made by both your customers (e.g. completing a payment) and you (e.g. creating a refund).
+  
 We will add 2 parameters to the notification:  
 
 * Transactionid  
