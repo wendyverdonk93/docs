@@ -1,11 +1,11 @@
 ---
-title : "MultiSafepay Drupal 8 installation & configuration manual"
-meta_title: "Drupal 8 plugin manual - MultiSafepay Documentation Center"
+title : "MultiSafepay Drupal 8 & 9 installation & configuration manual"
+meta_title: "Drupal 8 & 9 plugin manual - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
 ### Introduction  
-This manual helps merchants process MultiSafepay payments as quickly as possible from a Drupal 8 webshop. For some steps in this manual, assistance from your technical partner may be required.
+This manual helps merchants process MultiSafepay payments as quickly as possible from a Drupal 8 & 9 webshop. For some steps in this manual, assistance from your technical partner may be required.
 
 The installation can be carried out in three ways:
 
@@ -15,9 +15,9 @@ The installation can be carried out in three ways:
 
 In this manual we describe the installation via Composer.
 
-{{% introduction_plugin "Drupal 8" %}}
+{{% introduction_plugin "Drupal 8 & 9" %}}
 
-### 1. Requirements  - Drupal 8.x
+### 1. Requirements  - Drupal 8.8 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 
