@@ -32,7 +32,7 @@ To do this, please follow the steps below:
 
 1. Click on the following [page](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding)
 
-2. Choose _Western European Languages_ (including English)
+2. Choose _Western European Languages (including English)_
 
 3. Click on _More Options_ --> _UTF-8_
 
