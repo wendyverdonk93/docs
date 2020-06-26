@@ -48,7 +48,7 @@ The following formats are available for automatically generating an export:
 * XLS
 * XLSX
 
-For information regarding the different exports, check out our [exports page](/tools/reports/)   
+For information regarding the different exports, check out our [export page](https://docs.multisafepay.com/tools/reports/accountant-report-export/)   
 
 ## How to request an Automated Accountant Export
 
