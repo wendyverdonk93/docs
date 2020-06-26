@@ -24,31 +24,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
                 "weight": {
                     "unit": "KG",
                     "value": "12"
-                }
-            },
-            {
-                "name": "Geometric Candle Holders",
-                "description": "",
-                "unit_price": "90",
-                "quantity": "-2",
-                "merchant_item_id": "111111",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": "12"
-                }
-            },
-            {
-                "name": "Nice apple",
-                "description": "",
-                "unit_price": "35",
-                "quantity": "1",
-                "merchant_item_id": "666666",
-                "tax_table_selector": "none",
-                "weight": {
-                    "unit": "KG",
-                    "value": "20"
-                }
+                ...
             },
             {
                 "name": "Flat Rat - Fixed",
