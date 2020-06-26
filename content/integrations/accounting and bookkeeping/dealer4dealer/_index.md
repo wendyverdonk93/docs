@@ -18,8 +18,8 @@ extra_button:
 
 dealer4dealer supports two specific export formats. These are:
 
-* CSV
-* MT940
+* XLS
+* XLSX
 
 ### dealer4dealer Import MultiSafepay
 
