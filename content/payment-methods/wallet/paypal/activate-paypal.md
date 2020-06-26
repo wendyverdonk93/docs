@@ -13,8 +13,8 @@ These instructions are in English. If your PayPal webpage is in another language
 ###  Account configuration
 1. Login into https://www.paypal.com with your business account
 2. Navigate to _Toolsv-> All tools -> API credentials_
-3. Click on _Grant API permission_
-4. Click on the leftside of the menu --> _Integrate PayPal_
+3. Click on the leftside of the menu --> _Integrate PayPal_
+4. Click on _Grant API permission_
 5. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_
 
 The following options can be accessed:
@@ -32,7 +32,7 @@ To do this, please follow the steps below:
 
 1. Click on the following [page](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding)
 
-2. Choose _Western European Languages_ including English
+2. Choose _Western European Languages_ (including English)
 
 3. Click on _More Options_ --> _UTF-8_
 
