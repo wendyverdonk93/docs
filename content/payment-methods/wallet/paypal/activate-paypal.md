@@ -8,16 +8,16 @@ read_more: '.'
 
 ## Activate
 
-
-> * Please note that specific required actions are highlighted with a blue frame on the screenshots below.
+These instructions are in English. If your PayPal webpage is in another language, you can change the language easily with the links at the rightside bottom of any page.
 
 ###  Account configuration
 1. Login into https://www.paypal.com with your business account
 2. Navigate to _Toolsv-> All tools -> API credentials_
 3. Click on _Grant API permission_
-4. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_
+4. Click on the leftside of the menu --> _Integrate PayPal_
+5. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_
 
-We need access to these options:
+The following options can be accessed:
 
 - Use Express Checkout to process payments
 - Issue a refund for a specific transaction
@@ -30,11 +30,13 @@ In order to ensure a correct integration with PayPal, you must change the langua
 
 To do this, please follow the steps below:
 
-1. Go to [Language Encoding in your PayPal](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding) account and select the desired language 
+1. Click on the following [page](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding)
 
-2. Click on _More Options_. Change the Encoding to UTF-8 by selecting it from the dropdown menu.</br>
-The following question will appear: "Do you want to use the same encoding for data sent from PayPal to you?"</br>
-Answer with 'yes' and click on _Save_.
+2. Choose _Western European Languages_ including English
+
+3. Click on _More Options_ --> _UTF-8_
+
+4. Click _Yes_ --> _Save_
 
 ###  MultiSafepay Control configuration
 1. Click on the gear icon in the upper right corner and select _Account Settings_ -> _Business information_.
