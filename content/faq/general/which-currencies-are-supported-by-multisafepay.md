@@ -53,7 +53,7 @@ Those are all the currencies available for Visa, MasterCard and Maestro:
 
 ## On request currencies
 
-MultiSafepay can accept on request new currencies for Visa, MasterCard and Maestro not leasted in the previous list.
+MultiSafepay can accept on request new currencies for Visa, MasterCard and Maestro not listed in the previous list.
 
 ## Requirements
 
