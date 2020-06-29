@@ -19,6 +19,6 @@ Costs are different for each transaction, based on factors like:
 
 The payment schemes and banks also calculate different fees (within a certain bandwidth). So overall, the real costs are hard to predict beforehand.
 
-To get the costs per individual transaction to be transparent, payment service providers can choose Interchange ++:   
+To get the costs per individual transaction to be transparent, payment service providers can choose Interchange ++   
 
 
