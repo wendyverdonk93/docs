@@ -12,80 +12,32 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ```shell
 {
-    "success": true,
-    "data": {
-        "amount": 1000,
-        "amount_refunded": 0,
-        "costs": [
-            {
-                "amount": 0.6,
-                "description": " Tokenization Generate token transaction ",
-                "transaction_id": 767288,
-                "type": "SYSTEM"
-            }
-        ],
-        "created": "2019-10-24T13:22:45",
-        "currency": "EUR",
-        "custom_info": {
-            "custom_1": null,
-            "custom_2": null,
-            "custom_3": null
-        },
-        "customer": {
-            "address1": null,
-            "address2": null,
-            "city": null,
-            "country": null,
-            "country_name": null,
-            "email": "",
-            "first_name": null,
-            "house_number": null,
-            "last_name": null,
-            "locale": "nl_NL",
-            "phone1": null,
-            "phone2": "",
-            "reference": "AutoQAReference",
-            "state": null,
-            "zip_code": null
-        },
-        "description": "Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
-        "fastcheckout": "NO",
-        "financial_status": "completed",
-        "items": null,
-        "modified": "2019-10-24T13:22:45",
-        "order_id": "my-order-id",
-        "payment_details": {
-            "account_holder_name": "Testperson-nl",
-            "account_id": null,
-            "card_expiry_date": 1112,
-            "external_transaction_id": 929711011483,
-            "last4": 1111,
-            "recurring_id": "azbkvsE0up4",
-            "recurring_model": "unscheduled",
-            "type": "VISA"
-        },
-        "payment_methods": [
-            {
-                "account_holder_name": "Testperson-nl",
-                "amount": 1000,
-                "card_expiry_date": 1112,
-                "currency": "EUR",
-                "description": "Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
-                "external_transaction_id": 929711011483,
-                "last4": 0,
-                "payment_description": "Visa CreditCards",
-                "status": "completed",
-                "type": "VISA"
-            }
-        ],
-        "reason": "Successful approval/completion",
-        "reason_code": "",
-        "related_transactions": null,
-        "status": "completed",
-        "transaction_id": 2728879,
-        "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL ",
-        "cancel_url": " http://www.example.com/client/notification?type=cancel "
-    }
+	"success": true,
+	"data": {
+		"tokens": [{
+				"token": "QZTCh7jdk8",
+				"code": "MASTERCARD",
+				"display": "1234 5678 9101 2345",
+				"bin": 555555,
+				"name_holder": "Test-person-nl",
+				"expiry_date": 0988,
+				"expired": 0,
+				"last4": 1111,
+				"model": "cardOnFile"
+			},
+			{
+				"token": "GVXjq3432o4",
+				"code": "VISA",
+				"display": "1234 5678 9101 2345",
+				"bin": 411111,
+				"name_holder": "WebcashierE2E",
+				"expiry_date": 0988,
+				"expired": 0,
+				"last4": 2222,
+				"model": "unscheduled"
+			}
+		]
+	}
 }
 ```
 
