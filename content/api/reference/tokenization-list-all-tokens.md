@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 				"expiry_date": 0988,
 				"expired": 0,
 				"last4": 1111,
-				"model": "cardOnFile"
+				"recurring_model": "cardOnFile"
 			},
 			{
 				"token": "GVXjq3432o4",
@@ -34,7 +34,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 				"expiry_date": 0988,
 				"expired": 0,
 				"last4": 2222,
-				"model": "unscheduled"
+				"recurring_model": "unscheduled"
 			}
 		]
 	}
