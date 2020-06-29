@@ -53,7 +53,7 @@ To proceed with a refund:
 2. Add/remove items in the refund. In Klarna, refunds are done adding a "copy" of the item to refund, with negative "unit_price", all others should set negative "quantity".
 3. Please make sure that all data in the items match with the original transaction (except for the quantity/unit_price): In the example, two out of three 'Geometric Candle Holders' were refunded. Please note that the exact same 'merchant_item_id', 'tax_table_selector' and 'unit_price' were provided.
 
-{{% note %}}Klarna needs negative unit prices, whereas Pay After Delivery orders need negative quantities!!{{% /note %}}
+{{% note %}} Klarna needs negative unit prices, whereas Pay After Delivery orders need negative quantities! {{% /note %}}
 
 | Parameter                    | Type     | Description                                                                                |
 |------------------------------|----------|--------------------------------------------------------------------------------------------|
