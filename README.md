@@ -2,8 +2,8 @@
   <img src="https://www.multisafepay.com/img/multisafepaylogo.svg" width="400px" position="center">
 </p>
 
-# Documentation of MultiSafepay
-This is the source of the documentation of MultiSafepay https://docs.multisafepay.com. 
+# MultiSafepay Documentation
+Please visit our in-depth documentation center at https://docs.multisafepay.com 
 
 ## About MultiSafepay ##
 MultiSafepay is a collecting payment service provider which means we take care of the agreements, technical details and payment collection required for each payment method. You can start selling online today and manage all your transactions from one place.
