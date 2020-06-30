@@ -37,16 +37,53 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Update an order
 Update the order details.
 
-| Parameter                   | Type      | Description                                                                                |
-|-----------------------------|-----------|--------------------------------------------------------------------------------------------|
-| id                          | string  | The unique identifier of the order which should be updated.                                |
-| status                      | string  | The new order status. Options: cancelled, shipped.                                   |
-| tracktrace_code             | string  | The track and trace code provided by the shipping company.                                 |
-| tracktrace_url              | string  | The track and trace URL provided by the shipping company.                                  |
-| carrier                     | string  | The name of the shipping company delivering the customer's order.                          |
-| ship_date                   | string  | The date that the order was shipped.                                                       |
-| reason                      | string  | Add a short free text memo to the order when setting the shipping status.                  |
-| invoice_id                  | string  | Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control. |
-| invoice_url | string | The invoice url linking to the invoice_id. |
- po_number | string | The Purchase Order number of the shipping company. |
+**Parameters**
+
+----------------
+
+__id__ | string
+
+The unique identifier of the order which should be updated.
+
+----------------
+__status__ | string
+
+The new order status. Options: cancelled, shipped.
+
+----------------
+__tracktrace_code__ | string
+
+The track and trace code provided by the shipping company.
+
+----------------
+__carrier__ | string
+
+The name of the shipping company delivering the customer's order.
+
+----------------
+__ship_date__ | string
+
+The date that the order was shipped.
+
+----------------
+__reason__ | string
+
+Add a short free text memo to the order when setting the shipping status.
+
+----------------
+__invoice_id__ | string
+
+Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control.
+
+----------------
+__invoice_url__ | string
+
+The invoice url linking to the invoice_id.
+
+----------------
+__po_number__ | string
+
+The Purchase Order number of the shipping company.
+
+
 {{< /description >}}
