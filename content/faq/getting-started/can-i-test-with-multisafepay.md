@@ -51,5 +51,8 @@ Once your system receives a notification, it must retrieve the transaction statu
 
 After your system has updated the transaction or order status, you can verify that the information displayed is correct by comparing it to the information displayed within [MultiSafepay Control](https://merchant.multisafepay.com)
 
+## Refunds
+
+It is possible to process refunds in your test account, although refunding any amount is by default disabled. Please contact our Integration team at <integration@multisafepay.com> if you would like to have this option enabled.
 
 
