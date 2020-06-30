@@ -63,3 +63,15 @@ More information about the Fastcheckout can be found on https://www.multisafepay
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+
+### 5. Updates 
+Run the following commands via the CLI:
+```
+composer update multisafepay/magento2msp 
+php bin/magento setup:upgrade
+```
+
+Depending on your webserver/webshop configuration you also need to check:
+- check the rights on files correctly. Our files can be found at vendor/multisafepay/magento2msp
+- Empty static files when running in production mode
+- Flush cache.
