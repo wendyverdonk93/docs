@@ -45,11 +45,21 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Retrieve gateways - Multiple available gift cards
-| Parameter           | Type   | Description |
-|---------------------|--------|-------------|
-| include=coupons            | string | Specify comma delimited additional payment method types. |
 
-Adding the ```coupons``` value to your GET request will **include** all your webshop's available gift cards in the response. See the response example on the side.
 
-If the parameter ```ìnclude=coupons``` is not added in the retrieve gateway request, only one coupon will be displayed in the response.
+**Parameter**
+
+----------------
+
+__include=coupons__ | string
+
+Specify comma delimited additional payment method types.
+
+----------------
+
+
+
+Adding the __coupons__ value to your GET request will **include** all your webshop's available gift cards in the response. See the response example on the side.
+
+If the parameter __include=coupons__ is not added in the retrieve gateway request, only one coupon will be displayed in the response.
 {{% /description %}}
