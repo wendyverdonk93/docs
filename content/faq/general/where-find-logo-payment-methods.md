@@ -7,4 +7,4 @@ read_more: "."
 
 You can find the logos and icons of the payment methods in your MultiSafepay Control with in this [section](https://merchant.multisafepay.com/payment-logo-designer)
 
-You can also find the complete list on our [Github page](https://github.com/MultiSafepay/MultiSafepay-icons)
+You can also find the complete list on our [GitHub page](https://github.com/MultiSafepay/MultiSafepay-icons)

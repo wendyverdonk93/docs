@@ -4,6 +4,6 @@ weight: 10
 title_short: "PHP"
 redirect_show_info:
     url: "https://github.com/MultiSafepay/PHP"
-    text: "View on Github"
+    text: "View on GitHub"
 description_short: "The PHP wrapper for the MultiSafepay payments API."
 ---
