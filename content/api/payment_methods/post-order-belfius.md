@@ -124,18 +124,48 @@ Creates a Belfius [Redirect](/faq/api/difference-between-direct-and-redirect/) o
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                    | Type     | Description                                                                                |
-|------------------------------|----------|--------------------------------------------------------------------------------------------|
-type                           | string | Specifies the payment flow for the checkout process. Options: direct , redirect , paymentlink. |
-gateway                        | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BELFIUS.
-order_id                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                       |
-currency                       | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
-amount                         | integer | The amount (in cents) that the customer needs to pay.                                      |
-description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items'or 'shopping_cart' objects for this. |
-payment_options                | object |                                |
-customer                       | object |                                          |
+**Parameters**
+
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: direct , redirect , paymentlink.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__gateway__ | string
+
+The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BELFIUS.
+
+----------------
+__currency__ | string
+
+The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+----------------
+__customer__ | object
+
+----------------
+
 
 ### Direct - Belfius
 
@@ -143,20 +173,59 @@ Creates a Belfius [Direct](/faq/api/difference-between-direct-and-redirect/) ord
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                    | Type     | Description                                                                                |
-|------------------------------|----------|--------------------------------------------------------------------------------------------|
-type                           | string | Specifies the payment flow for the checkout process. Options: direct , redirect , paymentlink. |
-gateway                        | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BELFIUS.
-order_id                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                       |
-currency                       | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
-amount                         | integer | The amount (in cents) that the customer needs to pay.                                      |
-description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items'or 'shopping_cart' objects for this. |
-payment_options                | object |                                |
-| notification_url            | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
-| redirect_url                | string    | Customer will be redirected to this page after a successful payment. |
-| cancel_url                  | string    | Customer will be redirected to this page after a failed payment.  | 
+**Parameters**
+
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: direct , redirect , paymentlink.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__gateway__ | string
+
+The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: BELFIUS.
+
+----------------
+__currency__ | string
+
+The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+----------------
+__notification_url__ | string
+
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+
+----------------
+__redirect_url__ | string
+
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+
+----------------
+__cancel_url__ | string
+
+Customer will be redirected to this page after a failed payment.
+
+----------------
 
 Read more about [Belfius](/payment-methods/banks/belfius/) on our documentation page.
 
