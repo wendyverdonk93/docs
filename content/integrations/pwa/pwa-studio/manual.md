@@ -6,4 +6,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ### Using PWA Studio
 
-Please see our Github repo for the [installation instructions](https://github.com/MultiSafepay/Magento2Msp/tree/progressive-web-app) for PWA Studio.
+Please see our GitHub repo for the [installation instructions](https://github.com/MultiSafepay/Magento2Msp/tree/progressive-web-app) for PWA Studio.
