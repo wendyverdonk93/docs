@@ -24,6 +24,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 "last_name": "customer's last name",
 ```
 
+```shell
+"gender": "",
+```
+
+```shell
+"birthday": "",
+```
+
 ```shell 
 "address1": "Kraanspoor",
 ```
@@ -56,6 +64,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 "email": "integration@multisafepay.com",
 ```
 
+```shell 
+"user_agent": "",
+```
+
+```shell 
+"referrer": "",
+```
+
 {{< /code-block >}}
 
 {{< description >}}
@@ -85,6 +101,18 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
 | last_name                          | string   | The customer’s last name.                                                             |
+|                                    |          |                                                                                      | 
+
+### gender
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| gender                          | string   | The customer's gender.                                                            |
+|                                    |          |                                                                                      | 
+
+### birthday
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| birthday                          | string   | The customer’s birthday.                                                             |
 |                                    |          |                                                                                      | 
 
 ### address1
@@ -131,6 +159,16 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### email
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| email                              | string   | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.                                                                                                                                 |
+| email                              | string   | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
+
+### user_agent
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| user_agent                              | string   |   
+
+### referrer
+| Parameter                          | Type     | Description                                                                          |
+|------------------------------------|----------|--------------------------------------------------------------------------------------|
+| referrer                              | string   |                                                                                                                                    |
 
 {{% /description %}}
