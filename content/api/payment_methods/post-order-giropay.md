@@ -50,6 +50,7 @@ Creates a Giropay [Redirect](/faq/api/difference-between-direct-and-redirect/) o
 
 **Parameters**
 
+----------------
 __type__ | string
 
 Specifies the payment flow for the checkout process. Options: redirect.  

@@ -51,6 +51,7 @@ Creates an EPS [Redirect](/faq/api/difference-between-direct-and-redirect/) orde
 
 **Parameters**
 
+----------------
 __type__ | string
 
 Specifies the payment flow for the checkout process. Options: redirect.  

@@ -569,6 +569,7 @@ Creates a E-invocing [Direct](/faq/api/difference-between-direct-and-redirect/) 
 
 **Parameters**
 
+----------------
 __type__ | string
 
 Specifies the payment flow for the checkout process. Options: direct, redirect.  
@@ -639,11 +640,6 @@ __bank_account__ | string
 The formatted IBAN for the customer. This is required for credit checks. 
 
 ----------------
-__bank_account__ | string
-
-The formatted IBAN for the customer. This is required for credit checks. 
-
-----------------
 __phone__ | string
 
 The phone number where the customer can be reached. This is required for credit checks and to contact the customer in case of non-payment. 
@@ -679,6 +675,7 @@ Creates an E-invoicing [Redirect](/faq/api/difference-between-direct-and-redirec
 
 **Parameters**
 
+----------------
 __type__ | string
 
 Specifies the payment flow for the checkout process. Options: direct, redirect.  
