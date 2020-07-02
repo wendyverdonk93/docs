@@ -53,6 +53,7 @@ Creates a Dotpay [Redirect](/faq/api/difference-between-direct-and-redirect/) or
 
 **Parameters**
 
+----------------
 __type__ | string
 
 Specifies the payment flow for the checkout process. Options: redirect.  
