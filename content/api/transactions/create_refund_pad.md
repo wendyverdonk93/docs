@@ -55,7 +55,13 @@ To proceed with a refund:
 
 {{% note %}} Klarna needs negative unit prices, whereas Pay After Delivery orders need negative quantities! {{% /note %}}
 
-| Parameter                    | Type     | Description                                                                                |
-|------------------------------|----------|--------------------------------------------------------------------------------------------|
-| checkout_data                  | object | Contains the original shopping cart + copied items to be refunded. |
+----------------
+**Parameter**
+
+----------------
+__checkout_data__ | object
+
+Contains the original shopping cart + copied items to be refunded. 
+
+
 {{% /description %}}
