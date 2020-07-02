@@ -77,7 +77,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### options
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| options                           | string   |                                         |
+| options                           | string   |  An array of objects including id, set_id, value, price, type and price_type.                                       |
 |                                    |          |                                                                                      | 
                                                                                                 
 {{% /description %}}
