@@ -8,13 +8,32 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 This [plugin](/faq/getting-started/glossary/#plugin) information is required for a Community Integration. For more information about these requirments, please read more about [a community integration](https://docs.multisafepay.com/integrations/community/community/) on our documentation page.
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| shop                        | string   | The ecommerce platform in use. |
-| plugin_version			| string | The version of the plugin. |
-| shop_version			| string | The version of the ecommerce webshop. |
-| partner					| string | The third party developing the ecommerce webshop. |
-| shop_root_url			| string | The primary URL of the ecommerce webshop. |
+**Parameters**
+
+__shop__ | string
+
+ The ecommerce platform in use.
+
+----------------
+__plugin_version__ | string
+
+The version of the plugin.
+
+----------------
+__shop_version__ | string
+
+The version of the ecommerce webshop. 
+
+----------------
+__partner__ | string
+
+The third party developing the ecommerce webshop. 
+
+----------------
+__shop_root_url__ | string
+
+The primary URL of the ecommerce webshop.
+
 {{% /description %}}
 
 {{< code-block >}}

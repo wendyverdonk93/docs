@@ -28,8 +28,12 @@ This API call allows you to delete a token related to a single customer referenc
 
 * All parameters shown are required field(s)
 
-| Parameter                       | Type     | Description                                                                             |
-|---------------------------------|----------|-----------------------------------------------------------------------------------------|
-|token                            | string   | The unique token linked to the customer reference. |
+**Parameter**
+
+__token__ | string
+
+The unique token linked to the customer reference.  
+
+----------------
 
 {{< /description >}}

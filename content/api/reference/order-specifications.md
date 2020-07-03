@@ -17,8 +17,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 The line "items" can be added to the JSON request. Post payment methods require the full shopping_cart.
 
-| Parameter                         | Type     | Description     |
-|-----------------------------------|----------|-----------------|
-| items                   | object   | Specification of products (items) which can be set in order to be displayed on the checkout page.                |
+**Parameter**
+
+__items__ | object
+
+Specification of products (items) which can be set in order to be displayed on the checkout page.                
 
 {{% /description %}}
