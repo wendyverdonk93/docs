@@ -37,15 +37,42 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Create a website profile in MultiSafepay Control
 
-| Parameter                   | Type      | Description                                                                                |
-|-----------------------------|-----------|--------------------------------------------------------------------------------------------|
-| url                         | string    | Webshop URL. 
-| return_url                  | string    | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                                                                                    |
-| description                 | string    | The description will be shown on the payment pages and depending on the payment method also shown on the bank or credit statement of your customer.                                                                                              | 
-| category                    | string    | Select a category related to the webshop. See list below.                                  | 
-| partner                     | object    | 
-| api_user                    | string    | User ID of partner account.                                                                 | 
-| api_pass                    | string    | Password for partner account.                                                               | 
+**Parameters**
+
+----------------
+__url__ | string
+
+ Webshop URL.
+
+----------------
+__return_url__ | string
+
+ Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/) 
+
+----------------
+__description__ | string
+
+ The description will be shown on the payment pages and depending on the payment method also shown on the bank or credit statement of your customer. 
+
+----------------
+__category__ | string
+
+Select a category related to the webshop. See list below. 
+
+----------------
+__partner__ | object
+
+----------------
+__api_user__ | string
+
+User ID of partner account.   
+
+----------------
+__api_pass__ | string
+
+Password for partner account.
+
+----------------
 
 | Code | Type                  |
 |----------|-----------------------|
