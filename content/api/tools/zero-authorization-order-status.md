@@ -82,12 +82,14 @@ weight: 1371
 {{< description >}}
 ### Order Status
 
-| Parameter                      | Type      | Description |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------| 
-|  order_id	|  string \| integer	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. (max. 50 chars).|
+**Parameter**
 
+----------------
+__order_id__ | string / integer
 
+ The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. (max. 50 chars).
 
+----------------
 
 Read more about [Zero Authorization](/tools/zero-authorization/) on our documentation page.
 
