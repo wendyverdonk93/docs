@@ -51,10 +51,13 @@ This API call allows you to list all tokens related to a single customer referen
 
 * All parameters shown are required field(s)
 
-| Parameter                       | Type     | Description                                                                             |
-|---------------------------------|----------|-----------------------------------------------------------------------------------------|
-|token                            | string   | The unique token linked to the customer reference. |
+**Parameter**
 
+__token__ | string
+
+The unique token linked to the customer reference.  
+
+----------------
 Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
 
 {{< /description >}}

@@ -37,10 +37,13 @@ This API call allows you to retreive the information related to a single token.
 
 * All parameters shown are required field(s)
 
-| Parameter                       | Type     | Description                                                                             |
-|---------------------------------|----------|-----------------------------------------------------------------------------------------|
-|token                            | string   | The unique token linked to the customer reference. |
+**Parameter**
 
+__token__ | string
+
+The unique token linked to the customer reference.  
+
+----------------
 Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/tools/tokenization/)
 
 {{< /description >}}
