@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## Introduction
 
-{{% introduction_hosted "LightSpeed 2" %}}
+{{% introduction_hosted "Lightspeed" %}}
 
 ### 1. Installation 
 Follow the following instructions to install the MultiSafepay Lightspeed app:

@@ -15,4 +15,4 @@ The order ID that should be used when generating a payment link in your MultiSaf
 On the order detail page of the Lightspeed e-commerce platform, the correct order ID will be displayed in the URL.
 
 _Example: https://yourdomain.webshop.com/admin/dmin/orders/994152471?offset=7
-In this case the order ID is 94152471.
+In this case the order ID is 94152471._
