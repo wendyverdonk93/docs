@@ -15,6 +15,6 @@ The orderID that should be used when generating a payment link in your MultiSafe
 In the order detail page of the ecommerce platform of Lightspeed, the correct orderID will be displayed in the URL.
 
 _Example: https://yourdomain.webshop.com/admin/dmin/orders/994152471?offset=7
-In this case the orderID is 94152471_.
+In this case the orderID is 94152471._
 
 Contact <info.nl@lightspeedhq.com> for any further questions.

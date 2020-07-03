@@ -9,7 +9,6 @@ logo: "/logo/Integrations/Lightspeed.svg"
 weight: 10
 title_short: "Lightspeed app"
 description_short: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app."
-description: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app.
-This app is managed by our partner Lightspeed. For support, please contact [Lightspeed](https://www.lightspeedhq.nl/support) directly."
+description: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free app."
 layout: 'single'
 ---
