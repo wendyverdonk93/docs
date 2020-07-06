@@ -217,10 +217,10 @@ Redirect 301 /integrations/virtuemart/faq/ https://docs.multisafepay.com/integra
 Redirect 301 /integrations/woocommerce/faq/ https://docs.multisafepay.com/integrations/plugins/woocommerce/faq/
 Redirect 301 /integrations/x-cart/faq/ https://docs.multisafepay.com/integrations/plugins/x-cart/faq/
 Redirect 301 /integrations/zencart/faq/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/
-Redirect 301 /integrations/fastcheckout-android/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-android/
-Redirect 301 /integrations/fastcheckout-android/manual/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-android/manual/
-Redirect 301 /integrations/fastcheckout-ios/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-ios/
-Redirect 301 /integrations/fastcheckout-ios/manual/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-ios/manual/
+Redirect 301 /integrations/fastcheckout-android/ http://localhost:1313/integrations/wrappers/fastcheckout-android/
+Redirect 301 /integrations/fastcheckout-android/manual/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/manual/
+Redirect 301 /integrations/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
+Redirect 301 /integrations/fastcheckout-ios/manual/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/manual/
 Redirect 301 /integrations/cs-cart/faq/how-can-i-update-the-plugin-for-cs-cart/ https://docs.multisafepay.com/integrations/plugins/cs-cart/faq/how-can-i-update-the-plugin-for-cs-cart/
 Redirect 301 /integrations/drupal7/faq/how-can-i-update-the-plugin-for-drupal7/ https://docs.multisafepay.com/integrations/plugins/drupal7/faq/how-can-i-update-the-plugin-for-drupal7/
 Redirect 301 /integrations/drupal8/faq/how-can-i-update-the-plugin-for-drupal8/ https://docs.multisafepay.com/integrations/plugins/drupal8/faq/how-can-i-update-the-plugin-for-drupal8/
@@ -360,6 +360,11 @@ Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/carte-
 Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
 Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/postepay/
 Redirect 301 /how-to-find-us/spanish-office-location/ https://docs.multisafepay.com/how-to-find-us/malaga-office-location/
-	
+
+Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrappers/
+Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
+Redirect 301 /integrations/sdk/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
+
+Redire	
 #DOCS-855: Remove SSL Certificate Renewal January 2020 page
 Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com
