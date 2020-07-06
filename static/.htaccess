@@ -217,7 +217,7 @@ Redirect 301 /integrations/virtuemart/faq/ https://docs.multisafepay.com/integra
 Redirect 301 /integrations/woocommerce/faq/ https://docs.multisafepay.com/integrations/plugins/woocommerce/faq/
 Redirect 301 /integrations/x-cart/faq/ https://docs.multisafepay.com/integrations/plugins/x-cart/faq/
 Redirect 301 /integrations/zencart/faq/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/
-Redirect 301 /integrations/fastcheckout-android/ http://localhost:1313/integrations/wrappers/fastcheckout-android/
+Redirect 301 /integrations/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
 Redirect 301 /integrations/fastcheckout-android/manual/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/manual/
 Redirect 301 /integrations/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
 Redirect 301 /integrations/fastcheckout-ios/manual/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/manual/
