@@ -78,10 +78,10 @@ MultiSafepay provides a test platform for Belfius transactions. During the payme
 | Cancelled | Transaction is Cancelled |
 
 
-## CartaSi
-MultiSafepay provides the Visa test credantials to test the payment method CartaSi.
+## Nexi
+MultiSafepay provides the Visa test credantials to test the payment method Nexi.
 
-CartaSi is shown as a payment option on the payment page of MultiSafepay only after:
+Nexi is shown as a payment option on the payment page of MultiSafepay only after:
 
 1. The Visa gateway is enabled; and
 2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.

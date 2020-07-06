@@ -1,31 +1,31 @@
 ---
-title: "CartaSi, What it is"
-meta_title: "CartaSi, What it is - MultiSafepay Support"
+title: "Nexi, What it is"
+meta_title: "Nexi, What it is - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
-## CartaSi
-### What is CartaSi
-CartaSi - a Visa or Mastercard co-branded product - is one of the best-known and most commonly used Italian credit cards. Every credit card with the 'Verified by Visa' or 'MasterCard SecureCode' logo can be safely used for online payments.
+## Nexi
+### What is Nexi
+Nexi - a Visa or Mastercard co-branded product - is one of the best-known and most commonly used Italian credit cards. Every credit card with the 'Verified by Visa' or 'MasterCard SecureCode' logo can be safely used for online payments.
 
-### How CartaSi works
-CartaSi payments are processed through the Visa or Mastercard gateway.
+### How Nexi works
+Nexi payments are processed through the Visa or Mastercard gateway.
 
-### How to activate CartaSi?
-For CartaSi to be available as a payment method on the payment page of MultiSafepay, the following are required:
+### How to activate Nexi?
+For Nexi to be available as a payment method on the payment page of MultiSafepay, the following are required:
 
 1. The Visa or Mastercard gateway needs to be enabled
 2. The locale needs to be it_IT (Italy) in the transaction call received by MultiSafepay.
 
-The [locale](/faq/api/locale/) is leading in this to show the desired payment method CartaSi on the payment page of MultiSafepay.
+The [locale](/faq/api/locale/) is leading in this to show the desired payment method Nexi on the payment page of MultiSafepay.
 
-Upon adding CartaSi as payment method on the checkout page, you can download the CartaSi logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
+Upon adding Nexi as payment method on the checkout page, you can download the Nexi logo from MultiSafepay's [collection](/faq/general/payment-method-logo/) and upload it to your ecommerce platform. 
 
-### How to refund a CartaSi transaction?
+### How to refund a Nexi transaction?
 
-CartaSi transactions can be refunded to the customer within 180 days.
+Nexi transactions can be refunded to the customer within 180 days.
 
-Please follow these steps to refund a CartaSi transaction:
+Please follow these steps to refund a Nexi transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction -> transaction_

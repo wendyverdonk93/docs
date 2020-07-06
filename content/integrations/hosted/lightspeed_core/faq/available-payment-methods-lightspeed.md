@@ -18,7 +18,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + Mastercard
 + PayPal
 + SOFORT Banking
-+ Visa (including CartaSi, Cartes Bancaires & Dankort)
++ Visa (including Nexi, Cartes Bancaires & Dankort)
 + American Express
 
 __Gift cards__
