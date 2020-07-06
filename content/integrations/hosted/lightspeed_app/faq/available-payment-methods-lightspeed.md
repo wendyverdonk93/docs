@@ -29,5 +29,5 @@ Currenlty we support the following payment methods:
 + PayPal
 + SOFORT Banking
 + trustly
-+ Visa (including CartaSi, Cartes Bancaires & Dankort)
++ Visa (including Nexi, Cartes Bancaires & Dankort)
 
