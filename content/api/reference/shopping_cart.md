@@ -59,7 +59,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### merchant_item_id
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| merchant_item_id                       | string   | A unique ID relating to the specified item in the shopping cart                                                          |
+| merchant_item_id                       | string   | A unique ID relating to the specified item in the shopping cart.                                                          |
 
 
 ### tax_table_selector
