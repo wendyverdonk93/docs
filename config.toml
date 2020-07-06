@@ -53,13 +53,7 @@ name = "Shell"
     weight = 20
 
 [[menu.main]]
-    name = "SDK"
-    url  = "/integrations/sdk"
-    parent = "integrations"
-    weight = 30
-
-[[menu.main]]
-    name = "Wrappers"
+    name = "Wrappers & SDK"
     url  = "/integrations/wrappers"
     parent = "integrations"
     weight = 40
