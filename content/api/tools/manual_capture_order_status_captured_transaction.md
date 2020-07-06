@@ -81,9 +81,15 @@ weight: 1353
 {{< /code-block >}}
 {{< description >}}
 ### Order Status Captured Transaction
-| Parameter                      | Type      | Description |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-|  order_id	| integer / string	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string (max. 50 chars) |
+
+**Parameter**
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. Max 50 char.
+
+----------------
 
 Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.
 {{% /description %}}

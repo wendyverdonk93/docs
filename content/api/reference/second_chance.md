@@ -22,12 +22,22 @@ It is possible to enable/disable the Second Chance message per transaction. The 
 (*) provided that the conditions above are fulfilled.
 
 
+**Parameters**
 
-| Parameter                         | Type     | Description     |
-|-----------------------------------|----------|-----------------|
-| second_chance                     | object   |When __no value is stated__, Second Chance reminders will be sent .                 |
-| send_email                        | string   |When this parameter is set to __false__, Second Chance reminders will not be sent.                 |
-| send_email                        | string   |When this parameter is set to __true__, Second Chance reminders will be sent.            |
+__second_chance__ | object
+
+When __no value is stated__, Second Chance reminders will be sent.
+
+----------------
+__send_email__ | string
+
+When this parameter is set to __false__, Second Chance reminders will not be sent.
+
+----------------
+__send_email__ | string
+
+When this parameter is set to __true__, Second Chance reminders will be sent.
+
 
 The full documentation can be found in the documentation [Second Chance](/tools/second-chance/how-does-it-work/)
 {{% /description %}}

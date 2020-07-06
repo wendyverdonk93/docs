@@ -63,31 +63,114 @@ Credit card transactions which are processed with the 3D Secure protocol require
 
 **Activating Flexible 3D secure will override the rules of the Dynamic 3D settings, meaning that payments will not be enrolled with a 3D authentication.**
 
+**Parameters**
 
+----------------
+__type__ | string
 
-| Parameter                      | Type      | Description |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| type                           | string    | Specifies the payment flow for the checkout process. Options: redirect.       |
-| gateway                        | string    | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: VISA and MASTERCARD. |
-| order_id                       | integer / string    | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                  |
-| currency                       | string    | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
-| amount                         | integer   | The amount (in cents) that the customer needs to pay.        |
-| description                    | string    | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
-| payment_options                | object    | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)         |
-| customer                       | object    |  |
-| locale                         | string    | Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
-| ip_address                     | string    | The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/) | 
-| first_name                     | string    | The customer’s first name.                   |
-| last_name                      | string    | The customer’s last name.                    |
-| address1                       | string    | First line of customer’s provided address.   |
-| house_number                   | string    | Customer’s provided house number.            |
-| zip_code                       | string    | Customer’s provided zip / postal code.       |
-| city                           | string    | Customer’s provided city.                    |
-| country                        | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |
-| phone                          | string    | Customer’s provided phone number.            |
-| email                          | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   |
-| gateway_info                   | object    |  |
-| flexible_3d                    | boolean   | True, enable the 3D secure authentication. False, disable the 3D secure authentication.  |
-| term_url                       | string    | URL that is used to instruct the card issuer where to redirect the authorisation query. |
+Specifies the payment flow for the checkout process. Options: redirect.
+
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: VISA and MASTERCARD. 
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)  
+
+----------------
+__customer__ | object
+
+----------------
+__locale__ | string
+
+Displays the correct language and payment methods on the Payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. 
+
+----------------
+__ip_address__ | string
+
+The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address/)
+
+----------------
+__first_name__ | string
+
+The customer’s first name. 
+
+----------------
+__last_name__ | string
+
+The customer’s last name.
+
+----------------
+__address1__ | string
+
+First line of customer’s provided address.
+
+----------------
+__house_number__ | string
+
+First line of customer’s provided house number.
+
+----------------
+__zip_code__ | string
+
+First line of customer’s provided zip_code / postal code.
+
+----------------
+__city__ | string
+
+Customer’s provided city. 
+
+----------------
+__country__ | string
+
+Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) 
+
+----------------
+__phone__ | string
+
+Customer’s provided phone number. 
+
+----------------
+__email__ | string
+
+Customer’s provided email address. Used to send Second Chance emails and in fraud checks.  
+
+----------------
+__gateway_info__ | object
+
+----------------
+__flexible_3d__ | boolean
+
+True, enable the 3D secure authentication. False, disable the 3D secure authentication.
+
+----------------
+__term_url__ | string
+
+URL that is used to instruct the card issuer where to redirect the authorisation query. 
+
+----------------
 
 {{% /description %}}

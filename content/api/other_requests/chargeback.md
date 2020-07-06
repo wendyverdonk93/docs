@@ -35,12 +35,28 @@ You can upload the files or documents via an API request or contact our support 
 
 Read more about [chargebacks](/faq/chargebacks/) on our documentation page.
 
-| Parameter                   | Type      | Description                                                                                |
-|-----------------------------|-----------|--------------------------------------------------------------------------------------------|
-| type                        | string  | Specifies the payment flow for the checkout process. Options: chargeback. |
-| base64                      | string  | Binary Base 64 encoded. Upload images "pdf, jpeg and png". |
-| description                 | string  | Description or comments of the submitted file. |
-| name                        | string  | Name of the file.
+**Parameters**
+
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: chargeback.
+
+----------------
+__base64__ | string
+
+Binary Base 64 encoded. Upload images "pdf, jpeg and png". 
+
+----------------
+__description__ | integer
+
+Description or comments of the submitted file. 
+
+----------------
+__name__ | string
+
+Name of the file.
+
 {{% /description %}}
 
 

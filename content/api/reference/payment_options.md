@@ -29,25 +29,33 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## payment_option, object 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| notification_url                   | string   |  Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                                                                                    |
-|
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| redirect_url                       | string   |  Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              |
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| cancel_url                         | string   |  Customer will be redirected to this page after a failed payment.                     |
+**Parameters**
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| notification_method                | string   | Enables push notifications (POST,GET) default: GET.            |
+__notification_url__ | string
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| close_window                       | bool     | true, false.                                                                          |                |
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)              
+
+----------------
+__redirect_url__ | string
+
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.              
+
+----------------
+__cancel_url__ | string
+
+Customer will be redirected to this page after a failed payment. 
+
+----------------
+__notification_method__ | string
+
+Enables push notifications (POST,GET) default: GET.   
+
+----------------
+__close_window__ | bool
+
+true, false.    
+
 
 {{% /description %}}

@@ -21,12 +21,15 @@ The days or seconds active indicates the lifetime of a payment link.
 
 The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link/)
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| days_active                        | string   | The number of days the payment link will be active for. Default is 30.               |
-|
+**Parameters**
 
-| Parameter                          | Type     | Description                                                                          |
-|------------------------------------|----------|--------------------------------------------------------------------------------------|
-| seconds_active                     | string   | The number of seconds the payment link will be active for. Default is 30 days.        |
+__days_active__ | string
+
+The number of days the payment link will be active for. Default is 30.
+
+----------------
+__seconds_active__ | string
+
+The number of seconds the payment link will be active for. Default is 30 days.
+
 {{< /description >}}
