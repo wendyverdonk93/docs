@@ -24,6 +24,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 "last_name": "customer's last name",
 ```
 
+```shell
+"gender": "",
+```
+
+```shell
+"birthday": "",
+```
+
 ```shell 
 "address1": "Kraanspoor",
 ```
@@ -54,6 +62,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ```shell 
 "email": "integration@multisafepay.com",
+```
+
+```shell 
+"user_agent": "",
+```
+
+```shell 
+"referrer": "",
 ```
 
 {{< /code-block >}}
@@ -109,6 +125,26 @@ The customer’s first name.
 __last_name__ | string
 
 The customer’s last name.   
+
+----------------
+
+### gender
+
+**Parameter**
+
+__gender__ | string
+
+The customer's gender.   
+
+----------------
+
+### birthday
+
+**Parameter**
+
+__birthday__ | string
+
+The customer’s birthday.
 
 ----------------
 
@@ -188,6 +224,23 @@ Customer’s provided phone number.
 
 __email__ | string
 
-Customer’s provided email address. Used to send Second Chance emails and in fraud 
+Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
+
+----------------
+
+### user_agent
+
+**Parameter**
+
+__user_agent__ | string
+
+----------------
+
+### referrer
+
+**Parameter**
+
+__referrer__ | string
+
 
 {{% /description %}}
