@@ -44,8 +44,8 @@ We use sub headers to help engage our message. The sub header states 'MultiSafep
 Font size: 16pt.
 
 ### MultiSafepay and payment method logos
-For a complete list of the logos of all payment methods MultiSafepay offers, please refer to [our GitHub repository](https://github.com/MultiSafepay/MultiSafepay-icons)
+For a complete list of the logos of all payment methods MultiSafepay offers, please refer to [our GitHub icons repository](https://github.com/MultiSafepay/MultiSafepay-icons)
 
-For MultiSafepay logos, please refer to [our GitHub repository](https://github.com/MultiSafepay/MultiSafepay-logos)
+For MultiSafepay logos, please refer to [our GitHub logos repository](https://github.com/MultiSafepay/MultiSafepay-logos)
 
 If you are unable to find the logo you are looking for, please contact us at <integration@multisafepay.com> and we will be glad to assist you further.
