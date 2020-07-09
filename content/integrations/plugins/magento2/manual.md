@@ -8,8 +8,6 @@ aliases:
 
 ### Introduction
 
-This manual helps merchants to process MultiSafepay payments as quickly as possible from a Magento 2 webshop. For some steps in this manual, assistance from your technical partner may be required.
-
 The installation can be carried out in three ways:
 
 + SFTP
