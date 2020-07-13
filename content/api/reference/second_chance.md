@@ -38,6 +38,20 @@ __send_email__ | string
 
 When this parameter is set to __true__, Second Chance reminders will be sent.
 
+----------------
+
+**Suppress Email Second Chance after cancellation**
+
+When a customer makes an order, goes to the checkout page but returns, and tries again, some webshops create a second order. If the second chance is on, the customer will receive emails for the first order, even when the second order is paid.
+
+Cancellation of the first order doesn't suppress the second chance email.
+
+To suppress the second chance email you have to add these parameters in the update of the order:
+``` 
+"status": "cancelled",
+"exclude_order": 1
+```
+
 
 The full documentation can be found in the documentation [Second Chance](/tools/second-chance/how-does-it-work/)
 {{% /description %}}
