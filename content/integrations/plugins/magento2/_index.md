@@ -2,7 +2,7 @@
 title: "MultiSafepay plugin for Magento 2"
 breadcrumb_title: "Magento 2"
 github_url : "https://github.com/MultiSafepay/Magento2Msp"
-download_url : "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.12.1/Plugin_Magento2_1.12.1.zip"
+download_url : "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.12.2/Plugin_Magento2_1.12.2.zip"
 changelog_url : "."
 manual: "."
 faq: "."
