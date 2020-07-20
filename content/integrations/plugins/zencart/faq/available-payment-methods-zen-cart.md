@@ -15,22 +15,31 @@ __Banks__
 
 + [Bancontact](/payment-methods/banks/bancontact/)
 + [Bank transfer](/payment-methods/banks/bank-transfer/)
++ [Belfius](/payment-methods/banks/belfius/)
++ [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer/)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
 + [Dotpay](/payment-methods/banks/dotpay/)
 + [EPS](/payment-methods/banks/eps/)
 + [Giropay](/payment-methods/banks/giropay/)
 + [iDEAL](/payment-methods/banks/ideal/)
++ [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
++ [KBC](/payment-methods/banks/kbc/)
 + [Maestro](/payment-methods/maestro/)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking/)
++ [Trustly](/payment-methods/banks/trustly/)
 
 __Billing suite__
 
++ [Afterpay](/payment-methods/billing-suite/afterpay/)
++ [Betaalplan](/payment-methods/billing-suite/betaalplan/)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing/)
 + [Klarna](/payment-methods/billing-suite/klarna/)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/)
 
 __Wallet__ 
 
++ [Apple Pay](/payment-methods/wallet/applepay/)
++ [Alipay](/payment-methods/wallet/alipay/)
 + [PayPal](/payment-methods/wallet/paypal/)
 
 __Prepaid cards__ 
