@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/CBC.svg' 
 short_description: 'Accept payments from CBC customers allowing them to pay using their CBC bank account.'
+aliases:
+    - /support-tab/magento2/payment-methods/cbc
 ---

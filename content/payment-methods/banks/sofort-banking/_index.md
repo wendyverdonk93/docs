@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/SOFORT.svg' 
 short_description: 'Accept secure direct bank transfer payments from customers in a number of European countries.'
+aliases:
+    - /support-tab/magento2/payment-methods/sofort-banking
 ---

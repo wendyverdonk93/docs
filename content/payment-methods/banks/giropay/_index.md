@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Giropay.svg' 
 short_description: 'The #1 payment method in Germany offering real-time bank transfers for a large base of German online consumers.'
+aliases:
+    - /support-tab/magento2/payment-methods/giropay
 ---

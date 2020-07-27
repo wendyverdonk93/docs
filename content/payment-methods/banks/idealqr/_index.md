@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/iDeal_QR.svg' 
 short_description: 'Easily receive payments with a simple scan of an iDEAL QR code.'
+aliases:
+    - /support-tab/magento2/payment-methods/idealqr
 ---
