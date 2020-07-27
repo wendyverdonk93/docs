@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Maestro.svg' 
 short_description: 'Enable a widely used debit card payment method by MasterCard.'
+aliases:
+    - /support-tab/magento2/payment-methods/maestro
 ---

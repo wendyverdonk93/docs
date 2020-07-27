@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Alipay.svg' 
 short_description: 'Alipay is a payment platform allowing you to make safe payments online. Only suitable for Chinese residents.'
+aliases:
+    - /support-tab/magento2/payment-methods/alipay
 ---

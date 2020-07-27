@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Trustly.svg' 
 short_description: 'Offering fast, simple and safe online banking payment solutions available in a number of European countries.'
+aliases:
+    - /support-tab/magento2/payment-methods/trustly
 ---

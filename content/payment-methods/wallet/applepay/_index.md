@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Apple.svg' 
 short_description: 'Apple Pay is a digital wallet service allowing seamless NFC payments for consumers worldwide.'
+aliases:
+    - /support-tab/magento2/payment-methods/applepay
 ---

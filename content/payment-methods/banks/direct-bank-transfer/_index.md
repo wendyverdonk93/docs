@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/DirectBankTransfer.svg' 
 short_description: 'Allowing merchants to collect funds from end consumers in an automated, integrated and secure way.'
+aliases:
+    - /support-tab/magento2/payment-methods/direct-bank-transfer
 ---

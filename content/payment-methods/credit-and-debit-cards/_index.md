@@ -14,4 +14,6 @@ data:
   - { title: 'Nexi', url: 'branded-credit-cards/#nexi-what-is-it', logo: '/logo/Payment_methods/Nexi.svg' }
   - { title: 'Carte Bleue', url: 'branded-credit-cards/#carte-bleue-what-is-it', logo: '/logo/Payment_methods/Carte-Bancaire.svg' }
   - { title: 'Postepay', url: 'branded-credit-cards/#postepay-what-is-it', logo: '/logo/Payment_methods/Postepay.svg' }
+aliases:
+    - /support-tab/magento2/payment-methods/credit-and-debit-cards
 --- 

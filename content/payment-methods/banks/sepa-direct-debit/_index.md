@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/directdebit-en.svg' 
 short_description: 'Suitable for collecting funds from your customers bank account on a recurring basis by means of authorization.'
+aliases:
+    - /support-tab/magento2/payment-methods/direct-debit
 ---

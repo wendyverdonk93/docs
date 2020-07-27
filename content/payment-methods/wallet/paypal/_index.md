@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/PayPal.svg' 
 short_description: 'A frequently used online virtual payment method used by consumers all over the world.'
+aliases:
+    - /support-tab/magento2/payment-methods/paypal
 ---
