@@ -23,6 +23,7 @@ __Banks__
 + [Giropay](/payment-methods/banks/giropay/)
 + [iDEAL](/payment-methods/banks/ideal/)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
++ [CBC](/payment-methods/banks/cbc/)
 + [KBC](/payment-methods/banks/kbc/)
 + [Maestro](/payment-methods/maestro/)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking/)
