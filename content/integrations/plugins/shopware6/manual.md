@@ -9,7 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{% introduction_plugin "Shopware 6" %}}
 
 ### 1. Requirements
-- Shopware 6.1.x
+- Shopware 6.2.x
 - Tested on PHP 7.2.0
 
 ### 2. Installation & Configuration
