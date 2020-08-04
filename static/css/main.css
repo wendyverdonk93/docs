@@ -1436,6 +1436,42 @@ h6 {
     }
 }
 
+.submit-community{
+    background: url('../img/submit-comm.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 4% 0;
+    -webkit-mask-image: -webkit-linear-gradient(left, #000000 5%,#ffffff 30%,#000000 100%);
+    color: #fff;
 
+}
 
+.submit-community h1{
+    color: #fff;
+}
+
+.submit-community{
+    margin: 2% 0;
+}
+
+.submit-community .col-md-11{
+    padding-left: 0;
+    padding-top: 0.5%;
+}
+
+@media (max-width: 767px) {
+    #community-add{
+        width: 50px;
+
+    }
+    .submit-community{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-position: 30% 50%;
+    }
+     .submit-community .col-md-11{
+        padding-left: inherit;
+     }
+}
 
