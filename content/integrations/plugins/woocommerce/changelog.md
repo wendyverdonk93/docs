@@ -4,6 +4,14 @@ meta_title: "WooCommerce plugin changelog - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
+## 3.6.1
+Release date: Aug 5th, 2020
+
+### Fixed
++ PLGWOOS-404: Fix setting order to shipped when DHL is used
+
+***
+
 ## 3.6.0
 Release date: Jul 22nd, 2020
 
