@@ -49,7 +49,7 @@ The new MultiSafepay Magento 2 plugin consists of several modules:
 For merchants we recommend installing the meta-package via composer:
 
 ```shell
-composer require multisafepay/magento2
+composer require multisafepay/magento2-meta
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
