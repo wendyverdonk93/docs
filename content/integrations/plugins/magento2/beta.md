@@ -6,11 +6,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ### Introduction
 We are proud to announce that we have been working on a brand new Magento 2 plugin. 
-The new plugin is completely build from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
-It brings code improvements, unit/integration testing, and it is build on top of the Magento payment provider gateway structure.
+The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
+It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.
 
 **Currently this module has not yet been proven to be fully stable. 
-We recommend not using this in a production environment yet, until it has been thoroughly tested.**
+We recommend not using this in a production environment, until it has been thoroughly tested.**
 
 ### 1. Features
 There are a lot of new features, but there are also some features that are not available as of yet.
@@ -27,7 +27,7 @@ Some of the new features include:
 * Improved error handling and event & error logs
 * Support information available in the Magento backend
 * Clear explanation of each payment method with links to DOCS
-* Modular setup, providing more flexibility during the install process
+* Modular setup, providing more flexibility during the installation process
 * Direct payment methods instead of Redirect whenever possible
 
 ### 2. Requirements
@@ -46,7 +46,7 @@ The new MultiSafepay Magento 2 plugin consists of several modules:
 * [multisafepay-magento2-meta](https://github.com/MultiSafepay/magento2-meta) (Meta package which installs all the above)
 
 ### 4. Installation
-For merchants we recommend installing the meta-package via composer:
+For merchants, we recommend installing the meta-package via composer:
 
 ```shell
 composer require multisafepay/magento2-meta
@@ -76,7 +76,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 
 ### 5. Configuration
 1. Login on the backend of your webshop and navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Information_.  
-This page contains all main support information and it is advised to read through this.
+This page contains all main support information and it is advised to read this.
 
 2. Navigate to _Stores_ -> _Configuration_ -> _Payment Methods_ -> _MultiSafepay_ -> _General Settings_.   
 This page contains all main settings and is used for all gateways and gift cards.
@@ -91,7 +91,7 @@ This page contains the configuration options for all gift cards supported by Mul
 Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
 
 ### 6. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
 ### 7. Updates 
 Run the following commands via the CLI:
@@ -101,7 +101,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
 
-Depending on your webserver/webshop configuration you also need to check:
-- check the rights on files correctly. Our files can be found at vendor/multisafepay
+Depending on your webserver/webshop configuration, you also need to check:
+- check the 'rights' on files correctly. Our files can be found at vendor/multisafepay
 - Empty static files when running in production mode
 - Flush cache.
