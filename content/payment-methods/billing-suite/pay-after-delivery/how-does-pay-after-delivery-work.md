@@ -85,6 +85,8 @@ The full API reference for Pay After Delivery can be found [here](/api/#pay-afte
 ### Product rules
 Some rules may apply to certain payment methods. For Pay After Delivery, the following rules apply:
 
+* The minimum amount for an order is €15,00 and maximum €300,00
+
 * Refunding more than the stated amount of the original transaction is not possible with Pay After Delivery. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page.
 
 * Successful Pay After Delivery transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund.
