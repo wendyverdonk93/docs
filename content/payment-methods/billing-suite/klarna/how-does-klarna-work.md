@@ -66,6 +66,9 @@ After 14 business days, MultiSafepay will receive funds from Klarna and make the
 ## Customisation of invoices
 Klarna enables all merchants to customise all invoices sent to your customers. In order to make changes to their styling and layout, you need to log in to your Klarna Merchant Account. All questions related to this topic should be referred directly to Klarna.
 
+## Delivery address
+Klarna prohibits the use of a separate delivery or pick-up address. The delivery and invoice address must be the same, in this case a PajkeGemak pick-up location from PostNL cannot be used.
+
 ## Product rules
 Some rules may apply to certain payment methods. For Klarna, the following rules apply:
 
