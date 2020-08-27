@@ -14,6 +14,8 @@ When an uncleared Pay After Delivery is received, no action is required. Our sup
 
 The customer has 14 days to complete the payment transaction after receiving the invoice from MultiFactor.
 
+_If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
+
 ### Shipped status
 When receiving a Pay After Delivery transaction, it is important to take the following steps:
 
@@ -84,8 +86,6 @@ The full API reference for Pay After Delivery can be found [here](/api/#pay-afte
 
 ### Product rules
 Some rules may apply to certain payment methods. For Pay After Delivery, the following rules apply:
-
-* The minimum amount for an order is €15,00 and maximum €300,00
 
 * Refunding more than the stated amount of the original transaction is not possible with Pay After Delivery. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page.
 
