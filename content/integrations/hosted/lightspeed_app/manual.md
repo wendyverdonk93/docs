@@ -86,3 +86,8 @@ If you want to put an extra buy button near the selected payment method you can 
 
 #### 2.7 Inline newsletter button
 If you want to put a newsletter checkmark near the selected payment method you can do so by going to _Inline newsletter_ on your settings page and choosing _Show inline_.
+
+
+### 3. Remarks
+Please note that some settings are cached on the lightspeed servers, this causes existing shoppingcarts not to update. One of the places this can occur is when changing the order of payment methods. Old shoppingcarts will keep the old ordering from when they where created. While testing issues with "cache" can be resolved by updating the shoppingcart. This can be done by adding a new item or updating the quantity of a existing item. Newly created shopping cards after changing are not affected. 
+
