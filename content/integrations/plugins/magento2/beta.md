@@ -38,18 +38,18 @@ Some of the new features include:
 ### 3. Modules
 The new MultiSafepay Magento 2 plugin consists of several modules:
 
-* [multisafepay-magento2](https://github.com/MultiSafepay/magento2) (Provides core functionalities)
+* [multisafepay-magento2-core](https://github.com/MultiSafepay/magento2-core) (Provides core functionalities)
 * [multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend) (Enables use of the payment gateways in the Magento checkout)
 * [multisafepay-magento2-adminhtml](https://github.com/MultiSafepay/magento2-adminhtml) (Makes it possible to enable/disable payment gateways and change the settings in the Magento backend)
 * [multisafepay-magento2-msi](https://github.com/MultiSafepay/magento2-msi) (Handles stock when MSI is enabled)
 * [multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory) (Handles stock when MSI is disabled)
-* [multisafepay-magento2-meta](https://github.com/MultiSafepay/magento2-meta) (Meta package which installs all the above)
+* [multisafepay-magento2](https://github.com/MultiSafepay/magento2) (Meta package which installs all the above)
 
 ### 4. Installation
 For merchants, we recommend installing the meta-package via composer:
 
 ```shell
-composer require multisafepay/magento2-meta
+composer require multisafepay/magento2
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
@@ -96,7 +96,7 @@ You have installed and configured the plugin successfully. If you have any quest
 ### 7. Updates 
 Run the following commands via the CLI:
 ```shell
-composer update multisafepay/magento2-connect-meta
+composer update multisafepay/magento2
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
