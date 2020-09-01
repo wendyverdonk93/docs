@@ -12,6 +12,8 @@ It brings code improvements, unit/integration testing and it is built on top of 
 **Currently this module has not yet been proven to be fully stable. 
 We recommend not using this in a production environment, until it has been thoroughly tested.**
 
+**It is possible to have the old and the new plugin installed at the same time. To avoid confusion however, we recommend completely uninstalling the old module first, before installing the new one.**
+
 ### 1. Features
 There are a lot of new features, but there are also some features that are not available as of yet.
 The following features are not available in the new Magento 2 plugin:
