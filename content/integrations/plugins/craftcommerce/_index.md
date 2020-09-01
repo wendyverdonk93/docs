@@ -7,6 +7,7 @@ weight: 170
 title_short: "Craft Commerce"
 description_short: "MultiSafepay payment gateway plugin for Craft Commerce 3. This plugin will be available on October 1st 2020"
 description: "Easily integrate MultiSafepay payment solutions into your Craft Commerce webshop. This plugin is currently under development and will be available shortly."
+layout: 'single'
 hideMenu: '.'
 
 ---
