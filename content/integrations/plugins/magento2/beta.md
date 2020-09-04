@@ -12,7 +12,7 @@ It brings code improvements, unit/integration testing and it is built on top of 
 **Currently this module has not yet been proven to be fully stable. 
 We recommend not using this in a production environment, until it has been thoroughly tested.**
 
-**It is possible to have the old and the new plugin installed at the same time. To avoid confusion however, we recommend completely uninstalling the old module first, before installing the new one.**
+**It is possible to have both the old and the new plugin installed at the same time. To avoid confusion however, we recommend completely uninstalling the old module first, before installing the new one.**
 
 ### 1. Features
 There are a lot of new features, but there are also some features that are not available as of yet.
@@ -30,7 +30,7 @@ Some of the new features include:
 * Support information available in the Magento backend
 * Clear explanation of each payment method with links to DOCS
 * Modular setup, providing more flexibility during the installation process
-* Direct payment methods instead of Redirect whenever possible
+* For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
