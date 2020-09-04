@@ -13,7 +13,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "order_id": "my-order-id-1",
     "currency": "CZK",
     "amount": 1000,
-    "gateway": "",
+    "gateway": "TRUSTPAY",
     "description": "Test Order Description",
     "custom_info": {},
     "payment_options": {
@@ -62,7 +62,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) 
+TRUSTPAY
 
 ----------------
 __order_id__ | integer / string
