@@ -28,7 +28,6 @@ Our Integration Team will greatly appreciate your effort.
 [Google review](https://www.google.com/search?rlz=1C1GCEU_enNL890NL890&q=MultiSafepay&stick=H4sIAAAAAAAAAONgecSYyS3w8sc9YamESWtOXmOM4uIKzsgvd80rySypFPLhYoOyFLj4pbj10_UNSwpzjKvyCjQYpHi5kAWkFJS4eNcZ2ciLihx-yaQlxLn6zo0yb45j7oKWcUd2fZ11-hzPIlYe39KckszgxLTUgsRKAFluieJ9AAAA&sa=X&ved=2ahUKEwj94_i1hOrnAhUuNOwKHQdQBEoQ6RMwC3oECAsQBA&biw=1280&bih=610#lrd=0x47c6084b76d8dcab:0xcecb9af5bac45e39,1,,,)<br>
 [TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)<br> 
 [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
-[PSP Check](http://pspcheck.nl/multisafepay-review/)
 
 ### Review our plugins
 [CS-Cart Marketplace](https://marketplace.cs-cart.com/multisafepay.html)<br>
