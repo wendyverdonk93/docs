@@ -6,35 +6,35 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/creditcards/)
-+ [Credit cards](/payment-methods/credit-and-debit-cards/creditcards/) (combine Maestro, Mastercard & Visa in checkout)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/creditcards/)
-+ [Visa](/payment-methods/credit-and-debit-cards/creditcards/) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards/))
++ [American Express](/payment-methods/credit-and-debit-cards/creditcards)
++ [Credit cards](/payment-methods/credit-and-debit-cards/creditcards) (combine Maestro, Mastercard & Visa in checkout)
++ [Mastercard](/payment-methods/credit-and-debit-cards/creditcards)
++ [Visa](/payment-methods/credit-and-debit-cards/creditcards) (including [CartaSi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards))
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact/)
-+ [Bank transfer](/payment-methods/banks/bank-transfer/)
-+ [Belfius](/payment-methods/banks/belfius/)
-+ [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer/)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/)
-+ [Dotpay](/payment-methods/banks/dotpay/)
-+ [EPS](/payment-methods/banks/eps/)
-+ [Giropay](/payment-methods/banks/giropay/) 
-+ [iDEAL](/payment-methods/banks/ideal/)
-+ [iDEAL QR](/payment-methods/banks/idealqr/)
-+ [ING Home'Pay](/payment-methods/banks/ing-home-pay/)
-+ [KBC](/payment-methods/banks/kbc/)
-+ [Maestro](/payment-methods/maestro/)
++ [Bancontact](/payment-methods/banks/bancontact)
++ [Bank transfer](/payment-methods/banks/bank-transfer)
++ [Belfius](/payment-methods/banks/belfius)
++ [Direct Bank Transfer](/payment-methods/banks/direct-bank-transfer)
++ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
++ [Dotpay](/payment-methods/banks/dotpay)
++ [EPS](/payment-methods/banks/eps)
++ [Giropay](/payment-methods/banks/giropay) 
++ [iDEAL](/payment-methods/banks/ideal)
++ [iDEAL QR](/payment-methods/banks/idealqr)
++ [ING Home'Pay](/payment-methods/banks/ing-home-pay)
++ [KBC](/payment-methods/banks/kbc)
++ [Maestro](/payment-methods/maestro)
 
 __Billing suite__
 
-+ [Betaalplan](/payment-methods/billing-suite/betaalplan/)
++ [Betaalplan](/payment-methods/billing-suite/betaalplan)
 
 __Wallet__ 
 
-+ [Alipay](/payment-methods/wallet/alipay/)
-+ [PayPal](/payment-methods/wallet/paypal/)
++ [Alipay](/payment-methods/wallet/alipay)
++ [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__ 
 

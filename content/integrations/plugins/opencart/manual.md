@@ -26,7 +26,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ### 3. Configuration
 1. Login into your backend and navigate to _Extensions_ -> _Extensions_ -> _Payments_-> _MultiSafepay_.
 2. On the MultiSafepay configuration page, enter the required information presented on each tab. 
-3. You can find your API Key on our [API key page](/tools/multisafepay-control/get-your-api-key/)
+3. You can find your API Key on our [API key page](/tools/multisafepay-control/get-your-api-key)
 4. Enable and configure the desired payment methods you wish to offer in _Payment Methods_ tab.
 5. Configure the _Order Status_ tab, matching each possible MultiSafepay callback status with one of the order statuses previously setup on your OpenCart webshop.
 6. Configure the _Options_ tab. 
