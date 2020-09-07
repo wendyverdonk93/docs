@@ -10,6 +10,6 @@ Currently the plugin supports the OpenCart core checkout and it will be compatib
 
 At this moment, you can request a patch for the following third party themes - extensions.
 
-* [Journal3 Quick Checkout](https://www.journal-theme.com/)
+* [Journal3 Quick Checkout](https://www.journal-theme.com)
 
 If you need support for a third party extension or premium theme, please let us know. We will do our best.
