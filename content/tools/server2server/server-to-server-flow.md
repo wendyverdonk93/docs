@@ -19,6 +19,7 @@ When 3D secure verification is required you have two option for handling the ver
 
 1. the recommended way is to redirect your customer directly to the payment_url that will be returned in the response. 
 2. otherwise you can use the HTML form that will be returned and should be rendered.
+
 ```shell 
     "customer_verification": {
          "html": "<html>\n<head>\n<title>3D Html form</title>....",
