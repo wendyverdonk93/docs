@@ -4,8 +4,16 @@ meta_title: "OpenCart plugin changelog - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
+## 3.1.0
+Release date: September, 14th 2020
+
++ PLGOPNS-246: Add a notification message if PHP version is not supported by the plugin.
++ PLGOPNS-243: Improve fields related with lifetime of the payment link in the settings
++ PLGOPNS-253: Validate the field lifetime of payment link to avoid negative number
++ PLGOPNS-252: Improve description for each payment method on backoffice
+
 ## 3.0.0
-Release date: July, 2020
+Release date: September, 7th 2020
 
 ### Improvements 
 + PLGOPNS-133: New opencart rewrite
