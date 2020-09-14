@@ -169,7 +169,7 @@ The unique identifier from your system for the order. If the values are only num
 ----------------
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+Has to be EUR.
 
 ----------------
 __amount__ | integer
