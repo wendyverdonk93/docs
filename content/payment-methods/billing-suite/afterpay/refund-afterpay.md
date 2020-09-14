@@ -48,8 +48,8 @@ Instead of deleting an item in the checkout editor you may want to add a discoun
 3. With the search function you can find the transaction
 4. Click on the transaction to open it
 5. Select _refund order_
-6. Choose _edit_
-7. Add the discount as a new page in the checkout editor. _For example, -1 -> discount -> amount -> VAT_
+6. Choose _Change Order_
+7. Add the discount as a new line in the checkout editor. _For example, -1 -> discount -> amount -> VAT_
 8. Add the new order line to the order to deduct the amount given as a discount
 9. _Save_.
 
