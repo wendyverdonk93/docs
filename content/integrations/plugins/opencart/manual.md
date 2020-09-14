@@ -35,7 +35,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
 
 ### 5. Updates
-#### Update the plugin from version 2.3.0 to 3.0.0
+#### Update the plugin from version 2.3.0 to 3.x.x
 1. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
 2. Before you update the plugin, we strongly recommend have a backup of your production environment
 3. Login into your backend and navigate to _Extensions_ -> _Installer_.
@@ -50,6 +50,6 @@ You have installed and configured the plugin successfully. If you have any quest
 12. You just installed the plugin. Now you need to configure the settings. 
 
 
-#### Update the plugin from version lower or equals than 2.2.1 to 3.0.0
+#### Update the plugin from version lower or equals than 2.2.1 to 3.x.x
 Please contact one of our integration specialist to receive help and guide on this process: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
 
