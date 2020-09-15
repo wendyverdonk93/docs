@@ -9,7 +9,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 {
     "type": "redirect",
-    "order_id": "my-order-id-5",
+    "order_id": "my-order-id-1",
     "gateway": "",
     "currency": "EUR",
     "amount": "1000",
@@ -122,7 +122,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
   "success": true,
   "data": {
-    "order_id": "my-order-id-5",
+    "order_id": "my-order-id-1",
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL"
   }
 }
