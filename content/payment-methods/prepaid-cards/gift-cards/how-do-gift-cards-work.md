@@ -40,6 +40,8 @@ Transactions that are paid in full by means of gift card cannot be refunded via 
 ### Product rules
 Some rules may apply to certain payment methods. For gift cards, the following rules apply:
 
+* The maximum value of a gift card is limited to €150 and for gift cards which can be used multiple times, the transaction amount is limited to €50. If a payment exceeds €50, the remaining amount can be paid with any alternative payment method.
+
 * Refunding more than the stated amount of the original transaction is NOT possible with gift cards. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount/) page
 
 * Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay/)
