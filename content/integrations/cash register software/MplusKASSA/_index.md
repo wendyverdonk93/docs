@@ -10,7 +10,7 @@ read_more: "."
 short_description: "Cash Register software by MplusKASSA"
 description_short: "A smart order management system for restaruants, cafes and hotels"
 extra_button:
-    url: "www.mpluskassa.nl/" 
+    url: "https://www.mpluskassa.nl/?keyword=mpluskassa&gclid=EAIaIQobChMI2oOCj5Lw6wIVQ-h3Ch3NtQ4SEAAYASAAEgJJcvD_BwE" 
     text: "Go to site" 
     type: "primary"
 ---
