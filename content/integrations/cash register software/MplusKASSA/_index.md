@@ -1,0 +1,22 @@
+---
+title: "MplusKASSA"
+weight: 20
+meta_title: "MplusKASSA - MultiSafepay Support"
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+logo: '/svgs/MplusKASSA.svg'
+layout: 'single'
+title_short: "MplusKASSA"
+read_more: "."
+short_description: "Cash register software by MplusKASSA"
+description_short: "A smart order management system for restaruants, cafes and hotels"
+extra_button:
+    url: "www.mpluskassa.nl/" 
+    text: "Go to site" 
+    type: "primary"
+---
+
+### Order management tool
+
+
+
+
