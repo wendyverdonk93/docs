@@ -62,4 +62,4 @@ In most plugins you can also refund. See the corresponding [plugin FAQ](/integra
 
 
 
-_Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <webwinkel@klarna.nl> or +31 208082853_
+_Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <verkoop@klarna.com> or +31 208082853_
