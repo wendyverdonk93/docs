@@ -7,7 +7,7 @@ logo: '/svgs/MplusKASSA.svg'
 layout: 'single'
 title_short: "MplusKASSA"
 read_more: "."
-short_description: "Cash register software by MplusKASSA"
+short_description: "Cash Register software by MplusKASSA"
 description_short: "A smart order management system for restaruants, cafes and hotels"
 extra_button:
     url: "www.mpluskassa.nl/" 
@@ -17,6 +17,6 @@ extra_button:
 
 ### Order management tool
 
+MplusKASSA is a new all-around order management software tool aiming to simplify the order process for restaruants, cafes, hotels and establishments alike.
 
-
-
+Recently, MplusKASSA has integrated their order management system with MultiSafepay. If you would like to find out more about the integration process, please contact MplusKASSA directly at <info@mpluskassa.nl>
