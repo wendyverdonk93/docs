@@ -10,7 +10,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell
 {
     "type": "direct",
-    "order_id": "My-order-id-2",
+    "order_id": "my-order-id-1",
     "currency": "EUR",
     "amount": 1000,
     "gateway": "IDEAL",
@@ -34,7 +34,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   "success": true,
   "data": {
     "transaction_id": 00002,
-    "order_id": "My-order-id-2",
+    "order_id": "my-order-id-1",
     "created": "2019-03-04T13:52:07",
     "currency": "EUR",
     "amount": 1000,
@@ -146,7 +146,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
 
 ----------------
 __notification_method__ | string
