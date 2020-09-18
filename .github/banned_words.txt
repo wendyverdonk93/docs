@@ -1,5 +1,7 @@
 api
 api key
+API Key
+api KEY
 webshop admin
 back-office
 admin
@@ -45,3 +47,4 @@ postpay
 post Pay
 screening@multisafepay.com
 banktransfer
+Github

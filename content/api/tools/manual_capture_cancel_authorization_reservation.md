@@ -3,7 +3,7 @@ weight: 1355
 ---
 {{< code-block >}}
 
-> PATCH - /capture/<order_id>
+> PATCH - /capture/{order_id}
 
 ```shell
 {
@@ -26,10 +26,19 @@ weight: 1355
 {{< description >}}
 ### Cancel Authorization / Reservation
 
-| Parameter                      | Type      | Description |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| reason                           | string    | Add a short text memo based on the capture reason of the order.       |
-| status                           | string    | The order status of the manual capture request.     |
+**Parameters**
 
-Read more about [Manual Capture](/tools/manual-capture/) on our documentation page.
+----------------
+__reason__ | string
+
+Add a short text memo based on the capture reason of the order.  
+
+----------------
+__status__ | string
+
+The order status of the manual capture request.
+
+----------------
+
+Read more about [Manual Capture](/tools/manual-capture) on our documentation page.
 {{% /description %}}

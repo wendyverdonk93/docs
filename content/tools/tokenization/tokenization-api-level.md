@@ -30,8 +30,9 @@ Tokens processed by the payment method SEPA Direct Debit "DIRDEB" are originally
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type | string | Specifies the payment flow for the checkout process. Options: direct, redirect |
 | gateway | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: AMEX, VISA, MASTERCARD and DIRDEB |
+| recurring_id | string | The randomly generated recurring id for the customer |
 | reference | string | Customer reference to link a token |
-|
+| recurring_model | string | The type of recurring model to be used: unscheduled, cardOnFile, subscription  |
 
 
 

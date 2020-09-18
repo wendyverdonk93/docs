@@ -1,6 +1,6 @@
 ---
 weight: 323
-meta_title: "API - Create PayPal order - Developers MultiSafepay"
+meta_title: "API - Create a PayPal order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -22,7 +22,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "nl_NL"
     }
 }
 ```
@@ -63,7 +63,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "last_name": "Approved",
         "address1": "Kraanspoor",
         "house_number": "39C",
-        "zip_code": "1033 SC",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "phone": "0208500500",
@@ -92,18 +92,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     },
     "customer": {
       "address1": "Kraanspoor",
-      "address2": null,
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": null,
       "email": "example@multisafepay.com",
       "first_name": "Testperson-nl",
       "house_number": "39C",
       "last_name": "Approved",
       "locale": "nl_NL",
       "phone1": "0208500500",
-      "phone2": "",
-      "state": null,
       "zip_code": "1033SC"
     },
     "description": "Test Order Description",
@@ -148,47 +144,113 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## PayPal
-### Redirect
+### Redirect - PayPal
 
-Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                      | Type     | Description                                                                              |
-|--------------------------------|----------|------------------------------------------------------------------------------------------|
-| type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. |
-| gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYPAL. |
-| order_id:                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
-| currency:                       | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
-| amount:                         | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description:                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’or ‘shopping_cart’ objects for this. |
-| payment_options:                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
-| customer                        | object | Contains the personal information of the customer.                                         |
+**Parameters**
 
+----------------
+__type__ | string
 
-Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
+Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. 
 
-### Direct
-Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: PAYPAL.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+
+----------------
+__customer__ | object
+
+Contains the personal information of the customer. 
+
+----------------
+
+Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
+
+### Direct - PayPal
+Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
+**Parameters**
 
-| Parameter                      | Type     | Description                                                                              |
-|--------------------------------|----------|------------------------------------------------------------------------------------------|
-| type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. |
-| gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: PAYPAL. |
-| order_id:                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                   |
-| currency:                       | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
-| amount:                         | integer | The amount (in cents) that the customer needs to pay.                                   |
-| description:                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’or ‘shopping_cart’ objects for this. |
-| payment_options:                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                             |
-| customer                        | object | Contains the personal information of the customer.                                         |
+----------------
+__type__ | string
 
-Read more about [PayPal](/payment-methods/wallet/paypal/) on our documentation page.
+Specifies the payment flow for the checkout process. Options: direct, redirect, checkout, paymentlink. 
+
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: PAYPAL.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+
+----------------
+__customer__ | object
+
+Contains the personal information of the customer. 
+
+----------------
+
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+
+Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
 
 {{< /description >}}

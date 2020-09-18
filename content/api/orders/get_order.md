@@ -42,7 +42,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "state": null,
       "country": "NL",
       "country_name": null,
-      "phone1": "020 8500 500",
+      "phone1": "0208500500",
       "phone2": "",
       "email": "test@example.com"
     },
@@ -109,8 +109,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 Get order status & information. Depending on the order type or method, the structure may be different.
 
-| Parameter          | Type      | Description                                                                                         |
-|--------------------|-----------|-----------------------------------------------------------------------------------------------------|
-| order_id           | integer / string    | The unique identifier of the order to be returned. If the values are only numbers the type will be integer, otherwise it will be string.                                                  |
+**Parameters**
+
+----------------
+
+__order_id__ | integer / string
+
+The unique identifier of the order to be returned. If the values are only numbers the type will be integer, otherwise it will be string.                                      
+
 
 {{% /description %}}

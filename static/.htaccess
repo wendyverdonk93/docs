@@ -185,7 +185,7 @@ Redirect 301 /integrations/x-cart/faq/refunding-x-cart/ https://docs.multisafepa
 Redirect 301 /integrations/zencart/faq/refunding-zen-cart/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/refunding-zen-cart/
 Redirect 301 /integrations/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/
 Redirect 301 /integrations/magento1/faq/ship-automatically-in-magento1/ https://docs.multisafepay.com/integrations/plugins/magento1/faq/ship-automatically-in-magento1/
-Redirect 301 /payment-methods/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/cartasi-what-is-it/
+Redirect 301 /payment-methods/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/nexi-what-is-it/
 Redirect 301 /payment-methods/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/
 Redirect 301 /payment-methods/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
 Redirect 301 /integrations/prestashop-1-6/faq/do-you-support-thirty-bees/ https://docs.multisafepay.com/integrations/plugins/prestashop-1-6/faq/do-you-support-thirty-bees/
@@ -217,10 +217,10 @@ Redirect 301 /integrations/virtuemart/faq/ https://docs.multisafepay.com/integra
 Redirect 301 /integrations/woocommerce/faq/ https://docs.multisafepay.com/integrations/plugins/woocommerce/faq/
 Redirect 301 /integrations/x-cart/faq/ https://docs.multisafepay.com/integrations/plugins/x-cart/faq/
 Redirect 301 /integrations/zencart/faq/ https://docs.multisafepay.com/integrations/plugins/zencart/faq/
-Redirect 301 /integrations/fastcheckout-android/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-android/
-Redirect 301 /integrations/fastcheckout-android/manual/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-android/manual/
-Redirect 301 /integrations/fastcheckout-ios/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-ios/
-Redirect 301 /integrations/fastcheckout-ios/manual/ https://docs.multisafepay.com/integrations/sdk/fastcheckout-ios/manual/
+Redirect 301 /integrations/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
+Redirect 301 /integrations/fastcheckout-android/manual/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/manual/
+Redirect 301 /integrations/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
+Redirect 301 /integrations/fastcheckout-ios/manual/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/manual/
 Redirect 301 /integrations/cs-cart/faq/how-can-i-update-the-plugin-for-cs-cart/ https://docs.multisafepay.com/integrations/plugins/cs-cart/faq/how-can-i-update-the-plugin-for-cs-cart/
 Redirect 301 /integrations/drupal7/faq/how-can-i-update-the-plugin-for-drupal7/ https://docs.multisafepay.com/integrations/plugins/drupal7/faq/how-can-i-update-the-plugin-for-drupal7/
 Redirect 301 /integrations/drupal8/faq/how-can-i-update-the-plugin-for-drupal8/ https://docs.multisafepay.com/integrations/plugins/drupal8/faq/how-can-i-update-the-plugin-for-drupal8/
@@ -330,10 +330,40 @@ Redirect 301 /payment-methods/banks/direct-debit/what-is-direct-debit/ https://d
 Redirect 301 /payment-methods/banks/direct-debit/how-does-direct-debit-work/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#how-does-it-work
 Redirect 301 /payment-methods/banks/direct-debit/activate-direct-debit/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/#activate
 Redirect 301 /faq/general/can-i-use-multisafepay-with-wix/ https://docs.multisafepay.com/integrations/hosted/ecwid/manual/ 
+Redirect 301 /integrations/hosted/lightspeed/ https://docs.multisafepay.com/integrations/hosted/lightspeed_app/
+Redirect 301 /integrations/hosted/lightspeedbeta/ https://docs.multisafepay.com/integrations/hosted/lightspeed_app/
 #URL Mapper - Magento2 plugin
 Redirect 301 /p7p8c2/ https://docs.multisafepay.com/integrations/magento2/faq/#payment-link-in-order-confirmation-email-for-backend-orders
 Redirect 301 /payment-methods/creditcards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
 Redirect 301 /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/ https://docs.multisafepay.com/faq/general/what-is-3d-secure/
+Redirect 301 /payment-methods/dotpay/ https://docs.multisafepay.com/payment-methods/banks/dotpay/
+Redirect 301 /faq/general/payment-method-logo/ https://docs.multisafepay.com/faq/general/where-find-logo-payment-methods/
+Redirect 301 /credit-and-debit-cards/american-express/american-express-status-what-does-this-mean-/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/american-express/#declined
+Redirect 301 /faq/finance/reverse-charging-vat/ https://docs.multisafepay.com/faq/finance/vat-general-questions/#is-reverse-charging-vat-possible
+Redirect 301 /payment-methods/bancontact/ https://docs.multisafepay.com/payment-methods/banks/bancontact/
+Redirect 301 /payment-methods/banks/direct-debit/ https://docs.multisafepay.com/payment-methods/banks/sepa-direct-debit/
+Redirect 301 /payment-methods/banks/maestro/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/maestro/
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/
+Redirect 301 /payment-methods/credit-and-debit-cards/mastercard/visa https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/visa/
+Redirect 301 /payment-methods/mastercard/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/mastercard/
+Redirect 301 /payment-methods/trustpay/ https://docs.multisafepay.com/payment-methods/banks/trustpay/
+Redirect 301 /payment-methods/visa/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/visa/
+Redirect 301 /tools/tokenization/how-do-i-get-tokenization/ https://docs.multisafepay.com/tools/tokenization/
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/nexi/#what-is-nexi
+Redirect 301 /payment-methods/credit-and-debit-cards/cartasi-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/nexi/#what-is-nexi
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartes-bancaires/#what-is-cartes-bancaires
+Redirect 301 /payment-methods/credit-and-debit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartes-bancaires/#what-is-cartes-bancaires
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
+Redirect 301 /payment-methods/credit-and-debit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/postepay/
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/carte-bleue-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/cartes-bancaires/#what-is-cartes-bancaires
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/dankort/#what-is-dankort
+Redirect 301 /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/ https://docs.multisafepay.com/payment-methods/credit-and-debit-cards/postepay/
+Redirect 301 /how-to-find-us/spanish-office-location/ https://docs.multisafepay.com/how-to-find-us/malaga-office-location/
 
+Redirect 301 /integrations/sdk/ https://docs.multisafepay.com/integrations/wrappers/
+Redirect 301 /integrations/sdk/fastcheckout-android/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-android/
+Redirect 301 /integrations/sdk/fastcheckout-ios/ https://docs.multisafepay.com/integrations/wrappers/fastcheckout-ios/
+	
 #DOCS-855: Remove SSL Certificate Renewal January 2020 page
 Redirect 301 /faq/general/ssl-certificate-update/ https://docs.multisafepay.com

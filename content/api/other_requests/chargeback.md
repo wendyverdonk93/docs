@@ -30,18 +30,33 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ## Chargeback
 
 MultiSafepay can challenge the chargeback on your behalf, but to do so, we need documented proof of the order.
-Upload files / documents via an API request.
 
-_We will be changing the process for handling chargebacks through the API in Q3 2019. Please contact your account manager or contact us at <integration@multisafepay.com> for more information_.
+You can upload the files or documents via an API request or contact our support team at <support@multisafepay.com>
 
-Read more about [chargebacks](/faq/chargebacks/) on our documentation page.
+Read more about [chargebacks](/faq/chargebacks) on our documentation page.
 
-| Parameter                   | Type      | Description                                                                                |
-|-----------------------------|-----------|--------------------------------------------------------------------------------------------|
-| type                        | string  | Specifies the payment flow for the checkout process. Options: chargeback. |
-| base64                      | string  | Binary Base 64 encoded. Upload images "pdf, jpeg and png". |
-| description                 | string  | Description or comments of the submitted file. |
-| name                        | string  | Name of the file.
+**Parameters**
+
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: chargeback.
+
+----------------
+__base64__ | string
+
+Binary Base 64 encoded. Upload images "pdf, jpeg and png". 
+
+----------------
+__description__ | integer
+
+Description or comments of the submitted file. 
+
+----------------
+__name__ | string
+
+Name of the file.
+
 {{% /description %}}
 
 

@@ -6,6 +6,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg' 
 short_description: 'Suitable for Dutch merchants allowing consumers to pay after they have received their order.'
+aliases:
+    - /support-tab/magento2/payment-methods/pay-after-delivery
 ---
 
 MultiSafepay offers Pay After Delivery to enhance the sales conversion of merchants and increase customer confidence by paying only after the delivery of their product. Our Pay After Delivery product is built fully in-house leveraging our 20 years of payment knowledge and is continuously being improved and expanded.

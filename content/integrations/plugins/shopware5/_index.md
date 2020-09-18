@@ -1,6 +1,7 @@
 ---
 title : "MultiSafepay plugin for Shopware 5"
 download_url : "/integrations/shopware5/manual#2-installation-configuration"
+github_url : "https://github.com/MultiSafepay/Shopware"
 manual: "."
 faq: "."
 newsletter: "Shopware"

@@ -77,27 +77,28 @@ MultiSafepay provides a test platform for Belfius transactions. During the payme
 | Completed | Transaction is Completed |
 | Cancelled | Transaction is Cancelled |
 
-
-## CartaSi
-MultiSafepay provides the Visa test credantials to test the payment method CartaSi.
-
-CartaSi is shown as a payment option on the payment page of MultiSafepay only after:
-
-1. The Visa gateway is enabled; and
-2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.
-
 ## Cartes Bancaires
 
-MultiSafepay provides the Visa test credantials to test the payment method Cartes Bancaires.
+MultiSafepay provides the Visa test credentials to test the payment method Cartes Bancaires.
 
 Cartes Bancaires is shown as a payment option on the payment page of MultiSafepay only after:
 
 1. The Visa gateway is enabled; and
 2. The locale is set to fr_FR (France) in the transaction call received by MultiSafepay.
 
+## CBC
+
+The payment method CBC can only be processed on our new payment page starting with PayV2.
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is completed |
+| Cancelled | Transaction is void / cancelled |
+
+
 ## Dankort
 
-MultiSafepay provides the Visa test credantials to test the payment method Dankort.
+MultiSafepay provides the Visa test credentials to test the payment method Dankort.
 
 Dankort is shown as a payment option on the Payment page of MultiSafepay only after:
 
@@ -114,6 +115,19 @@ MultiSafepay provides a test platform for SEPA Direct Debit transactions. By ent
 | NL87ABNA0000000002 | Initialized/Declined | Transaction is Initialized (after 2 minutes it is Declined) |
 | NL87ABNA0000000003 | Initialized/Uncleared/Completed | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Completed) |
 | NL87ABNA0000000004 | Initialized/Uncleared/Declined | Transaction is Initialized ( after 2 minutes it is Uncleared, and 1 minute later it is Declined) |
+
+## Request to Pay
+
+MultiSafepay provides a test platform for Request to Pay transactions though Deutsche Bank.
+You can simulate the following scenarios:  
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Canceled | Transaction is Canceled |
+
+Select 'Demo Bank' in the Bank field and go through the steps with the information provided in the description in order to get a _Completed_ status.
+In order to get a _Cancel_ status you need to click on the _Close_ button at the top right of the screen.
 
 ## Dotpay
 
@@ -150,6 +164,17 @@ MultiSafepay provides a test platform for Giropay/EPS transactions. During the p
 
 Note: Giropay is a German payment method and can only be tested if the country code for Germany (DE) is sent in the pre-transaction request. For EPS, you can also use the Giropay gateway in TEST. In the LIVE environment EPS will display only when you use Austria (AT) as country code.
 
+## in3
+
+MultiSafepay provides a test platform for in3 transactions. By entering the following details, you will be able to simulate the outcome of the transaction.
+
+| Status            | Date of birth    | Postal code | House number |
+| ---------------- | ------------------- | ------------------- | ----------------- |
+| Approved             | 01-01-1999 | 1234AB | 1 |
+| Declined              | 01-01-2000 | 1111AB | 1 |
+
+_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and Pilot pahse of its release._
+
 ## iDEAL
 
 MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
@@ -175,16 +200,18 @@ MultiSafepay provides a test platform for ING Home'Pay transactions. During the 
 
 ## KBC
 
-The payment method KBC can only be processed on our new Payment page starting with PayV2.
+The payment method KBC can only be processed on our new payment page starting with PayV2.
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction is Completed |
+| Completed | Transaction is completed |
 | Cancelled | Transaction is void / cancelled |
 
 ## Klarna
 
-Klarna provides their own test credentials. For a complete guide, check out [Klarna's documentation](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+Klarna provides their own test credentials. For a complete guide, read more on [Klarna's documentation page](https://developers.klarna.com/en/gb/kco-v3/test-credentials)
+
+More information about how you can integrate Klarna with MultiSafepay can be found on our [Klarna documentation page](https://docs.multisafepay.com/payment-methods/billing-suite/klarna)
 
 ## Maestro
 
@@ -206,6 +233,14 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
 | 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
+
+## Nexi
+MultiSafepay provides the Visa test credentials to test the payment method Nexi.
+
+Nexi is shown as a payment option on the payment page of MultiSafepay only after:
+
+1. The Visa gateway is enabled; and
+2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.
 
 ## Pay After Delivery (Betaal na Ontvangst)
 
@@ -232,7 +267,7 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments/)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
 
 
 ## Santander Betaalplan

@@ -63,29 +63,110 @@ __Please note: This API call currently only works in a 'Live' environment. The f
 
 If you have any questions, please contact <integration@multisafepay.com>
 
-| Parameter                   | Type      | Description                                                                                |
-|-----------------------------|-----------|--------------------------------------------------------------------------------------------|
-| product                     | string    | Select the desired MultiSafepay subscription: Connect 300, Connect 1000 or FastCheckout.    | 
-| company_name                | string    | Company name of partner.                                                                    | 
-| address1                    | string    | First line of customer’s provided address.                                                  | 
-| address2                    | string    | Second line of customer’s provided address.                                                 | 
-| zip_code                    | string    | Customer’s provided zip / postal code.                                                      | 
-| city                        | string    | Customer’s provided city.                                                                   |
-| email                       | string    | Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   | 
-| country                     | string    | Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) |     
-| phone                       | string    | Customer’s provided phone number.                                                           |
-| password                    | string    | Supply a password for creating credentials for partner account.                             | 
-| address_apartment           | string    |                                                                                             | 
-| software_partner            | string    | Put on "Anders".                                                                            |  
-| partner                     | object    |                                                                                             | 
-| api_user                    | string    | User ID of partner account.                                                                 | 
-| api_ pass                   | string    | Password for partner account.                                                               | 
-| contact_details             | object    |                                                                                             | 
-| title                       | string    | Mr, Mrs or Ms.                                                                              |
-| name                        | string    | Name of partner.                                                                            | 
-| bank_details                | object    |                                                                                             | 
-| account_number              | string    | Account number of bank.                                                                     | 
-| bank_name                   | string    | Name of bank.                                                                               | 
-| country                     | string    | Country of bank [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)               |
+**Parameters**
+
+----------------
+__product__ | string
+
+Select the desired MultiSafepay subscription: Connect 300, Connect 1000 or FastCheckout. 
+
+----------------
+__company_name__ | string
+
+Company name of partner. 
+
+----------------
+__address1__ | string
+
+First line of customer’s provided address.   
+
+----------------
+__address2__ | string
+
+Second line of customer’s provided address.   
+
+----------------
+__zip_code__ | string
+
+Customer’s provided zip / postal code.
+
+----------------
+__city__ | integer
+
+Customer’s provided city.                                                                   
+
+----------------
+__email__ | string
+
+Customer’s provided email address. Used to send Second Chance emails and in fraud checks.   
+
+----------------
+__country__ | string
+
+Customer’s provided country code [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)
+
+----------------
+__phone__ | string
+
+Customer’s provided phone number.
+
+----------------
+__password__ | string
+
+Supply a password for creating credentials for partner account.   
+
+----------------
+__address_apartment__ | string
+
+----------------
+__software_partner__ | string
+
+Put on "Anders".
+
+----------------
+__partner__ | object
+
+Supply a password for creating credentials for partner account.  
+
+----------------
+__api_user__ | string
+
+User ID of partner account.   
+
+----------------
+__api_pass__ | string
+
+Password for partner account.
+
+----------------
+__contact_details__ | object
+
+----------------
+__title__ | string
+
+Mr, Mrs or Ms.   
+
+----------------
+__name__ | string
+
+Name of partner.     
+
+----------------
+__bank_details__ | object
+
+----------------
+__account_number__ | string
+
+Account number of bank. 
+
+----------------
+__bank_name__ | string
+
+Name of bank.    
+
+----------------
+__country__ | string
+
+Country of bank [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html)  
 
 {{% /description %}}

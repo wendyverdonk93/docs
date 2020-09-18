@@ -1,6 +1,6 @@
 ---
 weight: 309
-meta_title: "API - Create A Co-branded Credit Card order - Developers MultiSafepay"
+meta_title: "API - Create a Co-branded Credit Card order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -33,7 +33,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {
   "success": true,
   "data": {
-    "order_id": "My-order-id-1",
+    "order_id": "my-order-id-1",
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=it_IT"
   }
 }
@@ -44,29 +44,80 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Co-branded credit card 
 
-Creates a Co-branded credit card [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Co-branded credit card [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                       | Type     | Description                                                                             |
-|---------------------------------|----------|-----------------------------------------------------------------------------------------|
-| type                            | string   | Specifies the payment flow for the checkout process. Options: redirect.                   |
-| gateway                         | string   | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: CREDITCARD, VISA and MASTERCARD.  |
-| order_id                        | integer / string   | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                     |
-| currency                        | string   | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with.  |
-| amount                          | integer  | The amount (in cents) that the customer needs to pay.                                      |
-| description                     | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.  |
-| payment_options                 | object   |                             |
-| notification_url                | string   | Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
-| redirect_url                    | string   | Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to this page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times. |
-| cancel_url                      | string   | Customer will be redirected to this page after a failed payment.  | 
-| customer                        | object   |                                 |
-| locale                          | string   | Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US. | 
-| ip_address                      | string   | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                                               |
+**Parameters**
+
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: direct , redirect , paymentlink.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__gateway__ | string
+
+The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: CREDITCARD, VISA and MASTERCARD.
+
+----------------
+__currency__ | string
+
+The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with.
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+----------------
+__notification_url__ | string
+
+Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
+
+----------------
+__redirect_url__ | string
+
+Customer will be redirected to this page after a successful payment. In the event that the transaction is marked with the status [uncleared](/faq/getting-started/glossary/#uncleared), the customer will also be redirected to the thank-you page of the webshop. The uncleared status will not be passed on to the customer who will experience the payment as successful at all times.
+
+----------------
+__cancel_url__ | string
+
+Customer will be redirected to this page after a failed payment.
+
+----------------
+__customer__ | object
+
+----------------
+__locale__ | string
+
+Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes. Default: en_US.
+
+----------------
+__ip_address__ | string
+
+ The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
+
+----------------
+
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
-Please make sure to read more about [CartaSi](/payment-methods/branded-credit-cards/cartasi-what-is-it/), [Cartes Bancaires](/payment-methods/branded-credit-cards/carte-bleue-what-is-it/), [Dankort](/payment-methods/branded-credit-cards/dankort-what-is-it/) and [Postepay](/payment-methods/branded-credit-cards/postepay/) on our documentation page.
+Please make sure to read more about [Nexi](/payment-methods/credit-and-debit-cards/nexi), [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires), [Dankort](/payment-methods/credit-and-debit-cards/dankort) and [Postepay](/payment-methods/credit-and-debit-cards/postepay) on our documentation page.
 {{< /description >}}

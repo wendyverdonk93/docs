@@ -10,6 +10,7 @@ Before applying for a gift card, check with your account manager at MultiSafepay
 
 The following gift cards are offered as a standard at MultiSafepay:
 
+* Baby Cadeaubon
 * Beauty & Wellness
 * Boekenbon
 * Fashioncheque 
@@ -30,4 +31,4 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Winkelcheque 
 * YourGift  
 
-Would you rather be offering a personalized gift card to your customers? Read more about [Branded / Personalized gift cards](/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/) on our documentation page.
+Would you rather be offering a personalized gift card to your customers? Read more about [Branded / Personalized gift cards](/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card) on our documentation page.

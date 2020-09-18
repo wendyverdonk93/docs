@@ -22,7 +22,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US"
+        "locale": "nl_NL"
     }
 }
 ```
@@ -42,22 +42,52 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 
 ## Bancontact
-Creates a Bancontact [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Bancontact [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                    | Type     | Description                                                                                |
-|------------------------------|----------|--------------------------------------------------------------------------------------------|
-| type                         | string   | Specifies the payment flow for the checkout process. Options: redirect and paymentlink.
-| gateway                      | string   | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: MISTERCASH. |
-| order_id                     | string   | The unique identifier from your system for the order.                                      |
-| currency                     | string   | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html))  you want the customer to pay with. |
-| amount                       | integer  | The amount (in cents)  that the customer needs to pay.                                     |
-| description                  | string   | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this. |
-| payment_options              | object |                            |
-| customer                     | object |  |
+**Parameters**
 
-Read more about [Bancontact](/payment-methods/banks/bancontact/) on our documentation page.
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: redirect and payment link.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__gateway__ | string
+
+The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: MISTERCASH.
+
+----------------
+
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+----------------
+__customer__ | object
+
+----------------
+
+Read more about [Bancontact](/payment-methods/banks/bancontact) on our documentation page.
 {{< /description >}}
