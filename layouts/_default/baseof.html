@@ -36,7 +36,7 @@
     <link href="{{ .Site.BaseURL }}css/bootstrap.min.css" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mburger.css" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
-    <link href="{{ .Site.BaseURL }}css/main.css?v=8" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}css/main.css?v=9" rel="stylesheet" />
     <link rel="shortcut icon" href="/favicon.ico">
     <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
     <script src="{{ .Site.BaseURL }}js/main.js?v=8"></script>
@@ -104,8 +104,9 @@
         <footer class="footer-background">
             {{ else }}
             <footer>
-                {{ partial "footer" . }}
+               
                 {{ end }}
+                 {{ partial "footer" . }}
                 <div class="text-center">
                     <a href="https://multisafepay.com"><img class="msp-logo-footer"
                             src="{{ relURL "logo/MSP-logo.svg" }}" /></a>

@@ -1,6 +1,6 @@
 ---
 weight: 324
-meta_title: "API - Create Santander Betaalplan order - Developers MultiSafepay"
+meta_title: "API - Create a Santander Betaalplan order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -22,16 +22,15 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "en_US",
+        "locale": "nl_NL",
         "ip_address": "31.148.195.10",
         "forwarded_ip": "",
-        "first_name": "John",
-        "last_name": "Doe",
+        "first_name": "Testperson-nl",
+        "last_name": "Approved",
         "address1": "Kraanspoor",
-        "house_number": "39",
-        "zip_code": "1033 SC",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
-        "state": "",
         "country": "NL",
         "email": "test@example.com",
         "referrer": "http://example.com",
@@ -69,20 +68,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "fastcheckout": "NO",
         "modified": "2017-08-07T10:07:07",
         "customer": {
-            "locale": "en_US",
-            "first_name": null,
-            "last_name": null,
-            "address1": null,
-            "address2": null,
-            "house_number": null,
-            "zip_code": null,
-            "city": null,
-            "state": null,
-            "country": null,
-            "country_name": null,
-            "phone1": null,
-            "phone2": "",
-            "email": ""
+            "locale": "nl_NL",
+        ...
         },
         "payment_details": {
             "recurring_id": null,
@@ -107,26 +94,79 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## Santander Betaalplan
-Creates a Santander Betaalplan [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates a Santander Betaalplan [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                     | Type     | Description                                                                               |
-|-------------------------------|----------|-------------------------------------------------------------------------------------------|
-type                            | string | Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
-gateway                         | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: SANTANDER. |
-order_id                        | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                     |
-currency                        | string | The currency ([ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)) you want the customer to pay with. |
-amount                          | integer | The amount (in cents) that the customer needs to pay. In this case minimum 30000.         
-description                     | string | A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping cart' objects for this. |
-payment_options                 | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                               |
-customer                        | object | Contains the personal information of the customer. <i>Values for first_name and last_name require minimum two characters.</i>    |
-gateway_info                    | object | Contains the information of the customer needed for the credit check.                     |
-ip_address                      | string  | The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address/)                                                                            |
-forwarded_ip                    | string  | The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address/)                                                                                                                           |    
-Please note that <i>first_name</i> and <i>last_name</i> in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
+**Parameters**
 
-Read more about [Betaalplan](/payment-methods/billing-suite/betaalplan/) on our docuemntation page.
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
+
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Options: SANTANDER.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+
+----------------
+__custom_info__ | object
+
+custom_info is a 'placeholder' where the merchant can input specific data related to the transaction.
+
+----------------
+__customer__ | object
+
+Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+
+----------------
+__gateway_info__ | object                                                              
+
+Contains the information of the customer needed for the credit check.                     
+
+----------------
+__ip_address__ | string
+
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
+
+----------------
+__forwarded_ip__ | string
+
+The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+
+----------------  
+
+__Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
+
+Please note that _first_name_ and _last_name_ in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
+
+Read more about [Betaalplan](/payment-methods/billing-suite/betaalplan) on our docuemntation page.
 {{< /description >}}

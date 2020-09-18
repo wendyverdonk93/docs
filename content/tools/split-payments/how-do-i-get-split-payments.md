@@ -1,12 +1,14 @@
 ---
 title : "How to process a Split Payment?"
-weight: 81
+weight: 82
 meta_title: "Split Payment, how to process it? - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 
-Split Payments is a feature in our [API](/api/#split-payments) This is not incorporated within our plugins by default, but it can be added through customization from your side.  
+Split Payments is a feature in our [API](/api/#split-payments) 
+
+This is not incorporated within our plugins by default, but it can be added through customization from your side.  
 
 In order to split a payment you need the following:  
 

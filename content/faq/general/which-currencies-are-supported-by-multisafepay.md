@@ -48,19 +48,19 @@ Those are all the currencies available for Visa, MasterCard and Maestro:
 * SGD (Singapore dollar)
 * NZD (New Zealand dollar)
 * TRY (Turkish lira)
-* ISK (Islandic króna)
+* ISK (Icelandic króna)
 * THB (Thai baht)
 
 ## On request currencies
 
-MultiSafepay can accept on request new currencies for Visa, MasterCard and Maestro not leasted in the previous list.
+MultiSafepay can accept on request new currencies for Visa, MasterCard and Maestro not listed in the previous list.
 
 ## Requirements
 
-* The currency is only processed when it is supported by the selected [payment method](/payment-methods/)
+* The currency is only processed when it is supported by the selected [payment method](/payment-methods)
 * The desired currency is correctly processed within the transaction call, received by MultiSafepay when using [JSON](/api/#orders) requests
 * The plugin settings allow the currency selected
-* The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com/)
+* The currency is enabled/allowed within your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 _When multiple currencies are enabled within your MultiSafepay Control, all currencies will be shown under Finance -> Balance_.  
 
@@ -68,27 +68,26 @@ _When multiple currencies are enabled within your MultiSafepay Control, all curr
 
 In order to enable more currencies in your MultiSafepay Control, please submit your request with our Support department via <support@multisafepay.com>
 
-## Add multi-currency business bank account to your MultiSafepay Control
+## Payout currency options
 
-Although MultiSafepay provides all currencies, all incoming and outgoing transactions are processed in Euros (EUR) as standard currency.
-To process a payout, you must provide us with a business bank account that is able to receive funds in the requested currency.
+All incoming and outgoing transactions are processed in Euros (EUR) as standard currency. It is possible to manually withdraw a payout in other processing currencies too but automatic withdrawal is available only for EUR (more information on automatic & manual withdrawal methods [here](https://docs.multisafepay.com/faq/finance/how-can-i-pay-out-the-funds-on-my-multisafepay-account-)). To process a payout in another currency, you must provide us with a business bank account that is able to receive funds in the requested currency.
+
+### Add multi-currency business bank account to your MultiSafepay Control
 
 When you request an extra currency to be added to your MultiSafepay Control, you need to follow a few steps in order to ensure transactions can be processed in that particular currency and that no currency conversion is needed:
 
-1. Add a business bank account in your [MultiSafepay Control](https://merchant.multisafepay.com/) that is able to receive the currency.
-This can be done through _Finance -> Balance -> Add bank account_
+1. Add a business bank account in your MultiSafepay Control that is able to receive the currency. This can be done through Finance -> Balance -> Add bank account
 
 2. Process a bank transfer in the requested currency to confirm the business bank account
 
-3. Once the above has been processed, you can inform the Support department <support@multisafepay.com> to complete the verification procedure. The Risk Team will finalize your request.
+3. The Risk Team will finalize your request.
 
-## Payout
+### Adjust payout settings in MultiSafepay Control
 
-* Within your MultiSafepay Control, you will have the possibility to convert the currency to Euros (EUR). This can be done through _Finance -> Currency Conversion_. Take into account the exchange rate and/or costs involved
+* Within your [MultiSafepay Control](https://merchant.multisafepay.com), you will have the possibility to convert the currency to Euros (EUR). This can be done through Finance -> Currency Conversion. Take into account the exchange rate and/or costs involved
 
 * If a business bank account that can receive the currency as is has been added to your MultiSafepay Control (and approved by our Risk Team), a payout can be processed without currency conversion.
 
-_For example, the currency dollar (USD) is paid out in dollar (USD) and received on your business bank account in the dollars (USD) as well._
+For example, the currency dollar (USD) is paid out in dollar (USD) and received on your business bank account in the dollars (USD) as well.
 
-
-For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to asisst you via <support@multisafepay.com>
+For any inquiries on currencies and the full functionality of your MultiSafepay Control, our Support team is happy to assist you via <support@multisafepay.com>

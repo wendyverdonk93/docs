@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Paysafecard.svg'
 short_description: 'Allow customers to pay for purchases without providing any sensitive financial information.'
+aliases:
+    - /support-tab/magento2/payment-methods/paysafecard
 ---

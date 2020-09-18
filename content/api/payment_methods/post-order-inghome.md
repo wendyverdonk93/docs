@@ -1,6 +1,6 @@
 ---
 weight: 317
-meta_title: "API - Create ING Home'Pay order - Developers MultiSafepay"
+meta_title: "API - Create an ING Home'Pay order - Developers MultiSafepay"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 {{< code-block >}}
@@ -23,7 +23,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "close_window": ""
     },
     "customer": {
-        "locale": "be_BE"
+        "locale": "nl_BE"
     }
 }
 ```
@@ -48,15 +48,14 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "fastcheckout": "NO",
     "modified": "2019-03-11T14:35:13",
     "customer": {
-      "locale": "be_BE",
+      "locale": "nl_BE",
       "first_name": "Testperson-nl",
       "last_name": "Approved",
       "address1": "Kraanspoor",
       "house_number": "39C",
-      "zip_code": "1033 SC",
+      "zip_code": "1033SC",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": "Netherlands",
       "phone1": "0208500500",
       "email": "example@multisafepay.com",
     },
@@ -116,45 +115,107 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< description >}}
 ## ING Home'Pay
-### Direct
+### Direct - ING Home'Pay
 
-Creates an ING Home'Pay [Direct](/faq/api/difference-between-direct-and-redirect/) order.
+Creates an ING Home'Pay [Direct](/faq/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                    | Type     | Description                                                                                |
-|------------------------------|----------|--------------------------------------------------------------------------------------------|
-type                           | string | Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
-gateway                        | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: INGHOME. |
-order_id                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                      |
-currency                       | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
-amount                         | integer | The amount (in cents) that the customer needs to pay.                                      |
-description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
-payment_options                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
-customer                       | object | Contains personal information about the customer.                                          |
+  
+**Parameters**
 
+----------------
+__type__ | string
 
-Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay/) on our documentation page.
+Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink.  
 
-### Redirect
-Creates an ING Home'Pay [Redirect](/faq/api/difference-between-direct-and-redirect/) order.
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: INGHOME.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+
+----------------    
+__customer__ | object
+
+Contains personal information about the customer. 
+
+----------------  
+
+Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay) on our documentation page.
+
+### Redirect - ING Home'Pay
+Creates an ING Home'Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
-* All parameters shown are required field(s):
+* All parameters shown are required field(s)
 
-| Parameter                    | Type     | Description                                                                                |
-|------------------------------|----------|--------------------------------------------------------------------------------------------|
-type                           | string | Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink. |
-gateway                        | string | The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: INGHOME. |
-order_id                       | integer / string | The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.                                      |
-currency                       | string | The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. |
-amount                         | integer | The amount (in cents) that the customer needs to pay.                                      |
-description                    | string | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. |
-payment_options                | object | Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work/)                                |
+**Parameters**
+
+----------------
+__type__ | string
+
+Specifies the payment flow for the checkout process. Options: direct, redirect, paymentlink.  
+
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a [gateway request](#retrieve-all-gateways) Options: INGHOME.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string.
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+
+----------------    
 
 
-Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay/) on our documentation page.
+Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay) on our documentation page.
 {{< /description >}}

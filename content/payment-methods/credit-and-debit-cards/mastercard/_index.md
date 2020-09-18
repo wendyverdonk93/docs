@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Mastercard.svg' 
 short_description: 'Accept Mastercard credit card payments from consumers worldwide.'
+aliases:
+    - /support-tab/magento2/payment-methods/mastercard
 ---

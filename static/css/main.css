@@ -1404,3 +1404,74 @@ h6 {
     background: #fff;
 }
 
+
+@media (min-width: 768px) {
+    #addsearch-results .addsearch-result-item-sub-active div,
+    #addsearch-results .addsearch-result-item-sub div, #addsearch-results .addsearch-result-item-sub {
+      width: 776px !important;
+    }
+    
+    #addsearch-results-mid{
+        background: none !important;
+    }
+    #addsearch-nohits {
+        width: 775px !important;
+    }
+    /* HIDE SCREEN CAPTURES - ONLY USE FOR SEARCH WIDGET */
+    #addsearch-results #addsearch-pic{
+     display: none !important;
+    }
+    #addsearch-results.addsearch-d #addsearch-results-right{
+     width: 0;
+     margin-left: 774px;
+
+    }
+    #addsearch-results.addsearch-d {
+      width: 776px !important
+      
+    }
+    #addsearch-results .addsearch-result-item-sub div{
+        width: 716px !important;
+        padding: 0 30px !important;
+    }
+}
+
+.submit-community{
+    background: url('../img/submit-comm.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 4% 0;
+    -webkit-mask-image: -webkit-linear-gradient(left, #000000 5%,#ffffff 30%,#000000 100%);
+    color: #fff;
+
+}
+
+.submit-community h1{
+    color: #fff;
+}
+
+.submit-community{
+    margin: 2% 0;
+}
+
+.submit-community .col-md-11{
+    padding-left: 0;
+    padding-top: 0.5%;
+}
+
+@media (max-width: 767px) {
+    #community-add{
+        width: 50px;
+
+    }
+    .submit-community{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-position: 30% 50%;
+    }
+     .submit-community .col-md-11{
+        padding-left: inherit;
+     }
+}
+

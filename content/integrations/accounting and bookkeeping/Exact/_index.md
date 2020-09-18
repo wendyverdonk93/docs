@@ -23,7 +23,7 @@ Exact supports one export format:
 
 ### Exact Import MultiSafepay
 
-If you would like to import a MultiSafapay accountant export, we would like to kindly ask you to follow the set of instructions below:
+If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to follow the set of instructions below:
 
 1. Log into your [Exact Online account](https://start.exactonline.nl/docs/Login.aspx?ReturnUrl=%2fdocs%2fMenuPortal.aspx#_ga=2.221698527.659438293.1581330144-1715983246.1581330144) and go to _Financial_ -> _Banking & Cash_ -> _Statements_ -> _Import_
 2. Click _Choose File_ and select the MT940 file you want to upload
@@ -43,12 +43,12 @@ MultiSafepay offers two methods to export Accountant reports:
 
 #### 1. _Automatic_
 
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports/)
+If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports)
 
 
 #### 2. _Manual_
 
-It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export/) in your [MultiSafepay Control](https://merchant.multisafepay.com/) manually. Our documentation will assist you in this.
+It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
 
 
 If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.

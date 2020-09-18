@@ -8,8 +8,6 @@ aliases:
 
 ### Introduction
 
-This manual helps merchants to process MultiSafepay payments as quickly as possible from a Magento 2 webshop. For some steps in this manual, assistance from your technical partner may be required.
-
 The installation can be carried out in three ways:
 
 + SFTP
@@ -55,7 +53,7 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 
 3. MultiSafepay Gift cards  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
+Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings.  
@@ -63,3 +61,15 @@ More information about the Fastcheckout can be found on https://www.multisafepay
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+
+### 5. Updates 
+Run the following commands via the CLI:
+```
+composer update multisafepay/magento2msp 
+php bin/magento setup:upgrade
+```
+
+Depending on your webserver/webshop configuration you also need to check:
+- check the rights on files correctly. Our files can be found at vendor/multisafepay/magento2msp
+- Empty static files when running in production mode
+- Flush cache.

@@ -61,18 +61,45 @@ For a number of scenarios, it can be useful for our merchants to verify an accou
 
 The _amount_ parameter should be set to 0.
 
-| Parameter                      | Type      | Description |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-|  type	|  string |    Specifies the payment flow for the checkout process. Options: redirect, direct, checkout, paymentlink. | 
-|  order_id	|  string \| integer	|    The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. (max. 50 chars).|
-| gateway  |	string  |	The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. | 
-| currency   |	string	 |    The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. | 
-| amount | integer |   The amount (in cents) that the customer needs to pay.| 
-| description   |	string	|    A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this. | 
-|  payment_options 	|   object	 | 
-| customer	| object	 | 
+**Parameters**
 
+----------------
+__type__ | string
 
+Specifies the payment flow for the checkout process. Options: redirect, direct, checkout, paymentlink.
 
-Read more about [Zero Authorization](/tools/zero-authorization/) on our documentation page.
+----------------
+__gateway__ | string
+
+The unique gateway id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request.
+
+----------------
+__order_id__ | integer / string
+
+The unique identifier from your system for the order. If the values are only numbers the type will be integer, otherwise it will be string. Required. (max. 50 chars).
+
+----------------
+__currency__ | string
+
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 
+
+----------------
+__amount__ | integer
+
+The amount (in cents) that the customer needs to pay.
+
+----------------
+__description__ | string
+
+A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+----------------
+__payment_options__ | object
+
+----------------
+__customer__ | object
+
+----------------
+
+Read more about [Zero Authorization](/tools/zero-authorization) on our documentation page.
 {{% /description %}}

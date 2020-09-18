@@ -4,7 +4,7 @@ meta_title: "Magento 1 plugin manual - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 ---
 
-{{< alert-notice >}} Magento 1 will reach end of life soon. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1 in the future. Read more in our article [_Magento 1 - the final weeks_](https://www.multisafepay.com/blog/magento-1-the-final-weeks/){{< /alert-notice >}}
+{{< alert-notice >}} Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1 in the future. Please read our [blog](https://bit.ly/2YX2LGL) for more information and the actions to take.{{< /alert-notice >}}
 
 
 ### Introduction
@@ -43,10 +43,10 @@ Be sure that you have the selected payment methods active in your [MultiSafepay 
 
 3. MultiSafepay Gift Cards  
 This page contains the configuration options for all gift card supported by MultiSafepay.
-gift card need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards/)
+gift card need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings. More information about [Fastcheckout](https://www.multisafepay.com/fastcheckout-payments) can be found on our official website.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <magento1@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

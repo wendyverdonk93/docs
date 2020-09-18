@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Dotpay.svg' 
 short_description: 'A popular payment method in Poland allowing customers to pay through their own Polish bank.'
+aliases:
+    - /support-tab/magento2/payment-methods/dotpay
 ---

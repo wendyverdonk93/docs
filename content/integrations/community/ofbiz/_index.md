@@ -4,6 +4,6 @@ weight: 100
 title_short: "Apache OFBiz"
 redirect_show_info:
     url: "https://github.com/ORRTIZ/omultisafepay"
-    text: "View on Github"
+    text: "View on GitHub"
 description_short: "3rd party FINTECH integration (MultiSafepay™) component for ORRTIZ™ BMS and Apache OFBiz."
 ---

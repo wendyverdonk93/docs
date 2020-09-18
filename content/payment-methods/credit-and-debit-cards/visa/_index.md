@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/VISA.svg' 
 short_description: 'Increase conversions by accepting Visa payments with a worldwide reach.'
+aliases:
+    - /support-tab/magento2/payment-methods/visa
 ---

@@ -6,6 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: '/svgs/Payment_methods.svg'
 short_description: 'Learn more about all the payment methods supported by MultiSafepay.'
 weight: 40
+aliases:
+    - /support-tab/magento2/payment-methods
 ---
-
-

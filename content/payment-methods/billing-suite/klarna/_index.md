@@ -6,4 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: 'paymentdetail'
 logo: '/logo/Payment_methods/Klarna.svg' 
 short_description: 'A popular post-payment solution available for webshops based in Austria, Germany and the Netherlands.'
+aliases:
+    - /support-tab/magento2/payment-methods/klarna
 ---
