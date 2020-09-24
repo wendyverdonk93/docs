@@ -32,7 +32,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Initialized    | Initialized | A refund has been requested. | 
+| Initialized/Reserved	    | Initialized/Reserved	 | A refund has been requested. The status will be first 'Initialized', soon after, it will be 'Reserved'. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
 
 The full API reference for iDEAL can be found [here](/api/#ideal)
