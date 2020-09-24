@@ -8,7 +8,9 @@ Yes you can refund orders. By default you can create a refund in your [MultiSafe
 
 To allow automatic refunds you first have to enable this setting. Login to [lightspeed.multisafepay.com](https://lightspeed.multisafepay.com/settings), scroll down to "Enable Refunds" or click "Enable refunds" in the sidebar and here you can enable automatic refunds. 
 
-Partial refunds are temporary unavailable. A full refund will however be created when an order is cancelled.
+On 24 September 2020 refunds have been re-enabled. Creating credit notes should automaticly create a refund in the MultiSafepay. 
+
+Custom refund amounts are not supported for after delivery payment methods (Klarna, Afterpay, Pay after Delivery).
 
 Automatic refunds only work when the setting is activated and when the transaction is know by MultiSafepay.
 
