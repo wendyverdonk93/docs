@@ -14,3 +14,25 @@ MultiSafepay provides two versions of payment pages:
 With the latter, you can use all new payment methods and use our editor for your own styling.
 {{< youtube r1I6pthxlGo >}}
 
+
+### Payment methods 
+
+The following payment methods are only supported in ConnectV2:
+
+* AfterPay
+* Alipay
+* Apple Pay
+* Belfius
+* CBC
+* Direct Bank Transfer
+* EPS
+* iDEALQR
+* in3
+* ING Home'Pay
+* JCB
+* KBC
+* Klarna
+* PaySafecard
+* Santander
+* SOFORT Banking
+* Trustly
