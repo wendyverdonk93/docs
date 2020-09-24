@@ -3,7 +3,7 @@ title : "Submit a community integration"
 meta_title: "Submit a community integration"
 layout: 'paymentdetails'
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
-weight: 100
+weight: 102
 title_short: "Submit a community integration"
 description_short: "Submit and promote your plugin and become part of the MultiSafepay community."
 hideMenu: '.'
