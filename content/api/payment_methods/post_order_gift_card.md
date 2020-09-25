@@ -143,8 +143,6 @@ The gateway names of the standard gift cards MultiSafepay offers
 | Fashiongiftcard                | FASHIONGFT                  |   |
 | Fietsenbon                     | FIETSENBON                  |   |
 | Gezondheidsbon                 | GEZONDHEID                  |   |
-| Givacard                       | Branded gift cards will provide a gateway name upon release of the personilized gift card by our development team.                 |   |          
-| Goodcard                       | GOODCARD                    |   |
 | Nationale bioscoopbon          | NATNLBIOSC                  |   | 
 | Nationaletuinbon               | NATNLETUIN                  |   |
 | Parfumcadeaukaart              | PARFUMCADE                  |   | 

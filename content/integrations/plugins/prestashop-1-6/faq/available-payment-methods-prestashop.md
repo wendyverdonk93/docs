@@ -52,7 +52,6 @@ __Prepaid cards__
 + Fashion gift card
 + Fietsenbon
 + Gezondheidsbon
-+ Givacard
 + Parfumcadeaukaart
 + [Paysafecard](/payment-methods/paysafecard)
 + Sport en Fit

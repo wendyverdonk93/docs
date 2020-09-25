@@ -55,8 +55,6 @@ __Prepaid cards__
 + Fashiongiftcard
 + Fietsenbon
 + Gezondheidsbon
-+ GivaCard
-+ Good Card
 + Nationale Tuinbon
 + Parfum Cadeaukaart
 + Paysafecard
