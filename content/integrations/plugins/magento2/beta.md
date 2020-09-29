@@ -9,10 +9,10 @@ We are proud to announce that we have been working on a brand new Magento 2 plug
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
 It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.
 
-**Currently this module has not yet been proven to be fully stable. 
+**Currently this plugin has not yet been proven to be fully stable. 
 We recommend not using this in a production environment, until it has been thoroughly tested.**
 
-**It is possible to have both the old and the new plugin installed at the same time. To avoid confusion however, we recommend completely uninstalling the old module first, before installing the new one.**
+**It is possible to have both the old and the new plugin installed at the same time. To avoid confusion however, we recommend completely uninstalling the old plugin first, before installing the new one.**
 
 ### 1. Features
 There are a lot of new features, but there are also some features that are not available as of yet.
@@ -28,7 +28,7 @@ Some of the new features include:
 * Improved translations
 * Improved error handling and event & error logs
 * Support information available in the Magento backend
-* Clear explanation of each payment method with links to DOCS
+* Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
 
@@ -38,7 +38,7 @@ Some of the new features include:
 - PHP 7.2+ (PHP 7.3 or higher recommended)
 
 ### 3. Modules
-The new MultiSafepay Magento 2 plugin consists of several modules:
+The new MultiSafepay Magento 2 plugin consists of several Magento modules:
 
 * [multisafepay-magento2-core](https://github.com/MultiSafepay/magento2-core) (Provides core functionalities)
 * [multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend) (Enables use of the payment gateways in the Magento checkout)
