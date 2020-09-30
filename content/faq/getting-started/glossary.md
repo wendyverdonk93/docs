@@ -21,6 +21,10 @@ A set of clearly defined rules and tools in order to allow specified communicati
 ### Customer
 An entity (individual or organization) that makes use of another entity's product or service offering. In our terminology, a customer is the beneficiary of goods and services provided by merchants that use MultiSafepay's payment services.
 
+### Closed-loop gift card
+
+A gift card which can only be used at a single merchant/vendor.
+
 ### Issuer
 The company that provided the card. Usually this is the customer's bank. For many payment methods, the issuer guarantees the funding of the transaction.
 
@@ -32,6 +36,10 @@ The selling party of goods and services to the customer via ecommerce webshop or
 
 ### MultiSafepay Control 
 The environment where merchants can see their transactions and settings from within their MultiSafepay Account. This environment also allows the merchant to update and refund orders as well as update their company's information. The MultiSafepay Control can be reached at: https://merchant.multisafepay.com
+
+### Open-loop gift card
+
+An Open-loop gift card is one that can be used for multiple merchants/vendors e.g. restaurants, hotels
 
 ### Payment Method
 The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods)
