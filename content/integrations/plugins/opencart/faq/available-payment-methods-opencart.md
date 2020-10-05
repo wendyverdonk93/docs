@@ -30,6 +30,8 @@ __Banks__
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
++ [VPAY](/payment-methods/credit-and-debit-cards/vpay/)
+
 
 __Billing suite__
 

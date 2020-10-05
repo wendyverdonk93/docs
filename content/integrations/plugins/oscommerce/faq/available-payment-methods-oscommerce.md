@@ -23,6 +23,8 @@ __Banks__
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/maestro)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
++ [VPAY](/payment-methods/credit-and-debit-cards/vpay/)
+
 
 __Billing suite__
 
