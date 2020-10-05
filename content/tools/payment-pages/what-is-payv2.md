@@ -24,7 +24,7 @@ The following payment methods are only supported in ConnectV2:
 * Apple Pay
 * Belfius
 * CBC
-* Direct Bank Transfer
+* Request to Pay
 * EPS
 * iDEALQR
 * in3
