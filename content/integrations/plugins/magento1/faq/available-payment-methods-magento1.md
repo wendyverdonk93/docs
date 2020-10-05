@@ -28,6 +28,8 @@ __Banks__
 + [Maestro](/payment-methods/maestro)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
++ [VPAY](/payment-methods/credit-and-debit-cards/vpay/)
+
 
 __Billing suite__
 
