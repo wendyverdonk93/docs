@@ -13,7 +13,7 @@ Yes, it is possible to refund orders or process a credit memo from within the Ma
 
 Further information on issuing a refund available in the [Magento 1](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) user guide. 
 
-> Issuing a refund for AfterPay, Klarna, Pay After Delivery, Betaalplan or E-Invoicing in the Magento 1 ecommerce platform is possible. However, this can only be processed by selecting an item. It is not possible to credit an amount from the Magento 1 backend.
+> Issuing a refund for AfterPay, Klarna, Pay After Delivery, Betaal per Maand or E-Invoicing in the Magento 1 ecommerce platform is possible. However, this can only be processed by selecting an item. It is not possible to credit an amount from the Magento 1 backend.
 
 **Warning: If an amount is specified instead of an item selected, the entire order will be refunded.**
  
