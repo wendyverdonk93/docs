@@ -173,7 +173,7 @@ MultiSafepay provides a test platform for in3 transactions. By entering the foll
 | Approved             | 01-01-1999 | 1234AB | 1 |
 | Declined              | 01-01-2000 | 1111AB | 1 |
 
-_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and Pilot pahse of its release._
+_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and pilot phase of its release._
 
 ## iDEAL
 
