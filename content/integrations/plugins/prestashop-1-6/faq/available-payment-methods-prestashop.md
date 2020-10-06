@@ -27,7 +27,7 @@ __Banks__
 + [CBC](/payment-methods/banks/cbc)
 + [Maestro](/payment-methods/maestro)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
-+ [VPAY](/payment-methods/credit-and-debit-cards/vpay/)
++ [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
 
 
 

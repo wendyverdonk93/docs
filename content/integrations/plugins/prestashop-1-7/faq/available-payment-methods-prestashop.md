@@ -28,7 +28,7 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 + [TrustPay](/payment-methods/banks/trustpay)
-+ [VPAY](/payment-methods/credit-and-debit-cards/vpay/)
++ [V PAY](/payment-methods/credit-and-debit-cards/vpay/)
 
 
 __Billing suite__
