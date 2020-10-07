@@ -6,8 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 ## Activate
 
-_Currently, Request to Pay is in the piloting stage of release. If you would like to be part of this pilot phase, please follow the instructions below._
-
 With MultiSafepay, Request to Pay is an additional (non-standard) payment method.
 
 You can submit the application to activate the payment method through one of our account managers at <sales@multisafepay.com>
