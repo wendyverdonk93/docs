@@ -23,6 +23,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 The days or seconds active indicates the lifetime of a payment link.
 
+* If seconds_active is sent in the API request and larger than 0, then seconds_active will be used
+* If days_active is sent in the API request then days_active is used
+* If nothing is sent, then 30 days will be set by default
+* If both seconds_active and days_active are sent in the API request, then seconds_active is used if the value is larger than 0.
+
 The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link)
 
 **Parameters**
