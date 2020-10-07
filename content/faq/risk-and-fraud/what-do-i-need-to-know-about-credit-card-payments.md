@@ -22,7 +22,7 @@ To activate the payment methods Visa and Mastercard we would like to receive the
 When approved by our Risk Team, the payment methods Visa and Mastercard will be enabled for your MultiSafepay Control.
 
 ## Security
-Payment service providers and businesses handling credit card data must abide by the PCI Data Security Standards. These standards are designed to protect customers and merchants by requiring the use of extensive security protocols and data management practices. MultiSafepay is PCI compliant and merchants can use MultiSafepay Payment pages to accept credit card payments without being PCI compliant themselves.
+Payment service providers and businesses handling credit card data must abide by the PCI Data Security Standards. These standards are designed to protect customers and merchants by requiring the use of extensive security protocols and data management practices. MultiSafepay is PCI compliant and merchants can use MultiSafepay payment pages to accept credit card payments without being PCI compliant themselves.
 
 ## Chargebacks
 Customers using credit card as payment method have the right to initiate a chargeback. A chargeback is a forcibly initiated reversal of funds.
