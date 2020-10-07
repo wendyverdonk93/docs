@@ -10,7 +10,7 @@ The standard recurring payment process allows you to easily charge your customer
 
 The standard process is as follows:
 
-1. The customer creates the original transaction by processing the first payment with a credit card as payment method (Visa, Mastercard or American Express). This is done on the website by selecting a product and/or service, and by finalizing the credit card payment
+1. The customer creates the original transaction by processing the first payment with a credit card as payment method (iDEAL, SOFORT Banking, Bancontact, SEPA Direct Debit, Visa, Mastercard or American Express). This is done on the website by selecting a product and/or service, and by finalizing the credit card payment
 
 2. The result of a successful payment is the receipt of the recurring_id in the order details of a successful transaction. Retrieve the order details of a transaction through a _GET request_. For further information on how to retrieve an order available in our [API documentation](/api/#retrieve-an-order)
 
