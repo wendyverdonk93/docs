@@ -15,6 +15,7 @@ A new withdraw option has been added to the scheduler whereby Saturday, Sunday a
 ### Payment reference
 The payment reference is adjustable. 
 By default the setup for payment reference is:
+
 * Merchant ID 
 * Transaction ID 
 * MultiSafepay Payout 
