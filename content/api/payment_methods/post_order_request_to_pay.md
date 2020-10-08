@@ -136,6 +136,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## Request to Pay
 
+### Redirect - Request to Pay
+
+
 Creates a Request to Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
