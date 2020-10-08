@@ -11,3 +11,12 @@ The auto-withdrawal feature allows you to add fund withdrawal profiles in other 
 This can be accessed by navigating to your Dashboard in your [MultiSafepay Control](https://merchant.multisafepay.com/). Click on _Withdraw funds_ on the right hand side of the page and select _Add new_ under Automatic withdrawals.
 
 A new withdraw option has been added to the scheduler whereby Saturday, Sunday and the last day of the month can be selected.
+
+### Payment reference
+The payment reference is adjustable. 
+By default the setup for payment reference is:
+* Merchant ID 
+* Transaction ID 
+* MultiSafepay Payout 
+* Merchant ID 
+* Date
