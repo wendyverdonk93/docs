@@ -1,9 +1,9 @@
 ---
-title : "MultiSafepay Magento 2 installation & configuration manual"
-meta_title: "Magento 2 plugin manual - MultiSafepay Documentation Center"
+title : "MultiSafepay Odoo installation & configuration manual"
+meta_title: "Odoo plugin manual - MultiSafepay Documentation Center"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
 aliases:
-    - /support-tab/magento2/manual
+    - /support-tab/odoo/manual
 ---
 
 ### 1. Requirements
@@ -14,7 +14,7 @@ aliases:
 1. Download ZIP archive with module
 2. Unpack the content of the .ZIP file and add _payment_multisafepay_official_ folder under your custom apps in your Odoo server
    (`/mnt/extra-addons/`)
-3. Install the required Python dependencies.
+3. Install the required Python dependencies
     ```shell
     pip3 install -r requirements.txt
     ```
@@ -27,7 +27,7 @@ aliases:
 5.  Activate developer mode at Odoo platform
 6.  Navigate to Apps menu and click _Update Apps List_
 7.  Search and open MultiSafepay payments module (payment_multisafepay_official)
-8.  Click _Install_
+8.  Click _Install_.
 
 
 ### 3. Configuration
@@ -55,7 +55,7 @@ You have installed and configured the plugin successfully. If you have any quest
 ### 5. Updates 
 1.  Navigate to _Apps_ menu
 2.  Search and open _MultiSafepay payments_ module
-3.  Click _Upgrade_
+3.  Click _Upgrade_.
 
 
 
