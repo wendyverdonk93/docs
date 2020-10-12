@@ -40,6 +40,8 @@ The full API reference for Giropay can be found [here](/api/#giropay)
 ### Product rules
 Some rules may apply to certain payment methods. For Giropay, the following rules apply:
 
+* Giropay is only available in Germany
+
 * Refunding more than the stated amount of the original transaction is possible with Giropay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Giropay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
