@@ -23,7 +23,8 @@ For every transaction, a reservation number and an invoice number will be genera
 
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
-All questions related to Klarna orders and transactions should be communicated directly to Klarna via <verkoop@klarna.com>
+All consumer related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service/)
+If you are a merchant, please contact <integration@multisafepay.com>
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
