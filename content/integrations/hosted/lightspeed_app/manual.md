@@ -32,6 +32,13 @@ Follow the following instructions to install the MultiSafepay Lightspeed app:
 9. Complete the Signup page and click on _Create Account and continue_
 10. Fill in your [MultiSafepay API key](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key), select the corresponding environment (_test/ live_) and then click the _Register Account and continue_ button.
 
+### 2. Disabling the old Lightspeed integration
+
+When you have successfully migrated to the new Lightspeed app, you will be able to disable the old integration. You can do this by following these instructions:
+
+1. Login into your backend and navigate to _Settings_ -> _Payment Providers_ -> _MultiSafepay_
+2. On the top of the screen you can disable this payment provider.
+
 __Congratulations__
 
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
