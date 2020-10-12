@@ -52,7 +52,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 
 | Card number           | Status    | Description              |
 | --------------------- | --------- | ------------------------ |
-| 67034500054610005 | Completed | Transaction is Completed (3D enrolled) |
+| 67034500054620008 | Completed | Transaction is Completed (3D enrolled) |
 | 67034500054610009 | Declined  | Transaction is Declined (card needs to be 3D enrolled) |
 | 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
