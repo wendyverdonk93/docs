@@ -17,7 +17,6 @@ The following gift cards are offered as a standard at MultiSafepay:
 * Fashiongiftcard
 * Fietsenbon 
 * Gezondheidsbon 
-* Klantkaart.nl
 * Nationale Tuinbon
 * Parfumcadeaukaart 
 * Podium
