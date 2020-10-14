@@ -127,7 +127,7 @@ Release date: June 15th, 2018
 ### Added
 + PLGOPNS-72: Add support for Alipay/ING Home'Pay/Belfius/KBC
 + PLGOPNS-80: Add support for AfterPay
-+ PLGOPNS-78: Add support for Santander Betaalplan
++ PLGOPNS-78: Add support for Santander Betaal per Maand
 + PLGOPNS-79: Add support for Trustly
 + PLGOPNS-73: Add VVV-Cadeaukaart as a gift card
 

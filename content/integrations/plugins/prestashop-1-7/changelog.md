@@ -96,7 +96,7 @@ Release date: April 25th, 2019
 Release date: May 25th, 2018
 
 ### Improvements
-+ PLGPRSS-312: Add support for Santander Betaalplan payment method
++ PLGPRSS-312: Add support for Santander Betaal per Maand payment method
 + PLGPRSS-313: Add support for AfterPay payment method
 + PLGPRSS-314: Add support for Trustly payment method
 

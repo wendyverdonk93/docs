@@ -24,7 +24,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 
 * [Klarna](/payment-methods/klarna)
 * [AfterPay](/payment-methods/afterpay)
-* [Betaalplan](/payment-methods/betaalplan)
+* [Betaal per Maand](/payment-methods/betaalpermaand)
 * [Pay After Delivery](/payment-methods/pay-after-delivery)
 * [Bank transfer](/payment-methods/bank-transfer)
 * [Direct Debit](/payment-methods/direct-debit)

@@ -7,7 +7,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + American Express
 + Bancontact
 + Bank transfer
-+ Betaalplan
++ Betaal per Maand
 + Belfius
 + Giropay
 + iDEAL

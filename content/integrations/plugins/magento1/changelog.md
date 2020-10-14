@@ -72,7 +72,7 @@ Release date: Jun. 15th, 2018
 Release date: May. 25th, 2018
 
 ### Added
-+ PLGMAGONE-378: Add support for Santander Betaalplan
++ PLGMAGONE-378: Add support for Santander Betaal per Maand
 + PLGMAGONE-379: Add support for Afterpay
 + PLGMAGONE-380: Add support for Trustly
 + PLGMAGONE-381: Add Moneyou iDEAL issuer logo

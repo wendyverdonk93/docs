@@ -26,7 +26,7 @@ Release date: Apr 24th, 2019
 
 ### Added
 + PLGXCTS-40: Added Trustly direct and redirect payment method.
-+ PLGXCTS-45: Added Afterpay, Alipay, iDEAL QR and Santander Betaalplan as payment methods.
++ PLGXCTS-45: Added Afterpay, Alipay, iDEAL QR and Santander Betaal per Maand as payment methods.
 + PLGXCTS-35: Added shopping cart data to all payment gateways.
 + PLGXCTS-22: Added Belfius, KBC and ING Home'Pay as payment methods.
 

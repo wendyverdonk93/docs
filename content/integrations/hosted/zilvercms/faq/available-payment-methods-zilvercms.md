@@ -29,7 +29,7 @@ __Banks__
 
 __Billing suite__
 
-+ [Betaalplan](/payment-methods/billing-suite/betaalplan)
++ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 
 __Wallet__ 
 
