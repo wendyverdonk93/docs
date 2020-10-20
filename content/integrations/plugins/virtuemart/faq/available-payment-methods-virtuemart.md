@@ -7,7 +7,7 @@ layout: "faqdetail"
 __Credit cards__
 
 + [Mastercard](/payment-methods/mastercard)
-+ [Visa](/payment-methods/visa) (including [Nexi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards))
++ [Visa](/payment-methods/visa) (including Nexi, Cartes Bancaires & Dankort)
 
 __Banks__
 

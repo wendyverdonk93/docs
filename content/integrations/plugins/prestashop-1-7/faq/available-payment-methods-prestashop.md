@@ -8,7 +8,7 @@ __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Nexi, Cartes Bancaires & Dankort](/payment-methods/credit-and-debit-cards/branded-credit-cards))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including Nexi, Cartes Bancaires & Dankort)
 
 __Banks__
 
