@@ -37,8 +37,7 @@ In this manual we describe the SFTP upload method.
 ### 3. Configuration
 1. Login into the backend of your webshop and navigate to _System_ -> _Configuration_ -> _MultiSafepay x.x.x_ -> _Connect Settings_.
 This page contains all main settings and is used for all gateways and gift card.
-{{% account_info %}}
-Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
+Information on where to find your API key can be found on our [API key page](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key/)
 
 2. Navigate to _System_ -> _Configuration_ -> _MultiSafepay x.x.x_ -> _Connect MultiSafepay Gateways_.
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
