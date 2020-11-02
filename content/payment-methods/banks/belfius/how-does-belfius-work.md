@@ -44,6 +44,8 @@ Please note that successful Belfius payments that are not finalized by pressing 
 ### Product rules
 Some rules may apply to certain payment methods. For Belfius, the following rules apply:
 
+* A Belfius transaction will automatically expire after 5 days
+
 * Refunding more than the stated amount of the original transaction is possible with Belfius. More information available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page
 
 * Successful Belfius transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund
