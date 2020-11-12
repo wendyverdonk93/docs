@@ -1,10 +1,11 @@
 ---
 title: "Snelstart"
-weight: 120
+weight: 20
 meta_title: "Snelstart - MultiSafepay Support"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
-logo: '/logo/snelstart.png'
+logo: '/logo/Snelstart.svg'
 layout: 'single'
+read_more: "."
 title_short: "Snelstart"
 short_description: "Read about how you can generate a MultiSafepay export and import to your Snelstart platform"
 description_short: "Generate MultiSafepay Accountant Export Reports easily and import to your Snelstart system."
