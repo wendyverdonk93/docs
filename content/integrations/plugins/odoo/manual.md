@@ -56,7 +56,3 @@ You have installed and configured the plugin successfully. If you have any quest
 1.  Navigate to _Apps_ menu
 2.  Search and open _MultiSafepay payments_ module
 3.  Click _Upgrade_.
-
-
-
-
