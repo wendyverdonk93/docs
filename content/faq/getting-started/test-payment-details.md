@@ -234,13 +234,6 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 | ------------------- | --------- | ------------------------ |
 | 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
 
-## Nexi
-MultiSafepay provides the Visa test credentials to test the payment method Nexi.
-
-Nexi is shown as a payment option on the payment page of MultiSafepay only after:
-
-1. The Visa gateway is enabled; and
-2. The locale is set to it_IT (Italy) in the transaction call received by MultiSafepay.
 
 ## Pay After Delivery (Betaal na Ontvangst)
 

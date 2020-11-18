@@ -24,7 +24,7 @@ Upon adding Cartes Bancaires as payment method on the checkout page, you can dow
 ### How to refund a Cartes Bancaires transaction?
 Cartes Bancaires (Visa) transactions can be refunded to the customer within 180 days.
 
-Please follow these steps to refund a Nexi transaction:
+Please follow these steps to refund a Cartes Bancaires transaction:
 
 1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction -> transaction_
