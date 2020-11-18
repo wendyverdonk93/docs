@@ -10,5 +10,5 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + Mastercard
 + SOFORT Banking
 + Trustly
-+ Visa (including Nexi, Carte Bleue & Dankort)
++ Visa (including Carte Bleue & Dankort)
 + American Express
