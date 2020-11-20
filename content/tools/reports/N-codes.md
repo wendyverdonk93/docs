@@ -24,7 +24,6 @@ Below you can find an overview of the N-Codes and their meaning.
 | N081   | [BANKTRANS](/payment-methods/bank-transfer)            |   |
 | N085   | [AMEX](/payment-methods/credit-and-debit-cards/american-express)                   |   |
 | N086   | [KLARNA](/payment-methods/klarna)                      |   |
-| N087   | [NEXI](/payment-methods/branded-credit-cards)       |   |
 | N088   | [PAYAFTER](/payment-methods/pay-after-delivery)        |   |
 | N089   | [SANTANDER](/payment-methods/betaalpermaand)               |   |
 | N092   | [DIRECTBANK](/payment-methods/sofort-banking)          |   |
