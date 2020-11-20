@@ -149,9 +149,18 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 ## Gift cards
 
-Currently no test data available for the payment method gift cards.
+MultiSafepay provides a test platform currently only for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
 
-When activating a gift card as payment method in a live MultiSafepay Control, the payment method will be tested before release.
+When activating a gift card as payment method in a live MultiSafepay Control, the payment method can be tested before release.
+
+| Balance     | Coupon code    |
+| ------- | --------- |
+| € 100 | 111115 |
+| € 5 | 111112  |
+| No balance | 111110  |
+
+Any other card number will be processed as 'Invalid card number'.
+
 
 ## Giropay / EPS
 
