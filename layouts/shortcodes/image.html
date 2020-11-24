@@ -1,0 +1,3 @@
+<div {{if isset .Params "align"}}align="{{ index .Params "align" }}"{{end}}>
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+</div>
