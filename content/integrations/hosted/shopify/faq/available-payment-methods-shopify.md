@@ -35,3 +35,7 @@ __Wallet__
 __Prepaid cards__ 
 
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
+
+__Billing Suite__
+
++ [in3](/payment-methods/billing-suite/in3)
