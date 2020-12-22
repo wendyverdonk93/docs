@@ -8,7 +8,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ```shell 
 
  "second_chance": {
-   "send_email": false
+   "send_email": true
 },
  ```
 {{< /code-block >}}
