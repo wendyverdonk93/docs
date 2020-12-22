@@ -38,12 +38,38 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
   }
 }
 ```
+> Second Chance 
+
+```shell 
+"second_chance": {
+        "send_email" : true
+    }
+```
 {{< /code-block >}}
 
 {{< description >}}
 ## Generating a payment link
 
 For several scenarios, it can be useful for our merchants to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
+
+### Second Chance
+
+Second Chance is an email reminder that points out to your customers of their attempted (and incomplete) payment(s) and encourages them to finalize the payment(s).
+
+As per GDPR requirements MultiSafepay does not submit emails by default. Please ensure that when enabling this option, there is a documented consent from the receiver for submitting an email related to the respective payment link.
+
+{{< alert-notice >}} Please note: Payment links will no longer send Second Chance emails by default. It is the responsibility of the merchant to include the Second Chance script in the JSON request. See the Second Chance JSON script on the right hand side. {{< /alert-notice >}}
+
+__Optional__
+
+__second_chance__ | object
+
+When __no value is stated__, Second Chance reminders will be sent.
+
+
+__send_email__ | string
+
+Sends a Second Chance reminder in the form of an email to the customer when set to _true_. When set to _false_ or left empty, no email reminder will be sent.
 
 **Parameters**
 
@@ -77,6 +103,8 @@ The amount (in cents) that the customer needs to pay.
 __description__ | string
 
 A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+
+
 
 ----------------
 
