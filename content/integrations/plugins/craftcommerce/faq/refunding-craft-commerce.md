@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: "faqdetail"
 read_more: "."
 ---
-Yes, it is possible to refund orders from within the Craft Commerce admin panel.  
+Yes, it is possible to refund orders both fully and partially from within the Craft Commerce admin panel. Although, currently refunding with the shopping cart is currently not supported.  
 
 In the Craft CMS admin panel, navigate to _Commerce_ -> _Orders_ and select an order.
 Navigate to the _Transactions_ tab and there you see the refund options.

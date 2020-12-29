@@ -5,7 +5,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: "faqdetail"
 read_more: "."
 ---
-Yes, it is possible to refund orders or credit memo from within the Magento 2 backend.  
+Yes, it is possible to refund orders or credit memo from within the Magento 2 backend. The refunds can either be full or partial refunds.
+
+A full refund with the shopping cart can be issued. Partial refunding with shopping cart is available only for certain items. Please note that adjustment refunding for the shopping cart is not supported.
 
 In the Magento backoffice, go to the Invoices tab, click on the invoice that was created by MultiSafepay and then click Credit Memo. Now you see 2 refund buttons:
 * Offline refund: refund request will not be sent to MultiSafepay
