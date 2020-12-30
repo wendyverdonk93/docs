@@ -6,12 +6,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [Visa](/payment-methods/credit-and-debit-cards/mastercard/visa)
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [iDEAL](/payment-methods/ideal)
 + [SOFORT Banking](/payment-methods/sofort-banking)
 + [Bancontact](/payment-methods/bancontact)
-+ [Belfius](/payment-methods/belfius)
-+ [KBC](/payment-methods/kbc)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [Giropay](/payment-methods/giropay)
 + [Maestro](/payment-methods/maestro)
