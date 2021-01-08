@@ -35,7 +35,7 @@ The first time a user logs into MultiSafepay Control after 2FA is enabled, they 
 {{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in MultiSafepay Control app" align="center" caption="The 6-digit token remains visible for 30 seconds">}}
 
 ### Done
-Congratulations, you have successfully enabled and configured 2FA. Your data is now protected by an additional later of security.
+Congratulations, you have successfully enabled and configured 2FA. Your data is now protected by an additional layer of security.
 Please keep in mind that upon every login a newly generated 6-digit token is required.
 
 {{< br >}}
