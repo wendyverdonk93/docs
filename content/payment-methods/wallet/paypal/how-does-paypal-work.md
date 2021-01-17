@@ -17,7 +17,7 @@ The transaction flow shows the different ways a transaction can be processed. Th
 
 Please note that MultiSafepay does not collect the funds for PayPal and thus it will affect the backend of the plugin you are using.
 
-{{< alert-notice >}} Sending an order with PayPal depends on the statuses of an order. Within PayPal, the order status will be sent as _Completed_ and the financial status will be marked as _Initialized_. If the financial status is marked as _Initialized_, the order will not be delivered. Therefore, it is important to mention that the order in your backend has to be marked as _Completed_ when the order status is received as _Completed_ to ensure fulfilment of the order. {{< /alert-notice >}}
+{{< alert-notice >}} Sending an order with PayPal depends on the statuses of an order. Within PayPal, the order status will be sent as _Completed_ and the financial status will be marked as _Initialized_. If the financial status is marked as _Initialized_, the order will not be delivered. Therefore, it is important to mention that the order in your backend has to be marked as _Completed_ when the order status is received as _Completed_ to ensure fulfillment of the order. {{< /alert-notice >}}
 
 * Order status      
 The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
@@ -68,4 +68,3 @@ Some rules may apply to certain payment methods. For PayPal, the following rules
 * Refunds will be processed only when your PayPal account balance is sufficient
 
 * For information on which currencies are supported, please contact PayPal.
-
