@@ -20,7 +20,7 @@ Please note that only a user with administrator rights can perform these steps:
 3. Click the drop-down list *Two-factor* and select *Enable*
 4. Click *Save changes*
 
-{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" screen_size="desktop" title="Select two-factor" >}}
+{{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" screen_size="desktop" >}}
 
 ### Step 2: The user's steps
 The first time a user logs into MultiSafepay Control after 2FA is enabled, they are asked to configure 2FA. This is done by connecting their MultiSafepay account to their mobile device, following these steps:
