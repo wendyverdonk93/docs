@@ -4,18 +4,17 @@ title : "MultiSafepay Transaction API"
 
 The Transaction API by MultiSafepay allows the possibility to automate your financial processes by matching records at a transaction level. Furthermore, the API is easy to implement in your environment. This way, you have less manual administrative work and financial data that is correct in your accounting. The possible use cases with this API consist of four possibilities:
 
-* _Accountant export_: financial movements in a period / after last call opening and closing balances
+* _Reconciliation_: financial movements in a period / after last call opening and closing balances
 * _Transactions in a payout_: when a merchant receives a payout he want to know what payments are in this payout
-* _New completed orders_: what new orders i receive after my last check or between a period
+* _Completed orders_: orders received after my last check or between a period of GET completed orders
 * _All changes between a period_: this can be very useful to have financial insight into any given process.
 
 ## Environments
 
-MultiSafepay provides a TEST environment and a LIVE environment. The TEST environment is useful for developing and testing a new integration with our API as no real transactions are able to be processed. Once the integration has been developed processing real transactions is as simple as addressing the LIVE API and updating the API key being used.
+MultiSafepay provides a [TEST environment](https://testmerchant.multisafepay.com/) and a [LIVE environment](https://merchant.multisafepay.com/)<br>
 
-[TEST Merchant environment](https://testmerchant.multisafepay.com/)
+The TEST environment is useful for developing and testing a new integration with our API as no real transactions are able to be processed. Once the integration has been developed processing real transactions is as simple as addressing the LIVE API and updating the API key being used.
 
-[LIVE Merchant environment](https://merchant.multisafepay.com/)
 
 ## API Endpoints
 
@@ -23,9 +22,11 @@ All requests to the MultiSafepay API endpoint require authentication. Authentica
 
 The HTTP header name for the API key is: api_key
 
-Open a [TEST account](https://testmerchant.multisafepay.com/signup?_ga=2.247259138.706372755.1611570114-869152674.1598992978)
+## Filters 
 
-## Parameters 
+The following parameters can be used to filter requests and retrieve information through a GET request:
+
+API Endpoint: https://api.multisafepay.com/v1/json/transactions
 
 | Parameter | Description                  |
 |----------|-----------------------|
@@ -34,12 +35,12 @@ Open a [TEST account](https://testmerchant.multisafepay.com/signup?_ga=2.2472591
 | end_epoch     | Transactions created to (epoch)                  |
 | financial_status                               |  Transaction financial status - available values: completed, created, declined, error, expired, initialized, manual, new, refunded, reserved, uncleared, void                |
 | payment_method                              | VISA                   |
-| start                              | transactions created from                  |
-| start_epoch                              | transactions created from (epoch)                 |
-| status                              |  transaction status                 |
-| transaction type                              | available values: admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit fastcheckout, monthly_fee, payment, refund, reserve_chargeback, singup_fee                  |
-| limit                               | number of returned results                  |
-| next                              |  next page URL                  |
+| start                              |Transactions created from                  |
+| start_epoch                              | Transactions created from (epoch)                 |
+| status                              |  Transaction status                 |
+| transaction type                              | Available values: admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit fastcheckout, monthly_fee, payment, refund, reserve_chargeback, singup_fee                  |
+| limit                               | Number of returned results                  |
+| next                              |  Next page URL                  |
 
 
 ## Contact
