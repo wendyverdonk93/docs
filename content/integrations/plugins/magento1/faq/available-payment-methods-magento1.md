@@ -8,7 +8,7 @@ __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 __Banks__
 
@@ -23,7 +23,7 @@ __Banks__
 + [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
@@ -35,7 +35,7 @@ __Billing suite__
 + [Afterpay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3/)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 

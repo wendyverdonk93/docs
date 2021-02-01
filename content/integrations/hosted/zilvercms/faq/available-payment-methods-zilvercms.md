@@ -6,9 +6,9 @@ meta_description: "In the MultiSafepay Documentation Center all relevant informa
 
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/creditcards)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/creditcards)
-+ [Visa](/payment-methods/credit-and-debit-cards/creditcards) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
++ [American Express](/payment-methods/credit-and-debit-cards/american-express)
++ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
++ [Visa](/payment-methods/credit-and-debit-cards/visa/) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 __Banks__
 
@@ -22,7 +22,7 @@ __Banks__
 + [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 

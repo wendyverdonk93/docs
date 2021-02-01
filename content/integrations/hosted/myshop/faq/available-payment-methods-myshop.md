@@ -11,31 +11,31 @@ __Credit cards__
 
 __Banks__
 
-+ [Bancontact](/payment-methods/bancontact)
-+ [Bank transfer](/payment-methods/bank-transfer)
-+ [Dotpay](/payment-methods/dotpay)
-+ [EPS](/payment-methods/eps)
-+ [Giropay](/payment-methods/giropay)
-+ [iDEAL](/payment-methods/ideal)
-+ [Maestro](/payment-methods/maestro)
++ [Bancontact](/payment-methods/banks/bancontact)
++ [Bank transfer](/payment-methods/banks/bank-transfer)
++ [Dotpay](/payment-methods/banks/dotpay)
++ [EPS](/payment-methods/banks/eps)
++ [Giropay](/payment-methods/banks/giropay)
++ [iDEAL](/payment-methods/banks/ideal)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payment-methods/sofort-banking)
++ [SOFORT Banking](/payment-methods/banks/sofort-banking)
 
 
 __Billing suite__
 
-+ [Klarna](/payment-methods/klarna)
-+ [Pay After Delivery](/payment-methods/pay-after-delivery)
++ [Klarna](/payment-methods/billing-suite/klarna)
++ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
 
 __Wallet__
 
 + [FastCheckout](/payment-methods/fastcheckout)
-+ [PayPal](/payment-methods/paypal)
++ [PayPal](/payment-methods/wallet/paypal)
 
 
 __Prepaid cards__
 
-+ [123TCS](/payment-methods/gift-cards)
-+ [Intersolve](/payment-methods/gift-cards)
-+ [Fashioncheque](/payment-methods/gift-cards)
++ [123TCS](/payment-methods/prepaid-cards/gift-cards)
++ [Intersolve](/payment-methods/prepaid-cards/gift-cards)
++ [Fashioncheque](/payment-methods/prepaid-cards/gift-cards)

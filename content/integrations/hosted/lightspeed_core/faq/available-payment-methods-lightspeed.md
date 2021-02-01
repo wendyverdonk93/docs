@@ -16,11 +16,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 + [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3/)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/maestro)
++ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [PayPal](/payment-methods/wallet/paypal)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires/) & [Dankort](/payment-methods/credit-and-debit-cards/dankort/))
++ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
 
 
 __Gift cards__
