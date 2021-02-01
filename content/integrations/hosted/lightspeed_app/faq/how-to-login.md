@@ -1,6 +1,6 @@
 ---
-title : "How to log in"
-meta_title: "Lightspeed plugin - Can I change the API key after installation? - MultiSafepay Docs"
+title : "How can I log in?"
+meta_title: "Lightspeed plugin - How can I log in? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 ---
 
@@ -18,13 +18,16 @@ In early 2021, we have changed the login method for the MultiSafepay Payment app
 3. Click on _Purchased apps_ / _Aangeschafte apps_
 {{< screen src="../img/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
 
-4. Click on the name of our app: _MultiSafepay Payments_
+4. Go to apps in the side bar 
+{{< image src="../img/app-side-bar.png" class="small-img" >}}
+
+5. Click on the name of our app: _MultiSafepay Payments_
 {{< screen src="../img/my-apps-click-name.png" class="small-img desktop-radius" >}}
 
 _**Alternatively**: paste "/admin/store/apps/1517" after the base URL of your store.  
 This should bring you to the store page immediately._
 
-5. On the store page click on _Go to App_ / _Ga naar App_ 
+6. On the store page click on _Go to App_ / _Ga naar App_ 
 
 {{< screen src="../img/app-page.png" class="small-img desktop-radius">}}
 
