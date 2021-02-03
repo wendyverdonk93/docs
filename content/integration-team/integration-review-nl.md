@@ -43,6 +43,10 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [Mike de Decker](https://www.linkedin.com/in/mike-de-decker-54443a163/)<br>
 [Qadira Ibrahim](https://www.linkedin.com/in/qadira-ibrahim-a5126887)<br>
 [Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)<br>
+[Joey Pol](https://www.linkedin.com/in/joey-pol-305787162)<br>
+[Solaiman el Bacha](https://www.linkedin.com/in/solaimanelbacha)<br>
+[Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)<br>
+[Jasper Nadi](https://www.linkedin.com/in/jasper-nadi-6584b9122)
 [Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar/)
 
 ### Sociale media
