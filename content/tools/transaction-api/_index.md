@@ -2,6 +2,8 @@
 title : "MultiSafepay Transaction API"
 ---
 
+## Introduction
+
 The Transaction API by MultiSafepay allows the possibility to automate your financial processes by matching records at a transaction level. Furthermore, the API is easy to implement in your environment. This way, you have less manual administrative work and financial data that is correct in your accounting. The possible use cases with this API consist of four possibilities:
 
 * _Reconciliation_: financial movements in a period / after last call opening and closing balances
@@ -9,13 +11,19 @@ The Transaction API by MultiSafepay allows the possibility to automate your fina
 * _Completed orders_: orders received after my last check or between a period of GET completed orders
 * _All changes between a period_: this can be very useful to have financial insight into any given process.
 
+<br>
+
 ## Requirements
 
 The [TEST environment](https://testmerchant.multisafepay.com/) and [LIVE environment](https://merchant.multisafepay.com/) are both readily available for testing with the Transaction API.
 
+The TEST environment is useful for developing and testing a new integration with our API, as no real transactions are processed. Once the integration has been developed, processing real transactions is as simple as addressing the LIVE API and updating the API key being used.
+
 All requests to the MultiSafepay [API endpoint](https://api.multisafepay.com/v1/json/transactions) require authentication. Authentication is provided by including your API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, make sure to use the correct corresponding key for each one of them. The API key can be found under the website settings in [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 The HTTP header name for the API key is: api_key
+
+<br>
 
 ## Filters 
 
@@ -37,7 +45,81 @@ API Endpoint: https://api.multisafepay.com/v1/json/transactions
 | limit                               | Number of returned results                  |
 | next                              |  Next page URL                  |
 
+<br>
 
-## Contact
+## Use cases
 
-Do you have any questions regarding this process? Our Integration team will assist you with any issues you are currently facing. Contact us at <integration@multisafepay.com>
+### Creating an overview
+
+_I want to have a complete overview of all transactions which provide insights to debit and credit transactions from my MultiSafepay account._
+
+* Debtors are customers and based on the *transaction_id*, you are able to see who has paid and how they have paid
+* Creditors can be your suppliers e.g. MultiSafepay or the customers I owe a refund.
+
+__Required parameters__
+
+| Parameter  | Description                  |
+|------------------|-----------------------|
+| debit_credit            |  Credit/Debit         |
+| end:date/time              |  Transactions created to         |
+| end_epoch           |  Transactions created to (epoch)         |
+
+<br>
+
+## Payouts
+
+ _I want to have a overview of the payout file containing all transaction ID's so I am able to gain insights to the payout moments and all corresponding transactions._
+
+* Gain insights into the complete batch of transactions for a specific payout
+* Management of your accounting and bookkeeping.
+
+<br>
+
+__Required parameters__
+
+| Parameter  | Description                  |
+|------------------|-----------------------|
+| debit_credit            |  Credit/Debit         |
+| end:date/time              |  Transactions created to         |
+| end_epoch           |  Transactions created to (epoch)         |
+| financial_status           |  Completed         |
+
+<br>
+
+## Reconciliation
+
+_I want to match mutations that belong to eachother, so that the balance in my accounting or bookkeeping can be explained._
+
+* May be required by law to administer reconcilliation
+* Automating the reconcilliation process can save time.
+
+| Parameter  | Description                  |
+|------------------|-----------------------|
+| end: date/time            |  Transactions created to       |
+| end_epoch              |  Transactions created to (epoch)         |
+| type (transaction type)          |  GET all __or__ separately: admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit, fastcheckout, monthly_fee, payment, refund, reverse_chargeback, signup_fee         |
+| financial_status           |  Completed         |
+
+<br>
+
+## Refunds
+
+_I would like to see the refunds associated with customer returns_
+
+* View the orders that are to be paid back as a merchant
+* Ability to pay back outstanding amounts for orders that have been returned.
+
+| Parameter  | Description                  |
+|------------------|-----------------------|
+| debit_credit           |  Debit       |
+| end: date/time              |  Transactions created to          |
+| end_epoch          |  Transactions created to epoch         |
+| type (transaction type)           |  Refund         |
+
+<br>
+
+
+## Support
+
+If you encounter any issues, problems or questions, you can create an issue on this repository or contact us at <integration@multisafepay.com>
+
