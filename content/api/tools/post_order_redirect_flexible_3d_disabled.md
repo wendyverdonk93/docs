@@ -57,7 +57,7 @@ weight: 1340
 {{< description >}}
 ### Redirect, Flexible 3D set on _false_
 
-Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
+Flexible 3D is a feature that allows you to enable/disable [3D secure](/faq/general/glossary/#3d-secure) at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
 
 Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. Setting Flexible 3D to _false_ will disable the verfication process. 
 

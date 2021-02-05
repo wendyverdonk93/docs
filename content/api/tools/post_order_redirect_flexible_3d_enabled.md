@@ -58,7 +58,7 @@ weight: 1350
 {{< description >}}
 ### Redirect, Flexible 3D set on _true_ 
 
-It is mandatory to enable Flexible 3D secure processing in this call, even when Dynamic 3D rules could set the settings to disable it.
+It is mandatory to enable Flexible [3D secure(/faq/general/glossary/#3d-secure) processing in this call, even when Dynamic 3D rules could set the settings to disable it.
 
 Flexible 3D is a feature that allows you to enable/disable 3D secure at API level. The Flexible 3D mandates whether or not a transaction should be completed with the 3D secure verification or not.
 
