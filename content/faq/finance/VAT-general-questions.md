@@ -35,7 +35,7 @@ For this feature to be enabled, it is important that your VAT number is register
 To register your VAT number, please send us an email at <invoice@multisafepay.com>
 
 ## What are the actual costs to be paid when I have IC ++ tariffs?
-There are three cost components of the IC++ model, namely the Interchange fee that is paid to the issuing bank, the scheme fee charged by Visa or Mastercard and the acquirer fee. The costs associated with IC++ depend heavily on a range of factors, such as the countries of the merchant, the issuing bank and the cardholder, the merchant segment, the monthly transaction volume, etc. 
+There are three cost components of the IC++ model, namely the Interchange fee that is paid to the issuing bank, the scheme fee charged by Visa or Mastercard and the [acquirer](/faq/general/glossary/#acquirer) fee. The costs associated with IC++ depend heavily on a range of factors, such as the countries of the merchant, the issuing bank and the cardholder, the merchant segment, the monthly transaction volume, etc. 
 
 Upon signing up with MultiSafepay, you should be presented with an estimation of these costs.
 
