@@ -40,7 +40,7 @@ Apple Pay transactions received by MultiSafepay will be processed through our fr
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback)         |               
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank ([issuer](/faq/general/glossary/#issuer)). Only applicable to Direct Debit and credit card payments. Information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback)         |               
 
 Read more about Apple Pay on our [API reference](https://docs.multisafepay.com/api/#applepay) page.
 

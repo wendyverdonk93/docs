@@ -171,7 +171,7 @@ True, enable the 3D secure authentication. False, disable the 3D secure authenti
 ----------------
 __term_url__ | string
 
-URL that is used to instruct the card issuer where to redirect the authorisation query. 
+URL that is used to instruct the card [issuer](/faq/general/glossary/#issuer) where to redirect the authorisation query. 
 
 ----------------
 

@@ -220,7 +220,7 @@ Card expiry date.
 ----------------
 __card_cvc__ | string
 
-Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
+Card [CVC](/faq/general/glossary/#cvc) (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
 
 ----------------
 

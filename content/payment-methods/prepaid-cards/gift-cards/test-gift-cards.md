@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## Testing a gift card
-There is no test data available or provided by the issuer of the gift card to test a gift card in a staging or test environment.
+There is no test data available or provided by the [issuer](/faq/general/glossary/#issuer) of the gift card to test a gift card in a staging or test environment.
 
 When a gift card has been activated on the ecommerce platform, a (small) transaction can be completed to check whether the connection is set correctly to process the gift card as payment method.
 

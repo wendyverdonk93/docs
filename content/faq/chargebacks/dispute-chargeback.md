@@ -159,7 +159,7 @@ In order for this chargeback to be disputed we need the following documentation 
 #### Reason Code: 4834
 __Description: Duplicate Processing__
 
-The issuer determines that a transaction has been submitted in duplicate.
+The [issuer](/faq/general/glossary/#issuer) determines that a transaction has been submitted in duplicate.
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 

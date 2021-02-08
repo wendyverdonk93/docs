@@ -46,7 +46,7 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Reserved       | Reserved    | A refund has been requested. | 
 | Completed      | Completed   | Refund has been successfully processed.  | 
-| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). The chargeback cannot be challenged. | 
+| Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank ([issuer](/faq/general/glossary/#issuer)). The chargeback cannot be challenged. | 
 
 The full API reference for SEPA Direct Debit can be found [here](/api/#direct-debit)
 

@@ -44,7 +44,7 @@ The Manual Capture functionality is suitable for a number of payment methods:
 
 ## Expiry settings
 
-For each payment method a different expiry date applies for capturing a payment. After this period, the issuer can cancel the authorization and the funds will be released back to the customer’s account:
+For each payment method a different expiry date applies for capturing a payment. After this period, the [issuer](/faq/general/glossary/#issuer) can cancel the authorization and the funds will be released back to the customer’s account:
 
 * VISA: 7 days
 * Mastercard / Maestro: 30 days

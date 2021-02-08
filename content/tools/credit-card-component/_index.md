@@ -131,7 +131,7 @@ This payload can be sent with a [direct CREDITCARD transaction request](https://
 ```
 
 After sending the transaction request, you will get a `payment_url` back.
-This `payment_url` will be a link to the issuer, where the customer will be required to enter his [3D Secure](/faq/general/glossary/#3d-secure) details.
+This `payment_url` will be a link to the [issuer](/faq/general/glossary/#issuer), where the customer will be required to enter his [3D Secure](/faq/general/glossary/#3d-secure) details.
 
 After completion, the customer will be returned to the `redirect_url` from the transaction request.
 

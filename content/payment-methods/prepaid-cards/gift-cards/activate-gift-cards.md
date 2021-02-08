@@ -7,7 +7,7 @@ read_more: '.'
 ---
 ## Activate
 MultiSafepay supports a wide range of gift cards.
-With gift cards, merchants can either accept gift card payments of established gift card issuers or support their own personalized gift card.
+With gift cards, merchants can either accept gift card payments of established gift card [issuers](/faq/general/glossary/#issuer) or support their own personalized gift card.
 
 MultiSafepay offers 3 gift card connections:
 

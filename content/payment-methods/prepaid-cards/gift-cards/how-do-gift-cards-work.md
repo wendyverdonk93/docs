@@ -11,7 +11,7 @@ A gift card can be processed as a digital payment method. The credit on a gift c
 With a gift card, the transaction can be paid both in full and partially by the customer.
 The remaining amount of the transaction can be fulfilled by any other payment method the webshop is offering to the customer.
 
-The actual payment using a gift card will not be processed by MultiSafepay, but instead by the issuer of the gift card. Therefore, when a gift card payment is successful, MultiSafepay will receive a _completed_ status. MultiSafepay will then process the transaction as paid.
+The actual payment using a gift card will not be processed by MultiSafepay, but instead by the [issuer](/faq/general/glossary/#issuer) of the gift card. Therefore, when a gift card payment is successful, MultiSafepay will receive a _completed_ status. MultiSafepay will then process the transaction as paid.
 
 The amount deducted from the gift card to complete a payment will be paid out by the issuer of the gift card.
 
