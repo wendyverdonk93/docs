@@ -12,7 +12,7 @@ If you would like to create a MultiSafepay Partner Account, we invite you to fol
 
 __Step 1:__ Open the following page: [Signup with MultiSafepay]( https://merchant.multisafepay.com/signup?partner)
 
-__Step 2:__ When logging into your account for the first time, a red button will be visible ‘Go to activation’  indicating that important documentation must be uploaded in order to proceed. This documentation is legally required for verification purposes related to your company and the Ultimate Beneficial Owners (UBO). 
+__Step 2:__ When logging into your account for the first time, a red button will be visible ‘Go to activation’  indicating that important documentation must be uploaded in order to proceed. This documentation is legally required for verification purposes related to your company and the [Ultimate Beneficial Owners](/faq/general/glossary/#ultimate-beneficial-owner-ubo) (UBO). 
 
 Please kindly upload the following documents and follow the payment instruction in the last step:
 

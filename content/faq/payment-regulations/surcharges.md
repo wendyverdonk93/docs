@@ -15,7 +15,7 @@ According to the Dutch National Bank, you should always contact ACM for inquirie
 ### What is prohibited?
 For the majority of payment transactions, retailers are no longer allowed to charge fees for using specific payment methods. 
 
-[Surcharges](/faq/getting-started/glossary/#surcharge) are banned for:
+[Surcharges](/faq/general/glossary/#surcharge) are banned for:
 
 * Most credit card transactions when the bank or card issuer and the payment provider of the merchant are both located in a European Economic Area (EEA) state
 * Debit Card transactions (for both individuals and business customers)

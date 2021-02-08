@@ -13,4 +13,4 @@ In the Magento backoffice, go to the Invoices tab, click on the invoice that was
 
 You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
 
-_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)_
+_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman [Surcharge](/faq/general/glossary/#surcharge) It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)_

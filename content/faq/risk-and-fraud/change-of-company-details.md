@@ -4,7 +4,7 @@ meta_title: "FAQ Risk and fraud - Change of company details - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-If there are any changes in your company details like the address, director, UBO or in your company form, MultiSafepay should be informed. 
+If there are any changes in your company details like the address, director, [UBO](/faq/general/glossary/#ultimate-beneficial-owner-ubo) or in your company form, MultiSafepay should be informed. 
 
 * For changes in address, please send an email to <support@multisafepay.com>
 * For changes in the company, directors or UBO, please inform our Risk Team at <risk@multisafepay.com> and mention your MultiSafepay account number. 

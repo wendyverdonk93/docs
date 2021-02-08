@@ -15,4 +15,4 @@ You can also refund from your [MultiSafepay Control](https://merchant.multisafep
 
 If you have more questions about refunds, please check out our [FAQ on refunds](/faq/refunds).
 
-_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)_
+_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman S[urcharge](/faq/general/glossary/#surcharge) It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)_

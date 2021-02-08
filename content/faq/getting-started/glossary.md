@@ -68,10 +68,10 @@ PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay
 SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication/) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
 
 ### Surcharge
-An additional fee, charge or tax that is added to the costs of a good or service, on top of the initial price. Very often, the surcharge is not part of the stated price of the good or service. Surcharges can be set at specific amounts or can account for a percentage of the total price.
+An additional fee, charge or tax that is added to the costs of a good or service, on top of the initial price. Very often, the [surcharge](/faq/general/glossary/#surcharge) is not part of the stated price of the good or service. Surcharges can be set at specific amounts or can account for a percentage of the total price.
 
 ### Ultimate Beneficial Owner (UBO)
-The person or entity that is the ultimate beneficiary of the company. The natural person(s) who own or control a business and/or the natural person(s) on whose behalf a transaction is being conducted. Under [European law](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32015L0849), ultimate beneficial ownership comprises ownership or control of more than 25% of the shares or voting rights in a legal entity. To prevent malintent (i.e. financing terrorism, money-laundering, fraud, etc.), disclosure of the UBO is necessary in doing business with MultiSafepay.
+The person or entity that is the ultimate beneficiary of the company. The natural person(s) who own or control a business and/or the natural person(s) on whose behalf a transaction is being conducted. Under [European law](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32015L0849), ultimate beneficial ownership comprises ownership or control of more than 25% of the shares or voting rights in a legal entity. To prevent malintent (i.e. financing terrorism, money-laundering, fraud, etc.), disclosure of the [UBO](/faq/general/glossary/#ultimate-beneficial-owner-ubo) is necessary in doing business with MultiSafepay.
 
 ### Uncleared
 Refers to the status of a credit card transaction that has been received, but has not automatically been accepted. This happens whenever a fault-check mechanism (e.g. anti-fraud module) detects unusual patterns in data. 

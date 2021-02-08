@@ -9,7 +9,7 @@ MultiSafepay periodically performs reviews of the merchant accounts, to ensure a
 
 MultiSafepay monitors if companies are still active and if there have been no changes in the business model, directors and ultimate beneficial ownership since boarding or the last review. 
 
-If there are changes noted during the review, MultiSafepay will contact the merchant via email. Sometimes new documentation needs to be provided, like updated UBO statements or copies of identification documents. 
+If there are changes noted during the review, MultiSafepay will contact the merchant via email. Sometimes new documentation needs to be provided, like updated [UBO](/faq/general/glossary/#ultimate-beneficial-owner-ubo) statements or copies of identification documents.
 
 _Not responding to our request for new documentation and/or information will results in a pause of your payouts. Never responding to our requests / not willing to comply, can eventually lead to a one-sided termination of the contract_.
 

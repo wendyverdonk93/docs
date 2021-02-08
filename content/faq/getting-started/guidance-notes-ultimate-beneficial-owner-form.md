@@ -4,7 +4,7 @@ meta_title: "FAQ Getting Started - What is UBO - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-MultiSafepay is legally required (Wwft) to establish and verify the identity of the Ultimate Beneficial Owners.
+MultiSafepay is legally required (Wwft) to establish and verify the identity of the [Ultimate Beneficial Owners](/faq/general/glossary/#ultimate-beneficial-owner-ubo)
 
 ## What is an Ultimate Beneficial Owner?
 
