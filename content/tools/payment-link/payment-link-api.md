@@ -8,4 +8,4 @@ read_more: '.'
 
 ### API
 
-If you would like to generate a payment link through the API, please kindly visit our [API documentation](/api/#generating-a-payment-link) section outlining the JSON request and response.
+If you would like to generate a payment link through the API, please kindly visit our [API documentation](/api/#generating-a-payment-link) section outlining the [JSON](/faq/general/glossary/#json) request and response.

@@ -10,7 +10,7 @@ For merchants with a __custom integration__ via [JSON API MultiSafepay](/api), w
 There are two options to dynamically style the payment page:
 
 ## 1. Load a saved template
-Whenever you have stored a template, you can call it through the first-level JSON object "template_id": "value of the template".
+Whenever you have stored a template, you can call it through the first-level [JSON](/faq/general/glossary/#json) object "template_id": "value of the template".
 
 1. Login to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Navigate to the WYSIWYG editor

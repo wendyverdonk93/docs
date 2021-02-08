@@ -7,7 +7,7 @@ read_more: "."
 ---
 
 #### ip_address
-Post-payment and credit card payment methods require the customer <i>ip_address</i> to be validated and thus, we need the actual IP address of the end user within the <i>ip_address</i> field. This means that the optional parameter <i>"ip_address (optional)</i> within the JSON request is now a <i>"required"</i> field when processing post-payment and/or credit card transactions.
+Post-payment and credit card payment methods require the customer <i>ip_address</i> to be validated and thus, we need the actual IP address of the end user within the <i>ip_address</i> field. This means that the optional parameter <i>"ip_address (optional)</i> within the [JSON](/faq/general/glossary/#json) request is now a <i>"required"</i> field when processing post-payment and/or credit card transactions.
 
 Please note! When validating the localhost <i>ip_address</i> instead of the end user's <i>ip_address</i>, it may result in transactions being marked with the status _uncleared_ or even be rejected/declined.
 

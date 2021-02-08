@@ -55,7 +55,7 @@ For several scenarios, it can be useful for our merchants to generate a payment 
 
 As per GDPR requirements, MultiSafepay does not submit emails by default. If you enable this option, please ensure there is a documented consent from the recipient of the payment link.
 
-{{< alert-notice >}} Please note: Payment links will no longer send Second Chance emails by default. It is the responsibility of the merchant to include the Second Chance script in the JSON request. See the Second Chance JSON script on the right-hand side. {{< /alert-notice >}}
+{{< alert-notice >}} Please note: Payment links will no longer send Second Chance emails by default. It is the responsibility of the merchant to include the Second Chance script in the [JSON](/faq/general/glossary/#json) request. See the Second Chance JSON script on the right-hand side. {{< /alert-notice >}}
 
 
 **Parameters**

@@ -338,7 +338,7 @@ Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-In the JSON response for a direct transaction, it is important to send payment instructions to the customer by yourself. Please be aware that all of the parameters can be different for every single transaction. Do not store this information other than for a specific transaction.
+In the [JSON](/faq/general/glossary/#json) response for a direct transaction, it is important to send payment instructions to the customer by yourself. Please be aware that all of the parameters can be different for every single transaction. Do not store this information other than for a specific transaction.
 
 **Parameters**
 

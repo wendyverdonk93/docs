@@ -16,7 +16,7 @@ We are happy to accompany you starting with a place on our documentation page as
 We would like to outline the main requirements that community developers should adhere to if they wish to be a part of the MultiSafepay community.
  These agreements are the following:
 
-* The [plugin information](https://docs.multisafepay.com/api/#plugin-information) should be visible and provided on the page (in JSON) and further include the configuration of the integration and the usage
+* The [plugin information](https://docs.multisafepay.com/api/#plugin-information) should be visible and provided on the page (in [JSON](/faq/general/glossary/#json)) and further include the configuration of the integration and the usage
 * The readme should indicate that full responsibility lies with the developer of the community integration. This includes customer support and maintenance of the code. It should also indicate that the integration was __not created by MultiSafepay__
 * If MultiSafepay decides to add the community integration as one of the supported integrations by MultiSafepay, we will have the authority to also remove the community integration without the breach of contract
 * The community integration should be updated when needed. A support tab would be ideal to have, but is not compulsory.

@@ -15,7 +15,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## Order specification with "items"
 
-The line "items" can be added to the JSON request. Post payment methods require the full shopping_cart.
+The line "items" can be added to the [JSON](/faq/general/glossary/#json) request. Post payment methods require the full shopping_cart.
 
 **Parameter**
 

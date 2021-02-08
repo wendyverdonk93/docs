@@ -134,7 +134,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay Control or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
 
-The template object structure needs to include the JSON CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
+The template object structure needs to include the [JSON](/faq/general/glossary/#json) CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
 
 When sending images within the template structure for the "logo" and "header", you can use external references but they must be using HTTPS, otherwise they will be ignored.
 

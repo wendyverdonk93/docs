@@ -13,7 +13,7 @@ This is not incorporated within our plugins by default, but it can be added thro
 In order to split a payment you need the following:  
 
 * two active MultiSafepay accounts  
-* access to the code that creates the JSON request.
+* access to the code that creates the [JSON](/faq/general/glossary/#json) request.
 
 For split payments, add the object "affiliate" like:
 
