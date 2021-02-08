@@ -6,4 +6,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-Yes, it is possible to disable Second Chance through the dedicated API. This can be done in the transaction request when you [create an order](/api/#create-an-order), by using the value _false_ instead of _true_.
+Yes, it is possible to disable Second Chance through the dedicated [API](/faq/general/glossary/#api). This can be done in the transaction request when you [create an order](/api/#create-an-order), by using the value _false_ instead of _true_.

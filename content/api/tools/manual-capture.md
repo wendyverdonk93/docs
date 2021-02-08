@@ -44,7 +44,7 @@ weight: 1350
 {{< description >}}
 ## Manual Capture Authorization
 
-Manual Capture is a feature that allows payments to be captured once an order has been shipped or received. The API calls mandate whether a transaction should be captured partially or fully, as well as the authorization and cancellation of the transaction.
+Manual Capture is a feature that allows payments to be captured once an order has been shipped or received. The [API](/faq/general/glossary/#api) calls mandate whether a transaction should be captured partially or fully, as well as the authorization and cancellation of the transaction.
 
 The feature can only be used with specific credit card payment methods including MasterCard, VISA and Maestro.
 

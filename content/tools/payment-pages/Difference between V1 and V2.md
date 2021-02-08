@@ -18,7 +18,7 @@ The requests and responses from and to the MultiSafepay server, are processed qu
 The responsive design of the V2 payment page is developed to be used across different types of devices and browsers. Whether your customer is paying on a desktop,tablet or mobile, give your customers a seamless customer experience.
 
 ### Dynamic template
-One of our main V2 futures, is the possibility to implement the dynamic payment template into your API integration. This way you can customize the payment page without any hassle.
+One of our main V2 futures, is the possibility to implement the dynamic payment template into your [API](/faq/general/glossary/#api) integration. This way you can customize the payment page without any hassle.
  For more information visit the following link: https://docs.multisafepay.com/api/#dynamic-template
 
 ### Countries/translations

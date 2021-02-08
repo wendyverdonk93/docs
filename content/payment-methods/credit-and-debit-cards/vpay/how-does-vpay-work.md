@@ -43,7 +43,7 @@ V Pay (debit card) transactions received by MultiSafepay will be processed throu
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. Important information on [how to proceed when receiving a chargeback](/faq/chargebacks/what-is-a-chargeback)              |
 
 
-The full API reference for V Pay and credit cards can be found [here](/api/#credit-cards)
+The full [API](/faq/general/glossary/#api) reference for V Pay and credit cards can be found [here](/api/#credit-cards)
 
 ### Product rules
 Some rules may apply to certain payment methods. For V Pay, the following rules apply:

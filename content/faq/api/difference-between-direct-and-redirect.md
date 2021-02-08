@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-On our API section, you will often see the terms 'Direct' and 'Redirect' being used. In this section, we will explain the difference between the two API calls.
+On our [API](/faq/general/glossary/#api) section, you will often see the terms 'Direct' and 'Redirect' being used. In this section, we will explain the difference between the two API calls.
 
 ### Direct
 

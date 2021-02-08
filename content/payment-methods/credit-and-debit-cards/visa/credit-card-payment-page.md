@@ -19,4 +19,4 @@ The [credit card API page](/api/#credit-cards) illustrates the API implementatio
 ### Redirect specifically to Visa
 Choose this way if you wish to only accept Visa. Your customer will be redirected to Visa. After the credentials are filled in, MultiSafepay will ensure the payment is completed.
 
-For implementation, see the API calls for [Visa](/api/#visa)
+For implementation, see the [API](/faq/general/glossary/#api) calls for [Visa](/api/#visa)
