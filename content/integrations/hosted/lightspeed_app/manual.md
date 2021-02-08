@@ -18,6 +18,8 @@ For the optimal experience of the user, we included some Javascript and use our 
 
 If the Javascript files are not loaded, all payment methods will continue to work. If you want to use our payment icons, you can find them on our [Github page](https://github.com/MultiSafepay/MultiSafepay-icons)
 
+To use the app, an API key is required. To obtain this key you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
+
 ### 1. Installation 
 Instructions to install the MultiSafepay Lightspeed app:
 
@@ -43,4 +45,4 @@ __Congratulations__
 
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration team at <integration@multisafepay.com>
 
-After installing the MultiSafepay Payments application, you can access the settings page. You will be redirected to this page automatically after the installation or you can go there by clicking on the _Go to App_ button in your Lightspeed backend when you go to your apps and select the MultiSafepay Payments app.
+After installing the MultiSafepay Payments application, you can access the settings page. You will be redirected to this page automatically after the installation. Alternatively, navigate to your apps, select the MultiSafepay Payments app and click on the _Go to App_ button.
