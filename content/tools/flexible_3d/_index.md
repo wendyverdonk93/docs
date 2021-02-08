@@ -10,7 +10,7 @@ short_description: 'Use 3D secure verification to provide an extra layer of secu
 
 ## What it is
 
-Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/general/glossary/#3d-secure) at an [API](/glossary/#api) level. The Flexible 3D forces whether or not to complete a transaction with the 3D secure verification.
+Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/general/glossary/#3d-secure) at an [API](/faq/general/glossary/#api) level. The Flexible 3D forces whether or not to complete a transaction with the 3D secure verification.
 
 [3D secure, What it is](/faq/general/what-is-3d-secure)
 

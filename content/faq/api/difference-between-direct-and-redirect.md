@@ -16,7 +16,7 @@ _For example, pre-selecting 'iDEAL' as the gateway will take you directly to the
 
 ### Redirect
 
-A Redirect transaction will redirect the consumer to the MultiSafepay payment page, where they will be presented with the payment method based on what has been pre-selected in the gateway of the API call. 
+A Redirect transaction will redirect the consumer to the MultiSafepay payment page, where they will be presented with the payment method based on what has been pre-selected in the gateway of the [API](/faq/general/glossary/#api) call. 
 
 _For example, pre-selecting 'Visa' as the gateway will present the consumer with the fields to fill in their Visa credit card information. The consumer will not leave the MultiSafepay payment page._
 
