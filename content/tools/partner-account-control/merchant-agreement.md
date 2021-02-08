@@ -8,6 +8,6 @@ read_more: '.'
 
 ## Merchant agreement
 
-MultiSafepay is a financial institution that is supervised by the Dutch bank. As a payment service provider, we offer payment solutions for which costs are charged. 
+MultiSafepay is a financial institution that is supervised by the Dutch bank. As a [payment service provider](/faq/general/glossary/#payment-service-provider-psp), we offer payment solutions for which costs are charged. 
 
 All MultiSafepay merchants therefore sign a cooperation agreement with general terms and conditions.

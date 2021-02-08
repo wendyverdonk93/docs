@@ -8,7 +8,7 @@ read_more: '.'
 
 ## MultiSafepay Test Environment
 
-Have you recently thought about using MultiSafepay as your payment service provider? It is now possible to create a [test account](https://testmerchant.multisafepay.com/signup?_ga=2.239314307.1689046699.1579505297-896219683.1574159857) free of charge to have a clear overview of what MultiSafepay has to offer for its merchants.
+Have you recently thought about using MultiSafepay as your [payment service provider](/faq/general/glossary/#payment-service-provider-psp)? It is now possible to create a [test account](https://testmerchant.multisafepay.com/signup?_ga=2.239314307.1689046699.1579505297-896219683.1574159857) free of charge to have a clear overview of what MultiSafepay has to offer for its merchants.
 
 After creating a test account, you will be able to test several functionalities of the MultiSafepay Merchant Panel. This includes:
 

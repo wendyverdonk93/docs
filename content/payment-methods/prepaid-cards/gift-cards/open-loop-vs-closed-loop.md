@@ -7,7 +7,7 @@ read_more: '.'
 ---
 ## Open-loop vs. Closed-loop
 
-There are two types of gift cards available at MultiSafepay, these are _Open-loop_ and _Closed-loop_. The main difference between the two cards is that Open-loop gift cards can be redeemed at a wide variety of merchants such as clothing stores, resturants and grocery stores, whereas [Closed-loop gift cards](/faq/general/glossary/#closed-loop-gift-card) can only be used at a single merchant.
+There are two types of gift cards available at MultiSafepay, these are _Open-loop_ and _Closed-loop_. The main difference between the two cards is that [Open-loop gift cards](/faq/general/glossary/#open-loop-gift-card) can be redeemed at a wide variety of merchants such as clothing stores, resturants and grocery stores, whereas [Closed-loop gift cards](/faq/general/glossary/#closed-loop-gift-card) can only be used at a single merchant.
 
 It must be noted that customers can redeem multiple Open-loop gift cards to the maximum amount of €50. Once this value has been reached, you can only pay with a closed-loop gift card or another payment method.
 

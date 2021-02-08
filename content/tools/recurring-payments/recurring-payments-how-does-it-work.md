@@ -84,7 +84,7 @@ Always use the correct payment gateway for each payment method used. Visa, Maste
 
 ### Processing recurring payments from another Payment service provider
 
-If you process recurring payments already with another payment service provider, you can not use recurring payments for these customers. However, you can make use of a 'Direct request' [Direct Debit](https://docs.multisafepay.com/api/#direct-sepa-direct-debit) instead with the retrieved IBAN and account holder name.
+If you process recurring payments already with another [payment service provider](/faq/general/glossary/#payment-service-provider-psp), you can not use recurring payments for these customers. However, you can make use of a 'Direct request' [Direct Debit](https://docs.multisafepay.com/api/#direct-sepa-direct-debit) instead with the retrieved IBAN and account holder name.
 
 
 
