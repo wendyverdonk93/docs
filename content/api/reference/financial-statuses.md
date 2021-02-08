@@ -17,11 +17,11 @@ Read more about the difference between the [Status and the Financial Status](/fa
 |------------------|--------------------------------------------------------------------------------------------------|
 | Initialized        | A payment link has been generated, but no payment has yet been received.      |
 | Uncleared      | The payment is completed, but funds are still underway.                         |
-| Completed        | The payment is finished and the funds are available for payout.                |
+| Completed        | The payment is finished and the funds are available for [payout](/faq/general/glossary/#payout)                |
 | Declined         | Rejected by the the issuing bank and no funds will arrive. Read more about the reason why the transaction is declined in [what does it mean](/faq/general/declined-status)                                                               |
 | Cancelled        | Cancelled by the merchant and no funds will arrive.
 | Void             | Cancelled by the merchant and no funds will arrive.                 |
 | Expired          | Depending on the payment method, unfinished transactions will close automatically after a predefined period. |
-| Reserved         | [Payout](/faq/getting-started/glossary/#payout) / refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
+| Reserved         | [Payout](/faq/general/glossary/#payout) / refund has been put on reserved, a temporary status, until the merchant's account has been checked on sufficient balance. |
 
 {{% /description %}}

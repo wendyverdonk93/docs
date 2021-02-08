@@ -9,7 +9,7 @@ read_more: '.'
 ## How is the invoice structured?
 
 
-The invoice consists of the monthly commission payout and the VAT (21%). Please note; the commission payout has already been paid out and invoice follows one month later together with the VAT.
+The invoice consists of the monthly commission [payout](/faq/general/glossary/#payout) and the VAT (21%). Please note; the commission payout has already been paid out and invoice follows one month later together with the VAT.
 
 Your invoice contains the information of the prior month. The date can be found on top of invoice.
 

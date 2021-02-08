@@ -17,7 +17,7 @@ To carry out an automatic withdrawal, please follow these steps:
 3. Select the bank account number on which you wish to receive the amount (IBAN)
 4. Schedule payments.
 
-The payout scheduler allows you to:
+The [payout](/faq/general/glossary/#payout) scheduler allows you to:
 
  * Schedule automatic withdrawals on preferred day(s) of the week
  * Schedule a payment only when a certain amount is exceeded (preferred amount)

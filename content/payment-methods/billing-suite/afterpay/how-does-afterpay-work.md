@@ -26,7 +26,7 @@ The transaction in your MultiSafepay Control will only show the customer informa
 
 ## Payout AfterPay transaction
 
-The payout of an AfterPay transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from AfterPay. The payout timeline for this method is determined by AfterPay.
+The [payout](/faq/general/glossary/#payout) of an AfterPay transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from AfterPay. The payout timeline for this method is determined by AfterPay.
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -42,7 +42,7 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Uncleared  | Uncleared  | When an AfterPay transaction is marked with the status uncleared, AfterPay will authorize or decline the transaction. No action is required.   |
 | Completed  | Uncleared  | A successful AfterPay transaction has been received.   |
-| Shipped    | Uncleared  | A capture has been send to AfterPay, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
+| Shipped    | Uncleared  | A capture has been send to AfterPay, the transaction has been confirmed. An invoice will be sent to the customer and your [payout](/faq/general/glossary/#payout) is guaranteed. |
 | Shipped    | Completed  | Payout of an AfterPay transaction has been received and added to your MultiSafepay Control balance.|
 | Declined   | Declined   | Transaction has been rejected by AfterPay. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
@@ -90,6 +90,6 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 
  You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
 
-Changing the status to _Shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
+Changing the status to _Shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the [payout](/faq/general/glossary/#payout) of the transaction.
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.

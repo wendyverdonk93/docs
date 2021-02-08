@@ -115,7 +115,7 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Completed   | Initialized | A successful E-Invoicing transaction has been received.    | 
 | Shipped     | Initialized   | A Capture has been sent to E-invoicing, the transaction has been confirmed. An invoice will be send to the customer. |
-| Shipped     | Completed    | Payout of an E-Invoicing transaction has been received and added to your MultiSafepay Control balance.  |
+| Shipped     | Completed    | [Payout](/faq/general/glossary/#payout) of an E-Invoicing transaction has been received and added to your MultiSafepay Control balance.  |
 | Declined    | Declined    | Transaction has been rejected.  | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 

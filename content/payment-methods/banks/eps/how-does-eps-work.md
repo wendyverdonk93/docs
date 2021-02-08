@@ -8,7 +8,7 @@ read_more: '.'
 ## How does it work?
 A customer chooses to pay with EPS, authenticates their account, and confirms to pay.
 
-> _Once a payment is completed, the payout is guaranteed and can not be reversed by the customer_.
+> _Once a payment is completed, the [payout](/faq/general/glossary/#payout) is guaranteed and can not be reversed by the customer_.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

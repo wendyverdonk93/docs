@@ -42,7 +42,7 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized   | Initialized  | A Klarna transaction has been initiated by the consumer.   |
 | Completed  | Uncleared  | A successful Klarna transaction has been placed. The order is awaiting shipment. A payment has not yet been received by Klarna.   |
-| Shipped    | Uncleared  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
+| Shipped    | Uncleared  | A capture has been sent to Klarna, the transaction has been confirmed. An invoice will be sent to the customer and your [payout](/faq/general/glossary/#payout) is guaranteed. |
 | Shipped    | Completed  | Payout of a Klarna transaction has been received and added to your MultiSafepay Control balance.|
 | Declined   | Declined   | Transaction has been rejected by Klarna. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
 | Void       | Cancelled   | Transaction has been cancelled.  | 
@@ -94,6 +94,6 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 
  You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
 
-Changing the status to _Shipped_ allows Klarna to initiate the billing process towards the customer. Klarna will guarantee the payout of the transaction.
+Changing the status to _Shipped_ allows Klarna to initiate the billing process towards the customer. Klarna will guarantee the [payout](/faq/general/glossary/#payout) of the transaction.
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.

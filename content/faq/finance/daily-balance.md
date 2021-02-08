@@ -16,7 +16,7 @@ In this overview you can see your:
 
 - Closing balance date
 - Balance
-- Payout amount
+- [Payout](/faq/general/glossary/#payout) amount
 - Payout transaction
 - Payout sent to the bank
 - Bank description

@@ -6,7 +6,7 @@ read_more: "."
 ---
 ## Screening process
 
-Once the MultiSafepay payment gateway is integrated on your webshop, you can start processing transactions. In order to transfer funds from your MultiSafepay Control into your business bank account, MultiSafepay's Risk and Risk Team is legally required to perform a check. After your account has been fully approved, you can initiate a payout to your business bank account in [MultiSafepay Control](https://merchant.multisafepay.com)
+Once the MultiSafepay payment gateway is integrated on your webshop, you can start processing transactions. In order to transfer funds from your MultiSafepay Control into your business bank account, MultiSafepay's Risk and Risk Team is legally required to perform a check. After your account has been fully approved, you can initiate a [payout](/faq/general/glossary/#payout) to your business bank account in [MultiSafepay Control](https://merchant.multisafepay.com)
 
 Click [here](/faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold) to review MultiSafepay's acceptance policy.
 

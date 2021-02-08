@@ -70,7 +70,7 @@ In order to enable more currencies in your MultiSafepay Control, please submit y
 
 ## Payout currency options
 
-All incoming and outgoing transactions are processed in Euros (EUR) as standard currency. It is possible to manually withdraw a payout in other processing currencies too but automatic withdrawal is available only for EUR (more information on automatic & manual withdrawal methods [here](https://docs.multisafepay.com/faq/finance/how-can-i-pay-out-the-funds-on-my-multisafepay-account-)). To process a payout in another currency, you must provide us with a business bank account that is able to receive funds in the requested currency.
+All incoming and outgoing transactions are processed in Euros (EUR) as standard currency. It is possible to manually withdraw a [payout](/faq/general/glossary/#payout) in other processing currencies too but automatic withdrawal is available only for EUR (more information on automatic & manual withdrawal methods [here](https://docs.multisafepay.com/faq/finance/how-can-i-pay-out-the-funds-on-my-multisafepay-account-)). To process a payout in another currency, you must provide us with a business bank account that is able to receive funds in the requested currency.
 
 ### Add multi-currency business bank account to your MultiSafepay Control
 

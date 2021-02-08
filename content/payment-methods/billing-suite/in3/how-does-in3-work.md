@@ -60,4 +60,4 @@ Some rules may apply to certain payment methods. For in3, the following rules ap
 
 * Different billing and shipping addresses may be entered by the consumer
 
-* Once a customer completes the first payment of an in3 order, the full payout will take place after 15 days.
+* Once a customer completes the first payment of an in3 order, the full [payout](/faq/general/glossary/#payout) will take place after 15 days.

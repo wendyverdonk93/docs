@@ -14,4 +14,4 @@ If a refund of a gift card payment has been requested, you could do so through y
 
 The amount deducted from a gift card to pay an order is not processed or received by MultiSafepay. MultiSafepay only receives a status notification of a successful payment.
 
-The payout is entirely provided by the [issuer](/faq/general/glossary/#issuer) of the gift card.
+The [payout](/faq/general/glossary/#payout) is entirely provided by the [issuer](/faq/general/glossary/#issuer) of the gift card.

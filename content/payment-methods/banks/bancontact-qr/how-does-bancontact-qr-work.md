@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 
 ## How it works
-A customer chooses to pay with Bancontact QR, authenticates their account and confirms to pay. Once a payment is completed, the payout is guaranteed and can not be reversed by the customer.
+A customer chooses to pay with Bancontact QR, authenticates their account and confirms to pay. Once a payment is completed, the [payout](/faq/general/glossary/#payout) is guaranteed and can not be reversed by the customer.
 
 The full API reference for Bancontact QR can be found [here](/api/#bancontact-qr)
 

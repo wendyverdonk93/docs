@@ -18,7 +18,7 @@ Betaal per Maand is an online payment method that allows customers to pay for on
 When a transaction has been accepted, the risk of the merchant is assumed entirely by Betaal per Maand, who will contact the customer with the payment details. The customer can select the most suitable payback period and ways to fulfill the monthly payment to Betaal per Maand.
 
 ## Payout
-The payout of a Betaal per Maand transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from Betaal per Maand. MultiSafepay will process the payout from a Betaal per Maand transaction within 5 business days.
+The [payout](/faq/general/glossary/#payout) of a Betaal per Maand transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from Betaal per Maand. MultiSafepay will process the payout from a Betaal per Maand transaction within 5 business days.
 
 ## Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -35,7 +35,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Uncleared   | Uncleared  | When a Betaal per Maand transaction is marked with the status uncleared, Betaal per Maand will authorize or decline the transaction. No action is required.   |
 | Uncleared   | Initialized | A payment has been initiated, but no payment has been received yet.  | 
 | Completed   | Uncleared  | A successful Betaal per Maand transaction has been received.   |
-| Shipped     | Uncleared  | A Capture has been send to Betaal per Maand, the transaction has been confirmed. An invoice will be send to the customer and your payout is guaranteed. |
+| Shipped     | Uncleared  | A Capture has been send to Betaal per Maand, the transaction has been confirmed. An invoice will be send to the customer and your [payout](/faq/general/glossary/#payout) is guaranteed. |
 | Shipped     | Completed  | Payout of a Betaal per Maand transaction has been received and added to your MultiSafepay Control balance.|
 | Declined    | Declined   | Transaction has been rejected by Betaal per Maand. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
 | Void        | Cancelled   | Transaction has been cancelled.  | 
@@ -76,7 +76,7 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 
  You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
 
-Changing the status to _Shipped_ allows Betaal per Maand to initiate the billing process towards the customer. Betaal per Maand will guarantee the payout of the transaction.
+Changing the status to _Shipped_ allows Betaal per Maand to initiate the billing process towards the customer. Betaal per Maand will guarantee the [payout](/faq/general/glossary/#payout) of the transaction.
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
 

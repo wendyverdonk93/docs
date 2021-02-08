@@ -18,6 +18,6 @@ By default the setup for payment reference is:
 
 * Merchant ID 
 * Transaction ID 
-* MultiSafepay Payout 
+* MultiSafepay [Payout](/faq/general/glossary/#payout) 
 * Merchant ID 
 * Date

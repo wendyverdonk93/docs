@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## How does it work?
-A customer chooses to pay with Giropay, selects their bank from the list of participants, authenticates their account and confirms the payment. Once a payment is completed, the payout is guaranteed and can not be reversed by the customer.
+A customer chooses to pay with Giropay, selects their bank from the list of participants, authenticates their account and confirms the payment. Once a payment is completed, the [payout](/faq/general/glossary/#payout) is guaranteed and can not be reversed by the customer.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

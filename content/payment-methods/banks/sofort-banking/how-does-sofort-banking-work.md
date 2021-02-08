@@ -8,7 +8,7 @@ read_more: '.'
 ## How it works
 A customer chooses to pay with SOFORT Banking, authenticates their account, and confirms to pay.
 
-* _Once a payment is completed, the payout is guaranteed and cannot be reversed by the customer_.
+* _Once a payment is completed, the [payout](/faq/general/glossary/#payout) is guaranteed and cannot be reversed by the customer_.
 
 ## Supported currencies
 

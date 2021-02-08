@@ -8,7 +8,7 @@ read_more: "."
 
 ## When will a payout be possibly delayed?
 
-During the year, payouts are sometimes put on hold due to Bank holidays and the exact dates differ per year.
+During the year, [payouts](/faq/general/glossary/#payment-service-provider-psp) are sometimes put on hold due to Bank holidays and the exact dates differ per year.
 
 MultiSafepay pays out every business day of the year (excluding weekends), although Bank holidays can delay payouts by a day or two. Since the days differ on a yearly basis, you can contact our Support team for more information regarding these specific dates at <support@multisafepay.com>
 

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## How it works
-Pay After Delivery is a payment method developed and managed by our own MultiSafepay developers. Therefore, the payout of the transaction is guaranteed by MultiSafepay.
+Pay After Delivery is a payment method developed and managed by our own MultiSafepay developers. Therefore, the [payout](/faq/general/glossary/#payout) of the transaction is guaranteed by MultiSafepay.
 
 Pay After Delivery is an online payment method that allows customers to pay for online purchases after receiving them. A special feature of post-payment is that customers are only charged for the items they keep from an order.
 
@@ -44,7 +44,7 @@ _A payment link is supplied in every invoice email we send to the customer_
 
 
 ### Payout transaction
-The payout of a Pay After Delivery transaction will be added onto your MultiSafepay Balance. A Pay After Delivery payout will be processed 30 days after changing the status to shipped.
+The [payout](/faq/general/glossary/#payout) of a Pay After Delivery transaction will be added onto your MultiSafepay Balance. A Pay After Delivery payout will be processed 30 days after changing the status to shipped.
 
 ## Delivery address
 MultiSafepay and [MultiFactor](https://www.multifactor.nl/voorwaarden/shipping-policies) do not support separate delivery and invoice addresses.
@@ -62,7 +62,7 @@ The transaction status indicates the payment status of the transaction, such as 
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Uncleared  | Uncleared  | When a Pay After Delivery transaction is marked with the status uncleared, Pay After Delivery will authorize or decline the transaction. No action is required.   |
 | Completed  | Uncleared  | A successful Pay After Delivery transaction has been placed.   |
-| Shipped    | Uncleared  | A capture has been sent to Pay After Delivery, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
+| Shipped    | Uncleared  | A capture has been sent to Pay After Delivery, the transaction has been confirmed. An invoice will be sent to the customer and your [payout](/faq/general/glossary/#payout) is guaranteed. |
 | Shipped    | Completed  | Payout of a Pay After Delivery transaction has been received and added to your MultiSafepay Control balance.|
 | Void       | Cancelled   | Transaction has been cancelled.  | 
 | Expired    | Expired    | When no action is being taken within 90 days of receiving a transaction with the payment method Pay After Delivery, the transaction will automatically expire. | 
