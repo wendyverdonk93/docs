@@ -1,5 +1,7 @@
 ---
-title : "MultiSafepay Transaction API"
+title : "Transaction API"
+layout : "single"
+tags : "hidden"
 ---
 
 ## Introduction
@@ -11,7 +13,6 @@ The Transaction API by MultiSafepay allows the possibility to automate your fina
 * _Completed orders_: orders received after my last check or between a period of GET completed orders
 * _All changes between a period_: this can be very useful to have financial insight into any given process.
 
-<br>
 
 ## Requirements
 
@@ -23,7 +24,6 @@ All requests to the MultiSafepay [API endpoint](https://api.multisafepay.com/v1/
 
 The HTTP header name for the API key is: api_key
 
-<br>
 
 ## Filters 
 
@@ -45,8 +45,6 @@ API Endpoint: https://api.multisafepay.com/v1/json/transactions
 | limit                               | Number of returned results                  |
 | next                              |  Next page URL                  |
 
-<br>
-
 ## Use cases
 
 ### Creating an overview
@@ -64,7 +62,6 @@ __Required parameters__
 | end:date/time              |  Transactions created to         |
 | end_epoch           |  Transactions created to (epoch)         |
 
-<br>
 
 ## Payouts
 
@@ -73,7 +70,6 @@ __Required parameters__
 * Gain insights into the complete batch of transactions for a specific payout
 * Management of your accounting and bookkeeping.
 
-<br>
 
 __Required parameters__
 
@@ -84,7 +80,6 @@ __Required parameters__
 | end_epoch           |  Transactions created to (epoch)         |
 | financial_status           |  Completed         |
 
-<br>
 
 ## Reconciliation
 
@@ -100,8 +95,6 @@ _I want to match mutations that belong to eachother, so that the balance in my a
 | type (transaction type)          |  GET all __or__ separately: admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit, fastcheckout, monthly_fee, payment, refund, reverse_chargeback, signup_fee         |
 | financial_status           |  Completed         |
 
-<br>
-
 ## Refunds
 
 _I would like to see the refunds associated with customer returns_
@@ -116,7 +109,6 @@ _I would like to see the refunds associated with customer returns_
 | end_epoch          |  Transactions created to epoch         |
 | type (transaction type)           |  Refund         |
 
-<br>
 
 
 ## Support
