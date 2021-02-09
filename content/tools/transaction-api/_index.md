@@ -6,7 +6,7 @@ tags : "hidden"
 
 ## Introduction
 
-The Transaction API by MultiSafepay allows the possibility to automate your financial processes by matching records at a transaction level. Furthermore, the API is easy to implement in your environment. This way, you have less manual administrative work and financial data that is correct in your accounting. The possible use cases with this API consist of four possibilities:
+Our Transaction API endpoint allows you to automate your financial processes by matching records at a transaction level. This saves manual administrative work and standardizes your business operations. This page provides information about the endpoint and its parameters. To get started using the transactions API endpoint, let's examine four common use cases:
 
 * _Reconciliation_: financial movements in a period / after last call opening and closing balances
 * _Transactions in a payout_: when a merchant receives a payout he want to know what payments are in this payout
@@ -63,7 +63,7 @@ __Required parameters__
 | end_epoch           |  Transactions created to (epoch)         |
 
 
-## Payouts
+### Payouts
 
  _I want to have a overview of the payout file containing all transaction ID's so I am able to gain insights to the payout moments and all corresponding transactions._
 
@@ -81,7 +81,7 @@ __Required parameters__
 | financial_status           |  Completed         |
 
 
-## Reconciliation
+### Reconciliation
 
 _I want to match mutations that belong to eachother, so that the balance in my accounting or bookkeeping can be explained._
 
@@ -95,7 +95,7 @@ _I want to match mutations that belong to eachother, so that the balance in my a
 | type (transaction type)          |  GET all __or__ separately: admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit, fastcheckout, monthly_fee, payment, refund, reverse_chargeback, signup_fee         |
 | financial_status           |  Completed         |
 
-## Refunds
+### Refunds
 
 _I would like to see the refunds associated with customer returns_
 
