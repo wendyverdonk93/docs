@@ -24,12 +24,43 @@ All requests to the MultiSafepay [API endpoint](https://api.multisafepay.com/v1/
 
 The HTTP header name for the API key is: api_key
 
+## API endpoint functionality
+
+The API call to the endpoint (https://api.multisafepay.com/v1/json/transactions) will retrieve a list of all transactions based on a number of parameters. These parameters can also be used as filters to exclude and/or include information in the request that you may require. An example of an unfiltered transaction in the JSON format can be seen below:
+
+```
+{
+  "data": [
+    {
+      "amount": 0,
+      "completed": "string",
+      "costs": [
+        null
+      ],
+      "created": "string",
+      "currency": "string",
+      "debit_credit": "D",
+      "description": "string",
+      "financial_status": "string",
+      "invoice_id": "string",
+      "order_id": "string",
+      "payment_method": "string",
+      "site_id": 0,
+      "status": "string",
+      "transaction_id": 0,
+      "type": "string",
+      "var1": "string",
+      "var2": "string",
+      "var3": "string"
+    }
+  ],
+  "success": true
+}
+```
 
 ## Filters 
 
 The following parameters can be used to filter requests and retrieve information through a GET request:
-
-API Endpoint: https://api.multisafepay.com/v1/json/transactions
 
 | Parameter | Description                  |
 |------------------|-----------------------|
