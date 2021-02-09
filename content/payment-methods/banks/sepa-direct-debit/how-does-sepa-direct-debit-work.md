@@ -8,7 +8,7 @@ read_more: '.'
 ## How does it work?
 As the merchant files the SEPA Direct Debit request, an order with status _initialized_ will be created (after MultiSafepay has conducted a background check on the provided customer data).
 
-Every night, all SEPA Direct Debits will be sent to our bank and the status will change to _uncleared_.
+Every night, all SEPA Direct Debits will be sent to our bank and the status will change to [uncleared](/faq/general/glossary/#uncleared)
 From this moment on, it is no longer possible to cancel the transaction.
 
 The next business day, we will receive the first feedback from our bank in case of a wrong IBAN or BIC.

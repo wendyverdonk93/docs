@@ -16,7 +16,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 The Second Chance email cannot be activated and/or sent to the customer when the transaction status of the original transaction states:
 
-* _Uncleared_
+* _[Uncleared](/faq/general/glossary/#uncleared)_
 * _Completed_.
 
 **Excluded payment methods**      

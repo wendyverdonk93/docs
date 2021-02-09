@@ -32,7 +32,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Uncleared   | Uncleared  | When a Betaal per Maand transaction is marked with the status uncleared, Betaal per Maand will authorize or decline the transaction. No action is required.   |
+| Uncleared   | Uncleared  | When a Betaal per Maand transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), Betaal per Maand will authorize or decline the transaction. No action is required.   |
 | Uncleared   | Initialized | A payment has been initiated, but no payment has been received yet.  | 
 | Completed   | Uncleared  | A successful Betaal per Maand transaction has been received.   |
 | Shipped     | Uncleared  | A Capture has been send to Betaal per Maand, the transaction has been confirmed. An invoice will be send to the customer and your [payout](/faq/general/glossary/#payout) is guaranteed. |

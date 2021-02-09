@@ -62,5 +62,5 @@ See all the user rights explained below:
 
 ### Uncleared
 
-* Able to accept or decline uncleared transactions.
+* Able to accept or decline [uncleared](/faq/general/glossary/#uncleared) transactions.
 

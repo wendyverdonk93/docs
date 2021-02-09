@@ -7,7 +7,7 @@ read_more: "."
 
 ## Credit card payments with an Uncleared status
 
-The 'uncleared' status can be assigned to any credit card payment. In this case, the payment is placed ‘on hold’ by the MultiSafepay fraud filter. Transactions with the status ‘uncleared’ must be evaluated and either accepted or refused by the merchant. We would like to emphasize that our automated fraud filter detects an increased risk of fraud, but it does not prevent all fraudulent payments. On the other hand, not every credit card payment detected by our fraud filter is necessarily a fraudulent payment.
+The [uncleared](/faq/general/glossary/#uncleared) status can be assigned to any credit card payment. In this case, the payment is placed ‘on hold’ by the MultiSafepay fraud filter. Transactions with the status ‘uncleared’ must be evaluated and either accepted or refused by the merchant. We would like to emphasize that our automated fraud filter detects an increased risk of fraud, but it does not prevent all fraudulent payments. On the other hand, not every credit card payment detected by our fraud filter is necessarily a fraudulent payment.
 
 ## Why should you check the transaction? 
 

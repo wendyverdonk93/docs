@@ -14,7 +14,7 @@ After creating a test account, you will be able to test several functionalities 
 
 * __Dashboard__: Overview of website sales, recent transactions and account balances.
 * __Finance__: Select when you would like to be paid out and fund your account manually.
-* __Transactions__: A clear overview of your transactions and uncleared transactions.
+* __Transactions__: A clear overview of your transactions and [uncleared](/faq/general/glossary/#uncleared) transactions.
 * __Settings__: Customize a number of functionalities of your website including e.g. email templates and payment methods.
 * __Reports__: Create advanced financial reports tailored to your requirements.
 * __Tools__: Handy tools including a Payment link generator and logo designer

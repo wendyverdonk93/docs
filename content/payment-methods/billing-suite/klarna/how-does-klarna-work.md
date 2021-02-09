@@ -35,7 +35,7 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-{{< alert-notice >}} From May 11th onwards, a Klarna transaction will no longer have the status _Initialized_ after acceptance of an order. This will be replaced by the status _Uncleared_ and will be changed to _Completed_ after shipment of the order and payment settlement from Klarna. Following this, the funds will be added to your account. If you have any questions regarding this change please contact <support@multisafepay.com> {{< /alert-notice >}} 
+{{< alert-notice >}} From May 11th onwards, a Klarna transaction will no longer have the status _Initialized_ after acceptance of an order. This will be replaced by the status [Uncleared](/faq/general/glossary/#uncleared) and will be changed to _Completed_ after shipment of the order and payment settlement from Klarna. Following this, the funds will be added to your account. If you have any questions regarding this change please contact <support@multisafepay.com> {{< /alert-notice >}} 
 
 
 | Order Status                      | Transaction Status      | Description |

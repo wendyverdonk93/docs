@@ -40,7 +40,7 @@ MultiSafepay provides a test platform for American Express transactions. By ente
 | ------------------- | --------- | ------------------------ |
 | 378282246310005  | Completed | Transaction is Completed (not 3D enrolled) |
 | 374200000000004  | Declined  | Transaction is Declined |
-| 378734493671000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+| 378734493671000  | Uncleared | Transaction is [Uncleared](/faq/general/glossary/#uncleared) (after 3 minutes it is changed to Void) |
 
 ## Apple Pay
 
@@ -312,7 +312,7 @@ MultiSafepay provides a test platform for Visa transactions. By entering a test 
 | ------------------- | --------- | ------------------------ |
 | 4111111111111111 | Completed | Transaction is Completed (3D enrolled) |
 | 4012001038443335 | Completed | Transaction is Completed (not 3D enrolled) |
-| 4917300000000008 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+| 4917300000000008 | Uncleared | Transaction is [Uncleared](/faq/general/glossary/#uncleared) (after 3 minutes it is changed to Void) |
 | 4462000000000003 | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Completed) |
 | 4012001037461114 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 4012001038488884 | Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |

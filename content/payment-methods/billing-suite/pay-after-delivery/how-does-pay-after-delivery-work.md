@@ -60,7 +60,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Uncleared  | Uncleared  | When a Pay After Delivery transaction is marked with the status uncleared, Pay After Delivery will authorize or decline the transaction. No action is required.   |
+| Uncleared  | Uncleared  | When a Pay After Delivery transaction is marked with the status [uncleared](/faq/general/glossary/#uncleared), Pay After Delivery will authorize or decline the transaction. No action is required.   |
 | Completed  | Uncleared  | A successful Pay After Delivery transaction has been placed.   |
 | Shipped    | Uncleared  | A capture has been sent to Pay After Delivery, the transaction has been confirmed. An invoice will be sent to the customer and your [payout](/faq/general/glossary/#payout) is guaranteed. |
 | Shipped    | Completed  | Payout of a Pay After Delivery transaction has been received and added to your MultiSafepay Control balance.|
