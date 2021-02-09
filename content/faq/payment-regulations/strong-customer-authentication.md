@@ -32,7 +32,7 @@ The deadline to be SCA compliant is __01-01-2021__, whereby you are expected to 
 
 ### What impact does SCA have on my business?
 
-There will be no significant changes or impact to your business. Your configuration within the MultiSafepay Control will remain the same unless you have Server-to-Server enabled. Be rest assured that MultiSafepay will take care of the rest to ensure the process runs smoothly.
+There will be no significant changes or impact to your business. Your configuration within the [MultiSafepay Control](https://merchant.multisafepay.com/) will remain the same unless you have Server-to-Server enabled. Be rest assured that MultiSafepay will take care of the rest to ensure the process runs smoothly.
 
 Customers may encounter 2FA for payment methods which do not already have it enabled during checkout, therefore an additional step will be required for a customer when completing a payment.
 

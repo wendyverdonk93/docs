@@ -42,7 +42,7 @@ The rules regarding surcharging customers outside the European Union remain unch
 
 ### Do I need to perform any change within the MultiSafepay Control?
 
-If you are currently surcharging payment fees which are no longer allowed according to the new PSD2, you may need to update your settings in the backend of your website. Please get in contact with the support department of the webshop plugin or your web developer to assist you further. You do not need to change any settings in your MultiSafepay Control.
+If you are currently surcharging payment fees which are no longer allowed according to the new PSD2, you may need to update your settings in the backend of your website. Please get in contact with the support department of the webshop plugin or your web developer to assist you further. You do not need to change any settings in your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 ### Do I need to do anything if I do not apply surcharges?
 

@@ -8,7 +8,7 @@ MultiSafepay will ask you to submit a number of documents in order to fully acti
 
 * Copy of a Chamber of Commerce extract
 * Copy of valid ID of the directors and/or persons with an interest of 25 percent (or more) in a company, e.g. via shares, control, or profit sharing. We advise you to use the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on your passport or ID
-* A payment in the amount of 1 EUR transferred from your business bank account (you can initiate this procedure in MultiSafepay Control). Alternatively, you can provide a copy of a bank statement/screenshot taken in your online banking environment including IBAN and company name. Important: the company name on your bank statement must be an exact match with one of the trade names on your Chamber of Commerce extract
+* A payment in the amount of 1 EUR transferred from your business bank account (you can initiate this procedure in [MultiSafepay Control](https://merchant.multisafepay.com/)). Alternatively, you can provide a copy of a bank statement/screenshot taken in your online banking environment including IBAN and company name. Important: the company name on your bank statement must be an exact match with one of the trade names on your Chamber of Commerce extract
 * Signed MultiSafepay Agreement for processing online payments. We kindly request you sign/fill in both pages.
 
 Additionally, we kindly request you to list the following information on your website(s):

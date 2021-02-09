@@ -74,7 +74,7 @@ All incoming and outgoing transactions are processed in Euros (EUR) as standard 
 
 ### Add multi-currency business bank account to your MultiSafepay Control
 
-When you request an extra currency to be added to your MultiSafepay Control, you need to follow a few steps in order to ensure transactions can be processed in that particular currency and that no currency conversion is needed:
+When you request an extra currency to be added to your [MultiSafepay Control](https://merchant.multisafepay.com/), you need to follow a few steps in order to ensure transactions can be processed in that particular currency and that no currency conversion is needed:
 
 1. Add a business bank account in your MultiSafepay Control that is able to receive the currency. This can be done through Finance -> Balance -> Add bank account
 

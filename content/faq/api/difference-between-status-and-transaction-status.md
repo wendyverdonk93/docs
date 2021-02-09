@@ -13,7 +13,7 @@ On [API](/api) level, this is illustrated as:
     "financial_status": "",
 ```
 
-The _status_ is related status of the webshop order. In your MultiSafepay Control, this is referred to as the _Order Status_.
+The _status_ is related status of the webshop order. In your [MultiSafepay Control](https://merchant.multisafepay.com/), this is referred to as the _Order Status_.
 
 The _financial status_ is related to the [payout](/faq/general/glossary/#payout) of the transaction. In your MultiSafepay Control, this is referred to as the _Status_.
 

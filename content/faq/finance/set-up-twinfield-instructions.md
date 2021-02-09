@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-In order to be able to import an accountant export from your MultiSafepay Control into your Twinfield account, you will need to provide an additional international bank account number (IBAN). However, bear in mind that this is just for Twinfield to be able to process this kind of operation and the account number can therefore be a "dummy" account. 
+In order to be able to import an accountant export from your [MultiSafepay Control](https://merchant.multisafepay.com/) into your Twinfield account, you will need to provide an additional international bank account number (IBAN). However, bear in mind that this is just for Twinfield to be able to process this kind of operation and the account number can therefore be a "dummy" account. 
 
 ## How to "create" a dummy IBAN
 

@@ -29,7 +29,7 @@ When you accept payments by credit card, there are risks associated with it. The
 
 
 ## Reviewing an uncleared payment
-When a credit card transaction marked with the status _uncleared_ is received, an _uncleared_ status notification is sent to the backend of the webshop. The notification is also visible in your MultiSafepay Control. You will be able to see an alert indicating that uncleared payments are awaiting your approval. Click on the notification to go to the list of uncleared payments, then click on a transaction to open it. In this screen you will see the basic information of the transaction and a risk summary on the right. Here you will also find the buttons to accept or decline the transaction. To view a detailed risk report, click on the _more information_ button when reviewing a transaction in MultiSafepay Control.
+When a credit card transaction marked with the status _uncleared_ is received, an _uncleared_ status notification is sent to the backend of the webshop. The notification is also visible in your [MultiSafepay Control](https://merchant.multisafepay.com/) You will be able to see an alert indicating that uncleared payments are awaiting your approval. Click on the notification to go to the list of uncleared payments, then click on a transaction to open it. In this screen you will see the basic information of the transaction and a risk summary on the right. Here you will also find the buttons to accept or decline the transaction. To view a detailed risk report, click on the _more information_ button when reviewing a transaction in MultiSafepay Control.
 
 Under the contact details in your MultiSafepay Control, you can add an email address to enable receiving email notifications informing you about received uncleared transactions.
 

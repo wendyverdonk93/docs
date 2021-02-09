@@ -15,7 +15,7 @@ When you accept payments by credit card, there are risks associated with it. The
 
 ## Reviewing an uncleared payment
 
-When you log in on MultiSafepay Control, you will see an alert indicating that uncleared payments are awaiting your approval. Click on the notification to go to the list of uncleared payments, then click on a transaction to open it. On this screen you will see the basic information of the transaction and a risk summary on the right. Here you will also find the buttons to accept or decline the transaction. For transactions with a high risk score (score from 8), please contact MultiSafepay in order to evaluate and approve or decline the transaction. To view a detailed risk report, click on the button ‘more information’ when reviewing a transaction in MultiSafepay Control.
+When you log in on [MultiSafepay Control]((https://merchant.multisafepay.com/)), you will see an alert indicating that uncleared payments are awaiting your approval. Click on the notification to go to the list of uncleared payments, then click on a transaction to open it. On this screen you will see the basic information of the transaction and a risk summary on the right. Here you will also find the buttons to accept or decline the transaction. For transactions with a high risk score (score from 8), please contact MultiSafepay in order to evaluate and approve or decline the transaction. To view a detailed risk report, click on the button ‘more information’ when reviewing a transaction in MultiSafepay Control.
 
 ## Evaluate the Transaction Amount
 
