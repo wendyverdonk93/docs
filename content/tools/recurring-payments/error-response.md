@@ -10,7 +10,7 @@ In some cases it may occur that an error is received as response on the recurrin
 ### 1000 Error explained
 Transaction not allowed. 
 
-Payment method is disabled or not available. Contact our Integration Team at <integration@multisafepay.com> to validate and/or check the settings in your MultiSafepay Control. 
+Payment method is disabled or not available. Contact our Integration Team at <integration@multisafepay.com> to validate and/or check the settings in your [MultiSafepay Control](https://merchant.multisafepay.com/) 
 
 ### Causes 
 A 1000 error indicates that MultiSafepay does not allow the payment. The payment is blocked due to fraud or other settings set in your MultiSafepay Control.

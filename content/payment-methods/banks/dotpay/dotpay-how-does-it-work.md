@@ -8,7 +8,7 @@ read_more: '.'
 ## How does it work?
 Dotpay is a payment method for Polish customers. Customers can choose their own bank in order to pay with Dotpay.
 
-If the transaction is approved by Dotpay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
+If the transaction is approved by Dotpay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

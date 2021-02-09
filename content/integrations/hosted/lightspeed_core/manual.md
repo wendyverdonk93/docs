@@ -12,7 +12,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 1. Login into your backend and navigate to _Settings_ -> _Payment Providers_
 2. Click on _Add Payment Provider_ and select MultiSafepay
 3. Enter your Site security code, Site ID & Account ID. {{% account_info %}}
-Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner
+Your Account ID is shown in the dashboard of your [MultiSafepay Control](https://merchant.multisafepay.com/) in the top right corner
 4. Select the payment methods you would like to offer.
 
 ### 2. Congratulations

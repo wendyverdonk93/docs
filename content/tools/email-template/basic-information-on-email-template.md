@@ -14,7 +14,7 @@ MultiSafepay offers a number of options for sending a standard email, for exampl
 > MultiSafepay is unable to customize payment pages or email templates for you, although if you do encounter functionality issues, please contact us at <integration@multisafepay.com>
 
 ## Set a template
-An email template can be set within your MultiSafepay Control under: _**Settings -> Email template -> Select a website -> Add new template.**_ 
+An email template can be set within your [MultiSafepay Control](https://merchant.multisafepay.com/) under: _**Settings -> Email template -> Select a website -> Add new template.**_ 
 
 The email template has a view options available. A list of the options available are shown and explained below:
 

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## How it works
-If the transaction is approved by TrustPay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
+If the transaction is approved by TrustPay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

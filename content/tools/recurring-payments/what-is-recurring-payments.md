@@ -46,7 +46,7 @@ When a customer revoked the payment.
 ## 3. Requirements
 In order to use the recurring payments functionality, you need to have the following:
 
-* An active MultiSafepay Control account  
+* An active [MultiSafepay Control]((https://merchant.multisafepay.com/)) account  
 
 * Recurring payments enabled by the Risk Team of MultiSafepay in MultiSafepay Control.
 

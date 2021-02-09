@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 # How it works
-Once E-Invoicing is activated in your MultiSafepay Control, you will need to set it up correctly. Firstly, an action needs to be created. An action will be set as email, text or letter. Multiple actions will become a collection flow. 
+Once E-Invoicing is activated in your [MultiSafepay Control](https://merchant.multisafepay.com/), you will need to set it up correctly. Firstly, an action needs to be created. An action will be set as email, text or letter. Multiple actions will become a collection flow. 
 
 A collection flow needs to be linked to a website to be activated. When the collection flow is activated, E-Invoicing will be ready for use as payment method. 
 

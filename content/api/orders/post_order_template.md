@@ -132,7 +132,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Dynamic Template
 
-You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay Control or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
+You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your [MultiSafepay Control](/faq/general/glossary/#multisafepay-control) or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
 
 The template object structure needs to include the [JSON](/faq/general/glossary/#json) CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
 

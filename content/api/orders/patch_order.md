@@ -73,7 +73,7 @@ Add a short free text memo to the order when setting the shipping status.
 ----------------
 __invoice_id__ | string
 
-Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control.
+Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within [MultiSafepay Control(/faq/general/glossary/#multisafepay-control)
 
 ----------------
 __invoice_url__ | string

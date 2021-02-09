@@ -15,7 +15,7 @@ Enabling 2FA is a two-step process. First, a user with administrator rights enab
 ### Step 1: The administrator's steps
 Please note that only a user with administrator rights can perform these steps:  
 
-1. Open the [User Management](https://merchant.multisafepay.com/user-management) page in your MultiSafepay Control
+1. Open the [User Management](https://merchant.multisafepay.com/user-management) page in your [MultiSafepay Control]((https://merchant.multisafepay.com/))
 2. Open a user's details by clicking their name
 3. Click the drop-down list *Two-factor* and select *Enable*
 4. Click *Save changes*

@@ -28,7 +28,7 @@ Apple Pay transactions received by MultiSafepay will be processed through our fr
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated to initialize an Apple Pay payment, but no payment has yet been received.  | 
-| Completed   | Completed   | A successful Apple Pay transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
+| Completed   | Completed   | A successful Apple Pay transaction has been received and the funds will be added to your [MultiSafepay Control](/faq/general/glossary/#multisafepay-control) balance.   | 
 | Uncleared   | Uncleared   |  Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction)  | 
 | Declined    | Declined    | Rejected by the issuing bank. Read more about the reason why the transaction is declined in [what does this mean?](/faq/general/declined-status) | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 

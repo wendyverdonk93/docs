@@ -21,7 +21,7 @@ When a transaction has been accepted, the risk of the merchant is assumed entire
 ## Delivery address    
 AfterPay accepts a difference in invoice and delivery address. However, a different delivery address or pick up address is only forwarded if both the first and last name of the customer share at least two characters. 
 
-The transaction in your MultiSafepay Control will only show the customer information (invoice address). The transaction details can be retrieved through a _GET request_. More information can be found on the [API documenation](/api/#retrieve-an-order) page. 
+The transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/) will only show the customer information (invoice address). The transaction details can be retrieved through a _GET request_. More information can be found on the [API documenation](/api/#retrieve-an-order) page. 
 
 
 ## Payout AfterPay transaction

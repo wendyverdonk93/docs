@@ -20,6 +20,6 @@ Please follow these steps to refund a SOFORT Banking transaction:
 
 The transaction status is now _initialized_. As long as the transaction status is marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day.
 
-A refund will only be processed if your balance on your MultiSafepay Control is positive.
+A refund will only be processed if your balance on your [MultiSafepay Control](https://merchant.multisafepay.com/) is positive.
 
 In the event of a failed SOFORT Banking refund, please contact our support team at <support@multisafepay.com> to assist you.

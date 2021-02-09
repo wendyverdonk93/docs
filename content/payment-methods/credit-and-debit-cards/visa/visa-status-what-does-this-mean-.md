@@ -10,7 +10,7 @@ If a Visa payment of a customer receives the status _declined_, it may be for se
 
 For questions about credit card payments and/or a payment status (of a credit card transaction), please contact us at <support@multisafepay.com>
 
-In most cases the declined reason is shown behind the declined status within the transaction in your MultiSafepay Control. 
+In most cases the declined reason is shown behind the declined status within the transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 | Transaction status | Reason | Description |
 ------- |----------|---------|

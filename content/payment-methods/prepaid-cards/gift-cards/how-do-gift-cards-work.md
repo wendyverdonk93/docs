@@ -31,14 +31,15 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet.  | 
-| Completed   | Completed   | A successful Gift card transaction has been received. A payout of a Gift card transaction will be processed by the issuer of the Gift card.   | 
+| Completed   | Completed   | A successful Gift card transaction has been received. A [payout](/faq/general/glossary/#payout
+) of a Gift card transaction will be processed by the issuer of the Gift card.   | 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 * In case of full payments by means of gift cards, the transaction status will remain _initialized_ in spite of the transaction being **completed**.
 
 #### Request refund 
-Transactions that are paid in full by means of gift card cannot be refunded via MultiSafepay Control, as there are no available payment details. Therefore, it is advised to process the refund through your own banking environment. 
+Transactions that are paid in full by means of gift card cannot be refunded via [MultiSafepay Control](https://merchant.multisafepay.com/), as there are no available payment details. Therefore, it is advised to process the refund through your own banking environment. 
 
 
 ### Product rules
