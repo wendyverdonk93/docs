@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## How it works
-V Pay payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your [MultiSafepay Control]((https://merchant.multisafepay.com/)) to process a V Pay payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
+V Pay payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your [MultiSafepay Control](https://merchant.multisafepay.com/) to process a V Pay payment. Submit your request to enable credit cards (Visa, Mastercard and Maestro) to your account manager or contact us at <sales@multisafepay.com>
 
 A V Pay payment is always validated with the [3D secure](/faq/general/glossary/#3d-secure) code. 3D secure verification is deemed mandatory by V Pay.
 

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-Split Payments allow a merchant to spread a transaction amount over several [MultiSafepay Control]((https://merchant.multisafepay.com/)) accounts. This way, you could for instance charge a fee for use of your platform to other parties. Goods from several online webshops can be charged in a single customer transaction. 
+Split Payments allow a merchant to spread a transaction amount over several [MultiSafepay Control](https://merchant.multisafepay.com/) accounts. This way, you could for instance charge a fee for use of your platform to other parties. Goods from several online webshops can be charged in a single customer transaction. 
 
 Merchants can choose to split payments based on percentage, fixed amount or a combination of the two. 
 
