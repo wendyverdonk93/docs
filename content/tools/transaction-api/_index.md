@@ -10,8 +10,8 @@ Our Transaction API endpoint allows you to automate your financial processes by 
 
 * **Reconciliation**: financial movements in a period / after last call opening and closing balances
 * **Transactions in a payout**: when a merchant receives a payout he want to know what payments are in this payout
-* _Completed orders_: orders received after my last check or between a period of GET completed orders
-* _All changes between a period_: this can be very useful to have financial insight into any given process.
+* **Completed orders**: orders received after my last check or between a period of GET completed orders
+* **All changes between a period**: this can be very useful to have financial insight into any given process.
 
 
 ## Requirements
@@ -20,13 +20,13 @@ The [TEST environment](https://testmerchant.multisafepay.com/) and [LIVE environ
 
 The TEST environment is useful for developing and testing a new integration with our API, as no real transactions are processed. Once the integration has been developed, processing real transactions is as simple as addressing the LIVE API and updating the API key being used.
 
-All requests to the MultiSafepay [API endpoint](https://api.multisafepay.com/v1/json/transactions) require authentication. Authentication is provided by including your API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, make sure to use the correct corresponding key for each one of them. The API key can be found under the website settings in [MultiSafepay Control](https://merchant.multisafepay.com/)
+All requests to the MultiSafepay API endpoint require authentication. Authentication is provided by including your API key as an HTTP header in your request. Each website has its own API key so if you are operating multiple websites, make sure to use the correct corresponding key for each one of them. The API key can be found under the website settings in [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 The HTTP header name for the API key is: api_key
 
 ## API endpoint functionality
 
-The API call to the endpoint (https://api.multisafepay.com/v1/json/transactions) will retrieve a list of all transactions based on a number of parameters. These parameters can also be used as filters to exclude and/or include information in the request that you may require. An example of an unfiltered transaction in the JSON format can be seen below:
+The API call to the endpoint retrieves an array of all transactions. Use parameters in the API call to filter the list to include only the transactions relevant to your business operation. The array of transactions returned by this call are formatted as follows:
 
 ```
 {
@@ -144,4 +144,4 @@ _I would like to see the refunds associated with customer returns_
 
 ## Support
 
-If you encounter any issues, problems or questions, you can create an issue on this repository or contact us at <integration@multisafepay.com>
+If you encounter any issues, problems, or questions, you can [create an issue](https://github.com/MultiSafepay/docs/blob/master/content/tools/transaction-api/) on this repository or contact us at <integration@multisafepay.com>
