@@ -9,7 +9,7 @@ tags : "hidden"
 Our Transaction API endpoint allows you to automate your financial processes by matching records at a transaction level. This saves manual administrative work and standardizes your business operations. This page provides information about the endpoint and its parameters. To get started using the transactions API endpoint, let's examine four common use cases:
 
 * **Reconciliation**: financial movements in a period / after last call opening and closing balances
-* _Transactions in a payout_: when a merchant receives a payout he want to know what payments are in this payout
+* **Transactions in a payout**: when a merchant receives a payout he want to know what payments are in this payout
 * _Completed orders_: orders received after my last check or between a period of GET completed orders
 * _All changes between a period_: this can be very useful to have financial insight into any given process.
 
