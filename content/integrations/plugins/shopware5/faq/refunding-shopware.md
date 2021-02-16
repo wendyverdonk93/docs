@@ -6,4 +6,4 @@ read_more: "."
 ---
 Yes, you can refund directly from your backend within Shopware 5. You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com).
 
-_Please note: It is not possible to issue refunds for [post-paid](https://docs.multisafepay.com/payment-methods/billing-suite/) payment methods._
+_Please note: It is not possible to issue refunds for [post-paid](https://docs.multisafepay.com/payment-methods/billing-suite) payment methods._

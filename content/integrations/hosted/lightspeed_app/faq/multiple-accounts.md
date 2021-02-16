@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-No, you can only have one account per store for our [Lightspeed plugin](https://lightspeed.multisafepay.com/)
+No, you can only have one account per store for our [Lightspeed plugin](https://lightspeed.multisafepay.com)

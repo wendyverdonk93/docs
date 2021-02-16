@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-If you are using the old [core Lightspeed MultiSafepay payment integration](https://docs.multisafepay.com/integrations/hosted/lightspeed_core/):
+If you are using the old [core Lightspeed MultiSafepay payment integration](https://docs.multisafepay.com/integrations/hosted/lightspeed_core):
 
 1. Complete the steps mentioned in the [manual](/integrations/hosted/lightspeed_app/#manual) to install the Lightspeed app
 
