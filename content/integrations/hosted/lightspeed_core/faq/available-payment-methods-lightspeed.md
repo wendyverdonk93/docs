@@ -14,7 +14,7 @@ read_more: "."
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3/)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
@@ -26,8 +26,8 @@ read_more: "."
 
 __Gift cards__
 
-+ Fashioncheque
-+ Fashion gift card
-+ VVV gift card
-+ Webshop gift card
-+ YourGift gift card
++ [Fashion Cheque](https://www.fashioncheque.com/nl)
++ [Fashion gift card](https://www.fashion-giftcard.nl)
++ [VVV gift card](https://www.vvvcadeaukaarten.nl)
++ [Webshop gift card](https://www.webshopgiftcard.nl)
++ [Yourgift](yourgift.nl)
