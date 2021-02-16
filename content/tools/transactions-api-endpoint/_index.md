@@ -158,4 +158,4 @@ Use parameters `end` and `start` to specify a range of dates.
 
 ## Support
 
-If you have any issues or questions, [contact our integration team](mailto:integration@multisafepay.com)
+If you have any issues or questions, [contact our Integration team](mailto:integration@multisafepay.com)
