@@ -49,4 +49,6 @@ Some rules may apply to certain payment methods. For TrustPay, the following rul
 
 * TrustPay transactions are processed in [Czech Koruna (CZK)](/faq/general/which-currencies-are-supported-by-multisafepay) 
    
- 
+ ## Testing
+
+Unfortunatley it is not possible to test with Trustpay. However, you will still be able to place live test transactions (e.g. 0,01 EUR amounts) to be visible in your [MultiSafepay Control](https://merchant.multisafepay.com/)

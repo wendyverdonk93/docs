@@ -46,4 +46,4 @@ _MultiSafepay does not allow you to refund more than the stated amount of the or
 
 ## Testing
 
-Unfortunatley it is not possible to test with Postepay. However, you will still be able to place test transactions (e.g. 0,01 EUR amounts) in your [MultiSafepay Control](https://merchant.multisafepay.com/)
+Unfortunatley it is not possible to test with Postepay. However, you will still be able to place live test transactions (e.g. 0,01 EUR amounts) to be visible in your [MultiSafepay Control](https://merchant.multisafepay.com/)

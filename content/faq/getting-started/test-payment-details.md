@@ -57,6 +57,10 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 | 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
 
+## Bancontact QR
+
+Unfortunatley it is not possible to test with Bancontact QR. However, you will still be able to place live test transactions (e.g. 0,01 EUR amounts) to be visible in your [MultiSafepay Control](https://merchant.multisafepay.com/)
+
 ## BankTransfer
 
 MultiSafepay provides a test platform for bank transfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
@@ -196,6 +200,10 @@ MultiSafepay provides a test platform for iDEAL transactions. During the payment
 | Initialized/Declined  | Transaction is Initialized (after 1 minute it is changed to Declined) |
 
 
+## iDEAL QR
+
+Unfortunatley it is not possible to test with iDEAL QR. However, you will still be able to place live test transactions (e.g. 0,01 EUR amounts) to be visible in your [MultiSafepay Control](https://merchant.multisafepay.com/)
+
 ## ING Home'Pay 
 
 MultiSafepay provides a test platform for ING Home'Pay transactions. During the payment process you will be able to simulate the outcome of the transaction.
@@ -291,6 +299,10 @@ MultiSafepay provides a test platform for SOFORT Banking transactions. During th
 | --------- | ------------------------ |
 | Completed | Transaction is Completed |
 | Cancelled | Transaction is Cancelled |
+
+## Trustpay
+
+Unfortunatley it is not possible to test with Trustpay. However, you will still be able to place live test transactions (e.g. 0,01 EUR amounts) to be visible in your [MultiSafepay Control](https://merchant.multisafepay.com/)
 
 ## Trustly 
 
