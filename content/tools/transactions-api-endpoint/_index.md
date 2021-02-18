@@ -6,7 +6,7 @@ tags : "hidden"
 
 ## Introduction
 
-The transactions API endpoint returns the data of transactions under your account. Using this endpoint, you can automate business operations by matching records at a transaction level. This page provides information about the endpoint and its usage.
+The transactions API endpoint returns the data of transactions that are associated with your account. Using this endpoint, you can automate business operations by matching records at a transaction level. This page provides information about the endpoint and its usage.
 
 To get started, we examine four common use cases:
 
