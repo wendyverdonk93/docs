@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/oscommerce/manual/]
 ---
 
-### Introduction
+## Introduction
 
 {{% introduction_plugin "OsCommerce" %}}
 

@@ -33,7 +33,7 @@ Maestro (debit card) transactions received by MultiSafepay will be processed thr
 | 
 
 
-#### Refund flow 
+### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

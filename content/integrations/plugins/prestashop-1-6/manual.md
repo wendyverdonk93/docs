@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/prestashop-1-6/manual/]
 ---
 
-### Introduction
+## Introduction
 
 {{% introduction_plugin "PrestaShop 1.6" %}}
 

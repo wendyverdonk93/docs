@@ -44,7 +44,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Declined      | Declined       | Rejected during uncleared period.   |
 | Cancelled      | Cancelled       | Transaction has been cancelled or incorrectly entered by webshop
 
-#### Refund flow
+### Refund flow
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

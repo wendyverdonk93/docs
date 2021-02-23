@@ -7,7 +7,7 @@ aliases:
   - /faq/general/can-i-use-multisafepay-with-wix/
 ---
 
-### Introduction
+## Introduction
 
 {{% introduction_hosted "Ecwid" %}}
 

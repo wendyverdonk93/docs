@@ -15,7 +15,7 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+## Supported export formats
 
 King Business Software supports one export format:
 

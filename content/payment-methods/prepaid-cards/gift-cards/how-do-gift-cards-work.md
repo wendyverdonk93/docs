@@ -38,7 +38,7 @@ The transaction status indicates the payment status of the transaction, such as 
 
 * In case of full payments by means of gift cards, the transaction status will remain _initialized_ in spite of the transaction being **completed**.
 
-#### Request refund 
+### Request refund 
 Transactions that are paid in full by means of gift card cannot be refunded via MultiSafepay Control, as there are no available payment details. Therefore, it is advised to process the refund through your own banking environment. 
 
 

@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/fastcheckout-ios/manual/]
 ---
 
-### Introduction
+## Introduction
 
 The Fastcheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The Fastcheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
 
@@ -20,7 +20,7 @@ As an integrator, you only need to provide a valid MSP transaction identifier or
     * Gift cards
 * Confirmation details
 
-#### Additional details
+### Additional details
 
 The Fastcheckout SDK provides the additional following features:
 
@@ -88,7 +88,7 @@ manager.startCheckout(transactionId: "ID", host: self, onCompletion: { status, e
 
 And that’s it, that’s all you need to do to integrate the iOS SDK to start a checkout and retrieve the transaction status once it completes.
 
-###### Complete example
+### Complete example
 
 ```swift
 import UIKit

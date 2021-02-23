@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/ccvshop/manual/]
 ---
 
-### Introduction
+## Introduction
 
 {{% introduction_hosted "CCV" %}}
 

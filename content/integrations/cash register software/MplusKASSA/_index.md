@@ -15,7 +15,7 @@ extra_button:
     type: "primary"
 ---
 
-### Order management tool
+### Introduction
 
 MplusKASSA is a new all-around order management software tool aiming to simplify the order process for restaurants, cafes, hotels and establishments alike.
 

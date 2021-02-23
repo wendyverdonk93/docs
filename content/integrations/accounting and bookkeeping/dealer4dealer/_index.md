@@ -14,7 +14,7 @@ extra_button:
     text: "Go to site" 
     type: "primary"
 ---
-### Supported export formats
+## Supported export formats
 
 dealer4dealer supports two specific export formats. These are:
 

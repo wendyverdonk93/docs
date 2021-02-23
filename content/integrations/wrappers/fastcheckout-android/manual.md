@@ -4,7 +4,7 @@ meta_title: "Fastcheckout SDK Android configuration manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 aliases: [/integrations/fastcheckout-android/manual/]
 ---
-### Introduction
+## Introduction
 
 The Fastcheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The Fastcheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
 
@@ -19,7 +19,7 @@ As an integrator, you only need to provide a valid MSP transaction identifier or
     * Gift cards
 * Confirmation details
 
-#### Additional details
+### Additional details
 
 The Fastcheckout SDK provides the additional following features:
 
@@ -38,7 +38,7 @@ The Fastcheckout SDK provides the additional following features:
 
 Please refer to the MultiSafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
 
-#### Advanced Setup
+### Advanced Setup
 The SDK has two environments on which it operates, LIVE, the default environment, and TEST. You might want to use the TEST environment to test your integration before releasing your App. No real transaction is performed in TEST environment. 
 
 Check the example below to see how you can setup the environment you want to use. 
@@ -152,7 +152,7 @@ public void callback(FastCheckoutSDK.Result result) {
 ```
 3. Setup styles in your Application class (these styles might be changed to suit your theme):
 
-#### One note on fonts
+### One note on fonts
 
 The fonts used in this demo are not part of the code that is provided to you. These fonts are part of your application, not the SDK.
 You will need to download the fonts you want to use, place them inside of a folder called assets (if you don't see it, create one) which is inside of the main foder (the main folder is inside of the src folder, and it is created for you by Android Studio when you create a project). Add the fonts as Typeface to your code accordingly as shown in the demo.
@@ -191,7 +191,7 @@ FastCheckoutSDK sdk = FastCheckoutSDK.getInstance();
 sdk.setStyles(styles);
 ```
 
-###### Complete example
+### Complete example
 
 ```java
 import com.multisafepay.sdk.FastCheckoutSDK;

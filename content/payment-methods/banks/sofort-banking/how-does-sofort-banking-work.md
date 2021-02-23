@@ -12,7 +12,7 @@ A customer chooses to pay with SOFORT Banking, authenticates their account, and 
 
 * _Once a payment is completed, the payout is guaranteed and cannot be reversed by the customer_.
 
-## Supported currencies
+### Supported currencies
 
 SOFORT Banking only supports the Euro (EUR).
 
@@ -37,7 +37,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-#### Refund flow 
+### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

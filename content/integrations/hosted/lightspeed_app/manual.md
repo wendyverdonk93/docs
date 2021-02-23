@@ -6,7 +6,7 @@ aliases:
     - /support-tab/lighstpeed/manual
 ---
 
-### Introduction
+## Introduction
 This is a beta version of the Lightspeed app. Please contact the Integration Team at <integration@multisafepay.com> if you wish to use the app. The core Lightspeed integration can be found [here](https://docs.multisafepay.com/integrations/hosted/lightspeed_core)
 
 {{% introduction_hosted "Lightspeed" %}}

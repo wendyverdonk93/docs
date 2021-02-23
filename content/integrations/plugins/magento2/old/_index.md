@@ -10,7 +10,7 @@ layout: 'single'
 faq: '.'
 ---
 
-### Introduction
+## Introduction
 
 The installation can be carried out in three ways:
 

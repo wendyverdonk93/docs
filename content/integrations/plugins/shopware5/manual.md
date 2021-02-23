@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/shopware5/manual/]
 ---
 
-### Introduction
+## Introduction
 
 {{% introduction_plugin "Shopware 5" %}}
 

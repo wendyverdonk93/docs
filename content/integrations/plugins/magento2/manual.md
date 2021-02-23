@@ -8,7 +8,7 @@ aliases:
     - /integrations/magento2/manual/
 ---
 
-### Introduction
+## Introduction
 We are proud to announce that we have been working on a brand new Magento 2 plugin. 
 The new plugin is completely built from the ground up, leaving a lot of the older methods used in the current Magento 2 plugin behind.
 It brings code improvements, unit/integration testing and it is built on top of the Magento payment provider gateway structure.

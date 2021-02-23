@@ -16,7 +16,7 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+## Supported export formats
 
 Snelstart supports one specific export format. This is:
 

@@ -6,10 +6,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-## Compatibility and Testing
-### Testing with supported devices
+## Apple Pay supported device testing
 
-#### Live environment
+### Live environment
 
 It is possible to carry out testing with Apple Pay. Please follow these instructions:
 
@@ -30,7 +29,7 @@ It is worthy to mention testing with Apple Pay can only be conducted when the fo
 
 If one of these requirements is not met, Apple Pay will not appear on the checkout page.
 
-#### Test environment
+### Test environment
 
 If you would like to conduct testing in a Test environment, we suggest testing using an [Apple Pay Sandbox account](https://developer.apple.com/apple-pay/sandbox-testing)
 
@@ -38,7 +37,7 @@ _Please note: Maestro must be activated in your MultiSafepay Control and the [ab
 
 Further instructions on how to use Apple Pay can be found directly on the offical [Apple website](https://support.apple.com/en-us/HT201239)
 
-#### Testing without an Apple device
+### Testing without an Apple device
 
 If you do not own an Apple device and would still like to test Apple Pay, we would reccomend using [Appetize.io](https://appetize.io)
 

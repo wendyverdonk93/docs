@@ -6,6 +6,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 aliases: [/payment-methods/gift-cards/branded-personalized-gift-card/]
 ---
+
+## Introduction
 Examples of personalized gift card providers are [Intersolve](https://intersolve.nl), [123TCS](https://www.123tcs.com) and [Klantkaart](https://www.klantkaart.nl)
 
 Before applying for a personalized gift card, check with your account manager at MultiSafepay for the product rules or contact us at <sales@multisafepay.com>  

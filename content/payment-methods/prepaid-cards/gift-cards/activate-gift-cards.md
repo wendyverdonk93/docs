@@ -17,7 +17,7 @@ MultiSafepay offers 3 gift card connections:
 
 The majority of the gift cards are issued by Intersolve.
 
-#### Where to start?
+### Where to start?
 
 1. Select a gift card
 2. Check for compatibility with your ecommerce platform and MultiSafepay
@@ -27,11 +27,11 @@ The majority of the gift cards are issued by Intersolve.
 6. Finalize the implementation of the gift card by activating the gift card on the ecommerce platform.
 
 
-#### Multiple gift cards
+### Multiple gift cards
 Multiple gift cards are supported by MultiSafepay.
 The customer can pay an order with multiple gift cards of the same or multiple different gift cards.
 
-#### Contact details
+### Contact details
 The gift card issuer will process the connection with one of the issuers shown below. The request for a gift card goes through the issuer of the gift card itself. For example: the VVV Cadeaukaart can be requested at the VVV office. Subsequently, the connection of the VVV Cadeaukaart will be processed by Intersolve in this case.
 
 

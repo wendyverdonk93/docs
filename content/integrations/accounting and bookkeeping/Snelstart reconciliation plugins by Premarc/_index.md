@@ -14,7 +14,7 @@ extra_button:
     text: "Go to site"
     type: "primary"
 ---
-### Supported plugins
+## Supported plugins
 
 Premarc has built some important reconciliation plugins for MultiSafepay merchants that use Snelstart in combination with several ecommerce platforms. Read more below per platform at our partner Premarc.
 

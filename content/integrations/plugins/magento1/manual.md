@@ -11,7 +11,7 @@ aliases: [/integrations/magento1/manual/]
 
 {{< alert-notice >}} Starting from 3.0.0 the plugin only needs your [API key](/faq/general/glossary/#api-key), Account ID, Site ID and Secure Code are not needed anymore and removed from the settings. {{< /alert-notice >}}
 
-### Introduction
+## Introduction
 
 This manual helps merchants process MultiSafepay payments as quickly as possible from a Magento 1 webshop. For some steps in this manual, assistance from your technical partner may be required.
 

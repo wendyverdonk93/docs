@@ -6,13 +6,13 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/payment-methods/banks/direct-bank-transfer/#how-does-it-work]
 ---
 
-## How does it work?
+## How it works
 
 Request to Pay works in such a way that consumers are redirected to Deutsche Bank’s online banking platform, after authenticating themselves with the same credentials as when logging in to their online banking platform, a SEPA bank transfer is authorised directly from the consumer to the merchant via MultiSafepay. An authorised bank transfer can be settled instantly or after 24 hrs, depending on if the bank supports instant payments or not.
 
 Request to Pay reduces cost and risk, enabling faster settlement, providing simplified reconciliation.
 
-## Transaction Flow
+### Transaction Flow
 
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
@@ -33,7 +33,7 @@ Request to Pay transactions received by MultiSafepay will be processed directly 
 | Declined     | Declined     | Deutsche Bank or the consumer bank rejects the payment.  | 
 | Void        | Void    | The consumer cancels the payment on the Deutsche Bank payment interface.   | 
 
-## Refund flow
+### Refund flow
 
 _Please note that refunds are processed by Deutsche Bank._
 
@@ -45,7 +45,7 @@ _Please note that refunds are processed by Deutsche Bank._
 
 The full API reference for Request to Pay can be found [here](https://docs.multisafepay.com/api/#directbanktransfer)
 
-## Product Rules
+### Product Rules
 
 Request to Pay has a number of product rules which are the following:
 

@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 aliases: [/integrations/drupal8/manual/]
 ---
 
-### Introduction  
+## Introduction  
 This manual helps merchants process MultiSafepay payments as quickly as possible from a Drupal 8 & 9 webshop. For some steps in this manual, assistance from your technical partner may be required.
 
 The installation can be carried out in three ways:

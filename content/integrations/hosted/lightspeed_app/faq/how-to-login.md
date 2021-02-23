@@ -5,7 +5,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-### About the new login method
+## About the new login method
 
 In early 2021, we have changed the login method for the MultiSafepay Payment app for Lightspeed eCom. The old login method was password-based, while the new method uses the single sign-on provided by Lightspeed. This means you can directly log in via the Lightspeed eCom store to our settings page of the app.
 

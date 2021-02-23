@@ -15,7 +15,7 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+## Supported export formats
 
 Twinfield supports one export format:
 

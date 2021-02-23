@@ -11,7 +11,7 @@ ConnectJS is a simplified checkout process that prevents the ‘punch out’ whi
 
 The MultiSafepay JavaScript ConnectJS library supports all payment methods and [gift cards](/payment-methods/prepaid-cards/gift-cards) The library aims to directly integrate these payment methods in your payment process/checkout in a convenient and secure way. By default, all available payment methods will be visible, but it is also possible to show either a single or selection of payment methods which are all configurable while initiating the library.
 
-## Integration
+### Integration
 
 As a merchant, the first step to integrate Connect is by creating a container where Connect will load; the container could be what the merchant wants.
 
@@ -74,7 +74,7 @@ When the order and the JSON are created, the setting for ConnectJS must be inclu
 }
 ```
 
-## Settings
+### Settings
 It is possible to customize some parameters like the following ones: 
 ```
 "connectjs": {
@@ -90,6 +90,6 @@ The redirect_mode parameter set how the 3D-Secure process must be shown. It allo
 The default value is "redirect".
 
 
-## Example
+### Example
 Contact us at <integration@multisafepay.com> for a proof of concept.
 

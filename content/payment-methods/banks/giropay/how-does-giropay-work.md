@@ -28,7 +28,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
 
-#### Refund flow 
+### Refund flow 
 
 | Order Status                      | Transaction Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

@@ -15,7 +15,7 @@ extra_button:
     type: "primary"
 ---
 
-### Subscription management tool
+## Introduction
 HostBill's billing and automation software handles all aspects of running an online business, from client acquisition, through invoicing and payment collection, automated service provisioning and management, to customer service and support.
 
 ### Connection with MultiSafepay

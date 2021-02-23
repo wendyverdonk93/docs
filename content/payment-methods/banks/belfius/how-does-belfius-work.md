@@ -30,7 +30,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Expired     | Expired     | An unfinished transaction will automatically expire after a predefined period.  | 
 | Void        | Cancelled    | Transaction has been cancelled.   | 
 
-#### Refund flow 
+### Refund flow 
 
 | Order Status                      | Transactoin Status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|

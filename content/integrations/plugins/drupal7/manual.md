@@ -9,14 +9,14 @@ aliases: [/integrations/drupal7/manual/]
 
 {{% introduction_plugin "Drupal 7" %}}
 
-## 1. Requirements
+### 1. Requirements
 - Drupal 7.x
 - Tested on PHP 7.0
 
-## 2. Installation
+### 2. Installation
  1. Unpack the content of the .ZIP file in the root of your webshop.
 
-## 3. Configuration
+### 3. Configuration
 1. Log in to your backend and navigate to _Site Settings_ → _Modules_. Enable the Commerce MultiSafepay JSON module, along with the payment method modules of your choice. Then click _Save configuration_ to save the changes you have made
 
 2. In the backend of your webshop, navigate to _Store Settings → Advanced Store Settings → Payment methods_.
@@ -30,5 +30,5 @@ This rule will set the order to processing once the order has been paid in full
   * MultiSafepay Order Complete: Shipped at MultiSafepay  
 This rule will update the transaction order status to _shipped_ at MultiSafepay, causing the invoicing process to continue for Pay After Delivery, Klarna and E-invoicing.
 
-## 4. Congratulations
+### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>

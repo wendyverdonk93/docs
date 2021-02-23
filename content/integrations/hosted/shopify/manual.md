@@ -7,7 +7,7 @@ aliases:
   - /integrations/shopify/faq/how-can-i-update-the-plugin-for-shopify/
 ---
 
-### Introduction
+## Introduction
 
 {{% introduction_hosted "Shopify" %}}
 
