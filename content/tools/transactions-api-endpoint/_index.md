@@ -23,7 +23,7 @@ To access the transactions API endpoint, use the following URL:
 
 `https://testapi.multisafepay.com/v1/json/transactions`  
 
-The transactions API endpoint supports the `GET` HTTP method. Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `api_key` header value, like this:
+The transactions API endpoint supports the `GET` HTTP method. Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
 
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions"
