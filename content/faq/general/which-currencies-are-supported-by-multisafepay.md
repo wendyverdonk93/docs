@@ -5,6 +5,7 @@ meta_title: "FAQ General - Currencies - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
+## Introduction
 
 MultiSafepay processes the following currencies as standard and available with all payment methods: 
 
@@ -51,11 +52,11 @@ Those are all the currencies available for Visa, MasterCard and Maestro:
 * ISK (Icelandic króna)
 * THB (Thai baht)
 
-## On request currencies
+### On request currencies
 
 MultiSafepay can accept on request new currencies for Visa, MasterCard and Maestro not listed in the previous list.
 
-## Requirements
+### Requirements
 
 * The currency is only processed when it is supported by the selected [payment method](/payment-methods)
 * The desired currency is correctly processed within the transaction call, received by MultiSafepay when using [JSON](/api/#orders) requests
@@ -64,11 +65,11 @@ MultiSafepay can accept on request new currencies for Visa, MasterCard and Maest
 
 _When multiple currencies are enabled within your MultiSafepay Control, all currencies will be shown under Finance → Balance_.  
 
-## Add currency to your MultiSafepay Balance
+### Add currency to your MultiSafepay Balance
 
 In order to enable more currencies in your MultiSafepay Control, please submit your request with our Support department via <support@multisafepay.com>
 
-## Payout currency options
+### Payout currency options
 
 All incoming and outgoing transactions are processed in Euros (EUR) as standard currency. It is possible to manually withdraw a payout in other processing currencies too but automatic withdrawal is available only for EUR (more information on automatic & manual withdrawal methods [here](https://docs.multisafepay.com/faq/finance/how-can-i-pay-out-the-funds-on-my-multisafepay-account-)). To process a payout in another currency, you must provide us with a business bank account that is able to receive funds in the requested currency.
 

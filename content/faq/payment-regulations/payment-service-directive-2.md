@@ -9,7 +9,7 @@ aliases:
     - /faq/PSD2/does-PSD2-influence-my-webshop
 ---
 
-### What is PSD2?
+## What is PSD2?
 
 PSD2, also known as the Payment Services Directive 2 is a set of laws and regulations established by the [European Banking Authority (EBA)](https://eba.europa.eu) that aims to improve consumer rights while also promoting competition within the financial industry.
 

@@ -33,9 +33,7 @@ When a credit card transaction marked with the status _uncleared_ is received, a
 
 Under the contact details in your MultiSafepay Control, you can add an email address to enable receiving email notifications informing you about received uncleared transactions.
 
-#### An uncleared transaction can only be accepted through your MultiSafepay Control. If no action is taken to accept the uncleared transaction, the authorization will automatically expire after 5 days.
-***
-
+_An uncleared transaction can only be accepted through your MultiSafepay Control. If no action is taken to accept the uncleared transaction, the authorization will automatically expire after 5 days_
 
 ## Evaluate the Transaction Amount
 Ask yourself if the transaction amount (of a purchase) is higher (or lower) than average. Are you willing to risk that this payment will be revoked after you have delivered your product and /or service? Consider whether the amount is unusually high compared to the average order value in your webshop.

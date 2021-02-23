@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-#### ip_address
+## ip_address
 Post-payment and credit card payment methods require the customer <i>ip_address</i> to be validated and thus, we need the actual IP address of the end user within the <i>ip_address</i> field. This means that the optional parameter <i>"ip_address (optional)</i> within the JSON request is now a <i>"required"</i> field when processing post-payment and/or credit card transactions.
 
 Please note! When validating the localhost <i>ip_address</i> instead of the end user's <i>ip_address</i>, it may result in transactions being marked with the status _uncleared_ or even be rejected/declined.
@@ -18,14 +18,14 @@ Please note! When validating the localhost <i>ip_address</i> instead of the end 
         "forwarded_ip": "" 
 ```
 
-#### forwarded_ip
+## forwarded_ip
 
 The X-FORWARDED-FOR header of the customer request when using a proxy.
 
 <i>forwarded_ip</i> is to be used when there is a proxy. In all other cases they need to use the <i>ip_address</i> to retrieve the IP address of the customer.
 
 
-#### Uncleared status or Declined 
+## Uncleared status or Declined 
 Due to the validation on the IP address of the end user (customer) a transaction can unnecessarily be marked with the status _uncleared_ or even be declined. 
 
 Before a payment is accepted, a fraud check will take place on the transaction. The required ip_address field is one of the checks processed in the validation of the payment. When provided with an empty or incorrect IP address (by providing the ip_address of the webshop instead of the customer), the chances that the transaction will be marked with the status _uncleared_ are very high. 
