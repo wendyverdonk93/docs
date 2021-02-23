@@ -5,11 +5,13 @@ meta_title: "Payment pages - Dynamic templates - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
+## Introduction
+
 For merchants with a __custom integration__ via [JSON API MultiSafepay](/api), we also offers dynamic styling of the templates. This means you can change the look and feel of a payment page per transaction.
 
 There are two options to dynamically style the payment page:
 
-## 1. Load a saved template
+### 1. Load a saved template
 Whenever you have stored a template, you can call it through the first-level JSON object "template_id": "value of the template".
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
@@ -19,7 +21,7 @@ Whenever you have stored a template, you can call it through the first-level JSO
 5. Add the template_id to the API call __per transaction__
 
 
-## 2. Provide 'template' object structure within the transaction request
+### 2. Provide 'template' object structure within the transaction request
 MultiSafepay also offers real-time styling of the templates. This means you can change the look and feel of a payment page per transaction on the fly. See the template code on our [API documentation page](https://docs.multisafepay.com/api/#dynamic-styling)
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)

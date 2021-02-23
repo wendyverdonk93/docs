@@ -5,10 +5,9 @@ meta_title: "MultiSafepay Control- Add Website - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
-
-
-## Adding a webshop
-**Adding a webshop** to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an [API key](/faq/general/glossary/#api-key) will be automatically generated. This will establish the connection between the two platforms.  
+## Add a website
+### Adding a webshop
+Adding a webshop to your MultiSafepay Control is the first step into connecting the webshop and MultiSafepay. By adding a webshop in your MultiSafepay Control connection details, for example, an [API key](/faq/general/glossary/#api-key) will be automatically generated. This will establish the connection between the two platforms.  
 
 1. Log in to your MultiSafepay Control
 
@@ -30,7 +29,7 @@ _A test Account ID starts with a 9_→ [Test MultiSafepay Control](https://testm
 
 5. _Save_ the provided details. 
 
-## Connect your webshop with MultiSafepay
+### Connect your webshop with MultiSafepay
 Adding a webshop will automatically supply you with the details needed to make a connection. When opening the webshop in your MultiSafepay Control, an API key, Site ID and Secure code will be shown. 
 
 Follow the following steps to locate your website details:

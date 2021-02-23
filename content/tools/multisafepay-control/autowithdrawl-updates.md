@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-### Introduction
+## Introduction
 
 The auto-withdrawal feature allows you to add fund withdrawal profiles in other currencies. It must be noted that you must hold a balance and an active bank account for each currency.
 

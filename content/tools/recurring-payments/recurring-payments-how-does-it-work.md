@@ -5,7 +5,7 @@ meta_title: "Recurring Payments, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
-## Recurring payments process
+## How it works
 The standard recurring payment process allows you to easily charge your customer on a recurring basis. This is a suitable solution for monthly or annual subscriptions.
 
 The standard process is as follows:
@@ -39,7 +39,7 @@ _**MultiSafepay automatically uses the Site Description and Order ID to show on 
 When the transaction is declined, the reason will be supplied in the response of the transaction. The transaction may, for example, be refused due to insufficient funds. MultiSafepay does not provide automated retry functionality for recurring payments. It is the responsibility of the merchant to contact the customer or try and charge the customer again after a sufficient period of time.
 
 
-## Create an initial transaction
+### Create an initial transaction
 View the [API documentation](/api) on how to create a standard transaction.
 
 ###  The Initial Payment - Status update request

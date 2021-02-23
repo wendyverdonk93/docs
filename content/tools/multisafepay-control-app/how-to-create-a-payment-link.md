@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-### Payment link
+## MultiSafepay Control App payment link
 
 If you would like to create a payment link using the MultiSafepay Control App, we would kindly like to ask you to follow these instructions:
 

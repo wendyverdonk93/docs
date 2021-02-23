@@ -6,12 +6,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-
-### Apple iOS
+## Apple iOS
 
 You can download the MultiSafepay Control App directly from your Apple iOS device on the [App Store](https://apps.apple.com/nl/app/multisafepay-control/id929955963)
 
 
-### Android
+## Android
 
 You can download the MultiSafepay Control App directly from your Android device on the [Google Play Store](https://play.google.com/store/apps/details?id=com.multisafepay.control)

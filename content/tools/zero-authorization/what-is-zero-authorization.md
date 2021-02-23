@@ -5,6 +5,7 @@ meta_title: "Zero Authorization, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
+## Zero Authorization
 
 Zero Authorization is an account verification method for credit cards that is used to verify a cardholders information __without charging the consumer__. Instead, an amount of zero (€ 0,00) is charged on the card to store the credit card information in the form of a token and to determine whether the card is legitimate or not. After creating the token, is then possible to charge the consumer with a new transaction with either Tokenization or [Recurring Payments](/tools/recurring-payments)
 

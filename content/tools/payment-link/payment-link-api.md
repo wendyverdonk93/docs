@@ -6,6 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-### API
+## API
 
 If you would like to generate a payment link through the API, please kindly visit our [API documentation](https://docs.multisafepay.com/api/#generating-a-payment-link) section outlining the JSON request and response.

@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 
-### What is PayV2?
+## What it is
 
 MultiSafepay provides two versions of payment pages:
 

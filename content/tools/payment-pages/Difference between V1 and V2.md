@@ -5,6 +5,7 @@ meta_title: "Payment pages - PayV1 and PayV2 - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
+## Introduction
 
 A lot of changes have been made with the release of our PayV2 payment page.  Although a merchant can still use the PayV1 payment page without problems, we strongly recommend to take the step and change over to our newest payment page version to make use of the MultiSafepay platform without limitations. In order to activate V2, please visit the following [page](https://docs.multisafepay.com/tools/payment-pages/what-is-payv2) for step-by-step instructions.
 

@@ -19,7 +19,7 @@ With the Sales Reports you will have direct access in all data regarding your sa
 * Per Day
 * Per Status
 
-## Conversion reports
+### Conversion reports
 
 With the Conversion Report you get great insights in your websites conversion rates. You can easily see what the conversion rates for each website are, but also for example the conversion rate, per device, per country and per payment method.
 
@@ -29,7 +29,7 @@ With the Conversion Report you get great insights in your websites conversion ra
 * Per Website
 * Per Day
 
-## Advanced Reporting in MultiSafepay Control
+### Advanced Reporting in MultiSafepay Control
 
 Accessing the Advance Sales and Conversion Reports can simply be done by following these steps:
 

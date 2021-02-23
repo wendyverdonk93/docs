@@ -21,7 +21,7 @@ The following information is required:
 * A fee can be requested for the use and/or implementation of the Dynamic 3D Secure.
 * If multiple site are connected within a MultiSafepay Control account, we need to know for which sites the Dynamic 3D Secure should be implemented.
 
-## Minimum requirements to approve the use of Dynamic 3D Secure.
+## Minimum requirements to approve the use of Dynamic 3D Secure
 
 * A significant amount of transactions are based outside of Europe.
 * Current processing performance (especially the chargebacks) needs to be good

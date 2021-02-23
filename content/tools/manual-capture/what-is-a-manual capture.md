@@ -5,16 +5,17 @@ meta_title: "Manual Capture, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
+## How it works
 
 MultiSafepay offers you the ability to capture credit card payments either [partially](/tools/manual-capture/partial-capture) or in [full](/tools/manual-capture/full-capture) from your customers. Thus, it is now possible to charge for a product or service once it has been shipped or consumed. This type of flexibility allows you to take control of your payments and match charges with shipments, whilst gaining trust from consumers.
 
-## What are the features of Manual Capture?
+### What are the features of Manual Capture?
 * **Control**: Greater control over authorization of payments, whereby funds can be collected at a later stage in full, partial or multiple captures.
 * **Trust**: Customers will not be billed for goods or services immediately, but instead only be charged when they have received them. The payment(s) will also not appear until the amount has been captured, thus increasing trust in your brand.
 * **Alignment**: It is now possible to align charges and shipments. Administration efforts are now minimalized, along with simplification of your finance flow.
 * **Less chargebacks**: Un-shipped, delayed or denied orders will not have their payments captured, thus decreasing the likelihood of chargebacks and reimbursements.
 
-## Transaction overview
+### Transaction overview
 
 * **Order status**: The order status indicates the status of the order such as _completed_ or _void_. The order status is independent of the incoming or outgoing payment of the transaction.
 

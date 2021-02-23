@@ -9,7 +9,7 @@ read_more: '.'
 ## Accountant Export
 An Accountant Export containing all successful incoming and outgoing transactions, as well as corresponding costs (where applicable), can be generated to serve your bookkeeping needs. 
 
-## Sending an Automated Accountant Export
+### Sending an Automated Accountant Export
 As a MultiSafepay client, you can benefit from three ways of accessing/receiving the automated accountant export:
 
 1. Via email
@@ -21,7 +21,7 @@ We support SFTP by username/password and username/SSH keys.
 _We only support port 22 & 2222 for SFTP connections_
 
 
-## Requirements
+### Requirements
 
 __SFTP - Push Request: For SFTP reporting the following protocol is required:__
 
@@ -35,10 +35,10 @@ ssh-rsa
 
 This must be supported on the SFTP server otherwise a report cannot be delivered.
 
-## Frequency
+### Frequency
 MultiSafepay can send the Automated Accountant Export daily, weekly or monthly.  You have the option of choosing the frequency and time. Our reference time is Central Eastern Summer Time (CEST).
 
-## Accountant Export format
+### Accountant Export format
 The following formats are available for automatically generating an export:
 
 * CAMT053
@@ -50,7 +50,7 @@ The following formats are available for automatically generating an export:
 
 For information regarding the different exports, check out our [export page](https://docs.multisafepay.com/tools/reports/accountant-report-export)   
 
-## How to request an Automated Accountant Export
+### How to request an Automated Accountant Export
 
 Automated Accountant Export activation checklist:
 
@@ -67,11 +67,11 @@ _Don't forget to add your Account ID which can be found in the dashboard of your
 
 
 
-## Whitelisting
+### Whitelisting
 
 If your method of choice is via SFTP, please make sure our IP is whitelisted. For more information, please refer to our [IP ranges documentation](/faq/general/ip-ranges)
 
-## Testing
+### Testing
 
 It is possible to export accountant reports in the test mode of the [MultiSafepay Control](https://testmerchant.multisafepay.com)
 

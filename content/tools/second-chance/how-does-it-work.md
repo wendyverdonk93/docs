@@ -5,11 +5,14 @@ meta_title: "Second Chance, How it works - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
+
+## How it works
+
 When a customer initiates a payment, but does not finish it for any reason, MultiSafepay will send a Second Chance reminder email. Included in these emails, there is a payment link that will allow the customer to finalize the payment. The first Second Chance email is sent after **1 hour** and the second after **24 hours** after the initial transaction was started.
 
 _**A Second Chance email can be sent as long as the email address of the customer is included in the transaction request.**_
 
-## When is the Second Chance email excluded?
+### When is the Second Chance email excluded?
 
 **Transaction status**         
 The transaction status indicates the payment status of the transaction, such as _Completed_, _Pending_ or _Rejected_. Once the transaction status is _Completed_, the amount of the transaction is added to your MultiSafepay balance.
@@ -29,7 +32,7 @@ Certain payments methods have a different flow and, as a result, the Second Chan
 * [Bank transfer](/payment-methods/banks/bank-transfer)
 * [Direct Debit](/payment-methods/banks/sepa-direct-debit)
 
-## Altering the Second Chance configuration
+### Altering the Second Chance configuration
 It is not possible to change the Second Chance email in the settings. The Second Chance email can only be either enabled or disabled. When enabled, the Second Chance will be sent twice within 24 hours and this cannot be adjusted (after 1 hour and after 24 hours).
 
 The Second Chance email can be personalised through an email template. More information on how to personalize a Second Chance email is available in [Personalize the Second Chance email](/tools/second-chance/how-to-personalize-the-second-chance-e-mail)

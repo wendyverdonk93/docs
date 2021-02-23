@@ -18,7 +18,7 @@ By requesting the credit card details on the webshop, a 'direct' transaction can
 |American Express | American Express Safekey. The only allowed exception from mandatory Safekey verification is for transactions lower than 30 EUR |
 |Bancontact | Only 3D |
 
-## Transaction flow
+### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
 
 * Order status      
