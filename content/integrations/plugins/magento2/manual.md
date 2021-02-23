@@ -20,22 +20,23 @@ The FAQ items regarding the old Magento 2 plugin have been moved to the [old plu
 {{< /alert-notice >}}
 
 ### 1. Features
-There are a lot of new features, but there are also some features that are not available as of yet.
-The following features are not available in the new Magento 2 plugin:
-
-* Tokenization
-* Fastcheckout
-* PWA (REST) endpoints
-
 Some of the new features include:
 
-* Improved Magento backend configuration with less bugs
+* Improved Magento backend configuration
 * Improved translations
 * Improved error handling and event & error logs
 * Support information available in the Magento backend
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more flexibility during the installation process
 * For some payment methods the hosted payment page is now skipped, resulting in a higher conversion rate
+* As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html).
+These features are based on MultiSafepay recurring payments. Please look at our docs page about [Recurring payments](/tools/recurring-payments/) for more information about this subject.  
+
+Some features are not available anymore, because they are not supported anymore or have been replaced:
+
+* Tokenization (Replaced by Magento Vault and Instant Purchase)
+* Fastcheckout (Not supported anymore)
+* PWA (REST) endpoints (Replaced by GraphQL endpoints)
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
