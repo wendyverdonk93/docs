@@ -121,6 +121,21 @@ Remember to comment out or delete this line of code before you release your App.
 …
 ```
 
+Custom settings.
+
+```java
+…
+…
+//to set anonymous checkout: true (enabled) / false (dissable)
+//with anonymous checkout there is no login
+SDK.setAnonymous(boolean);
+
+//skip checkout initial view (list of items): true (enabled) / false (dissable)
+SDK.skipCheckoutInit(boolean);
+…
+…
+```
+
 2. Start checkout and add callback interface to your Activity
 
 ```java
@@ -209,6 +224,8 @@ protected void onCreate(Bundle savedInstanceState) {
    btnStartNewTransaction = findViewById(R.id.btn_transaction);
 
    SDK = FastCheckoutSDK.getInstance();
+   SDK.setAnonymous(false);
+   SDK.skipCheckoutInit(false);
    SDK.setApiKey(API_KEY);
 
    btnLogOut.setOnClickListener(view → SDK.startCheckout(transaction_id, this));
