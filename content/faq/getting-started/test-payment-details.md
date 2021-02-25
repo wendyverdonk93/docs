@@ -1,24 +1,22 @@
 ---
 title : "Test Payment Details"
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
 For thoroughly testing your payment integration with MultiSafepay, you can use the following payment credentials in the TEST environment to simulate different payment scenarios.
 
-Testing with our test credentials can only be done in you MultiSafepay Test Control. Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
+Testing with our test credentials can only be done in your MultiSafepay Control (Test environment). Create your [MultiSafepay Test Account](https://testmerchant.multisafepay.com/signup) free of charge.
 
 With a successful connection with your test or staging environment, you can immediately start testing.
 
-{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team to enable outgoing payments or additional payment methods in your MultiSafepay Test Control. {{< /alert-notice >}} 
-
-If assistance is required, contact our Integration Team at <integration@multisafepay.com>
+{{< alert-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in a MultiSafepay test account. As a result, a refund cannot be processed successfully. Contact our Integration Team at <integration@multisafepay.com> to enable outgoing payments or additional payment methods in your MultiSafepay Control. {{< /alert-notice >}} 
 
 
 ## AfterPay
 
-Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your MultiSafepay Test Control.
+Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup)
 
 ## Alipay
 
@@ -57,7 +55,7 @@ MultiSafepay provides a test platform for Bancontact transactions. By entering a
 | 67039902990000045 | Declined  | Transaction is Declined (failed 3D authentication) |
 | 67039902990000011	| Declined  | Transaction is Declined (3D authentication successful, but insufficient funds) |
 
-## BankTransfer
+## Bank transfer
 
 MultiSafepay provides a test platform for bank transfer transactions. By entering a test IBAN you will be able to simulate the outcome of the transaction.
 
@@ -149,7 +147,7 @@ MultiSafepay provides a test platform for Betaal na Ontvangst / Pay After Delive
 
 ## Gift cards
 
-MultiSafepay provides a test platform currently only for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
+MultiSafepay provides a test platform for Intersolve gift cards. During the payment process you will be able to simulate the outcome of the transaction.
 
 When activating a gift card as payment method in a live MultiSafepay Control, the payment method can be tested before release.
 
@@ -181,8 +179,6 @@ MultiSafepay provides a test platform for in3 transactions. By entering the foll
 | Approved             | 01-01-1999 | 1234AB | 1 |
 | Declined              | 01-01-2000 | 1111AB | 1 |
 
-_Please contact <integration@multisafepay.com> to activate in3, as the payment method is still in the testing and pilot phase of its release._
-
 ## iDEAL
 
 MultiSafepay provides a test platform for iDEAL transactions. During the payment process you will be able to simulate the outcome of the transaction.
@@ -195,6 +191,10 @@ MultiSafepay provides a test platform for iDEAL transactions. During the payment
 | Initialized/Completed | Transaction is Initialized (after 1 minute it is changed to Completed) |
 | Initialized/Declined  | Transaction is Initialized (after 1 minute it is changed to Declined) |
 
+
+## iDEAL QR
+
+Testing is currently not supported for the iDEAL QR payment method. Although, you can place test payments in the [Live environment](https://merchant.multisafepay.com/)
 
 ## ING Home'Pay 
 
@@ -240,7 +240,13 @@ MultiSafepay provides a test platform for Mastercard transactions. The simulatio
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 5500000000000004 | Completed | Transaction is Completed (not 3D enrolled) |
+| 5500000000000004 | Completed | Transaction is Completed (3D enrolled) |
+
+## Paysafecard
+
+It is not possible to test with Paysafecard.
+
+If you have any questions, please contact <integration@multisafepay.com>
 
 
 ## Pay After Delivery (Betaal na Ontvangst)
@@ -268,12 +274,12 @@ MultiSafepay provides a test platform for PayPal transactions. During the paymen
 
 ## Recurring payment
 
-Contact us at <integration@multisafepay.com> to enable recurring payment in your MultiSafepay Test Control. [Full documentation on recurring payments](/tools/recurring-payments)
+Contact us at <integration@multisafepay.com> to enable recurring payment in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup) [Full documentation on recurring payments](/tools/recurring-payments)
 
 
 ## Santander Betaal per Maand
 
-Currently no test data available for the payment method Santander.
+No test data is available for the payment method Santander.
 
 When activating Santander Betaal per Maand as payment method in a live MultiSafepay Control, the payment method will be tested before release.
 

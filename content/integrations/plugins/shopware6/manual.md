@@ -1,7 +1,8 @@
 ---
 title : "MultiSafepay Shopware 6 installation & configuration manual"
 meta_title: "Shopware 6 plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+aliases: [/integrations/shopware6/manual/]
 ---
 
 ### Introduction
@@ -9,19 +10,21 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{% introduction_plugin "Shopware 6" %}}
 
 ### 1. Requirements
-- Shopware 6.2.x
+- Shopware 6.2.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
 - Tested on PHP 7.2.0
+
+_*Contact your account manager if you require support for Professional/Enterprise of Shopware 6_
 
 ### 2. Installation & Configuration
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases)
 2. Download the latest release which can be found in the assets list and starts with Plugin_Shopware6_x.x.x.zip
-3. Login into your (Shopware 6) backend and navigate to _Settings_ and select _System_ on the left hand side
+3. Log in to your (Shopware 6) backend and navigate to _Settings_ and select _System_ on the left hand side
 4. Select _Plugins_
 5. Press on _Upload plugin_ at the top of the page and select the file you downloaded in step 2
 6. When the plugin is visible, make sure the _Activated_ button is toggled
 7. Press on the "..." (more) button and select _Config_
 8. Select _Test_ in the drop-down menu
-9. Look for the field named _API key_ and enter your API key.
+9. Look for the field named _API key_ and enter your [API key](/faq/general/glossary/#api-key)
 
 Information on where to find your API key can be found on our [API key page](https://docs.multisafepay.com/tools/multisafepay-control/get-your-api-key).
 

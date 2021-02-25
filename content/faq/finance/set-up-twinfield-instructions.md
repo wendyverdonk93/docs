@@ -1,7 +1,7 @@
 ---
 title : "How do I set-up my Twinfield platform?"
 meta_title: "FAQ Finance - Twinfield - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -19,7 +19,7 @@ In order to be able to import an accountant export from your MultiSafepay Contro
 
 ## MultiSafepay Accountant Export
 
-1. Navigate to _Reports_ --> _Accountant Export_ in your MultiSafepay Control
+1. Navigate to _Reports_ → _Accountant Export_ in your MultiSafepay Control
 2. Select a range of dates from _Data Selection_
 3. Select 'MT940' from the field _Report Type_
 4. Select Twinfield from _Special Format_

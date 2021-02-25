@@ -2,7 +2,7 @@
 title: "Yuki"
 weight: 20
 meta_title: "Yuki - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/Yuki.svg'
 layout: 'single'
 title_short: "Yuki"
@@ -33,7 +33,7 @@ Do you require further assistance? Read more about the [instructions](https://su
 
 Following the bank recognition rules, your files can be automatically reconciliated.
 
-1. Navigate to _Bank_ -> _Bank recognition rules_
+1. Navigate to _Bank_ → _Bank recognition rules_
 2. Create a new rule. For more info visit this [page](https://support.yuki.be/nl/support/solutions/articles/11000071225-bankherkenningsregel-aanmaken)
 
 #### 1. _Automatic_

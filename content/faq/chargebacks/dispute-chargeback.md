@@ -2,7 +2,7 @@
 title : "Dispute Chargeback?"
 weight: 26
 meta_title: "Credit cards, Dispute Chargeback - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 ---
 For questions or providing documentation you can submit your email to <retrieval@multisafepay.com>
@@ -248,7 +248,7 @@ In order for this chargeback to be disputed we need the following documentation 
 #### Reason Code: 4540
 __Description: Card Not Present__
 
-Cardholder denies participation in an email, telephone or internet type transaction processed by your business, also known as [MOTO payments](/tools/moto/moto) Investigation confirms that transaction is a result of fraudulent use of the card.
+Cardholder denies participation in an email, telephone or internet type transaction processed by your business, also known as [MOTO payments](/tools/mail-order-telephone-order) Investigation confirms that transaction is a result of fraudulent use of the card.
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 

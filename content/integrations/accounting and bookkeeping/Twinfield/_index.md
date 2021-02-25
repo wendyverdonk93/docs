@@ -2,7 +2,7 @@
 title: "Twinfield"
 weight: 20
 meta_title: "Twinfield - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/Twinfield.svg'
 layout: 'single'
 title_short: "Twinfield"
@@ -25,7 +25,7 @@ Twinfield supports one export format:
 
 If you would like to import a MultiSafepay Accountant Export, we would like to kindly ask you to follow these set of instructions:
 
-1. Log into your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7) and select the _Cash & Banks_ section in the menu
+1. Log in to your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7) and select the _Cash & Banks_ section in the menu
 2. Select _Cash & Banks_ one more time
 3. Insert a new code in the _Code_ line, give it a e.g. name MSPAY and press Next
 4. Fill in the required details as Account number, Account name, IBAN, BIC, General ledger account

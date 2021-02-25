@@ -1,9 +1,8 @@
 ---
 title: Glossary
 weight:
-meta_title: "FAQ Getting Started - Glossary - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
-tags: 'hidden'
+meta_title: "MultiSafepay Glossary - MultiSafepay Docs"
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 
@@ -17,6 +16,14 @@ MultiSafepay as payment processor is an acquirer itself for Visa, Mastercard and
 
 ### API
 A set of clearly defined rules and tools in order to allow specified communications from one software platform to another and back. You can find the MultiSafepay API at: https://docs.multisafepay.com/api/
+
+### API key
+
+An API key is a unique identifier that is required to establish a connection between your website and the MultiSafepay services. The API key can be found in your MultiSafepay Control. Read more about how to retrieve your [API key](/tools/multisafepay-control/get-your-api-key/)
+
+### Cron job
+
+A background program (or daemon), used to schedule recurring tasks. Read more on Wikipedia's entry on [cron](https://en.wikipedia.org/wiki/Cron)
 
 ### Customer
 An entity (individual or organization) that makes use of another entity's product or service offering. In our terminology, a customer is the beneficiary of goods and services provided by merchants that use MultiSafepay's payment services.
@@ -46,7 +53,7 @@ A gift card that can be used at multiple merchants/vendors.
 ### Payment Method
 The means of payment customers can use to make purchases online, including but not limited to credit cards, e-wallets, bank transfers, mobile payments, etc. For a full list of our supported payment methods, check out our [payment page](/payment-methods)
 
-### Payment Service Provider (PSP)
+### Payment service provider (PSP)
 Company that enables merchants with the ability to accept multiple types of electronic payment methods, by combining the functions of a payment gateway and a payment processor. The PSP can link financial institutions (acquirers, issuers), card and payment schemes and merchants, managing the relationship between them as a service. The payment service provider has the responsibility to ensure a secure and reliable delivery of electronic payment services. MultiSafepay offers a seamless and efficient streamlined payment process, by combining the functions of a gateway, processor and acquirer.
 
 ### Payout
@@ -57,11 +64,15 @@ A software component that adds a feature or functionality to another existing pi
 
 ### Payment Services Directive 2 (PSD2)
 
-PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2/) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
+PSD2, also known as the [Payment Services Directive 2](https://docs.multisafepay.com/faq/payment-regulations/payment-service-directive-2) is a set of laws and regulations established by the European Banking Authority (EBA) that aims to improve consumer rights while also promoting competition within the financial industry.
+
+### Payment Card Industry Data Security Standard (PCI DSS)
+
+The Payment Card Industry Data Security Standard, also known as PCI DSS is a _standard_ that is enforced through contracts between merchants, acquiring banks and payment service providers. The standard covers a set of requirements to ensure that cardholder data security is enhanced and that a secure environment is maintained. Read more on Wikipedia about [PCI DSS](https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard)
 
 ### Strong Customer Authentication (SCA)
 
-SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication/) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
+SCA, also known as [Strong Customer Authentication](https://docs.multisafepay.com/faq/payment-regulations/strong-customer-authentication) is a method used to verify customer purchases for transactions made through Two Factor Authentication (2FA).
 
 ### Surcharge
 An additional fee, charge or tax that is added to the costs of a good or service, on top of the initial price. Very often, the surcharge is not part of the stated price of the good or service. Surcharges can be set at specific amounts or can account for a percentage of the total price.
@@ -74,4 +85,3 @@ Refers to the status of a credit card transaction that has been received, but ha
 
 ### Website
 A collection of multimedia content, accessible through an internet connection, generally identified by a common domain name (e.g. multisafepay.com) Websites serve a multitude of purposes, such as information, entertainment or service-offering.
-

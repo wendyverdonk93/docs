@@ -4,7 +4,7 @@ github_url : "https://github.com/MultiSafepay/Magento2Msp"
 download_url: "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.14.1/Plugin_Magento2_1.14.1.zip"
 description : "This is the manual for the old Magento 2 plugin which has become deprecated. It can still be used, but please be aware that this plugin won't be receiving any more significant updates in the future."
 meta_title: "Magento 2 plugin manual V1 - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 layout: 'single'
 faq: '.'
@@ -23,9 +23,11 @@ In this manual we describe the installation via Composer.
 {{% introduction_plugin "Magento 2" %}}
 
 ### 1. Requirements
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x 
 - PHP 7.0 and higher
 - Tested with PHP 7.0 (Magento 2.3.x adds support for 7.2)
+
+_*If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
 
 ### 2. Installation
 Run the following commands via the CLI:
@@ -46,12 +48,12 @@ Depending on your webserver/webshop configuration you also need to check:
 - Flush cache.
 
 ### 3. Configuration
-1. Login on the backend of your webshop and navigate to _Stores_ -> _Configuration_ -> _MultiSafepay x.x.x_ -> _MultiSafepay Settings_.  
+1. Log in to the backend of your webshop and navigate to _Stores_ → _Configuration_ → _MultiSafepay x.x.x_ → _MultiSafepay Settings_.  
 This page contains all main settings and is used for all gateways and gift cards.
 {{% account_info %}}
 Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner
 
-2. Navigate to _Stores_ -> _(Settings) Configuration_ -> _MultiSafepay x.x.x_-> _MultiSafepay Gateways_.  
+2. Navigate to _Stores_ → _(Settings) Configuration_ → _MultiSafepay x.x.x_→ _MultiSafepay Gateways_.  
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
@@ -61,7 +63,7 @@ Gift cards need to be activated, more information can be found on our [gift card
 
 4. Fastcheckout  
 This page contains the Fastcheckout specific settings.  
-More information about the Fastcheckout can be found on https://www.multisafepay.com/fastcheckout-payments
+More information about the Fastcheckout can be found in our [documentation of Fastcheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
 
 ### 4. Congratulations
 You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

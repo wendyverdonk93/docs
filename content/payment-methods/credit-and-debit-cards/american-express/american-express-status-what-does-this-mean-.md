@@ -2,9 +2,11 @@
 title : "American Express status 'declined'. What does this mean?"
 weight: 24
 meta_title: "American Express, what does 'declined' mean? - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases: [/credit-and-debit-cards/american-express/american-express-status-what-does-this-mean-/]
 ---
+
 ## Declined
 If an American Express payment of a customer receives the status _declined_, it may be for several reasons. Only the customer can contact their credit card issuer to inquire as to why the credit card payment has been _declined_.
 

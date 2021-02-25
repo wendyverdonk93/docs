@@ -1,7 +1,7 @@
 ---
 title : "Withdrawing funds from my MultiSafepay Control?"
 meta_title: "FAQ Finance - Payout - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
 You will be able to pay out funds to your business bank account anytime, as soon as your MultiSafepay Control account has been fully activated. Of course, payouts cannot be carried out if the balance of your account is negative (in case of refunds, chargebacks or fees) or if this feature is deactivated by the Risk Team for any reason. 
@@ -12,8 +12,8 @@ There are two ways for merchants to withdraw funds, either **automatically** or 
 
 To carry out an automatic withdrawal, please follow these steps:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) 
-2. Select _Finance_ -> _Balance_
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) 
+2. Select _Finance_ → _Balance_
 3. Select the bank account number on which you wish to receive the amount (IBAN)
 4. Schedule payments.
 
@@ -27,14 +27,14 @@ The payout scheduler allows you to:
 
 To carry out a manual withdrawal, please follow these steps:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com) 
-2. Select _Finance_ -> _Balance_
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) 
+2. Select _Finance_ → _Balance_
 3. Select an amount, the currency and the the bank account number on which you wish to receive the amount (IBAN).
 
 ## How long do payouts take? 
 Of course, you may wonder how long it takes for a payout to be completed and whether there are differences between manual and automatic withdrawals. The duration of different payouts depends on several factors. The withdrawal delay is decided by our Risk Team depending on the Risk appetite. The default withdrawal delay is 1 day.
 
-_Automatic withdrawal_ : Assuming default settings, when [merchant](/faq/getting-started/glossary/#merchant) selects a payout on Monday, the payout batch will include all the payments until 23:59 am of the selected date. The payout batch will be sent to our bank on Tuesday morning. Our bank will process the batch and transfer the amount to the merchant’s business bank account. The merchant may receive the payout on Tuesday afternoon.
+_Automatic withdrawal_ : Assuming default settings, when [merchant](/faq/general/glossary/#merchant) selects a payout on Monday, the payout batch will include all the payments until 23:59 am of the selected date. The payout batch will be sent to our bank on Tuesday morning. Our bank will process the batch and transfer the amount to the merchant’s business bank account. The merchant may receive the payout on Tuesday afternoon.
 
 _Manual withdrawal_ : In case of a manual transaction, the withdrawal will have the status _Reserved_ for 24 hours before it is added to our bank’s payout batch. Once added to the payout batch (this happens in the morning), the payout is transferred to the merchant's bank. A manual payout usually takes longer to process than an automatic withdrawal.
 
