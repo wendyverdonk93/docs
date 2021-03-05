@@ -84,13 +84,13 @@ With the POST notification your webserver does not have to request the transacti
 The security requirement you must implement is to always validate the payload so you know the POST notification comes from MultiSafepay and has not been tampered with.
 
 ### Response
-As response, MultiSafepay expects an empty page with one of the following:
+As response, MultiSafepay expects an _OK_ in the body of the response. A response containing '200' in the body will not be accepted.
 
-* _OK_ on the first two characters of the body of the response
-* MULTISAFEPAY_OK anywhere in the body of the response
+If an _OK_ is not received, MultiSafepay will repeat this notification. The notification with a timestamp is repeated 15 minutes and 30 minutes after the payment has taken place.
 
-When an _OK_ or MULTISAFEPAY_OK is not received, MultiSafepay will repeat this notification. The notification with timestamp is repeated twice within 15 minutes. 
+### Error in offline actions
 
+In your [MultiSafepay Contol](https://merchant.multisafepay.com/), there is a paragraph at the bottom of the page named _Offline Actions_ which can tell you the notifications our server has sent to your webshop. If you see an error here, this indicates that our server has a problem reaching your webshop or our server did not retrieve the correct response. There should be an _OK_ in the body of the response.
 
 ### Note:
 
