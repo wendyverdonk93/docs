@@ -14,4 +14,4 @@
 - Screenshot recommended sizes: Width: 820px - Height: auto
 
 ### Aliases
-- When renaming or deleting a page, add an alias of the deprecated URL to the page users should be redirected to. This prevents external links to return 404 errors. Check the [Hugo Documentation](https://gohugo.io/content-management/urls/#aliases) for more information.
+- When renaming or deleting a page, add an alias of the deprecated URL to the page users should be redirected to. This prevents external links from returning 404 errors. Check the [Hugo Documentation](https://gohugo.io/content-management/urls/#aliases) for more information.
