@@ -2,7 +2,7 @@
 - We only accept documentation that is proven to work on our LIVE API
 - At least one approval is needed before pull requests can be merged
 - All content is written in US English
-- The terminology used must be in accordance with our word list
+- The terminology used must be in accordance with our naming conventions
 
 ### Text style
 - Paths are formatted like: _Configuration → System → Plugin → MultiSafepay_
