@@ -57,7 +57,9 @@ Some products and/or services cannot therefore be accepted or can only be sold i
 
 ## High risk products/services
 
-VISA and Mastercard recently introduced a program concerning _high-risk_ products and services based on _Merchant category codes_. If you sell products and/or services that fall under one of these codes, you will be subject to a 500 USD fee per code. Below is an overview of VISA and Mastercard's most recent release of products or services that are considered _high-risk_.
+Under VISA and Mastercard's High Risk program that concerns _high-risk_ products and services, you will be subject to a 500 USD fee per code that represents a number of business activities.
+
+An overview of VISA and Mastercard's most recent release of products or services that are considered _high-risk_ can be viewed in the table below:
 
 ### VISA Product and service rules
 
@@ -93,4 +95,4 @@ VISA and Mastercard recently introduced a program concerning _high-risk_ product
 | n/a | Merchants that fall under the _Excessive chargeback program_ |
 | n/a | Sale of replicas and _inspired by_ items |
 
-If you have any questions about High Business Risk program, please contact <support@multisafepay.com>
+If you have any questions about the High Risk Program, please contact <risk@multisafepay.com>
