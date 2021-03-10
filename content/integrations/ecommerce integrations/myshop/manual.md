@@ -7,6 +7,7 @@ aliases:
     - /integrations/hosted/myshop/manual
     - /integrations/myshop/manual
 ---
+
 ### Introduction
 
 {{% introduction_hosted "myShop" %}}
