@@ -24,7 +24,8 @@ Partial refunds can be done by creating credit memos. In the Lightspeed eCom bac
 When canceling an order in the Lightspeed eCom backend a Credit memo is created for the remaining open amount. After installing our app Multisafepay will be notified when this occurs. Afterwards we will obtain the credit memo, process the memo and create a full refund.
 
 ### Was my refund processed?
-It can take a few minutes before a refund is processed. When we have prosessed and accepted the request the red dot next to the related credit memo will turn green. 
+It can take a few minutes before a refund is processed. When we have processed and accepted the request the red dot next to the related credit memo will turn green. 
+
 
 {{< screen src="../img/status-refund-dots.png" class="small-img desktop-radius" caption="Example of a succesfull and awaiting  credit invoice refund">}}
 
