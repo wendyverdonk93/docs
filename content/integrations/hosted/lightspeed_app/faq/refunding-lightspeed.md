@@ -34,7 +34,7 @@ It can take a few minutes before a refund is processed. When we have processed a
 We also put a message in the notes section of the transaction to inform you about the refund. If a refund cannot be processed or an error occurred, this will be shown in the notes section. 
 
 No worries, the customer can't see this field. We will not try to redo a refund if it fails. 
-If you want to refund a previously failed refund, please try again via the MultiSafepay Merchant Panel.
+If you want to refund a previously failed refund, please try again via the MultiSafepay Control.
 
 {{< screen src="../img/status-refund-notes.png" class="small-img desktop-radius" caption="Example note succesfull refund">}}
 
@@ -43,5 +43,5 @@ _Please note it will take longer till the customer sees money returned to their 
 ### How long does it take before a customer get their money back?
 The time of processing varies per payment method. For more info please visit our [page about refunds](https://docs.multisafepay.com/faq/refunds/how-long-does-a-refund-take-to-process/).
 
-### I Created a refund in the MultiSafepay Merchant panel, can I still refund via Lightspeed?
-Yes. MultiSafepay refunds cannot exceed the maximal transaction value. If a partial refund is done in the Merchant panel and later a refund is done via Lightspeed we will calculate maximum amount possible and use this amount if the original amount exceeds the maximal transaction value.
+### I Created a refund in the MultiSafepay Control, can I still refund via Lightspeed?
+Yes. MultiSafepay refunds cannot exceed the maximal transaction value. If a partial refund is done in the MultiSafepay Control and later a refund is issued through Lightspeed, we will calculate the maximum amount possible and use this amount if the original amount exceeds the maximal transaction value.
