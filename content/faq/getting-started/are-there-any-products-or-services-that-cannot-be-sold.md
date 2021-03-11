@@ -55,11 +55,11 @@ Some products and/or services cannot therefore be accepted or can only be sold i
 ### Live organisms
 * If live organisms are offered in any way
 
-## High risk products/services
+## High-risk products/services
 
-Under VISA and Mastercard's High Risk program that concerns _high-risk_ products and services, you will be subject to a 500 USD fee per code that represents a number of business activities.
+Under VISA and Mastercard's High Risk program that concerns high-risk products and services, you will be subject to a 500 USD fee per code that represents a number of business activities.
 
-An overview of VISA and Mastercard's most recent release of products or services that are considered _high-risk_ can be viewed in the table below:
+An overview of VISA and Mastercard's most recent release of products or services that are considered high-risk can be viewed in the table below:
 
 ### VISA Product and service rules
 
@@ -95,4 +95,4 @@ An overview of VISA and Mastercard's most recent release of products or services
 | n/a | Merchants that fall under the _Excessive chargeback program_ |
 | n/a | Sale of replicas and _inspired by_ items |
 
-If you have any questions about the High Risk Program, please contact <risk@multisafepay.com>
+If you have any questions about the High Risk program, please contact <risk@multisafepay.com>
