@@ -18,6 +18,7 @@ In early 2021, we have changed the login method for the MultiSafepay Payment app
 1. Log in to the /admin section of your Lightspeed store
 
 2. Navigate to _Apps_ in the sidebar 
+
 {{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
 3. Click on _Purchased apps_ / _Aangeschafte apps_
