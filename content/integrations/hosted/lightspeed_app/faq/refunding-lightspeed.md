@@ -17,7 +17,8 @@ When refunds are enabled, all Credit memos and order cancelations in the Lightsp
 If you need any help with refunds, feel free to contact us at <integration@multisafepay.com>
 
 ### Partial Refund
-Partial refunds can be done by creating credit memos. In the Lightspeed eCom backend go to the order you want to refund and select _Add a credit invoice_ in the payment section. When a credit invoice is created MultiSafepay will receive a notifaction and create a refund.
+Partial refunds can be done by creating credit memos. In the Lightspeed eCom backend, go to the order you want to refund and select _Add a credit invoice_ in the payment section. When a credit invoice is created, MultiSafepay will receive a notification and create a refund.
+
 
 ### Canceling an order
 When canceling an order in the Lightspeed eCom backend a Credit memo is created for the remaining open amount. After installing our app Multisafepay will be notified when this occurs. Afterwards we will obtain the credit memo, process the memo and create a full refund.
