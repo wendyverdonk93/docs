@@ -31,7 +31,8 @@ It can take a few minutes before a refund is processed. When we have processed a
 
 {{< screen src="../img/status-refund-dots.png" class="small-img desktop-radius" caption="Example of a succesfull and awaiting  credit invoice refund">}}
 
-We also put a message in the notes section of the transaction to inform you about the refund. If a refund cannot be processed or an error occured this will be shown in the notes section. 
+We also put a message in the notes section of the transaction to inform you about the refund. If a refund cannot be processed or an error occurred, this will be shown in the notes section. 
+
 No worries, the customer can't see this field. We will not try to redo a refund if it fails. 
 If you want to refund a previously failed refund, please try again via the MultiSafepay Merchant Panel.
 
