@@ -4,7 +4,8 @@ meta_title: "Lightspeed plugin - Can I refund orders? - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-Yes you can refund orders.  By default you can create a refund in your [MultiSafepay Control](https://merchant.multisafepay.com), however, refunding directly from your Lightspeed backend is possible when this setting is enabled.
+Yes, you can refund orders.  By default, you can create a refund in your [MultiSafepay Control](https://merchant.multisafepay.com). To enable refunding from your Lightspeed backend, follow the steps below.
+
 
 ### How to enable refund
 By default the automatic refunds setting is disabled. This option can be enabled on the [settings page](https://lightspeed.multisafepay.com/settings).
