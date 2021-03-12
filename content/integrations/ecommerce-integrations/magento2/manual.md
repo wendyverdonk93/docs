@@ -47,10 +47,8 @@ Some features are not available anymore, because they are not supported anymore 
 
 ### 2. Requirements
 - To use the plugin you need a MultiSafepay account. You can create a test account on https://testmerchant.multisafepay.com/signup
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x or Magento Commerce version 2.3.x & 2.4.x
 - PHP 7.1+
-
-_* If you are using [Magento Commerce](https://magento.com/products/magento-commerce), contact us at <integration@multisafepay.com>_
 
 ### 3. Modules
 The new MultiSafepay Magento 2 plugin consists of several Magento modules:
@@ -99,6 +97,8 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 The meta-package has a dependency on MSI, which means that the MSI modules should be available (but not necessarily enabled) in your store. However, if you have removed it with, for example, a composer-replace trick like [yireo/magento2-replace-inventory](https://github.com/yireo/magento2-replace-inventory), you will not be able to install the meta-package. In this case it is still possible to integrate with MultiSafepay. You can then install the magento2-frontend module and the magento2-catalog-inventory module, instead of the meta-package.
 
 The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml module, so they all will be installed. And then you need to have a module which handles the stock in some specific cases. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
+
+The installation process is the same for the Magento Commerce version.
 
 ### 5. Configuration
 1. Log in to the backend of your webshop and navigate to _Stores_ → _Configuration_ → _MultiSafepay_ → _General Information_.  
