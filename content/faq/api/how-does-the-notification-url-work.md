@@ -84,7 +84,7 @@ With the POST notification your webserver does not have to request the transacti
 The security requirement you must implement is to always validate the payload so you know the POST notification comes from MultiSafepay and has not been tampered with.
 
 ### Response
-As response, MultiSafepay expects an _OK_ in the body of the response. A response containing the code '200' in the body will not be accepted.
+Despite the result code '200' referring to a successful HTTP request, it will not be accepted in the body of the response. As a response, MultiSafepay expects an _OK_ in the body of the response.
 
 If an _OK_ is not received, MultiSafepay will repeat this notification. The notification with a timestamp is repeated 15 minutes and 30 minutes after the payment has taken place.
 
