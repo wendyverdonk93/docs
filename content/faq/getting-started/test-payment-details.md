@@ -15,6 +15,34 @@ With a successful connection with your test or staging environment, you can imme
 
 ## Banks
 
+### AfterPay
+
+Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup)
+
+### Alipay
+
+ Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction is Completed |
+| Cancelled | Transaction is Cancelled |
+
+### American Express
+
+MultiSafepay provides a test platform for American Express transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
+
+* CVC 123
+* Select a date in the future for the expiry date
+
+| Card number         | Status    | Description              |
+| ------------------- | --------- | ------------------------ |
+| 378282246310005  | Completed | Transaction is Completed (not 3D enrolled) |
+| 374200000000004  | Declined  | Transaction is Declined |
+| 378734493671000  | Uncleared | Transaction is Uncleared (after 3 minutes it is changed to Void) |
+
+### Apple Pay
+
+If you would like to test Apple Pay, we kindly invite you to read our page about [Compatibility and Testing](/payment-methods/wallet/applepay/#compatibility-and-testing) which explains how you will be able to execute tests on supported devices.
+
 ### Bancontact
 
 MultiSafepay provides a test platform for Bancontact transactions. By entering a test card number, you will be able to simulate the outcome of the transaction.
