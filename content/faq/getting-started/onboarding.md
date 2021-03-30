@@ -29,7 +29,7 @@ You can supply all documents and information below through the [onboarding flow]
 * Information about the [ultimate beneficial owners](https://docs.multisafepay.com/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) of the company, including color scans of valid identity documents. We advise you to use the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
 * A payment of 1 EUR, transferred from your business bank account. Alternatively, you can provide a copy of a bank statement/screenshot taken in your online banking environment, including IBAN and company name. _Please note: your business bank account's trade name must be an exact match to (one of) the trade name(s) listed on your Chamber of Commerce extract._
 
-#### Credit card payments
+### Credit card payments
 To process credit card payments, we request you to provide the following information:
 
 * Minimum order value
@@ -50,7 +50,7 @@ In addition to the information and documents mentioned above, we request that yo
 * Privacy policy
 * Full legal company name, company address, phone number, email address.
 
-#### Product guidelines
+### Product guidelines
 
 We have compiled a list of products and services that can't be sold with MultiSafepay or can only be sold if additional requirements are met. The list is compiled based on applicable laws, risk factors, reputation impact and payment gateway policies. [Click here](/faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold/) to read more and view the list.
 
