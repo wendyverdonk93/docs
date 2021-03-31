@@ -15,7 +15,6 @@ Ask your developer to read:
 
 + [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
 + [MultiSafepay PHP-SDK](https://github.com/MultiSafepay/php-sdk/)
-+ [MultiSafepay Order Request Filter](https://github.com/MultiSafepay/WooCommerce/blob/master/src/Services/OrderService.php#L108)
 
 &nbsp;
 
