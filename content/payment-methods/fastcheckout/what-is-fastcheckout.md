@@ -25,5 +25,17 @@ __Available__: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Be
 
 __Not available__: Klarna, Pay After Delivery. 
 
+### Adding a website and customized logo
+
+To add a website, please refer to our documentation on how to [add your website](/tools/multisafepay-control/add-website/)
+
+To add your personal logo to the Fastcheckout payment pages, please follow these steps:
+
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com/)
+2. Navigate to _Settings_ → _Website settings_
+3. Scroll down to the option _Payment logo (Fast Checkout)_
+4. Select your logo
+5. Click _Save_
+
 ### Fastcheckout Guaranteed
 With Fastcheckout Guaranteed, customers profit from additional security and protection. In case of delivery failure after payment, Fastcheckout offers an insurance up to €200 per order.
