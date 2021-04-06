@@ -17,7 +17,15 @@ With a successful connection with your test or staging environment, you can imme
 
 ### AfterPay
 
-Contact our [Integration Team](<mailto:integration@multisafepay.com>) to enable AfterPay as payment method in your [MultiSafepay Control Test environment](https://testmerchant.multisafepay.com/signup)
+MultiSafepay provides a [test platform](https://testmerchant.multisafepay.com/signup) for Klarna transactions. An [API key](.com/tools/multisafepay-control/get-your-api-key/) is required to test with AfterPay in our environment.
+
+You can test the payment method AfterPay as follows:
+
+1. Place a [Direct or Redirect](/faq/api/difference-between-direct-and-redirect/) order using the payment method AfterPay
+2. The payment will be processed through the test ennvironment as _Successful_ where the order status will be marked as _Completed_ and the transaction status as _Uncleared_
+3. You can manually change the order status to _Shipped_ through an [API request](/api/#update-an-order) or manually in the [MultiSafepay Control](https://testmerchant.multisafepay.com/)<br> The transaction status will remain _Uncleared_
+4. An invoice is not generated in the test environment, therefore the transaction (financial) status cannot be changed to status _Completed_. Alternatively, in the live environment, the _Shipped_ status will initiate the invoice process, becasue the order has been captured in AfterPay.
+
 
 ### Alipay
 
