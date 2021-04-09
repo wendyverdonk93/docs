@@ -55,7 +55,6 @@ Our Integration Team will greatly appreciate your effort.
 [Robert Au](https://www.linkedin.com/in/robert-au-7b84a3177)  
 [Vinod Sowdagar](https://www.linkedin.com/in/vinod-sowdagar)  
 
-
 ### Take a look at our Social media pages
 [LinkedIn](https://www.linkedin.com/company/multisafepay)  
 [Twitter](https://twitter.com/multisafepay)  

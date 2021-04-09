@@ -28,6 +28,7 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 [WooCommerce plugins](https://wordpress.org/plugins/multisafepay)
 
 ### LinkedIn profielen
+
 [Adam Abdulai](https://www.linkedin.com/in/adam-abdulai-7720447a)  
 [Alex Carletto](https://www.linkedin.com/in/alexcarletto)  
 [Atiq Sahi](https://www.linkedin.com/in/atiq-s-706845121)  
