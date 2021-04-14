@@ -15,4 +15,4 @@ There are two ways to activate Bancontact as a payment method in your [MultiSafe
 1. Globally (enable this payment method for all websites connected to your MultiSafepay Control) - Go to _settings → payment methods_
 2. Specifically (enable this payment method at site-level) - Go to _settings_ → _website settings_ → open website → activate Bancontact as payment method.
 
-Enable Bancontact as payment method in your ecommerce platform to finalize the connection.
+Enable Bancontact as a payment method in your ecommerce platform to finalize the connection.
