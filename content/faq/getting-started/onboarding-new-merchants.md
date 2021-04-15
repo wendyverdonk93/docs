@@ -10,6 +10,7 @@ aliases:
     - /faq/getting-started/onboarding
 ---
 Onboarding refers to the steps you need to follow to create a live account with MultiSafepay. When new merchants [sign up](https://merchant.multisafepay.com/signup) and we create a new account, we first perform several [know your customer](https://en.wikipedia.org/wiki/Know_your_customer) checks on the:
+
 * account holder.
 * associated bank account.
 * merchant.
