@@ -6,6 +6,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 logo: '/svgs/Getting started.svg'
 layout: 'faqplugins'
-short_description: "Learn about how you can get started with MultiSafepay from the on boarding process to testing."
+short_description: "Onboarding and testing"
 ---
 This section contains all the information you need to start processing payments with MultiSafepay.
