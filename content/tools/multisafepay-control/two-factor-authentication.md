@@ -1,7 +1,7 @@
 ---
 title : "Two-factor authentication"
 weight: 100
-meta_title: "MultiSafepay Control- 2FA - MultiSafepay Docs"
+meta_title: "MultiSafepay Control - 2FA - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 description_short: "Two-factor authentication (2FA) requires users to verify their identity with two pieces of evidence. This authentication method is used to add an additional layer of security to your data. At MultiSafepay, the first piece of evidence users are asked to provide is a password. The second piece of evidence is a 6-digit token, generated in the MultiSafepay app on the user's mobile device."
