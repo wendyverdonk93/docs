@@ -17,8 +17,8 @@ Please note that only a user with administrator rights can perform these steps:
 
 1. Open the [User Management](https://merchant.multisafepay.com/user-management) page in your MultiSafepay Control
 2. Open a user's details by clicking their name
-3. Click the drop-down list *Two-factor* and select *Enable*
-4. Click *Save changes*
+3. Click the drop-down list **Two-factor** and select **Enable**
+4. Click **Save changes**
 
 {{< screen src="/gifs/MCP_2FA-1.gif" alt="Enabling Two-factor authentication in MultiSafepay Control" align="center" caption="That's it. Don't forget to click 'Save changes'" screen_size="desktop" >}}
 
@@ -28,8 +28,8 @@ The first time a user logs into MultiSafepay Control after 2FA is enabled, they 
 1. Log into [MultiSafepay Control](https://merchant.multisafepay.com) on your laptop or PC. An additional screen asking for a 6-digit token should appear
 2. If you have not yet done so, [download](https://docs.multisafepay.com/tools/multisafepay-control-app/how-to-download-the-app) the MultiSafepay Control app 
 3. Log into the MultiSafepay Control app on your mobile device
-4. Press *More* in the bottom-right corner
-5. Press *Authenticator*
+4. Press **More** in the bottom-right corner
+5. Press **Authenticator**
 6. Copy the 6-digit token from your mobile device to the 2FA screen on your computer or laptop
 
 {{< screen src="/gifs/MCP_2FA-3.gif" alt="Generating a 6-digit 2FA token the in MultiSafepay Control app" align="center" caption="The 6-digit token remains visible for 30 seconds" screen_size="mobile" >}}
