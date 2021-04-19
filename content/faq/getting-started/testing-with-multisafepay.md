@@ -14,7 +14,7 @@ Start by [creating a test account](https://testmerchant.multisafepay.com/signup)
 - the test [API key](/faq/general/glossary/#api-key) provided, or 
 - the test Account ID, Secure Code, and Site ID.
 
-{{< blue-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in test accounts, therefore refunds cannot be processed. To enable outgoing payments or additional payment methods in your test account, email the Integration Team at <integration@multisafepay.com>.
+{{< blue-notice >}} Outgoing payments and additional payment methods (e.g. American Express) are disabled by default in test accounts, therefore refunds cannot be processed. To enable outgoing payments or additional payment methods in your test account, email the Integration Team at <integration@multisafepay.com>
 {{< /blue-notice >}} 
 
 ## Test API
@@ -57,4 +57,4 @@ When the client server has updated the transaction or order status, you can veri
 
 ## Refunds
 
-You can process refunds in your test account, but this is disabled by default. To enable refunds in your test account, email the Integration Team at <integration@multisafepay.com>.
+You can process refunds in your test account, but this is disabled by default. To enable refunds in your test account, email the Integration Team at <integration@multisafepay.com>
