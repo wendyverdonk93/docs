@@ -6,7 +6,7 @@ read_more: "."
 aliases:
     - /faq/finance/how-can-i-perform-a-refund-
 ---
-Tp pay refunds, follow these steps:
+To pay refunds, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account.
 2. In the **Dashboard**, select **Transactions > Transaction overview**.

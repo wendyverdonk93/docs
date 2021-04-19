@@ -11,12 +11,12 @@ You can pay out funds from your MultiSafepay Control to your business bank accou
 - Your account balance is negative.
 - The Risk Team has deactivated this feature for any reason. 
 
-To make a pay out to a different bank account than the one activated in your MultiSafepay Control, you must first add it under **Business documents**.
+To make a payout to a different bank account than the one activated in your MultiSafepay Control, you must first add it under **Business documents**.
 
 ## Payout fees
 Payouts cost 0.50 EUR per pay out.
 
-## Automatic and manual pay outs 
+## Automatic and manual payouts 
 You can pay out funds automatically or manually.
 
 ### Automatic
@@ -26,7 +26,7 @@ To schedule automatic payouts, follow these steps:
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com) account.
 2. Select **Finance > Balance**.
 3. Select the IBAN number you want to pay out to.
-4. Schedule your pay outs.
+4. Schedule your payouts.
 
 The payout scheduler lets you:
 
@@ -51,10 +51,10 @@ Not all banks have instant payments and therefore may take extra time to process
 
 On some bank holidays, banks don't process outgoing payments. For example, see the [Deutsche Bank schedule for the Netherlands](https://www.deutschebank.nl/nl/content/producten_en_services_services_international_holidays_2017.html).
 
-**Automatic:** Assuming default settings, if you schedule a payout on Monday, the payout batch includes all payments up to 23:59 hours on the Monday night. The payout batch is sent to MultiSafepay's bank on Tuesday morning. Our bank processes the batch and transfers the pay out to your business bank account. You should receive the payout on Tuesday afternoon.
+**Automatic:** Assuming default settings, if you schedule a payout on Monday, the payout batch includes all payments up to 23.59 hours on the Monday night. The payout batch is sent to MultiSafepay's bank on Tuesday morning. Our bank processes the batch and transfers the payout to your business bank account. You should receive the payout on Tuesday afternoon.
 
 **Manual:** The status of the pay out is **Reserved** for 24 hours before it is added to our bank’s payout batch in the morning. Then, the payout is transferred to your business bank account. Manual payouts usually take longer to process than automatic ones.
 
 ## Negative MultiSafepay Control balance
-If the balance on your MultiSafepay Control is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until sufficient funds are available. Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
+If the balance on your MultiSafepay Control is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until sufficient funds are available. Always set a reserved balance in your payout settings to prevent payout and/or refund delays.
 

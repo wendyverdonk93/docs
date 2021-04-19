@@ -8,22 +8,13 @@ aliases:
     - /faq/finance/how-can-i-view-uncleared-transactions
 ---
 
-If a credit card payment receives an **Uncleared** transaction status, it means that MultiSafepay's automated fraud filter has placed the payment on hold. The fraud filter detects increased risk of fraud, but doesn't prevent all fraudulent payments. Not every payment the filter places on hold is necessarily fraudulent.
+If a credit card payment receives an **Uncleared** transaction status, it means that MultiSafepay's automated fraud filter has placed the payment on hold. The fraud filter detects increased _risk_ of fraud, but doesn't prevent all fraudulent payments. Not every payment the filter places on hold is necessarily fraudulent.
 
-There are risks associated with accepting credit card payments. You bear the risk of financial damage, for example due to fraud, for which neither MultiSafepay nor the credit card holder is accountable.
-
-You must review all **Uncleard** transactions, and either accept or decline them.
-
-## Fraud score 
-All **Uncleared** transactions are assigned a fraud score from 1-10 (10 being the most at risk of fraud). Transactions that score 10 aren't always fraudulent, and low-scoring transactions may still carry risk.
-
-Transactions that score 6 to 8 you can accept or decline yourself in MultiSafepay Control following the steps below.
-
-Transactions that score 8 or above can can only be approved by MultiSafepay. Email the Risk Team at <risk@multisafepay.com> for help with evaluating potential risks or fraud indicators, and professional advice. 
-
-The final decision to accept or decline transactions lies with you. MultiSafepay is not responsible nor liable for any damage after accepting payments.
+You bear the risk of financial damage due to fraud, for which neither MultiSafepay nor the credit card holder is accountable.
 
 # Reviewing uncleared transactions
+
+You must review all **Uncleard** transactions, and either accept or decline them. 
 
 In your MultiSafepay Control, you will receive a notification that uncleared payments are awaiting your approval. 
 
@@ -37,8 +28,17 @@ The **Transaction details** page includes:
 - A fraud score
 - A risk summary (righthand side). For a detailed risk report, click **More information**.
 - If the customer is enrolled for 3D Secure 
-- Buttons to **Accept** or **Decline** the transaction
 - History data
+- Buttons to **Accept** or **Decline** the transaction
+
+## Fraud score 
+All **Uncleared** transactions are assigned a fraud score from 1-10 (10 being the most at risk of fraud). Transactions that score 10 aren't always fraudulent, and low-scoring transactions may still carry risk.
+
+Transactions that score 6 to 8 you can accept or decline yourself in your MultiSafepay Control following the steps below.
+
+Transactions that score 8 or above can can only be approved by MultiSafepay. For help with evaluating potential risks or fraud indicators, and professional advice, email the Risk Team at <risk@multisafepay.com>
+
+The final decision to accept or decline transactions lies with you. MultiSafepay is not responsible nor liable for any damage after accepting payments.
 
 # Evaluating uncleared transactions
 
@@ -93,7 +93,7 @@ If the customer is enrolled for 3D Secure, in the **Transaction details** page *
  
 ### 3D Secure statuses
 
-| 3D Secure result            | Description      |
+| Status            | Description      |
 |---------------------|-----------|
 | Enrolled Liability  | 3D Secure available and successfully verified. Liability for fraud is shifted to the cardholder. Fraud chargebacks are not possible. |
 | Not Enrolled, Liability  | 3D Secure available, but not used or successfully verified. Liability for fraud is shifted to the cardholder. Fraud chargebacks are not possible |
@@ -110,11 +110,14 @@ We recommend comparing where payments were made to where the card was initially 
 For more information about the credit card used for the transaction, in the **Transaction details** page, click **View Risk report**. 
 
 You can view:
+
 - Information about the number of credit cards used via a specific IP address
 - The number of credit cards used in combination with a specific email address
 
 ## Other indicators
 
-Under **Fraud info** (next to the fraud score), there are several other fraud risk indicators based on the email address and shipping details.
+In the **Transaction details** page under:
 
-Under **History Data**, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.
+- **Fraud info** (next to the fraud score), there are several other fraud risk indicators based on the email address and shipping details.
+
+- **History data**, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.

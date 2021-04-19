@@ -26,9 +26,9 @@ Transaction fees are charged as each transaction is processed. Bank fees and VAT
 
 VAT is automatically deducted from your MultiSafepay Control account balance at the end of each month. 
 
-To view the exact amount in your MultiSafepay Control > **Transaction overview**, enter 'VAT' or 'Invoice' as a search query. 
+To view the exact amount in your MultiSafepay Control > **Transaction overview**, enter `VAT` or `Invoice` as a search query. 
 
-### VAT invoices
+## VAT invoices
 
 Monthly VAT invoices are for your records only. You don't need to pay the amount separately.
 
@@ -36,10 +36,21 @@ They are uploaded to your MultiSafepay Control **> Finance > Invoices**.
 
 We also email the invoices to the **Financial email** address in your MultiSafepay Control. If you have not added an email address here, we will send them to the main business email address listed in your account.
 
-To add a financial email address, go to **Contact Information**.  
+To add a financial email address in your MultiSafepay Control, go to **Contact Information**.  
 
-## Why do I pay VAT on some payment methods but not others?
-As the collecting party for most payment methods, MultiSafepay is responsible for charging VAT. For other payment methods (e.g. PayPal) we are not the collecting party, and for these transactions VAT is applied via the scheme to avoid double taxation. 
+### Why are refunds stated twice on my invoice?
+One entry refers to the payment methods for which MultiSafepay is the collecting party, and the other to payment methods for which we are not.
+
+### How is the transaction fee total calculated?
+The transaction fee total is the sum of all processed and completed transactions within a specified timeframe and the (universal) transaction fee agreed when you signed up with MultiSafepay.
+
+### What exchange rate do you use on the invoice and where can I find it?
+We always use our bank's closing exchange rate from the previous day. The exchange rate is not displayed on the invoice, but it is easy to calculate.
+
+Simply divide the EUR amount by the foreign currency amount (or the other way around depending on your target currency).
+
+### Why do I pay VAT on some payment methods but not others?
+As the collecting party for most payment methods, MultiSafepay is responsible for charging VAT. For other payment methods (e.g. PayPal), we are not the collecting party, and for these transactions VAT is applied via the scheme to avoid double taxation. 
 
 Transactions for which MultiSafepay is **not** the collecting party are listed on your invoice with zero VAT value.
 
@@ -62,15 +73,5 @@ These costs vary considerably depending on a range of factors, including the:
 - Monthly transaction volume 
 
 When you sign up with MultiSafepay, we will provide you an estimate of these costs.
-
-## Why are refunds stated twice on my invoice?
-One entry refers to the payment methods for which MultiSafepay is the collecting party, and the other to payment methods for which we are not.
-
-## How is the transaction fee total calculated?
-The transaction fee total is the sum of all processed and completed transactions within a specified timeframe and the (universal) transaction fee agreed when signing up with MultiSafepay.
-
-## What exchange rate do you use on the invoice and where can I find it?
-We always use our bank's closing exchange rate from the previous day. The exchange rate is not displayed on the invoice, but it is easy to calculate.
-
-Simply divide the EUR amount by the foreign currency amount (or the other way around depending on your target currency).  
+  
 

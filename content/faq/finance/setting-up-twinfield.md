@@ -36,7 +36,7 @@ You must first provide Twinfield with an additional international bank account n
 3. Select **Cash & Banks** again.
 4. In the **Code** line, enter an identifier, e.g. MSPAY.
 5. Click **Next**.
-6. Fill the following fields:
+6. Fill out the following fields:
    - **Account number**
    - **Account name**
    - **IBAN**
