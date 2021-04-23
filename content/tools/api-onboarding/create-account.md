@@ -7,6 +7,7 @@ tags : hidden
 ## Introduction
 
 Use the following requests to create, retrieve or update merchant accounts affiliated to your partner account:
+
 1. [Signup account](#signup-account): create a new merchant account
 2. [List accounts](#list-accounts): retrieve a list of all merchant accounts
 3. [Get account](#get-account): retrieve a single merchant account
