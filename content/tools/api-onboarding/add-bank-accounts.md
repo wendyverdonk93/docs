@@ -7,6 +7,7 @@ tags : hidden
 ## Introduction
 
 Use seven requests to perform actions on bank account details of merchant accounts affiliated to your partner account:
+
 1. [Add bank account](#add-bank-account): add a bank account to a merchant account
 2. [List bank accounts](#list-bank-accounts): retrieve a list of all bank accounts
 3. [Get bank account](#get-bank-account): retrieve a single bank account
