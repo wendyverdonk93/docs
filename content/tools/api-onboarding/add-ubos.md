@@ -7,6 +7,7 @@ tags : hidden
 ## Introduction
 
 Use the following requests to add, retrieve or update [Ultimate Beneficial Owner](/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) (UBO) details linked to a merchant account affiliated with your partner account:
+
 1. [Create a UBO](#create-a-ubo): Add a UBO to a merchant account.
 2. [List UBOs](#list-ubos): Retrieve all UBOs for a merchant account.
 3. [Get UBO](#get-a-ubo): Retrieve a single UBO by its identifier.
@@ -16,9 +17,10 @@ Use the following requests to add, retrieve or update [Ultimate Beneficial Owner
 7. [Get identity document](#get-identity-document): Retrieve a single identity document for a UBO.
 
 ### The process
-The requests above can be divided into the following steps.
+The requests above can be divided into the following steps:
+
 1. **Add UBOs**: Use the first four requests to add, retrieve and update UBOs linked to a merchant account.
-1. **Add identity documents**: Use the last three requests to add and retrieve identity documents of UBOs linked to a merchant account. These documents are used to perform our UBO verification.
+2. **Add identity documents**: Use the last three requests to add and retrieve identity documents of UBOs linked to a merchant account. These documents are used to perform our UBO verification.
 
 ### About parameters
 For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To perform our UBO verification, we may need _optional_ parameters to be supplied.
