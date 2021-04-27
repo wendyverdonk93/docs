@@ -11,7 +11,7 @@ aliases:
 You can initiate refunds in batches using our refund script. The script requires 2 parameters: 
 
 1. A .csv file that specifies the order ID, amount, and description of every transaction
-2. Your [API key](/faq/general/glossary/#api-key)
+2. Your [API key](/faq/general/multisafepay-glossary/#api-key)
 
 The script is written in PHP, so make sure you have a PHP interpreter installed.
 
