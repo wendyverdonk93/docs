@@ -16,7 +16,7 @@ For that reason, some of our plugins use one or more generic gateways. These gat
 Since we don't support closed-loop gift cards and not all open-loop gift cards in our ecommerce integrations, generic gateways can be particularly useful for gift cards.
 In some integrations, we use special gateways that act as generic gift card gateways.
 
-For more information about integrating both open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>.
+For more information about integrating both open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>
 
 ### Limitations
 
