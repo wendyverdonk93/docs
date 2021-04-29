@@ -13,7 +13,7 @@ By requesting the credit card details on the webshop, a 'direct' transaction can
 | Debit / Credit cards | Supported for server to server direct payments |
 |---|---|
 |Visa | 3D verified by Visa and NON 3D |
-|Mastercard | 3D secure code and NON 3D |
+|Mastercard | [3D secure](/faq/general/glossary/#3d-secure) code and NON 3D |
 |Maestro | Only 3D |
 |American Express | American Express Safekey. The only allowed exception from mandatory Safekey verification is for transactions lower than 30 EUR |
 |Bancontact | Only 3D |
