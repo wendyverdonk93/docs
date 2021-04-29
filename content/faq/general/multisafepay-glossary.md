@@ -9,7 +9,7 @@ aliases:
 ---
 
 ### 3D Secure
-3D Secure is an authentication protocol for online payments designed to reduce fraud while maintaining a positive customer experience. It is also known by other brand names such as Mastercard Identity Check, Visa Secure, or American Express SafeKey. 
+3D Secure is an authentication protocol for online payments designed to reduce fraud while maintaining a positive customer experience. It is also known by other brand names such as Mastercard Identity Check, Visa Secure, or American Express SafeKey. For more information, see (/faq/payment-regulations/about-3d-secure/).
 
 ### Acquirer
 To accept card payments, in accordance with card networks, an acquirer is partnered with a payment provider or is itself a payment provider. Aquirers may be banks or financial institutes that process payment for merchants.

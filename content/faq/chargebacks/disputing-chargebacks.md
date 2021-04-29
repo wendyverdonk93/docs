@@ -234,9 +234,9 @@ Cardholder denied authorizing the charge, and your business has been placed in t
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 
-* Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D secure. 3D Secure is a security protocol to prevent fraud.
+* Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D Secure. 3D Secure is a security protocol to prevent fraud.
 
-More information about 3D secure is available in [What is 3D secure](/faq/general/what-is-3d-secure)
+For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
 
 #### Reason Code: 4526
 __Description: Missing Signature__
@@ -245,7 +245,7 @@ Cardholder claims that the transaction is fraud. The documents provided do not s
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 
-* Proof that the receipt carries a signature or that the cardholder was present at the time of the transaction or that the transaction was completed via secure payment, meaning 3D secure verified.
+* Proof that the receipt carries a signature or that the cardholder was present at the time of the transaction or that the transaction was completed via secure payment, meaning 3D Secure verified.
 
 #### Reason Code: 4540
 __Description: Card Not Present__
@@ -371,6 +371,6 @@ Cardholder denied authorizing the charge, and your business has been placed in t
 
 In order for this chargeback to be disputed we need the following documentation and information to be provided, in case you have it: 
 
-* Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D secure. 3D Secure is a security protocol to prevent fraud.
+* Prove that the transaction falls in the list of exempted transactions and/or is authorized by means of, for example, a pin code, 3D Secure. 3D Secure is a security protocol to prevent fraud.
 
-More information about 3D secure is available in [What is 3D secure](/faq/general/what-is-3d-secure)
+For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).

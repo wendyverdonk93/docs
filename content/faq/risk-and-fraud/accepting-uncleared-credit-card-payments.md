@@ -50,10 +50,10 @@ View customer information available in your MultiSafepay Control as well as in y
 - Ask if the customer is willing to pay with a different payment method. You can also ask for a copy of their ID card and/or a credit card statement. Do mind that the customer is not obliged to deliver.
 
 
-## 3D secure
+## 3D Secure
 3D Secure is an additional security measure intended to reduce fraud. It is an extra step to verify the identity of the actual card holder.
 
-[3D secure, What it is](/faq/general/what-is-3d-secure)
+For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
 
 
 ## List of statuses

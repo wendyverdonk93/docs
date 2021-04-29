@@ -20,7 +20,7 @@ In most cases, merchants can see the reason the payment was declined in the decl
 ------- |----------|---------|
 Declined | Transaction not allowed | MultiSafepay's fraud filter has declined the transaction. For more information, email the Support Team at <support@multisafepay.com>
 Declined | Do not honour | The reason has not been shared with MultiSafepay. Only the card holder can contact their issuing bank to find out why.
-Declined | 3D authorisation cancelled | The [3D secure](/faq/general/glossary/#3d-secure) verification may be incomplete or could not be validated.
+Declined | 3D authorisation cancelled | The [3D Secure](/faq/general/glossary/#3d-secure) verification may be incomplete or could not be validated.
 Declined | Expired card | The customer's credit card has expired.
 Declined | Insufficient funds | The customer has insufficient credit on their card to complete the payment.
 Declined | Merchant only accepts 3DS verified cards | "Declined, not verified". If you want to accept unverified 3D cards, email the Risk Team at <risk@multisafepay.com>
