@@ -29,14 +29,11 @@ However, if the notification URL is not correctly set, the order will not update
 | Shopware 5  | Please contact the Integration Team at <integration@multisafepay.com>            |
 | Shopware 6     | Please contact the Integration Team at <integration@multisafepay.com>                 |
 | VirtueMart     | https://www.example.com/index.php?option=com_virtuemart&view=multisafepayresponse&mode=notify&type=initial&task=notify          |
-| WooCommerce    | https://www.example.com/?wc-api=multisafepay |
+| WooCommerce    | https://example.com/wc-api/multisafepay_{ID-OF-PAYMENT-METHOD}?transactionid={ORDER-NUMBER}&timestamp={TIME-STAMP} |
 | X-Cart   | Please contact the Integration Team at <integration@multisafepay.com> |
 | Zen Cart    | https://www.example.com/ext/modules/payment/multisafepay/notify_checkout.php?type=initial |
 
 
-> Please note that if for any reason the notification URL setup fails, you can manually create a backend order and use the payment link that our plugin places in the notes.
-
-
-Read more about [how the notification URL works](/faq/api/how-does-the-notification-url-work)
+To learn more, read our documentation about [Notification URL](/faq/api/notification-url/).
 
 
