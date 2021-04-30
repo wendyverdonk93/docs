@@ -24,10 +24,10 @@ Sample statuses:
 
 | Card number| Status    | Description              |
 | ---------| --------- | ------------------------ |
-| 67034500054620008 | Completed | Transaction was completed (3D enrolled) |
-| 67034500054610009| Declined  | Transaction was declined (card must be 3D enrolled) |
-| 67039902990000045| Declined  | Transaction was declined (3D authentication failed) |
-| 67039902990000011| Declined  | Transaction was declined (3D authentication successful, but insufficient funds) |
+| 67034500054620008 | **Completed** | Transaction was completed (3D enrolled) |
+| 67034500054610009| **Declined**  | Transaction was declined (card must be 3D enrolled) |
+| 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed) |
+| 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds) |
 
 ### Banktransfer
 Test IBANs: See the table below.
@@ -36,9 +36,9 @@ Sample statuses:
 
 | IBAN | Status    | Description              |
 | ---------| --------- | ------------------------ |
-| NL87ABNA0000000002| Initialized/ Declined | Transaction is initialized. After 1 minute, this changes to declined. |
-| NL87ABNA0000000003| Initialized/ Uncleared/ Completed | Transaction is initialized. After 1 minute, this changes to Uncleared. After 1 more minute, it changes to Completed. |
-| NL87ABNA0000000004| Initialized/ Uncleared/ Declined | Transaction is initialized. After 1 minute, this changes to Uncleared. After 1 more minute, it changes to Declined. |
+| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initialized. After 1 minute, this changes to declined. |
+| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initialized. After 1 minute, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
 
 ### Belfius
 
@@ -46,8 +46,8 @@ Sample statuses:
 
  Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction was cancelled 
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction was cancelled 
 
 
 ### CBC
@@ -58,8 +58,8 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction is void / cancelled |
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction is void / cancelled |
 
 ### Dotpay
 
@@ -67,8 +67,8 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Declined | Transaction was declined |
+| **Completed** | Transaction was completed |
+| **Declined** | Transaction was declined |
 
 ### Giropay / EPS
 
@@ -81,8 +81,8 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Declined  | Transaction was declined |
+| **Completed** | Transaction was completed |
+| **Declined**  | Transaction was declined |
 
 ### iDEAL
 
@@ -90,11 +90,11 @@ Sample statuses:
 
 | Status                | Description              |
 | --------------------- | ------------------------ |
-| Completed             | Transaction was completed |
-| Declined              | Transaction was declined |
-| Cancelled             | Transaction was cancelled |
-| Initialized/ Completed | Transaction is initialized. After 1 minute, this changes to Completed. |
-| Initialized/ Declined  | Transaction is initialized. After 1 minute, this changes to Declined. |
+| **Completed**             | Transaction was completed |
+| **Declined**              | Transaction was declined |
+| **Cancelled**             | Transaction was cancelled |
+| **Initialized**/ **Completed** | Transaction is initialized. After 1 minute, this changes to **Completed**. |
+| **Initialized**/ **Declined**  | Transaction is initialized. After 1 minute, this changes to **Declined**. |
 
 ### iDEAL QR
 
@@ -106,8 +106,8 @@ Sample statuses:
 
  Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction was cancelled |
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction was cancelled |
 
 ### KBC
 
@@ -117,8 +117,8 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction is void / cancelled |
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction is void / cancelled |
 
 ### Request to Pay
 
@@ -128,8 +128,8 @@ Sample statuses:
 
 | Status    | Testing instructions | Description              |
 | --------- | ----------------------- | ----------------------- |
-| Completed | Follow the steps from Deutsche Bank. | Transaction was completed |
-| Canceled | Click the **Close** button at the top right of the screen. | Transaction was canceled |
+| **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
+| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
 
 
 ### Recurring payments
@@ -144,10 +144,10 @@ Sample statuses:
 
 | IBAN | Status    | Description              |
 | ---------| --------- | ------------------------ |
-| NL87ABNA0000000001| Initialized/ Completed | Transaction is initialized. After 2 minutes, this changes to Completed. |
-| NL87ABNA0000000002| Initialized/ Declined | Transaction is initialized. After 2 minutes, this changes to Declined. |
-| NL87ABNA0000000003| Initialized/ Uncleared/ Completed | Transaction is initialized. After 2 minutes, this changes to Uncleared. After 1 more minute, it changes to Completed. |
-| NL87ABNA0000000004| Initialized/ Uncleared/ Declined | Transaction is initialized. After 2 minutes, this changes to Uncleared. After 1 more minute, it changes to Declined. |
+| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Completed**. |
+| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Declined**. |
+| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initialized. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
 
 ### SOFORT Banking
 
@@ -155,8 +155,8 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction was cancelled |
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction was cancelled |
 
 ### Trustly 
 
@@ -164,8 +164,8 @@ Sample statuses:
 
  Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction was cancelled |
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction was cancelled |
 
 ## Billing suites
 
@@ -185,7 +185,7 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
+| **Completed** | Transaction was completed |
 
 ### in3
 
@@ -209,8 +209,8 @@ You can also test in3 transactions by entering the following details on the in3 
 
 Sample statuses:
 
-- Approved
-- Declined
+- **Approved**
+- **Declined**
 
 ### Klarna
 
@@ -242,8 +242,8 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Declined | Transaction was declined |
+| **Completed** | Transaction was completed |
+| **Declined** | Transaction was declined |
 
 ## Debit and credit cards
 
@@ -259,9 +259,9 @@ Sample statuses:
 
 | Card number| Status    | Description              |
 | ---------| --------- | ------------------------ |
-| 378282246310005| Completed | Transaction was completed (not 3D enrolled) |
-| 374200000000004| Declined  | Transaction was declined |
-| 378734493671000| Uncleared | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 378282246310005| **Completed** | Transaction was completed (not 3D enrolled) |
+| 374200000000004| **Declined**  | Transaction was declined |
+| 378734493671000| **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
 
 ### Cartes Bancaires
 
@@ -291,7 +291,7 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed (3D enrolled)|
+| **Completed** | Transaction was completed (3D enrolled)|
 
 
 ### Mastercard
@@ -308,7 +308,7 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed (3D enrolled)|
+| **Completed** | Transaction was completed (3D enrolled)|
 
 ### Visa
 
@@ -322,12 +322,12 @@ Sample statuses:
 
 | Card number         | Status    | Description              |
 | ------------------- | --------- | ------------------------ |
-| 4111111111111111 | Completed | Transaction was completed (3D enrolled) |
-| 4012001038443335 | Completed | Transaction was completed (not 3D enrolled) |
-| 4917300000000008 | Uncleared | Transaction is uncleared. After 3 minutes, this changes to Void. |
-| 4462000000000003 | Uncleared | Transaction is uncleared. After 3 minutes, this changes to Completed. |
-| 4012001037461114 | Declined  | Transaction was declined (3D authentication failed) |
-| 4012001038488884 | Declined  | Transaction was declined (3D authentication was successful, but insufficient funds) |
+| 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
+| 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
+| 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to Void. |
+| 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
+| 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
+| 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 
 ## Wallets
 
@@ -341,8 +341,8 @@ Sample statuses:
 
  Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction was cancelled |
+| **Completed** | Transaction was completed |
+| **Cancelled** | Transaction was cancelled |
 
 ### PayPal
 
@@ -358,11 +358,11 @@ Sample statuses:
 
 | Status    | Description              |
 | --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Declined | Transaction was declined |
-| Initialized/ Completed | Payment blocked by PayPal, then accepted |
-| Initialized/ Declined | Payment blocked by PayPal, then declined |
-| Cancelled | Transaction was cancelled |
+| **Completed** | Transaction was completed |
+| **Declined** | Transaction was declined |
+| **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted |
+| **Initialized**/ **Declined** | Payment blocked by PayPal, then declined |
+| **Cancelled** | Transaction was cancelled |
 
 
 ## Prepaid cards
