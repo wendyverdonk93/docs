@@ -14,36 +14,6 @@ It provides information about test credentials, sample statuses, possible errors
 
 ## Banks
 
-
-
-### Alipay
-Sample statuses:
-
- Status    | Description              |
-| --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Cancelled | Transaction was cancelled |
-
-### American Express
-
-Test card details:
-
-- Card number: See the table below.
-- CVC code: 123
-- Expiry date in the future
-
-Sample statuses:
-
-| Card number| Status    | Description              |
-| --------- | --------- | ------------------------ |
-| 378282246310005| Completed | Transaction was completed (not 3D enrolled) |
-| 374200000000004| Declined  | Transaction was declined |
-| 378734493671000| Uncleared | Transaction is uncleared. After 3 minutes, this changes to Void. |
-
-### Apple Pay
-
-To test Apple Pay, see [Compatibility and testing](/payment-methods/wallet/applepay/#compatibility-and-testing).
-
 ### Bancontact
 
 Test card number: See the table below.
@@ -90,16 +60,6 @@ Sample statuses:
 | --------- | ------------------------ |
 | Completed | Transaction was completed |
 | Cancelled | Transaction is void / cancelled |
-
-
-### Dankort
-
-Test credentials: MultiSafepay provides Visa test credentials for Dankort.
-
-Payment page: Dankort only appears on the MultiSafepay payment page if:
-
-- The Visa gateway is enabled, and
-- The `locale` is set to `da_DK` (Denmark) in the transaction request sent to MultiSafepay.
 
 ### Dotpay
 
@@ -271,6 +231,19 @@ To test Klarna transactions, follow these steps:
 
 For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/billing-suite/klarna).
 
+### Pay After Delivery (Betaal na Ontvangst)
+
+Test addresses:
+
+- Kraanspoor 39C, 1033SC Amsterdam
+- Vlierweg 12D, 1032LG Amsterdam
+
+Sample statuses:
+
+| Status    | Description              |
+| --------- | ------------------------ |
+| Completed | Transaction was completed |
+| Declined | Transaction was declined |
 
 ## Debit and credit cards
 
@@ -298,6 +271,15 @@ Payment page: Cartes Bancaires only appears on the MultiSafepay payment page if:
 
 - The Visa gateway is enabled, and
 - The `locale` parameter is set to `fr_FR` (France) in the transaction API request.
+
+### Dankort
+
+Test credentials: MultiSafepay provides Visa test credentials for Dankort.
+
+Payment page: Dankort only appears on the MultiSafepay payment page if:
+
+- The Visa gateway is enabled, and
+- The `locale` is set to `da_DK` (Denmark) in the transaction request sent to MultiSafepay.
 
 ### Maestro
 
@@ -327,21 +309,6 @@ Sample statuses:
 | Status    | Description              |
 | --------- | ------------------------ |
 | Completed | Transaction was completed (3D enrolled)|
-
-
-### Pay After Delivery (Betaal na Ontvangst)
-
-Test addresses:
-
-- Kraanspoor 39C, 1033SC Amsterdam
-- Vlierweg 12D, 1032LG Amsterdam
-
-Sample statuses:
-
-| Status    | Description              |
-| --------- | ------------------------ |
-| Completed | Transaction was completed |
-| Declined | Transaction was declined |
 
 ### Visa
 
