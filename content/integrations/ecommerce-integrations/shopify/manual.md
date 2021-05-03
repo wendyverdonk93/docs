@@ -43,7 +43,7 @@ aliases:
   * [Trustly](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945)
   * [Visa (including Cartes Bancaires & Dankort)](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328)
 
-2. Now log into your backend and navigate to _Settings > Payment providers > Alternative payments_
+2. Now log in to your backend and navigate to _Settings > Payment providers > Alternative payments_
 3. Find and click on the payment method you have just added.
 4. Fill in your Site ID and Site Secure Code. Information on where to find your Site ID, Site code can be found on our [API key page](/tools/multisafepay-control/get-your-api-key)
 5. Now you can activate the payment method.

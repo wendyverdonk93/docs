@@ -8,7 +8,7 @@ read_more: '.'
 
 In order to enable Second Chance in MultiSafepay Control, you can follow these steps:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Choose the website you want to enable the Second Chance for
 3. Within the _Website Functionality_ tile you can enable _Second Chance_.
 

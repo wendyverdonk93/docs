@@ -33,7 +33,7 @@ Cartes Bancaires (Visa) transactions can be refunded to the customer within 180 
 
 Please follow these steps to refund a Cartes Bancaires transaction:
 
-1. Login into your [MultiSafepay Control](https://merchant.multisafepay.com)
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com)
 2. Select _transaction > transaction_
 3. Find the transaction through search
 4. Open transaction
