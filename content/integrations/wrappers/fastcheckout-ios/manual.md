@@ -1,13 +1,12 @@
 ---
-title : "FastCheckout SDK iOS configuration manual"
-meta_title: "FastCheckout SDK iOS configuration manual - MultiSafepay Docs"
+title : "FastCheckout iOS SDK manual"
+meta_title: "FastCheckout iOS SDK manual - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-aliases: [/integrations/fastcheckout-ios/manual/]
+aliases: 
+    - /integrations/fastcheckout-ios/manual/
 ---
 
 ### Introduction
-
-The FastCheckout SDK is a library that you can integrate into your native Android, iOS and/or React Native application providing connection to MultiSafepay services. The FastCheckout SDK adds a smooth, fast and native checkout experience to your mobile app, and by storing and reusing data it is the fastest checkout process available for shopping apps.
 
 As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
 
@@ -35,9 +34,9 @@ The FastCheckout SDK provides the additional following features:
 * Manage shipping addresses:
     * List, add and edit shipping information
 
-*If you need more information, please check the documentation that you will find inside the SDK, which contains all classes, methods, common troubleshooting and more details.*
+For more information, see the documentation inside the SDK, which contains all classes, methods, common troubleshooting and more details.
 
-Please refer to the MultiSafepay API Documentation to perform different calls through which you can start transactions, update transactions, perform refunds and receive information about transactions: https://docs.multisafepay.com/api/#orders
+To learn more about creating, updating and retrieving orders, see API reference - [Orders](https://docs.multisafepay.com/api/#orders).
 
 ### Requirements
 
