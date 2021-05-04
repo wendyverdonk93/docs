@@ -28,7 +28,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
     "card_number": "4111111111111111",
     "card_holder_name": "Holder Name",
     "card_expiry_date": "1612",
-    "cvc": "123"
+    "card_cvc": "123"
   }
 }
 ```
