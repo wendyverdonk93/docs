@@ -1,16 +1,18 @@
 ---
-title : "Processing Split Payments"
+title : "Processing split payments"
 weight: 82
-meta_title: "Processing Split Payments - MultiSafepay Docs"
+meta_title: "Processing split payments - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/split-payments/how-do-i-get-split-payments
 ---
 
-Split Payments is a feature in our [API](/api/#split-payments).
+Split payments is a feature in our [API](/api/#split-payments).
 
 It is not incorporated in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add it as a custom feature.  
 
-To process a split payment, you need:  
+To process split payments, you need:  
 
 - Two active MultiSafepay accounts  
 - Access to the code that creates the JSON request
@@ -34,7 +36,7 @@ Add the object `affiliate` object:
 }
 ```
 
-For more information, see API - [Split Payments](/api/#split-payments).
+For more information, see API - [Split payments](/api/#split-payments).
 
 ## Important
 
