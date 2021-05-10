@@ -7,11 +7,12 @@ aliases:
     - /faq/general/how-can-i-pay-out-the-funds-on-my-multisafepay-account-
 ---
 You can pay out funds from your MultiSafepay Control to your business bank account any time, except if:
+
 - Your MultiSafepay Control account is not yet fully activated. 
 - Your account balance is negative.
 - The Risk Team has deactivated this feature for any reason. 
 
-To make a pay out to a different bank account than the one activated in your MultiSafepay Control, you must first add it under **Business documents**.
+To make a payout to a different bank account than the one activated in your MultiSafepay Control, you must first add it under **Business documents**.
 
 ## Payout fees
 Payouts cost 0.50 EUR per pay out.
