@@ -1,13 +1,15 @@
 ---
-title : "Refunding Split Payments"
+title : "Refunding split payments"
 weight: 83
 read_more: '.'
-meta_title: "Refunding Split Payments - MultiSafepay Docs"
+meta_title: "Refunding split payments - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    /tools/split-payments/how-do-i-refund-split-payment-orders
 ---
 
-You can only refund Split Payments from the original transaction. Whether the refund is paid in full or in part, the amount will be deducted from the original transaction.
+You can only refund split payments from the original transaction. Whether the refund is paid in full or in part, the amount will be deducted from the original transaction.
 
 Example: Account A receives a payment of 80 EUR of which 10 EUR is going to account B. The customer receives a refund of 50 EUR which is supplied from account A. Whether it is a partial refund or a full, the amount will always be deducted from account A. 
 
