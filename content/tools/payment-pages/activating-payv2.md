@@ -1,7 +1,7 @@
 ---
-title : "About PayV2"
+title : "Activating PayV2"
 weight: 45
-meta_title: "Payment pages - About PayV2 - MultiSafepay Docs"
+meta_title: "Payment pages - Activating PayV2 - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 aliases:
