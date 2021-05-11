@@ -11,8 +11,6 @@ aliases:
 PayV2 is the MultiSafepay payment page, starting with `payv2.multisafepay.com`. It supports all payment methods and can be styled to fit your website look and feel.
 {{< youtube r1I6pthxlGo >}}
 
-### Activating PayV2
-
 To activate PayV2, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
@@ -21,27 +19,4 @@ To activate PayV2, follow these steps:
 4. Select the **Use new payment pages** checkbox.
 
 **Note:** If the **Use new payment pages** checkbox is not visible, email the Integration Team at <integration@multisafepay.com>
-
-## Classic payment page
-The classic version of the payment page is PayV1, starting with `pay.multisafepay.com`.
-
-It does **not** support the following payment methods:
-
-- AfterPay
-- Alipay
-- Apple Pay
-- Belfius
-- CBC
-- Request to Pay
-- EPS
-- iDEALQR
-- in3
-- ING Home'Pay
-- JCB
-- KBC
-- Klarna
-- PaySafecard
-- Santander
-- SOFORT Banking
-- Trustly
 
