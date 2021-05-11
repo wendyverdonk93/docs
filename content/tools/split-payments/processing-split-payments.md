@@ -8,16 +8,18 @@ aliases:
     - /tools/split-payments/how-do-i-get-split-payments
 ---
 
-Split payments is a feature in our [API](/api/#split-payments).
+Split payments are not incorporated in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add this as a custom feature using our API. 
 
-It is not incorporated in our [ecommerce integrations](/integrations/ecommerce-integrations) by default. You can add it as a custom feature.  
+For more information, see API - [Split payments](/api/#split-payments).
 
-To process split payments, you need:  
+You can select to split by a "fixed" amount, a "percentage", or a combination of both. The amount for "fixed" payments is in cents and matches the currency the transaction was paid in. This data is stored in `var3`. Any value you provide for `var3` is overwritten.
+
+Prerequisites:  
 
 - Two active MultiSafepay accounts  
 - Access to the code that creates the JSON request
 
-Add an `affiliate` object:
+To process split payments, add an `affiliate` object:
 
 ```shell
 "affiliate": {
@@ -35,11 +37,3 @@ Add an `affiliate` object:
     ]
 }
 ```
-
-For more information, see API - [Split payments](/api/#split-payments).
-
-## Important
-
-- The amount for "fixed" payments is in cents and follows the currency settings for the transaction.
-- You can select "fixed", "percentage", or a combination of both.
-- Our platform uses _var3_  to store this data. Any value you provide for _var3_ is overwritten.
