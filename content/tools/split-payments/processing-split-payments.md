@@ -17,7 +17,7 @@ To process split payments, you need:
 - Two active MultiSafepay accounts  
 - Access to the code that creates the JSON request
 
-Add the object `affiliate` object:
+Add an `affiliate` object:
 
 ```shell
 "affiliate": {
