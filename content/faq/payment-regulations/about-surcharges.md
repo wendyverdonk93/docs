@@ -7,47 +7,45 @@ read_more: "."
 aliases:
     - /faq/payment-regulations/surcharges
 ---
-{{< blue-notice >}} __Please read__: We constantly update the contents of this document. You should expect new information to surface anytime, as specifics about the implementation of the new PSD2 directive are still being worked on. {{< /blue-notice >}}   
+{{< blue-notice >}} Check this page regularly for updates on the implementation of the PSD2 directive. {{< /blue-notice >}}   
 
 ## Surcharges
-Your right to apply surcharges may vary accordingly by the payment method and the customer’s country. Please note that, even though the PSD2 regulation concerns the whole European Economic Area, states can decide individually on certain aspects of the new directive. You should always check what rules are applicable in the country your business is registered. In the Netherlands, the body charged with the PSD2 oversight is the [Authority for Consumers & Markets (ACM)](https://www.acm.nl)
+Your right to apply [surcharges](/faq/general/multisafepay-glossary/#surcharge) varies by payment method and the customer’s country. 
 
-According to the Dutch National Bank, you should always contact ACM for inquiries. Moreover, each payment method is likely to implement its own provisions in addition to these regulations.
+The PSD2 applies to the whole European Economic Area, but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in. In the Netherlands, the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) is responsible for PSD2 oversight. The Dutch National Bank recommends always contacting ACM for inquiries. 
 
-### What is prohibited?
-For the majority of payment transactions, retailers are no longer allowed to charge fees for using specific payment methods. 
+### Prohibited transactions
+For most transactions, merchants are no longer allowed to charge fees for specific payment methods. 
 
-[Surcharges](/faq/general/multisafepay-glossary/#surcharge) are banned for:
+Surcharges are banned for:
 
-* Most credit card transactions when the bank or card issuer and the payment provider of the merchant are both located in a European Economic Area (EEA) state
-* Debit Card transactions (for both individuals and business customers)
-* Standard Bank transfers (for both individuals and business customers)
-* SEPA Direct Debit (for both individuals and business customers).
+* Most credit card transactions when the bank/card issuer and the merchant's PSP are both located within the European Economic Area (EEA)
+* Debit card transactions (for both individuals and business customers)
+* Standard bank transfers (for both individuals and business customers)
+* SEPA Direct Debit (for both individuals and business customers)
 
-### What is permitted?
-Certain payment methods do not fall under the surcharge prohibition, as follows:
+### Exempt payment methods
+The following payment methods are exempt from the surcharge prohibition:
 
-* For PayPal, retailers are only allowed to charge customers the actual costs incurred by them when using these payment methods and __may never__ exceed them
+* For PayPal and pay-after-delivery (post-payment) methods, merchants can only charge customers for the actual cost the merchant incurs for using the payment method and no more.
 
-* For pay-after-delivery (post-payment) payments, such as Klarna or AfterPay, retailers are only allowed to charge customers the actual costs incurred by them when using these payment methods and __may never__ exceed them
+* Credit card payments, including American Express and Diners Club, with a card issued outside the EEA, e.g. a tourist with a credit card issued in India
 
-* Credit card transactions paid with a card issued outside the EU/EEA can still be surcharged (e.g. an overseas tourist with a credit card issued in India)
+For hybrid card schemes such as American Express and Diners Club, each EU country can decide whether to permit surcharging. Surcharging is permitted under Dutch law.
 
-* American Express and Diners Club are exceptions from the rule, too. Surcharges for these cards can still be applied regardless.
+### Customers outside the EU
 
+The rules for surcharging customers outside the EU remain unchanged. The PSD2 aims to protect European customers.
 
-> _Please note that for hybrid card schemes such as American Express and Diners Club, it is up to each country to decide whether or not surcharging is allowed. Dutch law does not prohibit it, but other countries such as France, Belgium and the United Kingdom might deal with this differently_.
+### Settings changes in your backend and MultiSafepay Control
 
-### Can I apply surcharges to customers outside the European Union?
+If you are currently surcharging prohibited transactions:
 
-The rules regarding surcharging customers outside the European Union remain unchanged. The PSD2 aims at protecting the European customer.
+- You do not need to change any settings in your MultiSafepay Control.
+- You may need to update your settings in your backend. 
 
-### Do I need to perform any change within the MultiSafepay Control?
+For support, contact the support department of the webshop plugin or your web developer.
 
-If you are currently surcharging payment fees which are no longer allowed according to the new PSD2, you may need to update your settings in the backend of your website. Please get in contact with the support department of the webshop plugin or your web developer to assist you further. You do not need to change any settings in your MultiSafepay Control.
+If you don't currently apply any surcharges, you don't need to do anything.
 
-### Do I need to do anything if I do not apply surcharges?
-
-No, you do not need to perform any change if you already do not apply any [surcharges](/faq/general/multisafepay-glossary/#surcharge) on the products or services your webshop sells.
-
-{{< alert-notice >}} __Disclaimer__: the information in this article has a general informative purpose. Given the changing nature of the law, rules, regulations and information in general, as well as the risk related to electronic communication, there could be delays, omissions or inaccuracies in the information contained in this article. As a result, the information in this article should not be used in place of a consultation with a professional consultant. We recommend that you consult the competent authority before taking any decision or action. While we have taken the greatest possible care in compiling the information released in the article, MultiSafepay can not guarantee the completeness, timeliness and / or accuracy of the information. As a result, MultiSafepay accepts no responsibility for direct or consequential damages resulting from the use of, reliance on or actions taken based on information provided in this article. {{< /alert-notice >}}
+**Disclaimer:** This page is for information only. Given the changing nature of the law, rules, regulations and the risks of electronic communication, this page may contain omissions or inaccuracies. Always seek advice from a professional consultant or competent authority before taking any decision or action. We took the greatest possible care in writing this page, but cannot guarantee its completeness, timeliness, or accuracy. We accept no responsibility for direct or consequential damages resulting from the use of, reliance on, or actions taken based on this page.
