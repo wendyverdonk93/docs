@@ -18,7 +18,7 @@ MultiSafepay has blocked the transaction due to potential fraud or other setting
 To check the settings in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>  
 
 ### Frequency limit
-The same **recurring_id** or customer data was used within 24 hours.
+The same recurring ID or customer data was used within 24 hours.
 
 For more information, see [Activating recurring payments](/tools/recurring-payments/activating-recurring-payments/)
 For support, email the Integration Team at <integration@multisafepay.com>
