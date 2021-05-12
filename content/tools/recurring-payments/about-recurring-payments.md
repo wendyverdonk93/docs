@@ -17,7 +17,7 @@ You can set up recurring payments for:
 - SEPA Direct Debit 
 - Optionally, you can use iDEAL, Bancontact, or SOFORT Banking for the initial payment and continue with recurring direct debits.
 
-We offer a work-around option to use Bancontact for the initial payment. For more information, email your Account Manager at <sales@multisafepay.com>
+We offer a work-around option to use Bancontact for the initial payment. For more information, email your account manager at <sales@multisafepay.com>
 
 ## Requirements
 
