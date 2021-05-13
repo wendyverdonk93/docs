@@ -58,7 +58,7 @@ In addition to the required information and documents, you must list the followi
 
 ### Prohibited products and services
 
-Some products and services can't be sold with MultiSafepay or only if additional requirements are met. For a list, based on relevant legislation, risk factors, potential reputational damage, and payment gateway policies, see [Prohibited products and services](/faq/getting-started/prohibited-products-or-services/).
+Some products and services can't be sold with MultiSafepay or only if additional requirements are met. For a list, based on relevant legislation, risk factors, potential reputational damage, and payment gateway policies, see [Prohibited products and services](/faq/getting-started/prohibited-products-and-services/).
 
 **Disclaimer:** The information on this website is intended for informational purposes. No rights can be derived from this information.
 

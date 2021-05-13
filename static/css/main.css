@@ -44,6 +44,10 @@ a, a:hover {
     color: #008DCB;
 }
 
+ol, ul {
+	margin-bottom: 2rem;
+}
+
 .header-background-home {
     height: 565px;
     margin-top: -76px;
