@@ -17,7 +17,7 @@ To make a payout to a different bank account than the one activated in your Mult
 ## Payout fees
 Payouts cost 0.50 EUR per pay out.
 
-## Automatic and manual pay outs 
+## Automatic and manual payouts 
 You can pay out funds automatically or manually.
 
 ### Automatic
