@@ -4,8 +4,6 @@ layout : single
 tags : hidden
 ---
 
-## Introduction
-
 Use the following requests to add, retrieve or update [Ultimate Beneficial Owner](/faq/getting-started/guidance-notes-ultimate-beneficial-owner-form/) (UBO) details linked to a merchant account affiliated with your partner account:
 
 1. [Create a UBO](#create-a-ubo): Add a UBO to a merchant account.
