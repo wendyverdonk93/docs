@@ -4,8 +4,6 @@ layout : single
 tags : hidden
 ---
 
-## Introduction
-
 Use the following requests to add, retrieve or update websites linked to a merchant account affiliated with your partner account:
 
 1. [Add a website](#add-a-website): Add a website to a merchant account.
