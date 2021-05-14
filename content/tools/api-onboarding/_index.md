@@ -19,9 +19,7 @@ Partner accounts act as a parent to affiliated merchant accounts and may receive
 If you currently have a merchant account, contact your account manager to discuss your options. 
 If you don't have a MultiSafepay account, [sign up for a partner account](https://merchant.multisafepay.com/signup?partner).
 
-{{< br >}}
 ## Submitting merchant information
-{{< br >}}
 
 ### Step 1: Create a merchant account
 
