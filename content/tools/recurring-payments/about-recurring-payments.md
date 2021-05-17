@@ -28,9 +28,6 @@ You must inform customers about recurring payments and stored mandates:
 - During the checkout process and/or in your general terms and conditions which the customer must agree to before checkout.
 - Before each transaction. 
  
-## Activating recurring payments
-Contact the Risk Team to enable recurring payments in your MultiSafepay Control.
-
 ## Terminology
 
 | Term    | Description  |
