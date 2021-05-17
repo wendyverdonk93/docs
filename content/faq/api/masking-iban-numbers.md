@@ -17,8 +17,8 @@ When masked, only the last 4 digits of the IBAN are visible, e.g. `*** 1234`.
 
 ### Unmasking IBAN
 
-You can still perform most business operations with masked IBANs, e.g. processing refunds.
-To unmask IBANs for a specific website, email your reasons to your account manager at <sales@multisafepay.com>
+You can still perform most business operations with masked IBAN, e.g. processing refunds.
+To unmask IBAN for a specific website, email your reasons to your account manager at <sales@multisafepay.com>
 
 
 Once your account manager has approved your request, follow these steps:
