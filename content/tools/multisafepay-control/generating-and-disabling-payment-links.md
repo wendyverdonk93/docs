@@ -52,7 +52,7 @@ To manually generate a payment link, follow these steps:
   - **Email address**
   - **Country**
   - **Language**
-
+&nbsp;
 11. Click **Generate payment link**.
 
 12. Copy the newly generated link from the green bar and email it to the customer.
