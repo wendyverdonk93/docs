@@ -21,7 +21,7 @@ Step 2: The customer initiates the first payment using their selected payment me
 
 Step 3: When the payment is complete, make a `GET /orders` request to [retrieve the transaction details](/api/#retrieve-an-order).
 
-> Request
+> **Request**
 ```shell 
 GET - /orders/{order_id}
 
@@ -35,7 +35,7 @@ Step 4: If the transaction is declined, the reason is included in the response, 
 
 Step 5: If the transaction was successful, the response contains a `recurring_id`. 
 
-> Response
+> **Response**
 ```shell 
 
 "payment_details": {
@@ -49,7 +49,7 @@ Step 6: To process each [recurring payment](/api/#recurring-payment), make a `PO
 - You do **not** need to provide the customer's bank account number or credit card details again. Recurring payments are processed using the same payment details as the initial transaction. 
 - Parameter type: Direct
 
-> Request
+> **Request**
 ```shell 
 
 POST - /orders
