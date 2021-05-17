@@ -62,9 +62,3 @@ POST - /orders
 
 **Note:** MultiSafepay automatically uses the `Site Description` and `Order ID` to identify the transaction on the customer's bank statement.
 
-
-### Processing recurring payments from another payment service provider
-
-If you already process recurring payments for SEPA Direct Debit customers with another PSP, you cannot use recurring payments for the same customers with MultiSafepay. 
-
-For these customers, you can use a [Sepa Direct Debit](/api/#direct-sepa-direct-debit) using the retrieved IBAN and account holder name.
