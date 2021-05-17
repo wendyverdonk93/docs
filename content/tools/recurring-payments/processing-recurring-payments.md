@@ -9,8 +9,8 @@ aliases:
 ---
 
 ## Overview
-|  Step | Description  | SEPA Direct Debit  | Credit cards  |   
-|---|---|---|---|---|
+|  Step | Description  |   
+|---|---|
 | 1.  | Ensure the payment gateway is configured to the payment method. {{ <br> }} SEPA Direct Debit: `DIRDEB` {{ <br> }}  Credit cards: `VISA`, `MASTERCARD`, or `AMEX`  |   
 | 2.  | The customer initiates the first payment.  {{ <br> }} SEPA Direct Debit: iDEAL, SOFORT Banking {{ <br> }} Credit cards: Visa, Mastercard, American Express  |   
 | 3.  | When the payment is complete, make a `GET /orders` request to retrieve the transaction details.   |  
