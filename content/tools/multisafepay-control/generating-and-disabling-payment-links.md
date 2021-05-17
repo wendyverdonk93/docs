@@ -46,31 +46,31 @@ To manually generate a payment link, follow these steps:
   - **Email address**
   - **Country**
   - **Language**
-  
+
 11. Click **Generate payment link**.
 
 12. Copy the newly generated link from the green bar and email it to the customer.
 
-#### Payment links for existing transactions
+### Payment links for existing transactions
 
 To send a payment link for an existing transaction, you can duplicate the transaction in the transaction itself. 
 
 **Note:** The order ID must be unique.
 
-#### Simple mode and advanced mode
+### Simple mode and advanced mode
 
 Simple mode is the default payment link mode, which contains the minimum necessary information. 
 
 In advanced mode, you can enter the order items and add extra information about the customer, e.g. birthday, full address, phone number. 
 
-#### Viewing manually generated payment links
+## Viewing manually generated payment links
 
 To view all manually generated payment links, including the date of creation and status:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
 2. Go to **Tools** > **Payment link generator**.
 
-#### Cancelling payment links
+## Cancelling payment links
 
 To cancel a payment link:
 
@@ -86,17 +86,17 @@ To cancel a payment link:
 | Cancelled   | The merchant has cancelled the payment link.| 
 | Expired     | The link has expired.  | 
 
-#### Supported payment methods and payment links 
+## Supported payment methods and payment links 
 
 Check specific [payment methods](/payment-methods/) to see if manually generated payment links are supported.
 
 For example, post-payment methods such as AfterPay, Pay After Delivery, and Klarna do not support manually generated payment links, due to the insolvency process requirement which creates a different flow.
 
-#### Disabling payment links for a payment method
+## Disabling payment links for a payment method
 
 You can only disable a payment link in the website settings. You will need a separate site ID where only the desired payment methods are available. For more information, email the Integration Team at <integration@multisafepay.com>
 
-#### Generating payment links in your backend 
+## Generating payment links in your backend 
 
 For some ecommerce integrations, you can generate payment links in your backend. 
 
