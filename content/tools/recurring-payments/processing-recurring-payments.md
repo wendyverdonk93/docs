@@ -21,8 +21,7 @@ To process recurring payments, follow these steps:
 
 **Step 3:** When the payment is complete, make a `GET /orders` request to [retrieve the transaction details](/api/#retrieve-an-order).
 
-> Request
-```shell 
+```
 GET - /orders/{order_id}
 
   "success": true,
@@ -35,8 +34,7 @@ GET - /orders/{order_id}
 
 **Step 5:** If the transaction was successful, the response contains a `recurring_id`. 
 
-> Response
-```shell 
+```
 
 "payment_details": {
   "recurring_id": "",
@@ -49,8 +47,7 @@ GET - /orders/{order_id}
 - You do **not** need to provide the customer's bank account number or credit card details again. Recurring payments are processed using the same payment details as the initial transaction. 
 - Parameter type: Direct
 
-> Request
-```shell 
+```
 
 POST - /orders
 
@@ -61,4 +58,3 @@ POST - /orders
 ```
 
 **Note:** MultiSafepay automatically uses the `Site Description` and `Order ID` to identify the transaction on the customer's bank statement.
-
