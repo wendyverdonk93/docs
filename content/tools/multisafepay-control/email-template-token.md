@@ -23,10 +23,10 @@ In MultiSafepay email templates, you can use the following tokens between @@:
 | ADDRESS1                      | Your company address line 1 |
 | ADDRESS2                      | Your company address line 2 |
 | ADDRESS3                      | Your company address line 3 |
-| BANKHOLDERNAME                | The account holder used by the customer to process bank transfer transactions |
-| BANKIBAN                      | The IBAN used by the customer to process bank transfer transactions |
-| BANKPAYMENTID                 | The reference used by the customer to process bank transfer transactions |
-| BANKTRANSFERBIC               | The BIC used by the customer to process bank transfer transactions |
+| BANKHOLDERNAME                | Account holder used by the customer to process bank transfer transactions |
+| BANKIBAN                      | IBAN used by the customer to process bank transfer transactions |
+| BANKPAYMENTID                 | Reference used by the customer to process bank transfer transactions |
+| BANKTRANSFERBIC               | BIC used by the customer to process bank transfer transactions |
 | BANKTRANSFERHOLDER            | Account holder name of IBAN to receive the money |
 | BANKTRANSFERID                | Reference used with the bank transfer |
 | BIRTHYDAY                     | Customer date of birth |
@@ -65,7 +65,7 @@ In MultiSafepay email templates, you can use the following tokens between @@:
 | STATUS                        | Status of the transaction |
 | SUBJECT                       | Subject of the email |
 | TOTALAMOUNT                   | Total of the order |
-| TRANSACTIONID                 | The MultiSafepay PSPID |
+| TRANSACTIONID                 | MultiSafepay PSP ID |
 | TRANSCOMP EMAIL               | Email address to receive transaction completed mails |
 | VARA                          | var1 from your transaction request |
 | VARB                          | var2 from your transaction request |
