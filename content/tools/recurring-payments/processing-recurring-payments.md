@@ -8,31 +8,18 @@ aliases:
     - /tools/recurring-payments/recurring-payments-how-does-it-work/
 ---
 
-The standard process is as follows:
+## Overview
+|  Step | Description  | SEPA Direct Debit  | Credit cards  |   
+|---|---|---|---|---|
+| 1.  | Ensure the payment gateway is configured to the payment method. {{ <br> }} SEPA Direct Debit: `DIRDEB` {{ <br> }}  Credit cards: `VISA`, `MASTERCARD`, or `AMEX`  |   
+| 2.  | The customer initiates the first payment.  {{ <br> }} SEPA Direct Debit: iDEAL, SOFORT Banking {{ <br> }} Credit cards: Visa, Mastercard, American Express  |   
+| 3.  | When the payment is complete, make a `GET /orders` request to retrieve the transaction details.   |  
+| 4. | The response contains a `recurring_id` which is used to make recurring payments using the same payment details as the initial transaction.  |  
 
-1. The customer creates the original transaction by processing the first payment with a credit card as payment method (Visa, Mastercard or American Express). This is done on the website by selecting a product and/or service, and by finalizing the credit card payment
 
-2. The result of a successful payment is the receipt of the recurring_id in the order details of a successful transaction. Retrieve the order details of a transaction through a _GET request_. For further information on how to retrieve an order available in our [API documentation](/api/#retrieve-an-order)
+**Note:** MultiSafepay automatically uses the `Site Description` and `Order ID` to identify the transaction on the customer's bank statement.
 
-3. A recurring payment is created using the recurring_id provided in the original transaction. The charge is applied using the same payment details as the initial payment.
-
-### SEPA Direct Debit
-Through SEPA Direct Debit, payments from international bank account numbers (IBAN) can be processed, as a one-off or as a recurrent withdrawal. This only applies to private banking. SOFORT Banking and iDEAL are supported as SEPA Direct Debit payment methods.
-
-Full API documentation on SEPA Direct Debit can be found on [SEPA Direct Debit explained](/payment-methods/banks/sepa-direct-debit)
-
-{{< alert-notice >}}  The first payment for a SEPA Direct Debit collection is received and/or processed by the payment methods iDEAL, SOFORT Banking or SEPA Direct Debit. Upon successful completion of the payment, a recurring_id will be displayed in the response upon retrieving the order details only when recurring payment are enbled for that specific MultiSafepay Account.{{< /alert-notice >}} 
-
-{{< alert-notice >}} It is important to note that recurring ID’s retrieved using a credit card cannot be processed when the gateway is set to DIRDEB (SEPA Direct Debit). In this case, the gateway must be set to the specific credit card e.g. ‘VISA’, ‘MASTERCARD’. Thus, only recurring ID’s retrieved by SEPA IBAN payments can be processed by DIREDEB. This allows recurring payments to be deducted with SEPA Direct Debit payment methods such as iDEAL or SOFORT. {{< /alert-notice >}} 
-
-### Credit Cards (Visa, Mastercard or American Express)
-1. The customer selects a credit card as payment method on the website of the merchant
-2. The customer submits a payment
-3. If the payment was successful, you will receive a recurring payment ID in the transaction details which can be used for recurring payments.
-
-_**MultiSafepay automatically uses the Site Description and Order ID to show on the customers bank statements. This way the customer can easily recognize the payments**_.
-
-### Retry a failed recurring payment
+### Retrying failed recurring payments
 When the transaction is declined, the reason will be supplied in the response of the transaction. The transaction may, for example, be refused due to insufficient funds. MultiSafepay does not provide automated retry functionality for recurring payments. It is the responsibility of the merchant to contact the customer or try and charge the customer again after a sufficient period of time.
 
 
