@@ -14,11 +14,11 @@ To retrieve your API key for a specific website, follow these steps:
 2. Go to **Settings** > **Website settings**.
 3. Click on the website to view the: 
 
-- API key
-- Site ID
-- Secure Code
+    - API key
+    - Site ID
+    - Secure Code
 
 Most [ecommerce integrations](/integrations/ecommerce-integrations) supported by MultiSafepay request an API key, site ID, secure code, and account ID. Your account ID appears in the top right corner of the MultiSafepay Control banner. If you are building your own integration using our API, SDK, or wrapper, use the API key under your website settings.
 
-4. Enter the required details in the backend of your website.
-5. The connection is finalized and you can [place a test order](https://docs.multisafepay.com/api/#orders) to validate the connection.
+1. Enter the required details in the backend of your website.
+2. The connection is finalized and you can [place a test order](https://docs.multisafepay.com/api/#orders) to validate the connection.
