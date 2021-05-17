@@ -10,11 +10,15 @@ aliases:
 To process recurring payments, follow these steps:
 
 Step 1: Ensure the payment gateway is configured for the payment method:
-    - SEPA Direct Debit: `DIRDEB`
-    - Credit cards: `VISA`, `MASTERCARD`, or `AMEX`
+
+- SEPA Direct Debit: `DIRDEB`
+- Credit cards: `VISA`, `MASTERCARD`, or `AMEX`
+
 Step 2: The customer initiates the first payment using their selected payment method:
-    - SEPA Direct Debit: iDEAL, SOFORT Banking
-    - Credit cards: Visa, Mastercard, American Express
+
+- SEPA Direct Debit: iDEAL, SOFORT Banking
+- Credit cards: Visa, Mastercard, American Express
+
 Step 3: When the payment is complete, make a `GET /orders` request to [retrieve the transaction details](/api/#retrieve-an-order).
 
 > Request
@@ -28,6 +32,7 @@ GET - /orders/{order_id}
 ```
 
 Step 4: If the transaction is declined, the reason is included in the response, e.g. insufficient funds. MultiSafepay does not provide automated retries. Contact the customer, or wait and then try to charge the customer again.
+
 Step 5: If the transaction was successful, the response contains a `recurring_id`. 
 
 > Response
@@ -39,9 +44,10 @@ Step 5: If the transaction was successful, the response contains a `recurring_id
 ```
 
 Step 6: To process each [recurring payment](/api/#recurring-payment), make a `POST /orders` request including the `recurring_id` in the `gateway` information.
-    - You must provide the payment gateway, customer's details, transaction amount, and order description. 
-    - You do **not** need to provide the customer's bank account number or credit card details again. Recurring payments are processed using the same payment details as the initial transaction. 
-    - Parameter type: Direct
+
+- You must provide the payment gateway, customer's details, transaction amount, and order description. 
+- You do **not** need to provide the customer's bank account number or credit card details again. Recurring payments are processed using the same payment details as the initial transaction. 
+- Parameter type: Direct
 
 > Request
 ```shell 
