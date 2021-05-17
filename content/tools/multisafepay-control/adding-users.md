@@ -19,10 +19,10 @@ To add users with different permission profiles, follow these steps:
 4. Click **Add new user** in the top right corner.
 5. Enter the new user's:
 
-- User name
-- Full name
-- Password
-- Email address
+    - User name
+    - Full name
+    - Password
+    - Email address
  
 6. From the **Status** dropdown menu, select **Active**.
 7. Under **Rights** on the right side of the page, select the appropriate [user rights](/tools/multisafepay-control/users/#user-rights) check boxes. For more information, see [User rights overview](#user-rights-overview).
