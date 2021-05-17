@@ -25,11 +25,9 @@ To add users with different permission profiles, follow these steps:
     - Email address
  
 6. From the **Status** dropdown menu, select **Active**.
-7. Under **Rights** on the right side of the page, select the appropriate [user rights](/tools/multisafepay-control/users/#user-rights) check boxes. For more information, see [User rights overview](#user-rights-overview).
-8. Click **Add user** in the top right corner.
-
-### User rights overview
- 
+7. Under **Rights** on the right side of the page, select the appropriate user rights check boxes. 
+    {{< details title="User rights overview" >}} 
+    
 - Administrator has access to all functionalities in the account
 - Reporting can:
   - See all transactions and the account's MultiSafepay balance 
@@ -47,3 +45,8 @@ To add users with different permission profiles, follow these steps:
   - Generate payment links
 - DisableBalance cannot see the MultiSafepay balance
 - Uncleared can accept or decline uncleared transactions
+{{< /details >}}
+9. Click **Add user** in the top right corner.
+
+ 
+
