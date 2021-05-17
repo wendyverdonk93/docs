@@ -26,7 +26,7 @@ To add users with different permission profiles, follow these steps:
     - Full name
     - Password
     - Email address
- 
+
 5. From the **Status** dropdown menu, select **Active**.
 
 6. Under **Rights** on the right side of the page, select the appropriate user rights check boxes. See [User rights overview](#user-rights-overview) below.
