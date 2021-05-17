@@ -15,7 +15,9 @@ You must have a MultiSafepay balance and an active bank account for each currenc
 To add a new auto-withdrawal, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com). 
+
 2. Click the **Withdraw funds** button on the right side of the page.
+
 3. Under **Automatic withdrawals**, click **Add new**.
 
 A new withdraw option appears in the scheduler. You can select Saturday, Sunday, or the last day of the month.
