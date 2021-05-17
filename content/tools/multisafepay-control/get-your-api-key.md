@@ -1,20 +1,20 @@
 ---
-title : "How do I get an API key?"
+title : "Retrieving your API key"
 weight: 33
-meta_title: "MultiSafepay Control - Get an API key - MultiSafepay Docs"
+meta_title: "MultiSafepay Control - Retrieving your API key - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/multisafepay-control/get-your-api-key
 ---
 
-You can retrieve your API key by following these instructions:
+To retrieve your API key for a specific website, follow these steps:
 
-1. Log in to the [MultiSafepay Control](https://merchant.multisafepay.com) or [Test MultiSafepay Control](https://testmerchant.multisafepay.com)
-2. Navigate to _Settings > Website settings_
-3. Add a new website or click on an existing website.
+1. Log in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay Control.
+2. Go to **Settings** > **Website settings**.
+3. Click on the website to view the: 
 
-You will then be able to view the following information: 
-
-* API key
-* Site ID
-* Secure Code
+- API key
+- Site ID
+- Secure Code
 
