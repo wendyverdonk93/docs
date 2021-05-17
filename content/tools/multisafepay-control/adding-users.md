@@ -26,7 +26,9 @@ To add users with different permission profiles, follow these steps:
  
 6. From the **Status** dropdown menu, select **Active**.
 7. Under **Rights** on the right side of the page, select the appropriate user rights check boxes. 
-    {{< details title="User rights overview" >}} 
+8. Click **Add user** in the top right corner.
+
+{{< details title="User rights overview" >}} 
     
 - Administrator has access to all functionalities in the account
 - Reporting can:
@@ -46,7 +48,3 @@ To add users with different permission profiles, follow these steps:
 - DisableBalance cannot see the MultiSafepay balance
 - Uncleared can accept or decline uncleared transactions
 {{< /details >}}
-9. Click **Add user** in the top right corner.
-
- 
-
