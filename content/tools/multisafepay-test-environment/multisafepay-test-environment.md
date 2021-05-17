@@ -4,6 +4,8 @@ weight: 71
 meta_title: "MultiSafepay Test Environment - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/multisafepay-test-environment/partner-test-merchant-account
 ---
 
 Sign up for a free [test account](https://testmerchant.multisafepay.com/signup?_ga=2.239314307.1689046699.1579505297-896219683.1574159857) to see what MultiSafepay can offer merchants.
