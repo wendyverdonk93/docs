@@ -18,7 +18,7 @@ When enabled, users must verify their identity with:
 
 ## Enabling 2FA
 
-**Administrator:** 
+### Administrator 
 
 To enable 2FA in your MultiSafepay Control, you must have administrator rights. 
 
@@ -34,7 +34,7 @@ To enable 2FA in your MultiSafepay Control, you must have administrator rights.
 
 For support, email the Support Team at <support@multisafepay.com>
 
-**User:**
+### User
 
 The first time the user logs in to MultiSafepay Control after 2FA is enabled, they must configure 2FA.
 
