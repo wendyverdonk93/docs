@@ -13,7 +13,7 @@ To delete a website from your MultiSafepay Control, follow these steps:
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. For the website you want to delete, click the green **Enabled** button in the right most column.
-4. In the dialog, click **Delete**.
+4. In the **Disable payments** dialog, click **Delete**.
 
 The website is deleted from your MultiSafepay Control.
 
