@@ -26,6 +26,7 @@ GET - /orders/{order_id}
     "transaction_id": "",
 
 ```
+
 Step 4: If the transaction is declined, the reason is included in the response, e.g. insufficient funds. MultiSafepay does not provide automated retries. Contact the customer, or wait and then try to charge the customer again.
 Step 5: If the transaction was successful, the response contains a `recurring_id`. 
 
@@ -36,6 +37,7 @@ Step 5: If the transaction was successful, the response contains a `recurring_id
   "recurring_id": "",
 
 ```
+
 Step 6: To process each [recurring payment](/api/#recurring-payment), make a `POST /orders` request including the `recurring_id` in the `gateway` information.
     - You must provide the payment gateway, customer's details, transaction amount, and order description. 
     - You do **not** need to provide the customer's bank account number or credit card details again. Recurring payments are processed using the same payment details as the initial transaction. 
