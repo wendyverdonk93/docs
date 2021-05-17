@@ -26,7 +26,7 @@ You are responsible for scheduling recurring payments and optional retries.
 You must inform customers about recurring payments and stored mandates:
 
 - During the checkout process and/or in your general terms and conditions which the customer must agree to before checkout.
-- Before each transaction. 
+- Before each transaction, e.g. by email.
  
 ## Terminology
 
