@@ -13,8 +13,8 @@ Recurring payments let you automatically charge a customer's bank account or cre
 ## Supported payment methods
 You can set up recurring payments for:
 
-- Credit cards: Visa, Mastercard, and American Express
-- SEPA Direct Debit 
+- Credit cards: Visa, Mastercard, American Express
+- SEPA Direct Debit: SOFORT Banking, iDEAL
 - Optionally, you can use iDEAL, Bancontact, or SOFORT Banking for the initial payment and continue with recurring direct debits.
 
 We offer a work-around option to use Bancontact for the initial payment. For more information, email your account manager at <sales@multisafepay.com>
