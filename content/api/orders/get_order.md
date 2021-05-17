@@ -35,13 +35,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "first_name": "Testperson-nl",
       "last_name": "Approved",
       "address1": "Kraanspoor",
-      "address2": null,
       "house_number": "39",
       "zip_code": "1033 SC",
       "city": "Amsterdam",
-      "state": null,
       "country": "NL",
-      "country_name": null,
       "phone1": "0208500500",
       "phone2": "",
       "email": "test@example.com"

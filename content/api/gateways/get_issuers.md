@@ -6,8 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 {{< code-block >}}
 
-> GET - /issuers/ideal
-
+> GET - /issuers{gateway}
 
 > JSON Response
 
@@ -67,9 +66,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< /code-block >}}
 
 {{< description >}}
-## Gateway Issuers
+## Gateway issuers
 
-**Parameter**
+**Parameters**
 
 ----------------
 
@@ -79,7 +78,7 @@ The unique identifier of the payment gateway to retrieve an issuer list for. Sup
 
 ----------------
 
-Direct iDEAL transactions can have the following Issuers:
+Direct iDEAL transactions can have the following issuers:
 
 | IssuerID | Bank                  |
 |----------|-----------------------|
