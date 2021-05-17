@@ -14,7 +14,7 @@ Two-factor authentication (2FA) is an optional, additional layer of security for
 When enabled, users must verify their identity with:
 
 - A password
-- A 6-digit token generated in the user's MultiSafepay mobile app for every log in
+- A 6-digit token generated in the user's MultiSafepay mobile app for **every** log in
 
 ## Enabling 2FA
 
@@ -23,8 +23,9 @@ To enable 2FA in your MultiSafepay Control, you must have administrator rights.
 Follow these steps:
 
 **Administrator:** 
+
 1. Log in to your MultiSafepay Control and go to [User management](https://merchant.multisafepay.com/user-management).
-2. Click the name of the user you want to enable 2FA for.
+2. Click the name of the user you want to enable 2FA for to open the **User details** page.
 3. From the **Two-factor** dropdown menu, select **Enable**.
 4. Click **Save changes**.
 
@@ -33,6 +34,7 @@ Follow these steps:
 For support, email the Support Team at <support@multisafepay.com>
 
 **User:**
+
 The first time the user logs in to MultiSafepay Control after 2FA is enabled, they must configure 2FA.
 
 1.  Log in to [MultiSafepay Control](https://merchant.multisafepay.com) on your laptop or PC. A dialog requesting a 6-digit token appears.
