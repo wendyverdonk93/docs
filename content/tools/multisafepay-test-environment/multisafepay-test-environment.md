@@ -10,6 +10,8 @@ aliases:
 
 Sign up for a free [test account](https://testmerchant.multisafepay.com/signup?_ga=2.239314307.1689046699.1579505297-896219683.1574159857) to see what MultiSafepay can offer merchants.
 
+### Testing MultiSafepay Control
+
 With a test account, you can test the following functionalities of the MultiSafepay Control:
 
 - **Dashboard:** Overview of website sales, recent transactions, and account balances
@@ -18,6 +20,8 @@ With a test account, you can test the following functionalities of the MultiSafe
 - **Settings:** Customize functionalities on your website, e.g. email templates and payment methods
 - **Reports:** Create advanced custom financial reports 
 - **Tools:** Handy tools including a payment link generator and logo designer
+
+### Testing transactions
 
 You can also test transactions for different payment methods. For test credentials, see [Test payment details](https://docs.multisafepay.com/faq/getting-started/test-payment-details).
 
