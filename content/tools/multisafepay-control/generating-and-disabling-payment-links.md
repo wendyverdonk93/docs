@@ -22,14 +22,23 @@ You might need to manually generate a payment link if:
 To manually generate a payment link, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+
 2. Go to **Tools** > **Payment link generator**.
+ 
 3. Click the **New payment link** button.
+
 4. From the **Site** dropdown menu, select the relevant website.
+
 5. Under **Amount**, select the currency from the dropdown menu, and then enter the whole value and cents.
+
 6. In the **Order ID** field, enter the order ID from your webshop. The Order ID in every payment link must be unique.
+
 7. In the **Description** field, enter a description of the order. 
+
 8. In the **Link expiration (days)** field, enter the number of days the link remains active. The default is 30 days.
+
 9. If needed, select the **Second chance email** check box. 
+
 10. Optionally, enter the customer's:
 
   - **First name**
@@ -39,7 +48,8 @@ To manually generate a payment link, follow these steps:
   - **Language**
   
 11. Click **Generate payment link**.
-13. Copy the newly generated link from the green bar and email it to the customer.
+
+12. Copy the newly generated link from the green bar and email it to the customer.
 
 #### Payment links for existing transactions
 
