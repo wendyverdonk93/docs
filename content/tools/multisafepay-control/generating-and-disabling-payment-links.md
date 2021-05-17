@@ -10,7 +10,13 @@ aliases:
 
 Payment links create a unique transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/) to match to a payment.
 
-### Manually generating payment links
+### Supported payment methods and payment links 
+
+Check specific [payment methods](/payment-methods/) to see if manually generated payment links are supported.
+
+For example, post-payment methods such as AfterPay, Pay After Delivery, and Klarna do not support manually generated payment links, due to the insolvency process requirement which creates a different flow.
+
+## Manually generating payment links
 
 You might need to manually generate a payment link if:
 
@@ -63,11 +69,12 @@ Simple mode is the default payment link mode, which contains the minimum necessa
 
 In advanced mode, you can enter the order items and add extra information about the customer, e.g. birthday, full address, phone number. 
 
-## Viewing manually generated payment links
+### Viewing manually generated payment links
 
 To view all manually generated payment links, including the date of creation and status:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+
 2. Go to **Tools** > **Payment link generator**.
 
 ## Cancelling payment links
@@ -75,9 +82,10 @@ To view all manually generated payment links, including the date of creation and
 To cancel a payment link:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+
 2. Go to **Tools** > **Payment link generator**.
-3. Next to the relevant payment link, click the red circle button. 
-    The status changes to **Cancelled**. 
+
+3. Next to the relevant payment link, click the red circle button. The status changes to **Cancelled**. 
 
 |  Status      | Description |
 |-------------|---------------------------------------------------------------------------|
@@ -85,12 +93,6 @@ To cancel a payment link:
 | Completed   | The customer has completed the payment. | 
 | Cancelled   | The merchant has cancelled the payment link.| 
 | Expired     | The link has expired.  | 
-
-## Supported payment methods and payment links 
-
-Check specific [payment methods](/payment-methods/) to see if manually generated payment links are supported.
-
-For example, post-payment methods such as AfterPay, Pay After Delivery, and Klarna do not support manually generated payment links, due to the insolvency process requirement which creates a different flow.
 
 ## Disabling payment links for a payment method
 
