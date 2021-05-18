@@ -9,52 +9,49 @@ aliases:
     - /faq/getting-started/account-approval/
     - /faq/getting-started/onboarding
 ---
-Onboarding refers to the steps you need to follow to create and active a MultiSafepay account. When you [sign up](https://merchant.multisafepay.com/signup), we perform several _know your customer_ checks on the:
+Onboarding refers to the steps you need to follow to [sign up](https://merchant.multisafepay.com/signup) for a live MultiSafepay account. You need to provide information about your company structure, and your products and services. We then perform know your customer (KYC) checks on the:
 
 * Account holder
-* Associated bank account
+* Business bank account
 * Merchant
-* Associated website
-
-To help you process payments as quickly as possible, we divide the onboarding checks into two phases:
-
-* **Identification**: Once we have established the identity of the account holder, you can start collecting customer payments.
-* **Verification**: Once we have verified the identity of the account holder, you can receive payouts to your business bank account.
+* Website
 
 ## Know your customer checks
+To help you start accepting payments as quickly as possible, we divide our KYC checks into two phases:
+
+* Identification: When we have established the identity of the account holder, you can start accepting payments.
+* Verification: When we have verified the identity of the account holder, you can receive payouts to your business bank account.
 
 ### Documents and information
 
-You can upload all of the required documents and information in your MultiSafepay Control > [Business details](https://merchant.multisafepay.com/onboarding):
+You can upload all required documents and information in your MultiSafepay Control - [Business details](https://merchant.multisafepay.com/onboarding):
 
-* Company details including address, VAT number, and Chamber of Commerce number
-* A link to the website you receive payments through, if used 
-* Information about the [ultimate beneficial owners](https://docs.multisafepay.com/faq/getting-started/ultimate-beneficial-owner-form/) of your company, including color scans of valid identity documents. We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
+* Company details, including address, VAT number, and Chamber of Commerce number
+* The URL of the website you receive payments through, if relevant 
+* Information about the [ultimate beneficial owners](/faq/getting-started/ultimate-beneficial-owner-form/) of your company, including color scans of valid identity documents. We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
 * A payment of 1 EUR from your business bank account. Alternatively, you can provide a copy or screenshot of a bank statement that includes your IBAN and company name.
 
-The trade name of your business bank account must exactly match at least one of the trade name listed on your Chamber of Commerce extract.
+We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
-**Note:** The documents and information mentioned above are the standard requirements for performing a check. We may ask you to provide additional documents, e.g. for an unusual company structure.
+**Note:** The trade name of your business bank account must exactly match at least one of the trade names listed on your Chamber of Commerce extract.
 
 ### Credit card payments
 To process credit card payments, you must provide your:
 
-* Minimum order value
-* Average order value
-* Maximum order value
-* Annual turnover in credit card transactions
+* Minimum, average, and maximum order value
+* Annual turnover from credit card transactions
 
-**Note:** Requests to process credit cards may be denied, e.g. if a particular product is not allowed by the processing bank.
+**Note:** Requests to process credit cards may be denied, e.g. if a [product you sell is prohibited](/faq/getting-started/prohibited-products-and-services/) by the processing bank.
 
-### Merchant website
+### Required information on your website
 
-In addition to the required information and documents, you must list the following information on your website:
+In addition to the required documents and information, you must display the following information on your website:
 
+* Full legal company name, address, phone number, and email address
 * Chamber of Commerce number
 * VAT number
 * General terms and conditions, including the right to withdrawal (14 days)
 * Privacy policy
-* Full legal company name, company address, phone number, and email address
 
 ### Prohibited products and services
 
