@@ -30,7 +30,7 @@ Our Integration Team will greatly appreciate your effort.
 [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)<br>
 
 ### Review our ecommerce integrations
-[Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2msp.html)<br>
+[Magento MarketPlace - Magento 2](https://marketplace.magento.com/multisafepay-magento2.html)<br>
 [Shopware Store - Shopware 5](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html)<br>
 [Shopware Store - Shopware 6](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html)<br>
 [WooCommerce plugins](https://wordpress.org/plugins/multisafepay)
