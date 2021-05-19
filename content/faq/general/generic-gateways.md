@@ -10,7 +10,7 @@ In our plugins, we use predefined gateways for specific payment methods. When we
 
 To avoid this, some of our plugins use generic gateways which include a flexible gateway code that lets them connect to almost every payment method we offer, without updating the plugin.
 
-### Generic gift cards 
+### Gift cards 
 
 Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/faq/general/multisafepay-glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
 
