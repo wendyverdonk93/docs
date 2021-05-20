@@ -7,56 +7,45 @@ read_more: '.'
 aliases: [/payment-methods/afterpay/refund-afterpay/]
 ---
 
-## Request a refund 
+## Refunds 
 
-There are 3 ways to refund an AfterPay transaction in [MultiSafepay Control](https://merchant.multisafepay.com)
+You can process refunds using most MultiSafepay ecommerce integrations. For more information, see the relevant [ecommerce integration FAQ](/integrations/ecommerce-integrations).
 
-In all three cases of a refund, an amount will be refunded only if a payment is linked to the transaction. If no payment is linked to the transaction, only a credit on the invoice will take place.
+The payment must be linked to a transaction, or the customer only receives a credit on their invoice.
 
-### Full refund
-The transaction can be fully refunded through the refund option.
+There are 3 ways to refund AfterPay transactions in your [MultiSafepay Control](https://merchant.multisafepay.com):
 
-1. Go to _transactions_ in [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction overview_
-3. With the search function you can find the transaction
-4. Click on the transaction to open it
-5. Select _refund order_
-6. _Full refund_
-7. _Save_.
+### Full refunds
+
+1. Go to **Transactions** > **Transaction overview**.
+2. Search for the transaction and click it to open the **Transaction details** page.
+3. Click **Refund order** > **Full refund**.
+4. Click **Save**.  
 
 The transaction is cancelled.
 
-### Partial refund
-The Transaction can be partially refunded in the checkout editor. Please follow these steps:
+### Partial refunds 
 
-1. Go to _transactions_ in [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction overview_
-3. With the search function you can find the transaction
-4. Click on the transaction to open it
-5. Select _refund order_
-6. Choose _Edit_
-7. Choose the item(s) you want to deduct from the order
-8. _Save_.
+1. Go to **Transactions** > **Transaction overview**.
+2. Search for the transaction and click it to open the **Transaction details** page.
+3. Click **Refund order** > **Edit**.
+4. In the checkout editor, select the item(s) you want to deduct from the order.
+5. Click **Save**.  
 
-The transaction shows the credited item(s) with the deducted amount added to the transaction.
-A new payment link is generated and sent to the customer with the adjusted invoice.
+The transaction shows the credited item(s) and the deducted amount.  
+A new payment link is generated and sent to the customer for the adjusted amount.
 
-### Add a discount
-Instead of deleting an item in the checkout editor you may want to add a discount. Please follow these steps:
+### Discounts 
 
-1. Go to _transactions_ in the [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Select _transaction overview_
-3. With the search function you can find the transaction
-4. Click on the transaction to open it
-5. Select _refund order_
-6. Choose _Change Order_
-7. Add the discount as a new line in the checkout editor. _For example, -1 > discount > amount > VAT_
-8. Add the new order line to the order to deduct the amount given as a discount
-9. _Save_.
+1. Go to **Transactions** > **Transaction overview**.
+2. Search for the transaction and click it to open the **Transaction details** page.
+3. Click **Refund order** > **Change order**.
+4. In the checkout editor, add the discount as a new line, e.g. -1 > discount > amount > VAT.
+5. Add the new order line to the order to deduct the discounted amount
+9. Click **Save**.
 
-The discount is added to the transaction.
-A new payment link is generated and sent to the customer with the adjusted invoice.
+The discount is added to the transaction.  
+A new payment link is generated and sent to the customer for the adjusted amount.
 
-In most ecommerce integrations you can also refund. See the corresponding [ecommerce integration FAQ](/integrations/ecommerce-integrations) for more information.
 
 

@@ -8,89 +8,71 @@ aliases: [/payment-methods/afterpay/how-does-afterpay-work/]
 ---
 ## How it works
 
-### The customer  
-Pay-after-delivery methods allow customers to pay only for items they keep from an order. This means that sometimes the complete customer journey also consists of a product return process. In the event of the return process taking too long to verify, the collection period can be paused for 2 to 4 weeks by placing it on hold. This can only be done via <merchant@afterpay.com> or via +31 207230230.
+Pay-after-delivery methods let customers pay only for the items from their order that they keep. Sometimes the customer journey involves returning items. If a return takes too long to verify, you can place the invoice on hold to pause the collection period for 2 to 4 weeks. Email AfterPay at <merchant@afterpay.com> or phone +31 207230230.
 
-* When a customer's transaction is not accepted by AfterPay, only the customer is able to retrieve the reason of rejection by AfterPay due to privacy compliance rules.
+If an AfterPay transaction receives **Uncleared** status, AfterPay accepts or declines the transaction.
 
+- If declined, only the customer can ask AfterPay for the reason due to privacy rules.
 
-* When an AfterPay transaction is marked with the status _uncleared_, AfterPay will authorize or decline the transaction
+- If accepted, AfterPay takes on the merchant risk. The customer must make the full payment to AfterPay within 14 days of the invoice date, unless otherwise agreed in writing.
 
-When a transaction has been accepted, the risk of the merchant is assumed entirely by AfterPay. The customer must fulfill the payment to AfterPay within 14 days after the invoice date, unless otherwise agreed upon in writing.
+## Transaction flow
+Transaction flow is the different ways transactions can be processed.
 
+- Order status: Indicates the status of the order: **Completed**, **Pending**, or **Rejected**. Independent of incoming or outgoing payments for the transaction.
 
-### Delivery address    
-AfterPay accepts a difference in invoice and delivery address. However, a different delivery address or pick up address is only forwarded if both the first and last name of the customer share at least two characters. 
-
-The transaction in your MultiSafepay Control will only show the customer information (invoice address). The transaction details can be retrieved through a _GET request_. More information can be found on the [API documenation](/api/#retrieve-an-order) page. 
-
-
-### Payout AfterPay transaction
-
-The payout of an AfterPay transaction will be added onto your [MultiSafepay Control](https://merchant.multisafepay.com) once received from AfterPay. The payout timeline for this method is determined by AfterPay.
-
-### Transaction flow
-The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
-
-* Order status      
-The order status indicates the status of the order, such as _completed_, _pending_ or _rejected_. The order status is independent of the incoming or outgoing payment of the transaction.
-
-* Transaction status       
-The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
+- Transaction status: Indicates the payment status of the transaction: **Completed**, **Pending**, or **Rejected**. When the transaction status changes to **Completed**, the transaction amount is added to your MultiSafepay balance.
 
 
-| Order Status                      | Transaction Status      | Description |
+| Order status                      | Transaction status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| Uncleared  | Uncleared  | When an AfterPay transaction is marked with the status uncleared, AfterPay will authorize or decline the transaction. No action is required.   |
-| Completed  | Uncleared  | A successful AfterPay transaction has been received.   |
-| Shipped    | Uncleared  | A capture has been send to AfterPay, the transaction has been confirmed. An invoice will be sent to the customer and your payout is guaranteed. |
-| Shipped    | Completed  | Payout of an AfterPay transaction has been received and added to your MultiSafepay Control balance.|
-| Declined   | Declined   | Transaction has been rejected by AfterPay. Behind the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com), the reason of rejection is shown.     |
-| Void       | Cancelled   | Transaction has been cancelled.  | 
-| Expired    | Expired    | When no action is being taken within 90 days of receiving a transaction with the payment method AfterPay, the transaction will automatically expire. | 
+| Uncleared  | Uncleared  | AfterPay will accept or decline the transaction. No action is required.   |
+| Completed  | Uncleared  | The transaction was successfully completed.   |
+| Shipped    | Uncleared  | A capture has been sent to AfterPay, and the transaction is confirmed. MultiSafepay will send an invoice to the customer. Your payout is guaranteed. |
+| Shipped    | Completed  | MultiSafepay has received the payout from AfterPay and added it to your MultiSafepay balance.|
+| Declined   | Declined   | AfterPay has declined the transaction. View the reason in the declined status in your [MultiSafepay Control](https://merchant.multisafepay.com).     |
+| Void       | Cancelled   | The transaction was cancelled.  | 
+| Expired    | Expired    | If no action is taken within 90 days of receiving the transaction, it automatically expires. | 
 
+## Refunds
 
-### Refund Flow
-
-| Order Status                      | Transaction Status      | Description |
+| Order status                      | Transaction status      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized    | Completed   | A refund has been requested. | 
-| Completed      | Completed   | Refund has been successfully processed.  | 
+| Completed      | Completed   | The refund has been successfully processed.  | 
 
-The full API reference for Afterpay can be found [here](/api/#afterpay)
+## Payouts
 
-### Product rules
-Some rules may apply to certain payment methods. For AfterPay, the following rules apply:
+AfterPay guarantees payouts. Payouts are added to your MultiSafepay balance once received from AfterPay. The timeline is determined by AfterPay.
 
-* Refunding more than the stated amount of the original transaction is NOT possible with AfterPay. More information is available on our [refund more than original amount](/faq/finance/refund-more-than-original-amount) page.
+## API Reference
 
-* Successful AfterPay transactions have no expiring date regarding refunding, as long as the receiving bank is able to process the refund.
+See API Reference – [AfterPay](/api/#afterpay).
 
-* As a post-payment method, AfterPay has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
+## Product rules
 
-* When no action is taken within 90 days of receiving an AfterPay order, the transaction will automatically expire
+* You cannot refund more than the original transaction amount. For more information, see FAQ – [Refunding more than the original transaction value](/faq/finance/refund-more-than-original-amount).
 
-* When an AfterPay transaction has the order status _shipped_, there will be no time limit on refunding the transaction
+* There is no maximum period for refunding successful AfterPay transactions provided that the receiving bank can process the refund.
 
+* You cannot adjust the lifetime of payment links. For more information, see FAQ – [Adjusting payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes).
 
-* As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. AfterPay). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications
+* If no action is taken within 90 days of receiving an AfterPay order, the transaction automatically expires.
 
-* Payments done through Afterpay are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
+* When the order status changes to **Shipped**, there is no time limit for refunding the transaction.
 
-* Afterpay requires an additional API key for Belgium. This can be requested directly at Afterpay.
+* Post-payment methods generally don't support [gift cards](/payment-methods/prepaid-cards/gift-cards) on payment pages because they require very accurate order specifications. MultiSafepay's platform would interpret gift cards as a discount and not reflect the correct order information, e.g. for taxation purposes. You can support gift cards on your checkout page **before** the customer places the order. You are responsible for enabling this feature. You must follow this rule to avoid errors.
 
-* When multiple order rules are supplied with the same _merchant-item-id_, it will result in a conflict if a partial refund is requested. Thus, to be able to do the partial refund for the same product with different specifications (e.g. size, color) via the shopping cart successfully, each merchant-item-id should be unique. For example, for products with different sizes the _merchant-item-id_ can be distinguished with ‘-size’: 1001311-xxl, 1001311-m, 1001311-s.
+* In Belgium, AfterPay requires an additional API key. Request the key from AfterPay.
 
-* Having the new payment pages enabled for a specific site profile is necessary in order to process AfterPay payments. 
-You can check this in your [MultiSafepay Control](https://merchant.multisafepay.com/switch-connect-v2) if you navigate to _Settings > Payment pages_
+* To process a partial refund for the same product with different specifications (e.g. size, color) via the shopping cart, each `merchant-item-id` must be unique.
 
-### The 'Shipped' status
-When receiving an order paid for with AfterPay, it is important to keep a number of things in mind.
+* You must activate [PayV2 payment pages](/tools/payment-pages/activating-payv2/) for your website in your [MultiSafepay Control](https://merchant.multisafepay.com/switch-connect-v2). Go to **Settings** > **Payment pages**.
 
-Upon agreeing with an order _(by actually sending the goods)_, the order status should be changed from _Completed_ to _Shipped_. You can adjust the order status in the original transaction of your [MultiSafepay Control](https://merchant.multisafepay.com) via change order status (manually) and in your ecommerce platform (automatically) with the use of all our ecommerce integrations.
+- The customer can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page for the transaction in your MultiSafepay Control only displays the invoice address. To retrieve the transaction details, make a [retrieve an order](/api/#retrieve-an-order) request using our API. 
 
- You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
+- If you accept an order and ship it, you must change the order status from **Completed** to **Shipped** or the order can expire. This lets AfterPay initiate the billing process with the customer. For all MultiSafepay ecommerce integrations, you can change the order status:
 
-Changing the status to _Shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
-
-The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
+    - Manually in your [MultiSafepay Control](https://merchant.multisafepay.com) on the **Transaction details** page
+    - Automatically in your backend 
+    - Automatically by making an [update an order](https://docs.multisafepay.com/api/#update-an-order) request to our API. Your MultiSafepay Control is automatically updated when the plugin makes a correct API call to change the order status to **Shipped**. 

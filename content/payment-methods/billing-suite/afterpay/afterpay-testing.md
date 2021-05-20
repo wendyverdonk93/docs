@@ -7,4 +7,4 @@ read_more: '.'
 ---
 ## Testing
 
-For more information about the possibilities of testing with Afterpay, please refer to our [test payment details](/faq/getting-started/test-payment-details/#afterpay)
+To test Afterpay transactions, see [Test payment details](/faq/getting-started/test-payment-details/#afterpay).
