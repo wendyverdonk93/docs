@@ -1,6 +1,6 @@
 ---
-title : "How can I log in?"
-meta_title: "Lightspeed plugin - How can I log in? - MultiSafepay Docs"
+title : "Logging in"
+meta_title: "Lightspeed app - Logging in - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
@@ -9,34 +9,29 @@ aliases:
     - /integrations/lightspeed_app/faq/how-to-login
 ---
 
-### About the new login method
+In early 2021, we changed the login method for the MultiSafepay Payment app for Lightspeed from a password to Lightspeed's single sign-on. You can now log in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click the **Login** button.
 
-In early 2021, we have changed the login method for the MultiSafepay Payment app for Lightspeed eCom. The old login method was password-based, while the new method uses the single sign-on provided by Lightspeed. This means you can directly log in via the Lightspeed eCom store to our settings page of the app.
+To log in using Lightspeed's single sign-on, follow these steps:
 
-### The process
+Step 1: Log in to the **Admin** section of your Lightspeed store.
 
-Step 1: Log in to the /admin section of your Lightspeed store
-
-Step 2: Navigate to **Apps** in the sidebar 
+Step 2: In the sidebar, click **Apps**.
 
 {{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
-Step 3: Click on **Purchased apps** / **Aangeschafte apps**
+Step 3: Click **Purchased apps** / **Aangeschafte apps**.
 {{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar-app-store.png" align="center" class="small-img desktop-radius" >}}
 
-Step 4: Go to apps in the side bar
+Step 4: In the sidebar, click **Apps**.
 {{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-side-bar.png" align="center" class="small-img desktop-radius" >}}
 
-Step 5: Click on the name of our app: **MultiSafepay Payments**
+Step 5: Click **MultiSafepay Payments**.
 {{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/my-apps-click-name.png" align="center" class="small-img desktop-radius" >}}
 
-**Alternatively**: paste "/admin/store/apps/1517" after the base URL of your store.  
-This should bring you to the store page immediately.
+**OR**
+Paste **/admin/store/apps/1517** after the base URL of your store to take you straight to the store page.
 
-Step 6: On the store page click on _Go to App_ / _Ga naar App_ 
+Step 6: On the store page, click **Go to app** / **Ga naar app**. 
 
 {{< screen src="/integrations/ecommerce-integrations/lightspeed_app/faq/img/app-page.png" align="center" class="small-img desktop-radius">}}
 
-{{< br >}}
-
-**Note:** This login method uses Lightspeed's single sign-on, therefore you don't need to click the **Login** button.

@@ -7,9 +7,9 @@ aliases:
     - /integrations/cs-cart/faq/how-can-i-update-the-plugin-for-cs-cart/
 ---
 
-There are 3 ways to update the CS-Cart plugin:
+There are 3 ways to update the plugin:
 
-- In your CS-Cart backend
+- In your backend
 - In the CMS marketplace 
 - Using SFTP
 

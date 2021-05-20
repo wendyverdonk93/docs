@@ -7,9 +7,9 @@ aliases:
     - /integrations/drupal7/faq/how-can-i-update-the-plugin-for-drupal7/
 ---
 
-There are 3 ways to update the Drupal 7 plugin:
+There are 3 ways to update the plugin:
 
-- In your Drupal 7 backend
+- In your backend
 - In the CMS marketplace 
 - Using SFTP
 

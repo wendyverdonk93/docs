@@ -7,9 +7,9 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Integrations/Ecwid.svg"
 weight: 12
 title_short: "Ecwid"
-description_short: "Easily integrate MultiSafepay payment solutions into your Ecwid store."
-description: "Easily integrate MultiSafepay payment solutions into your Ecwid store.
-This app is managed by Ecwid, for support please contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new)"
+description_short: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
+description: "Free app to integrate MultiSafepay payment solutions into your Ecwid store.
+"
 layout: 'single'
 aliases: 
     - /hosted/ecwid
