@@ -1,22 +1,25 @@
 ---
-title : "Available payment methods in Craft Commerce"
-meta_title: "Craft Commerce plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "Shopware 5 plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
-read_more: "." 
+read_more: "."
+weight: 1
+aliases: 
+    - /integrations/shopware5/faq/available-payment-methods-shopware5/
 ---
-
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
 + [Bancontact](/payment-methods/banks/bancontact)
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Belfius](/payment-methods/banks/belfius)
++ [CBC](/payment-methods/banks/cbc)
 + [Dotpay](/payment-methods/banks/dotpay)
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
@@ -30,18 +33,22 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 + [TrustPay](/payment-methods/banks/trustpay)
++ [V PAY](/payment-methods/credit-and-debit-cards/vpay)
 
-__Billing suite__
+
+__Billing suites__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
++ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
-+ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
++ [in3](/payment-methods/billing-suite/in3/)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
++ [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__ 
@@ -52,8 +59,10 @@ __Prepaid cards__
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Good4fun](https://www.good4fun.nl)
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
++ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + [Podium](https://www.podiumcadeaukaart.nl)
 + [Sport en Fit](https://www.sportenfitcadeau.nl)
 + [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -62,3 +71,4 @@ __Prepaid cards__
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
+

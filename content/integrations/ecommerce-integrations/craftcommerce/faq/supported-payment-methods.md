@@ -1,16 +1,19 @@
 ---
-title : "Available payment methods in Shopware 6"
-meta_title: "Shopware 6 plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "Craft Commerce 3 plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
-read_more: "."
-aliases: [/integrations/shopware6/faq/available-payment-methods-shopware5/]
+read_more: "." 
+weight: 1
+aliases:
+    - /integrations/ecommerce-integrations/craftcommerce/faq/available-payment-methods-craft-commerce/
 ---
+
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -21,8 +24,8 @@ __Banks__
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
++ [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
-+ [CBC](/payment-methods/banks/cbc)
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + [Request to Pay](/payment-methods/banks/request-to-pay)
@@ -30,22 +33,18 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 + [TrustPay](/payment-methods/banks/trustpay)
-+ [V PAY](/payment-methods/credit-and-debit-cards/vpay)
 
-
-__Billing suite__
+__Billing suites__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
-+ [in3](/payment-methods/billing-suite/in3/)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
-+ [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__ 
@@ -58,7 +57,6 @@ __Prepaid cards__
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
 + [Podium](https://www.podiumcadeaukaart.nl)
 + [Sport en Fit](https://www.sportenfitcadeau.nl)
 + [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -67,4 +65,3 @@ __Prepaid cards__
 + Wijncadeau
 + [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)
-

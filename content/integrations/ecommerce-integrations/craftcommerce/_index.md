@@ -8,8 +8,8 @@ changelog_url : "."
 logo: "/logo/Integrations/Craft_Commerce.svg"
 weight: 21
 title_short: "Craft Commerce"
-description_short: "Easily integrate MultiSafepay payment solutions into your Craft Commerce webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Craft Commerce webshop with the free and completely new Craft Commerce 3 plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce 3 webshop"
 changelog: https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md
 layout: 'single'
 manual: "."
@@ -20,3 +20,13 @@ aliases:
     - /integrations/craftcommerce
 
 ---
+
+### Features
+
+- Support for separate payment methods, billing suites, and gift cards
+- Partial and full refunds for non-billing suite payment methods
+- Customizable order statuses
+- Shipment notifications for billing suite payment methods
+
+### Discounts
+Discounts are not supported by the MultiSafepay Craft Commerce 3 plugin.

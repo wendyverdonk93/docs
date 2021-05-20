@@ -10,8 +10,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Plugins/Drupal_7.svg"
 weight: 15
 title_short: "Drupal 7"
-description_short: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Drupal 7 webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your Drupal 7 webshop"
 layout: 'single'
 aliases: 
     - /plugins/drupal7
