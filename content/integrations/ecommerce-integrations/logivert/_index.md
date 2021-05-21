@@ -7,8 +7,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Integrations/LogiVert.svg"
 weight: 27
 title_short: "LogiVert"
-description_short: "Easily integrate MultiSafepay payment solutions into your LogiVert app."
-description: "Easily integrate MultiSafepay payment solutions into your LogiVert app. This app is managed by LogiVert."
+description_short: "App to integrate MultiSafepay payment solutions into your LogiVert app"
+description: "App to integrate MultiSafepay payment solutions into your LogiVert app"
 layout: 'single'
 aliases: 
     - /hosted/logivert

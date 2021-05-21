@@ -1,9 +1,10 @@
 ---
-title : "Available payment methods in Logic4"
-meta_title: "Logic4 plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "Logic4 plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/logic4/faq/available-payment-methods-logic4/]
+aliases: 
+    - /integrations/logic4/faq/available-payment-methods-logic4/
 ---
 
 __Credit cards__
@@ -28,7 +29,7 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 
-__Billing suite__
+__Billing suites__
 
 + [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)

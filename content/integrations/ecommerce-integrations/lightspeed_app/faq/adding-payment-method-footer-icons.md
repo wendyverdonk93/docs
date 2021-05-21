@@ -1,15 +1,15 @@
 ---
-title : "Where are the icons in my footer?"
-meta_title: "Lightspeed plugin - Where are the icons in my footer?"
+title : "Adding payment method icons in footers"
+meta_title: "Lightspeed app - Adding payment method icons in footers"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 aliases:
   - /integrations/hosted/lightspeed_app/faq/footer-icons
 ---
 
-When using built-in Lightspeed payment methods, icons appear in the footer when a payment method is enabled. The app does not support this by default.
+You can add icons for standard Lightspeed payment methods to your footer. 
 
-Ask your developer to add the icons to your theme. Themes can differ and you may need to make some changes for it to function.
+The Lightspeed app does not support this by default. Ask your developer to add the icons to your theme. Themes can differ and you may need to make some changes for it to function.
 
 To automatically add icons using a MultiSafepay script, follow these steps: 
 

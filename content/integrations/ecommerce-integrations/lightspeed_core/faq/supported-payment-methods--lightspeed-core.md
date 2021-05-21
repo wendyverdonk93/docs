@@ -1,9 +1,11 @@
 ---
-title : "Available payment methods in Lightspeed"
-meta_title: "Lightspeed plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "Lightspeed core integration - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/lightspeed/faq/available-payment-methods-lightspeed/]
+weight: 1
+aliases: 
+    - /integrations/lightspeed/faq/available-payment-methods-lightspeed/
 
 ---
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
@@ -22,7 +24,7 @@ aliases: [/integrations/lightspeed/faq/available-payment-methods-lightspeed/]
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
 + [PayPal](/payment-methods/wallet/paypal)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 
 __Gift cards__
