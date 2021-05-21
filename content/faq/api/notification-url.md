@@ -95,7 +95,6 @@ If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend th
 ### Note:
 
 - Always use **https** in the `notification_url`.
-- Notification URLs in your [MultiSafepay Control](https://merchant.multisafepay.com) are _leading_, that is we use the notification URL under **Website settings** in your MultiSafepay Control first.
-- If the notification URL field in your MultiSafepay Control is empty or not returning an OK response (for any reason), we use the notification URL from the transaction.
+- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay Control](https://merchant.multisafepay.com).
 - Never include port numbers in your notification URL. For security reasons, we only process standard ports.
 - Make sure you authorize our [IP ranges](/faq/general/ip-ranges) to access the notification URL.
