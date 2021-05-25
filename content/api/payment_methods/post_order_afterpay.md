@@ -287,7 +287,7 @@ The email address where the system can send payment instructions to the customer
 ----------------
 __gender__ | string
 
-The customer's personal title. Options: Mr, Mrs, Miss. 
+The customer's personal title. Options: `mr`, `mrs`, `miss`. 
 
 ----------------
 __ip_address__ | string
@@ -397,4 +397,3 @@ __forwarded_ip__ | string
 
 For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).
 {{< /description >}}
-
