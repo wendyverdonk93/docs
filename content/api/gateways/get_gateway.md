@@ -36,15 +36,15 @@ The unique identifier of the gateway to be returned.
 
 __country__ | string
 
-Customer’s provided country code in [ISO 3166-1](https://www.iso.org/iso-3166-country-codes.html) format e.g. ‘NL’. This will provide a local bank account to the customer to pay to, where available.
+Customer’s country code in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format e.g. `NL`. Optional.
 
 __currency__ | string
 
-The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with.
+The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. Optional.
 
 __amount__ | integer
 
-The amount (in cents) that the customer needs to pay.
+The amount (in cents) that the customer needs to pay. Optional.
 
 
 {{% /description %}}
