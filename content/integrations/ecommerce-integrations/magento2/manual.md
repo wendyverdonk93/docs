@@ -23,8 +23,6 @@ For user guidance for the classic plugin, see [MultiSafepay Magento 2 (Deprecate
 ### Features
 The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases conversion.
 
-{{< details title="View other new features" >}}
-
 Other new features include:
 
 * Improved Magento backend configuration
@@ -34,8 +32,6 @@ Other new features include:
 * Clear explanation of each payment method with links to docs
 * Modular setup, providing more installation flexibility
 * PWA (GraphQL) endpoints
-
-{{< /details >}}
 
 As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html). For more information, see MultiSafepay Blog - [Magento 2: Boost conversion through Magento Vault & Instant Purchase](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase). These features are based on MultiSafepay recurring payments. For more information, see [Recurring payments](/tools/recurring-payments/).
 
