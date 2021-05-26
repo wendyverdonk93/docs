@@ -1,15 +1,12 @@
 ---
-title : "Migrating to the new plugin"
-meta_title: "Magento 2 plugin - Migrating to the new plugin  - MultiSafepay Docs"
+title : "Changes in the new plugin"
+meta_title: "Magento 2 plugin - Changes in the new plugin  - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
 ---
 
-## Installing the new plugin
-We recommend completely deleting the deprecated plugin, before installing the new one. See [Deleting the deprecated plugin](/integrations/ecommerce-integrations/magento2/faq/deleting-the-deprecated-plugin/).
-
-### Processing refunds for payment methods from the deprecated plugin
+## Changes to refunds
 After deleting the deprecated plugin and installing the new one, the payment gateways from the deprecated plugin are no longer available in Magento.
 
 You can refund transactions processed through these gateways in your [MultiSafepay Control](https://merchant.multisafepay.com), but **not** from your Magento 2 backend.
