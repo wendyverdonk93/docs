@@ -1,6 +1,6 @@
 ---
-title : "Customizing payment components"
-meta_title: "Payment components - Customizing payment components - MultiSafepay Docs"
+title : "Customizing Payment Components"
+meta_title: "Payment Components - Customizing Payment Components - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: 'single'
 read_more: '.'
@@ -42,6 +42,7 @@ To edit the default styling of the Payment Component:
 ### Example
 
 To edit the form fields to: 
+
 - Add a 5-pixel `border-radius`
 - Set a light-grey `background-color`
 - Change the `font-family` to Helvetica
