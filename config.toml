@@ -29,7 +29,7 @@ name = "Shell"
 # Menu config
 
 [[menu.main]]
-    name = "Getting Started"
+    name = "Getting started"
     url  = "/guides/getting-started/"
     pre = "fa fa-rocket fa-lg"
     weight = 1
