@@ -26,7 +26,7 @@ bin/magento module:uninstall MultiSafepay_Connect --remove-data --clear-static-c
 php bin/magento setup:upgrade
 ```
 
-#### Back ups
+#### Backups
 You can back up certain parts of the plugin by adding the following parameters: 
 - `--backup-code`
 - `--backup-media`

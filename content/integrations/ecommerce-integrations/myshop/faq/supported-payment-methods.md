@@ -1,9 +1,10 @@
 ---
-title : "Available payment methods in myShop"
-meta_title: "myShop available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "myShop app - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/myshop/faq/available-payment-methods-myshop/]
+aliases: 
+    - /integrations/myshop/faq/available-payment-methods-myshop/
 ---
 __Credit cards__
 
@@ -24,13 +25,13 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 
 
-__Billing suite__
+__Billing suites__
 
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
 
-__Wallet__
+__Wallets__
 
 + [FastCheckout](/payment-methods/fastcheckout)
 + [PayPal](/payment-methods/wallet/paypal)

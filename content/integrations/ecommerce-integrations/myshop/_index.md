@@ -7,8 +7,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Integrations/myShop.svg"
 weight: 23
 title_short: "myShop"
-description_short: "Easily integrate MultiSafepay payment solutions into your myShop with this free app."
-description: "Easily integrate MultiSafepay payment solutions into your myShop with this free app.
+description_short: "Free app integrate MultiSafepay payment solutions into your myShop"
+description: "Free app to integrate MultiSafepay payment solutions into your myShop.
 This app is managed by our partner myShop."
 layout: 'single'
 aliases: 

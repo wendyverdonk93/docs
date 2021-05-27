@@ -1,9 +1,11 @@
 ---
-title : "Available payment methods in Mijnwebwinkel"
-meta_title: "Mijnwebwinkel available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "Mijnwebwinkel app - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/mijnwebwinkel/faq/available-payment-methods-mijnwebwinkel/]
+weight: 1
+aliases: 
+    - /integrations/mijnwebwinkel/faq/available-payment-methods-mijnwebwinkel/
 ---
 
 __Credit cards__
@@ -21,11 +23,11 @@ __Banks__
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 
-__Billing suite__
+__Billing suites__
 
 + [Klarna](/payment-methods/billing-suite/klarna)
 
-__Wallet__
+__Wallets__
 
 + [PayPal](/payment-methods/wallet/paypal)
 
