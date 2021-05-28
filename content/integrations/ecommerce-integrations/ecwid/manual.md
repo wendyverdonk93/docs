@@ -26,6 +26,6 @@ More information about the documentation can be found on the [Ecwid explanation 
 {{< alert-notice >}} If you would like to integrate your Ecwid store to Wix, please follow the instructions on the [Ecwid website](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site) {{< /alert-notice >}}
 
 ### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
 
 

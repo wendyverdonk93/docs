@@ -27,7 +27,7 @@ In this manual we describe the SFTP upload method.
 {{% introduction_plugin "Magento 1" %}}
 
 {{< blue-notice >}}
-MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, do not hesitate to contact us at <integration@multisafepay.com>
+MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, email our Integration Team at <integration@multisafepay.com>
 {{< /blue-notice >}}
 
 ### 1. Requirements
@@ -57,4 +57,4 @@ gift card need to be activated, more information can be found on our [gift card 
 This page contains the FastCheckout specific settings. More information about [FastCheckout](/payment-methods/fastcheckout) can be found on our official website.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <magento1@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <magento1@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_

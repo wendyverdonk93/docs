@@ -12,4 +12,4 @@ This functionality stores payment methods as a token in the Magento database and
 
 The [Recurring Payments](/tools/recurring-payments/) feature must be enabled in your MultiSafepay Control before Magento Vault can be activated in your Magento backend. Please refer to [How to activate Recurring Payments](/tools/recurring-payments/how-to-activate-recurring-payments/) and the [requirements](/tools/recurring-payments/what-is-recurring-payments/#3-requirements) for more information.
 
-If you have any questions about the Magento Vault integration, please contact <integration@multisafepay.com>
+If you have any questions about the Magento Vault integration, email our Integration Team at <integration@multisafepay.com>
