@@ -1,5 +1,5 @@
 ---
-title: 'Frequently Asked Questions'
+title: 'Frequently asked questions'
 meta_title: 'FAQ - MultiSafepay Docs'
 breadcrumb_title: 'FAQ'
 layout: 'block'
