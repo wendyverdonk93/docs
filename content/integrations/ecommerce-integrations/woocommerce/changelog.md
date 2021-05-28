@@ -404,7 +404,7 @@ Release date July 5th, 2018
 Release date: June 8th, 2018
 ### Improvements
 + PLGWOOS-215 Add support for Santander Betaal per Maand
-+ PLGWOOS-214 Add support for Afterpay
++ PLGWOOS-214 Add support for AfterPay
 + PLGWOOS-216 Add support for Trustly
 
 ### Fixes

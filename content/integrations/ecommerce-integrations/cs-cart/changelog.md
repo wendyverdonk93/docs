@@ -37,7 +37,7 @@ Release date - February 26th, 2020
 Release date: Oct 8th, 2018
 
 ### Features
-+ PLGCSCS-60: Add Afterpay as payment method
++ PLGCSCS-60: Add AfterPay as payment method
 + PLGCSCS-61: Add EPS as payment method
 + PLGCSCS-62: Add iDEAL QR as payment method
 + PLGCSCS-63: Add TrustPay as payment method

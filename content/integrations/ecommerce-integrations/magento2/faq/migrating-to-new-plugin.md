@@ -43,17 +43,17 @@ _Want one of these feature back? Please send us an e-mail at integration@multisa
 The order status flow has been changed a bit. In the new plugin from version 2.5.0, all new orders will start with the state 'Pending'. When redirecting the customer, the order will get the 'Pending Payment' state, until the customer has reached the 'Thank you' page. If the payment has been succesfully received by then, the status will then be changed to 'Processing'. Around the same time the offline action will be triggered and the invoice will get created. If the state has not been set to 'Processing' yet by then, the offline action will set the state 'Processing' instead. For 'Bank Transfer' payments, the state will not be changed to 'Pending Payment' so the order will not get automatically canceled after a set period of time, to give the customer more time to pay.
 
 ### 4. Changes in the checkout
-For the following payment methods, the payment flow has been changed from [Redirect to Direct](/faq/api/difference-between-direct-and-redirect/). This applies to the following payment methods: Afterpay, Request to Pay, Direct Debit, Einvoicing, in3 and Pay After Delivery (Betaal na Ontvangst).
+For the following payment methods, the payment flow has been changed from [Redirect to Direct](/faq/api/difference-between-direct-and-redirect/). This applies to the following payment methods: AfterPay, Request to Pay, Direct Debit, Einvoicing, in3 and Pay After Delivery (Betaal na Ontvangst).
 
 **For these payment methods, we have included extra fields in the checkout. This means that if you are using a customised checkout, you now not only have to account for the iDEAL issuers checkout field, but also other checkout fields for the other payment methods mentioned above.**
 
-#### An example of differences in the Luma checkout between Afterpay in the deprecated and the new plugin
+#### An example of differences in the Luma checkout between AfterPay in the deprecated and the new plugin
 
-Afterpay in the deprecated plugin:
+AfterPay in the deprecated plugin:
 {{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated.png" align="center" class="desktop-radius" >}}
 
-Afterpay payment page in the deprecated plugin:
+AfterPay payment page in the deprecated plugin:
 {{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated-2.png" align="center" class="small-image desktop-radius" >}}
 
-Afterpay in the new plugin:
+AfterPay in the new plugin:
 {{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout.png" align="center" class="desktop-radius" >}}

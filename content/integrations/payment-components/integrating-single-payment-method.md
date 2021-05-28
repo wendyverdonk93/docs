@@ -108,7 +108,7 @@ Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
 |Request to Pay|`DBRTP`|
 |Trustly|`TRUSTLY`|
 |PayPal|`PAYPAL`|
-|Afterpay|`AFTERPAY`|
+|AfterPay|`AFTERPAY`|
 |E-invoicing|`EINVOICE`|
 |in3|`IN3`|
 |Pay After Delivery|`PAYAFTER`|

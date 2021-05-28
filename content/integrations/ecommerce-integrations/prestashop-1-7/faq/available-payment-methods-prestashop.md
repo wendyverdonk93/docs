@@ -36,7 +36,7 @@ __Banks__
 
 __Billing suite__
 
-+ [Afterpay](/payment-methods/billing-suite/afterpay)
++ [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)

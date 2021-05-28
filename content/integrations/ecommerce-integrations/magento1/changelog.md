@@ -41,7 +41,7 @@ Release date: Apr. 2nd, 2020
 + PLGMAGONE-617: Add Apple Pay
 + PLGMAGONE-656: Add Direct Bank Transfer (Request to Pay)
 + PLGMAGONE-485: Add support for Fooman Surcharge
-+ PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
++ PLGMAGONE-562: Added support for PostNL pickup points for AfterPay.
 
 ### Fixed
 + PLGMAGONE-654: Fix incorrect character set for translations
@@ -102,7 +102,7 @@ Release date: May. 25th, 2018
 
 ### Added
 + PLGMAGONE-378: Add support for Santander Betaal per Maand
-+ PLGMAGONE-379: Add support for Afterpay
++ PLGMAGONE-379: Add support for AfterPay
 + PLGMAGONE-380: Add support for Trustly
 + PLGMAGONE-381: Add Moneyou iDEAL issuer logo
 
