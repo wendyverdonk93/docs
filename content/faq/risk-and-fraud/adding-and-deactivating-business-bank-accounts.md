@@ -21,4 +21,4 @@ To verify the account:
 MultiSafepay verifies the new bank account within 5 business days. We only accept business bank accounts (no private bank accounts) that are registered to the official company name. 
 
 ### Deactivating an old business bank account
-To deactivate an old bank account, email the Risk Team at <risk@multisafepay.com> and include your account ID.
+To deactivate an old bank account, email our Risk Team at <risk@multisafepay.com> and include your account ID.

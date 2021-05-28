@@ -91,5 +91,5 @@ The default value is "redirect".
 
 
 ## Example
-Contact us at <integration@multisafepay.com> for a proof of concept.
+Email our Integration Team at <integration@multisafepay.com> for a proof of concept.
 

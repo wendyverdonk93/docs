@@ -30,4 +30,4 @@ Premarc has built some important reconciliation plugins for MultiSafepay merchan
 [Lightspeed](https://www.snelkoppeling.eu/lightspeed)
 
 
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+If you still have inquiries, email our Support Team <support@multisafepay.com>

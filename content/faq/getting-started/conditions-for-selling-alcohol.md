@@ -18,7 +18,7 @@ Dutch law states that alcohol cannot be sold to customers under the age of 18. I
 * Dutch driving license
 * European or Dutch ID card
 
-Merchants must also submit a Merchant declaration regarding alcoholic beverages (once only). Email a signed copy of the declaration to the Risk Team at <risk@multisafepay.com>
+Merchants must also submit a Merchant declaration regarding alcoholic beverages (once only). Email a signed copy of the declaration to our Risk Team at <risk@multisafepay.com>
 
 Download the:
 

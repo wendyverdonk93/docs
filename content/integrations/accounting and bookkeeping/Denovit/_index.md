@@ -25,4 +25,4 @@ To set it up, you need to log in to your Denovit account, go to your Dashboard a
 If you use the “E-mail” function, an additional e-mail will be sent with a payment link to the current e-mail. In case of “Print and process”, only an e-mail with a payment link will be sent.
 
 
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+If you still have inquiries, email our Support Team at <support@multisafepay.com>

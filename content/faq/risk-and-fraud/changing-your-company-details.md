@@ -9,8 +9,8 @@ aliases:
 ---
 You must inform MultiSafepay of any changes to the form of your company or any other company details, e.g. address, director, UBO. 
 
-* For changes of address, email the Support Team at <support@multisafepay.com>
-* For changes in the company form, directors, or UBO, email the Risk Team at <risk@multisafepay.com> and include your MultiSafepay account number. 
+* For changes of address, email our Support Team at <support@multisafepay.com>
+* For changes in the company form, directors, or UBO, email our Risk Team at <risk@multisafepay.com> and include your MultiSafepay account number. 
 
 MultiSafepay will request new documentation, such as UBO statements or copies of identification documents. 
 

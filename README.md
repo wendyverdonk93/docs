@@ -21,7 +21,7 @@ Are you missing something and would like us to fix it? Suggest an improvement by
 What will you get in return? A brand new designed MultiSafepay t-shirt which will make you part of the team!
 
 ## Support
-If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
+If you have any issues, problems or questions you can create an issue on this repository or contact us at <a href="mailto:integration@multisafepay.com">integration</a>
 
 ## Want to be part of the team?
 Are you a developer interested in working at MultiSafepay? [View](https://www.multisafepay.com/careers/#jobopenings) our job openings and feel free to get in touch with us.

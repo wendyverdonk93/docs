@@ -8,5 +8,5 @@ aliases:
     -/faq/general/old-plugin-versions
 ---
 
-We recommend always using the latest stable version of our plugins. However, if you prefer to use an older version, email the Integration Team at <integration@multisafepay.com>  
+We recommend always using the latest stable version of our plugins. However, if you prefer to use an older version, email our Integration Team at <integration@multisafepay.com>  
  

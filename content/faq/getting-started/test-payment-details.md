@@ -10,7 +10,7 @@ This page assumes you have followed the steps on [Getting started](/guides/getti
 
 It provides information about test credentials, sample statuses, possible errors, and valid payment pages.
 
-**Note:** By default, you cannot process test refunds. To enable outgoing payments, email the Integration Team at <integration@multisafepay.com>  
+**Note:** By default, you cannot process test refunds. To enable outgoing payments, email our Integration Team at <integration@multisafepay.com>  
 
 ## Banks
 
@@ -134,7 +134,7 @@ Sample statuses:
 
 ### Recurring payments
 
-To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com> 
+To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay Test Control, email our Integration Team at <integration@multisafepay.com> 
 
 ### SEPA Direct Debit
 
@@ -171,7 +171,7 @@ Sample statuses:
 
 ### AfterPay
 
-To enable AfterPay in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com>
+To enable AfterPay in your MultiSafepay Test Control, email our Integration Team at <integration@multisafepay.com>
 
 ### Betaal per Maand
 
@@ -387,4 +387,4 @@ Test coupon codes:
 
 You cannot test Paysafecard.
 
-For any questions, email the Integration Team at <integration@multisafepay.com>
+For any questions, email our Integration Team at <integration@multisafepay.com>

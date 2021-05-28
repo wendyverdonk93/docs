@@ -7,7 +7,8 @@ read_more: '.'
 aliases:
     - /faq/chargebacks/dispute-chargeback
 ---
-For questions or providing documentation you can submit your email to <retrieval@multisafepay.com>
+
+For questions or providing documentation you can send an email to <retrieval@multisafepay.com>
 
 Customers who disagree with or do not recognize a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 

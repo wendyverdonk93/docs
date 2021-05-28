@@ -14,4 +14,4 @@ You can sign up for a MultiSafepay account while still using another PSP without
 ### Transferring tokens
 In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process recurring payments or want to offer existing customers the option of reusing their credit card details.
 
-For more information, contact <sales@multisafepay.com>
+For more information, email our Sales Team at <sales@multisafepay.com>

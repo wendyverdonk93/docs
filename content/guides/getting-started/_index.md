@@ -31,7 +31,7 @@ With a test account:
 * You can explore new features
 * No costs are associated with transactions
 
-If you run into issues during this process, email Customer Operations at <support@multisafepay.com>
+If you run into issues during this process, email our Customer Operations Team at <support@multisafepay.com>
 
 ## Step 2: Set up your MultiSafepay Control
 After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your [API key](/faq/general/multisafepay-glossary/#api-key), monitor transactions, configure payouts, generate reports, and more. 
@@ -71,7 +71,7 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 * [Reservation Management](/integrations/reservation-management): allow your customers to make reservations and pay online
 * [Credit & Subscription Management](/integrations/credit-and-subscription-management): manage your subscriptions and collect your subscription fees
 
-To learn more about what integration method best suits your business, mail our Integration Specialists at <integration@multisafepay.com>
+To learn more about what integration method best suits your business, email our Integration Team at <integration@multisafepay.com>
 
 ## Step 4: Go live
 When you are ready, [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.

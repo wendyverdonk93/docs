@@ -25,4 +25,4 @@ The app automatically retrieves the details of all payments for the day from Mul
 {{< br >}}
 For more information, see dealer4dealer - [Afletteren 2.0 Exact Online with MultiSafepay](https://dealer4dealer.nl/afletteren-2-0-exact-online-multisafepay/).
 
-For questions about integrating the app with MultiSafepay, email the Support Team at <support@multisafepay.com>
+For questions about integrating the app with MultiSafepay, email our Support Team at <support@multisafepay.com>

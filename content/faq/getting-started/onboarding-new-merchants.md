@@ -59,4 +59,4 @@ Some products and services can't be sold with MultiSafepay or only if additional
 
 **Disclaimer:** The information on this website is intended for informational purposes. No rights can be derived from this information.
 
-For questions about onboarding, email the Risk Team at <risk@multisafepay.com>
+For questions about onboarding, email our Risk Team at <risk@multisafepay.com>
