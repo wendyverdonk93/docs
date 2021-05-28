@@ -1,16 +1,18 @@
 ---
-title : "Available payment methods in PrestaShop 1.6"
-meta_title: "PrestaShop 1.6 plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "PrestaShop 1.6 plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/prestashop-1-6/faq/available-payment-methods-prestashop/]
+weight: 1
+aliases: 
+    - /integrations/prestashop-1-6/faq/available-payment-methods-prestashop/
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -32,14 +34,14 @@ __Banks__
 
 
 
-__Billing suite__
+__Billing suites__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
 + [Apple Pay](/payment-methods/wallet/applepay)

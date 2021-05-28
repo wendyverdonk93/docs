@@ -1,16 +1,18 @@
 ---
-title : "Available payment methods in OsCommerce"
+title : "Supported payment methods"
 meta_title: "OsCommerce plugin available payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/oscommerce/faq/available-payment-methods-oscommerce/]
+weight: 1
+aliases: 
+    - /integrations/oscommerce/faq/available-payment-methods-oscommerce/
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -27,13 +29,13 @@ __Banks__
 + [V PAY](/payment-methods/credit-and-debit-cards/vpay)
 
 
-__Billing suite__
+__Billing suites__
 
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
-__Wallet__ 
+__Wallets__ 
 
 + [PayPal](/payment-methods/wallet/paypal)
 
