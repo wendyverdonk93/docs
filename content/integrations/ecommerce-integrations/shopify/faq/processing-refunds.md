@@ -1,10 +1,10 @@
 ---
-title : "Available payment methods in Shoptrader"
-meta_title: "Shoptrader available payment methods - MultiSafepay Docs"
+title : "Processing refunds"
+meta_title: "Shopify plugin - Processing refunds - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/shoptrader/faq/available-payment-methods-shoptrader/]
+aliases: 
+    - /integrations/shopify/faq/refunding-shopify/
 ---
 
-Please contact the Integration Team at <integration@multisafepay.com>
-
+You can process refunds directly from your Shopify backend and from your [MultiSafepay Control](https://merchant.multisafepay.com).

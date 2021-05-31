@@ -1,16 +1,18 @@
 ---
-title : "Available payment methods in ZenCart"
-meta_title: "ZenCart plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "VirtueMart plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/zencart/faq/available-payment-methods-zen-cart/]
+weight: 1
+aliases: 
+    - /integrations/virtuemart/faq/available-payment-methods-virtuemart/
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -21,28 +23,27 @@ __Banks__
 + [EPS](/payment-methods/banks/eps)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
++ [iDEAL QR](/payment-methods/banks/idealqr)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
-+ [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
++ [TrustPay](/payment-methods/banks/trustpay)
 + [V PAY](/payment-methods/credit-and-debit-cards/vpay)
 
 
-__Billing suite__
+__Billing suites__
 
-+ [Afterpay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
-+ [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
 
 __Prepaid cards__ 

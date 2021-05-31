@@ -10,8 +10,8 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Plugins/VirtueMart.svg"
 weight: 18
 title_short: "VirtueMart"
-description_short: "Easily integrate MultiSafepay payment solutions into your VirtueMart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your VirtueMart webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your VirtueMart webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your VirtueMart webshop"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md"
 aliases: [/integrations/virtuemart/]

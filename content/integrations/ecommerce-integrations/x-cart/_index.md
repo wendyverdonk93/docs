@@ -10,11 +10,12 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 logo: "/logo/Plugins/X-Cart.svg"
 weight: 14
 title_short: "X-Cart"
-description_short: "Easily integrate MultiSafepay payment solutions into your X-Cart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your X-Cart webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your X-Cart webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your X-Cart webshop"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md"
-aliases: [/integrations/x-cart/]
+aliases: 
+    - /integrations/x-cart/
 aliases:
     - /plugins/x-cart
     - /integrations/plugins/x-cart

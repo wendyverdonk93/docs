@@ -1,9 +1,9 @@
 ---
-title : "Can I refund orders?"
-meta_title: "VirtueMart plugin refunding - MultiSafepay Docs"
+title : "Processing refunds"
+meta_title: "X-Cart plugin - Processing refunds - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/virtuemart/faq/refunding-virtuemart/]
+aliases: 
+    - /integrations/x-cart/faq/refunding-x-cart/
 ---
-Yes, you can directly from your backend.  
-You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
+You can process refunds directly from your X-Cart backend, and from your [MultiSafepay Control](https://merchant.multisafepay.com).

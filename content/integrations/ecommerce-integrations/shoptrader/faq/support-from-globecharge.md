@@ -1,9 +1,10 @@
 ---
-title : "Can I refund orders?"
-meta_title: "Shoptrader plugin refunding - MultiSafepay Docs"
+title : "Support from GlobeCharge"
+meta_title: "ShopTrader plugin - Support from GlobeCharge - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
 ---
-Please contact the Integration Team at <integration@multisafepay.com>
 
-You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
+GlobeCharge does support MultiSafepay, but for best results, we recommend using our plugin. 
+
+For GlobeCharge support, see [GlobeCharge](https://www.globecharge.com).

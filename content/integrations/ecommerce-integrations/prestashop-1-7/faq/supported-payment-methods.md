@@ -1,16 +1,18 @@
 ---
-title : "Available payment methods in WooCommerce"
-meta_title: "WooCommerce plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "PrestaShop 1.7 plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/woocommerce/faq/available-payment-methods-woocommerce/]
+weight: 1
+aliases: 
+    - /integrations/prestashop-1-7/faq/available-payment-methods-prestashop/
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -30,35 +32,36 @@ __Banks__
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
++ [TrustPay](/payment-methods/banks/trustpay)
 + [V PAY](/payment-methods/credit-and-debit-cards/vpay)
 
 
-__Billing suite__
+__Billing suites__
 
 + [Afterpay](/payment-methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/)
++ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
-+ [in3](/payment-methods/billing-suite/in3)
++ [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
 + [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
 + [Apple Pay](/payment-methods/wallet/applepay)
 + [PayPal](/payment-methods/wallet/paypal)
 
+
 __Prepaid cards__ 
 
-+ Baby Cadeaubon
 + Beauty and Wellness gift card
 + [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
++ [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
 + [Fashioncheque](https://www.fashioncheque.com/nl)
 + [Fashion gift card](https://www.fashion-giftcard.nl)
 + Fietsenbon
-+ [Good4fun](https://www.good4fun.nl)
-+ Goodcard
 + [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
++ [Good4fun](https://www.good4fun.nl)
 + [Nationale tuinbon](https://www.nationale-tuinbon.nl)
 + [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
 + [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
@@ -68,5 +71,4 @@ __Prepaid cards__
 + [Webshop gift card](https://www.webshopgiftcard.nl)
 + [Wellness gift card](https://www.wellnessgiftcard.nl)
 + Wijncadeau
-+ [Winkelcheque](https://www.winkelcheque.nl)
 + [Yourgift](https://www.yourgift.nl/)

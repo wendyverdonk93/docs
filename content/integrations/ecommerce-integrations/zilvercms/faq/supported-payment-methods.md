@@ -1,6 +1,6 @@
 ---
-title : "Available payment methods in ZilverCMS"
-meta_title: "ZilverCMS plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "ZilverCMS plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: "."
 ---
@@ -9,7 +9,7 @@ __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -27,11 +27,11 @@ __Banks__
 + [Request to Pay](/payment-methods/banks/request-to-pay)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 
-__Billing suite__
+__Billing suites__
 
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
 + [PayPal](/payment-methods/wallet/paypal)

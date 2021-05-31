@@ -1,15 +1,17 @@
 ---
-title : "Available payment methods in Shopify"
-meta_title: "Shopify plugin available payment methods - MultiSafepay Docs"
+title : "Supported payment methods"
+meta_title: "Shopify plugin - Supported payment methods - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: "."
-aliases: [/integrations/shopify/faq/available-payment-methods-shopify/]
+weight: 1
+aliases: 
+    - /integrations/shopify/faq/available-payment-methods-shopify/
 ---
 __Credit cards__
 
 + [American Express](/payment-methods/credit-and-debit-cards/american-express)
 + [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa) (including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) & [Dankort](/payment-methods/credit-and-debit-cards/dankort))
++ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
@@ -29,7 +31,7 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 
-__Wallet__ 
+__Wallets__ 
 
 + [Alipay](/payment-methods/wallet/alipay)
 + [PayPal](/payment-methods/wallet/paypal)
