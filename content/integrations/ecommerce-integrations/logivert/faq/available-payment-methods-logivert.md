@@ -18,9 +18,9 @@ __Banks__
 + [Bank transfer](/payment-methods/banks/bank-transfer)
 + [Giropay](/payment-methods/banks/giropay)
 + [iDEAL](/payment-methods/banks/ideal)
-+ [Klarna](/payment-methods/billing-suite/klarna)
 + [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 
+**Billing suites**
 
-
++ [Klarna](/payment-methods/billing-suite/klarna)
