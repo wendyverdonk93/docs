@@ -22,7 +22,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
 
 ### Availability
 Our Shopify app is unavailable in Norway and Finland. For more information, email the Integration Team at <integration@multisafepay.com>

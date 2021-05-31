@@ -15,7 +15,6 @@ We recommend first installing the plugin in a test environment following the rec
 You can install the plugin via:
 
 + Composer
-+ SFTP
 + Your Drupal 8 & 9 backend
 
 To install the plugin via Composer:
