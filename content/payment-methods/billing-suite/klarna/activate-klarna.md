@@ -23,6 +23,6 @@ To offer Klarna as a payment method to your customers, it is first necessary to 
 
 For existing clients, please contact <verkoop@klarna.com> for more information about the process and any assistance that may be required.
 
-Alternatively, if you have any questions regarding your Klarna integration and the connection between Klarna and the MultiSafepay Control, please contact <integration@multisafepay.com>
+Alternatively, if you have any questions regarding your Klarna integration and the connection between Klarna and the MultiSafepay Control, email our Integration Team at <integration@multisafepay.com>
 
 Please note that all customer questions are handled by [Klarna](https://www.klarna.com/nl/klantenservice) for both new and existing clients.

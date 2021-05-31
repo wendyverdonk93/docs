@@ -21,7 +21,7 @@ The following is required to use the tokenization tool:
 * Use a plugin that supports the tokenization tool
 * Enable recurring payments.
 
-Submit your request to enable recurring payments at your account manager at <sales@multisafepay.com>
+Submit your request to enable recurring payments to your account manager at <sales@multisafepay.com>
 
 When recurring payments are enabled in your MultiSafepay Control, the token can be received and processed.
 

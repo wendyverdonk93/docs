@@ -245,4 +245,4 @@ PaymentComponent.getErrors()
 ```
 ### Contact
 
-If you have any questions regarding the process or face any issues, feel free to contact our Integration Team at <integration@multisafepay.com>
+If you have any questions regarding the process or face any issues, contact our Integration Team at <integration@multisafepay.com>

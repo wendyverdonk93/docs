@@ -21,6 +21,6 @@ Please follow these steps to refund a Dotpay transaction:
 
 * The transaction are order statuses are now _initialized_. As long as the transaction and order statuses are marked as _initialized_, the refund can be cancelled. When the transaction status is marked as _completed_, the refund is processed correctly. The customer will receive the refund to the bank account number in which the transaction was originally paid to, within the next business day
 
-In the event of a failed Dotpay refund, please contact our support team at <support@multisafepay.com> to assist you.
+In the event of a failed Dotpay refund, please email our Support Team at <support@multisafepay.com> to assist you.
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient._

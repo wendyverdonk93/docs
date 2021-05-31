@@ -9,7 +9,7 @@ aliases: [/payment-methods/betaalplan/activate-betaalplan/]
 ### Activate
 >_Please check your eligibility with your MultiSafepay account manager before applying for this payment method._
 
-In order to activate Betaal per Maand, please contact <sales@multisafepay.com>
+To activate Betaal per Maand, email our Sales Team at <sales@multisafepay.com>
 
 #### Qualification criteria of Betaal per Maand and MultiSafepay
 

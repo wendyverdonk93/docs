@@ -25,7 +25,7 @@ Removing the layer of security provided by 3D Secure increases the risk of fraud
 A different fee applies to non-3D Secure transactions. We may also charge a fee for implementing Dynamic 3D Secure. 
 
 ## Applying for Dynamic 3D Secure
-To apply to use Dynamic 3D Secure, email sales@multisafepay.com
+To apply to use Dynamic 3D Secure, email <sales@multisafepay.com>
 
 You must:
 

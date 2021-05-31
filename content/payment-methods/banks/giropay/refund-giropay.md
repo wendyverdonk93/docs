@@ -23,4 +23,4 @@ The transaction status is now _initialized_. As long as the transaction status i
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-In the event of a failed Giropay refund, please contact our support team at <support@multisafepay.com> to assist you.
+In the event of a failed Giropay refund, please email our Support Team at <support@multisafepay.com> to assist you.
