@@ -1,5 +1,5 @@
 ---
-title: 'API'
+title: 'API Reference'
 tags: 'hidden'
 meta_title: "API - MultiSafepay Docs"
 meta_description: "MultiSafepay API documentation page. Easily integrate MultiSafepay payment solutions into your webshop"
