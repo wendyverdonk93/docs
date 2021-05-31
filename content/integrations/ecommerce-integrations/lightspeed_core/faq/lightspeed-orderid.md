@@ -1,7 +1,7 @@
 ---
 title: "How do I synchronise a generated payment link with Lightspeed?"
 meta_title: "Lightspeed plugin core synchronise generated payment link - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: [/integrations/lightspeed/faq/lightspeed-orderid/]
 ---

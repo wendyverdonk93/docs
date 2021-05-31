@@ -2,7 +2,7 @@
 title : "Integrating multiple payment methods"
 breadcrumb_title : "Integrating multiple payment methods"
 meta_title: "Payment Components - Integrating multiple payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 --- 
