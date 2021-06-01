@@ -1,7 +1,7 @@
 ---
-title: "Advanced Sales and Conversion Reports"
-weight: 62
-meta_title: "Advanced Sales and Conversion Reports - MultiSafepay Docs"
+title: "Advanced reporting"
+weight: 50
+meta_title: "Reports - Advanced reporting - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
 aliases:
