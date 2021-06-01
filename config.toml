@@ -108,7 +108,7 @@ name = "Shell"
     weight = 40
 
 [[menu.main]]
-    name = "API Reference"
+    name = "API"
     url  = "/api/"
     pre = "fa fa-code fa-lg"
     weight = 20
