@@ -21,5 +21,5 @@ Please follow these steps to refund a Bancontact QR transaction:
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-If a Bancontact QR refund fails, please contact our Support Team at <support@multisafepay.com> to assist you.
+If a Bancontact QR refund fails, please email our Support Team at <support@multisafepay.com>
 

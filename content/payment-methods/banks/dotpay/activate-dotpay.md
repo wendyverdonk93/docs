@@ -7,6 +7,6 @@ read_more: '.'
 aliases: [/payment-methods/dotpay/activate-dotpay/]
 ---
 ## Activate
-Dotpay is an additional payment method. Therefore, an application is required. Submit your request by contacting one of our account managers at <sales@multisafepay.com>
+Dotpay is an additional payment method. Therefore, an application is required. Email your request to one of our account managers at <sales@multisafepay.com>
 
 >_Before applying to enable Dotpay, please check with your account manager at MultiSafepay if you are eligible for this payment method._

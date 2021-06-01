@@ -25,4 +25,4 @@ aliases:
 3. Enter your API key. {{% account_info %}} The other fields can be filled according to your own wishes.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>

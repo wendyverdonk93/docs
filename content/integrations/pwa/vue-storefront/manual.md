@@ -11,5 +11,5 @@ If you would like to install the MultiSafepay plugin to your Vue Storefront plat
 
 ### 2. Congratulations
 
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to email our Integration Team at <integration@multisafepay.com> 
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com> 
 

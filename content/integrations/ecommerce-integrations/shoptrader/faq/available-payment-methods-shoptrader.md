@@ -6,5 +6,5 @@ read_more: "."
 aliases: [/integrations/shoptrader/faq/available-payment-methods-shoptrader/]
 ---
 
-Please contact the Integration Team at <integration@multisafepay.com>
+Email the Integration Team at <integration@multisafepay.com>
 

@@ -6,4 +6,4 @@ read_more: "."
 aliases: [/integrations/shopfactory/faq/available-payment-methods-shopfactory/]
 ---
 
-Please contact the Integration Team at <integration@multisafepay.com>
+Email the Integration Team at <integration@multisafepay.com>

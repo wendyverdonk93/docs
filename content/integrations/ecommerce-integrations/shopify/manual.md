@@ -52,4 +52,4 @@ aliases:
 For this you can just activate the MultiSafepay payment method, which can be found under the Alternative payments.
 
 ### 2. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>

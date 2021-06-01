@@ -23,5 +23,5 @@ Please follow these steps to refund a Bancontact transaction:
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-In the event of a failed Bancontact refund, please email our Support Team at <support@multisafepay.com> to assist you.
+In the event of a failed Bancontact refund, email our Support Team at <support@multisafepay.com> to assist you.
 

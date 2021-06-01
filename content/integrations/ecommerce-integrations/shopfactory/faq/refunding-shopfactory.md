@@ -5,6 +5,6 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 aliases: [/integrations/shopfactory/faq/refunding-shopfactory/]
 ---
-Please contact the Integration Team at <integration@multisafepay.com>
+Email the Integration Team at <integration@multisafepay.com>
 
 You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
