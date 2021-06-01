@@ -54,6 +54,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "locale": "en_US",
       "first_name": null,
       "last_name": null,
+      "company_name": null,
       "address1": null,
       "address2": null,
       "house_number": null,
