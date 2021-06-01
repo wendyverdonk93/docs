@@ -16,7 +16,7 @@ When an uncleared Pay After Delivery is received, no action is required. Our sup
 
 The customer has 14 days to complete the payment transaction after receiving the invoice from MultiFactor.
 
-_If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
+_If you would like to inquire about the minimum and maximum order amounts for your website, email your account manager for more information._
 
 
 **Complete own funds**      

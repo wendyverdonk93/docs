@@ -36,7 +36,7 @@ This configuration field has been removed, because when creating an order in the
 This configuration field has been removed, because the cart will always be kept alive when a customer uses the back button on the payment page.
 
 {{< blue-notice >}}
-_Want one of these feature back? Please send us an e-mail at integration@multisafepay.com and we will look into the possibility of bringing the desired feature(s) back._
+_Want one of these features back? Email us at <integration@multisafepay.com> and we will look into the possibility of bringing the desired feature(s) back._
 {{< /blue-notice >}}
 
 ### 3. Changes in order status flow

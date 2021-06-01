@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 ---
 
-If you encounter issues or require assistance please contact [integration@multisafepay.com](mailto:integration@multisafepay.com)
+If you encounter issues or require assistance, email [integration@multisafepay.com](mailto:integration@multisafepay.com)

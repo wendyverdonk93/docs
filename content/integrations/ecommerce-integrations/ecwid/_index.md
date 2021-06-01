@@ -9,7 +9,7 @@ weight: 12
 title_short: "Ecwid"
 description_short: "Easily integrate MultiSafepay payment solutions into your Ecwid store."
 description: "Easily integrate MultiSafepay payment solutions into your Ecwid store.
-This app is managed by Ecwid, for support please contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new)"
+This app is managed by Ecwid, for support, email [Ecwid](https://support.ecwid.com/hc/en-us/requests/new)"
 layout: 'single'
 aliases: 
     - /hosted/ecwid

@@ -16,4 +16,4 @@ _Stores_ > _Configuration_ > _MultiSafepay_ > _Payment Methods_ > _Generic Gatew
 - It works for the most part as a regular redirect payment method.
 - Except for recurring payments, all the features like refunding and creating a backend order are supported.
 
-- If you have any questions regarding the integration of the generic gateway, please contact our integration team at integration@multisafepay.com
+- If you have any questions regarding the integration of the generic gateway, email our Integration Team at <integration@multisafepay.com>

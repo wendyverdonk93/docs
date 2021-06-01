@@ -19,4 +19,4 @@ In the order detail page of the ecommerce platform of Lightspeed, the correct _o
 _Example: https://yourdomain.webshop.com/admin/dmin/orders/994152471?offset=7
 In this case the _orderID_ is 94152471._
 
-If you have any further questions, please contact <info.nl@lightspeedhq.com>
+If you have any further questions, email <info.nl@lightspeedhq.com>

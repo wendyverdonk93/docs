@@ -61,7 +61,7 @@ Your name
 Finance
 
 __
-For questions about your order, please contact our customer service via 0208500500 or example@email.nl
+For questions about your order, call or email our customer service via 0208500500 or example@email.nl
 ```
  
 ### Create collection flow
@@ -100,7 +100,7 @@ Good to know about the payment method E-Invoicing:
 
 ### Delivery address
 
-MultiSafepay can enable support for different delivery and invoice addresses upon request. Please contact your account manager for more information.
+MultiSafepay can enable support for different delivery and invoice addresses upon request. email your account manager for more information.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.

@@ -38,7 +38,7 @@ aliases:
 6. Configure the _Options_ tab. 
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com>
+You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
 
 ### 5. Updates
 #### Update the plugin from plugin version higher or equals than 2.2.0 to 3.x.x

@@ -13,7 +13,7 @@ Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/gene
 For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
 
 {{< alert-notice >}}
-__Please note__: MultiSafepay no longer supports Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
+__Please note__: MultiSafepay no longer supports Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, email your account manager by email <sales@multisafepay.com>
 {{< /alert-notice >}}
 
 ## How it works

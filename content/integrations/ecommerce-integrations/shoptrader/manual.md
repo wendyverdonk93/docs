@@ -14,4 +14,4 @@ aliases:
 
 ### Installation & Configuration
 
-The plugin is developed and maintained by Shoptrader. If you have any technical queries about the plugin, please contact Shoptrader directly at <info@shoptrader.nl>
+The plugin is developed and maintained by Shoptrader. If you have any technical queries about the plugin, email Shoptrader directly at <info@shoptrader.nl>
