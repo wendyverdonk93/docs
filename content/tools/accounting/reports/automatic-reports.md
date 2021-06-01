@@ -4,6 +4,8 @@ weight: 61
 meta_title: "Automated Accountant Export - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/reports/automatic-reports
 ---
 
 ## Accountant Export
@@ -48,7 +50,7 @@ The following formats are available for automatically generating an export:
 * XLS
 * XLSX
 
-For information regarding the different exports, check out our [export page](https://docs.multisafepay.com/tools/reports/accountant-report-export)   
+For information regarding the different exports, check out our [export page](/tools/accounting/reports/accountant-report-export)   
 
 ## How to request an Automated Accountant Export
 

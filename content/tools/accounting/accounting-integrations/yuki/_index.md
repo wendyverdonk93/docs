@@ -38,11 +38,11 @@ Following the bank recognition rules, your files can be automatically reconcilia
 
 #### 1. _Automatic_
 
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](https://docs.multisafepay.com/tools/reports/automatic-reports)
+If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
 
 #### 2. _Manual_
 
-It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
+It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
 
 
 If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.

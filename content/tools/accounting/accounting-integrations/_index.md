@@ -1,11 +1,9 @@
 ---
-title: "Report validity"
-weight: 62
-meta_title: "Report validity - MultiSafepay Docs"
+title: 'Accounting integrations'
+weight: 20
+layout: 'Community'
+meta_title: 'Accounting - Accounting integrations - MultiSafepay Docs'
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
-read_more: '.'
+logo: '/svgs/AccountingBookkeeping.svg'
+short_description: 'Integrate with your accounting platform.'
 ---
-
-## Report validity
-
-The accountant export report can be exported until 2 years ago. It is not possible to generate reports beyond 2 years.

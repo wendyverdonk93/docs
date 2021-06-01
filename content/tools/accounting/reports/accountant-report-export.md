@@ -4,6 +4,8 @@ weight: 62
 meta_title: "Export a MultiSafepay Accountant Report - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/reports/accountant-report-export
 ---
 
 MultiSafepay offers the possibility to export Accountant reports in several formats: __CAMT053, CODA, CSV, MT940, XLS, XLSX.__

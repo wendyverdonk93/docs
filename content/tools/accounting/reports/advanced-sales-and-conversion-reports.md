@@ -4,6 +4,8 @@ weight: 62
 meta_title: "Advanced Sales and Conversion Reports - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+aliases:
+    - /tools/reports/advanced-sales-and-conversions-report
 ---
 
 As a merchant, it is very important and relevant to know who your customers are and where they are from. Also, what payment methods and devices do they use?
