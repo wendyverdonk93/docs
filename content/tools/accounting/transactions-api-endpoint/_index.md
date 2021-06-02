@@ -1,20 +1,23 @@
 ---
-title : "Transactions API endpoint"
+title : "Transactions endpoint"
+weight: 30
+meta_title: "Transactions API endpoint - MultiSafepay Docs"
 layout : "single"
-tags : "hidden"
+meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+short_description: 'Request your transactions through our API for programmatic integrations.'
+logo: '/svgs/API.svg'
+aliases: 
+    - /tools/transactions-api-endpoint
 ---
 
 ## Introduction
 
 The transactions API endpoint returns the data of transactions that are associated with your account. Using this endpoint, you can automate business operations and gain insights into your transactions.
-
 To learn more about its applications, we examine four common use cases:
 
-* [**General overview**](#create-a-general-overview): Create an overview of all transactions
-* [**Reconciliation**](#perform-reconciliation): Automate your bookkeeping by matching mutations
-* [**Refunds overview**](#create-a-refund-overview): Create an overview of your refunds 
-
-{{< br >}}
+* [General overview](#create-a-general-overview): Create an overview of all transactions
+* [Reconciliation](#perform-reconciliation): Automate your bookkeeping by matching mutations
+* [Refunds overview](#create-a-refund-overview): Create an overview of your refunds 
 
 ## Usage
 
@@ -68,8 +71,6 @@ The return type of requests to the transactions endpoint is `JSON` and transacti
 }
 ```
 
-{{< br >}}
-
 ### Parameters 
 
 You can use the following parameters to filter the returned transactions:
@@ -90,8 +91,6 @@ You can use the following parameters to filter the returned transactions:
 | before{{< br >}}`string` | Use the `before` cursor to request the previous page when results are [paginated](#pagination). {{< br >}} **Format:** cursor (e.g. `ZD1gIU-ZLPQ9AEX73Q`)
 
 **Please note:** values `site_id`, `financial_status`, `status`, `payment_method`, and `type` can be specified either as single values or as arrays containing multiple values.
-
-{{< br >}}
 
 ### Pagination
 A request to the transactions endpoint can return a lot of results. To make responses easier to handle, we paginate the results. The amount of transactions returned per call can be specified using the `limit` parameter. If the `limit` parameter is undefined, the value defaults to `100`.
@@ -115,8 +114,6 @@ To create a general overview of your transactions, no parameters are required. O
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
 ```
 
-{{< br >}}
-
 ### Perform reconciliation
 
 _I want to match mutations to justify the balance in my accounting or bookkeeping records_
@@ -135,8 +132,6 @@ _I want to match mutations to justify the balance in my accounting or bookkeepin
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
 ```
 
-{{< br >}}
-
 ### Create a refund overview
 
 _I want to see the refunds associated with customer returns_
@@ -154,8 +149,6 @@ Use parameters `created_from` and `created_until` to specify a date range of cre
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
 ```
-
-{{< br >}}
 
 ## Support
 
