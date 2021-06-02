@@ -28,7 +28,7 @@ __Banks__
 + [SOFORT Banking](/payment-methods/banks/sofort-banking)
 + [Trustly](/payment-methods/banks/trustly)
 
-__Billing suite__
+__Billing suites__
 
 + [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
