@@ -15,34 +15,31 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+Yuki can import reports in MT940 format.
 
-Yuki supports one export format:
+{{< /details >}}
 
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export, follow these steps:
 
-### Yuki Import MultiSafepay
+1. Log in to your Yuki domain ending in **@yukiworks.be**.
+2. Go to **Yuki Postbus** > **Yuki Upload**.
+3. Click **Upload**, and select the relevant MT940 file, or choose one of the other upload methods.
 
-If you would like to import a MultiSafepay Accountant Export, we would like to kindly ask you to follow these set of instructions:
+For more information, see Yuki - [Documenten uploaden](https://support.yuki.be/nl/support/solutions/articles/11000063683-documenten-uploaden).
 
-1. Log in to your Yuki domain which ends with @yukiworks.be and navigate to _Yuki Postbus_
-2. Navigate to _Yuki Upload_
-3. Click upload and choose the MT940 file you wish to use or choose one of the other methods.
+To automatically reconcile your files using bank recognition rules:
 
-Do you require further assistance? Read more about the [instructions](https://support.yuki.be/nl/support/solutions/articles/11000063683-documenten-uploaden) on the website of Yuki.
+1. Go to **Bank** > **Bank recognition rules**.
+2. Create a new rule. 
 
-Following the bank recognition rules, your files can be automatically reconciliated.
-
-1. Navigate to _Bank_ > _Bank recognition rules_
-2. Create a new rule. For more info visit this [page](https://support.yuki.be/nl/support/solutions/articles/11000071225-bankherkenningsregel-aanmaken)
-
-#### 1. _Automatic_
-
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
+For more information, see Yuki - [Bankherkenningsregel aanmaken](https://support.yuki.be/nl/support/solutions/articles/11000071225-bankherkenningsregel-aanmaken).
 
 
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+{{< /details >}}
+
+For any questions, email the Support Team at <support@multisafepay.com>
+

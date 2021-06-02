@@ -15,36 +15,31 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+Twinfield can import reports in MT940 format.
 
-Twinfield supports one export format:
+{{< /details >}}
 
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export, follow these steps:
 
-### Twinfield Import MultiSafepay
+1. Log in to your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7).
+2. Go to **Cash & banks** > **Cash & banks**.
+3. In the **Code** line, insert a new code, and give it a name, e.g. MSPAY.
+4. Click **Next**.
+5. Enter all required details:  
+    - Account number
+    - Account name
+    - IBAN
+    - BIC
+    - General ledger account
+6. Go to **Cash & banks**, and then select **Drag and drop bank statements**, or **Browse**.
+7. Upload the relevant MT940 file.
 
-If you would like to import a MultiSafepay Accountant Export, we would like to kindly ask you to follow these set of instructions:
+{{< /details >}}
 
-1. Log in to your [Twinfield account](https://login.twinfield.com/auth/authentication/login?signin=dd669054a9560c0a19496336ebf6cfb7) and select the _Cash & Banks_ section in the menu
-2. Select _Cash & Banks_ one more time
-3. Insert a new code in the _Code_ line, give it a e.g. name MSPAY and press Next
-4. Fill in the required details as Account number, Account name, IBAN, BIC, General ledger account
-5. Go back to the main _Cash & Banks_ section and select _Drag and drop bank statements_ or _Browse_
-6. Upload the MT940 statement generated in MultiSafepay Control
+For any questions, email the Support Team at <support@multisafepay.com>
 
-Twinfield also offers a [30 day trial](https://e.wolterskluwer.com/proefabonnement-aanvragen) where you will be able to make use of all bookkeeping functions.
-
-### Accountant Report Export
-
-MultiSafepay offers two methods to export Accountant reports:
-
-#### 1. _Automatic_
-
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
-
-
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+For a free 30-day trial including all accounting functions, see Twinfield - [Proef abonnement aanvragen](https://e.wolterskluwer.com/proefabonnement-aanvragen).

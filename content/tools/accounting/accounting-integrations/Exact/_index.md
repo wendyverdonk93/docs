@@ -15,40 +15,30 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+Exact can import reports in MT940 format.
 
-Exact supports one export format:
+{{< /details >}}
 
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export into [Exact Online](https://www.exact.com/software/exact-online) or [Exact Globe](https://www.exact.com/software/exact-globe), follow these steps:
 
-### Exact Import MultiSafepay
+1. Log in to your [Exact Online account](https://start.exactonline.nl/docs/Login.aspx?ReturnUrl=%2fdocs%2fMenuPortal.aspx#_ga=2.221698527.659438293.1581330144-1715983246.1581330144).
+2. Go to **Financial** > **Banking & cash** > **Statements** > **Import**.
+3. Click **Choose file**, and then select the relevant MT940 file.
+4. Click **Import**.
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to follow the set of instructions below:
+**Requirements**:
 
-1. Log in to your [Exact Online account](https://start.exactonline.nl/docs/Login.aspx?ReturnUrl=%2fdocs%2fMenuPortal.aspx#_ga=2.221698527.659438293.1581330144-1715983246.1581330144) and go to _Financial_ > _Banking & Cash_ > _Statements_ > _Import_
-2. Click _Choose File_ and select the MT940 file you want to upload
-3. _Click Import_
+- The order numbers in the Accountant export (e.g. 200160526) must also appear in the correct invoice fields in Exact.
+- The customer’s name and the order amounts in the Accountant export must match those in Exact.
+- Your Exact package must support MT940 format. Exact Basic / Standard package does not. At least Exact Advanced is required. 
+- Lightspeed users must make sure that order numbers appear in the correct field in Exact to match the MT940 format.
 
-[Exact Online](https://www.exact.com/software/exact-online) and [Exact Globe](https://www.exact.com/software/exact-globe) can both perfectly import and match our MT940 report if:
+{{< /details >}}
 
-* your accounting package supports the processing of MT940 files (bank statements)
-* the order numbering that appears in the exported accountant files (eg 200160526), also appears in the correct invoice fields in your accounting platform
-* the customer’s name and the order amounts that appear in the exported accountant files correspond to those in your accounting platform
+For any questions, email the Support Team at <support@multisafepay.com>
 
-__Please note__: _Exact Basic / Standard package does not support the MT940 import function, at least Exact Advanced version is required to import an MT940 report. Lightspeed users must require Lightspeed to perform an adjustment to make sure the order number appears in the correct field in Exact for it to be matched with our MT940._
-
-### Accountant Report Export
-
-MultiSafepay offers two methods to export Accountant reports:
-
-#### 1. _Automatic_
-
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
-
-
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+## Third-party integrations

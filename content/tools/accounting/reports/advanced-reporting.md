@@ -4,38 +4,48 @@ weight: 50
 meta_title: "Reports - Advanced reporting - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 read_more: '.'
+weight: 5
 aliases:
     - /tools/reports/advanced-sales-and-conversions-report
 ---
 
-As a merchant, it is very important and relevant to know who your customers are and where they are from. Also, what payment methods and devices do they use?
+Advanced reports include Sales reports and Conversion reports. They help you find out:
 
-## Sales Reports
+- Who your customers are
+- Where they are from
+- What payment methods they use
+- What devices they use
+- Your conversion rate per website
 
-With the Sales Reports you will have direct access in all data regarding your sales. You can see from which countries your customers are coming from, which devices they use and which payment methods they use.
+## Generating Advance reports
 
-* Per Country
-* Per Payment Method
-* Per Device
-* Per Website
-* Per Day
-* Per Status
+To generate a Sales or Conversion report, follow these steps:
 
-## Conversion reports
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+2. Go to **Reports** > **Advanced reporting**.
+3. Select the report type you want to export.
 
-With the Conversion Report you get great insights in your websites conversion rates. You can easily see what the conversion rates for each website are, but also for example the conversion rate, per device, per country and per payment method.
+{{< details title="View Sales report filters" >}}
 
-* Per Country
-* Per Payment Method
-* Per Device
-* Per Website
-* Per Day
+You can filter Sales reports by:
 
-## Advanced Reporting in MultiSafepay Control
+- Country
+- Payment method
+- Device
+- Website
+- Day
+- Transaction status
 
-Accessing the Advance Sales and Conversion Reports can simply be done by following these steps:
+{{< /details >}}
 
-1. Log in to [MultiSafepay Control](https://merchant.multisafepay.com)
-2. Navigate to the left hand side and select _Reports_
-3. Select _Advanced Reporting_
-4. Select the type of report you would like to export from the list provided
+ {{< details title="View Conversion report filters" >}}
+
+Conversion reports provide insight into your conversion rate per website. You can filter by:
+
+- Country
+- Payment method
+- Device
+- Website
+- Day
+
+{{< /details >}}

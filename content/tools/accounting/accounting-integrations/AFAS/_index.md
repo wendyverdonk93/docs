@@ -15,32 +15,22 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+AFAS can import reports in MT940 format.
 
-AFAS Software supports one export format:
+{{< /details >}}
 
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export, see AFAS - [Contact](https://www.afas.nl/contact).
 
-### AFAS Software Import MultiSafepay
+{{< /details >}}
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [AFAS Software](https://www.afas.nl/contact) will assist you directly in this.
+For any questions, email the Support Team at <support@multisafepay.com>
 
-### Accountant Report Export
+## Third-party integrations
 
-MultiSafepay offers two methods to export Accountant reports:
-
-
-#### 1. _Automatic_
-
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-An automated account export can also be executed using [Forque](https://www.forque.nl)
- 
-If you have any questions, we kindly ask you to contact Forque directly.
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
+To generate automated accounting reports, see Forque - [AFAS](https://www.forque.nl/afas-consultancy).
 
 
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.

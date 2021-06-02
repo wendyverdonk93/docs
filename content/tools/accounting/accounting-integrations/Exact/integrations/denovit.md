@@ -1,20 +1,18 @@
 ---
-title: "Exact Pay by link Denovit"
-weight: 20
-meta_title: "Exact Payment Link by Denovit - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+title: "Denovit"
+meta_title: "Exact integrations - Denovit - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Denovit.svg'
 layout: 'single'
-title_short: "Exact Pay by link Denovit"
+title_short: "Denovit"
 read_more: "."
-short_description: "Read about how you can generate a MultiSafepay payment link for your Exact invoices"
-description_short: "Generate a MultiSafepay payment link for your Exact invoices by using Denovit platform."
+short_description: "Generating MultiSafepay payment links for Exact invoices"
+description_short: "Generating MultiSafepay payment links for Exact invoices"
 extra_button:
     url: "https://www.denovit.nl/Exact-PaymentLink"
     text: "Go to site"
     type: "primary"
 ---
-
 
 To automatically insert MultiSafepay payment links into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink), follow these steps:
 

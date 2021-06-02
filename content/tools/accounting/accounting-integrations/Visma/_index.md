@@ -15,30 +15,16 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+Visma can import reports in MT940 and CAMT053 format.
 
-Visma supports two export formats:
+{{< /details >}}
 
-* CAMT053
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export, see Visma - [Contact](https://nl.visma.com/accountview-support/contact).
 
-### Visma Import MultiSafepay
+{{< /details >}}
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [Visma](https://nl.visma.com/accountview-support/contact) will assist you directly in this.
-
-### Accountant Report Export
-
-MultiSafepay offers two methods to export Accountant reports:
-
-#### 1. _Automatic_
-
-
-If you would like for reports to be automatically generated, please visit our documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
-
-
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+For any questions, email the Support Team at <support@multisafepay.com>

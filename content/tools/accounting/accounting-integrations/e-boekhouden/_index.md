@@ -15,37 +15,20 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+e-Boekhouden can import reports in MT940 or CSV format.
 
-e-Boekhouden supports two specific export formats. These are:
+{{< /details >}}
 
-* CSV
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export, see e-Boekhouden - [Contact](https://www.e-boekhouden.nl/contact).
 
-### e-Boekhouden Import MultiSafepay
+{{< /details >}}
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website. [e-Boekhouden](https://www.e-boekhouden.nl/contact) will assist you directly in this.
+For any questions, email the Support Team at <support@multisafepay.com>
 
-### Accountant Report Export
+## Third-party integrations
 
-MultiSafepay offers two methods to export Accountant reports:
-
-#### 1. _Automatic_
-
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our dedicated documentation will assist you in this.
-
-
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
-
-#### e-Boekhouden Pay by link
-
-It is possible to insert a payment link created in MultiSafepay Control into the invoices of e-Boekhouden. This way, your customers can pay the invoice directly.
-
-* [How to create a payment link](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
-
-* [How to insert it in the invoice](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1)
+To insert [payment links generated in MultiSafepay Control](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link) into e-Boekhouden invoices to let customers pay invoices directly, see e-Boekhouden - [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).

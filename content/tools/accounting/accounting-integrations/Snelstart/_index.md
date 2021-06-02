@@ -16,28 +16,18 @@ extra_button:
     type: "primary"
 ---
 
-### Supported export formats
+{{< details title="Supported export formats" >}}  
+&nbsp;  
+Snelstart can import reports in MT940 format.
 
-Snelstart supports one specific export format. This is:
+{{< /details >}}
 
-* MT940
+{{< details title="Import instructions" >}}
+&nbsp;  
+To import a MultiSafepay Accountant export, see Snelstart - [Klantenservice](https://www.snelstart.nl/klantenservice).
 
-### Snelstart Import MultiSafepay
+{{< /details >}}
 
-If you would like to import a MultiSafepay accountant export, we would like to kindly ask you to visit our partner's website [Snelstart](https://www.snelstart.nl/klantenservice) will assist you directly in this.
+For any questions, email the Support Team at <support@multisafepay.com>
 
-### Accountant Report Export
-
-MultiSafepay offers two methods to export Accountant reports:
-
-#### 1. _Automatic_
-
-If you would like for reports to be automatically generated, please visit our dedicated documentation page regarding the [Automated Accountant Export](/tools/accounting/reports/automatic-reports)
-
-
-#### 2. _Manual_
-
-It is also possible to [generate an Accountant Export Report](/tools/accounting/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our dedicated documentation will assist you in this.
-
-
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+## Third-party integrations
