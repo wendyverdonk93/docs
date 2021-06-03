@@ -8,4 +8,4 @@ aliases:
 ---
 Customers can request MultiSafepay to delete their data in accordance with the right to Privacy by Design. 
 
-You can email your request to delete data to <dataprotection@multisafepay.com>
+Email requests to delete data to the data protection officer at <dataprotection@multisafepay.com>
