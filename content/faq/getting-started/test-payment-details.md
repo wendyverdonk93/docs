@@ -171,7 +171,7 @@ Sample statuses:
 
 ### AfterPay
 
-To enable AfterPay in your MultiSafepay Test Control, email our Integration Team at <integration@multisafepay.com>
+To enable AfterPay in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com>
 
 ### Betaal per Maand
 
