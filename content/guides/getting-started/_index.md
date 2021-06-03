@@ -71,7 +71,7 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 * [Reservation Management](/integrations/reservation-management): allow your customers to make reservations and pay online
 * [Credit & Subscription Management](/integrations/credit-and-subscription-management): manage your subscriptions and collect your subscription fees
 
-To learn more about what integration method best suits your business, email our Integration Team at <integration@multisafepay.com>
+For help determining the best integration method for your business, email the Integration Team at <integration@multisafepay.com>
 
 ## Step 4: Go live
 When you are ready, [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
