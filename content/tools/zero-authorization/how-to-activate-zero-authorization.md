@@ -11,4 +11,4 @@ Email requests to activate Zero Authorization in your MultiSafepay Control to th
 
 After our screening department has enabled this feature for the website you selected, it is important to view the [API documentation] regarding Zero Authorization. This is not incorporated in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but it can be added through customization from your side.
 
-Do you have any questions about this process? Contact our Integration Team at <integration@multisafepay.com>
+For any questions, email the Integration Team at <integration@multisafepay.com>
