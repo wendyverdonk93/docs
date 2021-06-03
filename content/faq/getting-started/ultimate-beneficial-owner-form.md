@@ -51,4 +51,4 @@ If the enterprise consists of a number of (intermediate) holding companies, then
 
 No. Under the law, enterprises are not required to have a UBO. For example, if an enterprise has five owners with an equal distribution of capital and control, none of them owns 25% or more of the enterprise.
 
-For more information, contact your account manager or email our Risk Team at [risk@multisafepay.com](mailto:risk@multisafepay.com?utm_source=email&utm_medium=docs-website&utm_campaign=guidance-notes-ultimate-beneficial-owner-form%2F).
+For more information, contact your account manager or email the Risk Team at [risk@multisafepay.com](mailto:risk@multisafepay.com?utm_source=email&utm_medium=docs-website&utm_campaign=guidance-notes-ultimate-beneficial-owner-form%2F)
