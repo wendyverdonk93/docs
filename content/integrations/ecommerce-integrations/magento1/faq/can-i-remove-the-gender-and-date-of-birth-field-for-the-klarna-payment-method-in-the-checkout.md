@@ -1,7 +1,7 @@
 ---
 title : "Can I remove the Klarna fields \"Gender\" and \"Date of birth\" in my checkout?"
 meta_title: "Magento 1 plugin remove Klarna fields - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: [/integrations/magento1/faq/can-i-remove-the-gender-and-date-of-birth-field-for-the-klarna-payment-method-in-the-checkout/]
 ---

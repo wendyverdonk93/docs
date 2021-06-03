@@ -3,7 +3,7 @@ title : "MultiSafepay plugin for Logic4"
 meta_title: "Logic4 plugin integration - MultiSafepay Docs"
 manual: "."
 faq: "."
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: "/logo/Integrations/Logic_4.svg"
 weight: 28
 title_short: "Logic4"

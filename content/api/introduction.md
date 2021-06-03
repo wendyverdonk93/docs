@@ -1,18 +1,18 @@
 ---
 weight: 10
-meta_title: "API - Introduction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_title: "API Reference - Introduction - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 {{< /code-block >}}
 
 {{< description >}}
-# API
+# API Reference
 <hr class="separator">
 
-Welcome to the MultiSafepay API documentation (``JSON`` gateway).
+Welcome to the MultiSafepay API Reference (``JSON`` gateway).
 
-### How to navigate the API documentation
+### How to navigate the API Reference
 
 The **left column** contains an overview of our ``JSON`` API.
 By clicking on a topic, you can find specific information about the specific API request.

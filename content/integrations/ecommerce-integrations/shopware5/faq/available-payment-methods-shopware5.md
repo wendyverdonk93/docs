@@ -1,7 +1,7 @@
 ---
 title : "Available payment methods in Shopware 5"
 meta_title: "Shopware 5 plugin available payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
 aliases: [/integrations/shopware5/faq/available-payment-methods-shopware5/]
@@ -36,7 +36,7 @@ __Banks__
 
 __Billing suite__
 
-+ [Afterpay](/payment-methods/billing-suite/afterpay)
++ [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [in3](/payment-methods/billing-suite/in3/)

@@ -2,7 +2,7 @@
 title : "Integrating a single payment gateway"
 breadcrumb_title : "Integrating a single payment gateway"
 meta_title: "Payment Components - Integrating a single payment gateway - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 --- 
@@ -63,7 +63,7 @@ const orderData = {
 | currency| Currency of the order. Format: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. **Required**. |
 | amount| Value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
 | customer.country| Customer's country code. Used to check the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
-|customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Optional**. |
+|customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
 
 {{< /details >}}
@@ -108,7 +108,7 @@ Replace the `<GATEWAY>` placeholder with the relevant payment gateway code.
 |Request to Pay|`DBRTP`|
 |Trustly|`TRUSTLY`|
 |PayPal|`PAYPAL`|
-|Afterpay|`AFTERPAY`|
+|AfterPay|`AFTERPAY`|
 |E-invoicing|`EINVOICE`|
 |in3|`IN3`|
 |Pay After Delivery|`PAYAFTER`|
@@ -189,7 +189,6 @@ curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
 **3.** Call the `PaymentComponent.init()` method using the following arguments:
 ```
 PaymentComponent.init('redirection', {
-    container: '#MSPPayment',
     order: response.data
 });
 ```

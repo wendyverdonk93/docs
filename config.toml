@@ -66,6 +66,12 @@ name = "Shell"
     weight = 60
 
 [[menu.main]]
+    name = "Payment Components"
+    url  = "/integrations/payment-components"
+    parent = "integrations"
+    weight = 45
+
+[[menu.main]]
     name = "Community"
     url  = "/integrations/community"
     parent = "integrations"

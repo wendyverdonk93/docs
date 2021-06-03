@@ -2,7 +2,7 @@
 title: "How it works"
 weight: 21
 meta_title: "How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/gift-cards/how-do-gift-cards-work/]
 ---
@@ -53,4 +53,4 @@ Some rules may apply to certain payment methods. For gift cards, the following r
 
 * Payments done by means of gift cards are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-* As a rule of thumb, gift cards cannot be used for (partly) paying for an order placed via a post-payment method. Post-payment methods do not allow the use of a gift card by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (e.g. Klarna, Afterpay, etc). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification of post-payment methods) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
+* As a rule of thumb, gift cards cannot be used for (partly) paying for an order placed via a post-payment method. Post-payment methods do not allow the use of a gift card by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (e.g. Klarna, AfterPay, etc). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification of post-payment methods) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
