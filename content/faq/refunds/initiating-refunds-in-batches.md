@@ -17,4 +17,4 @@ The script is written in PHP, so make sure you have a PHP interpreter installed.
 
 For instructions on using the script and to download, see MultiSafepay GitHub - [Refund script](https://github.com/MultiSafepay/refund-script).
 
-For questions, email our Integration Team at <integration@multisafepay.com>
+For questions, email the Integration Team at <integration@multisafepay.com>
