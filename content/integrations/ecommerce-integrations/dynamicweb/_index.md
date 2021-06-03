@@ -9,7 +9,7 @@ title_short: "Dynamicweb"
 description_short: "Easily integrate MultiSafepay payment solutions into your Dynamicweb platform with the free app."
 description: "Easily integrate MultiSafepay payment solutions into your Dynamicweb platform with the free app.
 This app is managed by our partner Dynamicweb. For support, see Dynamicweb – [Contact us](https://www.dynamicweb.com/about/contact-us). 
-If you would like to integrate the MultiSafepay app for Dynamicweb, email our Integration Team at <integration@multisafepay.com>"
+To integrate the MultiSafepay app for Dynamicweb, email the Integration Team at <integration@multisafepay.com>
 layout: 'single'
 aliases: 
     - /hosted/dynamicweb
