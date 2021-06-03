@@ -31,7 +31,7 @@ With a test account:
 * You can explore new features
 * No costs are associated with transactions
 
-If you run into issues during this process, email our Customer Operations Team at <support@multisafepay.com>
+For support, email the Customer Operations Team at <support@multisafepay.com>
 
 ## Step 2: Set up your MultiSafepay Control
 After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your [API key](/faq/general/multisafepay-glossary/#api-key), monitor transactions, configure payouts, generate reports, and more. 
@@ -85,4 +85,3 @@ If you need help creating a live account, email our Sales Team at <sales@multisa
 
 ## Step 5: Next steps
 Now that you're successfully processing payments, it's time to get the most out of our products. Start using our [Tools](https://docs.multisafepay.com/tools) to boost conversion, improve security, gain insights, and more.  
-
