@@ -5,4 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 layout: "faqdetail"
 read_more: "."
 ---
-If you are using Commerce version 2, email our Integration Team at <integration@multisafepay.com>  
+If you use Craft Commerce version 2, email the Integration Team at <integration@multisafepay.com>  
