@@ -9,4 +9,4 @@ aliases:
 
 MultiSafepay has a dedicated Data protection officer, who is registered with the Dutch Data Protection Authority (AP). 
 
-For questions, email our Data protection officer at <dataprotection@multisafepay.com>
+For questions, email the data protection officer at <dataprotection@multisafepay.com>
