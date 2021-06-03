@@ -12,7 +12,7 @@ alisases:
 ## Declined
 Credit card payments may receive the status **Declined** for several reasons. Only the customer can contact their credit card issuer to find out why.
 
-For questions about credit card payments and payment statuses, email our Support Team at <support@multisafepay.com>
+For questions about credit card payments and payment statuses, email the Support Team at <support@multisafepay.com>
 
 In most cases, merchants can see the reason the payment was declined in the declined transaction status in your MultiSafepay Control. 
 
