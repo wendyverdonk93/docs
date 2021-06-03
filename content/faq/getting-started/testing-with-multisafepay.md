@@ -57,4 +57,4 @@ When the client server has updated the transaction or order status, you can veri
 
 ## Refunds
 
-You can process refunds in your test account, but this is disabled by default. To enable refunds in your test account, email our Integration Team at <integration@multisafepay.com>
+You can process refunds in your test account, but this is disabled by default. To enable refunds in your test account, email the Integration Team at <integration@multisafepay.com>
