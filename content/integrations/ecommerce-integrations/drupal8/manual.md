@@ -44,4 +44,4 @@ This page contains the configuration options for all payment methods supported b
 Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
