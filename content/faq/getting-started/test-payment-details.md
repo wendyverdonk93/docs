@@ -134,7 +134,7 @@ Sample statuses:
 
 ### Recurring payments
 
-To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay Test Control, email our Integration Team at <integration@multisafepay.com> 
+To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com> 
 
 ### SEPA Direct Debit
 
