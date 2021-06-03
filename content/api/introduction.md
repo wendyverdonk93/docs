@@ -30,7 +30,8 @@ The API also offers advanced operations to enable you to use [split payments](#s
 
 We encourage you to study this API and start implementing your custom integration against our [``TEST`` environment](#environments)
 
-For any questions, email our Integration Team at <integration@multisafepay.com>
+For any questions, email the Integration Team at <integration@multisafepay.com>
+
 
 ### Postman
 
