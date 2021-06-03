@@ -47,4 +47,4 @@ If you would like for reports to be automatically generated, please visit our do
 It is also possible to [generate an Accountant Export Report](https://docs.multisafepay.com/tools/reports/accountant-report-export) in your [MultiSafepay Control](https://merchant.multisafepay.com) manually. Our documentation will assist you in this.
 
 
-If you still have inquiries, email our Support Team <support@multisafepay.com>
+For any questions, email the Support Team <support@multisafepay.com>
