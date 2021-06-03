@@ -14,6 +14,5 @@ For the icons of all payment methods in your MultiSafepay Control, see MultiSafe
 
 For the logos and icons of all MultiSafepay payment methods, see [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-For help with finding logos and icons, email our Integration Team at <integration@multisafepay.com>
-
+For help with finding logos and icons, email the Integration Team at <integration@multisafepay.com>
 
