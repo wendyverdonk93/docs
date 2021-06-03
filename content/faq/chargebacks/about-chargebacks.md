@@ -76,7 +76,7 @@ If the customer does not agree with the outcome of the dispute, the process of t
 
 You will need to present strong evidence of the transaction, that has not been presented before.
 
-Contact us at <retrieval@multisafepay.com> if you want to proceed and we will assist to the best of our abilities.
+To proceed, email <retrieval@multisafepay.com>
 
 ### Why can a cardholder initiate a chargeback?
 
