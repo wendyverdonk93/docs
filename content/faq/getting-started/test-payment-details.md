@@ -387,4 +387,4 @@ Test coupon codes:
 
 You cannot test Paysafecard.
 
-For any questions, email our Integration Team at <integration@multisafepay.com>
+For any questions, email the Integration Team at <integration@multisafepay.com>
