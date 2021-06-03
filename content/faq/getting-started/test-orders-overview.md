@@ -8,7 +8,7 @@ read_more: "."
 
 ### Fill your test account with test orders
 
-Email our Integration Team at <integration@multisafepay.com> and specify the amount of orders you would like to view. These will all be listed as __test orders__.  At this moment we can provide you with the following sample payment methods:
+Send the number of orders you want to view by email to the Integration Team at <integration@multisafepay.com>  They will all be listed as **test orders**.  We provide the following sample payment methods:
 
 * iDEAL (All scenarios are possible)
 * Sofort (All scenarios are possible)
