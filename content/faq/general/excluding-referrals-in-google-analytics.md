@@ -92,4 +92,4 @@ In your code, the parameter should look like this: ```$this→_redirect('checkou
 
 Make sure that you do this for all the links from the payment gateway to your website!
 
-For more information, contact our Integration Team at <integration@multisafepay.com>
+For more information, email the Integration Team at <integration@multisafepay.com>
