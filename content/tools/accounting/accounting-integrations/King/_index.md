@@ -15,7 +15,9 @@ extra_button:
     type: "primary"
 ---
 
-{{< details title="Supported export formats" >}}  
+For generating MultiSafepay accounting reports, see [Accountant export](/tools/accounting/reports/accountant-export/).
+
+{{< details title="Supported import formats" >}}  
 &nbsp;  
 King Business Software can import reports in MT940 format.
 

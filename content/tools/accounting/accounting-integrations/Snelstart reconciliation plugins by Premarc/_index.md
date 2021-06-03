@@ -14,20 +14,13 @@ extra_button:
     text: "Go to site"
     type: "primary"
 ---
-### Supported plugins
 
-Premarc has built some important reconciliation plugins for MultiSafepay merchants that use Snelstart in combination with several ecommerce platforms. Read more below per platform at our partner Premarc.
+Premarc has developed plugins to reconcile transactions in Snelstart with the following ecommerce platforms. For more information, see Premarc:
 
+- [Shopify](https://www.snelkoppeling.eu/shopify)
+- [Magento](https://www.snelkoppeling.eu/magento)
+- [Woocommerce](https://www.snelkoppeling.eu/woocommerce)
+- [CCVshop](https://www.snelkoppeling.eu/ccvshop)
+- [Lightspeed](https://www.snelkoppeling.eu/lightspeed)
 
-[Shopify](https://www.snelkoppeling.eu/shopify)
-
-[Magento](https://www.snelkoppeling.eu/magento)
-
-[Woocommerce](https://www.snelkoppeling.eu/woocommerce)
-
-[CCVshop](https://www.snelkoppeling.eu/ccvshop)
-
-[Lightspeed](https://www.snelkoppeling.eu/lightspeed)
-
-
-If you still have inquiries, do not hesitate to contact us at <support@multisafepay.com> and we will happily answer any questions.
+For any questions, email the Support Team at <support@multisafepay.com>
