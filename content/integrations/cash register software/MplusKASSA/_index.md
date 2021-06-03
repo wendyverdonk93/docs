@@ -19,4 +19,4 @@ extra_button:
 
 MplusKASSA offers order management software for restaurants, cafes, hotels and establishments alike.
 
-Recently, MplusKASSA has integrated their order management system with MultiSafepay. If you would like to find out more about the integration process, email MplusKASSA directly at <info@mpluskassa.nl>
+MplusKASSA's order management system can integrate with MultiSafepay. For more information, email MplusKASSA at <info@mpluskassa.nl>
