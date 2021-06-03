@@ -14,7 +14,7 @@ To avoid this, some of our plugins use generic gateways which include a flexible
 
 Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/faq/general/multisafepay-glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
 
-For more information about integrating open-loop and closed-loop gift cards in our platform, email our Integration Team at <integration@multisafepay.com>
+For more information about integrating open-loop and closed-loop gift cards in our platform, email the Integration Team at <integration@multisafepay.com>
 
 ### Requirements
 
@@ -31,4 +31,3 @@ For more information about a specific plugin, see:
 - [Shopware 5](/integrations/ecommerce-integrations/shopware5/faq/generic-gateways/)
 - [Shopware 6](/integrations/ecommerce-integrations/shopware6/faq/generic-gateways/)
 - [WooCommerce](/integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/)
-
