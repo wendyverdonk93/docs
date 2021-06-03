@@ -57,7 +57,7 @@ Some products and/or services cannot therefore be accepted or can only be sold i
 
 ## High-risk products/services
 
-Under VISA and Mastercard's High Risk program that concerns high-risk products and services, you will be subject to a 500 USD fee per code that represents a number of business activities.
+Under VISA and Mastercard's High Risk program that concerns high-risk products and services, you will be subject to a 500 USD fee if you sell any of the products listed below. This will be collected as a yearly recurring payment. However, if you sell these products and use both VISA and Mastercard as payment methods, a yearly fee of 1000 USD will be collected.
 
 An overview of VISA and Mastercard's most recent release of products or services that are considered high-risk can be viewed in the table below:
 
