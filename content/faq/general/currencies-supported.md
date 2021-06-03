@@ -67,7 +67,7 @@ MultiSafepay can accept currencies for Visa, MasterCard, and Maestro not in the 
 
 ## Adding currencies to your MultiSafepay Balance
 
-To enable new currencies in your MultiSafepay Control, email our Support Team at <support@multisafepay.com>
+To enable new currencies in your MultiSafepay Control, email the Support Team at <support@multisafepay.com>
 
 ## Payout currency options
 
