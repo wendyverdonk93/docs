@@ -27,7 +27,7 @@ In this manual we describe the SFTP upload method.
 {{% introduction_plugin "Magento 1" %}}
 
 {{< blue-notice >}}
-MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, email our Integration Team at <integration@multisafepay.com>
+MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
 {{< /blue-notice >}}
 
 ### 1. Requirements
