@@ -7,8 +7,7 @@ logo: '/svgs/Premarc.svg'
 layout: 'single'
 read_more: "."
 title_short: "Snelstart reconciliation by Premarc"
-short_description: "Premarc reconciliation plugins for Snelstart"
-description_short: "Premarc reconciliation plugins for Snelstart"
+short_description: "Automatically reconcile SnelStart with your ecommerce integration"
 extra_button:
     url: "https://www.snelkoppeling.eu/productoverzicht/webwinkelkoppelingen"
     text: "Go to site"

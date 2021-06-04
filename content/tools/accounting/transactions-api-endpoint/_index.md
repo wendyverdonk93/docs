@@ -10,9 +10,8 @@ aliases:
     - /tools/transactions-api-endpoint
 ---
 
-## Introduction
+The transactions API endpoint returns the data of transactions under your account. Using this endpoint, you can automate business operations and gain insights into your transactions.
 
-The transactions API endpoint returns the data of transactions that are associated with your account. Using this endpoint, you can automate business operations and gain insights into your transactions.
 To learn more about its applications, we examine four common use cases:
 
 * [General overview](#create-a-general-overview): Create an overview of all transactions
@@ -30,48 +29,17 @@ To access the transactions API endpoint, use the following URLs:
 `https://api.multisafepay.com/v1/json/transactions`
 
 
-The transactions API endpoint supports the `GET` HTTP method. Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
+Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
 
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" -H "Content-Type: application/json" -H "Authorization: Bearer <your-api-key>"
 ```
 
-_Note: Make sure to use your test API key when making a request to our test API_
-
-
-### Functionality
-
-
-This API endpoint has no required parameters. Calls to the transactions endpoint retrieve an array of all transactions under your account. Use the parameters to filter your requested transactions to include only those relevant to your needs. 
-
-The return type of requests to the transactions endpoint is `JSON` and transactions are formatted as follows:
-
-```
-{
-  "amount": 0,
-  "completed": "string",
-  "costs": [
-    null
-  ],
-  "created": "string",
-  "currency": "string",
-  "debit_credit": "D_C",
-  "description": "string",
-  "financial_status": "string",
-  "invoice_id": "string",
-  "order_id": "string",
-  "payment_method": "string",
-  "site_id": 0,
-  "status": "string",
-  "transaction_id": 0,
-  "type": "string",
-  "var1": "string",
-  "var2": "string",
-  "var3": "string"
-}
-```
+**Note:** Use your test API key when making a request to our test API.
 
 ### Parameters 
+
+This API endpoint has no required parameters. Calls to the transactions endpoint retrieve an array of all transactions under your account.
 
 You can use the following parameters to filter the returned transactions:
 
@@ -100,6 +68,35 @@ To access the next page of a response, use the `after` cursor from the `pager` o
 To access the previous page, use the `before` cursor in the `pager` object.
 
 _Please note that results are sorted from new to old. This means that the `after` cursor points to older transactions._
+
+### Response
+
+The returned transactions are `JSON` encoded, in the following structure:
+
+```
+{
+  "amount": 0,
+  "completed": "string",
+  "costs": [
+    null
+  ],
+  "created": "string",
+  "currency": "string",
+  "debit_credit": "D_C",
+  "description": "string",
+  "financial_status": "string",
+  "invoice_id": "string",
+  "order_id": "string",
+  "payment_method": "string",
+  "site_id": 0,
+  "status": "string",
+  "transaction_id": 0,
+  "type": "string",
+  "var1": "string",
+  "var2": "string",
+  "var3": "string"
+}
+```
 
 ## Use cases
 

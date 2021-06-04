@@ -7,7 +7,7 @@ logo: '/svgs/D4D.svg'
 layout: 'single'
 title_short: "dealer4dealer"
 read_more: "."
-short_description: "Information about dealer4dealer's new app Reconciliation 2.0"
+short_description: "Automatically reconcile MultiSafepay payments with sales in Exact"
 description_short: "Information about dealer4dealer's new app Reconciliation 2.0."
 extra_button:
     url: "https://dealer4dealer.nl/afletteren-2-0-exact-online-multisafepay/" 

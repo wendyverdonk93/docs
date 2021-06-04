@@ -4,6 +4,7 @@ weight: 20
 meta_title: "Snelstart - MultiSafepay Docs"
 meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
 logo: '/svgs/Snelstart.svg'
+buttons_under_text: "Third-party integrations"
 layout: 'single'
 read_more: "."
 title_short: "Snelstart"
@@ -31,5 +32,3 @@ To import a MultiSafepay Accountant export, see Snelstart - [Klantenservice](htt
 {{< /details >}}
 
 For any questions, email the Support Team at <support@multisafepay.com>
-
-## Third-party integrations

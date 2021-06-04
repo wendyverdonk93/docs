@@ -6,8 +6,7 @@ logo: '/svgs/Denovit.svg'
 layout: 'single'
 title_short: "Denovit"
 read_more: "."
-short_description: "Generating MultiSafepay payment links for Exact invoices"
-description_short: "Generating MultiSafepay payment links for Exact invoices"
+short_description: "Automatically add MultiSafepay payment links to Exact invoices"
 extra_button:
     url: "https://www.denovit.nl/Exact-PaymentLink"
     text: "Go to site"
