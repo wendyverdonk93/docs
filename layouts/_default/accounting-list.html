@@ -8,7 +8,7 @@
   </div>
   <section>
     <div id="accordion" class="row">
-      {{ range.Pages.ByWeight }}
+      {{ range.Sections.ByWeight }}
       <div class="col-lg-6 pb-4">
         <div class="block-item py-3 px-4">
           <a class="row no-decoration" id="heading-{{ .Title | anchorize}}" href="{{ .Permalink }}">
