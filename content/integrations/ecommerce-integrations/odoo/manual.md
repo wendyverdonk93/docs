@@ -53,7 +53,7 @@ For these payment methods, if the order was created not in euros, the amount wil
 _Odoo platform currency rate_ is used for conversions and it is configured by a system administrator.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
 
 ### 5. Updates 
 1.  Navigate to _Apps_ menu
