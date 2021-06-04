@@ -33,4 +33,4 @@ aliases:
 {{% account_info %}}
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
