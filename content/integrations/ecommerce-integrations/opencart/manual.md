@@ -38,7 +38,7 @@ aliases:
 6. Configure the _Options_ tab. 
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
 
 ### 5. Updates
 #### Update the plugin from plugin version higher or equals than 2.2.0 to 3.x.x
@@ -61,4 +61,3 @@ You have installed and configured the plugin successfully. If you have any quest
 1. For security, create backup of your OpenCart platform. Especially if you are doing this in a production environment.
 2. Manually remove all the files from the MultiSafepay extension using an FTP program or server file administration program.
 3. Follow the instruction to install our latest extension using the extension installer tool built in OpenCart.
-
