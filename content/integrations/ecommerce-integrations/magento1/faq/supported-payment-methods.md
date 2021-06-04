@@ -1,7 +1,7 @@
 ---
 title : "Supported payment methods"
 meta_title: "Magento 1 plugin - Supported payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
 weight: 1
@@ -36,7 +36,7 @@ __Banks__
 
 __Billing suites__
 
-+ [Afterpay](/payment-methods/billing-suite/afterpay)
++ [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
 + [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
 + [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)

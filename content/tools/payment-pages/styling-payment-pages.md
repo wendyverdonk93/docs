@@ -2,7 +2,7 @@
 title : "Styling payment pages"
 weight: 42
 meta_title: "Payment pages - Styling payment pages - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/payment-pages/payment-page-templates/
@@ -29,4 +29,4 @@ To edit saved templates, click the **Edit template** button in the top left corn
 
 To apply the style from a template for another website in your account, click the **Apply style from** button in the top right corner. Save the template to the relevant website.
 
-To use dynamic styling, see [Dynamic styling for payment pages](/tools/payment-pages/dynamic-styling-for-payment-pages/).
+To use dynamic styling, see [Dynamic styling payment pages](/tools/payment-pages/dynamic-styling-payment-pages/).

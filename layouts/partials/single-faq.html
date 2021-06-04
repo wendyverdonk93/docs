@@ -8,38 +8,16 @@
                     {{ range .Pages}}
                     <div class="col-lg-6 pb-4">
                         <div class="block-faq py-3 px-4">
-                            <div id="heading-{{ .Title | anchorize}}">
-                                <div class="mb-0 faq-title-block" data-toggle="collapse"
-                                    data-target="#{{ .Title | anchorize}}" aria-expanded="true"
-                                    aria-controls="{{ .Title | anchorize}}">
-                                    <img class="faq-svg" src="/svgs/Arrow.svg" />
-                                    <b class="px-3">{{ .Title }}</b>
+                            <a class="row no-decoration" id="heading-{{ .Title | anchorize}}" href="{{ .Permalink }}">
+                                <div class="col-2 d-flex ">
+                                  {{ with .Params.logo }}
+                                  <img class="m-3" style="width: 50px; height: 40px" src="{{ . }}" />
+                                  {{ end }}
                                 </div>
-                            </div>
-
-                            <div id="{{ .Title | anchorize}}" class="collapse faq-content"
-                                aria-labelledby="heading-{{ .Title | anchorize}}" data-parent="#accordion">
-                                <div class="mx-3 line"></div>
-                                {{ if isset .Params "read_more" }}
-                                    <div class="p-3">
-                                        {{if isset .Params "summary"}}
-                                            {{ index .Params "summary" }}
-                                        {{else}}
-                                            {{ .Content }}
-                                        {{end}}
-                                    </div>
-                                    <div class="p-3">
-                                    <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
-                                    </div>
-                                {{else}}
-                                    <div class="p-3">
-                                        {{ .Content }}
-                                    </div>
-                                    <div class="p-3">
-                                        <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
-                                    </div>
-                                {{end}}
-                            </div>
+                                <div class="ml-2 my-auto">
+                                  <p class="px-3 my-auto" style="font-weight: 600; font-size: 1.6rem;">{{ .Title }}</b>
+                                </div>
+                              </a>
                         </div>
                     </div>
                     {{ end }}

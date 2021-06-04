@@ -2,7 +2,7 @@
 title : "Klarna, How it works"
 weight: 21
 meta_title: "Klarna, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/klarna/how-does-klarna-work/]
 ---
@@ -82,7 +82,7 @@ Some rules may apply to certain payment methods. For Klarna, the following rules
 
 * Payments done through Klarna are processed in [Euros (EUR)](/faq/general/which-currencies-are-supported-by-multisafepay)
 
-*  Klarna is offered in Austria, Germany, Belgium, Finland and the Netherlands
+*  MultiSafepay offers Klarna for Austria, Belgium, Denmark, Germany, Italy, Norway, Spain, Sweden, the Netherlands, and the UK.
 
 * As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. Klarna). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
 

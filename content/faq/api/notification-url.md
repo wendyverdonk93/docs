@@ -2,11 +2,12 @@
 title : "Notification URL"
 meta_title: "FAQ API - Notification URL - MultiSafepay Docs"
 weight: 9
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/how-does-the-notification-url-work
 ---
+
 Notifications are webhooks where the API notifies your web server when the status of a transaction changes. They are triggered by actions by:
 
 - Customers, e.g. completing a payment
@@ -95,7 +96,7 @@ If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend th
 ### Note:
 
 - Always use **https** in the `notification_url`.
-- Notification URLs in your [MultiSafepay Control](https://merchant.multisafepay.com) are _leading_, that is we use the notification URL under **Website settings** in your MultiSafepay Control first.
-- If the notification URL field in your MultiSafepay Control is empty or not returning an OK response (for any reason), we use the notification URL from the transaction.
+- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay Control](https://merchant.multisafepay.com).
 - Never include port numbers in your notification URL. For security reasons, we only process standard ports.
 - Make sure you authorize our [IP ranges](/faq/general/ip-ranges) to access the notification URL.
+
