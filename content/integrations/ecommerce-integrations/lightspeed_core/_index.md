@@ -10,7 +10,7 @@ weight: 04
 title_short: "Lightspeed"
 description_short: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free core integration."
 description: "Easily integrate MultiSafepay payment solutions into your Lightspeed webshop with the free core integration.
-This core integration is managed by our partner Lightspeed. For support, email [Lightspeed](https://www.lightspeedhq.nl/support) directly."
+This core integration is managed by our partner Lightspeed. For support, see Lightspeed – [Support](https://www.lightspeedhq.nl/support).
 layout: 'single'
 tags: 'hidden'
 aliases: 
