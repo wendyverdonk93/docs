@@ -17,7 +17,7 @@ Advanced reports include Sales reports and Conversion reports. They help you fin
 - What devices they use
 - Your conversion rate per website
 
-## Generating Advance reports
+## Generating advanced reports
 
 To generate a Sales or Conversion report, follow these steps:
 

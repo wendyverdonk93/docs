@@ -122,9 +122,8 @@ To request automated Accountant exports, email the following information to the 
 
 {{< /details >}}
 
-## API request
-  
-To retrieve a list of transactions using our API, make a GET `/transactions` request. This method excludes MultiSafepay transaction fees. 
+## See also
 
-See API Reference - [Transactions API endpoint](/tools/transactions-api-endpoint/). 
+- [Transactions API endpoint](/tools/transactions-api-endpoint/) 
+- [Accounting integrations](/tools/accounting/accounting-integrations/)
 
