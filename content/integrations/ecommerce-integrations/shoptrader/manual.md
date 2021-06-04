@@ -1,5 +1,5 @@
 ---
-title : "MultiSafepay Shoptrader installation & configuration manual"
+title : "MultiSafepay Shoptrader installation and configuration manual"
 meta_title: "Shoptrader plugin manual - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -8,10 +8,12 @@ aliases:
     - /integrations/hosted/shoptrader/manual
     - /integrations/shoptrader/manual
 ---
-### Introduction
+This plugin is developed and maintained by Shoptrader. 
 
-{{% introduction_hosted "Shoptrader" %}}
+For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>
 
-### Installation & Configuration
+### Requirements
+You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
 
-The plugin is developed and maintained by Shoptrader. If you have any technical queries about the plugin, please contact Shoptrader directly at <info@shoptrader.nl>
+
+ 

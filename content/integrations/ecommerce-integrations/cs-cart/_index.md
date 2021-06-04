@@ -11,8 +11,8 @@ logo: "/logo/Plugins/CS-Cart.svg"
 weight: 13
 title_short: "CS-Cart"
 layout: 'single'
-description_short: "Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your CS-Cart webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop"
 aliases: 
     - /plugins/cs-cart
     - /integrations/plugins/cs-cart

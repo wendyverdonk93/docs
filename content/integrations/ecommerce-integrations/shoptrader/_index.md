@@ -7,8 +7,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/Shoptrader.svg"
 weight: 26
 title_short: "Shoptrader"
-description_short: "Easily integrate MultiSafepay payment solutions into your Shoptrader webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Shoptrader webshop with the free plugin. 
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop. 
 This plugin is managed by our partner Shoptrader."
 layout: 'single'
 aliases: 

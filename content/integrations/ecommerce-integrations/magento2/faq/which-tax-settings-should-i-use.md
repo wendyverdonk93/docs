@@ -1,27 +1,31 @@
 ---
-title : "Which tax settings should I use?"
-meta_title: "Magento 2 - Recommended tax settings - MultiSafepay Docs"
+title : "Configuring tax settings"
+meta_title: "Magento 2 - Configuring tax settings - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+aliases:
+    - /integrations/ecommerce-integrations/magento2/faq/which-tax-settings-should-i-use/
 ---
 
-To prevent discrepancies between item amounts inside MultiSafepay transactions and Magento orders, we recommend you to use certain tax settings inside Magento.
+## Configuring Magento tax settings
+To configure tax settings in Magento, go to **Stores** > **Configuration** > **Sales** > **Tax** > **Calculation settings**.
 
-Tax settings in Magento can be found under **Stores** > **Configuration** > **Sales** > **Tax** > **Calculation Settings**
+## Recommended tax settings
+To avoid discrepancies between item amounts in MultiSafepay transactions and Magento orders, we recommend using the following tax settings in Magento.
 
-If you want to show prices **excluding tax**, use the following settings:
+To show prices **excluding tax**, use the following settings:
 
-+ **Tax Calculation Method Based On**: Row Total
-+ **Catalog Prices**: Excluding Tax
-+ **Apply Customer Tax**: After Discount
-+ **Apply Discount On Prices**: Excluding Tax
++ **Tax calculation method based on**: Row total
++ **Catalog prices**: Excluding tax
++ **Apply customer tax**: After discount
++ **Apply discount on prices**: Excluding tax
 
-If you want to show prices **including tax**, use the following settings:
+To show prices **including tax**, use the following settings:
 
-+ **Tax Calculation Method Based On**: Row Total
-+ **Catalog Prices**: Including Tax
-+ **Apply Customer Tax**: After Discount
-+ **Apply Discount On Prices**: Including Tax
++ **Tax calculation method based on**: Row total
++ **Catalog prices**: Including tax
++ **Apply customer tax**: After discount
++ **Apply discount on prices**: Including tax
 
-Our recommended settings are based on Magento's standards. For more information, see [Magento's documentation on tax settings](https://docs.magento.com/user-guide/tax/warning-messages.html).
+These recommended settings are based on Magento's standards. For more information, see Magento - [Warning messages](https://docs.magento.com/user-guide/tax/warning-messages.html).

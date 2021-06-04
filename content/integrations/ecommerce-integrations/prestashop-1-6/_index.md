@@ -11,8 +11,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Plugins/PrestaShop.svg"
 weight: 09
 title_short: "PrestaShop 1.6"
-description_short: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin. "
-description: "Easily integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop with the free plugin. "
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop "
+description: "Free plugin to integrate MultiSafepay payment solutions into your Prestashop 1.6 webshop"
 layout: 'single'
 aliases: 
     - /plugins/prestashop-1-6

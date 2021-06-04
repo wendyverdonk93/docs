@@ -1,5 +1,5 @@
 ---
-title : "MultiSafepay ShopFactory installation & configuration manual"
+title : "MultiSafepay ShopFactory installation and configuration manual"
 meta_title: "ShopFactory plugin manual - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: 
@@ -8,10 +8,10 @@ aliases:
     - /integrations/hosted/shopfactory/manual
     - /integrations/shopfactory/manual
 ---
-### Introduction
+This plugin is developed and maintained by ShopFactory.
 
-{{% introduction_hosted "ShopFactory" %}}
+For any technical queries about the plugin, see ShopFactory - [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
 
-### Installation & Configuration
-
-The plugin is developed and maintained by ShopFactory. If you have any technical queries about the plugin, please contact [ShopFactory](https://www.shopfactory.nl/contents/nl/d122.html) directly.
+### Requirements
+You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+ 

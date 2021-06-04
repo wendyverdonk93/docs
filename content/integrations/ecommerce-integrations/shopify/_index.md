@@ -8,8 +8,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/Shopify.svg"
 weight: 05
 title_short: "Shopify"
-description_short: "Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app."
-description: "Easily integrate MultiSafepay payment solutions into your Shopify webshop with the free app."
+description_short: "Free app to integrate MultiSafepay payment solutions into your Shopify webshop"
+description: "Free app to integrate MultiSafepay payment solutions into your Shopify webshop"
 layout: 'single'
 aliases: 
     - /hosted/shopify

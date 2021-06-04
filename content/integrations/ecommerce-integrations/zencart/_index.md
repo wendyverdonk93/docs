@@ -10,11 +10,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Plugins/Zen_Cart.svg"
 weight: 20
 title_short: "Zen Cart"
-description_short: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Zen Cart webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Zen Cart webshop"
+description: "Free plugin integrate MultiSafepay payment solutions into your Zen Cart webshop"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md"
-aliases: [/integrations/zencart/]
 aliases: 
     - /plugins/zencart
     - /integrations/plugins/zencart

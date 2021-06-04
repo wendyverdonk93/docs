@@ -55,15 +55,15 @@ With an API key, you can start building and testing your integration. We offer m
 These solutions are made by our in-house developers. They include plugins, apps and core integrations for many leading ecommerce platforms like Magento, WooCommerce, Shopify, and Lightspeed. These solutions require fewer development resources and allow you to start testing your integration today. 
 
 {{< buttons >}}
-    {{< button href="/integrations/ecommerce-integrations/" header="Ecommerce integrations" text="View our plugins, apps and core integrations for ecommerce platforms" img="/svgs/Integrations.svg" alt="Ecommerce integrations icon">}}
+    {{< button href="/integrations/ecommerce-integrations/" header="Ecommerce integrations" text="Plugins, apps, and core integrations for ecommerce platforms" img="/svgs/Integrations.svg" alt="Ecommerce integrations icon">}}
 {{< /buttons >}}
 
 ### Custom-built integrations
 Build your own integration using our API, SDK's or wrappers. Generally, this requires more development resources. However, these methods provide full control over your checkout experience's look, feel, and functionality. Use these integration methods when you build your own ecommerce website or app.
 
 {{< buttons >}}
-    {{< button href="https://docs.multisafepay.com/api/" header="API" text="Our API reference describes the usage of all available endpoints, giving you full control when building your own ecommerce website" img="/svgs/API.svg" alt="API icon">}}
-    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Wrappers & SDK's facilitate development and testing for web and mobile applications" img="/svgs/Wrappers.svg" alt="Wrappers & SDKs" >}}
+    {{< button href="https://docs.multisafepay.com/api/" header="API" text="Our API Reference describes all endpoints, giving you full control when building a custom integration" img="/svgs/API.svg" alt="API icon">}}
+    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Facilitate development and testing for web and mobile applications" img="/svgs/Wrappers.svg" alt="Wrappers & SDKs" >}}
 {{< /buttons >}}
 
 ### Other integration methods
