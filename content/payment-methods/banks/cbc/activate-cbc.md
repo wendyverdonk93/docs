@@ -11,6 +11,6 @@ CBC is a standard payment method.
 CBC can be activated in your [MultiSafepay Control](https://merchant.multisafepay.com) under _Settings > Payment methods_.
 Enable CBC as payment method in your ecommerce platform to finalize the activation.
 
-If CBC is not visible as a payment method in your MultiSafepay Control, you can email our Integration Team at <integration@multisafepay.com> to assist you further.
+If CBC is not visible as a payment method in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>
 
 _Note: Before you request CBC to be activated, check whether this payment method is supported by your ecommerce platform and your MultiSafepay Control_.
