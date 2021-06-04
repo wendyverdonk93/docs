@@ -22,4 +22,4 @@ The transaction status is now _initialized_. As long as the transaction status i
 
 A refund will only be processed if your balance on your MultiSafepay Control is positive.
 
-In the event of a failed TrustPay refund, email our Support Team at <support@multisafepay.com> to assist you.
+If a TrustPay refund fails, email the Support Team at <support@multisafepay.com> 
