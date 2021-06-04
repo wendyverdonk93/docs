@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD:content/integrations/ecommerce-integrations/lightspeed_app/faq/supported-payment-methods.md
 title : "Supported payment methods"
 meta_title: "Lightspeed app - Supported payment methods - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-=======
-title : "Available payment methods in Lightspeed"
-meta_title: "Lightspeed plugin - Available payment methods - MultiSafepay Docs"
-meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
->>>>>>> origin/master:content/integrations/ecommerce-integrations/lightspeed_app/faq/available-payment-methods-lightspeed.md
 read_more: "."
 weight: 1
 aliases:
