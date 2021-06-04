@@ -9,7 +9,7 @@ title_short: "EasyWebshop"
 description_short: "Easily integrate MultiSafepay payment solutions into your EasyWebshop platform with the free app."
 description: "Easily integrate MultiSafepay payment solutions into your EasyWebshop platform with the free app.<br>
 This app is managed by our partner EasyWebshop. For support, see EasyWebshop – [Contact](https://www.easywebshop.com/software/contact). 
-If you would like to integrate the MultiSafepay app for EasyWebshop, email our Integration Team at <integration@multisafepay.com>"
+To integrate the MultiSafepay app for EasyWebshop, email the Integration Team at <integration@multisafepay.com>
 layout: 'single'
 aliases: 
     - /hosted/easywebshop
