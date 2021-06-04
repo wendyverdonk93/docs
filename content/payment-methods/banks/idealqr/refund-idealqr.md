@@ -25,4 +25,4 @@ The transaction status is now _initialized_. As long as the transaction status i
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-In the event of a failed iDEAL QR refund, please email our Support Team at <support@multisafepay.com> to assist you.
+If an iDEAL QR refund fails, email the Support Team at <support@multisafepay.com> 
