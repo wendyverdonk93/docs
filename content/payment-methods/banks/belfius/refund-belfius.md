@@ -25,7 +25,7 @@ Please follow these steps to refund a Belfius transaction:
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-In the event of a failed Belfius refund, please email our Support Team at <support@multisafepay.com> to assist you.
+If a Belfius refund fails, email the Support Team at <support@multisafepay.com>
 
 
 
