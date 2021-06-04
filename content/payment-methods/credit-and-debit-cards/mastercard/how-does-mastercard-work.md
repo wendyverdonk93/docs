@@ -6,7 +6,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: '.'
 ---
 ## How it works
->Mastercard payments are processed as a credit card payment. Therefore, credit card payments must be enabled within your MultiSafepay Control to process a Mastercard payment. Submit your request to enable credit cards (Visa, Mastercard, American Express and Maestro) to your account manager or email us at <sales@multisafepay.com>
+>Mastercard payments are processed as credit card payments. To enable credit card payments in your MultiSafepay Control, email your account manager at <sales@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways a Mastercard transaction can be processed.
