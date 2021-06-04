@@ -27,4 +27,4 @@ aliases:
 5. Disable the _MultiSafepay - Connect_ module and enable the payment methods you would like to offer.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
