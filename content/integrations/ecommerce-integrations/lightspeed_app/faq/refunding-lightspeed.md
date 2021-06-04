@@ -37,4 +37,4 @@ For example:
 We do not allow multiple refunds with the same amount, even if the refund contains different items. The current delay is 5 minutes.
 
 ## Help & questions
-If you need any help with refunds or have any questions, email our Integration Team at <integration@multisafepay.com>
+For support with refunds or any questions, email the Integration Team at <integration@multisafepay.com>
