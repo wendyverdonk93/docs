@@ -11,4 +11,4 @@ iDEAL is a standard payment method that can be activated in your [MultiSafepay C
 
 Enable iDEAL as payment method in your ecommerce platform to finalize the activation.
 
-If you have any questions, email one of our account managers at <sales@multisafepay.com>
+For any questions, email your account manager at <sales@multisafepay.com>
