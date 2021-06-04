@@ -19,4 +19,4 @@ Declined | Do not honour | This information is not shared with MultiSafepay, onl
 Declined | 3D authorisation cancelled | When the [3D Secure](/faq/general/glossary/#3d-secure) verification is incomplete or can not be validated, the payment will be declined.
 Declined | Expired card | The credit card is expired.
 Declined | Not sufficient funds | The customer has insufficient credit on the credit card to complete the payment.
-Declined | Merchant only accepts 3DS verified cards | "Declined, not verified". Submit your request to our Risk Team at <risk@multisafepay.com> when wanting to accept unverified 3D cards. 
+Declined | Merchant only accepts 3DS verified cards | "Declined, not verified". Email requests to accept unverified 3D cards to the Risk Team at <risk@multisafepay.com> 
