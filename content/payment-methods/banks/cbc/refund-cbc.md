@@ -23,4 +23,4 @@ The transaction status is now _initialized_. As long as the transaction status i
 
 We do not automatically receive the IBAN when a transaction is completed. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed. Refunds can therefore be done after 1 business day.
 
-In the event of a failed CBC refund, please email our Support Team at <support@multisafepay.com> to assist you.
+If a CBC refund fails, email the Support Team at <support@multisafepay.com>
