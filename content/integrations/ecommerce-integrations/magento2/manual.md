@@ -51,7 +51,7 @@ Some features are not available anymore, because they are not supported anymore 
 * PWA (REST) endpoints (Replaced by GraphQL endpoints)
 
 {{< blue-notice >}}
-MultiSafepay supports most functionalities of Magento. If you have any questions about the services we offer, email our Integration Team at <integration@multisafepay.com>
+MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
 {{< /blue-notice >}}
 
 ### 2. Requirements
