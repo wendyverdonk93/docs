@@ -27,7 +27,7 @@ You will need a MultiSafepay account. See [Getting started](/guides/getting-star
 ### Availability
 Our Shopify app is unavailable in Norway and Finland. For more information, email the Integration Team at <integration@multisafepay.com>
 
-### Installation andonfiguration
+### Installation and configuration
 
 1. To install relevant payment methods, use the following links, and then click the **Install** button on the bottom right:
 
