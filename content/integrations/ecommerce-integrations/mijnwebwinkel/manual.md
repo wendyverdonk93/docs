@@ -27,7 +27,6 @@ The plugin is developed and supported by Mijnwebwinkel (MyOnlineStore). Informat
 
 ### 2. Congratulations
 
-You have installed and configured the plugin successfully. If you have any technical queries about the plugin, email Mijnwebwinkel directly using the [contact form](https://www.mijnwebwinkel.nl/contactformulier) on their website.
+For any technical queries about the plugin, see Mijnwebwinkel – [Contactformulier](https://www.mijnwebwinkel.nl/contactformulier).
 
 A dedicated support section can also be found on the official website of [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support)
-
