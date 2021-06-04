@@ -35,4 +35,4 @@ _It is essential that the MultiSafepay Core Module (MultiSafepay) is installed a
 _Notice: Manually generated payment links in the MultiSafepay Control will not create/update orders automatically in the backend of Prestashop_
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <integration@multisafepay.com>
+For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
