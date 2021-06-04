@@ -5,5 +5,4 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 read_more: "."
 aliases: [/integrations/prestashop-1-7/faq/do-you-support-thirty-bees/]
 ---
-Email our Integration Team at <integration@multisafepay.com> when you use the Prestashop fork [thirty bees](https://thirtybees.com/blog/what-is-thirty-bees)
-
+If you use the Prestashop [thirty bees](https://thirtybees.com/blog/what-is-thirty-bees) fork, email the Integration Team at <integration@multisafepay.com>
