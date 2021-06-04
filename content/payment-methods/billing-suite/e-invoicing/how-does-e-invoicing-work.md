@@ -100,7 +100,7 @@ Good to know about the payment method E-Invoicing:
 
 ### Delivery address
 
-MultiSafepay can enable support for different delivery and invoice addresses upon request. email your account manager for more information.
+Email requests to support different delivery and invoice addresses to your account manager at <sales@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
