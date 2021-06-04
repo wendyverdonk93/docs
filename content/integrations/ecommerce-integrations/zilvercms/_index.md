@@ -8,7 +8,7 @@ weight: 30
 title_short: "ZilverCMS"
 description_short: "Easily integrate MultiSafepay payment solutions into your ZilverCMS platform with the free app."
 description: "Easily integrate MultiSafepay payment solutions into your ZilverCMS platform with the free app.
-This app is managed by our partner ZilverCMS. For support, email [ZilverCMS](https://www.zilvercms.nl/contact) directly. 
+This app is managed by our partner ZilverCMS. For support, see ZilverCMS – [Contact](https://www.zilvercms.nl/contact). 
 If you would like to integrate the MultiSafepay app for ZilverCMS, email our Integration Team at <integration@multisafepay.com>"
 layout: 'single'
 faq: "."
