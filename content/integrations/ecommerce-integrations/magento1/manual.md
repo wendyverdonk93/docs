@@ -57,4 +57,7 @@ gift card need to be activated, more information can be found on our [gift card 
 This page contains the FastCheckout specific settings. More information about [FastCheckout](/payment-methods/fastcheckout) can be found on our official website.
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, email our Integration Team at <magento1@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+For any questions about the plugin:
+
+ - Email the Integration Team at <magento1@multisafepay.com> 
+ - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
