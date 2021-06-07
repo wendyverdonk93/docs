@@ -7,7 +7,6 @@ logo: "/logo/Integrations/Dynamic_Web.svg"
 weight: 22
 title_short: "Dynamicweb"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Dynamicweb platform"
-description: "Easily integrate MultiSafepay payment solutions into your Dynamicweb platform with the free app."
 layout: 'single'
 aliases: 
     - /hosted/dynamicweb
