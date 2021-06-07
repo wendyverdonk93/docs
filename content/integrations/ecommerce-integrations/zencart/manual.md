@@ -8,23 +8,36 @@ aliases:
     - /integrations/zencart/manual
 ---
 
-### Introduction
+This technical manual is for installing and configuring the MultiSafepay plugin for Zen Cart.
 
-{{% introduction_plugin "Zen Cart" %}}
+We recommend first installing the plugin in a test environment following the recommended Zen Cart installation procedure. Make sure you have made a backup.
 
-### 1. Requirements
+### Technical support
+Contact us:
+
+- Telephone: +31 (0)20 8500 500
+- Email: <integration@multisafepay.com>
+- GitHub: Create a technical issue
+
+### Requirements
+- MultiSafepay account – See [Getting started](/guides/getting-started/).
 - ZenCart 1.5.5
 - Tested on PHP 7.0
 
-### 2. Installation
- 1. Unpack the content of the .ZIP file in the root of your webshop.
+### Installation
+ 1. In the root of your webshop, unpack the content of the .ZIP file.
 
-### 3. Configuration
-1. Log in to your backend and navigate to _Modules > Payment_
-2. Select _MultiSafepay - Connect_ and click on _Install_
-3. Enter your [API key](/tools/multisafepay-control/get-your-api-key)
-4. Click on _Update_
-5. Disable the _MultiSafepay - Connect_ module and enable the payment methods you would like to offer.
+### Configuration
+1. Log in to your Zen Cart backend.
+2. Go to **Modules** > **Payment**.
+3. Select **MultiSafepay - Connect**, and then click **Install**.
+4. Enter your [API key](/tools/multisafepay-control/get-your-api-key).
+5. Click **Update**.
+6. Disable the **MultiSafepay - Connect** module.
+7. Enable the relevant payment methods.
 
+<<<<<<< HEAD
 ### 4. Congratulations
+=======
+>>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

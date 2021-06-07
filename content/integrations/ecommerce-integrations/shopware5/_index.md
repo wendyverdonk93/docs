@@ -10,8 +10,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Plugins/Shopware_5.svg"
 weight: 07
 title_short: "Shopware 5"
-description_short: "Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin."
-description: "Easily integrate MultiSafepay payment solutions into your Shopware 5 webshop with the free plugin."
+description_short: "Free plugin to integrate MultiSafepay payment solutions into your Shopware 5 webshop"
+description: "Free plugin to integrate MultiSafepay payment solutions into your Shopware 5 webshop"
 layout: 'single'
 changelog : "https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md"
 aliases: 
