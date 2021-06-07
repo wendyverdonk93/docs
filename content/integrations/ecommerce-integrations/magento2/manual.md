@@ -38,11 +38,11 @@ Other new features include:
 * Modular setup, providing more installation flexibility
 * PWA (GraphQL) endpoints
 
-{{< /details >}}
-
 As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html). For more information, see MultiSafepay Blog - [Magento 2: Boost conversion through Magento Vault & Instant Purchase](https://www.multisafepay.com/blog/magento-2-boost-conversion-through-magento-vault-instant-purchase). 
 
 These features are based on MultiSafepay recurring payments. For more information, see [Recurring payments](/tools/recurring-payments/).
+
+{{< /details >}}
 
 {{< details title="View obsolete features" >}}
 Features that are no longer available:
