@@ -59,6 +59,8 @@ Features that are no longer available:
 - PHP 7.1+
 
 ### Modules
+
+{{< details title="View modules" >}}
 The plugin consists of several Magento modules:
 
 | Module  | Description  |
@@ -70,6 +72,8 @@ The plugin consists of several Magento modules:
 | [Multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory)  | Handles stock when MSI is disabled  |
 | [Multisafepay-magento2](https://github.com/MultiSafepay/magento2)  | Meta package that installs all the above  |
 | [Multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql)| For GraphQL support, extends and adds GraphQL queries and mutations |
+
+{{< /details >}}
 
 {{< details title="View module dependencies" >}}
 
