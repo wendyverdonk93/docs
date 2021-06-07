@@ -24,8 +24,8 @@ php bin/magento setup:di:compile
 
 4. Depending on your webserver/webshop configuration, you may also need to:
 
-- Check the 'rights' on files are correct. For the MultiSafepay files, see vendor/multisafepay.
-- Empty static files when running in production mode.
-- Flush your cache.
+    - Check the 'rights' on files are correct. For the MultiSafepay files, see vendor/multisafepay.
+    - Empty static files when running in production mode.
+    - Clear your cache.
 
 
