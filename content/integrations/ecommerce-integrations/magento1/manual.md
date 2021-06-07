@@ -22,7 +22,7 @@ You can install the plugin via:
 * .ZIP file upload in Connect
 * MarketPlace
 
-To install the plugin via SFTP upload:
+This manual is for SFTP upload.
 
 ### Technical support
 Contact us:
