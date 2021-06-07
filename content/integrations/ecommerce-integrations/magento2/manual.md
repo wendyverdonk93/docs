@@ -71,7 +71,8 @@ The plugin consists of several Magento modules:
 | [Multisafepay-magento2](https://github.com/MultiSafepay/magento2)  | Meta package that installs all the above  |
 | [Multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql)| For GraphQL support, extends and adds GraphQL queries and mutations |
 
-#### Module dependencies
+{{< details title="View module dependencies" >}}
+
 The meta-package has a dependency on MSI. This means the MSI modules must be available (but not necessarily enabled) in your store. 
 
 If you have removed MSI (e.g. with a composer-replace trick like [yireo/magento2-replace-inventory](https://github.com/yireo/magento2-replace-inventory)), you can't install the meta-package. To integrate with MultiSafepay, instead of installing the meta-package, install the magento2-frontend module and the magento2-catalog-inventory module.
@@ -79,6 +80,8 @@ If you have removed MSI (e.g. with a composer-replace trick like [yireo/magento2
 The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml modules, so they are all installed together. In some cases, you also then need a stock-handling module. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
 
 The installation process is the same for the Magento Commerce version.
+
+{{< /details >}}
 
 ### Installation
 **1.** We recommend installing the meta-package using Composer:
