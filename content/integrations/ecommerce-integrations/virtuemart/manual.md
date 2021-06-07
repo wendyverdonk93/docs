@@ -38,7 +38,7 @@ Contact us:
 4. Go to **Components** > **VirtueMart**. 
 5. Click **Shop** > **Payment methods**. 
 6. To install and configure each payment method separately:
-  - Click the **New** button.
+  - Click **New**.
   - Set the payment method to **VirtueMart - Payment, MultiSafepay**.
   - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
