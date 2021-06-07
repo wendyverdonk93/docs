@@ -116,15 +116,16 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ### Configuration
 Log in to your Magento 2 backend, and go to **Stores** > **Configuration** > **MultiSafepay**. This section contains the following pages:
 
-| Page  | Description  |
-|---|---|
-| General information   | Contains all the main support information. We recommend reading this first.  |
-| General settings  | Contains all main settings. <br />
-  Here you can configure all gateways and gift cards.  <br />  
-  For finding your account ID, site ID, site secure code, or [API key](/faq/general/multisafepay-glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).  <br /> 
-  Your account ID appears in the top-right corner of your MultiSafepay Control.|
-| Payment methods  | Contains the configuration options for all MultiSafepay payment methods.  <br /> Make sure you have activated your selected payment methods in your [MultiSafepay Control](https://merchant.multisafepay.com).  |
-| Gift cards  | Contains the configuration options for all gift cards supported by MultiSafepay.  <br /> Make sure you have activated your selected gift cards in your [MultiSafepay Control](https://merchant.multisafepay.com).  <br /> For more information, see [Gift cards](/payment-methods/prepaid-cards/gift-cards). |
+- **General information:** Contains all the main support information. We recommend reading this first.
+- **General settings:** Contains all main settings.  
+  - Here you can configure all gateways and gift cards.  
+  - For finding your account ID, site ID, site secure code, or [API key](/faq/general/multisafepay-glossary/#api-key), see [Get your API key](/tools/multisafepay-control/get-your-api-key).   
+  - Your account ID appears in the top-right corner of your MultiSafepay Control.
+- **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
+    - Make sure you have activated your selected payment methods in your [MultiSafepay Control](https://merchant.multisafepay.com).
+- **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
+    - Make sure you have activated your selected gift cards in your [MultiSafepay Control](https://merchant.multisafepay.com).  
+    - For more information, see [Gift cards](/payment-methods/prepaid-cards/gift-cards).
   
 ### Further support
 For any questions about the plugin:
