@@ -14,7 +14,7 @@ This is the Lightspeed app. For the Lightspeed core integration, see [Lightspeed
 
 This technical manual is for installing and configuring the MultiSafepay app for Lightspeed.
 
-We recommend first installing the plugin in a test environment following the recommended Lightspeed installation procedure. Make sure you have made a backup.
+We recommend first installing the app in a test environment following the recommended Lightspeed installation procedure. Make sure you have made a backup.
 
 ### Technical support
 Contact us:
