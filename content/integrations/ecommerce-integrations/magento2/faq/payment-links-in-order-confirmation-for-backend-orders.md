@@ -1,7 +1,7 @@
 ---
 title : "Payment link in order confirmation email for backend orders"
 meta_title: "Magento 2 plugin FAQ - Payment links - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 summary: "We have added a feature to include the payment link in the order confirmation mail. This feature is customizable and can be changed to your liking."
 read_more: "."

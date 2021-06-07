@@ -1,9 +1,11 @@
 ---
 title : "Test payment details"
-weight: 8
+weight: 14
 meta_title: "FAQ Getting Started - Test payment details - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+aliases:
+    - /faq/getting-started/test-payment-details/
 ---
 
 This page assumes you have followed the steps on [Getting started](/guides/getting-started) and are ready to test different payment methods and scenarios in your [MultiSafepay Test Control](https://testMerchant.MultiSafepay.com/).
@@ -172,6 +174,10 @@ Sample statuses:
 ### AfterPay
 
 To enable AfterPay in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com>
+
+To generate a test API key from AfterPay for authentication, create an AfterPay Sandbox account. See AfterPay - [Log in](https://developer.afterpay.io/auth/login). 
+
+The API key appears on the AfterPay **Account** page, which also specifies how long it is valid. The key is generated immediately, but you may need to refresh the page after a few seconds to display it. 
 
 ### Betaal per Maand
 

@@ -2,8 +2,8 @@
 title: "Test and live refunds"
 weight: 71
 meta_title: "Test and live refunds - MultiSafepay Docs"
-meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support pages for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: '.'
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases:
     - /tools/multisafepay-test-environment/refunds
 ---
