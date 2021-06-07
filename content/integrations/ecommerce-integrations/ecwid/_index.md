@@ -7,15 +7,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/Ecwid.svg"
 weight: 12
 title_short: "Ecwid"
-<<<<<<< HEAD
-description_short: "Easily integrate MultiSafepay payment solutions into your Ecwid store."
-description: "Easily integrate MultiSafepay payment solutions into your Ecwid store.
-This app is managed by Ecwid. For support, see Ecwid – [Support](https://support.ecwid.com/hc/en-us/requests/new).
-=======
 description_short: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
-description: "Free app to integrate MultiSafepay payment solutions into your Ecwid store.
-"
->>>>>>> master
+description: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
 layout: 'single'
 aliases: 
     - /hosted/ecwid
