@@ -17,9 +17,8 @@ If you want to change this behavior it is possible using the filter hook “mult
 
 Ask your developer to read:
 
-+ [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
-+ [What does Locale do?](https://docs.multisafepay.com/faq/api/locale/)
-
++ WordPress Developer Resources - [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
++ MultiSafepay Docs - [Locale](https://docs.multisafepay.com/faq/api/locale/)
 &nbsp;
 
 A simple example of how to implement this will be the following: 
