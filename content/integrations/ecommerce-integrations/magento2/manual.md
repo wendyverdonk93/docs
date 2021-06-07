@@ -61,14 +61,15 @@ Features that are no longer available:
 ### Modules
 The plugin consists of several Magento modules:
 
-* [Multisafepay-magento2-core](https://github.com/MultiSafepay/magento2-core) – provides core functionalities
-* [Multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend) – enables payment gateways in the Magento checkout
-* [Multisafepay-magento2-adminhtml](https://github.com/MultiSafepay/magento2-adminhtml) – enables/disables payment gateways, and changes settings in the Magento backend
-* [Multisafepay-magento2-msi](https://github.com/MultiSafepay/magento2-msi) – handles stock when MSI is enabled
-* [Multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory) – handles stock when MSI is disabled
-* [Multisafepay-magento2](https://github.com/MultiSafepay/magento2) – meta package that installs all the above
-
-For GraphQL support, there is a separate module: [Multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql) – extends and adds GraphQL queries and mutations
+| Module  | Description  |
+|---|---|
+| [Multisafepay-magento2-core](https://github.com/MultiSafepay/magento2-core)   | Provides core functionalities  |
+| [Multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend)  | Enables payment gateways in the Magento checkout  |
+| [Multisafepay-magento2-adminhtml](https://github.com/MultiSafepay/magento2-adminhtml)  | Enables/disables payment gateways, and changes settings in the Magento backend  |
+| [Multisafepay-magento2-msi](https://github.com/MultiSafepay/magento2-msi)  | Handles stock when MSI is enabled  |
+| [Multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory)  | Handles stock when MSI is disabled  |
+| [Multisafepay-magento2](https://github.com/MultiSafepay/magento2)  | Meta package that installs all the above  |
+| [Multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql)| For GraphQL support, extends and adds GraphQL queries and mutations |
 
 #### Module dependencies
 The meta-package has a dependency on MSI. This means the MSI modules must be available (but not necessarily enabled) in your store. 
