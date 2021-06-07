@@ -12,6 +12,8 @@ aliases:
 
 This technical manual is for installing and configuring the latest MultiSafepay Magento 2 plugin. 
 
+Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
+
 We support most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
 
 ### Classic Magento 2 plugin
