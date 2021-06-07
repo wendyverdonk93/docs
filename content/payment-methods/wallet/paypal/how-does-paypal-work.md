@@ -68,4 +68,4 @@ Some rules may apply to certain payment methods. For PayPal, the following rules
 
 * Refunds will be processed only when your PayPal account balance is sufficient
 
-* For information on which currencies are supported, send an email to PayPal.
+* For information about supported currencies, contact PayPal.
