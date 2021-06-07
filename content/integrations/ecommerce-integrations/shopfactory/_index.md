@@ -8,8 +8,7 @@ logo: "/logo/Integrations/ShopFactory.svg"
 weight: 24
 title_short: "ShopFactory"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your ShopFactory webshop"
-description: "Free plugin to integrate MultiSafepay payment solutions into your ShopFactory webshop.
-This plugin is managed by our partner ShopFactory."
+description: "Free plugin to integrate MultiSafepay payment solutions into your ShopFactory webshop"
 layout: 'single'
 aliases: 
     - /integrations/shopfactory/
