@@ -10,9 +10,7 @@ aliases:
 To set a minimum order amount for a payment method to display on your checkout page, follow these steps:
 
 1. In the **Payment methods ordering** list, click the **+** button to open the relevant payment method.
-2. In the **Maximum** field, enter an amount in EUR cents. If you **don't** want a maximum amount, enter **-1**.
-
-**Example:** A minimum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is more then 15 EUR.
+2. In the **Minimum** field, enter an amount in EUR cents. E.g. A minimum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **more** then 15 EUR.
 
 ### Setting a minimum order amount per language
 
