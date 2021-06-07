@@ -25,11 +25,13 @@ Contact us:
 You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
 
 ### Availability
-Our Shopify app is unavailable in Norway and Finland. For more information, email the Integration Team at <integration@multisafepay.com>
+Our Shopify app is unavailable in Norway and Finland. 
+
+For more information, email the Integration Team at <integration@multisafepay.com>
 
 ### Installation and configuration
 
-1. To install relevant payment methods, use the following links, and then click the **Install** button on the bottom right:
+{{< details title="View payment method links" >}}
 
   * [Alipay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872)
   * [American Express](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852)
@@ -53,6 +55,9 @@ Our Shopify app is unavailable in Norway and Finland. For more information, emai
   * [Trustly](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945)
   * [Visa (including Cartes Bancaires & Dankort)](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328)
 
+{{< /details >}}
+
+1. To install payment methods, use the relevant links above. For each, click the **Install** button on the bottom right.
 2. Log in to your Shopify backend.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.
 4. Search for and click on the payment methods you have installed.
