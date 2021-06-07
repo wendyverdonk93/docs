@@ -54,6 +54,6 @@ Do you want to show your header or logo at the checkout page in PayPal? First, u
 
 Your account is now configured and you are ready to accept MultiSafepay payments. We strongly recommend you perform one or more test transactions in order to ensure everything is working correctly.
 
-If PayPal is not visible as a payment method in your MultiSafepay Control account, contact our Integration Team at <integration@multisafepay.com> to assist you further.
+If PayPal is not visible as a payment method in your MultiSafepay Control account, email the Integration Team at <integration@multisafepay.com> 
 
 _Please note that if you have enabled payment methods on a particular website, you should also enable PayPal for that specific website_.
