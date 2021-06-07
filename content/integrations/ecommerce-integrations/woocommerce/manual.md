@@ -28,7 +28,7 @@ Contact us:
 
 There are two ways to install the plugin:
 
-#### Manual installation
+**Manual installation**
 
 1. Click the **Download** button above.
 2. Log in to your WooCommerce backend.
@@ -36,7 +36,7 @@ There are two ways to install the plugin:
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.
 
-#### Wordpress installation
+**Wordpress installation**
 
 1. Log in to your WooCommerce backend.
 2. Go to **Plugins** > **Add new**.
