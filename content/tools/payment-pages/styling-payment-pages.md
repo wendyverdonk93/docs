@@ -9,7 +9,7 @@ aliases:
 ---
 MultiSafepay's payment pages are the quickest, easiest, and most secure way of accepting online payments. By default, they use MultiSafepay branding and styling. We recommend styling the payment pages to be consistent with your website through your [MultiSafepay Control](https://merchant.multisafepay.com).
 
-For support, email the Integration team at <integration@multisafepay.com>
+For support, email the Integration Team at <integration@multisafepay.com>
 
 To style payment page templates, follow these steps:
 

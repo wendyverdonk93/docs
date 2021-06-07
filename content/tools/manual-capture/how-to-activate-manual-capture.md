@@ -7,8 +7,8 @@ read_more: '.'
 ---
 ## Activation
 
-The activation of Manual Capture takes place in the MultiSafepay Control. Please contact our screening department at <risk@multisafepay.com>
+To activate Manual Capture in your MultiSafepay Control, email the Risk Team at <risk@multisafepay.com>
 
 After our screening department has enabled this feature for the website you selected, it is important to view the [API documentation](/api/#manual-capture-authorization) regarding Manual Capture. This is not incorporated in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but it can be added through customization from your side.
 
-Do you have any questions about this process? Please contact our Integrations department at <integration@multisafepay.com>
+Do you have any questions about this process? Email our Integration Team at <integration@multisafepay.com>

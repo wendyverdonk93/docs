@@ -16,4 +16,3 @@ For the logos and icons of all MultiSafepay payment methods, see [MultiSafepay i
 
 For help with finding logos and icons, email the Integration Team at <integration@multisafepay.com>
 
-

@@ -12,7 +12,7 @@ aliases: [/integrations/community/community/]
 
 At MultiSafepay, our developers write code to process in-house transactions. However, there are also many fantastic developers worldwide who create code wrappers, plugins, and applications in order to integrate our products and services.
 
-We are happy to accompany you, starting with a place on our documentation pages as well as assist you on a marketing level. If you would like for your project to become a part of MultiSafepay Docs, please contact the MultiSafepay Integration Team at <integration@multisafepay.com>
+We'd like to work with you, and will help market your work and promote it on MultiSafepay Docs. To add your project to MultiSafepay Docs, email the Integration Team at <integration@multisafepay.com>
 
 If you want to publish a MultiSafepay community integration, you have to adhere to the following agreements:
 
@@ -21,6 +21,6 @@ If you want to publish a MultiSafepay community integration, you have to adhere 
 * If we decide to add the community integration as one of the supported integrations by MultiSafepay, we will have the authority to also remove the community integration without the breach of contract
 * The community integration should be updated to maintain its functionality.
 
-If you have any questions about being part of the community Integration Team, feel free to contact <integration@multisafepay.com>
+For any questions about joining our developer community, email the Integration Team at <integration@multisafepay.com>
 
 __MultiSafepay expects you to provide a high level of service and support to merchants. Possible action may be taken if we receive a high number of complaints.__

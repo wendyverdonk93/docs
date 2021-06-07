@@ -16,7 +16,7 @@ When an uncleared Pay After Delivery is received, no action is required. Our sup
 
 The customer has 14 days to complete the payment transaction after receiving the invoice from MultiFactor.
 
-_If you would like to inquire about the minimum and maximum order amounts for your website, please contact your account manager for more information._
+For more information about minimum and maximum order amounts for your website, email your account manager at <sales@multisafepay.com>
 
 
 **Complete own funds**      
@@ -113,5 +113,4 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 Changing the status to _Shipped_ allows Pay After Delivery to initiate the billing process towards the customer. Pay After Delivery will guarantee the payout of the transaction.
 
 The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
-
 

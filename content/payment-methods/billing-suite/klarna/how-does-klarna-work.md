@@ -25,7 +25,7 @@ For every transaction, a reservation number and an invoice number will be genera
 Similarly, once a Klarna order has been shipped (_shipped_ status), you can view the Klarna invoice number in MultiSafepay Control under the specific Klarna order in the transaction details.
 
 All customer-related questions regarding Klarna orders and transactions should be communicated directly to [Klarna](https://www.klarna.com/international/contact-customer-service)
-If you are a merchant, please contact <integration@multisafepay.com>
+If you are a merchant, email the Integration Team at <integration@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -36,7 +36,7 @@ The order status indicates the status of the order, such as _completed_, _pendin
 * Transaction status       
 The transaction status indicates the payment status of the transaction, such as _completed_, _pending_ or _rejected_. Once the transaction status is _completed_, the amount of the transaction is added to your MultiSafepay balance.
 
-{{< alert-notice >}} From May 11th onwards, a Klarna transaction will no longer have the status _Initialized_ after acceptance of an order. This will be replaced by the status _Uncleared_ and will be changed to _Completed_ after shipment of the order and payment settlement from Klarna. Following this, the funds will be added to your account. If you have any questions regarding this change please contact <support@multisafepay.com> {{< /alert-notice >}} 
+{{< alert-notice >}} As of May 11, 2021, after orders are accepted Klarna transactions receive **Uncleared** status (instead of **Initialized** status). This changes to **Completed** after the order ships and Klarna settles the payment. The funds are then added to your MultiSafepay balance. For any questions, email the Support Team at <support@multisafepay.com> {{< /alert-notice >}} 
 
 
 | Order Status                      | Transaction Status      | Description |
