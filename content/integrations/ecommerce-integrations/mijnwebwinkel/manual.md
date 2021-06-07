@@ -30,11 +30,6 @@ You will need a MultiSafepay account. See [Getting started](/guides/getting-star
 
 **Note:** You can apply a [surcharge](/faq/general/multisafepay-glossary/#surcharge) to payment methods.
 
-<<<<<<< HEAD
-For any technical queries about the plugin, see Mijnwebwinkel – [Contactformulier](https://www.mijnwebwinkel.nl/contactformulier).
-
-A dedicated support section can also be found on the official website of [Mijnwebwinkel](https://www.mijnwebwinkel.nl/support)
-=======
 ### Further support
 
 The plugin is developed and supported by Mijnwebwinkel. See Mijnwebwinkel - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).
@@ -43,4 +38,3 @@ For any technical queries about the plugin, see Mijnwebwinkel - [Contact form](h
 
 For support documentation, see Mijnwebwinkel - [Support](https://www.mijnwebwinkel.nl/support).
 
->>>>>>> master

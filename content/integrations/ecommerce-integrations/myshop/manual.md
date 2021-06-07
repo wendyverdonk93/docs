@@ -19,8 +19,6 @@ Contact us:
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
 
-<<<<<<< HEAD
-=======
 ### Requirements
 You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
 
@@ -33,5 +31,4 @@ You will need a MultiSafepay account. See [Getting started](/guides/getting-star
 6. If using a test account, select **Test mode**.
 7. Click **Save**.
 
->>>>>>> master
 For any technical queries about the app, email myShop at <support@myshop.com>

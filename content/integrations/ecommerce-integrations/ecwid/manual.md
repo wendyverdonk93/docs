@@ -28,14 +28,9 @@ For more information, see Ecwid - [How to set up](https://support.ecwid.com/hc/e
 ### Wix
 For instructions for integrating your Ecwid store with Wix, see Ecwid - [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
 
-<<<<<<< HEAD
-### 2. Congratulations
-For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
-=======
 ### Support
 For support, contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
 
 For any questions about the app, email the Integration Team at <integration@multisafepay.com>
 
->>>>>>> master
 

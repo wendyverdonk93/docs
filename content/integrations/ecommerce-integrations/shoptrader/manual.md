@@ -15,9 +15,5 @@ For any technical queries about the plugin, email Shoptrader at <info@shoptrader
 ### Requirements
 You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
 
-<<<<<<< HEAD
-The plugin is developed and maintained by Shoptrader. For any technical queries, email Shoptrader at <info@shoptrader.nl>
-=======
 
  
->>>>>>> master

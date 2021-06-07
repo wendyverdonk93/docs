@@ -17,10 +17,6 @@ For support, contact Lightspeed – [Support](https://www.lightspeedhq.nl/suppor
 ### Requirements
 You will need a MultiSafepay account – See [Getting started](/guides/getting-started/).
 
-<<<<<<< HEAD
-### 2. Congratulations
-For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
-=======
 ### Installation and configuration
 1. Log in to your Lightspeed backend.
 2. Go to **Settings** > **Payment providers**.
@@ -30,4 +26,3 @@ Your account ID appears in the top-right corner of your MultiSafepay Control.
 4. Select the payment methods you want to offer.
 
 For any questions about the core integration, email the Integration Team at <integration@multisafepay.com>
->>>>>>> master

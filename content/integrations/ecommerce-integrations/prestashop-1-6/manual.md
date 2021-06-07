@@ -36,8 +36,4 @@ Contact us:
 
 **Note:** Payment links generated manually in your MultiSafepay Control don't automatically create or update orders in your PrestaShop 1.6 backend.
 
-<<<<<<< HEAD
-### 4. Congratulations
-=======
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

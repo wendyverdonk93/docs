@@ -36,8 +36,4 @@ Contact us:
 6. Disable the **MultiSafepay - Connect** module.
 7. Enable the relevant payment methods.
 
-<<<<<<< HEAD
-### 4. Congratulations
-=======
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

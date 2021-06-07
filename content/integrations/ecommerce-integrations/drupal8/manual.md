@@ -52,9 +52,4 @@ For any questions about the plugin, email the Integration Team at <integration@m
 
 ### Support phase out
 
-<<<<<<< HEAD
-### 4. Congratulations
-For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
-=======
 Drupal no longer provides security updates for Drupal 8.9.x, and will only provide bugfix support until early 2021 and security fixes until November 2021. For more information about upgrading from Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher)
->>>>>>> master

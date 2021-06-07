@@ -12,12 +12,6 @@ This plugin is developed and maintained by ShopFactory.
 
 For any technical queries about the plugin, see ShopFactory - [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
 
-<<<<<<< HEAD
-### Installation & Configuration
-
-The plugin is developed and maintained by ShopFactory. For any technical queries, see ShopFactory – [ShopFactory Support](https://www.shopfactory.nl/contents/nl/d122.html).
-=======
 ### Requirements
 You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
  
->>>>>>> master

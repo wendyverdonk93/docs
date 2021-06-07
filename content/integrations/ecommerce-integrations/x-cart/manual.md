@@ -44,8 +44,4 @@ Contact us:
   - For where to find your account ID, site ID, site secure code, see [API key](/tools/multisafepay-control/get-your-api-key).
 9. Click **Save changes**.  
 
-<<<<<<< HEAD
-### 4. Congratulations
-=======
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

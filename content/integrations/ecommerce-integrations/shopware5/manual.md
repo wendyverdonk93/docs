@@ -34,9 +34,5 @@ Contact us:
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
 
-<<<<<<< HEAD
-### 3. Congratulations
-=======
 ### Further support
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

@@ -10,11 +10,7 @@ aliases:
 
 Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from an order. 
 
-<<<<<<< HEAD
-{{< alert-notice >}} As of October 1, 2020, Klarna Payment Method (KPM) is superseded by Klarna Payments. We recommend upgrading as soon as possible. Before KPM is completely decommissioned, new transactions will be disabled, and refunds will only be available for a short period thereafter. To upgrade, see Klarna - [Webwinkel support]([Klarna](https://www.klarna.com/nl/zakelijk/webwinkelsupport). {{< /alert-notice >}} 
-=======
 {{< alert-notice >}} **Note:** As of October 1, 2020 Klarna Payment Method (KPM) is superceded by Klarna Payments. We recommend migrating as soon as possible. Prior to the full decommission of Klarna, new transactions will be disabled at one point and finally refunds will only be available for short period thereafter. Please contact [Klarna](https://www.klarna.com/nl/zakelijk/webwinkelsupport) in order to upgrade to the new Klarna integration.  {{< /alert-notice >}} 
->>>>>>> master
 
 | Payment type   | [Payment flow](https://docs.multisafepay.com/faq/api/difference-between-direct-and-redirect)      | Countries | Currencies | Refund options  | [Recurring](https://docs.multisafepay.com/tools/recurring-payments)   | [Chargebacks](https://docs.multisafepay.com/faq/chargebacks)   |
 |----------------|-------------------|-----------|------------|------------------|------------|---------------|

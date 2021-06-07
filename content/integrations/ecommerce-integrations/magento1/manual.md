@@ -27,15 +27,9 @@ To install the plugin via SFTP upload:
 ### Technical support
 Contact us:
 
-<<<<<<< HEAD
-{{< blue-notice >}}
-MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
-{{< /blue-notice >}}
-=======
 - Telephone: +31 (0)20 8500 500
 - Email: <integration@multisafepay.com>
 - GitHub: Create a technical issue
->>>>>>> master
 
 ### Requirements
 - MultiSafepay account – See [Getting started](/guides/getting-started/).
@@ -67,15 +61,7 @@ MultiSafepay supports most Magento functionalities. For any questions, email the
 5. To configure FastCheckout settings, go to the **FastCheckout** page.    
     For more information, see [FastCheckout](/payment-methods/fastcheckout).
 
-<<<<<<< HEAD
-### 4. Congratulations
-For any questions about the plugin:
-
- - Email the Integration Team at <magento1@multisafepay.com> 
- - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
-=======
 For any questions about the plugin:
 
 - Email the Integration Team at <magento1@multisafepay.com> 
 - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
->>>>>>> master

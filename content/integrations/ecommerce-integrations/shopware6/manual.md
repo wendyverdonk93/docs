@@ -51,13 +51,8 @@ Run the following command in the root of your Shopware root directory. Make sure
 composer require multisafepay/shopware6
 ```
 
-<<<<<<< HEAD
-### 3. Congratulations
-For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
-=======
 ### Further support
 For any questions about the plugin:
->>>>>>> master
 
 - Email the Integration Team at <integration@multisafepay.com>
 - Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 

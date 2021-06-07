@@ -61,8 +61,4 @@ Our Shopify app is unavailable in Norway and Finland. For more information, emai
 
 **Note**: To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
 
-<<<<<<< HEAD
-### 2. Congratulations
-=======
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

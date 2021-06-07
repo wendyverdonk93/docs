@@ -39,9 +39,4 @@ Contact us:
 5. Click **Save**.
 3. On the **Payments** tab, enable the relevant payment methods.
 
-<<<<<<< HEAD
-### 4. Congratulations
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
-=======
-For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
->>>>>>> master

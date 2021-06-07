@@ -24,9 +24,6 @@ Contact us:
 - Drupal 7.x
 - Tested on PHP 7.0
 
-<<<<<<< HEAD
-## 4. Congratulations
-=======
 ## Installation and configuration
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
 2. Log in to your Drupal 7 backend.
@@ -44,5 +41,4 @@ This rule sets the order to `processing` when the order is paid in full.
     * MultiSafepay order complete: Shipped at MultiSafepay  
 This rule updates the transaction status to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-invoicing, this triggers the invoicing process.
 
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

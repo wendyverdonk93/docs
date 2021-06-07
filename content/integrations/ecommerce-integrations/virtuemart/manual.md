@@ -49,8 +49,4 @@ Contact us:
   - Gateway ID  
   {{% account_info %}} 
 
-<<<<<<< HEAD
-### 4. Congratulations
-=======
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>

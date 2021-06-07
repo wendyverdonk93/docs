@@ -57,11 +57,7 @@ To disable the classic Lightspeed integration after migrating to the new app, fo
 
 For any questions about the app, email the Integration Team at <integration@multisafepay.com>
 
-<<<<<<< HEAD
-For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
-=======
 To access the MultiSafepay Payments app **Settings** page:
->>>>>>> master
 
 - You are automatically redirected after installing the app, or 
 - Select the MultiSafepay Payments app, and then click **Go to app**.

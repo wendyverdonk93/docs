@@ -37,15 +37,9 @@ As of version 2.4.0, we also support [Magento Vault](https://devdocs.magento.com
 
 Features that are no longer available:
 
-<<<<<<< HEAD
-{{< blue-notice >}}
-MultiSafepay supports most Magento functionalities. For any questions, email the Integration Team at <integration@multisafepay.com>
-{{< /blue-notice >}}
-=======
 * Tokenization – replaced by Magento Vault and Instant Purchase
 * FastCheckout – no longer supported
 * PWA (REST) endpoints – replaced by GraphQL endpoints
->>>>>>> master
 
 ### Requirements
 - MultiSafepay account – See [Getting started](/guides/getting-started/).
@@ -112,41 +106,8 @@ Log in to your Magento 2 backend, and go to **Stores** > **Configuration** > **M
 - **Gift cards**: This page contains the configuration options for all gift cards supported by MultiSafepay.    
   Make sure you have activated your selected gift cards in your [MultiSafepay Control](https://merchant.multisafepay.com). For more information, see [Gift cards](/payment-methods/prepaid-cards/gift-cards).
 
-<<<<<<< HEAD
-### 5. Configuration
-1. Log in to the backend of your webshop and navigate to _Stores_ > _Configuration_ > _MultiSafepay_ > _General Information_.  
-This page contains all main support information and it is advised to read this.
-
-2. Navigate to _Stores_ > _Configuration_ > _MultiSafepay_ > _General Settings_.   
-This page contains all main settings and is used for all gateways and gift cards.
-Information on where to find your Account ID, Site ID, Site code or [API key](/faq/general/multisafepay-glossary/#api-key) can be found on our [API key page](/tools/multisafepay-control/get-your-api-key).
-Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner.
-
-2. Navigate to _Stores_ > _Configuration_ > _MultiSafepay_ > _Payment Methods_.   
-This page contains the configuration options for all payment methods supported by MultiSafepay.  
-Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
-
-3. Navigate to _Stores_ > _Configuration_ > _MultiSafepay_ > _Gift Cards_.  
-This page contains the configuration options for all gift cards supported by MultiSafepay.  
-Gift cards need to be activated, more information can be found on our [gift card page](/payment-methods/prepaid-cards/gift-cards)
-
-### 6. Congratulations
-For any questions about the plugin:
-
- - Email the Integration Team at <integration@multisafepay.com> 
- - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
-
-### 7. Updates 
-Run the following commands via the CLI:
-```
-composer update multisafepay/magento2 --with-dependencies
-php bin/magento setup:upgrade
-php bin/magento setup:di:compile
-```
-=======
 ### Further support
 For any questions about the plugin:
->>>>>>> master
 
 - Email the Integration Team at <integration@multisafepay.com> 
 - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments

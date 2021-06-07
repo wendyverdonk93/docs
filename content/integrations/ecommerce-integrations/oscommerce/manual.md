@@ -32,8 +32,4 @@ Contact us:
 5. Enter your API key. {{% account_info %}} 
 6. Complete the other fields as required.
 
-<<<<<<< HEAD
-### 4. Congratulations
-=======
->>>>>>> master
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
