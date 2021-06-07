@@ -7,7 +7,6 @@ logo: "/logo/Integrations/EasyWebshop.svg"
 weight: 31
 title_short: "EasyWebshop"
 description_short: "Free app to integrate MultiSafepay payment solutions into your EasyWebshop platform."
-description: "Free app to integrate MultiSafepay payment solutions into your EasyWebshop platform."
 layout: 'single'
 aliases: 
     - /hosted/easywebshop
