@@ -1,6 +1,6 @@
 ---
-title : "What should I do when migrating to the new plugin?"
-meta_title: "Magento 2 plugin FAQ - Migration to the new plugin  - MultiSafepay Docs"
+title : "Migrating to the new plugin"
+meta_title: "Magento 2 plugin - Migrating to the new plugin  - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "Version 2 of our plugin is a different plugin and has been built from the ground up. This also means that there are some differences, compared to the deprecated plugin. This article will describe in detail all of the most important differences, to prevent you running in to unexpected behaviour."
