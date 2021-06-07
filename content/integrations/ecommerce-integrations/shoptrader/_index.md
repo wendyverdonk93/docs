@@ -8,12 +8,10 @@ logo: "/logo/Integrations/Shoptrader.svg"
 weight: 26
 title_short: "Shoptrader"
 description_short: "Free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop"
-description: "Free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop. 
-This plugin is managed by our partner Shoptrader."
+description: "Free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop"
 layout: 'single'
 aliases: 
     - /integrations/shoptrader/
     - /hosted/shoptrader
     - /integrations/hosted/shoptrader
-    - /integrations/shoptrader]
 ---
