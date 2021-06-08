@@ -5,7 +5,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 {{< code-block >}}
 
-> GET - /connect/auth/api_token/
+> GET - /auth/api_token/
 
 > JSON Response
 ``` shell
