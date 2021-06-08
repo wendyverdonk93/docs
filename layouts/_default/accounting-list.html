@@ -12,13 +12,13 @@
       <div class="col-lg-6 pb-4">
         <div class="block-item py-3 px-4">
           <a class="row no-decoration" id="heading-{{ .Title | anchorize}}" href="{{ .Permalink }}">
-              <div class="col-2 d-flex ">
+              <div class="col-2">
                 {{ with .Params.logo }}
                 <img class="m-3" style="width: 50px; height: 40px" src="{{ . }}" />
                 {{ end }}
               </div>
-              <div class="ml-2 my-auto">
-                <p class="px-3 my-auto" style="font-weight: 600; font-size: 1.6rem;">{{ .Title }}</b>
+              <div class="col my-auto">
+                <p class="my-auto ml-5" style="font-weight: 600; font-size: 1.6rem;">{{ .Title }}</b>
               </div>
             </a>
         </div>
