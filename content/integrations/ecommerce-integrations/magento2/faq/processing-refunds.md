@@ -6,6 +6,7 @@ layout: "faqdetail"
 read_more: "."
 aliases: 
     - /integrations/magento2/faq/refunding-magento2/
+    - /integrations/ecommerce-integrations/magento2/faq/refunding-magento2/
 ---
 
 To process refunds and credit memos from your Magento 2 backend, follow these steps:  
