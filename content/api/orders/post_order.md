@@ -186,6 +186,13 @@ __email__ | string
 
 Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
 
+----------------
 
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 {{% /description %}}

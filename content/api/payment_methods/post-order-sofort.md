@@ -207,9 +207,13 @@ __customer__ | object
 Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
 
 ----------------
+__close_window__ | bool (optional)
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
-
 
 ### Direct - SOFORT
 Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect) order.

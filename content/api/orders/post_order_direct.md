@@ -163,5 +163,14 @@ __cancel_url__ | string
 
 If the payment fails, the customer is redirected to this page.
 
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
+
 
 {{< /description >}}

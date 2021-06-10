@@ -300,6 +300,13 @@ __forwarded_ip__ | string
  The X-FORWARDED-FOR header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
 
 ----------------
+
+__close_window__ | bool (optional)
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.  
+
+----------------
+
 **Note:** The `first_name` and `last_name` fields in both the `customer` and `delivery` objects require at least 2 characters. For Afterpay, we recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
 For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).

@@ -107,6 +107,13 @@ Customer will be redirected to this page after a failed payment.
 
 ----------------
 
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
+
 __Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
 
 Read more about [Mastercard](/payment-methods/credit-and-debit-cards/mastercard) on our documentation page.
