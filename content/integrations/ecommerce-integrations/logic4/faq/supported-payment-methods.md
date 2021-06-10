@@ -22,7 +22,6 @@ __Banks__
 + [iDEAL](/payment-methods/banks/ideal)
 + [ING Home'Pay](/payment-methods/banks/ing-home-pay)
 + [KBC](/payment-methods/banks/kbc)
-+ [Klarna](/payment-methods/billing-suite/klarna)
 + [Maestro](/payment-methods/credit-and-debit-cards/maestro)
 + MultiSafepay Wallet
 + [PayPal](/payment-methods/wallet/paypal)
@@ -33,6 +32,7 @@ __Billing suites__
 
 + [AfterPay](/payment-methods/billing-suite/afterpay)
 + [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
++ [Klarna](/payment-methods/billing-suite/klarna)
 + [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
 + [in3](/payment-methods/billing-suite/in3)
 

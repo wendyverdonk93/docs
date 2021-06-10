@@ -39,3 +39,13 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 3. To add payment methods activated in your [MultiSafepay Control](https://merchant.multisafepay.com) and configure gateways, go to **Commerce** > **System settings** > **Gateways**.  
   
 For any questions about the plugin, email the Integration Team at <integration@multisafepay.com>
+
+### Features
+
+- Support for separate payment methods, billing suites, and gift cards
+- Partial and full refunds for non-billing suite payment methods
+- Customizable order statuses
+- Shipment notifications for billing suite payment methods
+
+### Discounts
+Discounts are not supported by the MultiSafepay Craft Commerce 3 plugin.

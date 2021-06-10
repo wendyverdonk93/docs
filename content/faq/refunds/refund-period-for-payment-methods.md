@@ -46,4 +46,4 @@ This table lists the refund period for each payment method:
 | [Trustly](/payment-methods/banks/trustly/) | 365 days |
 | [Visa](/payment-methods/credit-and-debit-cards/visa/) | 180 days |
 
-For questions or help initiating refunds in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>
+For questions about initiating refunds in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>

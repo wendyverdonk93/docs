@@ -20,4 +20,3 @@ Although MultiSafepay doesn't prohibit iFrames, we don't recommend them. Reasons
 
 For support, email the Integration Team at <integration@multisafepay.com>
  
-

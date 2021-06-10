@@ -1,28 +1,28 @@
 ---
-title : "Language of the MultiSafepay payment page and messages sent to the customer"
-meta_title: "WooCommerce plugin available payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+title : "Changing the language for MultiSafepay payment pages and messages"
+meta_title: "WooCommerce plugin - Changing language - MultiSafepay Docs"
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
-aliases: [/integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/]
+aliases: 
+    - /integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/
 ---
 
-MultiSafepay supports sending messages (Second Chance emails, links, order confirmation) and shows the payment page to the customer in several languages. 
+MultiSafepay supports payment pages and messages to customers (e.g. Second Chance emails, links, order confirmations) in several languages. 
 
-However, Wordpress - WooCommerce only delivers us the language of the shop itself, no matter what the language or country of the customer is; or the current language of the store for the customer if you are using any third party plugin to have a multi language webshop. 
+However, WooCommerce only supports the language of your ecommerce platform, irrespective of the customer's language or country, or the language of the webshop (if you use a third-party plugin for a multi-lingual webshop). 
 
-The MultiSafepay plugin for WooCommerce defines the language of the payment page and the language of the emails taking the locale code from get_locale(), which is a function built in Wordpress.
+Our plugin sets the language for payment pages and messages based on the locale code `get_locale()` - a Wordpress function.
 
-If you want to change this behavior it is possible using the filter hook “multisafepay_customer_locale” built in our plugin.
+To change this behavior, use the `multisafepay_customer_locale` filter hook in our plugin.
 
 Ask your developer to read:
 
-+ [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
-+ [What does Locale do?](https://docs.multisafepay.com/faq/api/locale/)
-
+- WordPress Developer Resources - [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
+- MultiSafepay Docs - [Locale](https://docs.multisafepay.com/faq/api/locale/)
 &nbsp;
 
-A simple example of how to implement this will be the following: 
+Example implementation: 
 
 ``` 
 add_filter('multisafepay_customer_locale', 'return_my_own_locale');

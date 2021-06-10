@@ -1,7 +1,7 @@
 ---
 title : "Migrating to the new plugin"
 meta_title: "Magento 2 plugin - Migrating to the new plugin  - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
 aliases:
@@ -75,5 +75,5 @@ Deprecated plugin:
 Payment page in the deprecated plugin:
 {{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout-deprecated-2.png" align="center" class="small-image desktop-radius" >}}
 
-New plugin:
+AfterPay in the new plugin:
 {{< screen src="/integrations/ecommerce-integrations/magento2/faq/screens/magento2-afterpay-checkout.png" align="center" class="desktop-radius" >}}

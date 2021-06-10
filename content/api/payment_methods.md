@@ -17,8 +17,8 @@ Our API payment methods enables you to perform different calls through which you
 
 We encourage you to study this API and start implementing your custom integration against our [``TEST`` environment](#environments)
 
-For any questions, do not hesitate to contact us at <integration@multisafepay.com>
+For any questions, email the Integration Team at <integration@multisafepay.com>
+
 
 **All parameters shown are required field(s)**
 {{% /description %}}
-

@@ -23,4 +23,4 @@ Please follow these steps to refund a EPS transaction:
 
 >_A refund will only be processed if your balance on your MultiSafepay Control is sufficient_.
 
-In the event of a failed EPS refund, please contact our support team at <support@multisafepay.com> to assist you.
+If an EPS refund fails, email the Support Team at <support@multisafepay.com>

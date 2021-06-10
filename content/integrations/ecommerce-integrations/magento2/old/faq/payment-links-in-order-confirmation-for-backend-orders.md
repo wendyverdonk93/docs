@@ -10,4 +10,4 @@ aliases:
 
 If you want to use payment links in order confirmation e-mails for orders created in the backend, we suggest upgrading to our [new Magento 2 plugin](/integrations/plugins/magento2/).
 
-If you cannot upgrade to the new Magento 2 plugin immediately, and you need to have this feature enabled inside the deprecated plugin, please contact our integration team at integration@multisafepay.com to help you further.
+If you cannot upgrade to the new Magento 2 plugin immediately, and you need this feature enabled in the deprecated plugin, email the Integration Team at <integration@multisafepay.com>

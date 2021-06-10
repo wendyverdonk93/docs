@@ -17,8 +17,7 @@ Email requests to activate recurring payments to either:
 
 The default frequency limit for recurring payments is once every 24 hours per recurring ID.
 
-To adjust this limit, email your reasoned request the Risk Team at <risk@multisafepay.com> 
-
+To adjust this limit, email your request and reasons to the Risk Team at <risk@multisafepay.com> 
 
 
 

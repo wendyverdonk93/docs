@@ -24,5 +24,4 @@ A refund will be processed on the Alipay account of the customer within the next
 
 >_Outgoing payments will not be processed if your MultiSafepay balance is insufficient._
 
-In the event of a failed Alipay refund, please contact our support team at <support@multisafepay.com> to assist you.
-
+If an Alipay refund fails, email the Support Team at <support@multisafepay.com> 

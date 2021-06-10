@@ -20,13 +20,3 @@ aliases:
     - /integrations/craftcommerce
 
 ---
-
-### Features
-
-- Support for separate payment methods, billing suites, and gift cards
-- Partial and full refunds for non-billing suite payment methods
-- Customizable order statuses
-- Shipment notifications for billing suite payment methods
-
-### Discounts
-Discounts are not supported by the MultiSafepay Craft Commerce 3 plugin.

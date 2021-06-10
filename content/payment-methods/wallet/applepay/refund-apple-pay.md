@@ -23,4 +23,4 @@ A refund will be processed on the Apple Pay account and credit card statement of
 
 >_Outgoing payments will not be processed if your MultiSafepay balance is insufficient._
 
-In the event of a failed Apple Pay refund, please contact our support team at <support@multisafepay.com> to assist you.
+If an Apple Pay refund fails, email the Support Team at <support@multisafepay.com>

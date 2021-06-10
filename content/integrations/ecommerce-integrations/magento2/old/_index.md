@@ -66,7 +66,10 @@ This page contains the FastCheckout specific settings.
 More information about the FastCheckout can be found in our [documentation of FastCheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+For any questions about the plugin:
+
+ - Email the Integration Team at <integration@multisafepay.com> 
+ - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
 ### 5. Updates 
 Run the following commands via the CLI:

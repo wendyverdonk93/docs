@@ -8,8 +8,7 @@ logo: "/logo/Integrations/Ecwid.svg"
 weight: 12
 title_short: "Ecwid"
 description_short: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
-description: "Free app to integrate MultiSafepay payment solutions into your Ecwid store.
-"
+description: "Free app to integrate MultiSafepay payment solutions into your Ecwid store."
 layout: 'single'
 aliases: 
     - /hosted/ecwid

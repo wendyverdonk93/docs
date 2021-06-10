@@ -13,4 +13,4 @@ aliases: [/payment-methods/e-invoicing/activate/]
 
 In order to enable E-Invoicing for your ecommerce platform, an application is required. 
 
-Submit your request by contacting your account manager at <sales@multisafepay.com>
+Email your request to your account manager at <sales@multisafepay.com>
