@@ -47,6 +47,16 @@ To successfully process partial refunds for the same product with different spec
 
 {{< /details >}}
 
+### Support
+
+{{< details title="Get support" >}}
+&nbsp;  
+For customers, see Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
+
+For merchants, email MultiSafepay at <klarna@multisafepay.com>
+
+{{< /details >}}
+
 ## Payment flow
 
 The table below shows the Klarna payment flow from start to finish.  
@@ -133,7 +143,10 @@ For more information about integrating Klarna with MultiSafepay, see Payment met
 
 {{< /details >}}
 
-### Support
+{{< details title="Get support" >}}
+&nbsp;  
 For customers, see Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
 
 For merchants, email MultiSafepay at <klarna@multisafepay.com>
+
+{{< /details >}}
