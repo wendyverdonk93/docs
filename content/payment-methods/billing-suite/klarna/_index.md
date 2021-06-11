@@ -115,12 +115,10 @@ For more information and support for existing clients, email Klarna Verkoop at <
 
 For questions about your Klarna integration and the connection with MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>
 
-## Integration
+## Integration and testing
 Klarna makes your ecommerce platform available in the MultiSafepay partner portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay Control. 
 
 To integrate Klarna using our API, see API Reference - [Klarna](/api/#klarna).
-
-### Testing
 
 {{< details title="View credentials and testing process" >}}
 
