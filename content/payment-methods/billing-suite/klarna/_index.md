@@ -23,6 +23,8 @@ For merchants, email MultiSafepay at <klarna@multisafepay.com>
 
 {{< /details >}}
 
+## About Klarna
+
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
