@@ -6,10 +6,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 weight: 1
 aliases:
-    - /tools/reports/accountant-report-export
-    - /tools/reports/report-validity
-    - /tools/reports/N-codes
-    - /tools/reports/automatic-reports
+    - /tools/reports/accountant-report-export/
+    - /tools/reports/report-validity/
+    - /tools/reports/n-codes/
+    - /tools/reports/automatic-reports/
 ---
 
 The Accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and transaction status (at the time the report was generated).
