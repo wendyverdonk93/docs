@@ -61,7 +61,7 @@ To successfully process partial refunds for the same product with different spec
 
 The table below shows the Klarna payment flow from start to finish.  
 
-In your MultiSafepay Control > **Transaction overview** > **Transaction details** page, there are two statuses that change as the flow progresses: 
+In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
