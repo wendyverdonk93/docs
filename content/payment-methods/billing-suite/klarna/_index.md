@@ -15,6 +15,14 @@ aliases:
 
 Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction.
 
+{{< details title="Get support" >}}
+&nbsp;  
+For customers, see Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
+
+For merchants, email MultiSafepay at <klarna@multisafepay.com>
+
+{{< /details >}}
+
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
@@ -44,16 +52,6 @@ If you supply multiple order rules with the same `merchant-item-id`and the custo
 To successfully process partial refunds for the same product with different specifications (e.g. size, color) via the shopping cart, each `merchant-item-id` must be unique.
 
 **Example:** For different-sized products, differentiate the `merchant-item-id` with `-size`: 1001311-xxl, 1001311-m, 1001311-s.
-
-{{< /details >}}
-
-### Support
-
-{{< details title="Get support" >}}
-&nbsp;  
-For customers, see Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
-
-For merchants, email MultiSafepay at <klarna@multisafepay.com>
 
 {{< /details >}}
 
