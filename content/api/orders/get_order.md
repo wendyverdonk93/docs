@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "email": "test@example.com"
     },
     "payment_details": {
-      "recurring_id": "{Recurring_id}",
+      "recurring_id": 133761993_gTp2,
       "type": "VISA",
       "account_id": null,
       "account_holder_name": "Testperson-nl Approved",
