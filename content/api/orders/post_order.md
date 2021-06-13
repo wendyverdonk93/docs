@@ -28,6 +28,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "ip_address": "80.123.456.789",
         "first_name": "Testperson-nl",
         "last_name": "Approved",
+        "company_name": "Test Company Name",
         "address1": "Kraanspoor",
         "house_number": "39C",
         "zip_code": "1033SC",
