@@ -34,7 +34,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "locale": "nl_NL",
       "first_name": "Testperson-nl",
       "last_name": "Approved",
-      "company_name":"Test Company Name",
       "address1": "Kraanspoor",
       "address2": null,
       "house_number": "39",
