@@ -2,7 +2,7 @@
 title : "Prohibited products and services"
 weight: 4
 meta_title: "FAQ Getting Started - Prohibited products and services - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
@@ -11,7 +11,7 @@ As a [payment service provider](/faq/general/multisafepay-glossary/#payment-serv
 
 We must account for risk and potential reputational damage. Therefore, we prohibit the sale of some products and services, or require additional information from the merchant.
 
-For a list of prohibited products and services, email the Sales Department at <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
+For a list of prohibited products and services, email the Sales Team at <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
 
 ### Erotica
 * Erotic or pornographic images

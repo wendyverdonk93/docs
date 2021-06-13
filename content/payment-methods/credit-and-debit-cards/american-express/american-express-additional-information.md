@@ -2,7 +2,7 @@
 title: "American Express"
 weight: 25
 meta_title: "American Express - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 ### American Express, additional information 
@@ -12,7 +12,7 @@ read_more: '.'
 
 > Payments with American Express can be completed only in Euros (EUR), American Dollars (USD) or British Pounds (GBP).
 
-> When using your own MID (MerchantID) from American Express, the funds are not processed by MultiSafepay. Instead, they will be added to your own balance at American Express. You will be automatically added to the Safekey directory. All currencies will be possible. For more information, please contact the support team at <support@multisafepay.com>
+> When you use your American Express MerchantID, MultiSafepay doesn't process the funds. Instead, they are added to your American Express balance. You are automatically added to the Safekey directory. All currencies are supported. For more information, email the Support Team at <support@multisafepay.com>
 
 > Credit card payments are not fully guaranteed. Customers can withdraw the transaction, due to their customer right protection of VISA and Mastercard. The accountability​ of accepting credit card payments lies entirely with the Merchant. 
 

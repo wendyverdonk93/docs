@@ -2,7 +2,7 @@
 title : "Integrating multiple payment methods"
 breadcrumb_title : "Integrating multiple payment methods"
 meta_title: "Payment Components - Integrating multiple payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 --- 
@@ -147,10 +147,13 @@ PaymentComponent.getPaymentData()
 
 ### Create an order
 
-Make a POST `/connect/payments/create` request from your server, appending the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process:
+Make a POST [`/orders`](/api/#orders) request from your server:
+
+- Append the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process.
+- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the Payment Component](#initialize-the-payment-component).
 
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
+curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 -H "accept: application/json" \
 -H "Content-Type: application/json" \
 -H "Authentication: Bearer <your-website-API-key>" \
@@ -167,11 +170,10 @@ curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
     },
 }"
 ```
-**Note:** The request follows the same structure as `POST /orders` requests. For more information, see API Reference&nbsp;-&nbsp;[Orders](/api/#orders).
 
 ### Redirect the customer
 
-**1.** From your server, pass the `response` to the POST `/connect/payments/create` request to the customer's device. 
+**1.** From your server, pass the `response` to the POST `/orders` request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 
@@ -201,7 +203,7 @@ PaymentComponent = new MultiSafepay({
 
 **2.** In Step 3: [Create an order](#create-an-order), change the test endpoint to the live endpoint:  
 
-`https://api.multisafepay.com/v1/connect/payments/create`
+`https://api.multisafepay.com/v1/json/orders`
 
 ## Next steps
 

@@ -2,7 +2,7 @@
 title : "E-Invoicing, How it works"
 weight: 21
 meta_title: "E-Invoicing, How it works - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/e-invoicing/how-does-e-invoicing-work/]
 ---
@@ -61,7 +61,7 @@ Your name
 Finance
 
 __
-For questions about your order, please contact our customer service via 0208500500 or example@email.nl
+For questions about your order, call customer service on 0208500500 or email example@email.nl
 ```
  
 ### Create collection flow
@@ -100,7 +100,7 @@ Good to know about the payment method E-Invoicing:
 
 ### Delivery address
 
-MultiSafepay can enable support for different delivery and invoice addresses upon request. Please contact your account manager for more information.
+Email requests to support different delivery and invoice addresses to your account manager at <sales@multisafepay.com>
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -144,4 +144,3 @@ Some rules may apply to certain payment methods. For E-Invoicing, the following 
 * As a post-payment method, E-Invoicing has a different payment flow and therefore the setting of days or seconds active will have no influence. Full documentation can be found on our [lifetime of a payment link](/faq/api/lifetime-of-a-payment-link) FAQ page
 
 * As a rule of thumb, post-payment methods do not allow the use of a [gift card](/payment-methods/prepaid-cards/gift-cards) by a customer when filling in the payment details (after the order has already been placed). This has to do with the accuracy of the order specifications, needed by the collecting party (i.e. E-Invoicing). Our platform would otherwise interpret the gift card as a discount (which is not present in the shopping cart specification) and would not reflect the right order information needed, for example, for taxation purposes. However, using gift cards for post-payment can be implemented as an option before placing the order (i.e. on your checkout page, before calling our API). It is the merchant's sole responsibility to enable this feature. Failing to comply with this product rule might result in unexpected errors and unwanted complications.
-

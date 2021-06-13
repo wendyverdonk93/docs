@@ -2,7 +2,7 @@
 title: "Generic gateways"
 weight: 13
 meta_title: "FAQ General - Generic gateways - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 ---
 
@@ -31,4 +31,3 @@ For more information about a specific plugin, see:
 - [Shopware 5](/integrations/ecommerce-integrations/shopware5/faq/generic-gateways/)
 - [Shopware 6](/integrations/ecommerce-integrations/shopware6/faq/generic-gateways/)
 - [WooCommerce](/integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/)
-

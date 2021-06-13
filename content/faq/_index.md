@@ -3,8 +3,8 @@ title: 'Frequently asked questions'
 meta_title: 'FAQ - MultiSafepay Docs'
 breadcrumb_title: 'FAQ'
 layout: 'block'
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/FAQ.svg'
-short_description: 'Explore our user guides and answers to freqently asked questions.'
+short_description: 'Answers to common questions'
 weight: 40
 ---

@@ -2,7 +2,7 @@
 title : "How to activate PayPal"
 weight: 22
 meta_title: "PayPal, how to activate it - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/paypal/activate-paypal/]
 ---
@@ -18,7 +18,7 @@ These instructions are in English. If your PayPal webpage is in another language
 4. Click on _Grant API permission_
 5. Enter `paypal_api1.multisafepay.com` in the Third-Party Permission Username field. Click on _Lookup_.
 
-{{< alert-notice >}} __Please read:__ If any of these steps are inaccurate, please send an email to: <integration@multisafepay.com> {{< /alert-notice >}} 
+{{< alert-notice >}} For support or if any steps are inaccurate, email the Integration Team at <integration@multisafepay.com> {{< /alert-notice >}} 
 
 The following options can be accessed:
 
@@ -54,6 +54,6 @@ Do you want to show your header or logo at the checkout page in PayPal? First, u
 
 Your account is now configured and you are ready to accept MultiSafepay payments. We strongly recommend you perform one or more test transactions in order to ensure everything is working correctly.
 
-If PayPal is not visible as a payment method in your MultiSafepay Control account, please contact the Integrations team at <integration@multisafepay.com> to assist you further.
+If PayPal is not visible as a payment method in your MultiSafepay Control account, email the Integration Team at <integration@multisafepay.com> 
 
 _Please note that if you have enabled payment methods on a particular website, you should also enable PayPal for that specific website_.

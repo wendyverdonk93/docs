@@ -2,7 +2,7 @@
 title : "Activating recurring payments"
 weight: 53
 meta_title: "Activating recurring payments - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/recurring-payments/how-to-activate-recurring-payments
@@ -17,8 +17,7 @@ Email requests to activate recurring payments to either:
 
 The default frequency limit for recurring payments is once every 24 hours per recurring ID.
 
-To adjust this limit, email your reasoned request the Risk Team at <risk@multisafepay.com> 
-
+To adjust this limit, email your request and reasons to the Risk Team at <risk@multisafepay.com> 
 
 
 

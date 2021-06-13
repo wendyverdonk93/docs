@@ -2,7 +2,7 @@
 title: 'Email template, how does it work'
 weight: 6
 meta_title: "Email Template Basic Info - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
@@ -10,7 +10,7 @@ An email template is a preformatted and/or prewritten email that you can use to 
 
 MultiSafepay offers a number of options for sending a standard email, for example, a successful payment or a reminder email also known as a Second Chance email and many more. 
 
-> MultiSafepay is unable to customize payment pages or email templates for you, although if you do encounter functionality issues, please contact us at <integration@multisafepay.com>
+> MultiSafepay cannot customize payment pages or email templates for you. For functionality support, email the Integration Team at <integration@multisafepay.com>
 
 ## Set a template
 An email template can be set within your MultiSafepay Control under: _**Settings > Email template > Select a website > Add new template.**_ 
@@ -81,4 +81,3 @@ The provided locale changes the language of:
 When no locale is provided or when the language is not supported by MultiSafepay, American English is used by default.
 
 For example, if an email template is set for a German customer, but the locale is received as en_US, the email template will be sent in English and not in German.
-

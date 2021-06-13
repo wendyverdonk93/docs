@@ -2,12 +2,13 @@
 title : "Disputing chargebacks"
 weight: 26
 meta_title: "FAQ Chargebacks - Disputing chargebacks - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /faq/chargebacks/dispute-chargeback
 ---
-For questions or providing documentation you can submit your email to <retrieval@multisafepay.com>
+
+For questions or to provide documentation, email <retrieval@multisafepay.com>
 
 Customers who disagree with or do not recognize a transaction that is charged to their credit card can ask the card issuing bank to raise a dispute. If a dispute is raised, the card scheme (e.g. Mastercard or Visa) will notify MultiSafepay and reclaim the transaction amount from the merchant.
 

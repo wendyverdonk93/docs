@@ -3,7 +3,7 @@ title: 'Getting Started'
 breadcrumb_title: 'Getting Started'
 weight: 10
 meta_title: "Getting Started - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for Payment Methods, Tools and General Questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Getting started.svg'
 layout: 'single'
@@ -31,7 +31,7 @@ With a test account:
 * You can explore new features
 * No costs are associated with transactions
 
-If you run into issues during this process, email Customer Operations at <support@multisafepay.com>
+For support, email the Customer Operations Team at <support@multisafepay.com>
 
 ## Step 2: Set up your MultiSafepay Control
 After successfully creating a test account, it is time to set up your MultiSafepay Control. With MultiSafepay Control, you can generate your [API key](/faq/general/multisafepay-glossary/#api-key), monitor transactions, configure payouts, generate reports, and more. 
@@ -55,15 +55,15 @@ With an API key, you can start building and testing your integration. We offer m
 These solutions are made by our in-house developers. They include plugins, apps and core integrations for many leading ecommerce platforms like Magento, WooCommerce, Shopify, and Lightspeed. These solutions require fewer development resources and allow you to start testing your integration today. 
 
 {{< buttons >}}
-    {{< button href="/integrations/ecommerce-integrations/" header="Ecommerce integrations" text="View our plugins, apps and core integrations for ecommerce platforms" img="/svgs/Integrations.svg" alt="Ecommerce integrations icon">}}
+    {{< button href="/integrations/ecommerce-integrations/" header="Ecommerce integrations" text="Plugins, apps, and core integrations for ecommerce platforms" img="/svgs/Integrations.svg" alt="Ecommerce integrations icon">}}
 {{< /buttons >}}
 
 ### Custom-built integrations
 Build your own integration using our API, SDK's or wrappers. Generally, this requires more development resources. However, these methods provide full control over your checkout experience's look, feel, and functionality. Use these integration methods when you build your own ecommerce website or app.
 
 {{< buttons >}}
-    {{< button href="https://docs.multisafepay.com/api/" header="API" text="Our API reference describes the usage of all available endpoints, giving you full control when building your own ecommerce website" img="/svgs/API.svg" alt="API icon">}}
-    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Wrappers & SDK's facilitate development and testing for web and mobile applications" img="/svgs/Wrappers.svg" alt="Wrappers & SDKs" >}}
+    {{< button href="https://docs.multisafepay.com/api/" header="API" text="Our API Reference describes all endpoints, giving you full control when building a custom integration" img="/svgs/API.svg" alt="API icon">}}
+    {{< button href="https://docs.multisafepay.com/integrations/wrappers/" header="Wrappers & SDK's" text="Facilitate development and testing for web and mobile applications" img="/svgs/Wrappers.svg" alt="Wrappers & SDKs" >}}
 {{< /buttons >}}
 
 ### Other integration methods
@@ -71,7 +71,7 @@ Build your own integration using our API, SDK's or wrappers. Generally, this req
 * [Reservation Management](/integrations/reservation-management): allow your customers to make reservations and pay online
 * [Credit & Subscription Management](/integrations/credit-and-subscription-management): manage your subscriptions and collect your subscription fees
 
-To learn more about what integration method best suits your business, mail our Integration Specialists at <integration@multisafepay.com>
+For help determining the best integration method for your business, email the Integration Team at <integration@multisafepay.com>
 
 ## Step 4: Go live
 When you are ready, [sign up for a live account](https://merchant.multisafepay.com/signup) to begin processing real transactions.
@@ -85,4 +85,3 @@ If you need help creating a live account, email our Sales Team at <sales@multisa
 
 ## Step 5: Next steps
 Now that you're successfully processing payments, it's time to get the most out of our products. Start using our [Tools](https://docs.multisafepay.com/tools) to boost conversion, improve security, gain insights, and more.  
-
