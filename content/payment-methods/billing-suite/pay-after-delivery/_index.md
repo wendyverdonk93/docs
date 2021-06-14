@@ -62,17 +62,17 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 - Order status: indicates the status of the customer’s order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
 
-|   | Flow  | Order status  | Transaction status  | 
+|   | Flow | Order status | Transaction status | 
 |---|---|---|---|
-|  1. | The customer agrees with the terms and conditions and initiates a transaction.  | Uncleared  | Uncleared  |
-| 2.  | MultiSafepay approves or declines the transaction within 2 business days.  |   |   |
-|   | The transaction is successful.  | Completed | Uncleared  |
-| 3.  | Ship the order. {{< br >}} The order can no longer be cancelled. {{< br >}} See also [Closing transactions](/payment-methods/billing-suite/pay-after-delivery/faq/closing-transactions).  | Shipped  | Uncleared  |
-| 4.  | [Change the order status to Shipped](/payment-methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/).   |   |   |
-| 5.  | MultiSafepay sends Pay After Delivery a capture, and Pay After Delivery confirms the transaction.   |   |   |
-| 6.  | MultiFactor emails the customer an invoice containing a payment link within 24 hours of changing to **Shipped** status. {{< br >}} Your payout is now guaranteed. |   |   |
-| 7.  | The customer has 14 days to pay the invoice. {{< br >}} See also [Failure to pay](#failure-to-pay) below.  |   |   |
-| 8.  | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status.  | Shipped  | Completed  |
+| 1. | The customer agrees with the terms and conditions and initiates a transaction. | Uncleared | Uncleared |
+| 2. | MultiSafepay approves or declines the transaction within 2 business days. |   |   |
+|   | The transaction is successful. | Completed | Uncleared |
+| 3. | Ship the order. {{< br >}} The order can no longer be cancelled. {{< br >}} See also [Closing transactions](/payment-methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Shipped | Uncleared |
+| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). |   |   |
+| 5. | MultiSafepay sends Pay After Delivery a capture, and Pay After Delivery confirms the transaction. |   |   |
+| 6. | MultiFactor emails the customer an invoice containing a payment link within 24 hours of changing to **Shipped** status. {{< br >}} Your payout is now guaranteed. |   |   |
+| 7. | The customer has 14 days to pay the invoice. {{< br >}} See also [Failure to pay](#failure-to-pay) below. |   |   |
+| 8. | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status. | Shipped | Completed |
 
 ### Failure to pay
 
@@ -88,19 +88,19 @@ To stop sending reminders, credit the invoice for a zero amount.
 
 ### Other statuses
 
-| Description  | Order status  | Transaction status  | 
+| Description | Order status | Transaction status | 
 |---|---|---|
-| The transaction has been cancelled.  | Void  | Cancelled  |
-| The customer did not complete the transaction within 90 days of initiating it and the transaction has expired.  | Expired  | Expired  |
+| The transaction has been cancelled. | Void | Cancelled |
+| The customer did not complete the transaction within 90 days of initiating it and the transaction has expired. | Expired | Expired |
 
 ### Refund statuses
 
 For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/pay-after-delivery/faq/processing-refunds/).
 
-| Description                      | Order status     | Transaction status  |
-|--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| The customer has requested a refund. | Initialized    | Initialized   |  
-|  The refund is successfully processed. | Completed      | Completed | 
+| Description | Order status | Transaction status |
+|---|---|---|
+| The customer has requested a refund. | Initialized | Initialized |  
+| The refund is successfully processed. | Completed | Completed | 
 
 ## Activation
 To check your eligibility for Pay After Delivery, email your account manager at <sales@multisafepay.com>
@@ -119,8 +119,8 @@ Test addresses:
 
 Sample statuses:
 
-| Status    | Description              |
-| --------- | ------------------------ |
+| Status | Description |
+|---|---|
 | **Completed** | Transaction was completed |
 | **Declined** | Transaction was declined |
 
