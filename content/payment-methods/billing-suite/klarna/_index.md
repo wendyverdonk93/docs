@@ -28,10 +28,10 @@ For merchants, email MultiSafepay at <klarna@multisafepay.com>
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | `Direct`/`Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ `Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, Germany, Italy, Norway, Spain, Sweden, Netherlands, UK  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [Multi-currency setup](/payment-methods/billing-suite/klarna/faq/activating-multi-currency-setup/) | 
-| **Refunds**  | Full and partial  | | 
+| **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/klarna/faq/processing-refunds) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
@@ -57,9 +57,11 @@ To successfully process partial refunds for the same product with different spec
 
 {{< /details >}}
 
+- You cannot [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+
 ## Payment flow
 
-The table below shows the Klarna payment flow from start to finish.  
+The table below shows a successful Klarna payment flow from start to finish.  
 
 In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
@@ -88,12 +90,12 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 
 ### Refund statuses
 
-For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/klarna/#processing-refunds).
+For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/klarna/faq/processing-refunds).
 
 | Description                      | Order status      | Transaction status |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| The customer requests a refund. | Initialized    | Completed   |
-| The refund is successfully processed.  | Completed      | Completed   |
+| The customer has requested a refund. | Initialized    | Completed   |
+| The refund wass successfully processed.  | Completed      | Completed   |
 
 
 ## Activation
