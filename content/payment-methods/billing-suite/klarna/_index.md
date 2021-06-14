@@ -79,7 +79,9 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | 6. | MultiSafepay sends the customer an invoice. Your payout is now guaranteed. {{< br >}} See also [Customizing invoices](/payment-methods/billing-suite/klarna/faq/customizing-invoices/). | | |
 | 7. | Klarna pays the funds to MultiSafepay (after 14 business days). | Shipped    | Completed  |
 | 8. | MultiSafepay deducts the transaction fee and adds the remaining funds to your MultiSafepay balance (after 18-19 days). {{< br >}} **Note:** In your MultiSafepay Control > **Transaction details** page, the merchant fee always displays as 0,00.| | |
-| 9. | If the customer returns some items from the order, you can [place the collection period on hold](/payment-methods/billing-suite/klarna/faq/placing-collection-period-on-hold/) for 2 to 4 weeks.  | | |
+
+### Return process
+If the customer returns some items from the order and this takes a long time to verify, you can [place the collection period on hold](/payment-methods/billing-suite/klarna/faq/placing-collection-period-on-hold/) for 2 to 4 weeks.
 
 ### Other statuses
 
