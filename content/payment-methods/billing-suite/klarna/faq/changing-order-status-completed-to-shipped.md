@@ -14,9 +14,9 @@ Klarna does not support auto-ship functionality, so after you ship the order to 
 
 To change the order status manually, follow these steps:
 
-- Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
-- Go to **Transactions** > **Transactions overview**.
-- Search for the transaction, and click to open the **Transaction details** page. 
-- Under **Order details**, click **Change order status**. 
-- Change the status to **Shipped**.
-- Send the customer the Track & Trace details, if relevant.
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transactions overview**.
+3. Search for the transaction, and click to open the **Transaction details** page. 
+4. Under **Order details**, click **Change order status**. 
+5. Change the status to **Shipped**.
+6. Send the customer the Track & Trace details, if relevant.
