@@ -19,7 +19,7 @@ aliases:
 ## About Pay After Delivery
 Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the full risk, based on the customer's history, and guarantees payout of the transaction.
 
-|  |  |  |
+|   |   |   |
 |---|---|---| 
 | **Payment type** | Post-payment method   |  | 
 | **API flow** | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) | 
@@ -62,15 +62,15 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 - Order status: indicates the status of the customer’s order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
 
-|   | Flow | Order status | Transaction status | 
-|---|---|---|---|
+|    | Flow | Order status | Transaction status | 
+|----|------|--------------|--------------------|
 | 1. | The customer agrees with the terms and conditions and initiates a transaction. | Uncleared | Uncleared |
 | 2. | MultiSafepay approves or declines the transaction within 2 business days. |   |   |
 |   | The transaction is successful. | Completed | Uncleared |
 | 3. | Ship the order. {{< br >}} The order can no longer be cancelled. {{< br >}} See also [Closing transactions](/payment-methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Shipped | Uncleared |
 | 4. | [Change the order status to Shipped](/payment-methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). |   |   |
 | 5. | MultiSafepay sends Pay After Delivery a capture, and Pay After Delivery confirms the transaction. |   |   |
-| 6. | MultiFactor emails the customer an invoice containing a payment link within 24 hours of changing to **Shipped** status. {{< br >}} Your payout is now guaranteed. |   |   |
+| 6. | MultiFactor emails the customer an invoice containing a payment link within 24 hours of changing to **Shipped** status. {{< br >}} Your payout is now guaranteed.|   |   |
 | 7. | The customer has 14 days to pay the invoice. {{< br >}} See also [Failure to pay](#failure-to-pay) below. |   |   |
 | 8. | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status. | Shipped | Completed |
 
