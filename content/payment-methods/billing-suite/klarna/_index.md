@@ -30,7 +30,7 @@ For merchants, email MultiSafepay at <klarna@multisafepay.com>
 | **Payment type**   | Buy now pay later  | |
 | **API flow**  | `Direct`/ `Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, Germany, Italy, Norway, Spain, Sweden, Netherlands, UK  | |
-| **Currencies**  | EUR, SEK, NOK, DKK | [Multi-currency setup](/payment-methods/billing-suite/klarna/faq/activating-multi-currency-setup/) | 
+| **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) {{< br >}} [Multi-currency setup](/payment-methods/billing-suite/klarna/faq/activating-multi-currency-setup/) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/klarna/faq/processing-refunds) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
