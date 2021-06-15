@@ -7,7 +7,7 @@ intro_description: "Klarna is an online buy now pay later service that lets cust
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
 faq: '.'
-short_description: 'A popular payment after delivery service for webshops based in Austria, Germany, and the Netherlands'
+short_description: 'Popular buy now pay later service in Austria, Germany, and the Netherlands'
 aliases:
     - /support-tab/magento2/payment-methods/klarna
     - /payment-methods/klarna/
