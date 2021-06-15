@@ -4,7 +4,7 @@ breadcrumb_title: 'Payment flow'
 weight: 30
 meta_title: "Klarna payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-short_description: "Flow from start to finish and status change descriptions"
+short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
 ---
@@ -29,14 +29,14 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | 8. | MultiSafepay deducts the transaction fee and adds the remaining funds to your MultiSafepay balance (after 18-19 days). {{< br >}} **Note:** In your MultiSafepay Control > **Transaction details** page, the merchant fee always displays as 0,00.| | |
 | 9. | If the customer returns some items from the order, you can [place the collection period on hold](/payment-methods/billing-suite/klarna/faq/placing-collection-period-on-hold/) for 2 to 4 weeks.  | | |
 
-### Other statuses
+## Other statuses
 
 | Description                      | Order status      | Transaction status |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Klarna has rejected the transaction. See Klarna&nbsp;–&nbsp;[Contact customer service](https://www.klarna.com/international/contact-customer-service). {{< br >}} **Or** {{< br >}} The customer or merchant cancelled the transaction.    | Void   | Cancelled   |
 | The transaction was not completed or the [order status did not change to Shipped]((/payment-methods/billing-suite/klarna/faq/changing-order-status-completed-to-shipped/)), and the transaction expired. {{< br >}} Expired transactions cannot be reactivated but still appear in your MultiSafepay Control **Transaction overview**. Create a new order, if required.  | Expired    | Expired    |
 
-### Refund statuses
+## Refund statuses
 
 For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/klarna/#processing-refunds).
 
