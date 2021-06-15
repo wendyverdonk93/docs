@@ -1,12 +1,12 @@
 ---
 title: 'AfterPay'
 weight: 180
-meta_title: "Payment methods AfterPay - MultiSafepay Docs"
+meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/AfterPay.svg' 
-short_description: 'Largest post-payment solution in the Netherlands. Now available in Belgium.'
+short_description: 'Largest payment after delivery solution in the Netherlands. Now available in Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/afterpay
     - /payment-methods/afterpay/
@@ -19,11 +19,11 @@ aliases:
 
 ## About AfterPay
 
-AfterPay is the largest online post-payment service in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees payout.
+AfterPay is the largest online payment after delivery service in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees payout.
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Post-payment method  | |
+| **Payment type**   | Payment after delivery  | |
 | **API flow**  | `Direct`/ `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR |  | 
