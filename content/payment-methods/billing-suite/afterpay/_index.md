@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/AfterPay.svg' 
-short_description: 'Largest payment after delivery solution in the Netherlands. Now available in Belgium.'
+short_description: 'Largest buy now pay later service in the Netherlands. Now available in Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/afterpay
     - /payment-methods/afterpay/
@@ -19,11 +19,11 @@ aliases:
 
 ## About AfterPay
 
-AfterPay is the largest online payment after delivery service in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees payout.
+AfterPay is the largest online buy now pay later service in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees payout.
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Payment after delivery  | |
+| **Payment type**   | Buy now pay later  | |
 | **API flow**  | `Direct`/ `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR |  | 
@@ -35,7 +35,7 @@ AfterPay is the largest online payment after delivery service in the Netherlands
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, AfterPay requires very precise order specifications. 
+Buy now pay later services do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, AfterPay requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 
