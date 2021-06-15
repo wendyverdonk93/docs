@@ -13,7 +13,7 @@ Before applying for Klarna, check your eligibility with your account manager at 
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
  
-### New Klarna clients
+## New Klarna clients
 1. To sign up as a new Klarna client, email Klarna Sales at <verkoop@klarna.com>, and specify MultiSafepay as your payment service provider. You must sign an independent agreement with Klarna, including pricing.
 2. Klarna asks MultiSafepay to activate Klarna as a payment method for your ecommerce platform.
 3. You activate Klarna in the backend of your ecommerce platform.
@@ -21,7 +21,7 @@ For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klanten
 5. Request an acceptance test for specific URLs to Klarna Sales at <verkoop@klarna.com>
 6. Having completed the acceptance test, in your Klarna Online dashboard, change the status to **Live environment**.
 
-### Existing Klarna clients
+## Existing Klarna clients
 
 For more information and support for existing clients, email Klarna Verkoop at <verkoop@klarna.com>
 
