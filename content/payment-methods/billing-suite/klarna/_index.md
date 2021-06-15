@@ -81,7 +81,7 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | 8. | MultiSafepay deducts the transaction fee and adds the remaining funds to your MultiSafepay balance (after 18-19 days). {{< br >}} **Note:** In your MultiSafepay Control > **Transaction details** page, the merchant fee always displays as 0,00.| | |
 
 ### Return process
-If the customer returns some items from the order and this takes a long time to verify, you can [place the collection period on hold](/payment-methods/billing-suite/klarna/faq/placing-collection-period-on-hold/) for 2 to 4 weeks.
+If the customer returns some items from the order and this takes a long time to verify, you can [pauze the collection period](/payment-methods/billing-suite/klarna/faq/pauzing-collection-period) for 2 to 4 weeks.
 
 ### Other statuses
 
