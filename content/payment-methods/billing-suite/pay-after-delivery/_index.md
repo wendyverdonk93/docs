@@ -24,7 +24,7 @@ Pay After Delivery is MultiSafepay's own online buy now pay later service that l
 | **Payment type** | Buy now pay later   |  | 
 | **API flow** | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
-| **Currencies** | EUR |  |
+| **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
 | **Refunds** | Full and partial | [More information](/payment-methods/billing-suite/pay-after-delivery/faq/processing-refunds/) |
 | **Recurring payments** | No | [More information](/tools/recurring-payments) |
 | **Chargebacks** | No | [More information](/faq/chargebacks) |
