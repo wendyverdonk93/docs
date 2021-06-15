@@ -88,12 +88,11 @@ If the customer still fails to pay, the amount of the total invoice is transferr
 To stop sending reminders, credit the invoice for a zero amount. 
 
 ### Other statuses
-Other statuses include:
 
-| Description | Order status | Transaction status | 
-|---|---|---|
-| The transaction has been cancelled. | Void | Cancelled |
-| The customer did not complete the transaction within 90 days of initiating it and the transaction has expired. | Expired | Expired |
+| Description  | Order status  | Transaction status  |
+|---|---|---| 
+| The transaction has been cancelled. | Void   | Cancelled | 
+| The customer did not complete the transaction within 90 days of initiating it and the transaction has expired. | Expired | Expired | 
 
 ### Refund statuses
 
