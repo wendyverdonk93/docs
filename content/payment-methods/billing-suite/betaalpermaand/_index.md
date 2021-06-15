@@ -142,4 +142,3 @@ You cannot test Betaal per Maand in MultiSafepay Test Control.
 When activating Betaal per Maand as a payment method in your live MultiSafepay Control, you can test it before going live.
 
 {{< /details >}}
-
