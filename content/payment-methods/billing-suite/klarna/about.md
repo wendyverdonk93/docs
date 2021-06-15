@@ -1,6 +1,6 @@
 ---
 title: 'About Klarna'
-breadcrumb_title: 'About'
+breadcrumb_title: 'About Klarna'
 weight: 10
 meta_title: "About Klarna - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
