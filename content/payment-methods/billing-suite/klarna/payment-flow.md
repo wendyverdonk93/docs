@@ -16,9 +16,6 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
 
-
-### Payment flow
-
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
 |  1. | The customer initiates a transaction on the Klarna payment page. {{< br >}} See also [Reservation and invoice numbers](/payment-methods/billing-suite/klarna/faq/reservation-and-invoice-number/). | Uncleared   | Initialized  |
