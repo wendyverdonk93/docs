@@ -1,12 +1,12 @@
 ---
 title: 'in3'
 weight: 180
-meta_title: "Payment methods in3 - MultiSafepay Docs"
+meta_title: "Payment methods - in3 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 faq: '.'
 logo: '/svgs/in3.svg' 
-short_description: 'Dutch post-payment solution where customers pay in 3 installments'
+short_description: 'Dutch payment after delivery service where customers pay in 3 installments'
 aliases:
     - /support-tab/magento2/payment-methods/billing-suite/in3/
     - /payment-methods/billing-suite/in3/activate-in3/
@@ -18,11 +18,11 @@ aliases:
 
 ## About in3
 
-in3 is a Dutch online post-payment solution where customers pay in 3 installments at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees payout after receiving the first one. 
+in3 is a Dutch online payment after delivery service where customers pay in 3 installments at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees payout after receiving the first one. 
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Post-payment method  | |
+| **Payment type**   | Payment after delivery  | |
 | **API flow**  | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | in3 checks the customer's country, and billing/shipping address to confirm. |
 | **Currencies**  | EUR | | 
