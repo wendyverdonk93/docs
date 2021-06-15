@@ -25,7 +25,7 @@ in3 is a Dutch online buy now pay later service where customers pay in 3 install
 | **Payment type**   | Buy now pay later  | |
 | **API flow**  | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | in3 checks the customer's country, and billing/shipping address to confirm. |
-| **Currencies**  | EUR | | 
+| **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/in3/faq/processing-refunds/) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
