@@ -55,12 +55,12 @@ To successfully process partial refunds for the same product with different spec
 
 ## Payment flow
 
-The table below shows a successful Pay After Delivery payment flow from start to finish.
-
 In your MultiSafepay Control > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses:
 
 - Order status: indicates the status of the customer’s order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
+
+The table below shows a successful Pay After Delivery payment flow from start to finish.
 
 | Flow  | Order status  | Transaction status  |
 |---|---|---| 
@@ -88,6 +88,7 @@ If the customer still fails to pay, the amount of the total invoice is transferr
 To stop sending reminders, credit the invoice for a zero amount. 
 
 ### Other statuses
+Other statuses include:
 
 | Description | Order status | Transaction status | 
 |---|---|---|
