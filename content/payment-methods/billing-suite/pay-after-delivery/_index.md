@@ -1,12 +1,12 @@
 ---
 title: 'Pay After Delivery'
 weight: 170
-meta_title: "Payment methods Pay After Delivery - MultiSafepay Docs"
+meta_title: "Payment methods - Pay After Delivery - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg' 
-short_description: "MultiSafepay's own post-payment solution for Dutch merchants"
+short_description: "MultiSafepay's own buy now pay later service for Dutch merchants"
 aliases:
     - /support-tab/magento2/payment-methods/pay-after-delivery
     - /payment-methods/billing-suite/pay-after-delivery/activate-pay-after-delivery 
@@ -17,11 +17,11 @@ aliases:
 ---
 
 ## About Pay After Delivery
-Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the full risk, based on the customer's history, and guarantees payout of the transaction.
+Pay After Delivery is MultiSafepay's own online buy now pay later service that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the full risk, based on the customer's history, and guarantees payout of the transaction.
 
 |   |   |   |
 |---|---|---| 
-| **Payment type** | Post-payment method   |  | 
+| **Payment type** | Buy now pay later   |  | 
 | **API flow** | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR |  |
@@ -33,7 +33,7 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Pay After Delivery requires very precise order specifications. 
+Buy now pay later services do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Pay After Delivery requires very precise order specifications. 
 
 {{< /details >}}
 
