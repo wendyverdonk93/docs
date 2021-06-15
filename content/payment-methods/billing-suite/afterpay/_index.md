@@ -26,7 +26,7 @@ AfterPay is the largest online buy now pay later service in the Netherlands, and
 | **Payment type**   | Buy now pay later  | |
 | **API flow**  | `Direct`/ `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
-| **Currencies**  | EUR |  | 
+| **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/afterpay/faq/processing-refunds/) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
