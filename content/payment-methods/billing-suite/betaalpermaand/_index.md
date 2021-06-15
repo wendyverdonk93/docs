@@ -98,7 +98,7 @@ For how to process refunds, see [Processing refunds](/payment-methods/billing-su
 | The customer has requested a refund. | Reserved    | Reserved   |
 | The refund was successfully processed.  | Completed      | Completed   |
 
-### Activation
+## Activation
 
 **1.** To apply for Betaal per Maand:
 
