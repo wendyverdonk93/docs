@@ -62,7 +62,7 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 - Order status: indicates the status of the customer’s order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
 
-|    | Flow | Order status | Transaction status | 
+| Step | Flow | Order status | Transaction status | 
 |----|------|--------------|--------------------|
 | 1. | The customer agrees with the terms and conditions and initiates a transaction. | Uncleared | Uncleared |
 | 2. | MultiSafepay approves or declines the transaction within 2 business days. |   |   |
