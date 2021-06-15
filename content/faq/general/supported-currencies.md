@@ -1,11 +1,12 @@
 ---
-title : "Currencies supported"
+title : "Supported currencies"
 weight: 8
-meta_title: "FAQ General - Currencies supported - MultiSafepay Docs"
+meta_title: "FAQ General - Supported currencies - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
     - /faq/general/which-currencies-are-supported-by-multisafepay
+    - /faq/general/currencies-supported
 ---
 
 MultiSafepay processes the following currencies as standard for all payment methods: 
