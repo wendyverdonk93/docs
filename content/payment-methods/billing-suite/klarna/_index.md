@@ -3,7 +3,7 @@ title: 'Klarna'
 weight: 190
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-intro_description: "Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction."
+intro_description: "Klarna is an online buy now pay later service that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction."
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
 faq: '.'
@@ -13,7 +13,7 @@ aliases:
     - /payment-methods/klarna/
 ---
 
-Klarna is an online payment after delivery service that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction.
+Klarna is an online buy now pay later service that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction.
 
 {{< details title="Get support" >}}
 &nbsp;  
@@ -27,7 +27,7 @@ For merchants, email MultiSafepay at <klarna@multisafepay.com>
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Payment after delivery  | |
+| **Payment type**   | Buy now pay later  | |
 | **API flow**  | `Direct`/ `Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, Germany, Italy, Norway, Spain, Sweden, Netherlands, UK  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [Multi-currency setup](/payment-methods/billing-suite/klarna/faq/activating-multi-currency-setup/) | 
@@ -39,7 +39,7 @@ For merchants, email MultiSafepay at <klarna@multisafepay.com>
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Payment after delivery methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Klarna requires very precise order specifications. 
+Buy now pay later services do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Klarna requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 
