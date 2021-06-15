@@ -11,7 +11,7 @@ logo: '/logo/Payment_methods/Klarna.svg'
 
 Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction.
 
-### Summary
+## Summary
 
 |   |   |   |
 |---|---|---|
