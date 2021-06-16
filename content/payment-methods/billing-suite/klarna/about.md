@@ -44,3 +44,25 @@ To successfully process partial refunds for the same product with different spec
 **Example:** For different-sized products, differentiate the `merchant-item-id` with `-size`: 1001311-xxl, 1001311-m, 1001311-s.
 
 {{< /details >}}
+
+{{< details title="Discounts" >}}
+
+Discounts are processed as a **negative amount** instead of a **negative quantity**. This method of adding discounts only applies to successful transactions. 
+
+For how to add discounts **before** the transaction request is submitted to MultiSafepay, see API Reference - [Discount](/api/#discount).
+
+Instead of deleting an item in the checkout editor, you may want to add a discount. Follow these steps:
+
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+2. Go to **Transactions** > **Transaction overview**.
+3. Search for the transaction and click to open the **Transaction details** page.
+4. Click **Refund order** > **Edit**.
+5. Add the discount as a new page in the checkout editor.  
+    Example: quantity (1) > discount (item or name) > amount (as negative) > VAT
+6. To deduct the amount of the discount, add a new line to the order.
+7. Click **Save**.
+
+   The discount is added to the transaction. 
+   A new payment link is generated and sent to the customer with the adjusted invoice.
+
+{{< /details >}}
