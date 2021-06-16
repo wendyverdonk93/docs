@@ -1,6 +1,6 @@
 ---
 title: 'AfterPay'
-weight: 180
+weight: 60
 meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/afterpay"
