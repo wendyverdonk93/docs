@@ -1,6 +1,6 @@
 ---
 title: 'Betaal per Maand'
-weight: 210
+weight: 30
 meta_title: "Payment methods - Betaal per Maand - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander"
