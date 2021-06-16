@@ -19,7 +19,7 @@ Klarna is an online post-payment method that lets customers pay for orders after
 | **API flow**  | `Direct`/`Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, Netherlands, UK  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/klarna/user-guide/processing-refunds/ | 
+| **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/klarna/user-guide/processing-refunds) | 
 | **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
