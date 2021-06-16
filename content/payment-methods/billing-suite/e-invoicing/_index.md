@@ -1,6 +1,6 @@
 ---
 title: 'E-Invoicing'
-weight: 3
+weight: 1
 meta_title: "Payment methods - E-Invoicing - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/e-invoicing"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
