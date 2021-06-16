@@ -1,6 +1,6 @@
 ---
 title: 'Klarna'
-weight: 190
+weight: 40
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/klarna"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
