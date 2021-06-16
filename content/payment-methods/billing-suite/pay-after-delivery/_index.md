@@ -1,6 +1,6 @@
 ---
 title: 'Pay After Delivery'
-weight: 170
+weight: 20
 meta_title: "Payment methods - Pay After Delivery - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery"
