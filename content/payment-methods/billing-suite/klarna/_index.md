@@ -16,7 +16,10 @@ aliases:
 
 {{< details title="Get support" >}}
 &nbsp;  
-For customers, see Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
+For customers:
+
+- See Klarna – [Contact customer service](https://www.klarna.com/international/contact-customer-service).
+- Email the Support Team at <support@multisafepay.com>
 
 For merchants, email MultiSafepay at <klarna@multisafepay.com>
 
