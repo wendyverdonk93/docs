@@ -8,7 +8,7 @@ intro_description: "Betaal per Maand is an online buy now pay later service offe
 layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
-short_description: 'Dutch buy now pay later service with Santander based on a one-off post-payment or monthly installments.'
+short_description: 'Dutch buy now pay later service with Santander based on a one-off post-payment or monthly installments'
 aliases:
     - /support-tab/magento2/payment-methods/betaalplan
     - /payment-methods/billing-suite/betaalplan
