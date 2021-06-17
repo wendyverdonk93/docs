@@ -21,8 +21,8 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 |  | Flow | Order status | Transaction status |
 |---|---|---|---|
 | 1. | The customer initiates a transaction. |  |  |
-| 2. | MultiSafepay reserves the funds while AfterPay authorizes the payment. | Uncleared | Uncleared |
-| 3. | Once authorized, the funds are captured and transferred to AfterPay.  | Completed  | Uncleared  |
+| 2. | AfterPay authorizes the payment. | Uncleared | Uncleared |
+| 3. | Once authorized, MultiSafepay sends a capture to AfterPay.  | Completed  | Uncleared  |
 | 4. | Ship the order. | | |
 | 5. | [Change the order status to Shipped](/payment-methods/billing-suite/afterpay/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared |
 | 6. | AfterPay invoices the customer with a standard payment period of 14 days. Settlement is now guaranteed. | | |
@@ -35,7 +35,7 @@ You can cancel payments before the funds are captured. After the funds are captu
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay has declined the payment. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **Or** {{< br >}} The transaction was cancelled. | Void | Cancelled |
+| AfterPay has declined the payment. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **Or** {{< br >}} The payment was cancelled. | Void | Cancelled |
 | The customer did not complete the payment within 90 days of initiating it and the transaction has expired. | Expired | Expired |
 
 ### Refund statuses
