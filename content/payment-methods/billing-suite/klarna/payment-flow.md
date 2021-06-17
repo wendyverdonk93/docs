@@ -19,12 +19,12 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
 |  1. | The customer initiates a transaction on the Klarna payment page. {{< br >}} See also [Reservation and invoice numbers](/payment-methods/billing-suite/klarna/user-guide/reservation-and-invoice-number/). | Uncleared   | Initialized  |
-| 2. | MultiSafepay reserves the funds while Klarna authorizes the payment. | Completed  | Uncleared  |
-| 3. | Once authorized, the funds are captured and transferred to Klarna. |     |   |
+| 2. | Klarna authorizes the payment. | Completed  | Uncleared  |
+| 3. | Once authorized, MultiSafepay sends a capture to Klarna. |     |   |
 | 4. | Ship the order within 28 days, or [extend the shipping period](/payment-methods/billing-suite/klarna/user-guide/extending-shipping-period/). {{< br >}} See also [Supported addresses](/payment-methods/billing-suite/klarna/user-guide/supported-addresses/). | | |
 | 5. | [Change the order status to Shipped](/payment-methods/billing-suite/klarna/user-guide/changing-order-status--to-shipped/).  | Shipped | Uncleared | 
 | 6. | Klarna invoices the customer. Settlement is now guaranteed. {{< br >}} See also [Customizing invoices](/payment-methods/billing-suite/klarna/user-guide/customizing-invoices/). | | |
-| 7. | The customer pays Klarna. |     |   |
+| 7. | The customer completes the payment with Klarna. |     |   |
 | 8. | Klarna settles the funds with MultiSafepay. | Shipped    | Completed  |
 | 9. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
 
