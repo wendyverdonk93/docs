@@ -21,8 +21,8 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
 |  1. | The customer initiates a transaction. | Uncleared   | Initialized  |
-|  2. | MultiSafepay reserves the funds while Betaal per Maand authorizes the payment. | Uncleared   | Uncleared  |
-| 3. | Once authorized, the funds are captured and transferred to Betaal per Maand. | Completed  | Uncleared  |
+|  2. | Betaal per Maand authorizes the payment. | Uncleared   | Uncleared  |
+| 3. | Once authorized, MultiSafepay sends a capture to Betaal per Maand. | Completed  | Uncleared  |
 |  | The transaction appears in both your MultiSafepay Control and the backend of your ecommerce integration via the [Notification URL](/faq/api/notification-url/). | | |
 | 4. | Ship the order. | | |
 | 5. | [Change the order status to Shipped](/payment-methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared | 
