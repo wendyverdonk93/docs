@@ -21,22 +21,20 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 |  | Flow | Order status | Transaction status |
 |---|---|---|---|
 | 1. | The customer initiates a transaction. |  |  |
-| 2. | AfterPay approves or declines the transaction. No action is required. | Uncleared | Uncleared |
-| | The transaction is successful.  | Completed  | Uncleared  |
-| 3. | Ship the order. | | |
-| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/afterpay/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared |
-| 5. | MultiSafepay sends a capture to AfterPay. |  |   |
-| 6. | AfterPay confirms the transaction. | | |
-| 7. | MultiSafepay sends the customer an invoice with a standard payment period of 14 days. Your payout is now guaranteed. | | |
-| 8. | The customer makes the payment to AfterPay  via [iDEAL](/payment-methods/banks/ideal/) or internet banking, within 14 days unless otherwise agreed in writing. |  |  |
-| 9. | AfterPay pays the funds to MultiSafepay. |  |  |
-| 10. | MultiSafepay adds the funds to your MultiSafepay balance.| Shipped | Completed |
+| 2. | MultiSafepay reserves the funds while AfterPay authorizes the payment. | Uncleared | Uncleared |
+| 3. | Once authorized, the funds are captured and transferred to AfterPay.  | Completed  | Uncleared  |
+| 4. | Ship the order. | | |
+| 5. | [Change the order status to Shipped](/payment-methods/billing-suite/afterpay/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared |
+| 6. | AfterPay invoices the customer with a standard payment period of 14 days. Settlement is now guaranteed. | | |
+| 7. | The customer completes the payment with AfterPay via [iDEAL](/payment-methods/banks/ideal/) or internet banking, within 14 days unless otherwise agreed in writing. |  |  |
+| 8. | AfterPay settles the funds with MultiSafepay. | Shipped | Completed |
+| 10. | MultiSafepay adds the funds to your MultiSafepay balance.|  |  |
 
 ### Other statuses
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay has rejected the transaction. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **Or** {{< br >}} The transaction was cancelled. | Void | Cancelled |
+| AfterPay has declined the transaction. AfterPay only provides the reason directly to the customer, for privacy and compliance reasons. {{< br >}} **Or** {{< br >}} The transaction was cancelled. | Void | Cancelled |
 | The customer did not complete the transaction within 90 days of initiating it and the transaction has expired. | Expired | Expired |
 
 ### Refund statuses
