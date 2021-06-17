@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
 ---
 
-Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the full risk, based on the customer's history, and guarantees payout of the transaction.
+Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
 
 ### General
 
