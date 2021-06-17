@@ -29,6 +29,7 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | 9. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
 
 ## Unsuccessful statuses
+You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description                      | Order status      | Transaction status |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
