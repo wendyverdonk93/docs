@@ -13,7 +13,7 @@ Betaal per Maand is an online post-payment method in collaboration with Santande
 
 Customers pay for orders after receiving them as a one-off post-payment or in monthly installments. They are only charged for the items they keep from the order. 
 
-Betaal per Maand bears the risk and guarantees payout. 
+Betaal per Maand bears the risk and guarantees settlement. 
 
 ### Summary
 
