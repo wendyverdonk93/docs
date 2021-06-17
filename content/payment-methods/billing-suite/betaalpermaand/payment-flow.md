@@ -20,7 +20,7 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
-|  1. | The customer initiates a transaction. {{< br >}} Betaal per Maand has not yet received payment. {{< br >}} You cannot reject orders at this stage. | Uncleared   | Initialized  |
+|  1. | The customer initiates a transaction. {{< br >}} You cannot reject orders at this stage. | Uncleared   | Initialized  |
 |  2. | Betaal per Maand approves or declines the transaction. | Uncleared   | Uncleared  |
 | | The transaction is successful. {{< br >}} You can reject orders at this stage. | Completed  | Uncleared  |
 |  | The transaction appears in both your MultiSafepay Control and the backend of your ecommerce integration via the [Notification URL](/faq/api/notification-url/). | | |
@@ -35,16 +35,14 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 | 11. | Betaal per Maand pays the funds to MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
 | 12. | MultiSafepay adds the funds to your MultiSafepay balance within 5 business days.| | |
 
-### Return process 
-If the customer returns some items from the order, you can [pauze the collection period](/payment-methods/billing-suite/betaalpermaand/faq/pauzing-collection-period/) for 2 to 4 weeks.
-
-### Other statuses
+### Unsuccessful statuses
+You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| Betaal per Maand has rejected the transaction. Betaal per Maand only provides the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
-| The transaction was cancelled.   | Void   | Cancelled   |
-| The customer did not complete the transaction, and it expired. | Expired    | Expired    |
+| Betaal per Maand has declined the payment. Betaal per Maand only provides the reason directly to the customer, for privacy and compliance reasons. | Declined   | Declined   |
+| The payment was cancelled.   | Void   | Cancelled   |
+| The customer did not complete the payment, and it expired. | Expired    | Expired    |
 
 ### Refund statuses
 
