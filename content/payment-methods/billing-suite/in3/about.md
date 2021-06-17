@@ -9,13 +9,13 @@ layout: 'child'
 logo: '/svgs/in3.svg'
 ---
 
-in3 is a Dutch online buy now pay later service where customers pay in 3 installments at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees payout after receiving the first one. 
+in3 is a Dutch online post-payment method where customers pay in 3 installments at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees payout after receiving the first one. 
 
 ### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Buy now pay later  | |
+| **Payment type**   | Post-payment method  | |
 | **API flow**  | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | in3 checks the customer's country, and billing/shipping address to confirm. |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
