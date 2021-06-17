@@ -4,7 +4,7 @@ weight: 40
 meta_title: "Payment methods - Klarna - MultiSafepay Docs"
 linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/klarna"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-intro_description: "Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees payout of the transaction."
+intro_description: "Klarna is an online post-payment method that lets customers pay for orders after receiving them. Customers are only charged for the items they keep from the order. Klarna guarantees settlement."
 layout: 'single'
 logo: '/logo/Payment_methods/Klarna.svg'
 faq: '.'
