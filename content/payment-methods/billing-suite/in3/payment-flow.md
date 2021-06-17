@@ -20,22 +20,23 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
-|  1. | The customer initiates a transaction, is redirected to in3, and enters their details. | Initialized   | Initialized  |
-| 2. | in3 conducts a credit check. |   |   |
+| 1. | The customer initiates a transaction, is redirected to in3, and enters their details. | Initialized   | Initialized  |
+| 2. | in3 authorizes the payment. |   |   |
 | 3. | The customer has 5 minutes to pay the first installment, or the transaction is cancelled. {{< br >}} The first installment is required to create the order. | Uncleared  | Initialized  |
-| 4. | The customer pays the first installment. {{< br >}} You are now guaranteed the full payout. | Completed  | Uncleared  |
+| 4. | The customer pays the first installment. {{< br >}} Settlement is now guaranteed. | Completed  | Uncleared  |
 | 5. | Ship the order. | | |
 | 6. | MultiSafepay adds the funds to your MultiSafepay balance (within 15 days of the first installment). | Completed | Completed |
 | 7. | The customer has 30 days to pay the second installment. |  | |
 | 8. | The customer has 60 days to pay the third installment. |  | |
 
 
-### Other statuses
+### Unsuccessful statuses
+You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description                      | Order status      | Transaction status |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
-| The customer did not pass the credit check and in3 declined the first installment. No order was created.    | Declined   | Declined   |
-| The payment was declined or abandoned. | Void    | Void    |
+| in3 has declined the payment. No order was created.    | Declined   | Declined   |
+| The payment was cancelled or abandoned. | Void    | Void    |
 
 ### Refund statuses
 
