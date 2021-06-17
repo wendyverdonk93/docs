@@ -20,10 +20,10 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
 |  1. | The customer initiates a transaction on the Klarna payment page. {{< br >}} See also [Reservation and invoice numbers](/payment-methods/billing-suite/klarna/user-guide/reservation-and-invoice-number/). | Uncleared   | Initialized  |
 | | The transaction is successful, but Klarna hasn't received payment yet. | Completed  | Uncleared  |
-| 2. | Klarna confirms the transaction. | | |
-| 3. | Ship the order within 28 days, or [extend the shipping period](/payment-methods/billing-suite/klarna/user-guide/extending-shipping-period/). {{< br >}} See also [Supported addresses](/payment-methods/billing-suite/klarna/user-guide/supported-addresses/). | | |
-| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/klarna/user-guide/changing-order-status--to-shipped/).  | | | 
-| 5. | MultiSafepay sends a capture to Klarna. | Shipped    | Uncleared  |
+| 2. | MultiSafepay sends a capture to Klarna. |     |   |
+| 3. | Klarna confirms the transaction. | | |
+| 4. | Ship the order within 28 days, or [extend the shipping period](/payment-methods/billing-suite/klarna/user-guide/extending-shipping-period/). {{< br >}} See also [Supported addresses](/payment-methods/billing-suite/klarna/user-guide/supported-addresses/). | | |
+| 5. | [Change the order status to Shipped](/payment-methods/billing-suite/klarna/user-guide/changing-order-status--to-shipped/).  | Shipped | Uncleared | 
 | 6. | Klarna sends the customer an invoice. Your payout is now guaranteed. {{< br >}} See also [Customizing invoices](/payment-methods/billing-suite/klarna/user-guide/customizing-invoices/). | | |
 | 7. | Klarna pays the funds to MultiSafepay. | Shipped    | Completed  |
 | 8. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
