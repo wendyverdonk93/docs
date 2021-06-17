@@ -6,9 +6,12 @@ read_more: "."
 weight: 2
 ---
 
-You cannot refund more than the amount of the original transaction.
+- You cannot refund more than the amount of the original transaction.
 
-There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+- There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
+
+## Via our API
+Make a POST `/orders/{order_id}/refunds` request. See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
 ### In MultiSafepay Control
 
