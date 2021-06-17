@@ -20,20 +20,18 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
-|  1. | The customer initiates a transaction. {{< br >}} You cannot reject orders at this stage. | Uncleared   | Initialized  |
-|  2. | Betaal per Maand approves or declines the transaction. | Uncleared   | Uncleared  |
-| | The transaction is successful. {{< br >}} You can reject orders at this stage. | Completed  | Uncleared  |
+|  1. | The customer initiates a transaction. | Uncleared   | Initialized  |
+|  2. | MultiSafepay reserves the funds while Betaal per Maand authorizes the payment. | Uncleared   | Uncleared  |
+| 3. | Once authorized, the funds are captured and transferred to Betaal per Maand. | Completed  | Uncleared  |
 |  | The transaction appears in both your MultiSafepay Control and the backend of your ecommerce integration via the [Notification URL](/faq/api/notification-url/). | | |
-| 3. | Ship the order. | | |
-| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared | 
-| 5. | [Provide the track-and-trace code](/payment-methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/) to MultiSafepay. | | |
-| 6. | MultiSafepay sends the track-and-trace code to Betaal per Maand to confirm shipment. | | |
-| 7. | MultiSafepay sends a capture to Betaal per Maand. |  |  |
-| 8. | Betaal per Maand confirms the transaction. | | |
-| 9. | Betaal per Maand sends the customer an invoice. Your payout is now guaranteed.  | | |
-| 10. | The customer selects their preferred period and payment method for the monthly payment to Betaal per Maand. | | |
-| 11. | Betaal per Maand pays the funds to MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
-| 12. | MultiSafepay adds the funds to your MultiSafepay balance within 5 business days.| | |
+| 4. | Ship the order. | | |
+| 5. | [Change the order status to Shipped](/payment-methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared | 
+| 6. | [Provide the track-and-trace code](/payment-methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/) to MultiSafepay. | | |
+| 7. | MultiSafepay sends the track-and-trace code to Betaal per Maand to confirm shipment. | | |
+| 8. | Betaal per Maand invoices the customer. Settlement is now guaranteed.  | | |
+| 9. | The customer selects their preferred period and payment method for the monthly payment to Betaal per Maand. | | |
+| 10. | Betaal per Maand settles the funds with MultiSafepay within 5 business days after the order status changes to **Shipped**. | Shipped    | Completed  |
+| 11. | MultiSafepay adds the funds to your MultiSafepay balance within 5 business days.| | |
 
 ### Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
