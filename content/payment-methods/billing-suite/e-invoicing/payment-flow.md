@@ -15,31 +15,33 @@ In your MultiSafepay Control > **Transaction overview** > **Transaction details*
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of the payment
 
-|                       | Flow      | Order status | Transaction status |
-|--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
-| 1. | The customer initiates a transaction |    |   |
-|  | The transaction is successful. | Completed  | Initialized  |
-| 2. | MultiSafepay sends a capture to E-invoicing. | Shipped | Initialized |
-| 3. | E-invoicing confirms the transaction. | | |
-| 4. | Ship the order. | | |
-| 5. | E-invoicing sends the customer an invoice. |     |   |
-| 6. | MultiSafepay receives the funds and adds them to your MultiSafepay balance.| | |
+|   | Flow | Order status | Transaction status |
+|---|---|---|---|
+| 1. | The customer initiates a transaction. |    |   |
+| 2. | E-invoicing authorizes the payment. | Completed  | Initialized  |
+| 3. | Once authorized, MultiSafepay sends a capture to E-invoicing. |  |  |
+| 4. | Ship the order. | Shipped | Initialized |
+| 5. | E-invoicing invoices the customer. |     |   |
+| 6. | The customer completes the payment. |     |   |
+| 7. | E-invoicing settles the funds with MultiSafepay. |     |   |
+| 8. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
 
 See also:
 
 - [Viewing transactions](/payment-methods/billing-suite/e-invoicing/user-guide/viewing-transactions/)
 - [Batching transactions for subscriptions](/payment-methods/billing-suite/e-invoicing/user-guide/batching-transactions/)
 
-## Other statuses
+## Unsuccessful statuses
+You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| E-invoicing rejected the transaction. | Declined | Declined |
-| The transaction was not completed and it expired. | Expired | Expired |
-| The transaction has been cancelled. | Void | Cancelled |
+| E-invoicing has declined the payment. | Declined | Declined |
+| The payment has been cancelled. | Void | Cancelled |
+| The payment was not completed and it expired. | Expired | Expired |
+
 
 ## Refund statuses
-
 For how to process refunds, see [Processing refunds](/payment-methods/billing-suite/e-invoicing/faq/processing-refunds/).
 
 | Description | Order status | Transaction status |
