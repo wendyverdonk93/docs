@@ -8,7 +8,7 @@ read_more: '.'
 
 ## Activation
 
-Apple Pay is a standard payment method.<br>
+Apple Pay is a standard payment method.
 
 If you already have credit cards enabled as a payment method, email the Integration Team at <integration@multisafepay.com> to activate Apple Pay.
 
@@ -24,4 +24,3 @@ If not already enabled, follow these steps:
 - Annual turnover in credit cards transactions
 
 Once approved by the Risk Team, we activate Visa, Mastercard, Maestro and Apple Pay in your MultiSafepay Control.
-
