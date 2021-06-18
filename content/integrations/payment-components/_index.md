@@ -17,16 +17,28 @@ Payment Components are building blocks for embedding payment methods directly in
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 
-### Example
-
-{{< screen src="/gifs/credit-card-component.gif" alt="Credit card component" align="center" class="medium-img" screen_size="desktop" >}}
-
 ## Integration
 
 Integrate a Payment Component for:
 
-- [Multiple payment methods](/integrations/payment-components/integrating-multiple-payment-methods/)
-- [A single payment method](/integrations/payment-components/integrating-single-payment-method/)
+### Multiple payment methods
+
+First, within your checkout, the customer selects one of the available payment methods. 
+
+Then, depending on the selected method, the customer fills out the payment details form in your checkout or is redirected to the relevant payment page.
+
+{{< screen src="/gifs/dropin-component.gif" alt="Multiple payment methods Component" align="center" class="medium-img" screen_size="desktop" >}}
+
+{{< two-buttons href-2="/integrations/payment-components/integrating-multiple-payment-methods" header-2="Integration manual" text-2="Multiple payment methods" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+
+
+### Single payment method
+
+Embed a payment method of choice in your checkout. The customer completes the payment within your checkout or is redirected to the relevant payment page.
+
+{{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
+
+{{< two-buttons href-2="/integrations/payment-components/integrating-single-payment-method" header-2="Integration manual" text-2="Single payment method" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 ## Customization
 
