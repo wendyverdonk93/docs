@@ -1,7 +1,7 @@
 ---
 weight: 210
 meta_title: "API - Create a Redirect order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders
@@ -28,6 +28,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
         "ip_address": "80.123.456.789",
         "first_name": "Testperson-nl",
         "last_name": "Approved",
+        "company_name": "Test Company Name",
         "address1": "Kraanspoor",
         "house_number": "39C",
         "zip_code": "1033SC",
@@ -186,6 +187,13 @@ __email__ | string
 
 Customer’s provided email address. Used to send Second Chance emails and in fraud checks.
 
+----------------
 
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 {{% /description %}}

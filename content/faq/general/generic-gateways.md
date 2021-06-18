@@ -2,7 +2,7 @@
 title: "Generic gateways"
 weight: 13
 meta_title: "FAQ General - Generic gateways - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 ---
 
@@ -10,7 +10,7 @@ In our plugins, we use predefined gateways for specific payment methods. When we
 
 To avoid this, some of our plugins use generic gateways which include a flexible gateway code that lets them connect to almost every payment method we offer, without updating the plugin.
 
-### Generic gift cards 
+### Gift cards 
 
 Generic gateways can be particularly useful for gift cards, because we don't support all open-loop gift cards in our ecommerce integrations and no [closed-loop gift cards](/faq/general/multisafepay-glossary/#closed-loop-gift-card). Therefore in some integrations, we use generic gift card gateways.
 
@@ -31,4 +31,3 @@ For more information about a specific plugin, see:
 - [Shopware 5](/integrations/ecommerce-integrations/shopware5/faq/generic-gateways/)
 - [Shopware 6](/integrations/ecommerce-integrations/shopware6/faq/generic-gateways/)
 - [WooCommerce](/integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/)
-

@@ -2,7 +2,7 @@
 title: 'About chargebacks'
 weight: 11
 meta_title: "FAQ Chargebacks - About chargebacks - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
     - /payment-methods/creditcards/chargebacks/what-is-a-chargeback/
@@ -76,7 +76,7 @@ If the customer does not agree with the outcome of the dispute, the process of t
 
 You will need to present strong evidence of the transaction, that has not been presented before.
 
-Please contact us at <retrieval@multisafepay.com> if you want to proceed and we will assist to the best of our abilities.
+To proceed, email <retrieval@multisafepay.com>
 
 ### Why can a cardholder initiate a chargeback?
 
@@ -90,4 +90,4 @@ By offering credit cards as a payment option in your webshop, you agree to the c
 
 If a customer has initiated a chargeback, MultiSafepay will charge a fee to handle the dispute between you and the customer. Visa and Mastercard, as well as the processing bank, may also charge fees if the dispute cannot be settled between you and the customer.<br> 
 
-For more information about these fees, please contact <support@multisafepay.com>
+For more information about fees, email the Support Team at <support@multisafepay.com>

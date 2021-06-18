@@ -2,7 +2,7 @@
 title: "How to refund an Apple Pay transaction"
 weight: 23
 meta_title: "How to refund an Apple Pay transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 
@@ -24,3 +24,4 @@ The refund is paid to the customer's Apple Pay account and appears on their cred
 Refunds cannot be processed if your MultiSafepay balance is insufficient.
 
 If an Apple Pay refund fails, email the Support Team at <support@multisafepay.com>
+

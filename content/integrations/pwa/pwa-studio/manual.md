@@ -1,7 +1,7 @@
 ---
 title : "MultiSafepay PWA Studio Integration"
 meta_title: "PWA Studio (Venia) integration plugin manual - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 ### 1. Requirements
@@ -22,7 +22,7 @@ However, you can easily integrate these payment methods yourself. For reference,
 If you want to install the MultiSafepay plugin into your PWA Studio application, follow the [installation instructions](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide) on our GitHub page.
 
 ### Support
-If you want to report a bug or suggest and improvement, create an issue on our repository. If you need help with your integration, please contact <integration@multisafepay.com>
+To report a bug or suggest an improvement, create an issue in our repository. For help with your integration, email the Integration Team at <integration@multisafepay.com>
 
 We are also available on the [Magento's MultiSafepay Slack channel](https://magentocommeng.slack.com/messages/multisafepay-payments/).
 Feel free to start a conversation or provide suggestions as to how we can refine our plugin.

@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-9">
+                <div class="col-sm-9">
                     {{ .Content}}
                 </div>
             </div>
@@ -71,6 +71,10 @@
 
 {{ if isset .Params "changelog" }}
 {{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
+{{ end }}
+
+{{ if isset .Params "buttons_under_text" }}
+{{ partial "buttons_under_text" . }}
 {{ end }}
 
 {{ if isset .Params "faq" }}

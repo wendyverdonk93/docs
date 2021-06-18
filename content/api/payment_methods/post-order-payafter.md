@@ -1,7 +1,7 @@
 ---
 weight: 323
 meta_title: "API - Create a Pay After Delivery order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
 > POST - /orders 
@@ -320,6 +320,13 @@ __forwarded_ip__ | string
 The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).

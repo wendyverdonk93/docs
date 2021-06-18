@@ -2,7 +2,7 @@
 title: "How to activate Bank transfer"
 weight: 22
 meta_title: "Bank transfer, how to activate it - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/payment-methods/bank-transfer/activate-bank-transfer/]
 ---
 ## Activate
@@ -15,5 +15,5 @@ There are two ways to activate Bancontact as a payment method in your [MultiSafe
 
 Activate bank transfer as payment method in your ecommerce platform to finalize the connection.
 
-If you have any questions, please contact us at <sales@multisafepay.com>
+For any questions, email the Sales Team at <sales@multisafepay.com>
 

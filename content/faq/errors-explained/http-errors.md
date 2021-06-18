@@ -2,7 +2,7 @@
 title: 'HTTP errors'
 weight: 5
 meta_title: "FAQ Errors - HTTP errors - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 ---
 > **Note:** HTTP errors don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.

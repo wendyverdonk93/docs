@@ -1,7 +1,7 @@
 ---
 weight: 220
 meta_title: "API - Create a Direct Order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
@@ -54,6 +54,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "locale": "en_US",
       "first_name": null,
       "last_name": null,
+      "company_name": null,
       "address1": null,
       "address2": null,
       "house_number": null,
@@ -162,6 +163,15 @@ Customer will be redirected to this page after a successful payment. In the even
 __cancel_url__ | string
 
 If the payment fails, the customer is redirected to this page.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 
 {{< /description >}}

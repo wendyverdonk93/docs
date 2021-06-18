@@ -2,7 +2,7 @@
 title : "Understanding and resolving errors"
 weight: 1
 meta_title: "FAQ Errors - Understanding and resolving errors - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/errors-explained/diagnosing-errors
@@ -12,7 +12,7 @@ This table lists errors you may encounter, and possible causes.
 
 |  Error ID	|  Error name 	           |   Description	                                           |   Resolution                  |
 |-------|----------------------|-----------------------------------------------------------|----------------------------------------| 
-| 1000  | Unknown message type | Transaction not allowed. Payment method is disabled or unavailable.                                                                 | To validate your MultiSafepay Control payment method settings, email the Support Department at <support@multisafepay.com>                                                                          |  
+| 1000  | Unknown message type | Transaction not allowed. Payment method is disabled or unavailable.                                                                 | To validate your MultiSafepay Control payment method settings, email the Support Team at <support@multisafepay.com>                                                                          |  
 | 1001  | Invalid amount       | Transaction request contained an invalid amount.                                                                     | All amounts must be given in cents, e.g. 1000 rather than 10,00. The minimum transaction amount we can process is 1 euro cent (0.01 EUR). <a name="1002"></a>                         <a name="1003"></a>             |  
 | 1002  | Invalid currency     | Transaction requested in an unsupported currency. The standard currency for all transactions is Euros.               | For help identifying currencies, see [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html). 
 | 1003  | Account ID invalid | Transaction request contains an invalid account ID.                                                                     | Check your account ID was properly formatted, e.g. fix typing errors and remove blank spaces. Your account ID appears in the top-right corner of your MultiSafepay Control.       <a name="1004"></a>                                                                                                                                                   |
