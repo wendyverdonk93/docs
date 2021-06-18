@@ -63,7 +63,7 @@ Apple Pay transactions are like credit card transactions and follow similar prod
 
 - You can adjust the lifetime of payment links using the `days_active` or `seconds_active` parameters. For more information, see [Adjusting payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
 
-* You can process transactions in [standard standard currencies](/faq/general/currencies-supported).
+* You can process transactions in [standard currencies](/faq/general/currencies-supported).
 
 - Customers must use the Safari browser.
 
