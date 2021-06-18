@@ -5,7 +5,7 @@ layout: 'block'
 meta_title: 'Billing Suite - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Billing Suite.svg'
-short_description: 'Accept payments with buy now pay later services'
+short_description: 'Accept payments with post-payment methods'
 weight: 30
 data:
   - { title: 'AfterPay', url: 'afterpay', logo: '/logo/Payment_methods/AfterPay.svg' }
