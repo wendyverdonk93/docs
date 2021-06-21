@@ -7,7 +7,7 @@ read_more: '.'
 ---
 
 ## What it is
-When applied to the payment industry, tokenization is generally used for credit card payments. However, it is also available for debit payment methods, such as iDEAL and SOFORT Banking. Tokenization means that for every credit or debit card, a unique Recurring ID is created and subsequently encrypted as a token. The payment token itself is the unique string of numbers. As result, a unique security identifier is created to finalize a payment and potential risks are reduced.
+When applied to the payment industry, tokenization is generally used for credit card payments. However, it is also available for debit payment methods, such as iDEAL and SOFORT Banking. Tokenization means that for every credit or debit card, a unique recurring id is created and subsequently encrypted as a token. The payment token itself is the unique string of numbers. As result, a unique security identifier is created to finalize a payment and potential risks are reduced.
 
 
 ## How it works
@@ -24,14 +24,15 @@ Tokenization gives you the possibility to link the payment details of a customer
 
 Available for JSON API only. You can find more details on our [API documentation on tokenization](/api/#tokenization-recurring-model)
 
-Tokens processed by the payment method SEPA Direct Debit "DIRDEB" are originally received by an iDEAL or SOFORT Banking transaction. 
+Tokens processed by the payment method SEPA Direct Debit "DIRDEB" are originally received by an iDEAL or SOFORT Banking transaction. To successfully create a token, the following fields must be specified in the JSON request:
 
 | Parameter                      | Type      | Description |
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | type | string | Specifies the payment flow for the checkout process. Options: direct, redirect |
 | gateway | string | The unique gateway_id to immediately direct the customer to the payment method. You retrieve these gateways using a gateway request. Option: AMEX, VISA, MASTERCARD and DIRDEB |
-| recurring_id | string | The randomly generated recurring id for the customer |
+| recurring_id | string | The randomly generated token for the customer |
 | reference | string | Customer reference to link a token |
+| recurring_flow | string | The tokenization method used to create a recurring payment. Options: token  |
 | recurring_model | string | The type of recurring model to be used: unscheduled, cardOnFile, subscription  |
 
 
