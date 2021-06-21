@@ -35,7 +35,7 @@ To add your personal logo to the Fastcheckout payment pages, follow these steps:
 2. Navigate to **Settings** → **Website settings**.
 3. Scroll down to the option **Payment logo (Fast Checkout)**.
 4. Select your logo
-5. Click _Save_
+5. Click **Save**.
 
 ### Fastcheckout Guaranteed
 With Fastcheckout Guaranteed, customers profit from additional security and protection. In case of delivery failure after payment, Fastcheckout offers an insurance up to €200 per order.
