@@ -9,7 +9,7 @@ aliases: [/integrations/woocommerce/faq/how-can-i-customize-the-language-of-paym
 
 There may be cases in which a developer needs to modify something in the transaction before it is processed.
 
-If you want to change something in the OrderRequest it is possible using the filter hook “multisafepay_order_request” built in our plugin.
+If you want to change something in the OrderRequest, this is possible using the filter hook “multisafepay_order_request”, built into our plugin.
 
 Ask your developer to read:
 
