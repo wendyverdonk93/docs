@@ -1,6 +1,6 @@
 ---
 title : "Filtering the order request using the hook multisafepay_order_request"
-meta_title: "WooCommerce plugin available payment methods - MultiSafepay Docs"
+meta_title: "WooCommerce - Filtering the order request - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
