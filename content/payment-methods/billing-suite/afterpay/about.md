@@ -9,13 +9,13 @@ layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
 ---
 
-AfterPay is the largest online buy now pay later service in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees payout.
+AfterPay is the largest online post-payment method in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 
 ### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Buy now pay later  | |
+| **Payment type**   | Post-payment method  | |
 | **API flow**  | `Direct`/ `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
@@ -27,7 +27,7 @@ AfterPay is the largest online buy now pay later service in the Netherlands, and
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Buy now pay later services do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, AfterPay requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, AfterPay requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 

@@ -21,15 +21,13 @@ The table below shows a successful Pay After Delivery payment flow from start to
 |   | Flow  | Order status  | Transaction status  |
 |---|---|---|---| 
 | 1. | The customer agrees with the terms and conditions and initiates a transaction. | Uncleared   | Uncleared | 
-| 2. | MultiSafepay approves or declines the transaction within 2 business days. |  |  | 
-|  | The transaction is successful. | Completed | Uncleared | 
-| 3. | Ship the order. {{< br >}} The order can no longer be cancelled. {{< br >}} See also [Closing transactions](/payment-methods/billing-suite/pay-after-delivery/faq/closing-transactions). | Shipped | Uncleared |
-| 4. | [Change the order status to Shipped](/payment-methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). |  |  |
-| 5. |MultiSafepay sends Pay After Delivery a capture, and Pay After Delivery confirms the transaction. |  |  |
-| 6. |MultiFactor emails the customer an invoice containing a payment link within 24 hours of changing to **Shipped** status. {{< br >}} Your payout is now guaranteed. |  |  |
-| 7. | The customer has 14 days to pay the invoice. {{< br >}} See also [Failure to pay](#failure-to-pay) below.  |  |  |
+| 2. | Pay After Delivery authorizes the payment within 2 business days. |  |  | 
+| 3. | Once authorized, MultiSafepay sends Pay After Delivery a capture. | Completed | Uncleared | 
+| 4. | Ship the order. | Shipped | Uncleared |
+| 5. | [Change the order status to Shipped](/payment-methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). |  |  |
+| 6. | MultiFactor invoices the customer within 24 hours of changing to **Shipped** status. {{< br >}} Settlement is now guaranteed. |  |  |
+| 7. | The customer has 14 days to pay the invoice.  |  |  |
 | 8. | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status.  | Shipped | Completed |
-
 
 ### Failure to pay
 
@@ -43,12 +41,15 @@ If the customer still fails to pay, the amount of the total invoice is transferr
 
 To stop sending reminders, credit the invoice for a zero amount. 
 
-### Other statuses
+### Unsuccessful statuses
+You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
+
+See also [Closing transactions](/payment-methods/billing-suite/pay-after-delivery/faq/closing-transactions).
 
 | Description  | Order status  | Transaction status  |
 |---|---|---| 
 | The transaction has been cancelled. | Void   | Cancelled | 
-| The customer did not complete the transaction within 90 days of initiating it and the transaction has expired. | Expired | Expired | 
+| The customer did not complete the payment within 90 days and the transaction has expired. | Expired | Expired | 
 
 ### Refund statuses
 

@@ -9,13 +9,13 @@ layout: 'child'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg'
 ---
 
-Pay After Delivery is MultiSafepay's own online buy now pay later service that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the full risk, based on the customer's history, and guarantees payout of the transaction.
+Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
 
 ### General
 
 |   |   |   |
 |---|---|---| 
-| **Payment type** | Buy now pay later   |  | 
+| **Payment type** | Post-payment method   |  | 
 | **API flow** | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
@@ -27,7 +27,7 @@ Pay After Delivery is MultiSafepay's own online buy now pay later service that l
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Buy now pay later services do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Pay After Delivery requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Pay After Delivery requires very precise order specifications. 
 
 {{< /details >}}
 

@@ -9,17 +9,17 @@ layout: 'child'
 logo: '/logo/Payment_methods/betaalpermaand.svg'
 ---
 
-Betaal per Maand is an online buy now pay later service offered in collaboration with Santander. MultiSafepay is the only payment service provider that supports Betaaal per Maand online.
+Betaal per Maand is an online post-payment method in collaboration with Santander. MultiSafepay is the only payment service provider that supports Betaaal per Maand online.
 
 Customers pay for orders after receiving them as a one-off post-payment or in monthly installments. They are only charged for the items they keep from the order. 
 
-Betaal per Maand bears the risk and guarantees payout. 
+Betaal per Maand bears the risk and guarantees settlement. 
 
 ### Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Buy now pay later  | |
+| **Payment type**   | Post-payment method  | |
 | **API flow**  | `Direct`| [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](https://docs.multisafepay.com/faq/general/supported-currencies/) | 

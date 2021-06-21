@@ -9,13 +9,13 @@ layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
 ---
 
-E-Invoicing is a MultiSafepay buy now pay later service with automation tools that gives you full control of credit management, the payment process, and customer contact. Customers pay for orders after receiving them.
+E-Invoicing is a MultiSafepay post-payment method with automation tools that gives you full control of credit management, the payment process, and customer contact. Customers pay for orders after receiving them.
 
 ## Summary
 
 |   |   |   |
 |---|---|---|
-| **Payment type**   | Buy now pay later  | |
+| **Payment type**   | Post-payment method  | |
 | **API flow**  | `Direct`/`Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
@@ -31,7 +31,7 @@ E-Invoicing is a MultiSafepay buy now pay later service with automation tools th
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Buy now pay later services do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, E-invoicing requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, E-invoicing requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 
