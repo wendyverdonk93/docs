@@ -64,11 +64,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Recurring Payment
 
-A recurring payment can be initiated using a token for credit cards (VISA, Mastercard) and SEPA Direct Debit.
+A recurring payment can be initiated using [tokenization](/tokenization/tokenization-api-level/) for the following payment methods:
 
-iDEAL, Bancontact and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The token can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
+* VISA
+* MasterCard
+* Maestro
+* Bancontact
+* American Express
+* iDEAL
+* SOFORT
+* Direct debit
 
-For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments)
+iDEAL, Bancontact and SOFORT can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The token can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
+
+For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments) and [tokenization](/tokenization/tokenization-api-level/)
 
 **Parameters**
 
