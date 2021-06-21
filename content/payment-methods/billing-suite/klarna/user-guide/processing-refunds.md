@@ -3,7 +3,7 @@ title : "Processing refunds"
 meta_title: "Klarna - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
-weight: 3
+weight: 2
 ---
 
 - You cannot refund more than the amount of the original transaction.
