@@ -77,7 +77,7 @@ A recurring payment can be initiated using [tokenization](/tokenization/tokeniza
 
 iDEAL, Bancontact and SOFORT can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The token can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
 
-For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments) and [tokenization](/tokenization/tokenization-api-level/)
+For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments) and the fields required for [tokenization](/tokenization/tokenization-api-level/).
 
 **Parameters**
 
