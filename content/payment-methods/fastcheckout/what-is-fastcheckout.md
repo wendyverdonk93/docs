@@ -33,7 +33,7 @@ To add your personal logo to the Fastcheckout payment pages, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com/).
 2. Navigate to **Settings** → **Website settings**.
-3. Scroll down to the option _Payment logo (Fast Checkout)_
+3. Scroll down to the option **Payment logo (Fast Checkout)**.
 4. Select your logo
 5. Click _Save_
 
