@@ -29,7 +29,7 @@ __Not available__: Klarna, Pay After Delivery.
 
 For instructions on how to add a website, see MultiSafepay Control - [add your website](/tools/multisafepay-control/add-website/).
 
-To add your personal logo to the Fastcheckout payment pages, please follow these steps:
+To add your personal logo to the Fastcheckout payment pages, follow these steps:
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com/).
 2. Navigate to _Settings_ → _Website settings_
