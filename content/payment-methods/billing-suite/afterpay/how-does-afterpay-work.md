@@ -84,7 +84,7 @@ Some rules may apply to certain payment methods. For AfterPay, the following rul
 * Having the new payment pages enabled for a specific site profile is necessary in order to process AfterPay payments. 
 You can check this in your [MultiSafepay Control](https://merchant.multisafepay.com/switch-connect-v2) if you navigate to _Settings > Payment pages_
 
-* An Afterpay order must have a _unique order number_ for every attempted payment made by a customer. MultiSafepay will receive a validation error for every attempt on an order number that has already been used.
+* Every payment attempt of an Afterpay order must have a unique order ID.
 
 ### The 'Shipped' status
 When receiving an order paid for with AfterPay, it is important to keep a number of things in mind.
