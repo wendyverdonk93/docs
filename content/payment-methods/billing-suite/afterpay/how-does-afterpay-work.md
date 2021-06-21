@@ -95,4 +95,4 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 
 Changing the status to _Shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
 
-The _Shipped_ status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
+The **Shipped** status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
