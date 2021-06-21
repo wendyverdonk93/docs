@@ -93,6 +93,7 @@ Upon agreeing with an order _(by actually sending the goods)_, the order status 
 
  You can also use our [API](https://docs.multisafepay.com/api/#update-an-order) to update the order status. The MultiSafepay Control is automatically updated when the plugin makes a correct API call to set the order status to _Shipped_. Not changing the status to _Shipped_ can result in the expiration of the order.
 
-Changing the status to _Shipped_ allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
+Changing the status to **Shipped** allows AfterPay to initiate the billing process towards the customer. AfterPay will guarantee the payout of the transaction.
+
 
 The **Shipped** status is therefore important for invoicing the customer and the payout of the transaction on your MultiSafepay balance.
