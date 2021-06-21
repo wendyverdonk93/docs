@@ -7,7 +7,7 @@ read_more: "."
 aliases: [/integrations/woocommerce/faq/how-can-i-customize-the-language-of-payment-page-and-emails/]
 ---
 
-There may be cases in which a developer need to modify something in the transaction before it is processed.
+There may be cases in which a developer needs to modify something in the transaction before it is processed.
 
 If you want to change something in the OrderRequest it is possible using the filter hook “multisafepay_order_request” built in our plugin.
 
