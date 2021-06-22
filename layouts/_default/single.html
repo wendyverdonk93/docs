@@ -37,9 +37,9 @@
                     {{ if or (isset .Params "github_url") (isset .Params "download_url") (isset .Params "changelog") }}
                     <div class="row pt-5 pb-5 px-3 clearfix">
                             {{ if isset .Params "github_url"}}
-                            <div class="col-lg-4 pr-lg-5 mb-3">
+                            <div class="col-lg-5 pr-lg-5 mb-3">
                                 <a href="{{.Params.github_url}}" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
-                                View on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                GitHub source code<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
                                 </a>
                             </div>
                             {{ end }}
@@ -51,7 +51,7 @@
                             </div>
                             {{ end }}
                             {{ if isset .Params "download_url" }}
-                            <div class="col-lg-4 pr-lg-5 mb-3">
+                            <div class="col-lg-3 pr-lg-5 mb-3">
                                 <a href="{{.Params.download_url}}" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
                                 Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
                                 </a>
