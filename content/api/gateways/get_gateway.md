@@ -5,20 +5,17 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 {{< code-block >}}
 
-> GET - /gateways/{id}
+> GET - /gateways/{gateway}
 
 > JSON Response
 
 ```shell
-
 {
     "success": true,
-    "data": [
-        {
-            "id": null,
-            "description": null
-        }
-    ]
+    "data": {
+      "id": null,
+      "description": null
+    }
 }
 ```
 {{< /code-block >}}

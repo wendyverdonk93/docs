@@ -94,5 +94,6 @@ Direct iDEAL transactions can have the following issuers:
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |
+
 {{% /description %}}
 

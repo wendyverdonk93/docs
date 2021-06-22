@@ -5,22 +5,38 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 ---
 {{< code-block >}}
 
-> GET - /gateways/{gateway}
+> GET - /gateways
 
 > JSON Response
 
 ```shell
 {
     "success": true,
-    "data": {
-      "id": null,
-      "description": null
-    }
+    "data": [
+        {
+            "id": null,
+            "description": null
+        }
+    ]
 }
-
 ```
 {{< /code-block >}}
 
 {{< description >}}
+
+## Retrieve gateways
+
+__include__ | string
+
+Specify comma delimited additional payment method types. Optional.
+
+__Options:__ coupons
+
+----------------
+
+Adding the __coupons__ value to your GET request will **include** all your webshop's available gift cards in the response. See the response example on the side.
+
+If the parameter __include=coupons__ is not added in the retrieve gateway request, only one coupon will be displayed in the response.
+
 
 {{% /description %}}
