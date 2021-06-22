@@ -19,7 +19,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ### Installation and configuration
 

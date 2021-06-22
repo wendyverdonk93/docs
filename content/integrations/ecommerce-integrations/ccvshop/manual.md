@@ -19,7 +19,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ### Installation and configuration
 1. Log in to your CCV Shop backend and install the MultiSafepay app from the App Store.

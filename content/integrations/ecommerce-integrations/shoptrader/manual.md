@@ -13,7 +13,7 @@ This plugin is developed and maintained by Shoptrader.
 For any technical queries about the plugin, email Shoptrader at <info@shoptrader.nl>
 
 ### Requirements
-You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 
  

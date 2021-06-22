@@ -20,7 +20,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - OsCommerce 2.3
 - Tested on PHP 7.0
 

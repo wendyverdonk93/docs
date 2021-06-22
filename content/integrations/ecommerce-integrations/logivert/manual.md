@@ -15,7 +15,7 @@ We recommend first installing the app in a test environment following the recomm
 For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/support/c-10).
 
 ### Requirements
-You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ### Installation and configuration
 For instructions, see LogiVert - [Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen).
