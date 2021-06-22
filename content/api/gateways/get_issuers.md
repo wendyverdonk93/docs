@@ -6,8 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< code-block >}}
 
-> GET - /issuers/ideal
-
+> GET - /issuers{gateway}
 
 > JSON Response
 
@@ -71,19 +70,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< /code-block >}}
 
 {{< description >}}
-## Gateway Issuers
+## Gateway issuers
 
-**Parameter**
+**Parameters**
 
 ----------------
 
-__id__ | string
+__code__ | string
 
 The unique identifier of the payment gateway to retrieve an issuer list for. Supported identifiers are: [iDEAL](#ideal-issuers) 
 
 ----------------
 
-Direct iDEAL transactions can have the following Issuers:
+Direct iDEAL transactions can have the following issuers:
 
 | IssuerID | Bank                  |
 |----------|-----------------------|
@@ -99,5 +98,6 @@ Direct iDEAL transactions can have the following Issuers:
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |
+
 {{% /description %}}
 
