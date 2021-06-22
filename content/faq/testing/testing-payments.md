@@ -17,7 +17,7 @@ aliases:
 
 Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay Test Control](https://testmerchant.multisafepay.com/).<br>
 
-This page assumes you have followed the steps on [Getting started](/guides/getting-started/#step-1-create-a-test-account).
+This page assumes you have followed the steps on [Getting started](/getting-started/#step-1-create-a-test-account).
 
 If you encounter any issues during testing, see [Diagnosing errors](/faq/errors-explained/diagnosing-errors/).
 

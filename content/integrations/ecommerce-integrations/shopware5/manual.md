@@ -20,7 +20,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - Shopware 5.6.x or 5.5.7 and above.
 - Tested on PHP 7.0
 

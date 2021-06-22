@@ -10,7 +10,7 @@ aliases:
 
 This page is for testing payment methods and scenarios in your [MultiSafepay Test Control](https://testMerchant.MultiSafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
 
-It assumes you have followed the steps on [Getting started](/guides/getting-started). 
+It assumes you have followed the steps on [Getting started](/getting-started/). 
 
 See also:
 

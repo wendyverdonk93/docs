@@ -54,7 +54,7 @@ Features that are no longer available:
 {{< /details >}}
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - Magento Open Source version 2.2.x & 2.3.x & 2.4.x **or** Magento Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 

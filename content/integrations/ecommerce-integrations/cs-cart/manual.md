@@ -20,7 +20,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - CS-Cart 4.x
 - Tested on PHP 7.0
 

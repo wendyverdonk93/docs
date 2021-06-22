@@ -12,7 +12,7 @@ aliases:
 This technical manual is for installing and configuring the MultiSafepay app for Ecwid.
 
 ### Requirements
-You need a MultiSafepay account – See [Getting started](/guides/getting-started/).
+You need a MultiSafepay account – See [Getting started](/getting-started/).
 
 ### Installation and configuration
 1. Log in to your Ecwid backend and install the MultiSafepay app from the App Store.

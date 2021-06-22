@@ -12,7 +12,7 @@ aliases:
 This technical manual is for installing and configuring the MultiSafepay plugin for Logic4.
 
 ### Requirements
-You will need a MultiSafepay account. See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account. See [Getting started](/getting-started/).
 
 ### Installation and configuration
 For the installation manual and technical support, see Logic4 - [Contact](https://www.logic4.nl/contact/).

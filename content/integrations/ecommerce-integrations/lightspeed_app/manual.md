@@ -24,7 +24,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - A MultiSafepay [API key](/tools/multisafepay-control/get-your-api-key))
 
 ### Notes

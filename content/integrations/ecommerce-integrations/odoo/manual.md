@@ -21,7 +21,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - Odoo 13.0
 - Tested on Python 3.6
 

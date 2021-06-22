@@ -21,7 +21,7 @@ Contact us:
 - GitHub: Create a technical issue
 
 ### Requirements
-- MultiSafepay account – See [Getting started](/guides/getting-started/).
+- MultiSafepay account – See [Getting started](/getting-started/).
 - Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
 - Tested on PHP 7.0
 

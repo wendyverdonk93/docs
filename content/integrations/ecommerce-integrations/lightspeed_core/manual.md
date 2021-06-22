@@ -15,7 +15,7 @@ This technical manual is for installing and configuring the MultiSafepay core in
 For support, contact Lightspeed – [Support](https://www.lightspeedhq.nl/support).
 
 ### Requirements
-You will need a MultiSafepay account – See [Getting started](/guides/getting-started/).
+You will need a MultiSafepay account – See [Getting started](/getting-started/).
 
 ### Installation and configuration
 1. Log in to your Lightspeed backend.
