@@ -1,7 +1,7 @@
 ---
 weight: 220
 meta_title: "API - Create a Direct Order - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
@@ -54,6 +54,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "locale": "en_US",
       "first_name": null,
       "last_name": null,
+      "company_name": null,
       "address1": null,
       "address2": null,
       "house_number": null,
@@ -72,7 +73,7 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "account_id": null,
       "account_holder_name": null,
       "external_transaction_id": "0050003729272772",
-      "account_iban": "https://betalen.rabobank.nl/ideal-betaling/landingpage?random=44b2dcf080f29f6f52d05802fd76e31285ac564dc974319f0109e1d978234770&trxid=0050003729272772",
+      "account_iban": "*** 1234",
       "isser_id": "0021"
     },
     "costs": [
@@ -161,7 +162,16 @@ Customer will be redirected to this page after a successful payment. In the even
 ----------------
 __cancel_url__ | string
 
-Customer will be redirected to this page after a failed payment.
+If the payment fails, the customer is redirected to this page.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 
 {{< /description >}}

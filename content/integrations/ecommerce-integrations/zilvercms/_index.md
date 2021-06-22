@@ -6,10 +6,8 @@ meta_description: "MultiSafepay app for ZilverCMS. Easily integrate MultiSafepay
 logo: "/logo/Integrations/ZilverCMS.svg"
 weight: 30
 title_short: "ZilverCMS"
-description_short: "Easily integrate MultiSafepay payment solutions into your ZilverCMS platform with the free app."
-description: "Easily integrate MultiSafepay payment solutions into your ZilverCMS platform with the free app.
-This app is managed by our partner ZilverCMS. For support, please contact [ZilverCMS](https://www.zilvercms.nl/contact) directly. 
-If you would like to integrate the MultiSafepay app for ZilverCMS, please contact our integration team at <integration@multisafepay.com>"
+description_short: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform"
+description: "Free app to integrate MultiSafepay payment solutions into your ZilverCMS platform."
 layout: 'single'
 faq: "."
 aliases: 
@@ -17,3 +15,10 @@ aliases:
     - /integrations/hosted/zilvercms
     - /integrations/zilvercms
 ---
+
+This app is managed by our partner ZilverCMS. 
+
+For support: 
+
+- See ZilverCMS - [Contact](https://www.zilvercms.nl/contact)
+- Email the Integration Team at <integration@multisafepay.com>

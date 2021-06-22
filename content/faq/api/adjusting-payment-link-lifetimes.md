@@ -2,7 +2,7 @@
 title: "Adjusting payment link lifetimes"
 weight: 2
 meta_title: "FAQ API - Adjusting payment link lifetimes - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/lifetime-of-a-payment-link
@@ -21,7 +21,7 @@ You can also cancel payment links.
 # Adjusting lifetimes
 
 ### Bank transfers
-Payment links for bank transfers are valid for **60 days** by default, rather than the standard 30 days. You can adjust the liftetime in the bank transfer email sent to the customer by setting a `days_active` or `seconds_active` parameter. The transaction then remains active for 60 days, and the payment link expires after the default 30 days. 
+Payment links for bank transfers are valid for **60 days** by default, rather than the standard 30 days. You can adjust the liftetime in the bank transfer email sent to the customer by setting a `days_active` or `seconds_active` parameter. 
 
 ### PayPal    
 PayPal sets a payment link lifetime limit of **14 days**. This is less than MultiSafepay's default lifetime. You can only use the `days_active` and `seconds_active` parameters to adjust the lifetime of a PayPal payment link within 14 days. 

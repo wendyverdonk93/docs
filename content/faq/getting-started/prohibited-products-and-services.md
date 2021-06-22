@@ -2,17 +2,16 @@
 title : "Prohibited products and services"
 weight: 4
 meta_title: "FAQ Getting Started - Prohibited products and services - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
 ---
-As a [payment service provider](/faq/general/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must then comply with specific policies for each payment method we offer. 
+As a [payment service provider](/faq/general/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
 
-MultiSafepay must account for risks and potential reputational damage. Therefore, we cannot permit some products and/or services to be sold, or only if the merchant provides additional information.
+We must account for risk and potential reputational damage. Therefore, we prohibit the sale of some products and services, or require additional information from the merchant.
 
-
-For a list of prohibited products and services, email the Sales Department at <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
+For a list of prohibited products and services, email the Sales Team at <sales@multisafepay.com>. To discuss your options, call +31 20 8500 502.
 
 ### Erotica
 * Erotic or pornographic images
@@ -59,3 +58,45 @@ For a list of prohibited products and services, email the Sales Department at <s
 
 ### Live organisms
 * Offering live organisms of any sort in any way
+
+## High-risk products/services
+
+Under VISA and Mastercard's High Risk programs, which concern high-risk products and services, you will be subject to a 500 USD fee if you sell any of the products listed below. This will be collected as a yearly recurring payment.
+
+Find an overview of VISA and Mastercard's high-risk products or services in the tables below:
+
+### VISA Product and service rules
+
+| Code    | Description              |
+| --------- | ------------------------ |
+| 5122 | (Drugs, Drug Proprietaries, Druggist Sundries) - Sale of prescription-required drugs, cross-border card-absent transactions |
+| 5912  | (Drug Stores, Pharmacies) - Sale of prescription-required drugs, cross-border card-absent transactions |
+| 5962 | (Direct Marketing) - Travel-related arrangement services |
+| 5966  |  (Direct Marketing) - Outbound telemarketing |
+| 5967  | (Direct Marketing) - Inbound telemarketing |
+| 5993 | (Cigar Stores and Stands) - Sale of cigarettes in a card-absent environment |
+| 7273  | (Dating Services) - Card absent transactions |
+| 7995 | (Betting) - Lottery tickets, Casino gaming chips, Off-track betting, and Wagers at race tracks |
+| 4816 | (Computer Network / information services) - card-absent environment transactions |
+| 5816 | (Digital goods / Games) - Card-absent environment transactions |
+| 6051  | (Non financial institutions) - Card-absent environment transactions |
+| n/a | Merchants that fall under the _Excessive chargeback program_ |
+| n/a | Sale of replicas and _inspired by_ items |
+
+### Mastercard Product and service rules
+
+| Code    | Description              |
+| --------- | ------------------------ |
+| 5967, 7841 | Non-face-to-face adult content and services |
+| 7801, 7802, and 7995  | Non–face-to-face gambling |
+| 5122, 5912 | Non–face-to-face pharmaceuticals |
+| 5993  |  Non–face-to-face tobacco products|
+| 7994  | Skill games  |
+| 4816 | Hight risk cyberlocker |
+| 6211 | High risk securities |
+| 6051 | Cryptocurrencies |
+| 5968 | Negative option billing  |
+| n/a | Merchants that fall under the _Excessive chargeback program_ |
+| n/a | Sale of replicas and _inspired by_ items |
+
+For more information about the High Risk program, email the Risk Team at <risk@multisafepay.com>

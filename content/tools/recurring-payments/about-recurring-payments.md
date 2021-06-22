@@ -2,7 +2,7 @@
 title : "About recurring payments"
 weight: 51
 meta_title: "About recurring payments - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/recurring-payments/what-is-recurring-payments
@@ -18,6 +18,10 @@ You can set up recurring payments for:
 - Optionally, you can use iDEAL, Bancontact, or SOFORT Banking for the initial payment and continue with recurring direct debits.
 
 We offer a work-around option to use Bancontact for the initial payment. For more information, email your account manager at <sales@multisafepay.com>
+
+If you already process recurring payments for SEPA Direct Debit customers with another PSP, you cannot use recurring payments for the same customers with MultiSafepay. 
+
+For these customers, you can use a [Sepa Direct Debit](/api/#direct-sepa-direct-debit) using the retrieved IBAN and account holder name.
 
 ## Requirements
 

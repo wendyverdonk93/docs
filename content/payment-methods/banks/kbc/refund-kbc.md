@@ -2,7 +2,7 @@
 title: "How to refund a KBC transaction"
 weight: 23
 meta_title: "KBC, how to refund a transaction - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases: [/payment-methods/kbc/refund-kbc/]
 ---
@@ -24,4 +24,4 @@ The transaction status is now _initialized_. As long as the transaction status i
 
 We do not automatically receive the IBAN when a transaction is completed. However, we import our bank statements daily and all incoming payments which have not been completed yet will then be completed. Refunds can therefore be done after 1 business day.
 
-In the event of a failed KBC refund, please contact our support team at <support@multisafepay.com> to assist you.
+If a KBC refund fails, email the Support Team at <support@multisafepay.com> 

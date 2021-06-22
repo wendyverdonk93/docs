@@ -4,7 +4,7 @@ github_url : "https://github.com/MultiSafepay/Magento2Msp"
 download_url: "https://github.com/MultiSafepay/Magento2Msp/releases/download/1.14.1/Plugin_Magento2_1.14.1.zip"
 description : "This is the manual for the old Magento 2 plugin which has become deprecated. It can still be used, but please be aware that this plugin won't be receiving any more significant updates in the future."
 meta_title: "Magento 2 plugin manual V1 - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 layout: 'single'
 faq: '.'
@@ -66,7 +66,10 @@ This page contains the FastCheckout specific settings.
 More information about the FastCheckout can be found in our [documentation of FastCheckout](https://docs.multisafepay.com/payment-methods/fastcheckout/)
 
 ### 4. Congratulations
-You have installed and configured the plugin successfully. If you have any questions regarding the plugin, feel free to contact our Integration Team at <integration@multisafepay.com> or start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
+For any questions about the plugin:
+
+ - Email the Integration Team at <integration@multisafepay.com> 
+ - Start a discussion in our [Magento Slack channel](https://magentocommeng.slack.com) _#multisafepay-payments_
 
 ### 5. Updates 
 Run the following commands via the CLI:

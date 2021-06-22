@@ -2,7 +2,7 @@
 title : "Classic payment page"
 weight: 42
 meta_title: "Payment pages - Classic payment page - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/payment-pages/Difference between V1 and V2
@@ -15,12 +15,14 @@ Some payment methods are only supported on PayV2 pages. When we add new payment 
 
 PayV1 does **not** support the following payment methods:
 
-| Payment method category  | Payment methods  |  
-|---|---|
-|  Bank | Belfius, CBC, EPS, iDEALQR, ING Home'Pay, KBC, Request to Pay, Santander, SOFORT Banking, Trustly  |   
-| Billing suite  | AfterPay, in3, Klarna   |  
-| Wallet  |Alipay, Apple Pay, JCB   |   
-| Prepaid cards  | PaySafecard  |
+| Payment method category   | Payment methods     |
+|----------------|-------------------|
+|  Bank | Belfius, CBC, EPS, iDEALQR, ING Home'Pay, KBC, Request to Pay, Santander, SOFORT Banking, Trustly     |
+|  Billing Suite | AfterPay, in3, Klarna     |
+|  Wallet | Alipay, Apple Pay, JCB    |
+|  Prepaid cards | PaySafecard   |  
+
+**Note:** Bancontact QR codes only work on PayV2 pages.
 
 ### Faster request processing 
 Requests to and responses from the MultiSafepay server are processed much faster on PayV2 pages.

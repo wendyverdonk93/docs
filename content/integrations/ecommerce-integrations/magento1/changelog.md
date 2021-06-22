@@ -1,9 +1,25 @@
 ---
 title : "Release Notes Magento 1 plugin"
 meta_title: "Magento 1 plugin changelog - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/integrations/magento1/changelog/]
 ---
+
+## 3.1.0
+Release date: Jun. 15th, 2021
+
+### Added
++ PLGMAGONE-710: Add support for [Generic Gateways](https://docs.multisafepay.com/integrations/ecommerce-integrations/magento1/faq/generic-gateways/) which can be used for branded giftcards
++ PLGMAGONE-627: Add order number variable support to custom refund description
+
+### Fixed
++ PLGMAGONE-719: Prevent a zero amount refund leading to a full refund
++ PLGMAGONE-706: Show payment instructions for giftcards too
+
+### Changed
++ DAVAMS-344: Update Trustly logo
+
+***
 
 ## 3.0.0
 Release date: Oct. 21st, 2020
@@ -41,7 +57,7 @@ Release date: Apr. 2nd, 2020
 + PLGMAGONE-617: Add Apple Pay
 + PLGMAGONE-656: Add Direct Bank Transfer (Request to Pay)
 + PLGMAGONE-485: Add support for Fooman Surcharge
-+ PLGMAGONE-562: Added support for PostNL pickup points for Afterpay.
++ PLGMAGONE-562: Added support for PostNL pickup points for AfterPay.
 
 ### Fixed
 + PLGMAGONE-654: Fix incorrect character set for translations
@@ -102,7 +118,7 @@ Release date: May. 25th, 2018
 
 ### Added
 + PLGMAGONE-378: Add support for Santander Betaal per Maand
-+ PLGMAGONE-379: Add support for Afterpay
++ PLGMAGONE-379: Add support for AfterPay
 + PLGMAGONE-380: Add support for Trustly
 + PLGMAGONE-381: Add Moneyou iDEAL issuer logo
 

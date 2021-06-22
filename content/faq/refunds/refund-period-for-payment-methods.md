@@ -2,7 +2,7 @@
 title : "Refund period for specific payment methods"
 weight: 2
 meta_title: "FAQ Refunds - Refund period for payment methods - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /faq/refunds/refund-period-payment-methods
@@ -46,4 +46,4 @@ This table lists the refund period for each payment method:
 | [Trustly](/payment-methods/banks/trustly/) | 365 days |
 | [Visa](/payment-methods/credit-and-debit-cards/visa/) | 180 days |
 
-For questions or help initiating refunds in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>
+For questions about initiating refunds in your MultiSafepay Control, email the Integration Team at <integration@multisafepay.com>

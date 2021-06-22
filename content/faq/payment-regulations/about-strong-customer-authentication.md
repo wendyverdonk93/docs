@@ -2,7 +2,7 @@
 title : "About strong customer authentication"
 weight: 1
 meta_title: "FAQ Payment regulations - About strong customer authentication - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/payment-regulations/strong-customer-authentication
@@ -42,6 +42,6 @@ Customers may encounter 2FA for payment methods which do not already have it ena
 
 Subscriptions and recurring transactions will be exempt to the SCA requirements. Although, this is only possible after an initial transaction has been authenticated successfully by SCA.
 
-Furthermore, low value orders will also be exempt once 3D Secure 2.0 has widely been adopted. You will be required to apply for this; please contact <integration@multisafepay.com> for more information.
+Low value orders will also be exempt once 3D Secure 2.0 is widely adopted. For more information or to apply, email the Integration Team at <integration@multisafepay.com>
 
 Read more about [3D Secure 2.0](/faq/payment-regulations/3d-secure)

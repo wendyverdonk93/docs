@@ -1,7 +1,7 @@
 ---
 weight: 130
 meta_title: "API - Gateway issuers - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
@@ -52,6 +52,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
       "description": "Knab"
     },
     {
+      "code": "1099",
+      "description": "Revolut"
+    },
+    {
       "code": "4371",
       "description": "Bunq"
     },
@@ -90,7 +94,7 @@ Direct iDEAL transactions can have the following issuers:
 | 0801     | Knab                  |
 | 0021     | Rabobank              |
 | 0771     | Regio Bank            |
-| Soon supported | Revolut         |
+| 1099     | Revolut               |
 | 0751     | SNS Bank              |
 | 0511     | Triodos Bank          |
 | 0161     | Van Lanschot Bankiers |

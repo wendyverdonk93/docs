@@ -3,7 +3,7 @@ title: "Flexible 3D"
 weight: 10
 layout: 'single'
 meta_title: "Flexible 3D - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Flexible 3D.svg'
 short_description: 'Use 3D Secure verification to provide an extra layer of security to credit card payments.'
 ---
@@ -13,7 +13,7 @@ Flexible 3D is a feature that allows you to enable/disable [3D Secure](/faq/gene
 For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
 
 {{< alert-notice >}}
-__Please note__: MultiSafepay no longer supports Flexible 3D with merchants based in Europe due to PSD2 regulations. If your business handles many transactions with customers outside of Europe and you are interested in a more flexible setup, please contact your account manager by email <sales@multisafepay.com>
+**Note:** MultiSafepay no longer supports Flexible 3D for merchants in Europe due to PSD2 regulations. If you have a lot of customers outside Europe and you need a more flexible setup, email your account manager at <sales@multisafepay.com>
 {{< /alert-notice >}}
 
 ## How it works
@@ -50,7 +50,6 @@ An extra step is required when processing a direct credit card transactions. Bec
 | reference_id      | string | Authorise 3D response reference_id |
 | MD                | string | Authorise 3D response MD  |
 |
-
 
 
 

@@ -32,7 +32,7 @@ All URLs on this page are directed to our test API. To use the live API, change 
 
 ## Create a UBO
 
-`POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/` 
+`POST` `https://testapi.multisafepay.com/v1/json/accounts/{account_id}/ubos` 
 
 Add a new UBO to a merchant account.
 

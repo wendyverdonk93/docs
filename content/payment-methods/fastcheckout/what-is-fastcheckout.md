@@ -2,7 +2,7 @@
 title : "Fastcheckout, What it is"
 weight: 20
 meta_title: "FastCheckout, What it is - MultiSafepay Docs"
-meta_description: "The MultiSafepay Documentation Center presents all relevant information about our Plugins and API. You can also find support pages for payment methods, tools and general questions as well as the contact details of our Support and Integration Teams."
+meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
 ## Fastcheckout, What it is
@@ -24,6 +24,18 @@ MultiSafepay offers a free of charge Fastcheckout account. However, not all paym
 __Available__: AfterPay, Alipay, American Express, Bank transfer, Bancontact, Belfius, SEPA Direct Debit, Dotpay, E-Invoicing, EPS, Giropay, iDEAL, iDEAL QR, ING Home'Pay, JCB, KBC, Mastercard, PayPal, Paysafecard, Betaal per Maand, SOFORT Banking, Trustly, TrustPay, Visa.
 
 __Not available__: Klarna, Pay After Delivery. 
+
+### Adding a website and customized logo
+
+For instructions on how to add a website, see MultiSafepay Control - [add your website](/tools/multisafepay-control/add-website/).
+
+To add your personal logo to the Fastcheckout payment pages, follow these steps:
+
+1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com/).
+2. Navigate to **Settings** → **Website settings**.
+3. Scroll down to the option **Payment logo (Fast Checkout)**.
+4. Select your logo
+5. Click **Save**.
 
 ### Fastcheckout Guaranteed
 With Fastcheckout Guaranteed, customers profit from additional security and protection. In case of delivery failure after payment, Fastcheckout offers an insurance up to €200 per order.

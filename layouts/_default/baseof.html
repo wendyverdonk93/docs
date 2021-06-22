@@ -36,43 +36,14 @@
     <link href="{{ .Site.BaseURL }}css/bootstrap.min.css?v=2" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mburger.css" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
-    <link href="{{ .Site.BaseURL }}css/main.css?v=20" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}css/main.css?v=22" rel="stylesheet" />
     <link rel="shortcut icon" href="/favicon.ico">
     <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
     <script src="{{ .Site.BaseURL }}js/main.js?v=8"></script>
 
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script type="text/javascript" data-ignore="1">
-        window.cookieconsent_options = {
-            js:'https://www.multisafepay.com/typo3conf/ext/dp_cookieconsent/Resources/Public/JavaScript/cookieconsent.min.js',
-            css:'https://www.multisafepay.com/typo3conf/ext/dp_cookieconsent/Resources/Public/css/cookieconsent.min.css',
-            content: {
-                message:'We use cookies and other tracking technologies to personalize and improve your experience. By continuing to use our website you consent to this.',
-                dismiss:'Allow cookies',
-                allow:'Allow cookies',
-                deny: 'Decline',
-                link:'More info →',
-                href:'https://www.multisafepay.com/privacy-cookies/',
-                policy: 'Cookie Policy',
-            },
-            theme: 'none',
-            position: 'bottom-right',
-            type: 'opt-out',
-            dismissOnScroll: parseInt('0')||false,
-            palette: {
-                popup: {
-                    background: '#f6f7f9',
-                    text: '#000'
-                },
-                button: {
-                    background: '#E03F65',
-                    text: '#fff',
-                }
-            }
-        };
-        </script>
-        <script type="text/javascript" data-ignore="1" defer src="https://www.multisafepay.com/typo3conf/ext/dp_cookieconsent/Resources/Public/JavaScript/cookie.min.js?v=9.5.2"></script>
-        <!-- End Cookie Consent plugin -->
+
+    <!-- Cookie consent script -->
+    <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="ce3ce69a-721a-49db-a27e-dbb7f17690bf"></script>
 
         <!-- Hotjar Tracking Code for https://docs.multisafepay.com/ -->
         <script>
@@ -87,7 +58,6 @@
         </script>
 </head>
 
-
 <body class='{{ if .IsHome }}home{{end}}'>
     <div id="page" class="page">
         {{ partial "menu" . }}
@@ -101,15 +71,13 @@
         {{ block "main" . }}{{ end }}
         {{ if not .IsHome }}
 
-
         <div class="container">
-    <div class="row">
-        {{ partial "edit-page" . }}
-        {{ partial "bottom-block" . }}
+            <div class="row">
+                {{ partial "edit-page" . }}
+                {{ partial "bottom-block" . }}
+            </div>
+        </div>
     </div>
-</div>
-
-
         <footer class="footer-background">
             {{ else }}
             <footer>
@@ -119,8 +87,8 @@
                 <div class="text-center">
                     <a href="https://multisafepay.com"><img class="msp-logo-footer"
                             src="{{ relURL "logo/MSP-logo.svg" }}" /></a>
-                </div>
-            </footer>
+            </div>
+        </footer>
     </div>
 
     {{ if  .IsHome }}
@@ -142,6 +110,7 @@
     </script>
     {{end}}
     <script src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
+    
     <!-- Begin AnchorJS - https://www.bryanbraun.com/anchorjs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
     <script type="text/javascript">
