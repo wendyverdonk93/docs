@@ -23,11 +23,11 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 {{< description >}}
 ## Retrieve a gateway
 
-**Parameter**
+**Parameters**
 
-----------------
+---
 
-__id__ | string
+__gateway__ | string
 
 The unique identifier of the gateway to be returned.
 

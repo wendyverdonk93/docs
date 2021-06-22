@@ -26,6 +26,10 @@ meta_description: "The MultiSafepay Documentation Center presents all relevant i
 
 ## Retrieve gateways
 
+**Parameters**
+
+---
+
 __include__ | string
 
 Specify comma delimited additional payment method types. Optional.
