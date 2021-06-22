@@ -34,7 +34,6 @@
                     {{ if .Params.description }}
                     {{ .Params.description | markdownify }}
                     {{ end }}
-
                     {{ if or (isset .Params "github_url") (isset .Params "download_url") (isset .Params "changelog") }}
                     <div class="row pt-5 pb-5 px-3 clearfix">
                             {{ if isset .Params "github_url"}}

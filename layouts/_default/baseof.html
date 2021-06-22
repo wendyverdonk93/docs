@@ -71,15 +71,13 @@
         {{ block "main" . }}{{ end }}
         {{ if not .IsHome }}
 
-
         <div class="container">
-    <div class="row">
-        {{ partial "edit-page" . }}
-        {{ partial "bottom-block" . }}
+            <div class="row">
+                {{ partial "edit-page" . }}
+                {{ partial "bottom-block" . }}
+            </div>
+        </div>
     </div>
-</div>
-
-
         <footer class="footer-background">
             {{ else }}
             <footer>
@@ -89,8 +87,8 @@
                 <div class="text-center">
                     <a href="https://multisafepay.com"><img class="msp-logo-footer"
                             src="{{ relURL "logo/MSP-logo.svg" }}" /></a>
-                </div>
-            </footer>
+            </div>
+        </footer>
     </div>
 
     {{ if  .IsHome }}
