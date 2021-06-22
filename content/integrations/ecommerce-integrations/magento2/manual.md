@@ -55,7 +55,7 @@ Features that are no longer available:
 
 ### Requirements
 - MultiSafepay account – See [Getting started](/getting-started/).
-- Magento Open Source version 2.2.x & 2.3.x & 2.4.x **or** Magento Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
+- Magento Open Source version 2.2.x & 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 
 ### Modules
@@ -83,7 +83,7 @@ If you have removed MSI (e.g. with a composer-replace trick like [yireo/magento2
 
 The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml modules, so they are all installed together. In some cases, you also then need a stock-handling module. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
 
-The installation process is the same for the Magento Commerce version.
+The installation process is the same for the Adobe Commerce version.
 
 {{< /details >}}
 

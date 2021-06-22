@@ -8,6 +8,9 @@ read_more: '.'
 
 ## Chargebacks
 
-Since Apple Pay payments are credit card transactions, merchants are [3D Secure](/faq/general/glossary/#3d-secure) protected against fraud. Email requests for MultiSafepay to challenge chargebacks on your behalf to <retrieval@multisafepay.com> 
+Apple Pay payments are credit card transactions, therefore you are protected against fraud by [3D Secure](/faq/general/glossary/#3d-secure). 
 
-Please make sure to read more information about [chargebacks](/faq/chargebacks) on our documentation page.
+If a customer initiates a chargeback, we will challenge the chargeback on your behalf. Email the Finance Team at <retrieval@multisafepay.com> 
+
+For more information, see FAQ – [Chargebacks](/faq/chargebacks).
+

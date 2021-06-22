@@ -58,3 +58,45 @@ For a list of prohibited products and services, email the Sales Team at <sales@m
 
 ### Live organisms
 * Offering live organisms of any sort in any way
+
+## High-risk products/services
+
+Under VISA and Mastercard's High Risk programs, which concern high-risk products and services, you will be subject to a 500 USD fee if you sell any of the products listed below. This will be collected as a yearly recurring payment.
+
+Find an overview of VISA and Mastercard's high-risk products or services in the tables below:
+
+### VISA Product and service rules
+
+| Code    | Description              |
+| --------- | ------------------------ |
+| 5122 | (Drugs, Drug Proprietaries, Druggist Sundries) - Sale of prescription-required drugs, cross-border card-absent transactions |
+| 5912  | (Drug Stores, Pharmacies) - Sale of prescription-required drugs, cross-border card-absent transactions |
+| 5962 | (Direct Marketing) - Travel-related arrangement services |
+| 5966  |  (Direct Marketing) - Outbound telemarketing |
+| 5967  | (Direct Marketing) - Inbound telemarketing |
+| 5993 | (Cigar Stores and Stands) - Sale of cigarettes in a card-absent environment |
+| 7273  | (Dating Services) - Card absent transactions |
+| 7995 | (Betting) - Lottery tickets, Casino gaming chips, Off-track betting, and Wagers at race tracks |
+| 4816 | (Computer Network / information services) - card-absent environment transactions |
+| 5816 | (Digital goods / Games) - Card-absent environment transactions |
+| 6051  | (Non financial institutions) - Card-absent environment transactions |
+| n/a | Merchants that fall under the _Excessive chargeback program_ |
+| n/a | Sale of replicas and _inspired by_ items |
+
+### Mastercard Product and service rules
+
+| Code    | Description              |
+| --------- | ------------------------ |
+| 5967, 7841 | Non-face-to-face adult content and services |
+| 7801, 7802, and 7995  | Non–face-to-face gambling |
+| 5122, 5912 | Non–face-to-face pharmaceuticals |
+| 5993  |  Non–face-to-face tobacco products|
+| 7994  | Skill games  |
+| 4816 | Hight risk cyberlocker |
+| 6211 | High risk securities |
+| 6051 | Cryptocurrencies |
+| 5968 | Negative option billing  |
+| n/a | Merchants that fall under the _Excessive chargeback program_ |
+| n/a | Sale of replicas and _inspired by_ items |
+
+For more information about the High Risk program, email the Risk Team at <risk@multisafepay.com>

@@ -1,17 +1,14 @@
 ---
 title : "Processing refunds"
-meta_title: "Klarna - Processing refunds - MultiSafepay Docs"
+meta_title: "E-invoicing - Processing refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
-weight: 2
+weight: 1
 ---
 
 - You cannot refund more than the amount of the original transaction.
 
 - There is no time limit on refunding successful transactions, so long as the receiving bank can process the refund.
-
-## Via our API
-Make a POST `/orders/{order_id}/refunds` request. See API Reference – [Refund with shopping cart](/api/#refund-with-shopping-cart).
 
 ### In MultiSafepay Control
 
@@ -73,4 +70,4 @@ Instead of deleting an item in the checkout editor, you may want to add a discou
 
 ### In your backend
 
-You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/). 
+You can process refunds in the backend of most [ecommerce platforms](/integrations/ecommerce-integrations). For more information, see the User guide in the integration manaual for the relevant platform, e.g. Magento 2 – [Processing refunds](/integrations/ecommerce-integrations/magento2/faq/processing-refunds/).
