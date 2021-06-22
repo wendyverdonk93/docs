@@ -1641,7 +1641,3 @@ details {
 details > summary {
 	color: #008DCB;
 }
-
-details > table > tbody > tr {
-	background-color: blue;
-}
