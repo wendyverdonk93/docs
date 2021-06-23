@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/ideal/ideal-testing
 ---
 
-To integrate Klarna using our API, see API Reference - [iDEAL](/api/#ideal).
+To integrate iDEAL using our API, see API Reference - [iDEAL](/api/#ideal).
 
 {{< details title="View test statuses" >}}
 
