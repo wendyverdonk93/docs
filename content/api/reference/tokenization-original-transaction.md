@@ -8,7 +8,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 {
         "type": "redirect",
         "gateway": "CREDITCARD",
@@ -25,19 +25,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         },
         "customer": {
                 "locale": "nl_NL",
-                "ip_address": "85.149.25.196",
+                "ip_address": "123.123.123.123",
                 "forwarded_ip": "",
-                "first_name": "Testperson-nl",
-                "last_name": "Approved",
-                "address1": "Kraanspoor",
-                "house_number": "39",
-                "zip_code": "1033 SC",
+                "first_name": "Simon",
+                "last_name": "Smit",
+                "address1": "Bloemstraat",
+                "address2": "123",
+                "zip_code": "1000 AB",
                 "city": "Amsterdam",
                 "country": "NL",
-                "birthday": "10071970",
-                "gender": "male",
-                "phone": "0208500500",
-                "email": "example@multisafepay.com",
+                "birthday": "1970-07-10",
+                "gender": "mr",
+                "phone": "0600000001",
+                "email": "simonsmit@example.com",
                 "referrer": "http://example.com",
                 "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
                 "reference": "AutoQAReference"
@@ -46,7 +46,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON response
 
-```shell
+```json
 {
     "success": true,
     "data": {

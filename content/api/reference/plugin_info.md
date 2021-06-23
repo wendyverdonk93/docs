@@ -39,14 +39,15 @@ The primary URL of the ecommerce webshop.
 {{< code-block >}}
 Plugin and/or integration related information
 
-```shell 
-
-"plugin": {
-    "shop": "ApiTestTool",
-    "plugin_version": "1.0.0",
-    "shop_version": "1",
-    "partner": "partner",
-    "shop_root_url": "https://multisafepay.com"
+```json 
+{
+    "plugin": {
+        "shop": "ApiTestTool",
+        "plugin_version": "1.0.0",
+        "shop_version": "1",
+        "partner": "partner",
+        "shop_root_url": "https://multisafepay.com"
+    }
 }
  ```
 {{< /code-block >}}

@@ -4,6 +4,21 @@ meta_title: "API - Authentication - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
+
+> Test API
+
+``` shell
+curl -X POST "https://testapi.multisafepay.com/v1/json/" \
+-H "Authentication: Bearer <your-test-API-key>"
+```
+
+> Live API
+
+``` shell
+curl -X POST "https://api.multisafepay.com/v1/json/" \
+-H "Authentication: Bearer <your-live-API-key>"
+```
+
 {{< /code-block >}}
 
 {{< description >}}
@@ -13,5 +28,5 @@ All requests to the MultiSafepay [API](/faq/general/multisafepay-glossary/#api) 
 
 The HTTP header name for the API key is: **api_key**
 
-[Open a TEST Account](https://testmerchant.multisafepay.com/signup)
+[Sign up for a test account](https://testmerchant.multisafepay.com/signup)
 {{% /description %}}

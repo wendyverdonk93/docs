@@ -8,16 +8,16 @@ aliases: [/api/#direct-bank-transfer]
 
 > POST - /orders 
 
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "DBRTP",
     "currency": "EUR",
-    "amount": "9743",
+    "amount": 9743,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -29,7 +29,7 @@ aliases: [/api/#direct-bank-transfer]
 
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -41,29 +41,28 @@ aliases: [/api/#direct-bank-transfer]
 
 > POST - /orders
 
-```shell 
+```json
 
 {
-    {
-    "type": "direct",
-    "order_id": "my-order-id-1",
-    "gateway": "DBRTP",
-    "currency": "EUR",
-    "amount": "9743",
-    "description": "Test Order Description",
-    "manual": "false",
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
-    }
+  "type": "direct",
+  "order_id": "my-order-id-1",
+  "gateway": "DBRTP",
+  "currency": "EUR",
+  "amount": 9743,
+  "description": "Test Order Description",
+  "manual": false,
+  "payment_options": {
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
+    "close_window": ""
+  }
 }
 ```
 
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -85,16 +84,16 @@ aliases: [/api/#direct-bank-transfer]
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
-      "last_name": "Approved",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0208500500",
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",

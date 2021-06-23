@@ -6,19 +6,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders/{order_id}/refunds 
 
-```shell
+```json
 
 {
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "8",
+    "amount": 8,
     "description": "Your refund description"
 }
 ```
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {

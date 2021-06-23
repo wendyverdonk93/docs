@@ -5,10 +5,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 
 {{< code-block >}}
-```shell 
-
+```json 
+{
     "items": "<ol><li>Article 1: € 1,95</li><li>Article 2: € 2,95</li><li>Article 3: € 3,95</li></ol>",
-
+}
  ```
 {{< /code-block >}}
 {{< description >}}

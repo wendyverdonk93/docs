@@ -7,12 +7,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Split Payment Order",
     "affiliate": {
         "split_payments": [
@@ -33,7 +33,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {

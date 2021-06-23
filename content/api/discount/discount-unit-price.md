@@ -11,7 +11,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
 {{< code-block >}}
 > Example with 20% discount calculated in all unit prices:
 
-```shell 
+```json 
 {
     "type": "redirect",
     "gateway": "PAYAFTER",
@@ -46,7 +46,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
     "checkout_options": {
         "tax_tables": {
             "default": {
-                "shipping_taxed": "true",
+                "shipping_taxed": true,
                 "rate": 0.21
             },
             "alternate": [

@@ -6,15 +6,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
    "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -111,14 +111,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         }
     },
     "customer": {
-        "email": "test@example.com"
+        "email": "simonsmit@example.com"
     }
 }
 ```
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {

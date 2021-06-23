@@ -7,14 +7,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "CBC",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -29,7 +29,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -40,15 +40,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "CBC",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -57,17 +57,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "customer": {
         "locale": "nl_BE",
-        "ip_address": "89.20.162.110",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
@@ -75,7 +75,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 > JSON Repsonse
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -103,18 +103,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": null,
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": 39C,
-      "last_name": "Approved",
-      "phone1": "0208500500",
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
+      "phone1": "0600000001",
       "locale": "nl_BE",
-      "phone1": "020 8500 500",
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",

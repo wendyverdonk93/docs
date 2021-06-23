@@ -5,11 +5,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 
 {{< code-block >}}
-```shell 
-
- "second_chance": {
-   "send_email": true
-},
+```json 
+{
+  "second_chance": {
+    "send_email": true
+  }
+}
  ```
 {{< /code-block >}}
 {{< description >}}

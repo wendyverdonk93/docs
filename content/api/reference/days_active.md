@@ -5,16 +5,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 {{< code-block >}}
 
-```shell 
-"days_active": 30,
- ```
-
-```shell 
-"seconds_active": 60,
-```
-
-```shell 
-"description": "Test Order Description",
+```json 
+{
+	"days_active": 30,
+	"seconds_active": 60,
+	"description": "Test Order Description",
+}
 ```
 {{< /code-block >}}
 

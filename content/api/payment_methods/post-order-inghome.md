@@ -7,14 +7,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "INGHOME",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -29,7 +29,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -49,15 +49,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "modified": "2019-03-11T14:35:13",
     "customer": {
       "locale": "nl_BE",
-      "first_name": "Testperson-nl",
-      "last_name": "Approved",
-      "address1": "Kraanspoor",
-      "house_number": "39C",
-      "zip_code": "1033SC",
+      "first_name": "Simon",
+      "last_name": "Smit",
+      "address1": "Bloemstraat",
+      "address2": "123",
+      "zip_code": "1000 AB",
       "city": "Amsterdam",
       "country": "NL",
-      "phone1": "0208500500",
-      "email": "example@multisafepay.com",
+      "phone1": "0600000001",
+      "email": "simonsmit@example.com",
     },
     "payment_details": {
       "recurring_id": null,
@@ -81,7 +81,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > POST -/orders
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
@@ -100,7 +100,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {

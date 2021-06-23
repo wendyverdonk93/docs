@@ -10,12 +10,15 @@ html, body {
 .content, .code-area {
 	font-size: 1.6rem;
 	font-weight: 300;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 article {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-top: 4rem;
 }
 
 .code-area {
@@ -24,6 +27,7 @@ article {
 
 .code {
 	background-color: #f6f6f6;
+	border-radius: 1rem !important;
 	height: 100%;
 	font-family: 'Source Code Pro', monospace;
 	tab-size: 4;
@@ -48,10 +52,6 @@ article {
 .content {
 	margin-left: auto;
 	padding: 1rem;
-}
-
-.description>*:first-child {
-	border-top: 1px solid #ccc;
 }
 
 #api-content article:first-child .description>*:first-child {
@@ -100,6 +100,8 @@ article {
 
 .code, .code code {
 	color: #F8F8F2;
+	margin-top: 1rem;
+	margin-right: 2rem;
 }
 
 .code>* {
@@ -114,29 +116,76 @@ article {
 	margin: 0;
 	border-radius: 1rem;
 	width: 100%;
-	background-color: #ffffff;
+	background-color:#ffffff;
 	color: #085b80;
 	display: block;
 }
 
 .code blockquote {
 	padding: 2rem 2rem;
+	border-radius: 1rem;
 }
 
 code.language-shell {
 	color: #008DCB;
 }
 
-span.s2 {
+span.nt {
 	color: #4D4D4D;
 }
 
-span.o {
+span.p {
+	color: #acacac;
+}
+
+span.err {
+color: #acacac;
+}
+
+span.mf {
+	color: #9269de;
+}
+
+span.kc {
+	color: #008DCB;
+}
+
+span.mi {
+	color: #9269de;
+}
+
+span.s2 {
 	color: #085b80;
 }
 
+span.o {
+	color: #acacac;
+}
+
 span.m {
-	color: #AE81FF;
+	color: #9269de;
+}
+
+/*** Javascript syntax highlighting ***/
+
+span.k{
+	color: #4D4D4D;
+}
+
+span.nb {
+	color: #9269de;
+}
+
+span.nx {
+	color: #085b80;
+}
+
+span.o {
+	color: #acacac;
+}
+
+span.s1 {
+	color: #008DCB;
 }
 
 /**** table ****/
@@ -193,6 +242,10 @@ span.m {
 
 .note .content {
 	display: flex;
+}
+
+.code > .highlight {
+	border-radius: 1rem;
 }
 
 /*** APITOC ***/

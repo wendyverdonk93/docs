@@ -6,13 +6,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "google_analytics": { 
       "account": "UA-XXXXXXXXX" 
@@ -25,17 +25,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "80.123.456.789",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
+        "ip_address": "123.123.123.123",
+        "first_name": "Simon",
+        "last_name": "Smit",
         "company_name": "Test Company Name",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033SC",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0208500500",
-        "email": "test@example.com",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
@@ -50,7 +50,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {

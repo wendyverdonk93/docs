@@ -5,7 +5,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
@@ -22,18 +22,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "89.20.162.110",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "address2": "",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "Jordaan",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "referrer": "http://example.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
@@ -48,7 +48,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -70,16 +70,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": Netherlands,
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
       "locale": "nl_NL",
-      "phone1": "0208500500",
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "product description",
     "fastcheckout": "NO",

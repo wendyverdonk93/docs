@@ -4,7 +4,7 @@ weight: 1340
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
    "type": "redirect",
@@ -21,15 +21,15 @@ weight: 1340
    }, 
    "customer": {
        "locale": "nl_NL",
-       "ip_address": "10.1.5.1",
-       "first_name": "Testperson-nl",
-       "last_name": "Approved",
-       "address1": "Kraanspoor",
-       "house_number": "39",
-       "zip_code": "1033SC",
+       "ip_address": "123.123.123.123",
+       "first_name": "Simon",
+       "last_name": "Smit",
+       "address1": "Bloemstraat",
+       "address2": "123",
+       "zip_code": "1000 AB",
        "city": "Amsterdam",
        "country": "NL",
-       "email": "test@example.com",
+       "email": "simonsmit@example.com",
        "referrer": "http://example.com",
        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
    },
@@ -43,7 +43,7 @@ weight: 1340
 > JSON Response
 
 
-```shell 
+```json 
 {
     "success": true,
     "data": {

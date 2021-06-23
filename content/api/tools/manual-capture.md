@@ -5,13 +5,13 @@ weight: 1350
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "order_id_0000001",
     "gateway": "",
     "currency": "EUR",
-    "amount": "10000",
+    "amount": 10000,
     "description": "Manual Capture Test",
     "capture": "manual",
     "payment_options": {
@@ -22,7 +22,7 @@ weight: 1350
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "10.1.5.1",
+        "ip_address": "123.123.123.123",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
@@ -31,7 +31,7 @@ weight: 1350
 
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {

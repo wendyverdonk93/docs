@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 
 {
     "type": "redirect",
@@ -23,7 +23,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "close_window": ""
     },
     "customer": {
-        "email": "test@example.com"
+        "email": "simonsmit@example.com"
         "locale": "cs_CZ"
     }
 }
@@ -32,7 +32,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {

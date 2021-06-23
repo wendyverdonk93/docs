@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > GET - /orders/{order_id}
 
 > JSON Response
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -31,19 +31,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "custom_3": null
         },
         "customer": {
-            "address1": "Kraanspoor",
-            "address2": null,
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
             "city": "Amsterdam",
             "country": "NL",
-            "country_name": null,
-            "email": "example@multisafepay.com",
-            "first_name": "Testperson-nl",
-            "house_number": "39",
-            "last_name": Approved,
+            "country_name": "The Netherlands",
+            "email": "simonsmit@example.com",
+            "first_name": "Simon",
+            "address2": "123",
+            "last_name": "Smit",
             "locale": "nl_NL",
-            "phone1": "0208500500",
+            "phone1": "0600000001",
             "reference": "AutoQAReference",
-            "zip_code": "1033 SC"
+            "zip_code": "1000 AB"
         },
         "description": "Tokenization Test Order",
         "fastcheckout": "NO",

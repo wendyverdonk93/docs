@@ -7,14 +7,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 >  POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "gatewaycode",
     "recurring_id": "{recurring_id}",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -50,19 +50,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "modified": "2019-03-04T14:11:37",
     "customer": {
       "locale": "en_US",
-      "first_name": null,
-      "last_name": "Test Last name",
-      "address1": "address 1",
-      "address2": "address 2",
-      "house_number": 22,
-      "zip_code": 29000,
-      "city": "Amsterdam ",
-      "state": null,
+      "first_name": "Simon",
+      "last_name": "Smit",
+      "address1": "Bloemstraat",
+      "address2": "Jordaan",
+      "address2": "123",
+      "zip_code": "1000 AB",
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
       "country": "NL",
-      "country_name": null,
-      "phone1": 0208500500,
-      "phone2": "",
-      "email": "test@test.com"
+      "country_name": "The Netherlands",
+      "phone1": "0600000001",
+      "phone2": "00310000001",
+      "email": "simonsmit@example.com"
     },
     "payment_details": {
       "recurring_id": "{recurring_id}",

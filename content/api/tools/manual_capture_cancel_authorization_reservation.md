@@ -5,7 +5,7 @@ weight: 1355
 
 > PATCH - /capture/{order_id}
 
-```shell
+```json
 {
  "status": "cancelled",
  "reason": "cancel reservation note text"
@@ -14,7 +14,7 @@ weight: 1355
 > JSON Response
 
 
-```shell
+```json
 {
     "success": true,
     "data": {

@@ -7,7 +7,7 @@ weight: 1353
 
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -30,19 +30,19 @@ weight: 1353
         "modified": "2019-03-22T12:03:58",
         "customer": {
             "locale": "nl_NL",
-            "first_name": "Testperson-nl",
-            "last_name": "Approved",
-            "address1": "Kraanspoor",
-            "address2": null,
-            "house_number": 39C,
-            "zip_code": "1033SC",
+            "first_name": "Simon",
+            "last_name": "Smit",
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
+            "address2": "123",
+            "zip_code": "1000 AB",
             "city": "Amsterdam",
-            "state": null,
+            "state": "Noord-Holland",
             "country": "NL",
-            "country_name": null,
-            "phone1": "0208500500",
-            "phone2": "",
-            "email": "test@example.com"
+            "country_name": "The Netherlands",
+            "phone1": "0600000001",
+            "phone2": "00310000001",
+            "email": "simonsmit@example.com"
         },
         "payment_details": {
             "recurring_id": null,

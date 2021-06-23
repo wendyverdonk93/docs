@@ -7,7 +7,7 @@ weight: 1371
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -22,20 +22,20 @@ weight: 1371
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
-      "address2": null,
+      "address1": "Bloemstraat",
+      "address2": "Jordaan",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": null,
-      "email": "test@example.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
-      "last_name": null,
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0208500500",
-      "phone2": "",
-      "state": null,
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "phone2": "00310000001",
+      "state": "Noord-Holland",
+      "zip_code": "1000 AB"
     },
     "description": "MultiSafepay Test",
     "fastcheckout": "NO",
