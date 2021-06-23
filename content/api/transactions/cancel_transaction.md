@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > PATCH - /orders 
 
-```shell
+```json
 
 {
     "status": "cancelled",
@@ -16,7 +16,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {}

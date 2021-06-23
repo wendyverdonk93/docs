@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
   "type": "direct",
@@ -23,7 +23,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   },
   "customer": {
     "locale": "nl_NL",
-    "ip_address": "127.0.0.1"
+    "ip_address": "123.123.123.123"
   },
   "gateway_info": {
     "card_number": "4111111111111111",
@@ -36,7 +36,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response    
 > When no 3D verification is required, the transaction status response will be processed directly and no form will be sent.
 
-```shell 
+```json 
 {
     "success": true,
     "data": {

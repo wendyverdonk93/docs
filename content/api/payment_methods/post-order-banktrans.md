@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
@@ -23,15 +23,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "customer": {
         "locale": "nl_NL",
         "country": "NL",
-        "ip_address": "89.20.162.110"
-        "email": "example@multisafepay.com"
+        "ip_address": "123.123.123.123",
+        "email": "simonsmit@example.com"
     }
 }
 ```
 
 > JSON Response 
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -43,7 +43,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell 
+```json 
 
 {
     "type": "direct",
@@ -61,7 +61,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "customer": {
         "locale": "nl_NL",
         "country": "NL",
-        "ip_address": "89.20.162.110",
+        "ip_address": "123.123.123.123",
         "disable_send_email": false,
     }
 }
@@ -69,7 +69,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response 
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -91,20 +91,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "fastcheckout": "NO",
         "modified": "2020-01-06T10:47:18",
         "customer": {
-            "address1": null,
-            "address2": null,
-            "city": null,
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
+            "city": "Amsterdam",
             "country": "NL",
-            "country_name": null,
-            "email": "example@multisafepay.com",
-            "first_name": null,
-            "house_number": null,
-            "last_name": null,
+            "country_name": "The Netherlands",
+            "email": "simonsmit@example.com",
+            "first_name": "Simon",
+            "address2": "123",
+            "last_name": "Smit",
             "locale": "nl_NL",
-            "phone1": null,
-            "phone2": "",
-            "state": null,
-            "zip_code": null
+            "phone1": "0600000001",
+            "phone2": "00310000001",
+            "state": "Noord-Holland",
+            "zip_code": "1000 AB"
         },
         "payment_details": {
             "type": "BANKTRANS"
@@ -121,18 +121,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "amount": 0,
                 "description": "",
                 "type": "SYSTEM"
-            },
-        "payment_methods": {
-                "account_holder_name": " ",
-                "amount": 1000,
-                "currency": "EUR",
-                "description": "Test Order Description",
-                "external_transaction_id": "234374824",
-                "payment_description": "Bank transfer",
-                "status": "initialized",
-                "type": "BANKTRANS"
             }
-        }
+        ],
+        "payment_methods": {
+            "account_holder_name": " ",
+            "amount": 1000,
+            "currency": "EUR",
+            "description": "Test Order Description",
+            "external_transaction_id": "234374824",
+            "payment_description": "Bank transfer",
+            "status": "initialized",
+            "type": "BANKTRANS"
+        },
         "gateway_info": {
             "NL07DEUT7351106754": "NL07DEUT7351106754",
             "reference": "234374824",

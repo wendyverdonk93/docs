@@ -5,44 +5,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 
 {{< code-block >}}
-```shell 
-"name": "",
-```
-
-```shell
-"description": "",
-```
-
-```shell 
-"unit_price": "",
-```
-
-```shell
-"quantity": "",
-```
-
-```shell
-"merchant_item_id": "",
-```
-
-```shell 
-"tax_table_selector": "",
-```
-
-```shell 
-"weight": {},
-```
-
-```shell 
-"options": [],
-```
-
-```shell 
-"value": "",
-```
-
-```shell 
-"unit": "",
+```json 
+{	
+	"shopping_cart": {
+		"name": "",
+		"description": "",
+		"unit_price": ,
+		"quantity": "",
+		"merchant_item_id": "",
+		"tax_table_selector": "",
+		"weight": {},
+		"options": [],
+		"value": "",
+		"unit": ""
+	}
+}
 ```
 
 {{< /code-block >}}

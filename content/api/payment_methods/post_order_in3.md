@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
@@ -16,39 +16,39 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 37485,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel"
     },
     "customer": {
-        "ip_address": "89.45.467.110",
+        "ip_address": "123.123.123.123",
         "locale": "nl_NL",
-        "first_name": "Testperson-nl",
-        "last_name": "",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "email": "example@multisafepay.com"
+        "email": "simonsmit@example.com"
     },
     "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "gateway_info": {
         "birthday": "1970-07-10",
         "gender": "mr",
-        "phone": "0612345678"
+        "phone": "0600000001"
     },
     "shopping_cart": {
         "items": [
@@ -93,7 +93,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "checkout_options": {
         "tax_tables": {
             "default": {
-                "shipping_taxed": "true",
+                "shipping_taxed": true,
                 "rate": 0.21
             },
             "alternate": [
@@ -159,7 +159,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
  
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -171,7 +171,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "BTW21",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.21"
             }
           ],
@@ -181,7 +181,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "BTW9",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.09"
             }
           ],
@@ -191,7 +191,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "BTW6",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.06"
             }
           ],
@@ -201,7 +201,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "BTW0",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.00"
             }
           ],
@@ -211,7 +211,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "none",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.00"
             }
           ],
@@ -221,7 +221,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "FEE",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.00"
             }
           ],
@@ -242,17 +242,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": null,
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": 39C,
-      "last_name": "",
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0612345678",
-      "zip_code": "1039 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",
@@ -301,7 +301,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "product_url": "",
           "quantity": 3,
           "tax_table_selector": "BTW21",
-          "unit_price": "90.00",
+          "unit_price": 90.00,
           "weight": {
             "unit": "KG",
             "value": 12
@@ -335,7 +335,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "product_url": "",
           "quantity": 1,
           "tax_table_selector": "none",
-          "unit_price": "10.00",
+          "unit_price": 10.00,
           "weight": {
             "unit": "KG",
             "value": 0
@@ -351,7 +351,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
@@ -360,39 +360,39 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 37485,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel"
     },
     "customer": {
-        "ip_address": "45.46.216.114",
+        "ip_address": "123.123.123.123",
         "locale": "nl_NL",
-        "first_name": "Testperson-nl",
-        "last_name": "",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1039 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "email": "example@multisafepay.com"
+        "email": "simonsmit@example.com"
     },
     "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1039 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0612345678",
-        "email": "example@multisafepay.com"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "gateway_info": {
         "birthday": "1970-07-10",
         "gender": "mr",
-        "phone": "0612345678"
+        "phone": "0600000001"
     },
     "shopping_cart": {
         "items": [
@@ -437,7 +437,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "checkout_options": {
         "tax_tables": {
             "default": {
-                "shipping_taxed": "true",
+                "shipping_taxed": true,
                 "rate": 0.21
             },
             "alternate": [
@@ -502,7 +502,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {

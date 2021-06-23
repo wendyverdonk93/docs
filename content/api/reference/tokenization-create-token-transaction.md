@@ -8,7 +8,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
@@ -30,7 +30,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -52,21 +52,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "custom_3": null
         },
         "customer": {
-            "address1": null,
-            "address2": null,
-            "city": null,
-            "country": null,
-            "country_name": null,
-            "email": "",
-            "first_name": null,
-            "house_number": null,
-            "last_name": null,
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
+            "city": "Amsterdam",
+            "country": "NL",
+            "country_name": "The Netherlands",
+            "email": "simonsmit@example.com",
+            "first_name": "Simon",
+            "address2": "123",
+            "last_name": "Smit",
             "locale": "nl_NL",
-            "phone1": null,
-            "phone2": "",
+            "phone1": "0600000001",
+            "phone2": "00310000001",
             "reference": "AutoQAReference",
-            "state": null,
-            "zip_code": null
+            "state": "Noord-Holland",
+            "zip_code": "1000 AB"
         },
         "description": "Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
         "fastcheckout": "NO",

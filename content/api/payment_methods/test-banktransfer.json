@@ -13,7 +13,7 @@
     },
     "customer": {
         "locale": "it_IT",
-        "ip_address": "89.20.162.110",
-        "email": "example@multisafepay.com"
+        "ip_address": "123.123.123.123",
+        "email": "simonsmit@example.com"
     }
 }

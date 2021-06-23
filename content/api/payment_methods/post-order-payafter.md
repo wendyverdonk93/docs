@@ -6,22 +6,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 
 {
     "type": "redirect",
     "gateway": "PAYAFTER",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description",
     "items": "",
-    "manual": "false",
+    "manual": false,
     "gateway_info": {
-        "birthday": "1980-01-30",
+        "birthday": "1970-07-10",
         "bankaccount": "0417164300",
-        "phone": "0208500500",
-        "email": "example@example.com"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -35,7 +35,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Item demo 1",
                 "description": "",
-                "unit_price": "90",
+                "unit_price": 90,
                 "quantity": "2",
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
-                "unit_price": "10",
+                "unit_price": 10,
                 "quantity": "1",
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
@@ -79,7 +79,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -90,21 +90,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
     "gateway": "PAYAFTER",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "gateway_info": {
-        "birthday": "1979-02-22",
+        "birthday": "1970-07-10",
         "bank_account": "0417164300",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -118,7 +118,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Geometric Candle Holders",
                 "description": "",
-                "unit_price": "90",
+                "unit_price": 90,
                 "quantity": "2",
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
@@ -149,7 +149,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 
 {
   "success": true,
@@ -162,7 +162,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "none",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.00"
             }
           ]

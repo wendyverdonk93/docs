@@ -4,45 +4,10 @@ meta_title: "API - Create an Apple Pay transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
-> POST - /orders
 
-```shell
-{
-    "type": "redirect",
-    "order_id": "my-order-id-1",
-    "gateway": "APPLEPAY",
-    "currency": "EUR",
-    "amount": "9743",
-    "description": "Test Order Description",
-    "manual": "false",
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
-}
-```
-> JSON Response
-```shell
-{
-  "success": true,
-  "data": {
-    "order_id": "my-order-id-1",
-    "payment_url": "https://payv2.multisafepay.com/connect/13ztRF4ic5Kz23n2Lf5F3UzcVqMRxwjlfQw/?lang=nl_NL"
-  }
-}
-```
-{{< /code-block >}}
+> Detect Apple Pay on customer's device
 
-{{< description >}}
-## Apple Pay
-Creates an Apple Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
-
-* Redirect transaction requires all fields completed properly.
-
-__How to detect Apple Pay on a device__
-
-```JavaScript
+```javascript
 try {
     if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
     console.log('ApplePay available');
@@ -51,6 +16,48 @@ try {
     console.debug('An error occurred while verifying if Apple Pay is available:', error);
     }
 ```
+
+> POST - /orders
+
+```json
+{
+    "type": "redirect",
+    "order_id": "my-order-id-1",
+    "gateway": "APPLEPAY",
+    "currency": "EUR",
+    "amount": 9743,
+    "description": "Test Order Description",
+    "manual": false,
+    "payment_options": {
+        "notification_url": "http://www.example.com/client/notification?type=notification",
+        "redirect_url": "http://www.example.com/client/notification?type=redirect",
+        "cancel_url": "http://www.example.com/client/notification?type=cancel",
+        "close_window": ""
+}
+```
+
+> JSON Response
+
+```json
+{
+  "success": true,
+  "data": {
+    "order_id": "my-order-id-1",
+    "payment_url": "https://payv2.multisafepay.com/connect/13ztRF4ic5Kz23n2Lf5F3UzcVqMRxwjlfQw/?lang=nl_NL"
+  }
+}
+```
+
+{{< /code-block >}}
+
+{{< description >}}
+
+## Apple Pay
+Creates an Apple Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+
+* Redirect transaction requires all fields completed properly.
+
+### How to detect Apple Pay on a device
 
 This JavaScript code will _detect_ if Apple Pay is supported on a device. We recommend you to use this code to avoid an error being displayed if the device does not support Apple Pay. 
 

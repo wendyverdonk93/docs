@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
@@ -29,7 +29,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -52,20 +52,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "modified": "2019-03-04T13:52:07",
     "customer": {
       "locale": "en_US",
-      "first_name": null,
-      "last_name": null,
+      "first_name": "Simon",
+      "last_name": "Smit",
       "company_name": null,
-      "address1": null,
-      "address2": null,
-      "house_number": null,
-      "zip_code": null,
-      "city": null,
-      "state": null,
-      "country": null,
-      "country_name": null,
-      "phone1": null,
-      "phone2": "",
-      "email": ""
+      "address1": "Bloemstraat",
+      "address2": "Jordaan",
+      "address2": "123",
+      "zip_code": "1000 AB",
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "NL",
+      "country_name": "The Netherlands",
+      "phone1": "0600000001",
+      "phone2": "00310000001",
+      "email": "simonsmit@example.com"
     },
     "payment_details": {
       "recurring_id": null,

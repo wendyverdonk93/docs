@@ -8,14 +8,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "DOTPAY",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -31,7 +31,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response 
 
-```shell
+```json
 {
     "success": true,
     "data": {

@@ -7,21 +7,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
     "gateway": "AFTERPAY",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "gateway_info": {
         "birthday": "1970-07-10",
         "gender": "mr",
-        "phone": "0612345678",
-        "email": "rejection@afterpay.nl"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -35,7 +35,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Geometric Candle Holders",
                 "description": "",
-                "unit_price": "90",
+                "unit_price": 90,
                 "quantity": "2",
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
@@ -66,7 +66,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 
 {
   "success": true,
@@ -79,7 +79,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "none",
           "rules": [
             {
-              "country": "",
+              "country": "NL",
               "rate": "0.00"
             }
           ]
@@ -119,24 +119,24 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
     "gateway": "AFTERPAY",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description",
     "items": "",
-    "manual": "false"
+    "manual": false
     ...
     "shopping_cart": {
         "items": [
             {
                 "name": "Item demo 1",
                 "description": "",
-                "unit_price": "90",
+                "unit_price": 90,
                 "quantity": "2",
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
@@ -148,7 +148,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
-                "unit_price": "10",
+                "unit_price": 10,
                 "quantity": "1",
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
@@ -177,7 +177,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {

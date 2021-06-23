@@ -8,13 +8,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > TEST API
 
-``` shell
+```shell
 https://testapi.multisafepay.com/v1/json
 ```
 
 > LIVE API
 
-``` shell
+```shell
 https://api.multisafepay.com/v1/json
 ```
 {{< /code-block >}}

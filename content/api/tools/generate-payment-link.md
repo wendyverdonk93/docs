@@ -5,14 +5,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "paymentlink",
     "order_id": "test-123",
     "gateway": "",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "second_chance": { 
         "send_email" : true
@@ -33,7 +33,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response
 
 
-```shell 
+```json 
 {
   "success": true,
   "data": {

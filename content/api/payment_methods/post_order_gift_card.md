@@ -7,16 +7,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > POST - / order 
 
 
-```shell 
+```json 
 
 {
     "type": "redirect",
     "order_id": "my-order-id",
     "gateway": "VVVGIFTCRD",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/json-live/notification?type=notification",
         "redirect_url": "http://www.example.comclient/json-live/notification?type=redirect",
@@ -25,15 +25,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "80.123.456.789",
+        "ip_address": "123.123.123.123",
         "country": "NL",
-        "email": "test@example.com"
+        "email": "simonsmit@example.com"
     }
 }
 ```
 
 > JSON Response
-```shell 
+```json 
 
 {
   "success": true,

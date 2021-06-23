@@ -7,22 +7,22 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
     "gateway": "KLARNA",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description",
     "items": "",
-    "manual": "false",
+    "manual": false,
     "gateway_info": {
         "birthday": "1970-07-10",
-        "gender": "male",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
+        "gender": "mr",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -39,27 +39,27 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "127.0.0.1",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "127.0.0.1",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": 39C,
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0612345678",
-        "email": "example@multisafepay.com",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "disable_send_email": false,
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
     "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": 39C,
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL"
     },
@@ -68,7 +68,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Item demo 1",
                 "description": "",
-                "unit_price": "90",
+                "unit_price": 90,
                 "quantity": "2",
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
@@ -80,7 +80,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
-                "unit_price": "10",
+                "unit_price": 10,
                 "quantity": "1",
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
@@ -109,7 +109,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {

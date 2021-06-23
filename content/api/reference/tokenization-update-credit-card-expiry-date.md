@@ -8,14 +8,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > PATCH - recurring/{your_customer_reference}/update/{your_token}
 
-```shell
+```json
 {
     "expiry_date": "2903"
 }
 ```
 > JSON response
 
-```shell
+```json
 {
     "success": true,
     "data": {

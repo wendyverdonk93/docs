@@ -4,15 +4,15 @@ weight: 1370
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "",
     "currency": "EUR",
-    "amount": "0",
+    "amount": 0,
     "description": "Zero Authorization Test",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
@@ -21,21 +21,21 @@ weight: 1370
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "80.123.456.78",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "address2": "",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "Jordaan",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
-        "state": "",
+        "state": "Noord-Holland",
         "country": "NL",
-        "birthday": "01011993",
-        "gender": "male",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com",
+        "birthday": "1970-07-10",
+        "gender": "mr",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
@@ -44,7 +44,7 @@ weight: 1370
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {

@@ -7,14 +7,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders 
 
-```shell 
+```json 
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "MASTERCARD",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -24,14 +24,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   },
   "customer": {
     "locale": "nl_NL",
-    "ip_address": "127.0.0.1"
+    "ip_address": "123.123.123.123"
   }
 }
 ```
 
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {

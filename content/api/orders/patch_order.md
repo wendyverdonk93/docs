@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > PATCH - /orders/{order_id}
 
-```shell
+```json
 {
     "id": "MSP12345",
     "status": "shipped",
@@ -16,7 +16,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "ship_date": "01-01-1911",
     "reason": "Fulfilled by warehouse",
     "invoice_id": "AB12345",
-    "invoice_url": "http://mspinvoice-AB12345.com"
+    "invoice_url": "http://mspinvoice-AB12345.com",
     "po_number": ""
 }
 
@@ -25,7 +25,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {}
