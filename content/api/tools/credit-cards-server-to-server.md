@@ -58,7 +58,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount": ,
         "description": "",
-        "transaction_id": 2056142,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -115,7 +115,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 4034377,
+    "transaction_id": 123456789
     "customer_verification": {
       "type": "form",
       "html": "",

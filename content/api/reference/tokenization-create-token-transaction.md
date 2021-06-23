@@ -40,7 +40,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "amount": 0.6,
                 "description": " Tokenization Generate token transaction ",
-                "transaction_id": 767288,
+                "transaction_id": 123456789
                 "type": "SYSTEM"
             }
         ],
@@ -102,7 +102,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "reason_code": "",
         "related_transactions": null,
         "status": "completed",
-        "transaction_id": 2728879,
+        "transaction_id": 123456789
         "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL ",
         "cancel_url": " http://www.example.com/client/notification?type=cancel "
     }

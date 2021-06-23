@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "de_DE"

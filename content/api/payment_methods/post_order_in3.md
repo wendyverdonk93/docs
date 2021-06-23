@@ -61,7 +61,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "tax_table_selector": "BTW21",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
+                    "value": 12
                 }
             },
             {
@@ -73,7 +73,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "tax_table_selector": "BTW9",
                 "weight": {
                     "unit": "KG",
-                    "value": "20"
+                    "value": 20
                 }
             },
             {
@@ -85,7 +85,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "0"
+                    "value": 0
                 }
             }
         ]
@@ -172,7 +172,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.21"
+              "rate": 0.21
             }
           ],
           "standalone": true
@@ -182,7 +182,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.09"
+              "rate": 0.09
             }
           ],
           "standalone": true
@@ -192,7 +192,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.06"
+              "rate": 0.06
             }
           ],
           "standalone": true
@@ -202,7 +202,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.00"
+              "rate": 0.00
             }
           ],
           "standalone": true
@@ -212,7 +212,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.00"
+              "rate": 0.00
             }
           ],
           "standalone": ""
@@ -222,7 +222,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.00"
+              "rate": 0.00
             }
           ],
           "standalone": ""
@@ -318,7 +318,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "product_url": "",
           "quantity": 1,
           "tax_table_selector": "BTW9",
-          "unit_price": "35.00",
+          "unit_price": 35.00,
           "weight": {
             "unit": "KG",
             "value": 20
@@ -344,7 +344,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       ]
     },
     "status": "initialized",
-    "transaction_id": 4273483,
+    "transaction_id": 123456789
     "payment_url": "https://capayable-payment-test.tritac.com/aanbetaling/34bfc991bef24558a5b4f9c168753da1?returnUrl=https%3A%24545F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F%3Fmspid%3D4273483&shopOrderExchangeUrl=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F%3Fmspid%3D4273483"
   }
 }
@@ -405,7 +405,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "tax_table_selector": "BTW21",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
+                    "value": 12
                 }
             },
             {
@@ -417,7 +417,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "tax_table_selector": "BTW9",
                 "weight": {
                     "unit": "KG",
-                    "value": "20"
+                    "value": 20
                 }
             },
             {
@@ -429,7 +429,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "0"
+                    "value": 0
                 }
             }
         ]
@@ -621,7 +621,7 @@ __ip_address__ | string
 ----------------
 __forwarded_ip__ | string
 
- The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------
 Please note that _first_name<_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
@@ -711,7 +711,7 @@ __ip_address__ | string
 ----------------
 __forwarded_ip__ | string
 
- The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------
 

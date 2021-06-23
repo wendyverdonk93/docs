@@ -17,7 +17,7 @@ weight: 1330
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
    "customer": {
        "locale": "nl_NL",
@@ -51,7 +51,7 @@ weight: 1330
 {
     "success": true,
     "data": {
-        "transaction_id": 001,
+        "transaction_id": 123456789
         "order_id": "my-test-order-01",
         "created": "2019-05-16T10:51:54",
         "currency": "EUR",
@@ -99,7 +99,7 @@ weight: 1330
         },
         "costs": [
             {
-                "transaction_id": 001,
+                "transaction_id": 123456789
                 "description": "0.0 % For Visa CreditCards Transactions",
                 "type": "SYSTEM",
                 "amount": 0.0

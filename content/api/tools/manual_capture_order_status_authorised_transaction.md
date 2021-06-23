@@ -11,7 +11,7 @@ weight: 1354
 {
     "success": true,
     "data": {
-        "transaction_id": 001,
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2019-03-22T10:32:52",
         "currency": "EUR",
@@ -58,7 +58,7 @@ weight: 1354
         },
         "costs": [
             {
-                "transaction_id": 001,
+                "transaction_id": 123456789
                 "description": "",
                 "type": "SYSTEM",
                 "amount": 2.83

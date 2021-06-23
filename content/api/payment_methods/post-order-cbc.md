@@ -20,7 +20,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_BE"
@@ -53,7 +53,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_BE",
@@ -85,13 +85,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 344230330,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 344230331,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -145,7 +145,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 325062361,
+    "transaction_id": 123456789
     "payment_url": "https://www.cbc.be/olpayment?langWebSite=N&olpId=S132&olpCtx=%2FH8s4RM8GN%2FSKLOcUoTBBPus%2BWBbXCz9ChR12y5ozVDe8Rc70DjFQNQy2TaiSnTOEQkziFEQmgQy%2BHDxrqqzB%2F8I1yk5zE0%"
   }
 }

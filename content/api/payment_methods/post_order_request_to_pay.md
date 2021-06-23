@@ -22,7 +22,7 @@ aliases: [/api/#direct-bank-transfer]
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
 
 ```
@@ -55,7 +55,7 @@ aliases: [/api/#direct-bank-transfer]
     "notification_url": "http://www.example.com/client/notification?type=notification",
     "redirect_url": "http://www.example.com/client/notification?type=redirect",
     "cancel_url": "http://www.example.com/client/notification?type=cancel",
-    "close_window": ""
+    "close_window": true
   }
 }
 ```
@@ -72,7 +72,7 @@ aliases: [/api/#direct-bank-transfer]
       {
         "amount":,
         "description": "",
-        "transaction_id": 36166179527,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -124,7 +124,7 @@ aliases: [/api/#direct-bank-transfer]
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 36166179527,
+    "transaction_id": 123456789
     "payment_url": "https://pushpayments.db.com/flow/eyJwYXlsb2FkIjp7ImlwaSI6IjE2QjIwREREMjE1NjE0QTc2Rjg0OTMwMDV="
   }
 }

@@ -52,12 +52,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "name": "Geometric Candle Holders",
                 "description": "",
                 "unit_price": 90,
-                "quantity": "1",
+                "quantity": 1,
                 "merchant_item_id": "hdd006",
                 "tax_table_selector": "BTW0",
                 "weight": {
                     "unit": "KG",
-                    "value": "1"
+                    "value": 1
                 }
             }
         ]
@@ -71,7 +71,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "flat_rate_shipping": [
                 {
                     "name": "TNT - verzending NL",
-                    "price": "7",
+                    "price": 7,
                     "allowed_areas": [
                         "NL",
                         "ES"
@@ -79,7 +79,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 },
                 {
                     "name": "Seur - Spain",
-                    "price": "7",
+                    "price": 7,
                     "allowed_areas": [
                         "NL",
                         "ES"
@@ -87,7 +87,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 },
                 {
                     "name": "TNT - verzending BE en FR",
-                    "price": "12",
+                    "price": 12,
                     "excluded_areas": [
                         "NL",
                         "FR",
@@ -102,7 +102,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "name": "BTW0",
                     "rules": [
                         {
-                            "rate": "0.00"
+                            "rate": 0.00
                         }
                     ]
                 },
@@ -110,7 +110,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "name": "2",
                     "rules": [
                         {
-                            "rate": "0.09",
+                            "rate": 0.09,
                             "country": "NL"
                         }
                     ]

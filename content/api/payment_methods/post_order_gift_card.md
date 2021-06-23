@@ -21,7 +21,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/json-live/notification?type=notification",
         "redirect_url": "http://www.example.comclient/json-live/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/json-live/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL",

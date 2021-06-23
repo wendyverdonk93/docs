@@ -11,12 +11,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 		"name": "",
 		"description": "",
 		"unit_price": ,
-		"quantity": "",
+		"quantity": ,
 		"merchant_item_id": "",
 		"tax_table_selector": "",
 		"weight": {},
 		"options": [],
-		"value": "",
+		"value": ,
 		"unit": ""
 	}
 }

@@ -13,7 +13,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "success": true,
   "data": {
-    "transaction_id": 258655825,
+    "transaction_id": 123456789
     "order_id": "{order_id}",
     "created": "2019-03-01T16:12:47",
     "currency": "EUR",
@@ -57,7 +57,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 258656087,
+        "transaction_id": 123456789
         "description": "Refund order 258655825 for TEST TEST",
         "type": "internal",
         "status": "completed",
@@ -82,7 +82,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "description": "Refund order 258655825 for TEST TEST",
         "modified": "2019-03-01T16:14:02",
         "status": "completed",
-        "transaction_id": 258656087
+        "transaction_id": 123456789
       }
     ],
     "payment_methods": [

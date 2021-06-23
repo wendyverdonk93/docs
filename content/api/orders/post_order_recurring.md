@@ -20,7 +20,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     }
 }
 ```
@@ -31,7 +31,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "success": true,
   "data": {
-    "transaction_id": 0000003,
+    "transaction_id": 123456789
     "order_id": "my-order-id-1",
     "created": "2019-03-04T14:11:37",
     "currency": "EUR",

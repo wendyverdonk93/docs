@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "de_DE"
@@ -53,7 +53,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "de_DE",
@@ -85,13 +85,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 348956887,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 348956888,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -144,7 +144,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 329835554,
+    "transaction_id": 123456789
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=de_DE",
     "cancel_url": "http://www.example.com/client/notification?type=cancel"
   }

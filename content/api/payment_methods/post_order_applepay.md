@@ -32,7 +32,7 @@ try {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
 }
 ```
 

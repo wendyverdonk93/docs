@@ -22,7 +22,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "success": true,
   "data": {
-    "transaction_id": 3326965,
+    "transaction_id": 123456789
     "refund_id": 3326969
   }
 }

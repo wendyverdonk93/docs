@@ -18,7 +18,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL"
@@ -52,7 +52,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL",
@@ -73,7 +73,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "success": true,
   "data": {
-    "transaction_id": 259898679,
+    "transaction_id": 123456789
     "order_id": "my-order-id-1",
     "created": "2019-03-08T09:23:46",
     "currency": "EUR",
@@ -101,7 +101,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 279354751,
+        "transaction_id": 123456789
         "description": "0.0 For SEPA Direct Debit Transactions",
         "type": "SYSTEM",
         "amount": 0.0
@@ -279,7 +279,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------
 

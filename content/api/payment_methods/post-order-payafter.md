@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
 ...
     "shopping_cart": {
@@ -36,24 +36,24 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "name": "Item demo 1",
                 "description": "",
                 "unit_price": 90,
-                "quantity": "2",
+                "quantity": 2,
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
+                    "value": 12
               }
             }
             {
                 "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
                 "unit_price": 10,
-                "quantity": "1",
+                "quantity": 1,
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "0"
+                    "value": 0
                 }
             }
         ]
@@ -67,7 +67,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "name": "none",
                     "rules": [
                         {
-                            "rate": "0.00"
+                            "rate": 0.00
                         }
                     ]
                 }
@@ -110,7 +110,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     ...
     "shopping_cart": {
@@ -119,12 +119,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "name": "Geometric Candle Holders",
                 "description": "",
                 "unit_price": 90,
-                "quantity": "2",
+                "quantity": 2,
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
+                    "value": 12
                 }
             },
         ]
@@ -136,7 +136,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "name": "none",
                     "rules": [
                         {
-                            "rate": "0.00"
+                            "rate": 0.00
                         }
                     ]
                 }
@@ -163,7 +163,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "rules": [
             {
               "country": "NL",
-              "rate": "0.00"
+              "rate": 0.00
             }
           ]
         }
@@ -177,13 +177,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 2045938,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 2045939,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -194,7 +194,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     ...
     
     "status": "uncleared",
-    "transaction_id": 4022655,
+    "transaction_id": 123456789
     "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
     "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }
@@ -317,7 +317,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
 
@@ -445,7 +445,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
 

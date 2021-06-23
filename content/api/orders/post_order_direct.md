@@ -33,7 +33,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
   "success": true,
   "data": {
-    "transaction_id": 00002,
+    "transaction_id": 123456789
     "order_id": "my-order-id-1",
     "created": "2019-03-04T13:52:07",
     "currency": "EUR",
@@ -78,7 +78,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 00002,
+        "transaction_id": 123456789
         "description": "iDEAL Transactions",
         "type": "SYSTEM",
         "amount": 

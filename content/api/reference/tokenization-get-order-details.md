@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "amount": ,
                 "description": "Tokenization Test Order",
-                "transaction_id": 767286,
+                "transaction_id": 123456789
                 "type": "SYSTEM"
             }
         ],
@@ -78,7 +78,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "reason_code": "",
         "related_transactions": null,
         "status": "completed",
-        "transaction_id": 2728877,
+        "transaction_id": 123456789
     }
 }
 ```

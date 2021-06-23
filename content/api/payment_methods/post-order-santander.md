@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL",
@@ -50,7 +50,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
     "success": true,
     "data": {
-        "transaction_id": 2333720,
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2017-08-07T10:07:07",
         "currency": "EUR",
@@ -80,7 +80,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         },
         "costs": [
             {
-                "transaction_id": 406933,
+                "transaction_id": 123456789
                 "description": "Cost Description",
                 "type": "SYSTEM",
                 "amount": 0.49
@@ -160,7 +160,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
 

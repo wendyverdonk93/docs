@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "cn_CN"
@@ -53,7 +53,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "cn_CN",
@@ -80,7 +80,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
     "success": true,
     "data": {
-        "transaction_id": 2379429850,
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2020-01-08T10:51:04",
         "currency": "EUR",
@@ -119,7 +119,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         {
             "amount":,
             "description": "",
-            "transaction_id": 36166179527,
+            "transaction_id": 123456789
             "type": "SYSTEM"
         }
         ],

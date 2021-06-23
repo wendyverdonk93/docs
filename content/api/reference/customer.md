@@ -44,7 +44,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)                                 
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)                                 
 
 __first_name__ | string
 

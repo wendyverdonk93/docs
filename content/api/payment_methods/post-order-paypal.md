@@ -19,7 +19,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL"
@@ -53,7 +53,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL",
@@ -136,7 +136,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 329843232,
+    "transaction_id": 123456789
     "payment_url": "https://www.paypal.com/cgi-bin/webscr?cmdmsp=_express-checkout&token=EC-8K013819T00365502LLL-msp"
   }
 }

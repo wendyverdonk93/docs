@@ -17,7 +17,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "be_BE"
@@ -61,7 +61,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
     "success": true,
     "data": {
-        "transaction_id": "279354751",
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2019-03-07T13:41:15",
         "currency": "EUR",
@@ -96,7 +96,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         },
         "costs": [
         {
-            "transaction_id": "279354751",
+            "transaction_id": 123456789
             "description": "Test Order Description",
             "type": "BELFIUS",
             "amount": 1000,
