@@ -28,15 +28,19 @@
                                           {{ .Content }}
                                       {{end}}
                                   </div>
-                                  <div class="p-3">
-                                  <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+                                  <div class="col-lg-12 pr-lg-5 my-3">
+                                    <a href="{{.Permalink}}" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center">
+                                    Read more
+                                    </a>
                                   </div>
                               {{else}}
                                   <div class="p-3">
                                       {{ .Content }}
                                   </div>
-                                  <div class="p-3">
-                                      <a href="{{ .Permalink }}" class="primary text-white mb-1">Read More</a>
+                                  <div class="col-lg-12 pr-lg-5 my-3">
+                                    <a href="{{.Permalink}}" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center">
+                                    Read more
+                                    </a>
                                   </div>
                               {{end}}
                           </div>
