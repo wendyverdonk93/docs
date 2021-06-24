@@ -15,7 +15,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
    "currency":"EUR",
    "recurring_model":"unscheduled",
    "recurring_id":"hC6HdH7_5Tg",
-   "recurring_flow": "token",
+   "recurring_flow":"token",
    "amount":10000,
    "description":"Tokenization - ALL - Original unscheduled",
    "payment_options":{
