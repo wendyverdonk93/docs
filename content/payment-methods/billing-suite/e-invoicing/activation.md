@@ -107,9 +107,12 @@ To create a collection flow, follow these steps:
 
 {{< details title="3. Activate the collection flow" >}}
 
-To activate your collection flow, link it to a specific website in your MultiSafepay Control. 
+To activate your collection flow, follow these steps to link it to a specific website in your MultiSafepay Control:
+
+1. In your MultiSafepay Control, go to **Settings** > **Website settings**.
+2. Click the relevant website to open the **Website settings** page.
+3. From the **E-Invoicing workflow** dropdown menu, select your preferred flow.
 
 {{< /details >}}
 
 Once the collection flow is activated, you can start using E-invoicing as a payment method.
-
