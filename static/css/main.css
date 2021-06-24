@@ -1613,7 +1613,7 @@ pre:not(.chroma) {
     padding: 2rem 3rem;
 }
 
-p code, td code {
+p code, td code, li code {
     background-color: #F6F6F6;
     border-radius: 5px;
     padding: 2px 5px;
