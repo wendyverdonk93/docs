@@ -56,3 +56,7 @@ Add the following to your CSS:
   font-family: Helvetica;
 }
 ```
+
+{{< br >}}
+
+{{< two-buttons href-1="/integrations/payment-components" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
