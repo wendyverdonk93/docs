@@ -278,6 +278,7 @@ div.block {
     box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
     transform: translateY(-0.2rem);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .block-item .block-item__title:hover, .block-faq .block-faq__title:hover {
