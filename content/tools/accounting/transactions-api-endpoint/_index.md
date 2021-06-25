@@ -58,7 +58,7 @@ You can use the following parameters to filter the returned transactions:
 | after{{< br >}}`string` | Use the `after` cursor to request the next page when results are [paginated](#pagination). {{< br >}} **Format:** cursor (e.g. `ZD1ftlaZLHQ90EQCeQ`)
 | before{{< br >}}`string` | Use the `before` cursor to request the previous page when results are [paginated](#pagination). {{< br >}} **Format:** cursor (e.g. `ZD1gIU-ZLPQ9AEX73Q`)
 
-**Please note:** values `site_id`, `financial_status`, `status`, `payment_method`, and `type` can be specified either as single values or as arrays containing multiple values.
+**Note:** values `site_id`, `financial_status`, `status`, `payment_method`, and `type` can be specified either as single values or as arrays containing multiple values.
 
 ### Pagination
 A request to the transactions endpoint can return a lot of results. To make responses easier to handle, we paginate the results. The amount of transactions returned per call can be specified using the `limit` parameter. If the `limit` parameter is undefined, the value defaults to `100`.
@@ -67,7 +67,7 @@ To access the next page of a response, use the `after` cursor from the `pager` o
 
 To access the previous page, use the `before` cursor in the `pager` object.
 
-_Please note that results are sorted from new to old. This means that the `after` cursor points to older transactions._
+**Note**: results are sorted from new to old. This means that the `after` cursor points to older transactions.
 
 ### Response
 
