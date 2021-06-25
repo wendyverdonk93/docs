@@ -70,13 +70,11 @@
         
         {{ block "main" . }}{{ end }}
         {{ if not .IsHome }}
-
-        <div class="container">
+        <section class="container border-top">
             <div class="row">
                 {{ partial "bottom-block" . }}
             </div>
-        </div>
-    </div>
+        </section>
         <footer class="footer-background">
             {{ else }}
             <footer>
