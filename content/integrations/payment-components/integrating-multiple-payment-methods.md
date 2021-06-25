@@ -82,32 +82,18 @@ PaymentComponent = new MultiSafepay({
 
 ### Initialize the payment component
 
-**1.** To retrieve a list of available payment gateways, make a `/connect/payments/methods` request from your server, specifying the country, currency, and amount of the order:
-
-```
-curl -X GET "https://testapi.multisafepay.com/v1/connect/payments/methods" \
--H "accept: application/json" \
--H "Authentication: Bearer <your-website-API-key>" \
--d ' \
-{
-  "country": "NL",
-  "currency": "EUR",
-  "amount": "10000"
-}'
-```
-
-From your server, pass the `gateways_response` to the request to the customer's device. 
-
-**2.** Call the `PaymentComponent.init()` method with the following arguments:
+Call the `PaymentComponent.init()` method with the following arguments:
 ```
 PaymentComponent.init('dropin', {
     container: '#MultiSafepayPayment',
-    gateways: gateways_response,
     onLoad: state => {
         console.log('onLoad', state);
     },
     onError: state => {
         console.log('onError', state);
+    },
+    onSelect: state => {
+        console.log('onSelect', state);
     }
 });
 ```
@@ -122,7 +108,7 @@ In the method call, create event handlers for the following events:
 
 {{< /details >}}
 
-The `PaymentComponent` uses the following methods:
+The `PaymentComponent` has the following methods:
 
 {{< details title="View methods" >}}
 
@@ -130,7 +116,7 @@ The `PaymentComponent` uses the following methods:
 | ---- | ---- |
 |`getErrors`| Returns error messages or codes.|
 |`hasErrors`| Returns a boolean value about whether errors were registered. |
-|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. |
+|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see Step&nbsp;3:&nbsp;[Collect&nbsp;payment&nbsp;data](#collect-payment-data)|
 
 {{< /details >}}
 
@@ -156,7 +142,7 @@ Make a POST [`/orders`](/api/#orders) request from your server:
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 -H "accept: application/json" \
 -H "Content-Type: application/json" \
--H "Authentication: Bearer <your-website-API-key>" \
+-H "api_key: <your-website-API-key>" \
 -d " \
 {
     "type": "direct",
