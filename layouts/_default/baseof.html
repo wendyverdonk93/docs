@@ -75,15 +75,13 @@
                 {{ partial "bottom-block" . }}
             </div>
         </section>
-        <footer class="footer-background">
-            {{ else }}
-            <footer>
-               
-                {{ end }}
-                 {{ partial "footer" . }}
-                <div class="text-center">
-                    <a href="https://multisafepay.com"><img class="msp-logo-footer"
-                            src="{{ relURL "logo/MSP-logo.svg" }}" /></a>
+        <footer class="footer-background pt-5">
+        {{ else }}
+        <footer>
+        {{ end }}
+            {{ partial "footer" . }}
+            <div class="text-center">
+                <a href="https://multisafepay.com"><img class="msp-logo-footer" src="{{ relURL "logo/MSP-logo.svg" }}" /></a>
             </div>
         </footer>
     </div>
