@@ -17,9 +17,11 @@ To configure the generic gateway, follow these steps:
    * Gateway label
    * For billing suites, whether to include the shopping cart in refunds (**required**)
 
-You can filter the generic gateway by:
+- You can filter the generic gateway by:
   - Country
   - Minimum amount
   - Maximum amount
+
 - You can also set a custom initial order status.
+
 - Full refunds, partial refunds (except for billing suites), and backend orders are fully supported.
