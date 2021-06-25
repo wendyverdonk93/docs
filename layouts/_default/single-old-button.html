@@ -87,7 +87,6 @@
 {{ if isset .Params "faq" }}
 {{ partial "single-faq" . }}
 {{ end }}
-</div>
 
 {{ if isset .Params "newsletter" }}
 {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
