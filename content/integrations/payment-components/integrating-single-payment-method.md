@@ -160,7 +160,7 @@ Make a POST [`/orders`](/api/#orders) request from your server:
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
 -H "accept: application/json" \
 -H "Content-Type: application/json" \
--H "Authentication: Bearer <your-website-API-key>" \
+-H "api_key: <your-website-API-key>" \
 -d " \
 {
     "type": "direct",

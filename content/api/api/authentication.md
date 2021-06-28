@@ -9,14 +9,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ``` shell
 curl -X POST "https://testapi.multisafepay.com/v1/json/" \
--H "Authentication: Bearer <your-test-API-key>"
+-H "api_key: <your-test-API-key>"
 ```
 
 > Live API
 
 ``` shell
 curl -X POST "https://api.multisafepay.com/v1/json/" \
--H "Authentication: Bearer <your-live-API-key>"
+-H "api_key: <your-API-key>"
 ```
 
 {{< /code-block >}}
