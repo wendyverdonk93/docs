@@ -1642,3 +1642,7 @@ details {
 details > summary {
 	color: #008DCB;
 }
+
+.default-cursor {
+    cursor: default !important;
+}
