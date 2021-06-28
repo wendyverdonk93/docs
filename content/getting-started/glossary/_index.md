@@ -1,7 +1,8 @@
 ---
 title: MultiSafepay glossary
-weight: 2
+weight: 60
 meta_title: "FAQ General - MultiSafepay glossary - MultiSafepay Docs"
+layout: 'single'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:

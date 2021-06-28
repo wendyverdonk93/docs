@@ -66,9 +66,21 @@
         </div>
     </div>
 
+{{ partial "single-col-list" . }}
+
+<div class="container">
+    <section class="col-md-9">
+        <h2>Next steps</h2>
+        <p>
+            Now that you're successfully processing payments, it's time to get the most out of our products. Start using our <a href="https://docs.multisafepay.com/tools">Tools</a> to boost conversion, improve security, gain insights, and more.  
+        </p>
+    </section>
+</div>
+
 {{ if isset .Params "faq" }}
 {{ partial "single-faq" . }}
 {{ end }}
+</div>
 
 {{ if isset .Params "newsletter" }}
 {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
