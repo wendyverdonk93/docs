@@ -211,7 +211,7 @@ Update information about an existing website.
 ```
 curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
 -H "accept: application/json" \
--H "Authorization: Bearer 12345678" \
+-H "Authorization: Bearer <your-api-key>" \
 -H "Content-Type: application/json" \
 -d "
 {
