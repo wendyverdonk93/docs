@@ -1,11 +1,12 @@
 ---
-title: 'Go live'
-breadcrumb_title: 'Go live'
+title: 'Onboard and go live'
+breadcrumb_title: 'Onboard and go live'
 weight: 10
 meta_title: "Getting Started - Go live - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Getting started.svg'
+faq: '.'
 layout: 'single'
 weight: 50
 short_description: "Activate your live account and start processing payments"
@@ -18,3 +19,10 @@ MultiSafepay is a [payment service provider](/faq/general/multisafepay-glossary/
 To learn more, read our documentation about [onboarding](/faq/getting-started/onboarding/).
 
 If you need help creating a live account, email our Sales Team at <sales@multisafepay.com>
+
+## Next steps
+
+{{< two-buttons
+href-1="/getting-started/test-your-integration" header-1="Previous" text-1="Test your integration" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+
+href-2="/getting-started/glossary" header-2="Next" text-2="MultiSafepay glossary" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

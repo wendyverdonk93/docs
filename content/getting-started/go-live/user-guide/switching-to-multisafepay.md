@@ -7,6 +7,7 @@ read_more: "."
 aliases:
     - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp-is-that-a-problem/
     - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp/
+    - /faq/getting-started/switching-to-multisafepay
 ---
 
 You can sign up for a MultiSafepay account while still using another PSP without incurring any costs. This lets you process test payments and gives access to all features. MultiSafepay will only start charging monthly fees when you begin processing real payments. 

@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/getting-started/rules-for-selling-alcohol
+    - /faq/getting-started/conditions-for-selling-alcohol
 ---
 
 As a [merchant](/faq/general/multisafepay-glossary/#merchant), you are required to verify customers' age when _selling_ or _delivering_ orders that include alcohol. As a PSP, MultiSafepay must ensure that merchants comply with relevant legislation and that your customers meet the requirements for purchasing alcohol.

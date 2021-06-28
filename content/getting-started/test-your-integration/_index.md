@@ -25,7 +25,7 @@ If you encounter any issues during testing, see [Diagnosing errors](/faq/errors-
 
 To start testing, follow these steps:
 
-## Step 1: Initiate a transaction
+## Initiate a transaction
 
 There are two ways to initiate a transaction:
 
@@ -44,14 +44,14 @@ The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 1. In your API testing environment, enter your test API key.
 2. For the payment method you want to test, on the API - [Payment methods](/api/#payment-methods) page, make a POST `/orders` request. Make sure you include __all__ required parameters in the request.
 
-## Step 2: Complete the payment
+## Complete the payment
 
 A unique payment link is returned for you to complete the payment.
 
 1. Enter relevant [test payment details](/faq/getting-started/test-payment-details/) for the payment method you are testing, or select a payment scenario.
 2. Complete the test payment.
 
-## Step 3: Check the transaction details
+## Check the transaction details
 
 To check the transaction details in your MultiSafepay Test Control:
 
@@ -60,7 +60,7 @@ To check the transaction details in your MultiSafepay Test Control:
 
 For information about transaction statuses, see [Test payment details](/faq/getting-started/test-payment-details/).
 
-## Step 4: Set the notification URL
+## Set the notification URL
 
 MultiSafepay uses the notification URL as a webhook to send transaction status updates to your integration.
 
@@ -75,7 +75,7 @@ For all integrations, to set the notification URL in your MultiSafepay Test Cont
 
 __Note:__ If you provide a `notification_url` in your POST `/orders` request, it overides the notification URL in your MultiSafepay Test Control. 
 
-## Step 5: Check your connection with MultiSafepay
+## Check your connection with MultiSafepay
 
 To check that you have succesfully connected to our system, follow these steps:
 
@@ -84,10 +84,19 @@ To check that you have succesfully connected to our system, follow these steps:
 3. Select the transaction to view the **Transaction details** page.
 4. Under __Offline actions__, in the __Status__ field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/faq/errors-explained/http-errors/).
 
-## Go live
-
-To start processing real transactions, sign up for a live account. See [Onboarding](/faq/getting-started/onboarding/).
-
-**Note:** Once your live account is approved, ensure you use the new __live__ API key from your MultiSafepay Control instead of your test API key.
-
 For any questions, email the Integration Team at <integration@multisafepay.com>
+
+**Note:** Once your live account is approved, ensure you use the API key from your live account instead of your test account.
+
+## About testing
+
+{{< two-buttons href-2="/getting-started/test-your-integration/test-payment-details" header-2="Read more" text-2="Test payment details" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+
+{{< two-buttons href-2="/getting-started/test-your-integration/testing-refunds" header-2="Read more" text-2="Testing refunds" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+
+## Next steps
+
+{{< two-buttons
+href-1="/getting-started/build-your-integration" header-1="Previous" text-1="Build your integration" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+
+href-2="/getting-started/go-live" header-2="Next" text-2="Onboard and go live" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

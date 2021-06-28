@@ -7,6 +7,7 @@ read_more: '.'
 aliases:
     - /faq/getting-started/how-many-websites-can-i-add-to-my-multisafepay-account/
     - /tools/multisafepay-control/add-website
+    - /tools/multisafepay-control/adding-websites
 ---
 You can add an unlimited number of websites to your MultiSafepay Control, but they must all be operated by the same legal entity linked to that MultiSafepay account.
 

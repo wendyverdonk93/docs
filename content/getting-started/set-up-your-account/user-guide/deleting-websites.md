@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 aliases:
     - /tools/multisafepay-control/delete-website
+    - /tools/multisafepay-control/deleting-websites
 ---
 
 To delete a website from your MultiSafepay Control, follow these steps:

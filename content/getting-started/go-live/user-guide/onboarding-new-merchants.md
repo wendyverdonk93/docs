@@ -8,6 +8,7 @@ aliases:
     - /faq/getting-started/how-do-i-know-which-documents-i-need-to-submit-and-which-data-to-post-on-my-website/
     - /faq/getting-started/account-approval/
     - /faq/getting-started/onboarding
+    - /faq/getting-started/onboarding-new-merchants
 ---
 Onboarding refers to the steps you need to follow to [sign up](https://merchant.multisafepay.com/signup) for a live MultiSafepay account. You need to provide information about your company structure, and your products and services. We then perform know your customer (KYC) checks on the:
 

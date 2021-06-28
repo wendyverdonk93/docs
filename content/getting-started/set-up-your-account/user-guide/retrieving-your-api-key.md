@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 aliases:
     - /tools/multisafepay-control/get-your-api-key
+    - /tools/multisafepay-control/retrieving-your-api-key
 ---
 
 To retrieve your API key for a specific website, follow these steps:

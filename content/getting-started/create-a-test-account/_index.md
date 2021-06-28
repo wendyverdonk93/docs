@@ -5,7 +5,7 @@ weight: 10
 meta_title: "Getting Started - Create a test account - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
-logo: '/svgs/Getting started.svg'
+logo: '/svgs/Zero_Authorization.svg'
 layout: 'single'
 weight: 10
 short_description: "Create a free MultiSafepay test account"
@@ -24,3 +24,8 @@ With a test account:
 * No costs are associated with transactions
 
 For support, email the Customer Operations Team at <support@multisafepay.com>
+
+{{< two-buttons
+href-1="/getting-started/" header-1="Overview" text-1="Getting started" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+
+href-2="/getting-started/set-up-your-account" header-2="Next" text-2="Set up your account" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

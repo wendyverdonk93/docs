@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - faq/getting-started/guidance-notes-ultimate-beneficial-owner-form
+    - /faq/getting-started/ultimate-beneficial-owner-form
 ---
 MultiSafepay is legally required under the Wwft to establish and verify the identity of each merchant enterprise's ultimate beneficial owners (UBOs).
 
@@ -19,10 +20,10 @@ A UBO is the natural person who directly or indirectly holds an equity interest 
 
 Download the:
 
-* [Dutch UBO form](/faq/getting-started/form/UBOform_NL_V2.0.pdf)
-* [English UBO form](/faq/getting-started/form/UBOform_EN_V2.0.pdf)
-* [French UBO form](/faq/getting-started/form/UBOform_FR.pdf)
-* [German UBO form](/faq/getting-started/form/UBOform_DE.pdf)
+* [Dutch UBO form](/getting-started/go-live/form/UBOform_NL_V2.0.pdf)
+* [English UBO form](/getting-started/go-live/form/UBOform_EN_V2.0.pdf)
+* [French UBO form](/getting-started/go-live/form/UBOform_FR.pdf)
+* [German UBO form](/getting-started/go-live/form/UBOform_DE.pdf)
 
 ## Example of completed form
 The limited company Good Ltd has a sole shareholder Better Ltd. The shares of Better Ltd. are held equally by two other limited companies:
