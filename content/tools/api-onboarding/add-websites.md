@@ -46,11 +46,10 @@ Add a website to an affiliated merchant account.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
--H "accept: application/json" 
--H "Content-Type: application/json" \
--H "Authorization: Bearer <your-api-key>" \
--d "
-{
+--header "accept: application/json" 
+--header "Content-Type: application/json" \
+--header "Authorization: Bearer <your-api-key>" \
+--data-raw '{
   "name":"Funcompany",
   "notification_url":"https://funcompany.com/transactionhook",
   "price_from":50,
@@ -58,10 +57,8 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
   "support_email":"support@funcompany.nl",
   "support_phone":"0123456789",
   "url":"https://funcompany.com"
-}
-"
+}'
 ```
-_Escape characters in the JSON body are omitted to improve readability._
 {{< /collapse >}}
 
 
@@ -104,8 +101,8 @@ Retrieve an array of all websites linked to a merchant account.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
--H "accept: application/json" \
--H "Authorization: Bearer <your-api-key>" 
+--header "accept: application/json" \
+--header "Authorization: Bearer <your-api-key>" 
 ```
 {{< /collapse >}}
 
@@ -154,8 +151,8 @@ Retrieve a single website by its identifier.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/account/sites/12345" \
--H "accept: application/json" \
--H "Authorization: Bearer <your-api-key>" 
+--header "accept: application/json" \
+--header "Authorization: Bearer <your-api-key>" 
 ```
 {{< /collapse >}}
 
@@ -210,16 +207,13 @@ Update information about an existing website.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
--H "accept: application/json" \
--H "Authorization: Bearer <your-api-key>" \
--H "Content-Type: application/json" \
--d "
-{
+--header "accept: application/json" \
+--header "Authorization: Bearer <your-api-key>" \
+--header "Content-Type: application/json" \
+--data-raw '{
   "notification_url": "https://funcompany.com/newhook"
-}
-"
+}'
 ```
-_Escape characters in the JSON body are omitted to improve readability._
 {{< /collapse >}}
 
 

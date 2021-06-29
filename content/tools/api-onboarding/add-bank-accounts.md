@@ -48,17 +48,15 @@ Add a new bank account to a merchant account.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-accounts" \
--H "accept: application/json" \
--H "Content-Type: application/json" \
--H "Authentication: Bearer <your-account-API-key>" \
--d " \
-{
+--header "accept: application/json" \
+--header "Content-Type: application/json" \
+--header "Authentication: Bearer <your-account-API-key>" \
+--data-raw '{
   "currency" :"EUR",
   "holder_name" :"Fun B.V.",
   "iban" :"NL02ABNA0123456789"
-}"
+}'
 ```
-_Escape characters in the JSON body are omitted to improve readability._
 {{< /collapse >}}
 
 {{< collapse title="Sample response" size="h3" >}}
@@ -90,8 +88,8 @@ Retrieve a list of all bank accounts linked to an affiliated merchant account.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-accounts" \
--H "accept: application/json" \
--H "Authentication: Bearer <your-account-API-key>"
+--header "accept: application/json" \
+--header "Authentication: Bearer <your-account-API-key>"
 ```
 {{< /collapse >}}
 
@@ -131,8 +129,8 @@ Retrieve a single bank account by its identifier.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678" \
--H "accept: application/json" \
--H "Authentication: Bearer <your-account-API-key>"
+--header "accept: application/json" \
+--header "Authentication: Bearer <your-account-API-key>"
 ```
 {{< /collapse >}}
 
@@ -165,8 +163,8 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/payment-links" \
--H "accept: application/json" \
--H "Authentication: Bearer <your-account-API-key>"
+--header "accept: application/json" \
+--header "Authentication: Bearer <your-account-API-key>"
 ```
 {{< /collapse >}}
 
@@ -205,17 +203,15 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/bank-statements" \
--H "accept: application/json" \
--H "Content-Type: application/json" \
--H "Authentication: Bearer <your-account-API-key>" \
--d "
-{
+--header "accept: application/json" \
+--header "Content-Type: application/json" \
+--header "Authentication: Bearer <your-account-API-key>" \
+--data-raw '{
   "encoded_content": "string",
   "filename": "bank-statement.pdf",
   "mime_type": "application/pdf"
-}"
+}'
 ```
-_Escape characters in the JSON body are omitted to improve readability._
 {{< /collapse >}}
 
 {{< collapse title="Sample response" size="h3" >}}
@@ -247,8 +243,8 @@ Retrieve a list of all bank statements associated with a bank account.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/bank-statements" \
--H  "accept: application/json" \
--H "Authentication: Bearer <your-account-API-key>"
+--header "accept: application/json" \
+--header "Authentication: Bearer <your-account-API-key>"
 ```
 {{< /collapse >}}
 
@@ -283,8 +279,8 @@ Retrieve a single bank statement by its identifier.
 {{< collapse title="Sample request" size="h3" >}}
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/12345678" \
--H "accept: application/json" \
--H "Authentication: Bearer <your-account-API-key>"
+--header "accept: application/json" \
+--header "Authentication: Bearer <your-account-API-key>"
 ```
 {{< /collapse >}}
 
