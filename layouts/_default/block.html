@@ -7,16 +7,6 @@
       <p>{{ .Content }}</p>
     </div>
   </div>
-
-    {{ if isset .Params "faq" }}
-    {{ partial "block-faq-intro" . }}
-    {{ end }}
-
     {{ partial "blocklist" . }}
-
-    {{ if isset .Params "faq" }}
-    {{ partial "block-faq" . }}
-    {{ end }}
-
   </div>
 {{end}}
