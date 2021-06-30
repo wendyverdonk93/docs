@@ -1,0 +1,15 @@
+<div class="row mb-2">
+    <div class="col-lg-3 px-5 mb-5 order-lg-2 ml-auto">
+        <a href='{{ with .GetPage "user-guide" }}{{ .Permalink}}{{ end }}' class="row block-item p-3" target="_blank">
+            <div class="media">
+                <img src="{{ .Params.logo }}" class="img-fluid m-4" style="max-width:25px;height:auto" alt="{{ .Title }}" />
+                <div class="media-body my-auto">
+                    <p class="my-auto no-decoration m-4" style="font-size: 1.4rem">Read more about {{if isset .Params "user_guide_title" }}{{ .Params.user_guide_title }}{{ else }}{{ .Params.title }}{{ end }}
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-6 mb-2 order-lg-1">
+        {{ .Params.intro_description }}
+    </div>
+</div>
