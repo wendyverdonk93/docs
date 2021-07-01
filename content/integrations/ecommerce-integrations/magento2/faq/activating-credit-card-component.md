@@ -1,6 +1,6 @@
 ---
-title : "Activating Credit Card Component"
-meta_title: "Magento 2 plugin - Activating Credit Card Component - MultiSafepay Docs"
+title : "Activating the Credit Card Component"
+meta_title: "Magento 2 plugin - Activating the Credit Card Component - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
@@ -8,9 +8,9 @@ aliases:
     - /integrations/ecommerce-integrations/magento2/faq/does-the-magento-2-plugin-support-magento-vault/
 ---
 
-The MultiSafepay Magento 2 plugin supports Credit Card Component, which lets you accept credit card payments from your checkout page.
+The MultiSafepay Magento 2 plugin supports the Credit Card Component, which lets you accept credit card payments from your checkout page.
 
-The Credit Card Component:
+The component:
 
 - Provides a seamless checkout experience to increase conversion.
 - Encrypts customer payment details for secure processing.
@@ -18,14 +18,15 @@ The Credit Card Component:
 
 For more information, see [Payment Components](/integrations/payment-components/).
 
-## Activating Credit Card Component
-To enable Credit Card Component for your MultiSafepay account, email your account manager at <sales@multisafepay.com>
+## Activating the Credit Card Component
 
-To activate Credit Card Component in your Magento 2 backend, follow these steps:
+To enable the Credit Card Component for your MultiSafepay account, email your account manager at <sales@multisafepay.com>
+
+To activate the component in your Magento 2 backend, follow these steps:
 
 1. Log in to your Magento 2 backend.
-2. Go to **Configuration** > **Credit Card** and click **Configure**.
-3. Click **Payment Type** and select **Credit Card Component**.
-4. Click **Save Config**.
+2. Go to **Configuration** > **Credit card**, and then click **Configure**.
+3. Click **Payment type** and select **Credit card component**.
+4. Click **Save config**.
 
 For questions, email the Integration Team at <integration@multisafepay.com>
