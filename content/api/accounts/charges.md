@@ -1,12 +1,12 @@
 ---
-weight: 371
+weight: 372
 meta_title: "API - Charges - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
 
-> /accounts/{affiliated_id}/charges
+> POST /accounts/{affiliated_id}/charges
 
 ```json 
 {
@@ -54,7 +54,7 @@ As a partner or primary account holder, use charges to move funds from an affili
 
 By default, charges are disabled. Contact your account manager to enable charges for your account.
 
-### Parameters
+### Request parameters
 
 **affiliated_id** | query parameter
 

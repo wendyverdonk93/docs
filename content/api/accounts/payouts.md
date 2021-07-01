@@ -1,12 +1,12 @@
 ---
-weight: 372
+weight: 373
 meta_title: "API - Payouts - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
 {{< code-block >}}
 
-> /accounts/{affiliated_id}/payouts
+> POST /accounts/{affiliated_id}/payouts
 
 ```json 
 {
@@ -67,9 +67,9 @@ As a partner or primary account holder, use payouts to move funds from an affili
 
 By default, payouts for affiliated accounts are disabled. Contact your account manager to enable payouts for your affiliated accounts.
 
-### Parameters
+### Request parameters
 
-**affiliated_id** | query parameter
+**affiliated_id** | query parameter  
 
 The account ID of the affiliated account that is to be paid out. **Required**.
 
@@ -79,8 +79,7 @@ The amount to pay out in cents. **Required**.
 
 **currency** | string
 
-The currency of the payout. **Required**.  
-**Format**: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)
+The currency of the payout. **Required**. Format: [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html)
 
 **order_id** | string 
 
