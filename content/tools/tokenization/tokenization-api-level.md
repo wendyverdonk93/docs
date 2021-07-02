@@ -7,7 +7,7 @@ read_more: '.'
 ---
 
 ## What it is
-When applied to the payment industry, tokenization is generally used for credit card payments. However, it is also available for debit payment methods, such as iDEAL and SOFORT Banking. Tokenization means that for every credit or debit card, a unique recurring id is created and subsequently encrypted as a token. The payment token itself is the unique string of numbers. As result, a unique security identifier is created to finalize a payment and potential risks are reduced.
+When applied to the payment industry, tokenization is generally used for credit card payments. However, it is also available for debit payment methods, such as iDEAL and SOFORT Banking. Tokenization means that for every credit or debit card, a unique recurring ID is created and subsequently encrypted as a token. The payment token itself is the unique string of numbers. As result, a unique security identifier is created to finalize a payment and potential risks are reduced.
 
 
 ## How it works
@@ -34,7 +34,3 @@ Tokens processed by the payment method SEPA Direct Debit "DIRDEB" are originally
 | reference | string | Customer reference to link a token |
 | recurring_flow | string | The tokenization method used to create a recurring payment. Options: token  |
 | recurring_model | string | The type of recurring model to be used: unscheduled, cardOnFile, subscription  |
-
-
-
-

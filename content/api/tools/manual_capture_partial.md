@@ -5,9 +5,9 @@ weight: 1351
 
 > POST - /orders/{order_id}/capture
 
-```shell
+```json
 {
- "amount": "2000",
+ "amount": 2000,
  "new_order_id": "my-order-id-01",
  "new_order_status": "completed",
  "invoice_id": "",
@@ -19,11 +19,11 @@ weight: 1351
 > JSON Response
 
 
-```shell
+```json
 {
     "success": true,
     "data": {
-        "transaction_id": 001,
+        "transaction_id": 123456789
         "order_id": "my-order-id-01"
     }
 }

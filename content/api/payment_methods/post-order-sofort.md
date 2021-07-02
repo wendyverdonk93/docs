@@ -6,20 +6,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "DIRECTBANK",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "de_DE"
@@ -28,7 +28,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -40,34 +40,34 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "DIRECTBANK",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "de_DE",
-        "ip_address": "89.20.162.110",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
@@ -75,7 +75,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -85,13 +85,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 348956887,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 348956888,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -103,17 +103,17 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": null,
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
-      "last_name": "Approved",
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "de_DE",
-      "phone1": "0208500500",
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",
@@ -144,7 +144,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 329835554,
+    "transaction_id": 123456789
     "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=de_DE",
     "cancel_url": "http://www.example.com/client/notification?type=cancel"
   }
@@ -207,9 +207,13 @@ __customer__ | object
 Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
 
 ----------------
+__close_window__ | bool (optional)
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
-
 
 ### Direct - SOFORT
 Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect) order.

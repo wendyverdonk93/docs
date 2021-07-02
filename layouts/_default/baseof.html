@@ -36,7 +36,7 @@
     <link href="{{ .Site.BaseURL }}css/bootstrap.min.css?v=2" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mburger.css" rel="stylesheet" />
     <link href="{{ .Site.BaseURL }}css/mmenu.css" rel="stylesheet" />
-    <link href="{{ .Site.BaseURL }}css/main.css?v=20" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}css/main.css?v=25" rel="stylesheet" />
     <link rel="shortcut icon" href="/favicon.ico">
     <script src="{{ .Site.BaseURL }}js/mmenu.js"></script>
     <script src="{{ .Site.BaseURL }}js/main.js?v=8"></script>
@@ -70,27 +70,20 @@
         
         {{ block "main" . }}{{ end }}
         {{ if not .IsHome }}
-
-
-        <div class="container">
-    <div class="row">
-        {{ partial "edit-page" . }}
-        {{ partial "bottom-block" . }}
-    </div>
-</div>
-
-
-        <footer class="footer-background">
-            {{ else }}
-            <footer>
-               
-                {{ end }}
-                 {{ partial "footer" . }}
-                <div class="text-center">
-                    <a href="https://multisafepay.com"><img class="msp-logo-footer"
-                            src="{{ relURL "logo/MSP-logo.svg" }}" /></a>
-                </div>
-            </footer>
+        <section class="container border-top">
+            <div class="row">
+                {{ partial "bottom-block" . }}
+            </div>
+        </section>
+        <footer class="footer-background pt-5">
+        {{ else }}
+        <footer>
+        {{ end }}
+            {{ partial "footer" . }}
+            <div class="text-center">
+                <a href="https://multisafepay.com"><img class="msp-logo-footer" src="{{ relURL "logo/MSP-logo.svg" }}" /></a>
+            </div>
+        </footer>
     </div>
 
     {{ if  .IsHome }}

@@ -61,7 +61,7 @@ Automated Accountant Export activation checklist:
 * Costs breakdown per transaction OR total costs 
 
 
-Send the requested to our Integration Team via <integration@multisafepay.com> 
+Email the requested documents to the Integration Team at <integration@multisafepay.com> 
 
 _Don't forget to add your Account ID which can be found in the dashboard of your MultiSafepay Control in the top right corner_.
 

@@ -1,13 +1,20 @@
 ---
 title: 'Pay After Delivery'
-weight: 170
-meta_title: "Payment methods Pay After Delivery - MultiSafepay Docs"
+weight: 20
+meta_title: "Payment methods - Pay After Delivery - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-layout: 'paymentdetail'
+linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery"
+intro_description: "Pay After Delivery is MultiSafepay's own online post-payment method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. Customers are only charged for the items they keep from the order. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement."
+layout: 'single'
+faq: '.'
 logo: '/logo/Payment_methods/Pay_After_Delivery.svg' 
-short_description: 'Suitable for Dutch merchants allowing customers to pay after they have received their order.'
+short_description: "A MultiSafepay post-payment method for Dutch merchants"
 aliases:
     - /support-tab/magento2/payment-methods/pay-after-delivery
+    - /payment-methods/billing-suite/pay-after-delivery/activate-pay-after-delivery 
+    - /payment-methods/billing-suite/pay-after-delivery/how-does-pay-after-delivery-work
+    - /payment-methods/billing-suite/pay-after-delivery/pay-after-delivery-testing
+    - /payment-methods/billing-suite/pay-after-delivery/refund-pay-after-delivery
+    - /payment-methods/billing-suite/pay-after-delivery/what-is-pay-after-delivery
 ---
 
-MultiSafepay offers Pay After Delivery to enhance the sales conversion of merchants and increase customer confidence by paying only after the delivery of their product. Our Pay After Delivery product is built fully in-house leveraging our 20 years of payment knowledge and is continuously being improved and expanded.

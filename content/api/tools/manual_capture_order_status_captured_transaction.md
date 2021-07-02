@@ -7,11 +7,11 @@ weight: 1353
 
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
-        "transaction_id": 001,
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2019-03-22T12:03:56",
         "currency": "EUR",
@@ -30,19 +30,19 @@ weight: 1353
         "modified": "2019-03-22T12:03:58",
         "customer": {
             "locale": "nl_NL",
-            "first_name": "Testperson-nl",
-            "last_name": "Approved",
-            "address1": "Kraanspoor",
-            "address2": null,
-            "house_number": 39C,
-            "zip_code": "1033SC",
+            "first_name": "Simon",
+            "last_name": "Smit",
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
+            "address2": "123",
+            "zip_code": "1000 AB",
             "city": "Amsterdam",
-            "state": null,
+            "state": "Noord-Holland",
             "country": "NL",
-            "country_name": null,
-            "phone1": "0208500500",
-            "phone2": "",
-            "email": "test@example.com"
+            "country_name": "The Netherlands",
+            "phone1": "0600000001",
+            "phone2": "00310000001",
+            "email": "simonsmit@example.com"
         },
         "payment_details": {
             "recurring_id": null,
@@ -55,7 +55,7 @@ weight: 1353
         },
         "costs": [
             {
-                "transaction_id": 001,
+                "transaction_id": 123456789
                 "description": "",
                 "type": "SYSTEM",
                 "amount":

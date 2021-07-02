@@ -5,24 +5,24 @@ weight: 1350
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "order_id_0000001",
     "gateway": "",
     "currency": "EUR",
-    "amount": "10000",
+    "amount": 10000,
     "description": "Manual Capture Test",
     "capture": "manual",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "10.1.5.1",
+        "ip_address": "123.123.123.123",
         "referrer": "http://test.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     }
@@ -31,7 +31,7 @@ weight: 1350
 
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -101,6 +101,13 @@ Displays the correct language and payment methods on the Payment page. It also h
 __ip_address__ | string
 
 The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address)
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

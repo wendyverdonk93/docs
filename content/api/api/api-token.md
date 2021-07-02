@@ -5,10 +5,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ---
 {{< code-block >}}
 
-> GET - /connect/auth/api_token/
+> GET - /auth/api_token/
 
 > JSON Response
-``` shell
+```json
 {
   "success": true,
   "data": {
@@ -21,8 +21,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Generate an API token
 
-API tokens are used to encrypt sensitive payment details.
+API tokens are used to encrypt sensitive payment details from a customer's device.
 
 For every order, generate a new API token.
+
+**Note**: API tokens are not required for POST `/orders` requests initiated from your server.
 
 {{% /description %}}

@@ -1,9 +1,24 @@
 <section id="whats-new-block" class="row pb-5 pt-4">
     <div class="col-md-12 pb-4">
-        <h2 class="whats-new-header pb-4">What's new?</h2>
+      <h2 class="whats-new-header pb-4">What's new</h2>
     </div>
+    <hr>
     <div class="col-md-6 pb-4">
-        <img class="whats-new-image" src="/svgs/PSD2.svg" alt="PSD 2 Logo">
+        <h3 class="pb-2">
+            Recent changes
+        </h3>
+       <table>
+            <tbody>
+            {{ range first 10 .Site.Data.changelog.entries }}
+            <tr>
+                <td style="width: 125px; padding-bottom: 1rem; float:inline-start" ><b>{{ .date}}</b></td>
+                <td style="padding-bottom: 1rem;">{{.change | markdownify }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+        </table>
+    
+
     </div>
     <div class="col-md-6 pb-4">
         <h3 class="pb-2">

@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 
 {
     "type": "redirect",
@@ -20,10 +20,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
-        "email": "test@example.com"
+        "email": "simonsmit@example.com"
         "locale": "cs_CZ"
     }
 }
@@ -32,7 +32,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -114,6 +114,13 @@ Customer’s provided email address. Used to send Second Chance emails, in fraud
 __locale__ | string   
 
 Displays the correct language and payment methods on the payment page. It also has an influence on sending the set email templates. Use the format ab_CD with [ISO 639](https://www.iso.org/iso-639-language-codes.html) language codes and [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country codes.                       
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

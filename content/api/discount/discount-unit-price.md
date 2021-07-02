@@ -1,5 +1,5 @@
 ---
-weight: 52
+weight: 352
 meta_title: "API - Discount added as unit price - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
@@ -11,7 +11,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
 {{< code-block >}}
 > Example with 20% discount calculated in all unit prices:
 
-```shell 
+```json 
 {
     "type": "redirect",
     "gateway": "PAYAFTER",
@@ -46,7 +46,7 @@ A discount added as seperate discount rule may conflict in refunding with postpa
     "checkout_options": {
         "tax_tables": {
             "default": {
-                "shipping_taxed": "true",
+                "shipping_taxed": true,
                 "rate": 0.21
             },
             "alternate": [

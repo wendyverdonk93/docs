@@ -6,20 +6,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "GIROPAY",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "de_DE"
@@ -29,7 +29,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -87,6 +87,13 @@ __payment_options__ | object
 __customer__ | object
 
 Contains the personal information of the customer. _Values for first_name and last_name require minimum two characters_.     
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

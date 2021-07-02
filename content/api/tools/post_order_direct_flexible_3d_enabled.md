@@ -4,7 +4,7 @@ weight: 1330
 {{< code-block >}}
 > POST - /orders 
 
-```shell 
+```json 
 
 {
    "type": "direct",
@@ -17,20 +17,20 @@ weight: 1330
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
    "customer": {
        "locale": "nl_NL",
-       "ip_address": "10.1.5.1",
-       "first_name": "Testperson-nl",
-       "last_name": "Approved",
-       "address1": "Kraanspoor",
-       "house_number": "39C",
-       "zip_code": "1033SC",
+       "ip_address": "123.123.123.123",
+       "first_name": "Simon",
+       "last_name": "Smit",
+       "address1": "Bloemstraat",
+       "address2": "123",
+       "zip_code": "1000 AB",
        "city": "Amsterdam",
        "country": "NL",
-       "phone": "0208500500",
-       "email": "test@example.com",
+       "phone": "0600000001",
+       "email": "simonsmit@example.com",
        "referrer": "http://example.com",
        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
    },
@@ -47,11 +47,11 @@ weight: 1330
 ```
 > JSON Response
 
-```shell 
+```json 
 {
     "success": true,
     "data": {
-        "transaction_id": 001,
+        "transaction_id": 123456789
         "order_id": "my-test-order-01",
         "created": "2019-05-16T10:51:54",
         "currency": "EUR",
@@ -70,19 +70,19 @@ weight: 1330
         "modified": "2019-05-16T10:51:54",
         "customer": {
             "locale": "nl_NL",
-            "first_name": "Testperson-nl",
-            "last_name": "Approved",
-            "address1": "Kraanspoor",
-            "address2": null,
-            "house_number": "39C",
-            "zip_code": "1033SC",
+            "first_name": "Simon",
+            "last_name": "Smit",
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
+            "address2": "123",
+            "zip_code": "1000 AB",
             "city": "Amsterdam",
-            "state": null,
+            "state": "Noord-Holland",
             "country": "NL",
-            "country_name": null,
-            "phone1": "0208500500",
-            "phone2": "",
-            "email": "test@example.com"
+            "country_name": "The Netherlands",
+            "phone1": "0600000001",
+            "phone2": "00310000001",
+            "email": "simonsmit@example.com"
         },
         "custom_info": {
             "custom_1": null,
@@ -99,7 +99,7 @@ weight: 1330
         },
         "costs": [
             {
-                "transaction_id": 001,
+                "transaction_id": 123456789
                 "description": "0.0 % For Visa CreditCards Transactions",
                 "type": "SYSTEM",
                 "amount": 0.0
@@ -182,6 +182,13 @@ True, enable the 3D Secure authentication. False, disable the 3D Secure authenti
 __term_url__ | string
 
 URL that is used to instruct the card issuer where to redirect the authorisation query. 
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
 
 ----------------
 

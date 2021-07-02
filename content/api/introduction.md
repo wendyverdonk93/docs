@@ -3,7 +3,7 @@ weight: 10
 meta_title: "API Reference - Introduction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
-{{< code-block >}}
+{{< code-block hide >}}
 {{< /code-block >}}
 
 {{< description >}}
@@ -30,11 +30,13 @@ The API also offers advanced operations to enable you to use [split payments](#s
 
 We encourage you to study this API and start implementing your custom integration against our [``TEST`` environment](#environments)
 
-For any questions, do not hesitate to contact us at <integration@multisafepay.com>
+For any questions, email the Integration Team at <integration@multisafepay.com>
+
 
 ### Postman
 
-To make it easier for you to test our API and perform requests, we created a [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection) 
+For testing our API, try our [Postman collection](https://github.com/MultiSafepay/multisafepay-postman-collection).
+
 
 This collection is a group of saved requests that allows you to retrieve order information, post payments in our API documentation.
 {{% /description %}}

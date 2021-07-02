@@ -37,6 +37,12 @@ h3 {
     font-size: 2rem;
 }
 
+h4 {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
 h1, h4, h5, h6 {
     color: #232323;
 }
@@ -272,6 +278,7 @@ div.block {
     box-shadow: 1.6px 3px 11px rgb(0, 0, 0, 30%);
     transform: translateY(-0.2rem);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .block-item .block-item__title:hover, .block-faq .block-faq__title:hover {
@@ -427,6 +434,14 @@ ol.breadcrumb {
 
 .primary, .secondary {
     text-align: center;
+}
+
+.bg-dark-msp-blue {
+    background-color: #006ba1;
+}
+
+.bg-dark-msp-blue:hover {
+    background-color: #006593;
 }
 
 .js-toc-content .primary {
@@ -1599,7 +1614,7 @@ pre:not(.chroma) {
     padding: 2rem 3rem;
 }
 
-p code, td code {
+p code, td code, li code {
     background-color: #F6F6F6;
     border-radius: 5px;
     padding: 2px 5px;
@@ -1612,8 +1627,9 @@ p code, td code {
 	cursor: pointer;
 }
 
-.no-decoration {
+.no-decoration , .no-decoration:hover{
     text-decoration: none!important;
+    color: #000000;
 }
 
 details {
@@ -1627,6 +1643,6 @@ details > summary {
 	color: #008DCB;
 }
 
-details > table > tbody > tr {
-	background-color: blue;
+.default-cursor {
+    cursor: default !important;
 }

@@ -12,7 +12,7 @@
         {{ range .Sections }}
         {{ if ne .Params.tags "hidden"}}
         <div class="col-md-6 my-3 {{ .Params.title_short }}">
-            <div class="block-item h-100 p-4">
+            <div class="block-item h-100 p-4 default-cursor">
                 <div class="row h-100">
                     <div class="col-3 d-flex align-items-start justify-content-center order-2">
                         {{ with .Params.logo }}
@@ -24,21 +24,36 @@
                         <div class="block-item-text">
                             <p>{{ .Params.description_short }}</p>
                         </div>
-                        <div class="block-item-buttons pt-2">
-                            {{ if .Params.redirect_show_info }}
-                            <a class="secondary" target="blank" href="{{ .Params.redirect_show_info.url }}">{{ .Params.redirect_show_info.text }}</a>
+                        <div class="row pt-2 pb-2 px-3">
+                        {{ if .Params.redirect_show_info }}
+                            <div class="col-lg-5 pr-lg-5">
+                                <a href="{{.Params.redirect_show_info.url}}" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                {{ .Params.redirect_show_info.text }}<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div> 
                             {{ else }}
-                            <a class="secondary wider-button" href="{{ .Permalink }}">More info</a>
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="{{ .Permalink }}" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center">
+                                More info
+                                </a>
+                            </div>
                             {{ end }}
                             {{ if .Params.download_url }}
-                            <a class="primary ml-4" href="{{ .Params.download_url }}">Download</a>
-                            {{ end }}
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="{{.Params.download_url}}" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
+                                </a>
+                            </div>                        {{ end }}
                             {{ if .Params.extra_button }}
                             <a {{ if eq .Params.extra_button.type "primary" }} class="primary ml-4" {{else}} class="secondary ml-4"  {{end}} target="blank" href="{{ .Params.extra_button.url }}">{{ .Params.extra_button.text }}</a>
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="{{ .Params.extra_button.url }}" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                {{ .Params.extra_button.text }}
+                                </a>
+                            </div>
                             {{ end }}
                         </div>
                     </div>
-
                 </div>
             </div>
 

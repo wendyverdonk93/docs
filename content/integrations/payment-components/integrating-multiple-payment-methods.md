@@ -1,36 +1,36 @@
 ---
 title : "Integrating multiple payment methods"
 breadcrumb_title : "Integrating multiple payment methods"
-meta_title: "Payment Components - Integrating multiple payment methods - MultiSafepay Docs"
+meta_title: "Payment components - Integrating multiple payment methods - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
 read_more: '.'
 --- 
 
-To integrate a Payment Component into your checkout for multiple payment methods, follow these steps:
+To integrate a payment component into your checkout for multiple payment methods, follow these steps:
 
 ## Step 1: Install
 
 ### Generate an API token
-Payment Components require a MultiSafepay API token. See API Reference&nbsp;-&nbsp;[Generate an API token](/api/#generate-an-api-token).
+Payment components require a MultiSafepay API token. See API Reference&nbsp;-&nbsp;[Generate an API token](/api/#generate-an-api-token).
 
 **Note:** To keep your API key private, request the token from your own server. 
 
 ### Add elements to your checkout page
-**1.** Add the Payment Component CSS to the `<head>` of your checkout page:  
+**1.** Add the Payment component CSS to the `<head>` of your checkout page:  
 ```
-link rel="stylesheet" href="https://pay.multisafepay.com/sdk/compnents/v1/components.css">
+link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v1/components.css">
 ```
 
-**2.** Add the Payment Component script to the bottom of the `<body>` of your checkout page:  
+**2.** Add the Payment component script to the bottom of the `<body>` of your checkout page:  
 ```
 <script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>
 ```
-**Note:** If you choose to host the Payment Component library on your own server, MultiSafepay is no longer responsible for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss).
+**Note:** If you choose to host the Payment component library on your own server, MultiSafepay is no longer responsible for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss).
 
-**3.** Add the DOM element for the Payment Component UI in the `<body>` of your checkout page:
+**3.** Add the DOM element for the Payment component UI in the `<body>` of your checkout page:
 ```
-<div id="MSPPayment"></div>
+<div id="MultiSafepayPayment"></div>
 ```
 
 ## Step 2: Initialize
@@ -63,7 +63,7 @@ const orderData = {
 | currency| Currency of the order. Format: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`. **Required**. |
 | amount| Value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
 | customer.country|Customer's country code. Used to validate the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Required**. |
-|customer.locale | Customer's language. Used to set the language of the Payment Component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
+|customer.locale | Customer's language. Used to set the language of the Payment component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
 | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
 
 {{< /details >}}
@@ -80,34 +80,20 @@ PaymentComponent = new MultiSafepay({
 });
 ```
 
-### Initialize the Payment Component
+### Initialize the payment component
 
-**1.** To retrieve a list of available payment gateways, make a `/connect/payments/methods` request from your server, specifying the country, currency, and amount of the order:
-
-```
-curl -X GET "https://testapi.multisafepay.com/v1/connect/payments/methods" \
--H "accept: application/json" \
--H "Authentication: Bearer <your-website-API-key>" \
--d ' \
-{
-  "country": "NL",
-  "currency": "EUR",
-  "amount": "10000"
-}'
-```
-
-From your server, pass the `gateways_response` to the request to the customer's device. 
-
-**2.** Call the `PaymentComponent.init()` method with the following arguments:
+Call the `PaymentComponent.init()` method with the following arguments:
 ```
 PaymentComponent.init('dropin', {
-    container: '#MSPPayment',
-    gateways: gateways_response,
+    container: '#MultiSafepayPayment',
     onLoad: state => {
         console.log('onLoad', state);
     },
     onError: state => {
         console.log('onError', state);
+    },
+    onSelect: state => {
+        console.log('onSelect', state);
     }
 });
 ```
@@ -116,13 +102,13 @@ In the method call, create event handlers for the following events:
 
 | Event | Event handler |
 | ---- | ---- |
-|`onError`| Called when an error occurs in the Payment Component|
+|`onError`| Called when an error occurs in the payment component|
 |`onSubmit`| Called when the customer selects a payment method |
-|`onLoad`| Called when the Payment Component UI is rendered |
+|`onLoad`| Called when the Payment component UI is rendered |
 
 {{< /details >}}
 
-The `PaymentComponent` uses the following methods:
+The `PaymentComponent` has the following methods:
 
 {{< details title="View methods" >}}
 
@@ -130,14 +116,14 @@ The `PaymentComponent` uses the following methods:
 | ---- | ---- |
 |`getErrors`| Returns error messages or codes.|
 |`hasErrors`| Returns a boolean value about whether errors were registered. |
-|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. |
+|`getPaymentData`| Creates a `payload` object with the customer's payment details. Used to create orders. For more information, see Step&nbsp;3:&nbsp;[Collect&nbsp;payment&nbsp;data](#collect-payment-data)|
 
 {{< /details >}}
 
 ## Step 3: Redirect to pay
 
 ### Collect payment data
-**1.** To collect the customer's payment details from the Payment Component UI, call the `PaymentComponent.getPaymentData()` method:
+**1.** To collect the customer's payment details from the Payment component UI, call the `PaymentComponent.getPaymentData()` method:
 
 ```
 PaymentComponent.getPaymentData()
@@ -147,15 +133,17 @@ PaymentComponent.getPaymentData()
 
 ### Create an order
 
-Make a POST `/connect/payments/create` request from your server, appending the `payment_data` collected from the Payment Component UI to the `orderData` collected during the checkout process:
+Make a POST [`/orders`](/api/#orders) request from your server:
+
+- Append the `payment_data` collected from the Payment component UI to the `orderData` collected during the checkout process.
+- Replace the `<GATEWAY>` placeholder with the relevant gateway code, see Step 2: [Initialize the payment component](#initialize-the-payment-component).
 
 ```
-curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
--H "accept: application/json" \
--H "Content-Type: application/json" \
--H "Authentication: Bearer <your-website-API-key>" \
--d " \
-{
+curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
+--header "accept: application/json" \
+--header "Content-Type: application/json" \
+--header "api_key: <your-website-API-key>" \
+--data-raw '{
     "type": "direct",
     "order_id": "my-order-id-1",
     "currency": "EUR",
@@ -165,13 +153,12 @@ curl -X POST "https://testapi.multisafepay.com/v1/connect/payments/create" \
     "payment_data": {
        "payload": "{secure_payload}"
     },
-}"
+}'
 ```
-**Note:** The request follows the same structure as `POST /orders` requests. For more information, see API Reference&nbsp;-&nbsp;[Orders](/api/#orders).
 
 ### Redirect the customer
 
-**1.** From your server, pass the `response` to the POST `/connect/payments/create` request to the customer's device. 
+**1.** From your server, pass the `response` to the POST `/orders` request to the customer's device. 
 
 **2.** Check that `response.success` is `true`.
 
@@ -190,7 +177,7 @@ PaymentComponent.init('redirection', {
 
 When you're ready to process real payments, make the following changes:
 
-**1.** In Step 2: [Construct the Payment Component object](#construct-the-payment-component-object), change the environment from `test` to `live`:
+**1.** In Step 2: [Construct the Payment component object](#construct-the-payment-component-object), change the environment from `test` to `live`:
 ```
 PaymentComponent = new MultiSafepay({
     env: 'live',
@@ -201,7 +188,7 @@ PaymentComponent = new MultiSafepay({
 
 **2.** In Step 3: [Create an order](#create-an-order), change the test endpoint to the live endpoint:  
 
-`https://api.multisafepay.com/v1/connect/payments/create`
+`https://api.multisafepay.com/v1/json/orders`
 
 ## Next steps
 

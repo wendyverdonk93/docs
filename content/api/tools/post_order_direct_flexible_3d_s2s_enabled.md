@@ -5,7 +5,7 @@ weight: 1330
 
 > POST - /orders 
 
-```shell 
+```json 
 
 {
     "type": "direct",
@@ -22,17 +22,17 @@ weight: 1330
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "89.20.162.110",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com",
         "referrer": "http://example.com",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
@@ -50,7 +50,7 @@ weight: 1330
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -65,17 +65,17 @@ weight: 1330
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "country_name": Netherlands,
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
-      "last_name": "Approved",
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0208500500",
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "Test Product Description",
     "fastcheckout": "NO",
@@ -109,7 +109,7 @@ weight: 1330
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 335244060,
+    "transaction_id": 123456789
     "var1": null,
     "var2": null,
     "var3": null,
@@ -185,6 +185,13 @@ Defines certain customer data (payment details).
 __flexible_3d__ | boolean
 
 True, enable the 3D Secure authentication. False, disable the 3D Secure authentication.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
 
 ----------------
 

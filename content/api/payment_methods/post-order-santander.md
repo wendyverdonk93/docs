@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
@@ -19,38 +19,38 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "31.148.195.10",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "email": "test@example.com",
+        "email": "simonsmit@example.com",
         "referrer": "http://example.com",
         "user_agent": "Mozilla//5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
     "gateway_info": {
         "birthday": "1970-07-10",
-        "gender": "male",
-        "phone": "0612345678",
-        "email": "youremail@email.com"
+        "gender": "mr",
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     }
 }
 ```
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
-        "transaction_id": 2333720,
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2017-08-07T10:07:07",
         "currency": "EUR",
@@ -80,7 +80,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         },
         "costs": [
             {
-                "transaction_id": 406933,
+                "transaction_id": 123456789
                 "description": "Cost Description",
                 "type": "SYSTEM",
                 "amount": 0.49
@@ -160,9 +160,16 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------  
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 

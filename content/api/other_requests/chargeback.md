@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders/{order_id}/files
 
-```shell
+```json
 {
     "type": "",
     "base64": "",
@@ -17,7 +17,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -31,7 +31,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 MultiSafepay can challenge the chargeback on your behalf, but to do so, we need documented proof of the order.
 
-You can upload the files or documents via an API request or contact our support team at <support@multisafepay.com>
+You can upload the files or documents via an API request, or email the Support Team at <support@multisafepay.com>
 
 Read more about [chargebacks](/faq/chargebacks) on our documentation page.
 
@@ -58,5 +58,4 @@ __name__ | string
 Name of the file.
 
 {{% /description %}}
-
 

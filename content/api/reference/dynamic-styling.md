@@ -6,8 +6,8 @@ meta_description: The MultiSafepay Documentation Center presents all relevant in
 {{< code-block >}}
 
 
-```shell
-    
+```json
+{
     "template": {
         "version": "1.0",
         "settings": {
@@ -96,7 +96,8 @@ meta_description: The MultiSafepay Documentation Center presents all relevant in
                 }
             }
         }
-    },
+    }
+}
 ```
 
 {{< /code-block >}}

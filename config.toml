@@ -30,7 +30,7 @@ name = "Shell"
 
 [[menu.main]]
     name = "Getting started"
-    url  = "/guides/getting-started/"
+    url  = "/getting-started/"
     pre = "fa fa-rocket fa-lg"
     weight = 1
 
@@ -58,12 +58,6 @@ name = "Shell"
     url  = "/integrations/wrappers"
     parent = "integrations"
     weight = 40
-
-[[menu.main]]
-    name = "Accounting"
-    url  = "/integrations/accounting-and-bookkeeping"
-    parent = "integrations"
-    weight = 60
 
 [[menu.main]]
     name = "Cash register software"

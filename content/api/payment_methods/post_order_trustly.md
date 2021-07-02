@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "redirect",
@@ -21,16 +21,16 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
-        "email": "test@example.com"
+        "email": "simonsmit@example.com"
     }
 }
 ```
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -104,6 +104,13 @@ Customer will be redirected to this page after a failed payment.
 __customer__ | object
 
 Contains the personal information of the customer.                                     
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

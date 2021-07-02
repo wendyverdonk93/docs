@@ -30,6 +30,14 @@ Under the contact details in your MultiSafepay Control, you can add an email add
 #### An uncleared transaction can only be accepted through your MultiSafepay Control. If no action is taken to accept the uncleared transaction, the authorization will automatically expire after 5 days.
 ***
 
+## Post-payment methods
+
+**Uncleared** status applies to a number of post-payment methods in our [Billing Suite ](/payment-methods/billing-suite/). <br>
+
+For [Klarna](/payment-methods/billing-suite/klarna/), [Afterpay](/payment-methods/billing-suite/afterpay/), [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/) and [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery/) after you ship the order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status then changes to **Completed** when MultiSafepay receives settlement and adds the funds to your MultiSafepay balance.
+
+For [Request to Pay](/payment-methods/banks/request-to-pay/), [SOFORT Banking](/payment-methods/banks/sofort-banking/) and [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement (partially or in full, e.g. the remaining instalments of an in3 payment). We recommend **not** shipping orders during this status.
+
 
 ## Evaluate the Transaction Amount
 Ask yourself if the transaction amount (of a purchase) is higher (or lower) than average. Are you willing to risk that this payment will be revoked after you have delivered your product and /or service? Consider whether the amount is unusually high compared to the average order value in your webshop.
@@ -75,5 +83,3 @@ Click on 'View risk report' in your [MultiSafepay Control](https://merchant.mult
 
 ## Conclusion
 Together, these indicators paint an accurate picture of what uncleared transactions are and how they should be addressed. However, these indicators offer no foolproof guarantee against fraudulent transactions. It is essential to consider all factors when evaluating a transaction; how likely is the possibility of fraud, what risks do you face based on your products, order value, etc.? If you trust the payment or consider it ‘low risk’, then you can accept the transaction. If you have any doubt, the transaction can be declined. We recommend that you notify your customer should you decide to reject their transaction.
-
-

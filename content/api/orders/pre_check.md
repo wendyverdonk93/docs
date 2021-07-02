@@ -7,13 +7,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /json/padprechecks
 
-```shell
+```json
 {
     "type": "checkout",
     "gateway" : "PAYAFTER",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "9000",
+    "amount": 9000,
     "description": "Order description",
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -22,42 +22,42 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "customer": {
         "locale": "nl_NL",
-        "ip_address": "184.43.169.4",
+        "ip_address": "123.123.123.123",
         "forwarded_ip": "",
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "email": "test@multisafepay.com",
+        "email": "simonsmit@example.com",
         "referrer": "http://multisafepay-demo.com/plugingroup/testtool/client/json-test",
         "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
     },
     "delivery": {
-        "first_name": "Testperson-nl",
-        "last_name": "Approved",
-        "address1": "Kraanspoor",
-        "house_number": "39C",
-        "zip_code": "1033 SC",
+        "first_name": "Simon",
+        "last_name": "Smit",
+        "address1": "Bloemstraat",
+        "address2": "123",
+        "zip_code": "1000 AB",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0612345678",
-        "email": "test@multisafepay.com"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "shopping_cart": {
         "items": [
             {
                 "name": "Geometric Candle Holders",
                 "description": "",
-                "unit_price": "90",
-                "quantity": "1",
+                "unit_price": 90,
+                "quantity": 1,
                 "merchant_item_id": "hdd006",
                 "tax_table_selector": "BTW0",
                 "weight": {
                     "unit": "KG",
-                    "value": "1"
+                    "value": 1
                 }
             }
         ]
@@ -71,7 +71,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "flat_rate_shipping": [
                 {
                     "name": "TNT - verzending NL",
-                    "price": "7",
+                    "price": 7,
                     "allowed_areas": [
                         "NL",
                         "ES"
@@ -79,7 +79,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 },
                 {
                     "name": "Seur - Spain",
-                    "price": "7",
+                    "price": 7,
                     "allowed_areas": [
                         "NL",
                         "ES"
@@ -87,7 +87,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 },
                 {
                     "name": "TNT - verzending BE en FR",
-                    "price": "12",
+                    "price": 12,
                     "excluded_areas": [
                         "NL",
                         "FR",
@@ -102,7 +102,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "name": "BTW0",
                     "rules": [
                         {
-                            "rate": "0.00"
+                            "rate": 0.00
                         }
                     ]
                 },
@@ -110,8 +110,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "name": "2",
                     "rules": [
                         {
-                            "rate": "0.09",
-                            "country": "US"
+                            "rate": 0.09,
+                            "country": "NL"
                         }
                     ]
                 }
@@ -157,7 +157,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response
 
 
-```shell
+```json
 {
   "success": true,
   "data": {

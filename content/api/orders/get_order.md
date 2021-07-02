@@ -9,11 +9,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
-    "transaction_id": 258655825,
+    "transaction_id": 123456789
     "order_id": "{order_id}",
     "created": "2019-03-01T16:12:47",
     "currency": "EUR",
@@ -32,19 +32,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "modified": "2019-03-01T16:13:14",
     "customer": {
       "locale": "nl_NL",
-      "first_name": "Testperson-nl",
-      "last_name": "Approved",
-      "address1": "Kraanspoor",
-      "address2": null,
-      "house_number": "39",
-      "zip_code": "1033 SC",
+      "first_name": "Simon",
+      "last_name": "Smit",
+      "address1": "Bloemstraat",
+      "address2": "Jordaan",
+      "address2": "123",
+      "zip_code": "1000 AB",
       "city": "Amsterdam",
-      "state": null,
+      "state": "Noord-Holland",
       "country": "NL",
-      "country_name": null,
-      "phone1": "0208500500",
-      "phone2": "",
-      "email": "test@example.com"
+      "country_name": "The Netherlands",
+      "phone1": "0600000001",
+      "phone2": "00310000001",
+      "email": "simonsmit@example.com"
     },
     "payment_details": {
       "recurring_id": 133761993_gTp2,
@@ -57,7 +57,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 258656087,
+        "transaction_id": 123456789
         "description": "Refund order 258655825 for TEST TEST",
         "type": "internal",
         "status": "completed",
@@ -82,7 +82,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "description": "Refund order 258655825 for TEST TEST",
         "modified": "2019-03-01T16:14:02",
         "status": "completed",
-        "transaction_id": 258656087
+        "transaction_id": 123456789
       }
     ],
     "payment_methods": [

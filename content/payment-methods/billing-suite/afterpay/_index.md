@@ -1,12 +1,24 @@
 ---
 title: 'AfterPay'
-weight: 180
-meta_title: "Payment methods AfterPay - MultiSafepay Docs"
+weight: 60
+meta_title: "Payment methods - AfterPay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-layout: 'paymentdetail'
+linktomarketing: "https://www.multisafepay.com/solutions/payment-methods/afterpay"
+intro_description: "AfterPay is the largest post-payment method in the Netherlands, and recently launched in Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement."
+layout: 'single'
+faq: '.'
 logo: '/logo/Payment_methods/AfterPay.svg' 
-short_description: 'Conveniently allows customers to make a payment for their online purchases once receiving them.'
+short_description: 'Largest post-payment method in the Netherlands. Now available in Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/afterpay
     - /payment-methods/afterpay/
+    - /payment-methods/afterpay/activate-afterpay
+    - /payment-methods/afterpay/afterpay-testing
+    - /payment-methods/afterpay/how-does-afterpay-work
+    - /payment-methods/afterpay/refund-afterpay
+    - /payment-methods/afterpay/what-is-afterpay
 ---
+
+
+
+

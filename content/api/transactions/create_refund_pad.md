@@ -8,7 +8,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders/{order_id}/refunds 
 
-```shell
+```json
 
 
 {
@@ -17,25 +17,26 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "name": "Geometric Candle Holders",
                 "description": "",
-                "unit_price": "90",
-                "quantity": "3",
+                "unit_price": 90,
+                "quantity": 3,
                 "merchant_item_id": "111111",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
-                ...
+                    "value": 12
+                }
             },
+                ...
             {
                 "name": "Flat Rat - Fixed",
                 "description": "Shipping",
-                "unit_price": "10",
-                "quantity": "1",
+                "unit_price": 10,
+                "quantity": 1,
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "0"
+                    "value": 0
                 }
             }
         ]

@@ -7,6 +7,6 @@ aliases:
     - /faq/gdpr/does-multisafepay-have-a-data-protection-officer
 ---
 
-MultiSafepay has a dedicated data protection officer, who is registered with the Dutch Data Protection Authority (AP). 
+MultiSafepay has a dedicated Data protection officer, who is registered with the Dutch Data Protection Authority (AP). 
 
-For questions, email <dataprotection@multisafepay.com>
+For questions, email the data protection officer at <dataprotection@multisafepay.com>

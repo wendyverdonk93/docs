@@ -12,10 +12,7 @@ aliases:
 
 Since September 2020, European regulation rules require __Strong Customer Authentication (SCA)__ for most European online payments. This translates to businesses and payment service providers being required to verify customer purchases for transactions through a process called __Two Factor Authentication (2FA)__. Three methods of authentication are recognized in SCA. Every SCA compliant transaction uses at least two out of three methods.
 
-{{< br >}}
 {{< responsive_svg src="/diagrams/svg/SCA" alt="Strong Customer Authetication methods" title="Strong Customer Authentication" align="center" >}}
-{{< br >}}
-{{< br >}}
 
 If these measures are not taken, banks may be forced to decline transactions that do not implement this type of authentication. The impact of SCA will depend on _when_ your business charges customers. For businesses such as ecommerce stores that charge customers when they are in the checkout flow, customers can simply authenticate while completing a payment for a purchase.
 
@@ -42,6 +39,6 @@ Customers may encounter 2FA for payment methods which do not already have it ena
 
 Subscriptions and recurring transactions will be exempt to the SCA requirements. Although, this is only possible after an initial transaction has been authenticated successfully by SCA.
 
-Furthermore, low value orders will also be exempt once 3D Secure 2.0 has widely been adopted. You will be required to apply for this; please contact <integration@multisafepay.com> for more information.
+Low value orders will also be exempt once 3D Secure 2.0 is widely adopted. For more information or to apply, email the Integration Team at <integration@multisafepay.com>
 
 Read more about [3D Secure 2.0](/faq/payment-regulations/3d-secure)

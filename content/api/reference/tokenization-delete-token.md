@@ -9,7 +9,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > DELETE - recurring/{your_customer_reference}/remove/{your_token}
 
 > JSON Response
-```shell
+```json
 {
     "success": true,
     "data": {

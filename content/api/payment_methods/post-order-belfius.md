@@ -4,20 +4,20 @@ meta_title: "API - Create Belfius order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "BELFIUS",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "be_BE"
@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response 
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -39,7 +39,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
@@ -57,11 +57,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 > JSON Response
-```shell
+```json
 {
     "success": true,
     "data": {
-        "transaction_id": "279354751",
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2019-03-07T13:41:15",
         "currency": "EUR",
@@ -77,39 +77,41 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "modified": "2020-01-07T13:41:15",
         "customer": {
             "locale": "be_BE",
-            "first_name": "Testperson-nl",
-            "address1": "Kraanspoor",
-            "house_number": "39C",
-            "zip_code": "1033SC"
+            "first_name": "Simon",
+            "address1": "Bloemstraat",
+            "address2": "123",
+            "zip_code": "1000 AB",
             "city": "Amsterdam",
-            "country": "NL";,
-            "country_name": "Netherlands",
-            "phone1": "0208500500",
-            "email": "example@multisafepay.com",
-},
+            "country": "NL",
+            "country_name": "The Netherlands",
+            "phone1": "0600000001",
+            "email": "simonsmit@example.com",
+        },
         "payment_details": {
             "recurring_id": null,
-            "type": "BELFIUS"
-"account_id": "https://testpayv2.multisafepay.com/simulator/belfius?transactionid=4014723&return_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&cancel_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&AMOUNT=1000&CURRRENCY=EUR&mspid=4014723",
+            "type": "BELFIUS",
+            "account_id": "https://testpayv2.multisafepay.com/simulator/belfius?transactionid=4014723&return_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&cancel_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&AMOUNT=1000&CURRRENCY=EUR&mspid=4014723",
             "account_holder_name": null,
             "external_transaction_id": "279354751",
-},
+        },
         "costs": [
-{
-        "transaction_id": "279354751",
-        "description": "Test Order Description",
-        "type": "BELFIUS"
-        "amount": "1000",
-},
+        {
+            "transaction_id": 123456789
+            "description": "Test Order Description",
+            "type": "BELFIUS",
+            "amount": 1000,
+            }
+        ],
         "payment_methods": [
+            {
                 "account_id": "https://testpayv2.multisafepay.com/simulator/belfius?transactionid=4014723&return_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&cancel_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&AMOUNT=1000&CURRRENCY=EUR&mspid=4014723",
                 "currency": "EUR",
                 "external_transaction_id": "279354751",
                 "payment_description": "",
-                "status": "initialized",
-}
-],
-  "payment_url": "https://testpayv2.multisafepay.com/simulator/belfius?transactionid=4014723&return_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&cancel_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&AMOUNT=1000&CURRRENCY=EUR&mspid=4014723"
+                "status": "initialized"
+            }
+        ],
+        "payment_url": "https://testpayv2.multisafepay.com/simulator/belfius?transactionid=4014723&return_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&cancel_url=https%3A%2F%2Ftestpay.multisafepay.com%2Fdirect%2Fcomplete%2F&AMOUNT=1000&CURRRENCY=EUR&mspid=4014723"
     }
 }
 ```
@@ -165,6 +167,12 @@ __customer__ | object
 
 ----------------
 
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+---------------- 
 
 ### Direct - Belfius
 

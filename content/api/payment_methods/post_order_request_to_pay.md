@@ -8,28 +8,28 @@ aliases: [/api/#direct-bank-transfer]
 
 > POST - /orders 
 
-```shell
+```json
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "DBRTP",
     "currency": "EUR",
-    "amount": "9743",
+    "amount": 9743,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
+        "close_window": true
     },
 
 ```
 
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -41,29 +41,28 @@ aliases: [/api/#direct-bank-transfer]
 
 > POST - /orders
 
-```shell 
+```json
 
 {
-    {
-    "type": "direct",
-    "order_id": "my-order-id-1",
-    "gateway": "DBRTP",
-    "currency": "EUR",
-    "amount": "9743",
-    "description": "Test Order Description",
-    "manual": "false",
-    "payment_options": {
-        "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel",
-        "close_window": ""
-    }
+  "type": "direct",
+  "order_id": "my-order-id-1",
+  "gateway": "DBRTP",
+  "currency": "EUR",
+  "amount": 9743,
+  "description": "Test Order Description",
+  "manual": false,
+  "payment_options": {
+    "notification_url": "http://www.example.com/client/notification?type=notification",
+    "redirect_url": "http://www.example.com/client/notification?type=redirect",
+    "cancel_url": "http://www.example.com/client/notification?type=cancel",
+    "close_window": true
+  }
 }
 ```
 
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -73,7 +72,7 @@ aliases: [/api/#direct-bank-transfer]
       {
         "amount":,
         "description": "",
-        "transaction_id": 36166179527,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -85,16 +84,16 @@ aliases: [/api/#direct-bank-transfer]
       "custom_3": null
     },
     "customer": {
-      "address1": "Kraanspoor",
+      "address1": "Bloemstraat",
       "city": "Amsterdam",
       "country": "NL",
-      "email": "example@multisafepay.com",
-      "first_name": "Testperson-nl",
-      "house_number": "39C",
-      "last_name": "Approved",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0208500500",
-      "zip_code": "1033 SC"
+      "phone1": "0600000001",
+      "zip_code": "1000 AB"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",
@@ -125,7 +124,7 @@ aliases: [/api/#direct-bank-transfer]
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 36166179527,
+    "transaction_id": 123456789
     "payment_url": "https://pushpayments.db.com/flow/eyJwYXlsb2FkIjp7ImlwaSI6IjE2QjIwREREMjE1NjE0QTc2Rjg0OTMwMDV="
   }
 }
@@ -197,6 +196,15 @@ __cancel_url__ | string
 Customer will be redirected to this page after a failed payment.
 
 ----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process. 
+
+----------------
+
+
 
 
 

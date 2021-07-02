@@ -35,18 +35,28 @@
                     {{ .Params.description | markdownify }}
                     {{ end }}
                     {{ if or (isset .Params "github_url") (isset .Params "download_url") (isset .Params "changelog") }}
-                    <div class="row pt-5 pb-5">
-                        <div class="col small-vertical">
+                    <div class="row pt-5 pb-5 px-3 clearfix">
                             {{ if isset .Params "github_url"}}
-                            <a class="secondary" href="{{.Params.github_url}}">View on GitHub</a>
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="{{.Params.github_url}}" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                View source code<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
                             {{ end }}
                             {{ if isset .Params "changelog" }}
-                            <a class="secondary" href="{{.Params.changelog}}">Changelog</a>
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="{{.Params.changelog}}" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Changelog<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
                             {{ end }}
                             {{ if isset .Params "download_url" }}
-                            <a class="primary download-button" href="{{.Params.download_url}}">Download</a>
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="{{.Params.download_url}}" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
+                                </a>
+                            </div>
                             {{ end }}
-                        </div>
                     </div>
                     {{ end }}
                 </div>
@@ -58,7 +68,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-9">
+                <div class="col-sm-9">
                     {{ .Content}}
                 </div>
             </div>
@@ -71,6 +81,10 @@
 
 {{ if isset .Params "changelog" }}
 {{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
+{{ end }}
+
+{{ if isset .Params "buttons_under_text" }}
+{{ partial "buttons_under_text" . }}
 {{ end }}
 
 {{ if isset .Params "faq" }}

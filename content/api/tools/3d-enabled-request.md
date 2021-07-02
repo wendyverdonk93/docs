@@ -5,7 +5,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 
 {
   "type": "direct",
@@ -22,7 +22,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
   },
   "customer": {
     "locale": "nl_NL",
-    "ip_address": "127.0.0.1"
+    "ip_address": "123.123.123.123"
   },
   "gateway_info": {
     "card_number": "4111111111111111",
@@ -36,7 +36,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response     
 > When [3D Secure](/faq/general/multisafepay-glossary/#3d-secure) verification is required, the HTML form will be returned and should be rendered.
 
-```shell
+```json
 "customer_verification": {
      "html": "<html>\n<head>\n<title>3D Html form</title>....",
      "type": "form" 
@@ -133,6 +133,13 @@ Card expiry date.
 __card_cvc__ | string
 
 Card CVC (Card Verification Code) number is a 3 or 4 digit code used as an additional security feature for card not present transactions. For some cards like MAESTRO, this may not be required. CVC is also not required for recurring transactions.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

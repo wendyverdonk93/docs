@@ -22,7 +22,7 @@ However, you can easily integrate these payment methods yourself. For reference,
 If you want to install the MultiSafepay plugin into your PWA Studio application, follow the [installation instructions](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide) on our GitHub page.
 
 ### Support
-If you want to report a bug or suggest and improvement, create an issue on our repository. If you need help with your integration, please contact <integration@multisafepay.com>
+To report a bug or suggest an improvement, create an issue in our repository. For help with your integration, email the Integration Team at <integration@multisafepay.com>
 
 We are also available on the [Magento's MultiSafepay Slack channel](https://magentocommeng.slack.com/messages/multisafepay-payments/).
 Feel free to start a conversation or provide suggestions as to how we can refine our plugin.

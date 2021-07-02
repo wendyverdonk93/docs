@@ -4,31 +4,23 @@ meta_title: "API - Transaction statuses - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
-```shell 
-"notification_url": "http://www.example.com/client/notification?type=notification",
-```
-
-```shell 
-"redirect_url": "http://www.example.com/client/notification?type=redirect",
-```
-
-```shell
-"cancel_url": "http://www.example.com/client/notification?type=cancel", 
-```
-
-```shell 
-"notification_method": "POST",
-```
-
-```shell 
-"close_window": "true",
+```json 
+{
+	"payment_options": {
+		"notification_url": "http://www.example.com/client/notification?type=notification",
+		"redirect_url": "http://www.example.com/client/notification?type=redirect",
+		"cancel_url": "http://www.example.com/client/notification?type=cancel", 
+		"notification_method": "POST",
+		"close_window": true,
+	}
+}
 ```
 
 
 {{< /code-block >}}
 
 {{< description >}}
-## payment_option, object 
+## payment_options (object)
 
 
 **Parameters**
@@ -53,9 +45,12 @@ __notification_method__ | string
 Enables push notifications (POST,GET) default: GET.   
 
 ----------------
-__close_window__ | bool
 
-Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.    
+__close_window__ | bool (optional)
 
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 {{% /description %}}

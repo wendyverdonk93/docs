@@ -5,4 +5,4 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 ---
 
-If you encounter issues or require assistance please contact [integration@multisafepay.com](mailto:integration@multisafepay.com)
+For support, email the Integration Team at <integration@multisafepay.com>

@@ -7,7 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
@@ -29,11 +29,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
-    "transaction_id": 00002,
+    "transaction_id": 123456789
     "order_id": "my-order-id-1",
     "created": "2019-03-04T13:52:07",
     "currency": "EUR",
@@ -52,19 +52,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "modified": "2019-03-04T13:52:07",
     "customer": {
       "locale": "en_US",
-      "first_name": null,
-      "last_name": null,
-      "address1": null,
-      "address2": null,
-      "house_number": null,
-      "zip_code": null,
-      "city": null,
-      "state": null,
-      "country": null,
-      "country_name": null,
-      "phone1": null,
-      "phone2": "",
-      "email": ""
+      "first_name": "Simon",
+      "last_name": "Smit",
+      "company_name": null,
+      "address1": "Bloemstraat",
+      "address2": "Jordaan",
+      "address2": "123",
+      "zip_code": "1000 AB",
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "NL",
+      "country_name": "The Netherlands",
+      "phone1": "0600000001",
+      "phone2": "00310000001",
+      "email": "simonsmit@example.com"
     },
     "payment_details": {
       "recurring_id": null,
@@ -77,7 +78,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 00002,
+        "transaction_id": 123456789
         "description": "iDEAL Transactions",
         "type": "SYSTEM",
         "amount": 
@@ -162,6 +163,15 @@ Customer will be redirected to this page after a successful payment. In the even
 __cancel_url__ | string
 
 If the payment fails, the customer is redirected to this page.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: `True`, `False`. To display the MultiSafepay payment page in a new window that automatically closes after the payment is completed, set to `True`. 
+
+----------------
 
 
 {{< /description >}}

@@ -7,31 +7,31 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders 
 
-```shell 
+```json 
 
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "VISA",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
   },
   "customer": {
     "locale": "nl_NL",
-    "ip_address": "127.0.0.1"
+    "ip_address": "123.123.123.123"
   }
 }
 ```
 
 > JSON Response 
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -104,6 +104,13 @@ Customer will be redirected to this page after a successful payment. In the even
 __cancel_url__ | string
 
 Customer will be redirected to this page after a failed payment.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

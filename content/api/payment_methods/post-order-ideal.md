@@ -6,19 +6,19 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< code-block >}}
 > POST - /orders 
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
     "gateway": "IDEAL",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_NL"
@@ -27,7 +27,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -39,7 +39,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell 
+```json 
 
 {
     "type": "direct",
@@ -56,14 +56,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     }
 }
 
 ```
 > JSON Response 
 
-```shell 
+```json 
 {
   "success": true,
   "data": {
@@ -73,7 +73,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 77368292,
+        "transaction_id": 123456789
         "type": "SYSTEM"
       }
     ],
@@ -85,20 +85,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "custom_3": null
     },
     "customer": {
-      "address1": null,
-      "address2": null,
-      "city": null,
-      "country": null,
-      "country_name": null,
-      "email": "",
-      "first_name": null,
-      "house_number": null,
-      "last_name": null,
+      "address1": "Bloemstraat",
+      "address2": "Jordaan",
+      "city": "Amsterdam",
+      "country": "NL",
+      "country_name": "The Netherlands",
+      "email": "simonsmit@example.com",
+      "first_name": "Simon",
+      "address2": "123",
+      "last_name": "Smit",
       "locale": "en_US",
-      "phone1": null,
-      "phone2": "",
-      "state": null,
-      "zip_code": null
+      "phone1": "0600000001",
+      "phone2": "00310000001",
+      "state": "Noord-Holland",
+      "zip_code": "1000 AB"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",
@@ -132,7 +132,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "reason_code": "",
     "related_transactions": null,
     "status": "initialized",
-    "transaction_id": 77368292,
+    "transaction_id": 123456789
     "payment_url": "https://www.abnamro.nl/en/ideal-betalen/index.html?randomizedstring=8641247395&trxid=1150001181473373"
   }
 }

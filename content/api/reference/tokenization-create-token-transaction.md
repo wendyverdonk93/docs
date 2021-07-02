@@ -8,7 +8,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 {
     "type": "direct",
     "order_id": "my-order-id-1",
@@ -30,7 +30,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -40,7 +40,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             {
                 "amount": 0.6,
                 "description": " Tokenization Generate token transaction ",
-                "transaction_id": 767288,
+                "transaction_id": 123456789
                 "type": "SYSTEM"
             }
         ],
@@ -52,21 +52,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "custom_3": null
         },
         "customer": {
-            "address1": null,
-            "address2": null,
-            "city": null,
-            "country": null,
-            "country_name": null,
-            "email": "",
-            "first_name": null,
-            "house_number": null,
-            "last_name": null,
+            "address1": "Bloemstraat",
+            "address2": "Jordaan",
+            "city": "Amsterdam",
+            "country": "NL",
+            "country_name": "The Netherlands",
+            "email": "simonsmit@example.com",
+            "first_name": "Simon",
+            "address2": "123",
+            "last_name": "Smit",
             "locale": "nl_NL",
-            "phone1": null,
-            "phone2": "",
+            "phone1": "0600000001",
+            "phone2": "00310000001",
             "reference": "AutoQAReference",
-            "state": null,
-            "zip_code": null
+            "state": "Noord-Holland",
+            "zip_code": "1000 AB"
         },
         "description": "Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
         "fastcheckout": "NO",
@@ -102,7 +102,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "reason_code": "",
         "related_transactions": null,
         "status": "completed",
-        "transaction_id": 2728879,
+        "transaction_id": 123456789
         "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=nl_NL ",
         "cancel_url": " http://www.example.com/client/notification?type=cancel "
     }
@@ -196,6 +196,13 @@ Card expiry date.
 __reason__ | string
 
 Add a short text memo based on the capture reason of the order.
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 

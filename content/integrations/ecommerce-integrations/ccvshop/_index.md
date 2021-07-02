@@ -8,9 +8,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: "/logo/Integrations/CCVShop.svg"
 weight: 29
 title_short: "CCVShop"
-description_short: "Easily integrate MultiSafepay payment solutions into your CCV Shop with this free app."
-description: "Easily integrate MultiSafepay payment solutions into your CCV Shop with this free app.
-This app is managed by our partner CCV Shop."
+description_short: "Free app to integrate MultiSafepay payment solutions into your CCV Shop "
+description: "Free app to integrate MultiSafepay payment solutions into your CCV Shop"
 layout: 'single'
 aliases: 
     - /plugins/ccvshop

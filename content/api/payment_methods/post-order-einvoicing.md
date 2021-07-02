@@ -7,71 +7,69 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
     "gateway": "EINVOICE",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description", 
     "items": "",
-    "manual": "false",
+    "manual": false,
     "gateway_info": {
-        "birthday": "1980-01-30",
+        "birthday": "1970-07-10",
         "bankaccount": "0417164300",
-        "phone": "0208500500",
-        "email": "example@multisafepay.com"
+        "phone": "0600000001",
+        "email": "simonsmit@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     ...
-    },
     "shopping_cart": {
         "items": [
             {
                 "name": "Item demo 1",
                 "description": "",
-                "unit_price": "90",
-                "quantity": "2",
+                "unit_price": 90,
+                "quantity": 2,
                 "merchant_item_id": "666666",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
+                    "value": 12
+                }
             },
             {
                 "name": "Item shipping - Flat Rate - Fixed",
                 "description": "Shipping",
-                "unit_price": "10",
-                "quantity": "1",
+                "unit_price": 10,
+                "quantity": 1,
                 "merchant_item_id": "msp-shipping",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "0"
+                    "value": 0
                 }
             }
         ]
     },
     "checkout_options": {
         "tax_tables": {
-            },
             "alternate": [
                 {
                     "name": "none",
                     "rules": [
                         {
-                            "rate": "0.00"
+                            "rate": 0.00
                         }
                     ]
-                },
-                {
+                }
             ]
         }
     }
@@ -81,11 +79,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 > JSON Response 
 
 
-```shell
+```json
 {
     "success": true,
     "data": {
-        "transaction_id": 2340676,
+        "transaction_id": 123456789
         "order_id": "my-order-id-1",
         "created": "2017-09-29T16:13:10",
         "currency": "EUR",
@@ -113,7 +111,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 {
                     "name": "Item demo 1",
                     "description": "",
-                    "unit_price": "90.00",
+                    "unit_price": 90.00,
                     "currency": "EUR",
                     "quantity": 2,
                     "merchant_item_id": 666666,
@@ -130,7 +128,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 {
                     "name": "Item shipping - Flat Rate - Fixed",
                     "description": "Shipping",
-                    "unit_price": "10.00",
+                    "unit_price": 10.00,
                     "currency": "EUR",
                     "quantity": 1,
                     "merchant_item_id": "msp-shipping",
@@ -151,12 +149,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             },
             "alternate": [
                 {
-                {
                     "name": "none",
                     "rules": [
                         {
-                            "rate": "0.00",
-                            "country": ""
+                            "rate": 0.00,
+                            "country": "NL"
                         }
                     ]
                 }
@@ -175,73 +172,73 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 
 > POST -/orders
-```shell
+```json
 {
     "type": "redirect",
     "gateway": "EINVOICE",
     "order_id": "my-order-id-1",
     "currency": "EUR",
-    "amount": "26000",
+    "amount": 26000,
     "description": "Test Order Description",
-    "manual": "false",
+    "manual": false,
     "gateway_info": {
-        "email": "example@multisafepay.com"
+        "email": "simonsmit@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     ...
-    },
     "shopping_cart": {
         "items": [
             {
                 "name": "Geometric Candle Holders",
                 "description": "",
-                "unit_price": "90",
-                "quantity": "2",
+                "unit_price": 90,
+                "quantity": 2,
                 "merchant_item_id": "11111",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "12"
+                    "value": 12
                 }
             },
             {
                 "name": "Flat Rate - Fixed",
                 "description": "Shipping",
-                "unit_price": "10",
-                "quantity": "1",
+                "unit_price": 10,
+                "quantity": 1,
                 "merchant_item_id": "123456",
                 "tax_table_selector": "none",
                 "weight": {
                     "unit": "KG",
-                    "value": "0"
+                    "value": 0
                 }
             }
         ]
     },
     "checkout_options": {
-            },
-            "alternate": [
-                {
-                    "name": "none",
-                    "rules": [
-                        {
-                            "rate": "0.00"
-                        }
-                    ]
-                },
-            ]
-        }
+        "default": {
+        },
+        "alternate": [
+            {
+                "name": "none",
+                "rules": [
+                    {
+                        "rate": 0.00,
+                        "country": "NL"
+                    }
+                ]
+            }
+        ]
     }
 }
 ```
 > JSON response
 
-```shell
+```json
 {
     "success": true,
     "data": {
@@ -363,7 +360,14 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+
+----------------
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
 
 ----------------
 
@@ -464,7 +468,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The X-FORWARDED-FOR header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
 
 ----------------
 

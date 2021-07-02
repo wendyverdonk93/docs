@@ -7,20 +7,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > POST - /orders
 
-```shell
+```json
 
 {
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "INGHOME",
     "currency": "EUR",
-    "amount": "1000",
+    "amount": 1000,
     "description": "Test Order Description",
     "payment_options": {
        "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": ""
+        "close_window": true
     },
     "customer": {
         "locale": "nl_BE"
@@ -29,11 +29,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
-    "transaction_id": 260468043,
+    "transaction_id": 123456789
     "order_id": "my-order-id-1",
     "created": "2019-03-11T14:35:13",
     "currency": "EUR",
@@ -49,15 +49,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "modified": "2019-03-11T14:35:13",
     "customer": {
       "locale": "nl_BE",
-      "first_name": "Testperson-nl",
-      "last_name": "Approved",
-      "address1": "Kraanspoor",
-      "house_number": "39C",
-      "zip_code": "1033SC",
+      "first_name": "Simon",
+      "last_name": "Smit",
+      "address1": "Bloemstraat",
+      "address2": "123",
+      "zip_code": "1000 AB",
       "city": "Amsterdam",
       "country": "NL",
-      "phone1": "0208500500",
-      "email": "example@multisafepay.com",
+      "phone1": "0600000001",
+      "email": "simonsmit@example.com",
     },
     "payment_details": {
       "recurring_id": null,
@@ -69,7 +69,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     },
     "costs": [
       {
-        "transaction_id": 279925866,
+        "transaction_id": 123456789
         "description": "",
         "type": "SYSTEM",
         "amount": 
@@ -81,7 +81,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ```
 > POST -/orders
 
-```shell
+```json
 {
     "type": "redirect",
     "order_id": "my-order-id-1",
@@ -100,7 +100,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```shell
+```json
 {
   "success": true,
   "data": {
@@ -167,6 +167,13 @@ __customer__ | object
 Contains personal information about the customer. 
 
 ----------------  
+
+__close_window__ | bool (optional)
+
+
+Options: true, false. Set to true if you want to display the MultiSafepay payment page in a new window and want to close it automatically after the payment process.
+
+----------------
 
 Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay) on our documentation page.
 
