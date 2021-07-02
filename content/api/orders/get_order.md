@@ -1,6 +1,6 @@
 ---
 weight: 260
-meta_title: "API - Retrieve an order - MultiSafepay Docs"
+meta_title: "API Reference - Retrieve an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
