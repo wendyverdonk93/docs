@@ -1,6 +1,6 @@
 ---
 weight: 45
-meta_title: "API - API generate an API token - MultiSafepay Docs"
+meta_title: "API Reference - API generate an API token - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}

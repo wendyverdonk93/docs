@@ -1,7 +1,7 @@
 ---
 title: "Adjusting payment link lifetimes"
 weight: 2
-meta_title: "FAQ API - Adjusting payment link lifetimes - MultiSafepay Docs"
+meta_title: "FAQ API Reference - Adjusting payment link lifetimes - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
@@ -29,7 +29,7 @@ PayPal sets a payment link lifetime limit of **14 days**. This is less than Mult
 ### Post-payment methods 
 By default, you cannot adjust payment link lifetimes for post-payment methods, which have their own payment flow.
 
-For more information about payment link lifetimes, see API - [Days Active, Seconds Active](/api/#days-active-seconds-active).
+For more information about payment link lifetimes, see API Reference - [Days Active, Seconds Active](/api/#days-active-seconds-active).
 
 ### Second Chance emails
 [Second Chance](/tools/second-chance) emails include a payment link as a gentle reminder to the customer, and they can complete the payment if they choose. 

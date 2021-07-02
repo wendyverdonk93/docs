@@ -1,7 +1,7 @@
 ---
 title : "How to generate a payment link through the API"
 weight: 41
-meta_title: "How to generate a payment link through the API - MultiSafepay Docs"
+meta_title: "How to generate a payment link through the API Reference - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---
