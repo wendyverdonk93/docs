@@ -17,7 +17,7 @@ aliases:
     - /faq/testing/testing-with-multisafepay/
 ---
 
-Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).<br>
+Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 
 If you encounter any issues during testing, see [Diagnosing errors](/faq/errors-explained/diagnosing-errors/).
 
@@ -40,11 +40,7 @@ There are two ways to initiate a transaction:
 The test API endpoint is: `https://testapi.multisafepay.com/v1/json/`
 
 1. In your API testing environment, enter your test API key.
-<<<<<<< HEAD:content/getting-started/test-your-integration/_index.md
-2. For the payment method you want to test, on the API – [Payment methods](/api/#payment-methods) page, make a POST `/orders` request. Make sure you include __all__ required parameters in the request.
-=======
 2. For the payment method you want to test, on the API Reference - [Payment methods](/api/#payment-methods) page, make a POST `/orders` request. Make sure you include __all__ required parameters in the request.
->>>>>>> origin/master:content/faq/testing/testing-payments.md
 
 ## 2. Complete the payment
 
