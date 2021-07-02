@@ -1,6 +1,6 @@
 ---
 weight: 230
-meta_title: "API - Recurring payments - MultiSafepay Docs"
+meta_title: "API Reference - Recurring payments - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -9,19 +9,41 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-    "type": "direct",
-    "order_id": "my-order-id-1",
-    "gateway": "gatewaycode",
-    "recurring_id": "{recurring_id}",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test Order Description",
-    "payment_options": {
-       "notification_url": "http://www.example.com/client/notification?type=notification",
-        "redirect_url": "http://www.example.com/client/notification?type=redirect",
-        "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
-    }
+   "type":"redirect",
+   "gateway":"CREDITCARD",
+   "order_id":"my-order-id-1",
+   "currency":"EUR",
+   "recurring_model":"unscheduled",
+   "recurring_id":"hC6HdH7_5Tg",
+   "recurring_flow":"token",
+   "amount":10000,
+   "description":"Tokenization - ALL - Original unscheduled",
+   "payment_options":{
+      "notification_url":"http://www.example.com/client/notification?type=notification",
+      "redirect_url":"http://www.example.com/client/notification?type=redirect",
+      "cancel_url":"http://www.example.com/client/notification?type=cancel",
+      "close_window":true
+   },
+   "customer":{
+      "locale":"en_NL",
+      "ip_address":"85.149.25.654",
+      "forwarded_ip":"",
+      "first_name":"null",
+      "last_name":"null",
+      "address1":"Kraanspoor",
+      "house_number":"39",
+      "zip_code":"1033 SC",
+      "city":"Amsterdam",
+      "state":"",
+      "country":"NL",
+      "birthday":"07061993",
+      "gender":"male",
+      "phone":"0612345678",
+      "email":"example@multisafepay.com",
+      "referrer":"http://example.com",
+      "user_agent":"Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
+      "reference":"AutoQAReference"
+   }
 }
 ```
 
@@ -29,54 +51,11 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ```json
 {
-  "success": true,
-  "data": {
-    "transaction_id": 123456789
-    "order_id": "my-order-id-1",
-    "created": "2019-03-04T14:11:37",
-    "currency": "EUR",
-    "amount": 1000,
-    "description": "Test Order Description",
-    "var1": null,
-    "var2": null,
-    "var3": null,
-    "items": "2 x : GEOMETRIC CANDLE HOLDERS",
-    "amount_refunded": 0,
-    "status": "initialized",
-    "financial_status": "initialized",
-    "reason": "",
-    "reason_code": "",
-    "fastcheckout": "NO",
-    "modified": "2019-03-04T14:11:37",
-    "customer": {
-      "locale": "en_US",
-      "first_name": "Simon",
-      "last_name": "Smit",
-      "address1": "Bloemstraat",
-      "address2": "Jordaan",
-      "address2": "123",
-      "zip_code": "1000 AB",
-      "city": "Amsterdam",
-      "state": "Noord-Holland",
-      "country": "NL",
-      "country_name": "The Netherlands",
-      "phone1": "0600000001",
-      "phone2": "00310000001",
-      "email": "simonsmit@example.com"
-    },
-    "payment_details": {
-      "recurring_id": "{recurring_id}",
-      "type": "gatewaycode",
-      "account_id": 1,
-      "account_holder_name": "Testperson-nl",
-      "external_transaction_id": "00000003",
-      "account_iban": "*** 1234",
-      "account_bic": "BIC code"
-    },
-    "costs": [],
-    "payment_url": "https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
-    "cancel_url": "http://www.example.com/client/notification?type=cancel&transactionid=apitool_"
-  }
+   "success":true,
+   "data":{
+      "order_id":"my-order-id-1",
+      "payment_url":"https://payv2.multisafepay.com/connect/82v6HsoQhaR823uIZ7hexDMwQyielzLrdox/?lang=nl_NL"
+   }
 }
 ```
 
@@ -85,11 +64,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Recurring Payment
 
-Recurring Payments can be done using Credit Cards (VISA, Mastercard) and SEPA Direct Debit.    
+A recurring payment can be initiated using [tokenization](/tokenization/tokenization-api-level/) for the following payment methods:
 
-iDEAL, Bancontact and SOFORT Banking can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The recurring ID can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
+* VISA
+* MasterCard
+* Maestro
+* Bancontact
+* American Express
+* iDEAL
+* SOFORT
+* Direct debit
 
-For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments)
+iDEAL, Bancontact and SOFORT can be used for an initial payment as well, and followed up by a recurring payment with SEPA Direct Debit. A standard transaction must first be created with recurring payments enabled. The token can then be requested by [retreiving an order](https://docs.multisafepay.com/api/#retrieve-an-order) and payments can be initiated repeatedly by using [recurring payments](/tools/recurring-payments)
+
+For more information please visit our documentation page to read more about [recurring payments](/tools/recurring-payments) and the fields required for [tokenization](/tokenization/tokenization-api-level/).
 
 **Parameters**
 
@@ -115,6 +103,18 @@ __recurring_id__ | integer
 The unique recurring id used for recurring payments.
 
 ----------------
+__recurring_flow__ | string
+
+The tokenization method used to create a recurring payment. Options: token
+
+----------------
+
+__recurring_model__ | string
+
+The type of recurring method used in the transaction request. Options: unscheduled, sunscription, cardonfile
+
+----------------
+
 __currency__ | string
 
 The currency [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html) you want the customer to pay with. 

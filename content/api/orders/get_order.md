@@ -1,6 +1,6 @@
 ---
 weight: 260
-meta_title: "API - Retrieve an order - MultiSafepay Docs"
+meta_title: "API Reference - Retrieve an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "email": "simonsmit@example.com"
     },
     "payment_details": {
-      "recurring_id": "{Recurring_id}",
+      "recurring_id": 133761993_gTp2,
       "type": "VISA",
       "account_id": null,
       "account_holder_name": "Testperson-nl Approved",

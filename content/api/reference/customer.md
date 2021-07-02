@@ -1,6 +1,6 @@
 ---
 weight: 601
-meta_title: "API - customer object - MultiSafepay Docs"
+meta_title: "API Reference - customer object - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}

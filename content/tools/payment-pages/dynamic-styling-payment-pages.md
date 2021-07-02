@@ -23,7 +23,7 @@ If you have stored a template, you can request it in the first-level JSON object
 
 
 ## Provide template object structure in the transaction request
-You can also style templates in real time. See the template code on API - [Dynamic styling](https://docs.multisafepay.com/api/#dynamic-styling).
+You can also style templates in real time. See the template code on API Reference - [Dynamic styling](https://docs.multisafepay.com/api/#dynamic-styling).
 
 1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
 2. Navigate to the WYSIWYG editor, and use it to style the template.
