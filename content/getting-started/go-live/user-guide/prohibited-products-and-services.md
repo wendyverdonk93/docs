@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/getting-started/are-there-any-products-or-services-that-cannot-be-sold
+    - /faq/getting-started/prohibited-products-and-services
 ---
 As a [payment service provider](/faq/general/multisafepay-glossary/#payment-service-provider-psp), MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer. 
 

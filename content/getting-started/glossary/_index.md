@@ -1,8 +1,12 @@
 ---
 title: MultiSafepay glossary
-weight: 2
+breadcrumb_title: MultiSafepay glossary
+weight: 60
 meta_title: "FAQ General - MultiSafepay glossary - MultiSafepay Docs"
+layout: 'single'
+short_description: "Get familiar with payments terminology and specific MultiSafepay uses."
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+logo: '/svgs/Guides.svg'
 read_more: "."
 aliases:
     - faq/general/glossary

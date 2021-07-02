@@ -8,14 +8,7 @@ aliases:
     - /faq/getting-started/test-payment-details/
 ---
 
-This page is for testing payment methods and scenarios in your [MultiSafepay Test Control](https://testMerchant.MultiSafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
-
-It assumes you have followed the steps on [Getting started](/getting-started/). 
-
-See also:
-
-- [Testing payments](/faq/testing/testing-with-multisafepay/)
-- [Testing refunds](/faq/testing/testing-refunds/)
+This page is for testing payment methods and scenarios in your [MultiSafepay test account](https://testMerchant.MultiSafepay.com/). It provides information about test credentials, sample statuses, possible errors, and valid payment pages. 
 
 ## Banks
 
@@ -36,7 +29,7 @@ Sample statuses:
 
 {{< /details >}}
 
-{{< details title="Bank Transfer" >}}
+{{< details title="Banktransfer" >}}
 
 Test IBANs: See the table below.
 
@@ -63,6 +56,8 @@ Sample statuses:
 
 {{< details title="CBC" >}}
 
+Payment page: CBC can only be processed on our new payment page starting with PayV2.
+
 Sample statuses:
 
 | Status    | Description              |
@@ -86,7 +81,7 @@ Sample statuses:
 {{< details title="Giropay/EPS" >}}
 
 - Giropay is a German payment method. To test it, you must include the country code for Germany `DE` in the pre-transaction request. 
-- For EPS, you can also use the Giropay gateway in your MultiSafepay Test Control. In your live MultiSafepay Control, EPS only appears if you provide the country code for Austria `AT`.
+- For EPS, you can also use the Giropay gateway in your MultiSafepay test account. In your live MultiSafepay account, EPS only appears if you provide the country code for Austria `AT`.
 
 Test credentials: You will need a test BIC.
 
@@ -115,7 +110,7 @@ Sample statuses:
 
 {{< details title="iDEAL QR" >}}
 
-You cannot test iDEAL QR in your MultiSafepay Test Control. You can only make test payments in your live MultiSafepay Control.
+You cannot test iDEAL QR in your MultiSafepay test account. You can only make test payments in your live MultiSafepay account.
 
 {{< /details >}}
 
@@ -132,6 +127,8 @@ Sample statuses:
 
 {{< details title="KBC" >}}
 
+Payment page: KBC can only be processed on our new payment page starting with PayV2.
+
 Sample statuses:
 
 | Status    | Description              |
@@ -143,22 +140,20 @@ Sample statuses:
 
 {{< details title="Request to Pay" >}}
 
-You can test Request to Pay transactions through Deutsche Bank: 
-
-In the **Bank** field > **Fill-in Demo Bank**. 
+Testing environment: You can test Request to Pay transactions through Deutsche Bank. In the **Bank** field > **Fill-in Demo Bank**. 
 
 Sample statuses:
 
 | Status    | Testing instructions | Description              |
 | --------- | ----------------------- | ----------------------- |
-| **Completed** | Follow the steps from Deutsche Bank. | The transaction was completed. |
-| **Canceled** | Click the **Close** button at the top right of the screen. | The transaction was canceled. |
+| **Completed** | Follow the steps from Deutsche Bank. | Transaction was completed |
+| Canceled | Click the **Close** button at the top right of the screen. | Transaction was cancelled |
 
 {{< /details >}}
 
 {{< details title="Recurring payments" >}}
 
-To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com> 
+To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
 
 {{< /details >}}
 
@@ -205,11 +200,11 @@ It is not possible to test TrustPay payments.
 
 {{< /details >}}
 
-## Billing suites
+## Billing Suite
 
 {{< details title="AfterPay" >}}
 
-To enable AfterPay in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com>
+To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
 To generate a test API key from AfterPay for authentication, create an AfterPay Sandbox account. See AfterPay - [Log in](https://developer.afterpay.io/auth/login). 
 
@@ -219,9 +214,9 @@ The API key appears on the AfterPay **Account** page, which also specifies how l
 
 {{< details title="Betaal per Maand" >}}
 
-You cannot test Betaal per Maand in MultiSafepay Test Control. 
+You cannot test Betaal per Maand in MultiSafepay test account. 
 
-When activating Betaal per Maand as a payment method in your live MultiSafepay Control, you can test it before going live.
+When activating Betaal per Maand as a payment method in your live MultiSafepay account, you can test it before going live.
 
 {{< /details >}}
 
@@ -247,9 +242,9 @@ To test in3 transactions, follow these steps:
 2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
-    - Change the status in your MultiSafepay Test Control.
+    - Change the status in your MultiSafepay test account.
 {{< br >}}The transaction status remains **Uncleared**.
-4. No invoice is generated in the test control so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay Control, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in in3.
+4. No invoice is generated in the test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in in3.
 
 You can also test in3 transactions by entering the following details on the in3 checkout page:
 | Date of birth    | Postal code | House number |
@@ -277,9 +272,9 @@ To test Klarna transactions, follow these steps:
 2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
-    - Change the status in your MultiSafepay Test Control.
+    - Change the status in your MultiSafepay test account.
 {{< br >}}The transaction status remains **Uncleared**.
-4. No invoice is generated in the test control so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay Control, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
+4. No invoice is generated in the test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
 
 For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/billing-suite/klarna).
 
@@ -301,7 +296,7 @@ Sample statuses:
 
 {{< /details >}}
 
-## Debit and credit cards
+## Credit and debit cards
 
 {{< details title="American Express" >}}
 
@@ -396,6 +391,34 @@ Sample statuses:
 
 {{< /details >}}
 
+## Prepaid cards
+
+{{< details title="Gift cards" >}}
+
+You can test Intersolve gift cards. 
+
+Testing environment: When activating a gift card as a payment method in your live MultiSafepay account, you can test it before going live.
+
+Possible errors: Any other coupon code receives the error **Invalid card number**.
+
+Test coupon codes:
+
+| Coupon code     | Balance    |
+| ------- | --------- |
+| 111115  | € 100  |
+| 111112 | € 5  |
+| 111110 | No balance  |
+
+{{< /details >}}
+
+{{< details title="Paysafecard" >}}
+
+You cannot test Paysafecard.
+
+For any questions, email the Integration Team at <integration@multisafepay.com>
+{{< /details >}}
+
+
 ## Wallets
 
 {{< details title="Apple Pay" >}}
@@ -422,7 +445,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 To test PayPal transactions, follow these steps:
 
 1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in MultiSafepay Test Control as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+2. The payment is processed in MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status remains **Initialized** and cannot be changed to **Completed**.
 
 Sample statuses:
@@ -437,29 +460,8 @@ Sample statuses:
 
 {{< /details >}}
 
-## Prepaid cards
+## Read more
 
-{{< details title="Gift cards" >}}
+{{< two-buttons href-2="/getting-started/test-your-integration" header-2="Read more" text-2="Test your integration" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
-You can test Intersolve gift cards. 
-
-Testing environment: When activating a gift card as a payment method in your live MultiSafepay Control, you can test it before going live.
-
-Possible errors: Any other coupon code receives the error **Invalid card number**.
-
-Test coupon codes:
-
-| Coupon code     | Balance    |
-| ------- | --------- |
-| 111115  | € 100  |
-| 111112 | € 5  |
-| 111110 | No balance  |
-
-{{< /details >}}
-
-{{< details title="Paysafecard" >}}
-
-You cannot test Paysafecard.
-
-For any questions, email the Integration Team at <integration@multisafepay.com>
-{{< /details >}}
+{{< two-buttons href-2="/getting-started/test-your-integration/testing-refunds" header-2="Read more" text-2="Testing refunds" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

@@ -14,6 +14,7 @@
 </div>
 {{end}}
 
+<div class="js-toc-content">
 <div class="container">
     <div class="row">
         <div class="col-md-9">
@@ -28,25 +29,30 @@
                     {{ end }}
                 </div>
             </div>
-            <div class="row pb-3">
-                <div class="col-md-8">
-                    {{ if .Params.description }}
-                    {{ .Params.description | markdownify }}
-                    {{ end }}
-                </div>
-            </div>
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-sm-9 pb-5">
                     {{ .Content}}
                 </div>
             </div>
         </div>
     </div>
 </div>
+{{ if isset .Params "manual" }}
+      {{ partial "manual" . }}
+{{ end }}
+
+{{ if isset .Params "changelog" }}
+{{ partial "changelog" (dict "title" .Page.Params.newsletter "changelog" .Params.changelog ) }}
+{{ end }}
+
+{{ if isset .Params "buttons_under_text" }}
+{{ partial "buttons_under_text" . }}
+{{ end }}
 
 {{ if isset .Params "faq" }}
 {{ partial "single-faq" . }}
 {{ end }}
+</div>
 
 {{ if isset .Params "newsletter" }}
 {{ partial "newsletter" (dict "context" . "title" .Page.Params.newsletter) }}
