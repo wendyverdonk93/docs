@@ -18,24 +18,14 @@ For help selecting a method, email the Integration Team at <integration@multisaf
 ## Ready-made solutions
 MultiSafepay solutions developed in-house require fewer development resources and let you start testing your integration straight away. 
 
-{{< two-buttons href-2="/integrations/ecommerce-integrations" text-2="Ecommerce platforms" img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
-{{< two-buttons href-2="/integrations/payment-components" text-2="Payment components" img-2="/svgs/Payment pages.svg" alt-2="Right arrow" >}}
-{{< two-buttons href-2="/integrations/pwa" text-2="PWAs" img-2="/svgs/PWA.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/integrations/ecommerce-integrations" text-2="Ecommerce platforms" description-2="Integrations for platforms like Magento, WooCommerce, Shopify, and Lightspeed." img-2="/svgs/Integrations.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/integrations/pwa" text-2="PWAs" description-2="Plugins for progressive web applications." img-2="/svgs/PWA.svg" alt-2="Right arrow" >}}
 
 ## Custom integrations
-Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you customize the look, feel, and functionality of your checkout experience.
+Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
-{{< two-buttons href-2="/api/" text-2="API Reference" img-2="/svgs/API.svg" alt-2="API Reference logo" >}}
-{{< two-buttons href-2="/integrations/wrappers" text-2="Wrappers and SDKs" img-2="/svgs/Wrappers.svg" alt-2="Wrappers and SKDs logo" >}}
-
-## Boost your integration
-Use additional solutions to increase and improve the functionality of your integration.
-
-- [Accounting integrations](/tools/accounting/accounting-integrations): Integrate with your accounting software.
-- [Cash register software](/integrations/cash-register-software): Simplify the order process for restaurants, cafés, and hotels.
-- [Community integrations](/integrations/community/): Solutions for MultiSafepay payments developed by our community.
-- [Credit and subscription management software](/integrations/credit-and-subscription-management): Manage subscriptions and collect subscription fees.
-- [Reservation management software](/integrations/reservation-management): Let customers make reservations and pay online.
+{{< two-buttons href-2="/api/" text-2="API Reference" img-2="/svgs/API.svg" description-2="Gives you full control." alt-2="API Reference logo" >}}
+{{< two-buttons href-2="/integrations/wrappers" text-2="Wrappers and SDKs" description-2="Facilitate easier, faster development." img-2="/svgs/Wrappers.svg" alt-2="Wrappers and SKDs logo" >}}
 
 ## Next steps
 
