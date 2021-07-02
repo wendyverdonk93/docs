@@ -32,7 +32,7 @@ To access the transactions API endpoint, use the following URLs:
 Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
 
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" -H "Content-Type: application/json" -H "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "Content-Type: application/json" --header "Authorization: Bearer <your-api-key>"
 ```
 
 **Note:** Use your test API key when making a request to our test API.
@@ -108,7 +108,7 @@ To create a general overview of your transactions, no parameters are required. O
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "accept: application/json" --header "Authorization: Bearer <your-api-key>"
 ```
 
 ### Perform reconciliation
@@ -126,7 +126,7 @@ _I want to match mutations to justify the balance in my accounting or bookkeepin
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" --header "accept: application/json" --header "Authorization: Bearer <your-api-key>"
 ```
 
 ### Create a refund overview
@@ -144,7 +144,7 @@ Use parameters `created_from` and `created_until` to specify a date range of cre
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" -H  "accept: application/json" -H  "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" --header "accept: application/json" --header "Authorization: Bearer <your-api-key>"
 ```
 
 ## Support

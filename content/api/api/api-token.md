@@ -21,7 +21,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Generate an API token
 
-API tokens are used to encrypt sensitive payment details from a customer's device. 
+API tokens are used to encrypt sensitive payment details from a customer's device.
 
 For every order, generate a new API token.
 

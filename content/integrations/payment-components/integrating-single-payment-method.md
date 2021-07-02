@@ -158,11 +158,10 @@ Make a POST [`/orders`](/api/#orders) request from your server:
 
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
--H "accept: application/json" \
--H "Content-Type: application/json" \
--H "api_key: <your-website-API-key>" \
--d " \
-{
+--header "accept: application/json" \
+--header "Content-Type: application/json" \
+--header "api_key: <your-website-API-key>" \
+--data-raw '{
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "<GATEWAY>",
@@ -173,7 +172,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
     "payment_data": {
        "payload": "{secure_payload}"
     },
-}"
+}'
 ```
 
 ### Redirect the customer
