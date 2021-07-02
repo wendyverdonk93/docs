@@ -4,7 +4,7 @@
           <div class="col-md-12">
               <h2 id="FAQ-title">User guide</h2>
               <div id="accordion" class="row pt-4">
-                {{ with .GetPage "user-guide" }}
+                {{ with .Page.GetPage "user-guide" }}
                 {{ range .Pages}}
                   <div class="col-lg-6 pb-4">
                       <div class="block-faq py-3 px-4">
