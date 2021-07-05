@@ -49,7 +49,7 @@ When the order and the JSON are created, the setting for ConnectJS must be inclu
   "type": "redirect",
   "order_id": "apitool_461892",
   "currency": "EUR",
-  "amount": "9430",
+  "amount": 9430,
   "description": "Order with cart",
   "var1": "",
   "var2": "",

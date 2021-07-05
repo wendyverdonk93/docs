@@ -16,18 +16,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "amount": 26000,
     "description": "Test Order Description",
     "items": "",
-    "manual": false,
+    "manual": "false",
     "gateway_info": {
-        "birthday": "1970-07-10",
+        "birthday": "1980-01-30",
         "bankaccount": "0417164300",
-        "phone": "0600000001",
-        "email": "simonsmit@example.com"
+        "phone": "0208500500",
+        "email": "example@example.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
+        "close_window": ""
     },
 ...
     "shopping_cart": {
@@ -99,18 +99,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 26000,
     "description": "Test Order Description",
-    "manual": false,
+    "manual": "false",
     "gateway_info": {
-        "birthday": "1970-07-10",
+        "birthday": "1979-02-22",
         "bank_account": "0417164300",
-        "phone": "0600000001",
-        "email": "simonsmit@example.com"
+        "phone": "0208500500",
+        "email": "example@multisafepay.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
+        "close_window": ""
     },
     ...
     "shopping_cart": {
@@ -162,7 +162,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "none",
           "rules": [
             {
-              "country": "NL",
+              "country": "",
               "rate": 0.00
             }
           ]
@@ -177,13 +177,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 123456789
+        "transaction_id": 2045938,
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 123456789
+        "transaction_id": 2045939,
         "type": "SYSTEM"
       }
     ],
@@ -194,7 +194,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     ...
     
     "status": "uncleared",
-    "transaction_id": 123456789
+    "transaction_id": 4022655,
     "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
     "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }
@@ -317,7 +317,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
 
 ----------------  
 
@@ -445,7 +445,7 @@ The IP address of the customer. "Required" with post payment and credit card pay
 ----------------
 __forwarded_ip__ | string
 
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
 
 ----------------  
 
