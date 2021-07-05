@@ -67,7 +67,7 @@ Add a new UBO to a merchant account.
 curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "Authentication: Bearer <your-account-API-key>" \
+--header "api_key: <your-account-api-key>" \
 --data-raw '{
   "name": "Firstname Lastname",
   "title": "mrs",
@@ -137,7 +137,7 @@ Retrieve an array of all UBOs linked to a merchant account.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/ubos" \
 --header "accept: application/json" \
---header "Authentication: Bearer <your-account-API-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -193,7 +193,7 @@ Retrieve a single UBO by its identifier.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6m" \
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -265,7 +265,7 @@ Update information about an existing UBO.
 ```
 curl -X PATCH "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n" \
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>" \
+--header "api_key: <your-account-api-key>" \
 --header "Content-Type: application/json" \
 --data-raw '{
   "email": "newemail@address.com" 
@@ -329,7 +329,7 @@ Upload an identity document used to verify the UBO.
 curl -X POST "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "Authorization: Bearer <your-api-key>" \
+--header "api_key: <your-account-api-key>" \
 --data-raw '{
   "document_type":"id",
   "encoded_content":"string",
@@ -374,7 +374,7 @@ Retrieve an array of all identity documents linked to a UBO.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/ubos/glmqo15bces6n/identitydocs" \
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -418,7 +418,7 @@ Description.
 ```
 curl -X GET https://testapi.multisafepay.com/v1/json/identitydocs/agi6ehoreex6a
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 

@@ -50,7 +50,7 @@ Add a new bank account to a merchant account.
 curl -X POST "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-accounts" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "Authentication: Bearer <your-account-API-key>" \
+--header "api_key: <your-account-api-key>" \
 --data-raw '{
   "currency" :"EUR",
   "holder_name" :"Fun B.V.",
@@ -89,7 +89,7 @@ Retrieve a list of all bank accounts linked to an affiliated merchant account.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/accounts/12345678/bank-accounts" \
 --header "accept: application/json" \
---header "Authentication: Bearer <your-account-API-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -130,7 +130,7 @@ Retrieve a single bank account by its identifier.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678" \
 --header "accept: application/json" \
---header "Authentication: Bearer <your-account-API-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -164,7 +164,7 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/payment-links" \
 --header "accept: application/json" \
---header "Authentication: Bearer <your-account-API-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -205,7 +205,7 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 curl -X POST "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/bank-statements" \
 --header "accept: application/json" \
 --header "Content-Type: application/json" \
---header "Authentication: Bearer <your-account-API-key>" \
+--header "api_key: <your-account-api-key>" \
 --data-raw '{
   "encoded_content": "string",
   "filename": "bank-statement.pdf",
@@ -244,7 +244,7 @@ Retrieve a list of all bank statements associated with a bank account.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/bank-accounts/12345678/bank-statements" \
 --header "accept: application/json" \
---header "Authentication: Bearer <your-account-API-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
@@ -280,7 +280,7 @@ Retrieve a single bank statement by its identifier.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/bank-statements/12345678" \
 --header "accept: application/json" \
---header "Authentication: Bearer <your-account-API-key>"
+--header "api_key: <your-account-api-key>"
 ```
 {{< /collapse >}}
 
