@@ -10,4 +10,3 @@ Displaying your logo in customers' online banking environments and applications 
 
 [Upload your logo](https://logo.ethoca.com/) for Mastercard to display in all participating banking environments and applications. 
 
-{{< screen src="/img/Logo-in-online-banking.png" align="center" class="medium-img desktop-radius" >}}
