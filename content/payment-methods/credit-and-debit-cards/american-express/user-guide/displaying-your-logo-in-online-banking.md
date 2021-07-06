@@ -1,6 +1,6 @@
 ---
 title : "Displaying your logo in customers' online banking"
-weight: 40
+weight: 30
 meta_title: "American Express - Displaying your logo in customers' online banking - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
