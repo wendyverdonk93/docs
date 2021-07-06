@@ -19,7 +19,7 @@ To enable refunds from your Lightspeed backend, follow these steps:
 
 ## Known issues
 
-- You cannot process refunds via MultiSafepay when using the retail version of Lightspeed. 
+- If you use Lightspeed [Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), you cannot process refunds via MultiSafepay.
 
 - When creating a credit memo for a refund, set the status to **Not paid**. MultiSafepay ignores **Paid** status.
 
