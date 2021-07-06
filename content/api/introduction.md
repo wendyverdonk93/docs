@@ -16,7 +16,7 @@ Welcome to the MultiSafepay API Reference (``JSON`` gateway).
 
 The **left column** contains a table of contents. 
 
-The **middle column** provides detailed information about each topic and API request, including parameters and data types.
+The **middle column** provides detailed information about each topic and how to make an API request, including parameters and data types.
 
 The **right column** shows example ``JSON`` requests and responses.
 
