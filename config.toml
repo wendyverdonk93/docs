@@ -35,6 +35,42 @@ name = "Shell"
     weight = 1
 
 [[menu.main]]
+    name = "Create a test account"
+    url  = "/getting-started/create-a-test-account"
+    parent = "Getting started"
+    weight = 2
+
+[[menu.main]]
+    name = "Set up your account"
+    url  = "/getting-started/set-up-your-account"
+    parent = "Getting started"
+    weight = 3
+
+[[menu.main]]
+    name = "Build your integration"
+    url  = "/getting-started/build-your-integration"
+    parent = "Getting started"
+    weight = 4
+
+[[menu.main]]
+    name = "Test your integration"
+    url  = "/getting-started/test-your-integration"
+    parent = "Getting started"
+    weight = 5
+
+[[menu.main]]
+    name = "Onboard and go live"
+    url  = "/getting-started/go-live"
+    parent = "Getting started"
+    weight = 6
+
+[[menu.main]]
+    name = "Glossary"
+    url  = "/getting-started/glossary"
+    parent = "Getting started"
+    weight = 7
+
+[[menu.main]]
     name = "Integrations"
     url  = "/integrations/"
     identifier = "integrations"
