@@ -158,7 +158,7 @@ Create a payment link for a refundable 1 EUR payment. This payment is used to ve
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogwgfit36`). Required. |
+|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogwgfit36`). Required. |
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -191,7 +191,7 @@ Upload a bank statement to verify the ownership of the associated bank . Alterna
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`). Required. |
+|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwpot36`). Required. |
 
 ### Request body
 |Key|Value|
@@ -238,7 +238,7 @@ Retrieve a list of all bank statements associated with a bank account.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankaccount_id| The identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwldt36`). Required. |
+|bankaccount_id| The unique identifier of the bankaccount. {{< br >}}**Format**: string (e.g., `upp6ogjwldt36`). Required. |
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
@@ -274,7 +274,7 @@ Retrieve a single bank statement by its identifier.
 ### Path parameters
 |Parameter|Description|
 |-----|------|
-|bankstatement_id|The identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. |
+|bankstatement_id|The unique identifier of the bank statement {{< br >}}**Format**: string (e.g., `it613jfo4psde`). Required. |
 
 {{< collapse title="Sample request" size="h3" >}}
 ```
