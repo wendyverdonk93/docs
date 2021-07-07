@@ -27,11 +27,12 @@ To configure your PayPal account, follow these steps:
 7. Click **Lookup**.  
 
 Here you can:
-  - Use Express Checkout to process online and mobile payments.
-  - Process refunds.
-  - Process credit and debit card payments.
-  - Obtain information about a specific transaction.
-  - Obtain authorization for pre-approved payments and initiate pre-approved transactions.
+
+- Use Express Checkout to process online and mobile payments.
+- Process refunds.
+- Process credit and debit card payments.
+- Obtain information about a specific transaction.
+- Obtain authorization for pre-approved payments and initiate pre-approved transactions.
 
 To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**. Follow these steps:
 
