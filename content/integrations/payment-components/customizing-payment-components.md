@@ -41,22 +41,33 @@ To edit the default styling of the payment component:
 
 ### Example
 
-To edit the form fields to: 
+To edit the Payment Component to: 
 
-- Add a 5-pixel `border-radius`
-- Set a light-grey `background-color`
-- Change the `font-family` to Helvetica
- 
+- Add a 5-pixel `border-radius` to the form fields
+- Add a shadow to the fields on `focus`
+- Add a 10-pixel `border-radius` to the Payment Component container
+- Add a lightgrey `background-color` to the Payment Component container
+
 Add the following to your CSS:
 
 ```
 .msp-ui-form-control {
-  border-radius: 5px;
-  background-color: #e9ecef;
-  font-family: Helvetica;
+  border-radius: 5px
+}
+
+.msp-ui-form-control:focus {
+  box-shadow: 0 7px 7px rgba(0, 15, 45, 0.2)
+}
+
+.msp-container-ui {
+  border-radius: 10px;
+  background-color: #f8f9fa;
 }
 ```
-
 {{< br >}}
+
+The Payment Component now looks as follows:
+
+{{< screen src="/img/Screenshot-Payment-Component.png" align="center" class="medium-img desktop-radius" >}}
 
 {{< two-buttons href-1="/integrations/payment-components" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
