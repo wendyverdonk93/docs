@@ -1,6 +1,6 @@
 ---
 title : "What does an error mean?"
-meta_title: "FAQ API - Explain error - MultiSafepay Docs"
+meta_title: "FAQ API Reference - Explain error - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 ---

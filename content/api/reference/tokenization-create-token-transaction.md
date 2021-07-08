@@ -1,6 +1,6 @@
 ---
 weight: 606
-meta_title: "API - Tokenization - Create token transaction - MultiSafepay Docs"
+meta_title: "API Reference - Tokenization - Create token transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -52,21 +52,21 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "custom_3": null
         },
         "customer": {
-            "address1": "Bloemstraat",
-            "address2": "Jordaan",
+            "address1": "Kraanspoor",
+            "address2": "",
             "city": "Amsterdam",
             "country": "NL",
             "country_name": "The Netherlands",
             "email": "simonsmit@example.com",
             "first_name": "Simon",
-            "address2": "123",
+            "house_number": "39C",
             "last_name": "Smit",
             "locale": "nl_NL",
-            "phone1": "0600000001",
+            "phone1": "0208500500",
             "phone2": "00310000001",
             "reference": "AutoQAReference",
-            "state": "Noord-Holland",
-            "zip_code": "1000 AB"
+            "state": "NH",
+            "zip_code": "1033SC"
         },
         "description": "Tokenization - ALL - Trx with previous token with unscheduled model when is disabled",
         "fastcheckout": "NO",

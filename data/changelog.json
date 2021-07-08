@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "Jun 20, 2021",
+            "change": "Updated section: [Getting started](/getting-started)"
+        },
+        {
             "date": "Jun 7, 2021",
             "change": "Updated section: [Ecommerce integrations](/integrations/ecommerce-integrations)"
         },

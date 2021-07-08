@@ -1,6 +1,6 @@
 ---
 weight: 301
-meta_title: "API - Create AfterPay order - MultiSafepay Docs"
+meta_title: "API Reference - Create AfterPay order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -16,18 +16,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "currency": "EUR",
     "amount": 26000,
     "description": "Test Order Description",
-    "manual": false,
+    "manual": "false",
     "gateway_info": {
         "birthday": "1970-07-10",
         "gender": "mr",
-        "phone": "0600000001",
-        "email": "simonsmit@example.com"
+        "phone": "0612345678",
+        "email": "rejection@afterpay.nl"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
         "redirect_url": "http://www.example.com/client/notification?type=redirect",
         "cancel_url": "http://www.example.com/client/notification?type=cancel", 
-        "close_window": true
+        "close_window": ""
     },
     ...
     "shopping_cart": {
@@ -66,7 +66,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 > JSON Response
 
-```json
+```shell
 
 {
   "success": true,
@@ -79,7 +79,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
           "name": "none",
           "rules": [
             {
-              "country": "NL",
+              "country": "",
               "rate": 0.00
             }
           ]
@@ -94,13 +94,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       {
         "amount":,
         "description": "",
-        "transaction_id": 123456789
+        "transaction_id": 2045938,
         "type": "SYSTEM"
       },
       {
         "amount":,
         "description": "",
-        "transaction_id": 123456789
+        "transaction_id": 2045939,
         "type": "SYSTEM"
       }
     ],
@@ -111,7 +111,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     ...
     
     "status": "uncleared",
-    "transaction_id": 123456789
+    "transaction_id": 4022655,
     "payment_url": " https://payv2.multisafepay.com/connect/99wi0OTuiCaTY2nwEiEOybWpVx8MNwrJ75c/?lang=en_US",
     "cancel_url": " http://www.example.com/client/notification?type=cancel&transactionid=apitool"
   }
@@ -129,7 +129,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "amount": 26000,
     "description": "Test Order Description",
     "items": "",
-    "manual": false
+    "manual": "false"
     ...
     "shopping_cart": {
         "items": [
@@ -396,7 +396,7 @@ __ip_address__ | string
 ----------------
 __forwarded_ip__ | string
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
 
 ----------------
 

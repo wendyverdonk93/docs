@@ -1,6 +1,6 @@
 ---
 weight: 308
-meta_title: "API - Create Belfius order - MultiSafepay Docs"
+meta_title: "API Reference - Create Belfius order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -78,13 +78,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "customer": {
             "locale": "be_BE",
             "first_name": "Simon",
-            "address1": "Bloemstraat",
-            "address2": "123",
-            "zip_code": "1000 AB",
+            "address1": "Kraanspoor",
+            "house_number": "39C",
+            "zip_code": "1033SC",
             "city": "Amsterdam",
             "country": "NL",
             "country_name": "The Netherlands",
-            "phone1": "0600000001",
+            "phone1": "0208500500",
             "email": "simonsmit@example.com",
         },
         "payment_details": {

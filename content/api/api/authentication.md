@@ -1,6 +1,6 @@
 ---
 weight: 40
-meta_title: "API - Authentication - MultiSafepay Docs"
+meta_title: "API Reference - Authentication - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -9,14 +9,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ``` shell
 curl -X POST "https://testapi.multisafepay.com/v1/json/" \
--H "api_key: <your-test-API-key>"
+--header "api_key: <your-test-API-key>"
 ```
 
 > Live API
 
 ``` shell
 curl -X POST "https://api.multisafepay.com/v1/json/" \
--H "api_key: <your-API-key>"
+--header "api_key: <your-API-key>"
 ```
 
 {{< /code-block >}}

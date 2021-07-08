@@ -8,31 +8,23 @@ aliases:
     - /faq/payment-regulations/3D-secure
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
     - /faq/general/what-is-3d-secure
+    - /faq/payment-regulations/about-3d-secure/
 ---
 
-3D Secure (3DS) is an authentication protocol for online transactions. 3D Secure is also known by its branded names like Mastercard Identity Check, Visa Secure or American Express SafeKey. Two versions of the 3D Secure protocol coexist (3DS 1.0 and 3DS 2.0).
+3D Secure is an authentication protocol for online credit and debit card payments. It provides an additional layer of protection against fraud. After entering their credit card details, customers are redirected to the card scheme to verify their identity, before completing payment.
 
-**Please note:** All Europe-based transactions through our platform use the 3D Secure protocol in order to comply with PSD2 regulations.
+The major credit card schemes each offer their own branded version of 3D Secure:
 
-## How does 3D Secure relate to PSD2 and SCA?
+- American Express Safekey
+- Mastercard SecureCode
+- Verified by Visa
 
-The Payment Services Directive 2 [(PSD2)](/faq/payment-regulations/payment-service-directive-2) is a set of laws and regulations that aims to improve European consumer rights while promoting competition within the financial industry. One of the requirements of PSD2 is Strong Customer Authentication [(SCA)](/faq/payment-regulations/strong-customer-authentication). SCA combines two elements of authentication to reduce the risk of fraud. The 3D Secure authentication protocol is a widely implemented form of SCA that complies with PSD2 regulations.
+If a customer requests a [chargeback](/faq/chargebacks/about-chargebacks/) due to fraud and the transaction passed 3D Secure authentication, the acquirer is then responsible for the costs instead of the merchant.
 
-## What's new in 3DS 2.0?
+## PSD2 requirements
 
-**Please note:** We are working on supporting 3DS 2.0 and we expect to rollout the support in 2021. In the meantime, transactions use 3DS 1.0 and are fully PSD2 compliant.
+Under the Payment Services Directive 2 ([PSD2]((/faq/payment-regulations/payment-service-directive-2))), MultiSafepay is required to apply the 3D Secure protocol to all Europe-based credit card payments we process.
 
-3DS 2.0 aims to provide better security and greater customer experience than its predecessor. This is achieved through the collection of more contextual data from the customer. The contextual data is used 'behind-the-scenes' to verify the identity of the customer. This reduces the complexity of the check-out flow, resulting in higher conversion and lower cart abandonment.
+The PSD2 is a set of laws and regulations that aims to improve European consumer rights while promoting competition within the financial industry. 
 
-Based on the risk level of the transaction, two flows can emerge: the *frictionless flow* and *challenge flow*. Both flows start after the customer has provided his or her card information. Along with the card information, contextual information from the customer's device is shared with the issuer and merchant to make an informed decision as to request additional authentication or not.
-
-{{< responsive_svg src="/diagrams/svg/3DS-flow" alt="3D Secure Flow" align="center" title="3DS Flow">}}
-
-Examples of data used for risk assessment include:
-
-* The value of the transaction
-* New or existing customer
-* Transactional history
-* Location of customer
-
-If the contextual data indicates a legitimate transaction, the payment is verified without further user-side authentication. This is also called a frictionless flow. In case the contextual data include abnormalities, the customer is asked to provide additional authentication (e.g. through password, code via SMS or fingerprint).
+One of the requirements of PSD2 is Strong Customer Authentication [(SCA)](/faq/payment-regulations/strong-customer-authentication). SCA combines two forms of authentication to reduce the risk of fraud. 3D Secure is a widely implemented form of SCA that complies with PSD2 regulations.

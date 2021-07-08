@@ -9,6 +9,7 @@ aliases:
 ---
 
 Sender Policy Framework (SPF) records let users specify which servers can send emails on behalf of their domain name system (DNS). Receiving servers can check the SPF record and decide to:
+
 - Let the email through.
 - Mark it as unsafe.
 - Refuse it altogether.

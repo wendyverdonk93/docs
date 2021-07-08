@@ -1,6 +1,6 @@
 ---
-title : "Integrating a single payment gateway"
-breadcrumb_title : "Integrating a single payment gateway"
+title : "Integrating a single payment method"
+breadcrumb_title : "Integrating a single payment method"
 meta_title: "Payment Components - Integrating a single payment gateway - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
@@ -158,22 +158,21 @@ Make a POST [`/orders`](/api/#orders) request from your server:
 
 ```
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
--H "accept: application/json" \
--H "Content-Type: application/json" \
--H "api_key: <your-website-API-key>" \
--d " \
-{
+--header "accept: application/json" \
+--header "Content-Type: application/json" \
+--header "api_key: <your-website-API-key>" \
+--data-raw '{
     "type": "direct",
     "order_id": "my-order-id-1",
     "gateway": "<GATEWAY>",
     "currency": "EUR",
-    "amount": "100",
+    "amount": 100,
     "description": "Test Order Description",
 ...
     "payment_data": {
        "payload": "{secure_payload}"
     },
-}"
+}'
 ```
 
 ### Redirect the customer

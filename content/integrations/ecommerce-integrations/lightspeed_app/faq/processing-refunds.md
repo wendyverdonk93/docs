@@ -9,7 +9,7 @@ aliases:
     - /integrations/lightspeed_app/faq/refunding-lightspeed
 ---
 
-You can refund orders and issue credit notes in your [MultiSafepay Control](https://merchant.multisafepay.com) and from your Lightspeed backend.
+You can refund orders and issue credit notes in your [MultiSafepay account](https://merchant.multisafepay.com) and from your Lightspeed backend.
 
 To enable refunds from your Lightspeed backend, follow these steps:
 
@@ -18,6 +18,8 @@ To enable refunds from your Lightspeed backend, follow these steps:
 3. In the sidebar, click **Enable refunds**.
 
 ## Known issues
+
+- If you use Lightspeed [Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), you cannot process refunds via MultiSafepay.
 
 - When creating a credit memo for a refund, set the status to **Not paid**. MultiSafepay ignores **Paid** status.
 
