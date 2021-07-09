@@ -99,6 +99,6 @@ A second variable for storing additional data. **Optional**.
 
 **var3** | string
 
-A variable used to store additional data. **Optional**.
+A third variable for storing additional data. **Optional**.
 
 {{< /description >}}
