@@ -49,6 +49,6 @@ To successfully process partial refunds for the same product with different spec
 
 - AfterPay requires an additional API key for Belgium. Contact AfterPay.
 
-- You must [activate MultiSafepay PayV2 payment pages](/payment-methods/billing-suite/afterpay/faq/activating-payv2/) at website level in your MultiSafepay Control. 
+- You must [activate MultiSafepay PayV2 payment pages](/payment-methods/billing-suite/afterpay/faq/activating-payv2/) at website level in your MultiSafepay account. 
 
-- Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay Control only shows the invoice address. To retrieve other transaction details, make a GET `/orders` request. See API Reference – [Retrieve an order](/api/#retrieve-an-order).
+- Customers can provide different invoice and delivery addresses, but the customer's first and last name must share at least two characters. The **Transaction details** page in your MultiSafepay account only shows the invoice address. To retrieve other transaction details, make a GET `/orders` request. See API Reference – [Retrieve an order](/api/#retrieve-an-order).

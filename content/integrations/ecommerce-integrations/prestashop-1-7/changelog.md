@@ -152,7 +152,7 @@ Release date: May 8th, 2018
 + PLGPRSS-222 Add Dutch translations
 + PLGPRSS-240 Support direct transactions for iDEAL, Pay After Delivery, E-Invoice, bank transfer, ING Home'Pay, KBC and PayPal
 + PLGPRSS-246 Add check to see if test/live option corresponds with the used API key
-+ PLGPRSS-253 Add warning when enable gateway and not available in MultiSafepay Control
++ PLGPRSS-253 Add warning when enable gateway and not available in your MultiSafepay account
 + PLGPRSS-276 Multiple transactions created after multiple clicks on the order-confirmation button
 + PLGPRSS-277 Update Klarna payment method logo
 + PLGPRSS-278 Remove MultiSafepay.js from the front-end

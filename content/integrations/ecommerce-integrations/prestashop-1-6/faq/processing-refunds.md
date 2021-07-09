@@ -6,4 +6,4 @@ read_more: "."
 aliases: 
     - /integrations/prestashop-1-6/faq/refunding-prestashop/
 ---
-You can process refunds from your [MultiSafepay Control](https://merchant.multisafepay.com), but not from your PrestaShop 1.6 backend.
+You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but not from your PrestaShop 1.6 backend.

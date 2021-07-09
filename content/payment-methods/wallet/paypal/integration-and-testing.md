@@ -21,7 +21,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 To test PayPal transactions, follow these steps:
 
 1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
-2. The payment is processed in MultiSafepay Test Control as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+2. The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status remains **Initialized** and cannot be changed to **Completed**.
 
 Sample statuses:

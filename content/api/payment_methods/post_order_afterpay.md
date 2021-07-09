@@ -228,7 +228,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-Text displayed with the order in your MultiSafepay Control, and on the customer's bank statement (if supported by the bank). Max. 200 characters. HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
+Text displayed with the order in your MultiSafepay account, and on the customer's bank statement (if supported by the bank). Max. 200 characters. HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
 
 ----------------
 __payment_options__ | object
@@ -351,7 +351,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-Text displayed with the order in your MultiSafepay Control, and on the customer's bank statement (if supported by the bank). Max. 200 characters. HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
+Text displayed with the order in your MultiSafepay account, and on the customer's bank statement (if supported by the bank). Max. 200 characters. HTML formatting is not supported. To add descriptions in HTML format, use the `items` or `shopping_cart` objects instead.
 
 ----------------
 __payment_options__ | object

@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/Klarna.svg'
 ---
 
-Klarna makes your ecommerce platform available in the MultiSafepay partner portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay Control. 
+Klarna makes your ecommerce platform available in the MultiSafepay partner portal, where your credentials are generated. Use your credentials to configure the Klarna gateway in your MultiSafepay account. 
 
 To integrate Klarna using our API, see API Reference - [Klarna](/api/#klarna).
 

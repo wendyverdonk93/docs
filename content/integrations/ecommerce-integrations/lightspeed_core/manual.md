@@ -22,7 +22,7 @@ You will need a MultiSafepay account – See [Getting started](/getting-started/
 2. Go to **Settings** > **Payment providers**.
 2. Click **Add payment provider**, and then select **MultiSafepay**.
 3. Enter your account ID, site ID, and site security code. {{% account_info %}}
-Your account ID appears in the top-right corner of your MultiSafepay Control.
+Your account ID appears in the top-right corner of your MultiSafepay account.
 4. Select the payment methods you want to offer.
 
 For any questions about the core integration, email the Integration Team at <integration@multisafepay.com>

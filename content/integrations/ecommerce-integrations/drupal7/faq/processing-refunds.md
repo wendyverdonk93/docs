@@ -6,4 +6,4 @@ read_more: "."
 aliases: 
     - /integrations/drupal7/faq/refunding-drupal/
 ---
-You can process refunds from your Drupal 7 backend and your [MultiSafepay Control](https://merchant.multisafepay.com).
+You can process refunds from your Drupal 7 backend and your [MultiSafepay account](https://merchant.multisafepay.com).

@@ -1,7 +1,7 @@
 ---
 title : "Paying out your account balance"
 weight: 9
-meta_title: "MultiSafepay Control - Paying out your balance - MultiSafepay Docs"
+meta_title: "MultiSafepay account - Paying out your balance - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
@@ -19,6 +19,6 @@ To withdraw the balance from your MultiSafepay account and transfer it to your b
 
 The Risk Team then checks and approves your account details and the information on your website. Once approved, we will send you an email that your account is fully activated. 
 
-Note that you can process customer payments immediately after creating a MultiSafepay Control account and implementing your website. But your funds will be held in your MultiSafepay Control account until it is fully activated.
+Note that you can process customer payments immediately after creating a MultiSafepay account account and implementing your website. But your funds will be held in your MultiSafepay account account until it is fully activated.
 
-You can choose to pay out your MultiSafepay Control balance manually or automatically.
+You can choose to pay out your MultiSafepay account balance manually or automatically.

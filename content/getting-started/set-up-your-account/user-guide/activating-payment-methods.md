@@ -11,7 +11,7 @@ aliases:
 
 Some payment methods you must apply to your account manager to activate, others you can activate yourself. Check the relevant [payment method](/payment-methods/) under **Activation**.
 
-To activate payment methods in your MultiSafepay control account for:
+To activate payment methods in your MultiSafepay account account for:
 
 All your websites:
 

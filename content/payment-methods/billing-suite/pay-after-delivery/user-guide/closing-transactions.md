@@ -10,12 +10,12 @@ If you have not yet shipped an order, you can cancel the transaction by performi
 
 If you have shipped an order and the customer fails to pay, you can no longer cancel the order. To close the transaction instead, follow the **Complete own funds** steps below.
 
-If a customer pays an invoice to you directly, you need to link the payment to the transaction in your MultiSafepay Control to change the transaction status to **Completed**. Follow the **Complete own funds** steps below.
+If a customer pays an invoice to you directly, you need to link the payment to the transaction in your MultiSafepay account to change the transaction status to **Completed**. Follow the **Complete own funds** steps below.
 You must also notify MultiSafepay that you received payment directly, or we may contact the customer about the oustanding amount.
 
 Follow the **Complete own funds** steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Complete own funds**. 

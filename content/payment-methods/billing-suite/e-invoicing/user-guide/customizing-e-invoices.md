@@ -8,7 +8,7 @@ weight: 4
 
 To customize E-invoices:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **E-invoicing** > **E-invoicing generator**. 
 
 The invoice is sent to the email address provided. 

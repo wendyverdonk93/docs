@@ -12,7 +12,7 @@ You can only refund recurring transactions to customers when the financial statu
 
 To refund a transaction, follow these steps:
 
-1. In your [MultiSafepay Control](https://merchant.multisafepay.com), go to **Transactions** > **Transaction overview**.
+1. In your [MultiSafepay account](https://merchant.multisafepay.com), go to **Transactions** > **Transaction overview**.
 2. Search for the transaction and open the **Transaction details** page.
 3. Select **Refund**.
 5. Enter the amount that you want to refund to the customer.

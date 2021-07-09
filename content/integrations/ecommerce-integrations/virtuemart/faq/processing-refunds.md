@@ -7,4 +7,4 @@ aliases:
     - /integrations/virtuemart/faq/refunding-virtuemart/
 ---
 
-You can process refunds directly from your VirtueMart backend, and from your [MultiSafepay Control](https://merchant.multisafepay.com)
+You can process refunds directly from your VirtueMart backend, and from your [MultiSafepay account](https://merchant.multisafepay.com)

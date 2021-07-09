@@ -51,11 +51,11 @@ Depending on your webserver/webshop configuration you also need to check:
 1. Log in to the backend of your webshop and navigate to _Stores_ > _Configuration_ > _MultiSafepay x.x.x_ > _MultiSafepay Settings_.  
 This page contains all main settings and is used for all gateways and gift cards.
 {{% account_info %}}
-Your Account ID is shown in the dashboard of your MultiSafepay Control in the top right corner
+Your Account ID is shown in the dashboard of your MultiSafepay account in the top right corner
 
 2. Navigate to _Stores_ > _(Settings) Configuration_ > _MultiSafepay x.x.x_ > _MultiSafepay Gateways_.  
 This page contains the configuration options for all payment methods supported by MultiSafepay.  
-Be sure that you have the selected payment methods active in your [MultiSafepay Control](https://merchant.multisafepay.com)
+Be sure that you have the selected payment methods active in your [MultiSafepay account](https://merchant.multisafepay.com)
 
 3. MultiSafepay Gift cards  
 This page contains the configuration options for all gift cards supported by MultiSafepay.  

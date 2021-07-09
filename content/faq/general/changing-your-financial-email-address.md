@@ -7,9 +7,9 @@ read_more: "."
 aliases:
     - /faq/general/how-can-i-edit-the-e-mail-address-listed-under-'financial-email'-
 ---
-To change the financial email address in your MultiSafepay Control, follow these steps:
+To change the financial email address in your MultiSafepay account, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Select the drop-down-menu in the right hand corner of your screen, next to the search bar.
 3. Click **Contact Details**. 
 4. In the **Financial email** field, enter the email address.

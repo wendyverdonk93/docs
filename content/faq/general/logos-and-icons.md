@@ -10,7 +10,7 @@ aliases:
 --- 
 For MultiSafepay logos, see [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
 
-For the icons of all payment methods in your MultiSafepay Control, see MultiSafepay – [Payment logo designer](https://merchant.multisafepay.com/payment-logo-designer).
+For the icons of all payment methods in your MultiSafepay account, see MultiSafepay – [Payment logo designer](https://merchant.multisafepay.com/payment-logo-designer).
 
 For the logos and icons of all MultiSafepay payment methods, see [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 

@@ -6,5 +6,5 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Errors explained.svg'
 layout: 'faqplugins'
 read_more: "."
-short_description: "Understanding errors during integration or in your MultiSafepay Control"
+short_description: "Understanding errors during integration or in your MultiSafepay account"
 ---

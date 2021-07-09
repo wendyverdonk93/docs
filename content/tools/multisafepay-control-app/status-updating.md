@@ -8,4 +8,4 @@ read_more: '.'
 
 Payment methods that provide ‘post pay’ solutions such as Klarna, AfterPay and our own Pay After Delivery or E-invoicing require clear communication with the online customer.
 
-The status of an order can be manually updated by simply clicking on a transaction itself within the MultiSafepay Control App.
+The status of an order can be manually updated by simply clicking on a transaction itself within your MultiSafepay account App.

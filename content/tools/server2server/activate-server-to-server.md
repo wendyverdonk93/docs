@@ -12,7 +12,7 @@ read_more: '.'
 
 In order to process direct credit card transactions, the following is required of the merchant:
 
-1. Register for a [MultiSafepay Control](https://merchant.multisafepay.com/signup) account.
+1. Register for a [MultiSafepay account](https://merchant.multisafepay.com/signup) account.
 2. Make sure you are [PCI](/faq/risk-and-fraud/what-do-i-need-to-know-about-credit-card-payments) compliant. To request approval and enable this feature, email the Risk Team at <risk@multisafepay.com>
 3. We will check your merchant file and company performance. If approved, the Integration Team will integrate Server to Server.
 4. Once activated, integrate with MultiSafepay via JSON [API](/api/#server-to-server) following these instructions.

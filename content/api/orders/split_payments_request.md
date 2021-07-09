@@ -46,7 +46,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 {{< description >}}
 ## Split Payments
-The split payment tool allows you to split the amount of a transaction over several MultiSafepay Control accounts. [Merchants](/faq/general/multisafepay-glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
+The split payment tool allows you to split the amount of a transaction over several MultiSafepay accounts. [Merchants](/faq/general/multisafepay-glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
 
 Read more about [split payments](/tools/split-payments) on our documentation page.
 
@@ -81,7 +81,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __payment_options__ | object
@@ -112,7 +112,7 @@ __split_payments__ | object
 ----------------
 __split_payments.merchant__ | integer
 
-Affiliate AccountID of a MultiSafepay Control.   
+Affiliate AccountID of a MultiSafepay account.   
 
 ----------------
 __split_payments.percentage__ | float

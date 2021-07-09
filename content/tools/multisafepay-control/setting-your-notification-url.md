@@ -1,16 +1,16 @@
 ---
 title : "Setting your notification URL"
 weight: 9
-meta_title: "MultiSafepay Control - Setting your notification URL - MultiSafepay Docs"
+meta_title: "MultiSafepay account - Setting your notification URL - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
     - /tools/multisafepay-control/set-your-notification-url
 ---
 
-If you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay Control and your [Notification URL](/faq/api/notification-url/) is correctly set, your webshop automatically updates the pending order in your backend.
+If you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay account and your [Notification URL](/faq/api/notification-url/) is correctly set, your webshop automatically updates the pending order in your backend.
 
-If the notification URL is not correctly set, the order does not update and you may need to manually enter a URL in the **Notification URL** field in your MultiSafepay Control:
+If the notification URL is not correctly set, the order does not update and you may need to manually enter a URL in the **Notification URL** field in your MultiSafepay account:
 
 | Plugin | Notification URL                  |
 |----------|-----------------------|

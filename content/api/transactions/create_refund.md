@@ -53,7 +53,7 @@ The amount (in cents) to be refunded. **Please be aware that** an amount of 0 (z
 ----------------
 __description__ | string
 
-A description to be displayed with the transaction in MultiSafepay Control. If supported by the customers bank this description will be displayed on the customers bank statement.
+A description to be displayed with the transaction in your MultiSafepay account. If supported by the customers bank this description will be displayed on the customers bank statement.
 
 
 {{% /description %}}

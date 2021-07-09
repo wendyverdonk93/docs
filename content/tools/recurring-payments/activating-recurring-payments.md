@@ -8,7 +8,7 @@ aliases:
     - /tools/recurring-payments/how-to-activate-recurring-payments
 ---
 
-Recurring payments are not enabled by default in your [MultiSafepay Control](https://merchant.multisafepay.com).
+Recurring payments are not enabled by default in your [MultiSafepay account](https://merchant.multisafepay.com).
 
 Email requests to activate recurring payments to either:
 

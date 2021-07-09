@@ -1,7 +1,7 @@
 ---
 title : "Adding users"
 weight: 1
-meta_title: "MultiSafepay Control - Adding users - MultiSafepay Docs"
+meta_title: "MultiSafepay account - Adding users - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
@@ -14,7 +14,7 @@ You can disable users, but not delete them.
 
 To add users with different permission profiles, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 
 2. Go to **Settings** > **User management**.
 

@@ -7,4 +7,4 @@ aliases:
     - /integrations/ccvshop/faq/refunding-ccv-shop/
 ---
 
-You can process refunds from your [MultiSafepay Control](https://merchant.multisafepay.com), but refunds are not supported in the CCV Shop app.
+You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but refunds are not supported in the CCV Shop app.
