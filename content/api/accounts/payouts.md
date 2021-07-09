@@ -71,7 +71,7 @@ By default, payouts for affiliated accounts are disabled. Contact your account m
 
 **affiliated_id** | query parameter  
 
-The account ID of the affiliated account that is to be paid out. **Required**.
+The account ID of the affiliated account that you want to move funds from. **Required**.
 
 **amount** | integer 
 
