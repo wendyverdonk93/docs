@@ -63,7 +63,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Payouts
 
-As a partner or primary account holder, use payouts to move funds from an affiliated account's balance to a connected bank account. 
+As a partner or primary account holder, move funds from an affiliated account's balance to a connected bank account. 
 
 By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email your account manager at <sales@multisafepay.com>
 
