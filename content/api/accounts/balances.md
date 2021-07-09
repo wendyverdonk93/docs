@@ -35,7 +35,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 As a partner or primary account holder, request the balance of an affiliated account. 
 
-By default, balance requests are disabled. Contact your account manager to enable them for your account.
+By default, balance requests are disabled. To enable balance requests for your account, email your account manager at <sales@multisafepay.com>
 
 ### Request parameters
 
