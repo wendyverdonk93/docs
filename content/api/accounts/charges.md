@@ -52,13 +52,13 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 As a partner or primary account holder, use charges to move funds from an affiliated account's balance to your own. 
 
-By default, charges are disabled. Contact your account manager to enable charges for your account.
+By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
 
 ### Request parameters
 
 **affiliated_id** | query parameter
 
-The account ID of the affiliated account that is to be debited. **Required**.
+The account ID of the affiliated account you want to debit. **Required**.
 
 **amount** | integer 
 
@@ -79,14 +79,14 @@ A description for the transaction. The description is displayed in the affiliate
 
 **var1** | string
 
-A variable used to store additional data. **Optional**.
+A variable for storing additional data. **Optional**.
 
 **var2** | string
 
-A variable used to store additional data. **Optional**.
+A second variable for storing additional data. **Optional**.
 
 **var3** | string
 
-A variable used to store additional data. **Optional**.
+A third variable for storing additional data. **Optional**.
 
 {{< /description >}}
