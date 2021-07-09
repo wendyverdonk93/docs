@@ -33,7 +33,7 @@ You must first provide Exact with an additional international bank account numbe
 
 You can now register all transactions linked to this IBAN.
 
-## Exporting from MultiSafepay Control
+## Exporting from your MultiSafepay account
 
 1. in your MultiSafepay account, navigate to **Reports** > **Accountant Export**. 
 2. In **Data Selection**, select a date range.

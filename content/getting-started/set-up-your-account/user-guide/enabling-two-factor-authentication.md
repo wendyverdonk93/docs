@@ -6,8 +6,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 description_short: "Two-factor authentication (2FA) requires users to verify their identity with two pieces of evidence. This authentication method is used to add an additional layer of security to your data. At MultiSafepay, the first piece of evidence users are asked to provide is a password. The second piece of evidence is a 6-digit token, generated in the MultiSafepay app on the user's mobile device."
 aliases:
-    - /tools/multisafepay-contro/two-factor-authentication
-    - /tools/multisafepay-control/enabling-two-factor-authentication
+    - /tools/multisafepay-account/two-factor-authentication
+    - /tools/multisafepay-account/enabling-two-factor-authentication
 ---
 
 Two-factor authentication (2FA) is an optional, additional layer of security for data in your MultiSafepay account. It is supported in every country.

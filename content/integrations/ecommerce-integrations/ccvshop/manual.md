@@ -27,7 +27,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
 4. Fill in your merchant account ID, site ID, and merchant site secure code. {{% account_info %}}
 Your account ID appears in the top right corner of your MultiSafepay account.
-5. If using your MultiSafepay Test Control, select **Test mode**.
+5. If using your MultiSafepay test account, select **Test mode**.
 6. Click **Synchroniseer betaalmethodes met MultiSafepay**.
 7. Click **Save**.
 

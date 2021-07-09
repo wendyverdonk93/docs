@@ -37,7 +37,7 @@ For hybrid card schemes such as American Express and Diners Club, each EU countr
 
 The rules for surcharging customers outside the EU remain unchanged. The PSD2 aims to protect European customers.
 
-### Settings changes in your backend and MultiSafepay Control
+### Settings changes in your backend and MultiSafepay account
 
 If you are currently surcharging prohibited transactions:
 

@@ -1,7 +1,7 @@
 ---
 title: "Managing commissions"
 weight: 80
-meta_title: "Partner Account Control - Managing commissions - MultiSafepay Docs"
+meta_title: "Partner account - Managing commissions - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 ---

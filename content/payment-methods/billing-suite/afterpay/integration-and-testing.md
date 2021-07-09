@@ -15,6 +15,6 @@ For the AfterPay logo, see MultiSafepay GitHub – [MultiSafepay icons](https://
 
 {{< details title="View testing process" >}}
 &nbsp;  
-To enable AfterPay in your MultiSafepay Test Control, email the Integration Team at <integration@multisafepay.com>
+To enable AfterPay in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com>
 
 {{< /details >}}

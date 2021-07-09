@@ -5,7 +5,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/finance/how-can-i-fund-my-multisafepay-account
-    - /faq/finance/adding-funds-to-your-multisafepay-control-account
+    - /faq/finance/adding-funds-to-your-multisafepay-account
 ---
 
 To add funds to your MultiSafepay account account, follow these steps:

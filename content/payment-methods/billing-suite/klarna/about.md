@@ -55,7 +55,7 @@ For how to add a discount in your transaction request via our API, see API Refer
 - Discount added as a unit price
 - Discount added as an order rule (non-refundable)
 
-**MultiSafepay Control**  
+**MultiSafepay account**  
 Instead of deleting an item in the checkout editor, you may want to add a discount. Follow these steps:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).

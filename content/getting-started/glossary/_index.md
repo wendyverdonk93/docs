@@ -22,7 +22,7 @@ aliases:
     - /faq/general/glossary/#issuer
     - /faq/general/glossary/#json
     - /faq/general/glossary/#merchant
-    - /faq/general/glossary/#multisafepay-control
+    - /faq/general/glossary/#multisafepay-account
     - /faq/general/glossary/#open-loop-gift-card
     - /faq/general/glossary/#payment-method
     - /faq/general/glossary/#payment-service-provider
@@ -107,7 +107,7 @@ The risk of accepting credit card payments and responsibility for paying for [ch
 A company (legal entity) that sells products and services to customers.
 
 ### MultiSafepay account
-A merchant's account with MultiSafepay, managed via a [web dashboard](/tools/multisafepay-control/).
+A merchant's account with MultiSafepay, managed via a [web dashboard](/tools/multisafepay-account/).
 
 ### MultiSafepay balance
 The balance of funds held in a MultiSafepay account.
@@ -137,7 +137,7 @@ A webpage the customer is redirected to from the merchant's checkout page where 
 MultiSafepay is a PSP and provides services that let merchants accept payments using different payment methods.
 
 ### payout
-When a merchant transfers funds from their MultiSafepay balance to their business bank account. See [Paying out funds from your MultiSafepay balance](/faq/finance/paying-out-funds-from-your-multisafepay-control/). 
+When a merchant transfers funds from their MultiSafepay balance to their business bank account. See [Paying out funds from your MultiSafepay balance](/faq/finance/paying-out-funds-from-your-multisafepay-account/). 
 
 ### point of sale (POS) terminal
 A terminal that accepts payments, usually by card or near-field communication (NFC), at a merchant's physical location, e.g. a store.

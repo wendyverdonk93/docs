@@ -1,7 +1,7 @@
 ---
 title : "Generating and disabling payment links"
 weight: 2
-meta_title: "MultiSafepay Control- Generating and disabling payment links - MultiSafepay Docs"
+meta_title: "MultiSafepay account- Generating and disabling payment links - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:

@@ -1,11 +1,11 @@
 ---
-title: 'Partner Account Control'
+title: 'Partner account'
 weight: 40
-meta_title: "Partner Account Control - MultiSafepay Docs"
+meta_title: "Partner account - MultiSafepay Docs"
 layout: 'faqplugins'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Partner_Account_Control.svg'
-short_description: 'Read more about how you can manage your Partner Account Control'
+short_description: 'Managing your partner account and affiliated accounts'
 aliases: 
     - /partners/
     - /partners/faq/what-is-the-kickback-commission-for-partners/

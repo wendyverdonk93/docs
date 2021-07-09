@@ -1,7 +1,7 @@
 ---
 title : "Adding auto-withdrawals"
 weight: 6
-meta_title: "MultiSafepay Control- Adding auto-withdrawals - MultiSafepay Docs"
+meta_title: "MultiSafepay account- Adding auto-withdrawals - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
