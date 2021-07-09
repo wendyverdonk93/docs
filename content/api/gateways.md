@@ -11,6 +11,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 <hr class="separator">
 
 A payment gateway facilitates a payment transaction by the transfer of information between the ecommerce webshop, MultiSafepay and the payment method.
-Available payment methods in your MultiSafepay Control are returned as gateways.
+Available payment methods in your MultiSafepay account are returned as gateways.
 
 {{% /description %}}

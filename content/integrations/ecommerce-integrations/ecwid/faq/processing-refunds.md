@@ -7,4 +7,4 @@ aliases:
     - /integrations/ecwid/faq/refunding-ecwid/
 ---
 
-You can process refunds from your [MultiSafepay Control](https://merchant.multisafepay.com), but refunds are not supported in Wix webshops.
+You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com), but refunds are not supported in Wix webshops.

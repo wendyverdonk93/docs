@@ -4,7 +4,7 @@ breadcrumb_title: 'Activation'
 weight: 20
 meta_title: "Activating AfterPay - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-short_description: "Activating AfterPay in your AfterPay account and your MultiSafepay Control"
+short_description: "Activating AfterPay in your AfterPay account and your MultiSafepay account"
 layout: 'child'
 logo: '/logo/Payment_methods/AfterPay.svg'
 ---
@@ -16,7 +16,7 @@ For new AfterPay clients in:
 - The Netherlands, apply to AfterPay – [Offerte](https://www.afterpay.nl/nl/zakelijk/offerte) 
 - Belgium, apply to AfterPay – [Offerte aanvragen](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
 
-For existing AfterPay clients, to activate AfterPay in your MultiSafepay Control email AfterPay Sales at <sales@afterpay.nl>  
+For existing AfterPay clients, to activate AfterPay in your MultiSafepay account email AfterPay Sales at <sales@afterpay.nl>  
 
 {{< details title="View ecommerce integration requirements" >}}
 

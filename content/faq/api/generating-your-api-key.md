@@ -9,4 +9,4 @@ aliases:
 ---
 You need an API key to make API calls between your ecommerce platform and MultiSafepay to process data and payments.
 
-You can only request an API key once you have entered a website URL your MultiSafepay Control. They key only works when the URL is there. 
+You can only request an API key once you have entered a website URL your MultiSafepay account. They key only works when the URL is there. 

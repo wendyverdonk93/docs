@@ -1,7 +1,7 @@
 ---
 title : "Viewing your API key"
 weight: 10
-meta_title: "MultiSafepay Control - Viewing your API key - MultiSafepay Docs"
+meta_title: "MultiSafepay account - Viewing your API key - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:

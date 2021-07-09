@@ -8,8 +8,8 @@ aliases:
     - /integrations/lightspeed/faq/lightspeed-orderid/
 ---
 
-When a payment link is generated in your [MultiSafepay Control](https://merchant.multisafepay.com), an order ID is required to link the transaction to the corresponding order ID in the Lightspeed platform. 
+When a payment link is generated in your [MultiSafepay account](https://merchant.multisafepay.com), an order ID is required to link the transaction to the corresponding order ID in the Lightspeed platform. 
 
 However, users often mistake Lightspeed's reference number `ORD` for the order ID. As a result, payments received via the MultiSafepay payment link are not linked to the Lightspeed order ID.
 
-The correct Lightspeed order ID to use when generating a payment link in your MultiSafepay Control appears in the Lightspeed URL on the relevant **Order details** page, e.g. https://yourdomain.webshop.com/admin/dmin/orders/994152471?offset=7 Order ID = 94152471.
+The correct Lightspeed order ID to use when generating a payment link in your MultiSafepay account appears in the Lightspeed URL on the relevant **Order details** page, e.g. https://yourdomain.webshop.com/admin/dmin/orders/994152471?offset=7 Order ID = 94152471.

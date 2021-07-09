@@ -32,5 +32,5 @@ You must:
 - State why you want to use Dynamic 3D Secure.
 - Provide evidence that you process a significant volume of transactions for customers outside of Europe.
 - Confirm that you understand the increased fraud risk and the fee structure.
-- Specify which sites in your MultiSafepay Control to apply the rule to.
+- Specify which sites in your MultiSafepay account to apply the rule to.
 - Confirm you have excellent processing performance, especially for chargebacks.

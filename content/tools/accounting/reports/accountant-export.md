@@ -38,7 +38,7 @@ For support, email the Support Team at <support@multisafepay.com>
 
 To generate an Accountant export, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com), or for test reports, your [MultiSafepay Test Control](https://testmerchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com), or for test reports, your [MultiSafepay Test Control](https://testmerchant.multisafepay.com).
 2. Go to **Reports** > **Accountant export**.
 3. From the **Date selection** dropdown, select the relevant timeframe (last 2 years only), and then click **Apply**.
 4. From the **Report type** dropdown, select the relevant export format. 
@@ -94,7 +94,7 @@ To filter transactions in the Accountant export (e.g. by payment method), use th
 
 To request automated Accountant exports, email the following information to the Integration Team at <integration@multisafepay.com>:
 
-- Your account ID: Top-right corner of your MultiSafepay Control
+- Your account ID: Top-right corner of your MultiSafepay account
 - Method: SFTP Pull or Push request, or email
 - Frequency: Daily, weekly, or monthly
 - File format: CAMT053, CODA, CSV, MT940, XLS, or XLSX

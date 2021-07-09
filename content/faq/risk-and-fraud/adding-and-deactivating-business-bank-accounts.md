@@ -8,7 +8,7 @@ aliases:
     - /faq/risk-and-fraud/new-bank-account
 ---
 ## Adding a new business bank account
-To add a new business bank account for payouts, add the new IBAN in your [MultiSafepay Control](https://merchant.multisafepay.com).
+To add a new business bank account for payouts, add the new IBAN in your [MultiSafepay account](https://merchant.multisafepay.com).
 
 To verify the account:
 

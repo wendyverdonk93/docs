@@ -24,17 +24,17 @@ Transaction fees are charged as each transaction is processed. Bank fees and VAT
 
 ## When is VAT deducted from my account?
 
-VAT is automatically deducted from your MultiSafepay Control account balance at the end of each month. 
+VAT is automatically deducted from your MultiSafepay account account balance at the end of each month. 
 
-To view the exact amount in your MultiSafepay Control > **Transaction overview**, enter 'VAT' or 'Invoice' as a search query. 
+To view the exact amount in your MultiSafepay account > **Transaction overview**, enter 'VAT' or 'Invoice' as a search query. 
 
 ### VAT invoices
 
 Monthly VAT invoices are for your records only. You don't need to pay the amount separately.
 
-They are uploaded to your MultiSafepay Control > **Finance** > **Invoices**.
+They are uploaded to your MultiSafepay account > **Finance** > **Invoices**.
 
-We also email the invoices to the **Financial email** address in your MultiSafepay Control. If you have not added an email address here, we will send them to the main business email address listed in your account.
+We also email the invoices to the **Financial email** address in your MultiSafepay account. If you have not added an email address here, we will send them to the main business email address listed in your account.
 
 To add a financial email address, go to **Contact Information**.  
 

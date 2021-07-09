@@ -7,7 +7,7 @@ read_more: '.'
 ---
 ## Activation
 
-Email requests to activate Zero Authorization in your MultiSafepay Control to the Risk Team at <risk@multisafepay.com>
+Email requests to activate Zero Authorization in your MultiSafepay account to the Risk Team at <risk@multisafepay.com>
 
 After our screening department has enabled this feature for the website you selected, it is important to view the [API documentation] regarding Zero Authorization. This is not incorporated in our [ecommerce integrations](/integrations/ecommerce-integrations) by default, but it can be added through customization from your side.
 

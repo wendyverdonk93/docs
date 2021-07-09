@@ -19,9 +19,9 @@ To process refunds and credit memos from your Magento 2 backend, follow these st
 - **Refund**: Sends a refund request to MultiSafepay.
 
 ## Deprecated plugin
-You can refund orders for payment methods from the deprecated plugin in your [MultiSafepay Control](https://merchant.multisafepay.com), but not from your Magento 2 backend. 
+You can refund orders for payment methods from the deprecated plugin in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 backend. 
 
 ## Fooman surcharges
-You can refund orders with a [Fooman surcharge](/integrations/ecommerce-integrations/magento2/faq/applying-surcharges/) applied in your [MultiSafepay Control](https://merchant.multisafepay.com), but not from your Magento 2 backend.
+You can refund orders with a [Fooman surcharge](/integrations/ecommerce-integrations/magento2/faq/applying-surcharges/) applied in your [MultiSafepay account](https://merchant.multisafepay.com), but not from your Magento 2 backend.
 
 For more information about refunds, see [Refunds](/faq/refunds).

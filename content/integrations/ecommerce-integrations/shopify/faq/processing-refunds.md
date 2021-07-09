@@ -7,4 +7,4 @@ aliases:
     - /integrations/shopify/faq/refunding-shopify/
 ---
 
-You can process refunds directly from your Shopify backend and from your [MultiSafepay Control](https://merchant.multisafepay.com).
+You can process refunds directly from your Shopify backend and from your [MultiSafepay account](https://merchant.multisafepay.com).

@@ -6,13 +6,13 @@ read_more: "."
 aliases: [/integrations/lightspeed/faq/lightspeed-orderid/]
 ---
 
-When a payment link is generated from [MultiSafepay Control](https://merchant.multisafepay.com), an _orderID_ number is required. This is necessary to link the transaction to the correct _orderID_ in the ecommerce platform of Lightspeed.
+When a payment link is generated from [MultiSafepay account](https://merchant.multisafepay.com), an _orderID_ number is required. This is necessary to link the transaction to the correct _orderID_ in the ecommerce platform of Lightspeed.
 
-However, Lightspeed displays a reference number _ORD_ which is often mistaken for an orderID. Due to this confusion, it happens that when generating a payment link in the MultiSafepay Control, the reference number is used instead of the _orderID_.<br>
+However, Lightspeed displays a reference number _ORD_ which is often mistaken for an orderID. Due to this confusion, it happens that when generating a payment link in your MultiSafepay account, the reference number is used instead of the _orderID_.<br>
 
-Therefore, when using a reference number, a payment received through a payment link generated in your MultiSafepay control is not linked to the _orderID_ of the ecommerce platform of Lightspeed.
+Therefore, when using a reference number, a payment received through a payment link generated in your MultiSafepay account is not linked to the _orderID_ of the ecommerce platform of Lightspeed.
 
-The _orderID_ that should be used when generating a payment link in your MultiSafepay Control is displayed in the URL of the ecommerce platform of Lightspeed.  
+The _orderID_ that should be used when generating a payment link in your MultiSafepay account is displayed in the URL of the ecommerce platform of Lightspeed.  
 
 In the order detail page of the ecommerce platform of Lightspeed, the correct _orderID_ will be displayed in the URL.
 

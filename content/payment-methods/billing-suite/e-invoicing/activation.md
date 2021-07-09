@@ -14,23 +14,23 @@ logo: '/logo/Payment_methods/Klarna.svg'
 
 2. Email your application to your account manager at <sales@multisafepay.com>
 
-3. MultiSafepay activates E-invoicing in your MultiSafepay Control.
+3. MultiSafepay activates E-invoicing in your MultiSafepay account.
 
 ## Setup
 
-To set up E-invoicing in your MultiSafepay Control, follow these steps:
+To set up E-invoicing in your MultiSafepay account, follow these steps:
 
 {{< details title="1. Create an action" >}}
 
 Create an action in the form of an email, text message, or letter. Multiple actions form a collection flow. 
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **E-invoicing** > **Action**.
 3. Click **Add new template**.
 4. Select the relevant delivery option(s): **Email address**, **SMS**, or **Letter**.
 5. For each delivery option, provide a description, e.g. "NL 1st invoice".
 6. Select a language.
-7. The default **From address** is `noreply@multisafepay.com`. When you edit this address, we recommend also adding a DNS record to your domain to avoid your messages being marked as spam. For more information, see your MultiSafepay Control.
+7. The default **From address** is `noreply@multisafepay.com`. When you edit this address, we recommend also adding a DNS record to your domain to avoid your messages being marked as spam. For more information, see your MultiSafepay account.
 8. Enter a **From name**.
 9. Enter a **Subject line**, e.g. "Invoice from Amazing Socks Ltd."
 10. **Plain body** indicates unformatted text. Design your preferred layout.
@@ -83,7 +83,7 @@ For questions about your order, call customer service on 0208500500 or email exa
 
 To create a collection flow, follow these steps:
 
-1. In your MultiSafepay Control, go to **E-invoicing** > **Workflows**.
+1. in your MultiSafepay account, go to **E-invoicing** > **Workflows**.
 2. Click **Create new**.
 3. Under **Settings**, select a template. 
 4. In the **Description** field, enter a name for the collection flow, e.g. "B2B Netherlands".
@@ -107,9 +107,9 @@ To create a collection flow, follow these steps:
 
 {{< details title="3. Activate the collection flow" >}}
 
-To activate your collection flow, follow these steps to link it to a specific website in your MultiSafepay Control:
+To activate your collection flow, follow these steps to link it to a specific website in your MultiSafepay account:
 
-1. In your MultiSafepay Control, go to **Settings** > **Website settings**.
+1. in your MultiSafepay account, go to **Settings** > **Website settings**.
 2. Click the relevant website to open the **Website settings** page.
 3. From the **E-Invoicing workflow** dropdown menu, select your preferred flow.
 

@@ -6,4 +6,4 @@ read_more: "."
 aliases: 
     - /integrations/zencart/faq/refunding-zen-cart/
 ---
-You can process refunds directly from your ZenCart backend, and from your [MultiSafepay Control](https://merchant.multisafepay.com).
+You can process refunds directly from your ZenCart backend, and from your [MultiSafepay account](https://merchant.multisafepay.com).
