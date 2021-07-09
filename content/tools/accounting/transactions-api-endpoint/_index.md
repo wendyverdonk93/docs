@@ -32,7 +32,7 @@ To access the transactions API endpoint, use the following URLs:
 Requests to this endpoint require a [valid API key](/tools/multisafepay-control/get-your-api-key/). Set your key to the `Authorization` header value, like this:
 
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "Content-Type: application/json" --header "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "Content-Type: application/json" --header "api_key: <your-account-api-key>"
 ```
 
 **Note:** Use your test API key when making a request to our test API.
@@ -45,7 +45,7 @@ You can use the following parameters to filter the returned transactions:
 
 | Parameter | Description                  |
 |------------------|-----------------------|
-| site_id{{< br >}}`integer`| Only transactions for specified `site_id` are returned. Find your site IDs in MultiSafepay Control. By default, requests return the transactions of all sites under your account. {{< br >}} **Format:** Site ID (e.g. `12345`) |
+| site_id{{< br >}}`integer`| Only transactions for specified `site_id` are returned. Find your site IDs in your MultiSafepay account. By default, requests return the transactions of all sites under your account. {{< br >}} **Format:** Site ID (e.g. `12345`) |
 | created_from{{< br >}}`string` | Transactions created from `created_from` are returned. This filter is inclusive, meaning that a transaction created on the specified timestamp is returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-01T12:00:00` or `2021-01-01`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609502400`) {{< br >}} **Note:** All timestamps are in CET/CEST timezone.  |
 | created_until{{< br >}}`string` | Transactions created before `created_until` are returned. This filter is exclusive, meaning that a transaction created on the specified timestamp isn't returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-02T12:00:00` or `2021-01-02`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609588800`) {{< br >}} **Note:** All timestamps are in CET/CEST timezone. |
 | completed_from{{< br >}}`string` | Transactions completed from `completed_from` are returned. This filter is inclusive, meaning that a transaction completed on the specified timestamp is returned. {{< br >}} **Format:** Multiple formats are possible and automatically detected by our API: {{< br >}} → [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. `2021-01-01T12:00:00` or `2021-01-01`) {{< br >}} → [Unix time](https://en.wikipedia.org/wiki/Unix_time) (e.g. `1609502400`) {{< br >}} **Note:** All timestamps are in CET/CEST timezone. |
@@ -108,7 +108,7 @@ To create a general overview of your transactions, no parameters are required. O
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "accept: application/json" --header "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
 
 ### Perform reconciliation
@@ -126,7 +126,7 @@ _I want to match mutations to justify the balance in my accounting or bookkeepin
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" --header "accept: application/json" --header "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_from=2021-01-01&completed_until=2021-02-01" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
 
 ### Create a refund overview
@@ -144,7 +144,7 @@ Use parameters `created_from` and `created_until` to specify a date range of cre
 
 #### Sample request
 ```
-curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" --header "accept: application/json" --header "Authorization: Bearer <your-api-key>"
+curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
 
 ## Support

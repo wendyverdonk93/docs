@@ -9,7 +9,7 @@ aliases:
     - /integrations/lightspeed_app/faq/refunding-lightspeed
 ---
 
-You can refund orders and issue credit notes in your [MultiSafepay Control](https://merchant.multisafepay.com) and from your Lightspeed backend.
+You can refund orders and issue credit notes in your [MultiSafepay account](https://merchant.multisafepay.com) and from your Lightspeed backend.
 
 To enable refunds from your Lightspeed backend, follow these steps:
 
@@ -19,11 +19,13 @@ To enable refunds from your Lightspeed backend, follow these steps:
 
 ## Known issues
 
+- If you use Lightspeed [Retail](https://www.lightspeedhq.nl/kassasysteem/retail/), you cannot process refunds via MultiSafepay.
+
 - When creating a credit memo for a refund, set the status to **Not paid**. MultiSafepay ignores **Paid** status.
 
 - When a refund is created in your Lightspeed backend, a short message appears in the notes section of the order. Any errors are explained here.
 
-- Refunds created in your MultiSafepay Control are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
+- Refunds created in your MultiSafepay account are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
 
 - Some [billing suite](https://docs.multisafepay.com/payment-methods/billing-suite/) payment methods do not let you refund a partial amount and a full item in a single request, e.g.: a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 

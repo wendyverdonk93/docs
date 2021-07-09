@@ -1,6 +1,6 @@
 ---
 weight: 220
-meta_title: "API - Create a Direct Order - MultiSafepay Docs"
+meta_title: "API Reference - Create a Direct Order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -55,15 +55,15 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "first_name": "Simon",
       "last_name": "Smit",
       "company_name": null,
-      "address1": "Bloemstraat",
-      "address2": "Jordaan",
-      "address2": "123",
-      "zip_code": "1000 AB",
+      "address1": "Kraanspoor",
+      "address2": "",
+      "house_number": "39C",
+      "zip_code": "1033SC",
       "city": "Amsterdam",
-      "state": "Noord-Holland",
+      "state": "NH",
       "country": "NL",
       "country_name": "The Netherlands",
-      "phone1": "0600000001",
+      "phone1": "0208500500",
       "phone2": "00310000001",
       "email": "simonsmit@example.com"
     },
@@ -131,7 +131,7 @@ The unique gateway id to immediately direct the customer to the payment method. 
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __gateway_info__ | object

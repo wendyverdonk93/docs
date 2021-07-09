@@ -1,6 +1,6 @@
 ---
 weight: 604
-meta_title: "API - Tokenization - Original transaction - MultiSafepay Docs"
+meta_title: "API Reference - Tokenization - Original transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -29,14 +29,14 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 "forwarded_ip": "",
                 "first_name": "Simon",
                 "last_name": "Smit",
-                "address1": "Bloemstraat",
-                "address2": "123",
-                "zip_code": "1000 AB",
+                "address1": "Kraanspoor",
+                "house_number": "39C",
+                "zip_code": "1033SC",
                 "city": "Amsterdam",
                 "country": "NL",
                 "birthday": "1970-07-10",
                 "gender": "mr",
-                "phone": "0600000001",
+                "phone": "0208500500",
                 "email": "simonsmit@example.com",
                 "referrer": "http://example.com",
                 "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
@@ -112,7 +112,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this.
 
 ----------------
 __payment_options__ | object

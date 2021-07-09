@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Generating a payment link
 
-For several scenarios, it can be useful for our merchants to generate a payment link. The payment link allows MultiSafepay Control to create a unique transaction that the payment can be matched with.
+For several scenarios, it can be useful for our merchants to generate a payment link. The payment link lets your MultiSafepay account create a unique transaction that the payment can be matched with.
 
 ### Second Chance
 
@@ -62,7 +62,7 @@ As per GDPR requirements, MultiSafepay does not submit emails by default. If you
 
 __type__ | string
 
-Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in the MultiSafepay Control under _Tools_ > _Payment link generator_
+Specifies the payment flow for the checkout process. Fill in 'paymentlink'. It must be noted that orders with "type": "paymentlink" will be visible in your MultiSafepay account under _Tools_ > _Payment link generator_
 
 
 ----------------
@@ -88,7 +88,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 

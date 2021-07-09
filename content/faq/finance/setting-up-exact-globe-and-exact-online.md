@@ -8,7 +8,7 @@ aliases:
     - /faq/general/set-up-exact-globe-platform
 ---
 
-You can export MultiSafepay MT940 accountant reports from your MultiSafepay Control and import them into your Exact Globe or Exact Online account. 
+You can export MultiSafepay MT940 accountant reports from your MultiSafepay account and import them into your Exact Globe or Exact Online account. 
 
 You must first provide Exact with an additional international bank account number (IBAN). This can be a _dummy_, or placeholder, IBAN.  
 
@@ -35,7 +35,7 @@ You can now register all transactions linked to this IBAN.
 
 ## Exporting from MultiSafepay Control
 
-1. In your MultiSafepay Control, navigate to **Reports** > **Accountant Export**. 
+1. in your MultiSafepay account, navigate to **Reports** > **Accountant Export**. 
 2. In **Data Selection**, select a date range.
 3. In the **Report Type** field, select **MT940**.
 4. Click **Advanced options**.

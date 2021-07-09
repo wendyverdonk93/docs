@@ -22,4 +22,4 @@ Please kindly upload the following documents and follow the payment instruction 
 
 *	A copy of your company’s’ bank statement through your online banking environment including the IBAN and company name. Please note: the company name on your bank statement must be matching the company name on the Chamber of Commerce extract.
 
-*	A payment in the amount of 1 EUR transferred from your business bank account (this procedure can also be initiated in the MultiSafepay Control).
+*	A payment in the amount of 1 EUR transferred from your business bank account (this procedure can also be initiated in your MultiSafepay account).

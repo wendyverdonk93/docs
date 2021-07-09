@@ -1,6 +1,6 @@
 ---
 weight: 270
-meta_title: "API - Dynamic template - MultiSafepay Docs"
+meta_title: "API Reference - Dynamic template - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -132,7 +132,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Dynamic Template
 
-You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay Control or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
+You can define the template of the MultiSafepay payment page within a transaction request. This can be done by providing a template_id of a predefined template within your MultiSafepay account or by providing a template object structure within the transaction request. When both are provided, the template object is primary.
 
 The template object structure needs to include the JSON CSS parameters. When sending partial CSS settings within the template structure, only the sent parameter will override the default MultiSafepay template.
 
@@ -164,7 +164,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __payment_options__ | object

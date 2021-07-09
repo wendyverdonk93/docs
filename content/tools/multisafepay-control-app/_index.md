@@ -1,7 +1,7 @@
 ---
-title: 'MultiSafepay Control App'
+title: 'MultiSafepay app'
 weight: 30
-meta_title: "MultiSafepay Control App - MultiSafepay Docs"
+meta_title: "MultiSafepay app - MultiSafepay Docs"
 layout: 'faqplugins'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/MultiSafepay_Control_App.svg'

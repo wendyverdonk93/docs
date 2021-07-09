@@ -8,7 +8,7 @@ aliases:
     - /tools/multisafepay-control/manually-generated-payment-link
 ---
 
-Payment links create a unique transaction in your [MultiSafepay Control](https://merchant.multisafepay.com/) to match to a payment.
+Payment links create a unique transaction in your [MultiSafepay account](https://merchant.multisafepay.com/) to match to a payment.
 
 ### Supported payment methods and payment links 
 
@@ -27,7 +27,7 @@ You might need to manually generate a payment link if:
 
 To manually generate a payment link, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 
 2. Go to **Tools** > **Payment link generator**.
  
@@ -73,7 +73,7 @@ In advanced mode, you can enter the order items and add extra information about 
 
 To view all manually generated payment links, including the date of creation and status:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 
 2. Go to **Tools** > **Payment link generator**.
 
@@ -81,7 +81,7 @@ To view all manually generated payment links, including the date of creation and
 
 To cancel a payment link:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 
 2. Go to **Tools** > **Payment link generator**.
 

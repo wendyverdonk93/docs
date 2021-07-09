@@ -27,4 +27,4 @@ Under **Brand information**, you can set up and manage your brand including:
 ## Support 
 For support, see Klarna - [Klantenservice](https://www.klarna.com/nl/klantenservice/).
 
-**Note:** You can no longer view PDF invoices in your MultiSafepay Control. 
+**Note:** You can no longer view PDF invoices in your MultiSafepay account. 

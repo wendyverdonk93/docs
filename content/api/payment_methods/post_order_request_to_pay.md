@@ -1,6 +1,6 @@
 ---
 weight: 311
-meta_title: "API - Create a Request to Pay transaction - MultiSafepay Docs"
+meta_title: "API Reference - Create a Request to Pay transaction - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 aliases: [/api/#direct-bank-transfer]
 ---
@@ -84,16 +84,16 @@ aliases: [/api/#direct-bank-transfer]
       "custom_3": null
     },
     "customer": {
-      "address1": "Bloemstraat",
+      "address1": "Kraanspoor",
       "city": "Amsterdam",
       "country": "NL",
       "email": "simonsmit@example.com",
       "first_name": "Simon",
-      "address2": "123",
+      "house_number": "39C",
       "last_name": "Smit",
       "locale": "nl_NL",
-      "phone1": "0600000001",
-      "zip_code": "1000 AB"
+      "phone1": "0208500500",
+      "zip_code": "1033SC"
     },
     "description": "Test Order Description",
     "fastcheckout": "NO",
@@ -175,7 +175,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __payment_options__ | object

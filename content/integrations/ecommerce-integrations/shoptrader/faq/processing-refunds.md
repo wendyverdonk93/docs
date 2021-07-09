@@ -5,6 +5,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 ---
 
-You can process refunds from your [MultiSafepay Control](https://merchant.multisafepay.com).
+You can process refunds from your [MultiSafepay account](https://merchant.multisafepay.com).
 
 To process refunds from your Shoptrader backend, email the Integration Team at <integration@multisafepay.com>

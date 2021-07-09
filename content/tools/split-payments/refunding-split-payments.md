@@ -15,14 +15,14 @@ Example: Account A receives a payment of 80 EUR of which 10 EUR is going to acco
 
 To refund a split payment, follow these steps:
 
-1. Log in to your [MultiSafepay Control](https://merchant.multisafepay.com).
+1. Log in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and open the **Transaction details** page.
 4. Click **Refund**.
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.
 
-By default, MultiSafepay does not allow you to refund more than the amount of the original transaction. But you can now refund more than originally received in your MultiSafepay Control, e.g. refunding the return costs incurred by the customer. For more information, see [Refunding more than the original amount](/faq/finance/refund-more-than-original-amount).
+By default, MultiSafepay does not allow you to refund more than the amount of the original transaction. But you can now refund more than originally received in your MultiSafepay account, e.g. refunding the return costs incurred by the customer. For more information, see [Refunding more than the original amount](/faq/finance/refund-more-than-original-amount).
 
 The transaction status is now **Initialized**. As long as the transaction status is remains **Initialized**, you can cancel the refund. 
 

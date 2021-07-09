@@ -1,7 +1,7 @@
 ---
 title: "Difference between status and financial status"
 weight: 3
-meta_title: "FAQ API - Difference between status and financial status - MultiSafepay Docs"
+meta_title: "FAQ API Reference - Difference between status and financial status - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
@@ -15,7 +15,7 @@ In the [API](/api):
     "financial_status": "",
 ```
 
-`status`: Status of the webshop order. In your MultiSafepay Control, this is the **Order status**.
+`status`: Status of the webshop order. in your MultiSafepay account, this is the **Order status**.
 
-`financial_status`: Payout of the transaction. In your MultiSafepay Control, this is the **Status**.
+`financial_status`: Payout of the transaction. in your MultiSafepay account, this is the **Status**.
 

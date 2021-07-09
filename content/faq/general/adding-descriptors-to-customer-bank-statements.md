@@ -8,7 +8,7 @@ aliases:
     -/faq/general/descriptor-bank-statement
 ---
 
-You can add a descriptor on customer bank statements to identify charges. We recommend using your company name as the descriptor. You can add descriptors in your [MultiSafepay Control](https://merchant.multisafepay.com) by following these steps:
+You can add a descriptor on customer bank statements to identify charges. We recommend using your company name as the descriptor. You can add descriptors in your [MultiSafepay account](https://merchant.multisafepay.com) by following these steps:
 
 1. Navigate to **Settings** > **Website settings**.
 2. In the **Name** field, enter your company name.

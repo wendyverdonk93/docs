@@ -1,6 +1,6 @@
 ---
 title : "Notification URL"
-meta_title: "FAQ API - Notification URL - MultiSafepay Docs"
+meta_title: "FAQ API Reference - Notification URL - MultiSafepay Docs"
 weight: 9
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
@@ -96,7 +96,7 @@ If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend th
 ### Note:
 
 - Always use **https** in the `notification_url`.
-- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay Control](https://merchant.multisafepay.com).
+- Specifying a `notification_url` in the `POST /orders` request overrides the Notification URL set in your [MultiSafepay account](https://merchant.multisafepay.com).
 - Never include port numbers in your notification URL. For security reasons, we only process standard ports.
 - Make sure you authorize our [IP ranges](/faq/general/ip-ranges) to access the notification URL.
 

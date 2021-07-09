@@ -1,6 +1,6 @@
 ---
 weight: 260
-meta_title: "API - Retrieve an order - MultiSafepay Docs"
+meta_title: "API Reference - Retrieve an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -34,20 +34,20 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
       "locale": "nl_NL",
       "first_name": "Simon",
       "last_name": "Smit",
-      "address1": "Bloemstraat",
-      "address2": "Jordaan",
-      "address2": "123",
-      "zip_code": "1000 AB",
+      "address1": "Kraanspoor",
+      "address2": "",
+      "house_number": "39C",
+      "zip_code": "1033SC",
       "city": "Amsterdam",
-      "state": "Noord-Holland",
+      "state": "NH",
       "country": "NL",
       "country_name": "The Netherlands",
-      "phone1": "0600000001",
+      "phone1": "0208500500",
       "phone2": "00310000001",
       "email": "simonsmit@example.com"
     },
     "payment_details": {
-      "recurring_id": "{Recurring_id}",
+      "recurring_id": 133761993_gTp2,
       "type": "VISA",
       "account_id": null,
       "account_holder_name": "Testperson-nl Approved",

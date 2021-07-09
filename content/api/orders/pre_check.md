@@ -1,6 +1,6 @@
 ---
 weight: 220
-meta_title: "API - Order pre-check - MultiSafepay Docs"
+meta_title: "API Reference - Order pre-check - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -26,9 +26,9 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         "forwarded_ip": "",
         "first_name": "Simon",
         "last_name": "Smit",
-        "address1": "Bloemstraat",
-        "address2": "123",
-        "zip_code": "1000 AB",
+        "address1": "Kraanspoor",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
         "email": "simonsmit@example.com",
@@ -38,12 +38,12 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "delivery": {
         "first_name": "Simon",
         "last_name": "Smit",
-        "address1": "Bloemstraat",
-        "address2": "123",
-        "zip_code": "1000 AB",
+        "address1": "Kraanspoor",
+        "house_number": "39C",
+        "zip_code": "1033SC",
         "city": "Amsterdam",
         "country": "NL",
-        "phone": "0600000001",
+        "phone": "0208500500",
         "email": "simonsmit@example.com"
     },
     "shopping_cart": {
@@ -208,7 +208,7 @@ The unique gateway id to immediately direct the customer to the payment method. 
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __gateway_info__ | object

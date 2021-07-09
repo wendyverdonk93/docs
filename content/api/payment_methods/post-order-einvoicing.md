@@ -1,6 +1,6 @@
 ---
 weight: 313
-meta_title: "API - Create E-invoicing order - MultiSafepay Docs"
+meta_title: "API Reference - Create E-invoicing order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -19,10 +19,10 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "items": "",
     "manual": false,
     "gateway_info": {
-        "birthday": "1970-07-10",
+        "birthday": "1980-01-30",
         "bankaccount": "0417164300",
-        "phone": "0600000001",
-        "email": "simonsmit@example.com"
+        "phone": "0208500500",
+        "email": "example@multisafepay.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -74,6 +74,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         }
     }
 }
+
 ```
 
 > JSON Response 
@@ -83,7 +84,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {
     "success": true,
     "data": {
-        "transaction_id": 123456789
+        "transaction_id": 2340676,
         "order_id": "my-order-id-1",
         "created": "2017-09-29T16:13:10",
         "currency": "EUR",
@@ -111,7 +112,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 {
                     "name": "Item demo 1",
                     "description": "",
-                    "unit_price": 90.00,
+                    "unit_price": "90.00",
                     "currency": "EUR",
                     "quantity": 2,
                     "merchant_item_id": 666666,
@@ -128,7 +129,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                 {
                     "name": "Item shipping - Flat Rate - Fixed",
                     "description": "Shipping",
-                    "unit_price": 10.00,
+                    "unit_price": "10.00",
                     "currency": "EUR",
                     "quantity": 1,
                     "merchant_item_id": "msp-shipping",
@@ -153,7 +154,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
                     "rules": [
                         {
                             "rate": 0.00,
-                            "country": "NL"
+                            "country": ""
                         }
                     ]
                 }
@@ -163,7 +164,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
             "total_adjustment": "0.00",
             "total_tax": "0.00"
         },
-        "order_total": "260.00",
+        "order_total": 260.00,
         "costs": [],
         "payment_url": "http://www.example.com/client/?action=notification&type=redirect&transactionid=2340676",
         "cancel_url": "http://www.example.com/client/?action=notification&type=cancel&transactionid=2340676"
@@ -182,7 +183,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
     "description": "Test Order Description",
     "manual": false,
     "gateway_info": {
-        "email": "simonsmit@example.com"
+        "email": "example@multisafepay.com"
     },
     "payment_options": {
         "notification_url": "http://www.example.com/client/notification?type=notification",
@@ -220,19 +221,18 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
         ]
     },
     "checkout_options": {
-        "default": {
-        },
-        "alternate": [
-            {
-                "name": "none",
-                "rules": [
-                    {
-                        "rate": 0.00,
-                        "country": "NL"
-                    }
-                ]
-            }
-        ]
+        "tax_tables": {
+            "alternate": [
+                {
+                    "name": "none",
+                    "rules": [
+                        {
+                            "rate": 0.00
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }
 ```
@@ -290,7 +290,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __payment_options__ | object
@@ -413,7 +413,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __payment_options__ | object

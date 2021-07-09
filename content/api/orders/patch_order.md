@@ -1,6 +1,6 @@
 ---
 weight: 250
-meta_title: "API - Update an order - MultiSafepay Docs"
+meta_title: "API Reference - Update an order - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 {{< code-block >}}
@@ -73,7 +73,7 @@ Add a short free text memo to the order when setting the shipping status.
 ----------------
 __invoice_id__ | string
 
-Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control.
+Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within your MultiSafepay account.
 
 ----------------
 __invoice_url__ | string

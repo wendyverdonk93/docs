@@ -25,9 +25,9 @@ weight: 1350
        "ip_address": "123.123.123.123",
        "first_name": "Simon",
        "last_name": "Smit",
-       "address1": "Bloemstraat",
-       "address2": "123",
-       "zip_code": "1000 AB",
+       "address1": "Kraanspoor",
+       "house_number": "39C",
+       "zip_code": "1033SC",
        "city": "Amsterdam",
        "country": "NL",
        "email": "simonsmit@example.com",
@@ -96,7 +96,7 @@ The amount (in cents) that the customer needs to pay.
 ----------------
 __description__ | string
 
-A text which will be shown with the order in MultiSafepay Control. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
+A text which will be shown with the order in your MultiSafepay account. If the customer's bank supports it this description will also be shown on the customer's bank statement. Max. 200 characters. HTML is not supported. Use the 'items' or 'shopping_cart' objects for this.
 
 ----------------
 __payment_options__ | object

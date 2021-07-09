@@ -1,6 +1,6 @@
 ---
 title : "Unmasking IBAN numbers"
-meta_title: "FAQ API - Unmasking IBAN numbers - MultiSafepay Docs"
+meta_title: "FAQ API Reference - Unmasking IBAN numbers - MultiSafepay Docs"
 weight: 20
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
@@ -21,7 +21,7 @@ You can still perform most business operations with masked IBAN, e.g. processing
 
 To unmask IBAN for a specific website, follow these steps:
 
-1. In your MultiSafepay Control, go to **Settings** > **Website settings**.
+1. in your MultiSafepay account, go to **Settings** > **Website settings**.
 2. Click the relevant website.
 3. Under **Website functionality**, click the **Unmask IBAN numbers in API requests and responses** toggle.
 

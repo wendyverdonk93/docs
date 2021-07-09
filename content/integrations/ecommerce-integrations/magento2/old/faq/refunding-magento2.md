@@ -11,6 +11,6 @@ In the Magento backoffice, go to the Invoices tab, click on the invoice that was
 * Offline refund: refund request will not be sent to MultiSafepay
 * Refund: a refund request will be sent to MultiSafepay.
 
-You can also refund from your [MultiSafepay Control](https://merchant.multisafepay.com)
+You can also refund from your [MultiSafepay account](https://merchant.multisafepay.com)
 
-_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay Control](https://merchant.multisafepay.com)_
+_Note: Refunding from the Magento 2 backend is disabled when the order has a Fooman Surcharge. It is still possible to refund those orders through [MultiSafepay account](https://merchant.multisafepay.com)_

@@ -48,7 +48,7 @@ Add a website to an affiliated merchant account.
 curl -X POST "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
 --header "accept: application/json" 
 --header "Content-Type: application/json" \
---header "Authorization: Bearer <your-api-key>" \
+--header "api_key: <your-account-api-key>" \
 --data-raw '{
   "name":"Funcompany",
   "notification_url":"https://funcompany.com/transactionhook",
@@ -102,7 +102,7 @@ Retrieve an array of all websites linked to a merchant account.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/account/12345678/sites" \
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>" 
+--header "api_key: <your-account-api-key>" 
 ```
 {{< /collapse >}}
 
@@ -152,7 +152,7 @@ Retrieve a single website by its identifier.
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/account/sites/12345" \
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>" 
+--header "api_key: <your-account-api-key>" 
 ```
 {{< /collapse >}}
 
@@ -208,7 +208,7 @@ Update information about an existing website.
 ```
 curl -X PATCH "https://testapi.multisafepay.com/v1/json/sites/12345" \
 --header "accept: application/json" \
---header "Authorization: Bearer <your-api-key>" \
+--header "api_key: <your-account-api-key>" \
 --header "Content-Type: application/json" \
 --data-raw '{
   "notification_url": "https://funcompany.com/newhook"

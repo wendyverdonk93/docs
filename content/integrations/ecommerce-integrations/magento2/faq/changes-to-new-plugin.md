@@ -9,7 +9,7 @@ read_more: "."
 ## Changes to refunds
 After deleting the deprecated plugin and installing the new one, the payment gateways from the deprecated plugin are no longer available in Magento.
 
-You can refund transactions processed through these gateways in your [MultiSafepay Control](https://merchant.multisafepay.com), but **not** from your Magento 2 backend.
+You can refund transactions processed through these gateways in your [MultiSafepay account](https://merchant.multisafepay.com), but **not** from your Magento 2 backend.
 
 ## Changes to configuration fields
 Under **General settings**, we have changed the following configuration fields from the deprecated plugin.
@@ -34,7 +34,7 @@ All MultiSafepay statuses now set the order to the default **Canceled** status v
 We have removed this field. Payment links are now generated automatically. See [Retrieving payment links](/integrations/ecommerce-integrations/magento2/faq/retrieving-payment-links/).
 
 ### Reset gateway
-We have removed this field. When creating an order in the Magento 2 backend, you can now select the MultiSafepay payment gateway instead. The payment gateway displays all active payment gateways to the customer based on the website settings in your MultiSafepay Control. 
+We have removed this field. When creating an order in the Magento 2 backend, you can now select the MultiSafepay payment gateway instead. The payment gateway displays all active payment gateways to the customer based on the website settings in your MultiSafepay account. 
 
 To enable or disable the gateway on your checkout page, we have added the **Can use checkout** configuration field.
 

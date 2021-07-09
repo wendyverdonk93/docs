@@ -1,7 +1,7 @@
 ---
 title : " Using email template tokens"
 weight: 8
-meta_title: "MultiSafepay Control - Using email template tokens - MultiSafepay Docs"
+meta_title: "MultiSafepay account - Using email template tokens - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
@@ -33,7 +33,7 @@ In MultiSafepay email templates, you can use the following tokens between @@:
 | BANKTRANSFERID                | Reference used with the bank transfer |
 | BIRTHYDAY                     | Customer date of birth |
 | CITY                          | Your company city of residence |
-| COMPANYNAME                   | Your company name given in your MultiSafepay Control |
+| COMPANYNAME                   | Your company name given in your MultiSafepay account |
 | CONTENT                       | Shopping cart info |
 | COUNTRY                       | [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code for your company country |
 | COUNTRYCODE                   | [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code for your company country |
@@ -58,11 +58,11 @@ In MultiSafepay email templates, you can use the following tokens between @@:
 | MERCHANTTRANSACTIONID         | Your reference number |
 | PAYLINK                       | Link to the MultiSafepay payment page for this transaction |
 | PAYMENTMETHOD                 | Payment method used for this transaction |
-| PHONE                         | Your company phone number given in your MultiSafepay Control |
+| PHONE                         | Your company phone number given in your MultiSafepay account |
 | REFUNDDESTINATION             | Bank account number to receive the refund |
 | REPORT EMAIL                  | Email address to receive report emails |
-| SITENAME                      | Nname of your webshop given in your MultiSafepay Control |
-| SITEURL                       | URL of your webshop given in your MultiSafepay Control |
+| SITENAME                      | Nname of your webshop given in your MultiSafepay account |
+| SITEURL                       | URL of your webshop given in your MultiSafepay account |
 | STATE                         | Province or state within the country |
 | STATUS                        | Status of the transaction |
 | SUBJECT                       | Subject of the email |
@@ -72,5 +72,5 @@ In MultiSafepay email templates, you can use the following tokens between @@:
 | VARA                          | var1 from your transaction request |
 | VARB                          | var2 from your transaction request |
 | VARC                          | var3 from your transaction request |
-| VATNUMBER                     | Your VAT number given in your MultiSafepay Control |
+| VATNUMBER                     | Your VAT number given in your MultiSafepay account |
 | ZIPCODE                       | Your company zip code |

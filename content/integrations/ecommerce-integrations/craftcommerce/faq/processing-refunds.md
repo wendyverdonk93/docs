@@ -8,7 +8,7 @@ aliases:
     - /integrations/ecommerce-integrations/craftcommerce/faq/refunding-craft-commerce/
 ---
 
-You can process refunds for all payment methods except billing suites from your [MultiSafepay Control](https://merchant.multisafepay.com) or the Craft CMS admin panel.
+You can process refunds for all payment methods except billing suites from your [MultiSafepay account](https://merchant.multisafepay.com) or the Craft CMS admin panel.
 
 To process refunds from the Craft Commerce admin panel:  
 
@@ -16,7 +16,7 @@ To process refunds from the Craft Commerce admin panel:
 2. Select the order.
 3. To see the refund options, go to the **Transactions** tab.
 
-For generic gateway transactions, you can only process refunds through [MultiSafepay Control](https://merchant.multisafepay.com/). 
+For generic gateway transactions, you can only process refunds through [MultiSafepay account](https://merchant.multisafepay.com/). 
 
  
 

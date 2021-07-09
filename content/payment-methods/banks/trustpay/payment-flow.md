@@ -26,9 +26,8 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
 | 2. | MultiSafepay generates a payment link. |   |  |
 | 3. | The customer authenticates their account and completes the payment. | | |
-| 4. | The transaction is successful.  | Completed | Completed |
-| 5. | TrustPay settles the funds with MultiSafepay.| | |
-| 6. | MultiSafepay adds the funds to your MultiSafepay balance.| | |
+| 4. | The transaction is successful.  |  |  |
+| 5. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
 
 ## Unsuccessful statuses
 
@@ -47,7 +46,7 @@ For refund statuses, see [Processing refunds](/payment-methods/banks/trustpay/us
 
 
 ## How it works
-If the transaction is approved by TrustPay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay Control.
+If the transaction is approved by TrustPay, the transaction status will change to _completed_ and MultiSafepay will add the funds to the balance of your MultiSafepay account.
 
 ### Transaction flow
 The transaction flow shows the different ways a transaction can be processed. This differs per payment method.
@@ -62,7 +61,7 @@ The transaction status indicates the payment status of the transaction, such as 
 | Order Status | Transaction Status | Description                                                                                                          |
 |--------------|------------------|----------------------------------------------------------------------------------------------------------------------|
 | Initialized  | Initialized      | A payment link has been generated, but no payment has been received yet.                                             | 
-| Completed    | Completed        | A successful Trustpay transaction has been received and the funds will be added to your MultiSafepay Control balance.  | 
+| Completed    | Completed        | A successful Trustpay transaction has been received and the funds will be added to your MultiSafepay account balance.  | 
 | Declined     | Declined         | Transaction has been rejected.                                                                                       | 
 | Expired      | Expired          | An unfinished transaction will automatically expire after a predefined period.                                       | 
 | Void         | Cancelled        | Transaction has been cancelled.                                                                                       | 

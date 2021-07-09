@@ -48,7 +48,7 @@ All credit card transactions pass through our fraud filter.
 |--------------------------------|-----------|-----------------------------------------------------------------------------------------|
 | Initialized | Initialized | A payment link has been generated, but no payment has been received yet.  | 
 | Uncleared   | Initialized | Waiting for manual permission of the merchant to approve/disapprove the payment. [Read more on accepting uncleared credit card payments, how and why?](/faq/risk-and-fraud/how-to-accept-an-uncleared-transaction)  | 
-| Completed   | Initialized | A successful credit card  transaction has been received and the funds will be added to your MultiSafepay Control balance.   | 
+| Completed   | Initialized | A successful credit card  transaction has been received and the funds will be added to your MultiSafepay account balance.   | 
 
 
 ### Refund flow

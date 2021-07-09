@@ -14,5 +14,5 @@ To enable this option:
 
 1. Email your request to your account manager at <sales@multisafepay.com>
 2. The Risk Team assesses your application. 
-3. Once approved, the Risk Team enables the **allow more than original** function in your MultiSafepay Control.
-4. Activate the function in your MultiSafepay Control account. 
+3. Once approved, the Risk Team enables the **allow more than original** function in your MultiSafepay account.
+4. Activate the function in your MultiSafepay account account. 

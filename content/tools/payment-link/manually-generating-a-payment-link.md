@@ -7,11 +7,11 @@ read_more: '.'
 ---
 
 ### MultiSafepay Control
-Information regarding manually generating a payment link by using the [MultiSafepay Control](https://merchant.multisafepay.com) can be found in our in-depth [documentation](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
+Information regarding manually generating a payment link by using your [MultiSafepay account](https://merchant.multisafepay.com) can be found in our in-depth [documentation](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
 
-### MultiSafepay Control App
+### MultiSafepay app
 
-If you wish to generate a payment link by using the MultiSafepay Control App, this can simply be executed by following these instructions:
+If you wish to generate a payment link by using the MultiSafepay app, this can simply be executed by following these instructions:
 
 1. Go to Tools –> _Payment link generator_
 2. Fill in the required fields

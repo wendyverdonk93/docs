@@ -53,7 +53,7 @@ The current status of the order.
 ----------------
 __invoice_id__ | integer / string
 
-Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within MultiSafepay Control (max. 50 chars).  
+Update an existing order with a reference to your internal invoice id. The invoice id will be added to financial reports and exports generated within your MultiSafepay account (max. 50 chars).  
 
 ----------------
 __carrier__ | string

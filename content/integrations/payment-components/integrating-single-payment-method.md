@@ -1,6 +1,6 @@
 ---
-title : "Integrating a single payment gateway"
-breadcrumb_title : "Integrating a single payment gateway"
+title : "Integrating a single payment method"
+breadcrumb_title : "Integrating a single payment method"
 meta_title: "Payment Components - Integrating a single payment gateway - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: 'single'
@@ -166,7 +166,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders" \
     "order_id": "my-order-id-1",
     "gateway": "<GATEWAY>",
     "currency": "EUR",
-    "amount": "100",
+    "amount": 100,
     "description": "Test Order Description",
 ...
     "payment_data": {

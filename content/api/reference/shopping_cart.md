@@ -1,6 +1,6 @@
 ---
 weight: 610
-meta_title: "API - Shopping cart - MultiSafepay Docs"
+meta_title: "API Reference - Shopping cart - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 ---
 
@@ -34,7 +34,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ### description
 | Parameter                          | Type     | Description                                                                          |
 |------------------------------------|----------|--------------------------------------------------------------------------------------|
-| description                         | string  | A text which will be shown with the order in MultiSafepay Control. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this.                                                                            |
+| description                         | string  | A text which will be shown with the order in your MultiSafepay account. If the customer’s bank supports it this description will also be shown on the customer’s bank statement. Max. 200 characters. HTML is not supported. Use the ‘items’ or ‘shopping_cart’ objects for this.                                                                            |
 
 ### unit_price
 

@@ -2,10 +2,13 @@
 title: 'Credit and debit cards'
 breadcrumb_title: "Credit and debit cards"
 layout: 'block'
+faq: '.'
 meta_title: 'Credit and debit cards - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Credit cards.svg'
 short_description: 'Accept credit and debit card payments worldwide'
+intro_description: 'Credit cards are issued by a bank, building society, or card scheme and let customers pay for products or services on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account.'
+user_guide_title: 'credit cards'
 weight: 20
 data:
   - { title: 'Visa', url: 'creditcards', logo: '/logo/Payment_methods/VISA.svg' }
@@ -26,3 +29,18 @@ aliases:
     - /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
     - /payment-methods/credit-and-debit-cards/creditcards/
 --- 
+
+{{< details title="About credit and debit cards" >}}
+
+Credit and debit cards are plastic cards issued by a bank, building society, or card scheme that let the cardholder pay for products or services at a point of sale, online, or on a mobile app. Cardholders can also withdraw cash, or link their card to digital wallets or other local payment methods.
+
+Credit cards are a very common payment method in many countries. Their widespread acceptance, ease of use, and ability to process payments in multiple currencies make them the ideal choice for many customers.
+
+Cards may feature:
+
+- A card number to uniquely identify the card
+- A 3-4 digit card verification code (CVC) for additional security
+- An expiry date 
+- The cardholder's name 
+
+{{< /details >}}

@@ -28,7 +28,7 @@ Merchant ID
 MerchantID
 multicurrency
 Multisafepay
-MultiSafepay Control app
+MultiSafepay app
 MultiSafepay Control Panel
 MultiSafepay Merchant Control
 MultiSafepay Panel
@@ -49,4 +49,4 @@ webshop admin
 webshop owner customer
 webstore
 webwinkel
-Working days
+working days

@@ -6,4 +6,4 @@ read_more: "."
 aliases: 
     - /integrations/oscommerce/faq/refunding-oscommerce/
 ---
-You can process refunds from your OsCommerce backend and from your [MultiSafepay Control](https://merchant.multisafepay.com).
+You can process refunds from your OsCommerce backend and from your [MultiSafepay account](https://merchant.multisafepay.com).

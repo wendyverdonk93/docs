@@ -6,8 +6,8 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 ---
 
-## MultiSafepay Merchant Control Access
+You can manage affiliated MultiSafepay accounts through the affiliate dashboard. 
 
-Access to the MultiSafepay Control accounts can be done through the Affiliate dashboard. Once an affiliate has been approved a blue _‘Log In’_ button will appear in the _‘Action’_ column for a single merchant. Clicking on this button will direct you a merchants MultiSafepay Control.
+Once an affiliate is approved, to access their account, click the blue **Log in** button that appears in the **Action** column for that merchant.
 
-This dashboard will allow you to see an overview of the affiliates finances, transactions, settings, reports and tools. In addition to this you are also able to initiate refunds or carry out technical integrations.
+The dashboard provides an overview of the affiliate's finances, transactions, settings, reports, and tools. You can also process refunds or carry out technical integrations.

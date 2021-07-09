@@ -601,7 +601,8 @@ a.toc-link {
 
 img.plugin-logo {
     margin: 0rem 1rem 0rem 5rem;
-    width: 4.5rem;
+    max-width: 4.5rem !important;
+    max-height: 4.5rem !important;
 }
 
 img.magento-certimage {

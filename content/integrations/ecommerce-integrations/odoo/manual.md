@@ -54,7 +54,7 @@ Contact us:
 7. On the **Configuration tab**, set **Journal**.
 8. Click **Save**.
 9. To get payment methods from your MultiSafepay account,Oo the **Configuration** tab, click **Pull payment methods**.  
-    Make sure you have activated the relevant payment methods in your [MultiSafepay Control](https://testmerchant.multisafepay.com).
+    Make sure you have activated the relevant payment methods in your [MultiSafepay account](https://testmerchant.multisafepay.com).
 10.  Configure for each payment method separately:  
     - Name  
     - State  

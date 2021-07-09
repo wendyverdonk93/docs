@@ -8,7 +8,7 @@ weight:
 
 You can provide track-and-trace codes to MultiSafepay:
 
-- In your [MultiSafepay Control](https://merchant.multisafepay.com) when you [change the order status to Shipped](/payment-methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/)  
+- In your [MultiSafepay account](https://merchant.multisafepay.com) when you [change the order status to Shipped](/payment-methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/)  
 
   **or**  
 

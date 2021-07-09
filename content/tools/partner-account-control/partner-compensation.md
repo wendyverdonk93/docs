@@ -12,5 +12,4 @@ Partner compensation can only be paid after the partner account has been fully a
 
 Approval can be carried out by clicking the red button on the Partner Dashboard page saying _‘Go to Activation’_.
 
-It takes an average of 3 working days before the account is fully approved and activated.
-
+It takes an average of 3 business days before the account is fully approved and activated.
