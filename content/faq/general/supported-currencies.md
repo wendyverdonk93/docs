@@ -73,7 +73,7 @@ The standard currency for processing all incoming and outgoing transactions is E
 
 Automatic withdrawals are also in Euros. You must schedule withdrawals in other currencies manually. 
 
-For more information about automatic and manual withdrawal, see FAQ Finance – [Paying out funds from your MultiSafepay account](/faq/finance/paying-out-funds-from-your-multisafepay-account/). 
+For more information about automatic and manual withdrawal, see FAQ Finance – [Paying out funds from your account balance](/faq/finance/paying-out-funds-from-your-account-balance/). 
 
 ## Adding multi-currency business bank accounts to your MultiSafepay account
 
