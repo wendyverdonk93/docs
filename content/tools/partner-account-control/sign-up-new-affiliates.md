@@ -10,10 +10,10 @@ read_more: '.'
 
 Once your account has been approved, It is possible to sign up new affiliates through the Partner Account.
 
-Navigate to column on the left side of the Partner Account and click on _Affiliates_. This will direct you to the Affiliate dashboard.
+Navigate to column on the left side of the Partner Account and click on _Affiliates_. This will direct you to the affiliate dashboard.
 On the same page in the top right corner, you will find the partner link which can be sent to new affiliates.
 
-The Affiliate dashboard presents and overview of affiliates that are signed up through your Partner Account Control. The dashboard also allows you have a clear presentation of the following affiliate information:
+The affiliate dashboard presents and overview of affiliates that are signed up through your partner account. The dashboard also allows you have a clear presentation of the following affiliate information:
 
 * Account ID
 * Name

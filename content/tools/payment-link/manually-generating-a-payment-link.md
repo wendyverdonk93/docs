@@ -6,7 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: '.'
 ---
 
-### MultiSafepay Control
+### MultiSafepay account
 Information regarding manually generating a payment link by using your [MultiSafepay account](https://merchant.multisafepay.com) can be found in our in-depth [documentation](https://docs.multisafepay.com/tools/multisafepay-control/manually-generated-payment-link)
 
 ### MultiSafepay app

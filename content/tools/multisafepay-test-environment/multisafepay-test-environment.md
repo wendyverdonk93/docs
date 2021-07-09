@@ -1,7 +1,7 @@
 ---
-title: "MultiSafepay Test Environment"
+title: "MultiSafepay test account"
 weight: 71
-meta_title: "MultiSafepay Test Environment - MultiSafepay Docs"
+meta_title: "MultiSafepay test account - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
@@ -10,9 +10,9 @@ aliases:
 
 Sign up for a free [test account](https://testmerchant.multisafepay.com/signup?_ga=2.239314307.1689046699.1579505297-896219683.1574159857) to see what MultiSafepay can offer merchants.
 
-### Testing MultiSafepay Control
+### Testing your MultiSafepay account
 
-With a test account, you can test the following functionalities of the MultiSafepay Control:
+You can test the following functionalities of your MultiSafepay account:
 
 - **Dashboard:** Overview of website sales, recent transactions, and account balances
 - **Finance:** Schedule automatic payouts and top up your MultiSafepay balance

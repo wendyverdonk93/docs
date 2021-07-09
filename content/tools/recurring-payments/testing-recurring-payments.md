@@ -7,7 +7,7 @@ read_more: '.'
 aliases:
     - /tools/recurring-payments/how-to-test-recurring-payments
 ---
-To enable testing recurring payments in your [MultiSafepay Test Control](https://testmerchant.multisafepay.com), email the Integration Team at <integration@multisafepay.com> 
+To enable testing recurring payments in your [MultiSafepay test account](https://testmerchant.multisafepay.com), email the Integration Team at <integration@multisafepay.com> 
 
 #### SEPA Direct Debit
 
