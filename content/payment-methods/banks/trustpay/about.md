@@ -17,7 +17,7 @@ TrustPay is a bank payment method in the Czech Republic. Customers pay from thei
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Czech Republic  | |
 | **Currencies**  | CZK | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/trustpay/user-guide/processing-refunds) | 
@@ -26,4 +26,4 @@ TrustPay is a bank payment method in the Czech Republic. Customers pay from thei
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).

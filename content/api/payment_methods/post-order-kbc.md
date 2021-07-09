@@ -157,7 +157,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## KBC
 ### Redirect - KBC
 
-Creates a KBC [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a KBC [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -199,7 +199,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------    
 __customer__ | object
@@ -219,7 +219,7 @@ Read more about [KBC](/payment-methods/banks/kbc) on our documentation page.
 
 ### Direct - KBC
 
-Creates a KBC [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates a KBC [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -260,7 +260,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------    
 __customer__ | object

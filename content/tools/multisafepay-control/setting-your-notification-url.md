@@ -8,7 +8,7 @@ aliases:
     - /tools/multisafepay-control/set-your-notification-url
 ---
 
-If you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay account and your [Notification URL](/faq/api/notification-url/) is correctly set, your webshop automatically updates the pending order in your backend.
+If you [manually generate a payment link](/tools/multisafepay-control/manually-generated-payment-link) in your MultiSafepay account and your [Notification URL](/developer/api/notification-url/) is correctly set, your webshop automatically updates the pending order in your backend.
 
 If the notification URL is not correctly set, the order does not update and you may need to manually enter a URL in the **Notification URL** field in your MultiSafepay account:
 

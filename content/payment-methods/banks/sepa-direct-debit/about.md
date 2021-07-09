@@ -20,7 +20,7 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | SEPA region  | [More information](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf) |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/sepa-direct-debit/user-guide/processing-refunds) | 
@@ -29,7 +29,7 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 
 ## Product rules
 
-You cannot [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
 ## Chargebacks
 SEPA Direct Debit payments are not fully guaranteed. The customer can request a [chargeback](/faq/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. You cannot dispute chargebacks.

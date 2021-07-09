@@ -17,7 +17,7 @@ PayPal is a leading global payment method that lets customers pay by credit card
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Wallet  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](https://developer.paypal.com/docs/payouts/reference/country-and-currency-codes/) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/wallet/paypal/user-guide/processing-refunds/) | 
@@ -26,7 +26,7 @@ PayPal is a leading global payment method that lets customers pay by credit card
 
 ## Product rules
 
-- PayPal payment links are valid for 14 days. The [payment link lifetime](/faq/api/adjusting-payment-link-lifetimes/) is set by PayPal.
+- PayPal payment links are valid for 14 days. The [payment link lifetime](/developer/api/adjusting-payment-link-lifetimes/) is set by PayPal.
 
 - You can only decline or authorize **Uncleared** transactions in your PayPal account.
 

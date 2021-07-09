@@ -16,7 +16,7 @@ Cartes Bancaires is a popular Visa-branded credit card in France. An additional 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Credit card  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | France  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/cartes-bancaires/user-guide/processing-refunds/) | 

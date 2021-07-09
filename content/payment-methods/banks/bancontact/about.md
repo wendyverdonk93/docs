@@ -22,7 +22,7 @@ Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/bancontact/user-guide/processing-refunds) | 
@@ -31,7 +31,7 @@ Non-mobile payments always use [3D Secure](/faq/general/glossary/#3d-secure) 1.0
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
 
 

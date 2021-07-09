@@ -118,7 +118,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## SEPA Direct Debit
 ### Redirect - SEPA Direct Debit
 
-Creates a SEPA Direct Debit [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a SEPA Direct Debit [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 {{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay account. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work) {{< /alert-notice >}}
 
@@ -170,7 +170,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
+Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
 
 ----------------
 __redirect_url__ | string
@@ -201,7 +201,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ### Direct - SEPA Direct Debit
 
-Creates a SEPA Direct Debit [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates a SEPA Direct Debit [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -241,7 +241,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object
@@ -274,12 +274,12 @@ For your own adminstration, put the e-mandate here.
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)
 
 ----------------
 __forwarded_ip__ | string
 
-The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/faq/api/ip_address)
+The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. [More info](/developer/api/validating-customer-ip-address)
 
 ----------------
 

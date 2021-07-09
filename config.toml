@@ -154,3 +154,9 @@ name = "Shell"
     url  = "/security-and-legal/"
     pre = "fa fa-lock fa-lg"
     weight = 60
+
+    [[menu.main]]
+    name = "Developer tools"
+    url  = "/developer/"
+    pre = "fa fa-cube fa-lg"
+    weight = 70

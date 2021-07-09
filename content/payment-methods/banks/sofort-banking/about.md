@@ -20,7 +20,7 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/`Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/`Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland  | |
 | **Currencies**  | EUR {{< br >}} **Note:** British Pounds (GBP), Swiss Francs (CHF) and Polish Zloty (PLN) are **not** supported. | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/sofort-banking/user-guide/processing-refunds) | 
@@ -29,7 +29,7 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 
 ## Product rules
 
-- You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
 - The minimum amount for SOFORT transactions is 0,10 EUR.
 

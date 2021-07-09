@@ -20,7 +20,7 @@ Betaal per Maand bears the risk and guarantees settlement.
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | `Direct`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](https://docs.multisafepay.com/faq/general/supported-currencies/) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/betaalpermaand/faq/processing-refunds/) | 
@@ -29,7 +29,7 @@ Betaal per Maand bears the risk and guarantees settlement.
 
 ### Product rules
 
-- You cannot [adjust payment link lifetimes](/faq/api/lifetime-of-a-payment-link).
+- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
 - See also User guide – [Known errors](/payment-methods/billing-suite/betaalpermaand/faq/known-errors/).
 

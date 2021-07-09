@@ -12,6 +12,6 @@ Postepay payments are processed through the Visa or Mastercard gateway.
 To make Postepay available as a payment method on the MultiSafepay credit card payment page, you need to:
 
 - Ensure you have enabled the Visa or Mastercard gateway.
-- Set the [`locale`](/faq/api/locale) to `it_IT` (France) in transaction requests.
+- Set the [`locale`](/developer/api/using-locale-parameters) to `it_IT` (Italy) in transaction requests.
 
 Download the Postepay logo from the [MultiSafepay logo collection](/faq/general/where-find-logo-payment-methods) and upload it to your ecommerce platform. 

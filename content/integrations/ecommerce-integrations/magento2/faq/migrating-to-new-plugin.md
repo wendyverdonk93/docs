@@ -55,7 +55,7 @@ We have updated the order status flow from version 2.5.0:
 - For bank transfer payment methods, the status doesn't change to **Pending payment**, therefore the order isn't automatically canceled after a set period of time to give the customer more time to pay.
 
 ## Changes to the checkout
-For the following payment methods, we have changed the payment flow from [redirect to direct](/faq/api/difference-between-direct-and-redirect/):
+For the following payment methods, we have changed the payment flow from [redirect to direct](/developer/api/difference-between-direct-and-redirect/):
 
 - Afterpay
 - Request to Pay

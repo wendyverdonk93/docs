@@ -16,7 +16,7 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | `Direct`/`Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/`Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/e-invoicing/faq/processing-refunds/) | 
@@ -25,7 +25,7 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 
 ## Product rules
 
-- You cannot [adjust payment link lifetimes](/faq/api/lifetime-of-a-payment-link).
+- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
 - E-invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
 

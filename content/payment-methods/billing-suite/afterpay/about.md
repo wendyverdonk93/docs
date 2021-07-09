@@ -16,7 +16,7 @@ AfterPay is the largest online post-payment method in the Netherlands, and recen
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Post-payment method  | |
-| **API flow**  | `Direct`/ `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands, Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/afterpay/faq/processing-refunds/) | 
@@ -45,7 +45,7 @@ To successfully process partial refunds for the same product with different spec
 
 {{< /details >}}
 
-- You cannot [adjust payment link lifetimes](/faq/api/lifetime-of-a-payment-link).
+- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
 - AfterPay requires an additional API key for Belgium. Contact AfterPay.
 

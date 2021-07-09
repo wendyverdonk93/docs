@@ -50,7 +50,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## iDEAL QR
 
-Creates a iDEAL QR [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a iDEAL QR [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 _Please note: If you would like to test iDEAL QR, please note that this will only work in a Live environment. The Testing environment is not available._
 
@@ -96,7 +96,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object

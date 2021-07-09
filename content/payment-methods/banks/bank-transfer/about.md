@@ -20,7 +20,7 @@ You can link Bank Transfer directly to your website. When a customer selects Ban
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Europe (SEPA area)  | |
 | **Currencies**  | CZK, EUR, GBP, HUF, PLN | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/bank-transfer/user-guide/processing-refunds) | 
@@ -55,9 +55,9 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 ## Product rules
 
-- Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/faq/api/masking-iban-numbers/).
+- Bank accounts are always displayed in IBAN format. See also [Unmasking IBAN numbers](/developer/api/masking-iban-numbers/).
 
-- You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/) in emails to customers. Bank Transfer transactions are active for 60 days. By&nbsp;default, payment links expire after 30 days. 
+- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/) in emails to customers. Bank Transfer transactions are active for 60 days. By&nbsp;default, payment links expire after 30 days. 
 
 - To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete the payment.  This&nbsp;depends on your ecommerce platform or integration, and your products and/or services.  
 **Note:** MultiSafepay bears no responsibility for stock-related issues.

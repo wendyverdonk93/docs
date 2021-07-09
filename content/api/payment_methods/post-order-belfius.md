@@ -121,7 +121,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## Belfius
 ### Redirect - Belfius 
 
-Creates a Belfius [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Belfius [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -176,7 +176,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ### Direct - Belfius
 
-Creates a Belfius [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Belfius [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -220,7 +220,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
+Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
 
 ----------------
 __redirect_url__ | string

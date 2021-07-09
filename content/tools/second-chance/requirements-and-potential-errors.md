@@ -36,14 +36,14 @@ Under the [GDPR](/faq/gdpr/), you must obtain documented consent from the custom
 ### Valid payment link
 Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. 
 
-For more information, see [Adjusting payment link lifetimes](/faq/api/lifetime-of-a-payment-link).
+For more information, see [Adjusting payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
 ## Potential errors
 
 ### External plugins 
 Second Chance emails can create conflicts with external warehouse systems. In some cases, this can be resolved using a [cron job](/faq/general/multisafepay-glossary/#cron). However, this is not always a stable solution. 
 
-For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see [Adjusting payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/). 
+For example, when a customer cancels an order in the webshop, they can still pay for it using Second Chance within 30 days or a specified time frame. For more information, see [Adjusting payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/). 
 
 If a cancelled order is subsequently paid for, MultiSafepay reopens the order in the webshop. A warehouse system may have already released the reservation on the order when it received **Cancelled** status, or may consider the **Cancelled** status permanent. As result, the items the customer ordered may no longer be available or in stock. 
 

@@ -11,7 +11,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 Transactions can have the following financial statuses:
 
-Read more about the difference between the [Status and the Financial Status](/faq/api/difference-between-status-and-transaction-status) on our Documentation Center.
+Read more about the difference between the [Status and the Financial Status](/developer/api/difference-between-status-and-financial-status) on our Documentation Center.
 
 | Status             | Description                                                                                      |
 |------------------|--------------------------------------------------------------------------------------------------|

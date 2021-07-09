@@ -144,7 +144,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Alipay
 ### Redirect - Alipay
-Creates an Alipay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates an Alipay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -185,7 +185,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work) 
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url) 
 
 ----------------
 __customer__ | object
@@ -203,7 +203,7 @@ Read more about [Alipay](/payment-methods/wallet/alipay) on our documentation pa
 
 ### Direct - Alipay
 
-Creates an Alipay [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates an Alipay [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -245,7 +245,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work) 
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url) 
 
 ----------------
 __customer__ | object

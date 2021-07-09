@@ -24,7 +24,7 @@ The days or seconds active indicates the lifetime of a payment link.
 * If nothing is sent, then 30 days will be set by default
 * If both seconds_active and days_active are sent in the API request, then seconds_active is used if the value is larger than 0.
 
-The full documentation can be found on our FAQ page, [The lifetime of a payment link](/faq/api/lifetime-of-a-payment-link)
+The full documentation can be found on our FAQ page, [The lifetime of a payment link](/developer/api/adjusting-payment-link-lifetimes)
 
 **Parameters**
 

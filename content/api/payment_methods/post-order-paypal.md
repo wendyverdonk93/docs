@@ -148,7 +148,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## PayPal
 ### Redirect - PayPal
 
-Creates a PayPal [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a PayPal [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 {{< alert-notice >}} In PayPal, after a successful payment of a transaction, the order status is set to _Completed_ and the financial status remains set to _Initialized_. If the financial status remains _Initialized_, an order cannot be delivered since the shipment of an order depends on the financial status. You must ensure that orders are set to _Completed_ for both the order and financial status after a successful payment. {{< /alert-notice >}}
 
@@ -191,7 +191,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object
@@ -216,7 +216,7 @@ To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthel
 Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
 
 ### Direct - PayPal
-Creates a PayPal [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates a PayPal [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -257,7 +257,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object
