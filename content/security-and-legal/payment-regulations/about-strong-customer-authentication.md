@@ -1,11 +1,12 @@
 ---
 title : "About strong customer authentication"
 weight: 1
-meta_title: "FAQ Payment regulations - About strong customer authentication - MultiSafepay Docs"
+meta_title: "Payment regulations - About strong customer authentication - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/payment-regulations/strong-customer-authentication
+    - /faq/payment-regulations/about-strong-customer-authentication
 ---
 
 ### What is SCA?

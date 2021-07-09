@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
 ---
 
-American Express is one of the biggest global credit card schemes, accepted in more than 160 countries. An additional layer of security is provided by Safekey (the American Express-branded version of [3D Secure](/faq/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
+American Express is one of the biggest global credit card schemes, accepted in more than 160 countries. An additional layer of security is provided by Safekey (the American Express-branded version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
 
 ### Summary
 

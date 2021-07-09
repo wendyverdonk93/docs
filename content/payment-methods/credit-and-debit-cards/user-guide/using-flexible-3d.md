@@ -16,7 +16,7 @@ aliases:
 
 Flexible 3D lets you enable and disable mandatory [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/) verification of credit card transactions via our API.
 
-For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
+For more information about 3D Secure, see [About 3D Secure](/security-and-legal/payment-regulations/about-3d-secure).
 
 Setting Flexible 3D to:
 

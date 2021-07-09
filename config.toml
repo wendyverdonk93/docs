@@ -148,3 +148,9 @@ name = "Shell"
     url  = "/tools/"
     pre = "fa fa-wrench fa-lg"
     weight = 50
+
+[[menu.main]]
+    name = "Security and legal"
+    url  = "/security-and-legal/"
+    pre = "fa fa-lock fa-lg"
+    weight = 60

@@ -8,7 +8,7 @@ read_more: '.'
 
 ##  Dynamic 3D Secure
 
-[3D Secure](/faq/payment-regulations/about-3d-secure) is enabled by default for all credit card payments. 
+[3D Secure](/security-and-legal/payment-regulations/about-3d-secure) is enabled by default for all credit card payments. 
 
 Dynamic 3D Secure lets you set rules to disable 3D Secure authentication for certain credit card payments, e.g. based on:
 

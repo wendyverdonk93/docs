@@ -1,13 +1,14 @@
 ---
 title : "About Payment Services Directive 2"
 weight: 1
-meta_title: "FAQ Payment regulations - About Payment Services Directive 2 - MultiSafepay Docs"
+meta_title: "Payment regulations - About Payment Services Directive 2 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases: 
     - /faq/psd2/what-is-psd2
     - /faq/PSD2/does-PSD2-influence-my-webshop
     - /faq/payment-regulations/payment-service-directive-2
+    - /faq/payment-regulations/about-payment-service-directive-2
 ---
 
 ### What is PSD2?

@@ -10,7 +10,7 @@ aliases:
 
 You can apply [surcharges](/faq/general/multisafepay-glossary/#surcharge) (payment fees) of a percentage or a fixed amount to transactions for every payment method.
 
-For how applying surcharges may affect your webshop in relation to PSD2, see [Payment Services Directive 2](/faq/payment-regulations/payment-service-directive-2).
+For how applying surcharges may affect your webshop in relation to PSD2, see [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).
 
 You can also:
 

@@ -9,7 +9,7 @@ layout: 'child'
 logo: '/logo/Payment_methods/Cartes-Bancaire.svg'
 ---
 
-Cartes Bancaires is a popular Visa-branded credit card in France. An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/faq/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
+Cartes Bancaires is a popular Visa-branded credit card in France. An additional layer of security is provided by Verified by Visa (Visa's version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which requires cardholders to verify their identity.
 
 ### Summary
 

@@ -1,11 +1,12 @@
 ---
 title : "Adding and deactivating business bank accounts"
-meta_title: "FAQ Risk and fraud - Adding and deactivating business bank accounts - MultiSafepay Docs"
+meta_title: "Risk and fraud - Adding and deactivating business bank accounts - MultiSafepay Docs"
 weight: 6
 meta_description: "In the MultiSafepay Documentation Center all relevant information regarding our Plugins and API. As well as Support articles for Payment Method, Tools and General Questions. You can also find the contact details of our Support Team and Integration Team."
 read_more: "."
 aliases:
     - /faq/risk-and-fraud/new-bank-account
+    - /faq/risk-and-fraud/adding-and-deactivating-business-bank-accounts
 ---
 ## Adding a new business bank account
 To add a new business bank account for payouts, add the new IBAN in your [MultiSafepay account](https://merchant.multisafepay.com).

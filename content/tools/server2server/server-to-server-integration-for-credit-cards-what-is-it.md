@@ -59,7 +59,7 @@ All credit card transactions pass through our fraud filter.
 | Completed      | Completed   | Refund was successfully processed.  | 
 | Chargeback     | Completed   | Forced reversal of funds initiated by customer’s bank (issuer). Only applicable to SEPA Direct Debit and credit card payments. For more information, see [About chargebacks](/faq/chargebacks/what-is-a-chargeback).         |      
 
-For more information about 3D Secure, see [About 3D Secure](/faq/payment-regulations/about-3d-secure).
+For more information about 3D Secure, see [About 3D Secure](/security-and-legal/payment-regulations/about-3d-secure).
 
 ###  Credit card settings for direct credit card 3D Secure payments
 3D Secure is a technical standard to enhance security. Credit card transactions which are processed with the 3D Secure protocol require a form of authentication of the customer during the payment process. This is usually done via a password connected to the card.
