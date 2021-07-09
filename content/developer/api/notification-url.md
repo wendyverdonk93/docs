@@ -1,11 +1,12 @@
 ---
 title : "Notification URL"
-meta_title: "FAQ API Reference - Notification URL - MultiSafepay Docs"
+meta_title: "API Documentation - Notification URL - MultiSafepay Docs"
 weight: 9
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/how-does-the-notification-url-work
+    - /faq/api/notification-url
 ---
 
 Notifications are webhooks where the API notifies your web server when the status of a transaction changes. They are triggered by actions by:

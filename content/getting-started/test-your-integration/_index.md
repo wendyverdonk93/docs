@@ -19,7 +19,7 @@ aliases:
 
 Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 
-If you encounter any issues during testing, see [Diagnosing errors](/faq/errors-explained/diagnosing-errors/).
+If you encounter any issues during testing, see [Diagnosing errors](/developer/errors-explained/diagnosing-errors/).
 
 For support, email the Integration Team at <integration@multisafepay.com>
 
@@ -62,7 +62,7 @@ For information about transaction statuses, see [Test payment details](/faq/gett
 
 MultiSafepay uses the notification URL as a webhook to send transaction status updates to your integration.
 
-For custom-built integrations, first create a webhook listener that listens at the notification URL. For more information, see [Notification URL](/faq/api/notification-url/).
+For custom-built integrations, first create a webhook listener that listens at the notification URL. For more information, see [Notification URL](/developer/api/notification-url/).
 
 For all integrations, to set the notification URL in your MultiSafepay test account, follow these steps:
 
@@ -80,7 +80,7 @@ To check that you have succesfully connected to our system, follow these steps:
 1. Sign in to your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
 2. Go to **Transactions** > **Transactions overview**.
 3. Select the transaction to view the **Transaction details** page.
-4. Under __Offline actions__, in the __Status__ field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/faq/errors-explained/http-errors/).
+4. Under __Offline actions__, in the __Status__ field, check that you correctly received the MultiSafepay request. For information about errors, see [HTTP errors](/developer/errors-explained/http-errors/).
 
 **Note:** Once your live account is approved, ensure you use the API key from your live account instead of your test account.
 

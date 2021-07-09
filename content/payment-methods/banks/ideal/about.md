@@ -21,7 +21,7 @@ To increase transparency for customers, the name of your website appears on the 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/`Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/`Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/ideal/user-guide/processing-refunds) | 
@@ -30,4 +30,4 @@ To increase transparency for customers, the name of your website appears on the 
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).

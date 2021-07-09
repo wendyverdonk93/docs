@@ -45,7 +45,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Dotpay
 
-Creates a Dotpay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Dotpay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 

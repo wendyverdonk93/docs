@@ -46,7 +46,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## TrustPay
 
-Creates a TrustPay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a TrustPay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -90,7 +90,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
+Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
 
 ----------------
 __redirect_url__ | string

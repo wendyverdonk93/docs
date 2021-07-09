@@ -42,7 +42,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 
 ## Bancontact
-Creates a Bancontact [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Bancontact [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 

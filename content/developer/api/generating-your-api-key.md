@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/api/generate-your-api-key
+    - /faq/api/generating-your-api-key
 ---
 You need an API key to make API calls between your ecommerce platform and MultiSafepay to process data and payments.
 

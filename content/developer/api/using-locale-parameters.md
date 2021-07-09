@@ -1,11 +1,12 @@
 ---
 title: "Using locale parameters"
 weight: 8
-meta_title: "FAQ API Reference - Using locale parameters - MultiSafepay Docs"
+meta_title: "API Documentation - Using locale parameters - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/locale
+    - /faq/api/using-locale-parameters
 ---
 `locale` parameters specify the customer's language, region, and any special preferences they want to see in the user interface. You can use them to localize payment pages and send email templates in the customer's preferred language. 
 

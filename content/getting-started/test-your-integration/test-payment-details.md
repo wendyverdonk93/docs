@@ -238,7 +238,7 @@ Test credentials: [API key](.com/tools/multisafepay-control/get-your-api-key/)
 
 To test in3 transactions, follow these steps:
 
-1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
+1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
 2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
@@ -268,7 +268,7 @@ Test credentials:
 
 To test Klarna transactions, follow these steps:
 
-1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
+1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
 2. The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. To change the order status to **Shipped**, either:
     - Send an [Update an order](/api/#update-an-order) API request, or 
@@ -448,7 +448,7 @@ Test credentials: [API key](/tools/multisafepay-control/get-your-api-key/)
 
 To test PayPal transactions, follow these steps:
 
-1. Send a [Direct or redirect](/faq/api/difference-between-direct-and-redirect/) API request.
+1. Send a [Direct or redirect](/developer/api/difference-between-direct-and-redirect/) API request.
 2. The payment is processed in MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
 3. Since MultiSafepay does not collect payments on behalf of PayPal, the financial (transaction) status remains **Initialized** and cannot be changed to **Completed**.
 

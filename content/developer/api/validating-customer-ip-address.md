@@ -1,11 +1,12 @@
 ---
 title: "Validating the customer IP address"
 weight: 10
-meta_title: "FAQ API Reference - Validating customer IP address - MultiSafepay Docs"
+meta_title: "API Documentation - Validating customer IP address - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/ip_address
+    - /faq/api/validating-customer-ip-address
 ---
 
 #### ip_address

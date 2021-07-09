@@ -1,11 +1,12 @@
 ---
 title: "Adjusting payment link lifetimes"
 weight: 2
-meta_title: "FAQ API Reference - Adjusting payment link lifetimes - MultiSafepay Docs"
+meta_title: "API Documentation - Adjusting payment link lifetimes - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/api/lifetime-of-a-payment-link
+    - /faq/api/adjusting-payment-link-lifetimes
 ---
 The lifetime of a payment link is how long the link remains valid for the customer to complete the transaction. 
 

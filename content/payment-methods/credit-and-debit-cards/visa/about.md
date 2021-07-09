@@ -17,7 +17,7 @@ Visa is a leading global credit card scheme. An additional layer of security is 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Credit card  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/visa/user-guide/processing-refunds/) | 
@@ -26,4 +26,4 @@ Visa is a leading global credit card scheme. An additional layer of security is 
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).

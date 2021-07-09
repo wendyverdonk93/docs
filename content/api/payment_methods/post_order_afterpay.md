@@ -192,7 +192,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## AfterPay
 ### Direct - AfterPay
 
-Creates an AfterPay [Direct](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
+Creates an AfterPay [Direct](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery.
 
 * For direct transactions, all fields must be completed properly.
 
@@ -233,7 +233,7 @@ Text displayed with the order in your MultiSafepay account, and on the customer'
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/faq/api/how-does-the-notification-url-work). 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url). 
 
 ----------------
 __customer__ | object
@@ -292,12 +292,12 @@ The customer's personal title. Options: `mr`, `mrs`, `miss`.
 ----------------
 __ip_address__ | string
 
- The customer's IP address. This is required for post-payment methods and credit cards. To validate the customer's IP address, we need to receive the actual IP address of the end user in the [`ip_address`](/faq/api/ip_address) field.
+ The customer's IP address. This is required for post-payment methods and credit cards. To validate the customer's IP address, we need to receive the actual IP address of the end user in the [`ip_address`](/developer/api/validating-customer-ip-address) field.
 
 ----------------
 __forwarded_ip__ | string
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
 
 ----------------
 
@@ -315,7 +315,7 @@ For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).
 
 ### Redirect - AfterPay
 
-Creates an AfterPay [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery.
+Creates an AfterPay [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery.
 
 - For redirect transactions, all fields must be completed properly.
 
@@ -356,7 +356,7 @@ Text displayed with the order in your MultiSafepay account, and on the customer'
 ----------------
 __payment_options__ | object
 
-Contains the `redirect_url`, `cancel_url` and [`notification_url`](/faq/api/how-does-the-notification-url-work). 
+Contains the `redirect_url`, `cancel_url` and [`notification_url`](/developer/api/notification-url). 
 
 ----------------
 __customer__ | object
@@ -391,12 +391,12 @@ Contains the definitions for the VAT class.
 ----------------
 __ip_address__ | string
 
- The customer's IP address. This is required for post-payment methods and credit cards. To validate the customer's IP address, we need to receive the actual IP address of the end user in the [`ip_address`](/faq/api/ip_address) field.
+ The customer's IP address. This is required for post-payment methods and credit cards. To validate the customer's IP address, we need to receive the actual IP address of the end user in the [`ip_address`](/developer/api/validating-customer-ip-address) field.
 
 ----------------
 __forwarded_ip__ | string
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
 
 ----------------
 

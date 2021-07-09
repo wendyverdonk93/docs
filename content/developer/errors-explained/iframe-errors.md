@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/errors-explained/iframe
+    - /faq/errors-explained/iframe-errors
 ---
  
 An inline frame, or iFrame, is an HTML document embedded inside another HTML document on a [website](/faq/general/multisafepay-glossary/#website). 

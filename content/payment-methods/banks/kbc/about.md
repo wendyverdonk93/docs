@@ -20,7 +20,7 @@ The payment method functions the same for both the KBC branch and the CBC branch
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/kbc/user-guide/processing-refunds) | 
@@ -29,4 +29,4 @@ The payment method functions the same for both the KBC branch and the CBC branch
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).

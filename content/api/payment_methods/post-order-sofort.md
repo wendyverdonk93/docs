@@ -158,7 +158,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## SOFORT
 ### Redirect - SOFORT
-Creates a SOFORT [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a SOFORT [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -199,7 +199,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object
@@ -216,7 +216,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
 
 ### Direct - SOFORT
-Creates a SOFORT [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates a SOFORT [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -257,7 +257,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object

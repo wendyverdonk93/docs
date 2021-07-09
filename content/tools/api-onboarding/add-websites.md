@@ -12,7 +12,7 @@ Use the following requests to add, retrieve or update websites linked to a merch
 4. [Update website](#update-a-website): Update a website.
 
 ### About parameters
-For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website API key, expected minimum and maximum order values need to be supplied. Furthermore, the [notification URL](/faq/api/how-does-the-notification-url-work/) is required to receive transaction status updates. However, this information may also be provided at a later time. 
+For every parameter, we specify whether it's _required_ or _optional_. However, this label refers only to the technical requirements for valid API requests. To process credit card transactions with the website API key, expected minimum and maximum order values need to be supplied. Furthermore, the [notification URL](/developer/api/notification-url/) is required to receive transaction status updates. However, this information may also be provided at a later time. 
 
 ## Authentication
 All four website requests require a partner account API key. This is not the same as a [website API key](/tools/multisafepay-control/get-your-api-key/). Ask your Partner Manager for more information.
@@ -37,7 +37,7 @@ Add a website to an affiliated merchant account.
 |---|---|
 |name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Required. |
 |URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Required.. |
-|notification_url{{< br >}}`string`|[Notification URL](/faq/api/how-does-the-notification-url-work/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
+|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
 |price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |
@@ -198,7 +198,7 @@ Update information about an existing website.
 |---|---|
 |name{{< br >}}`string`|Name of the website. {{< br >}}**Format**: max 120 characters. Optional. |
 |URL{{< br >}}`string`| URL of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
-|notification_url{{< br >}}`string`|[Notification URL](/faq/api/how-does-the-notification-url-work/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
+|notification_url{{< br >}}`string`|[Notification URL](/developer/api/notification-url/) of the website. {{< br >}}**Format**: URL (max 150 characters). Optional. |
 |price_from{{< br >}}`integer`| Expected minimum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |price_till{{< br >}}`integer`| Expected maximum order value for credit card transactions. {{< br >}}**Format**: unsigned integer. Optional. |
 |support_email{{< br >}}`string`| Email address used to support the website's customers. {{< br >}}**Format**: email address (max 100 characters). Optional. |

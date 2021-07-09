@@ -16,7 +16,7 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 |   |   |   |
 |---|---|---| 
 | **Payment type** | Post-payment method   |  | 
-| **API flow** | `Direct`/ `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) | 
+| **API flow** | `Direct`/ `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
 | **Refunds** | Full and partial | [More information](/payment-methods/billing-suite/pay-after-delivery/faq/processing-refunds/) |
@@ -45,4 +45,4 @@ To successfully process partial refunds for the same product with different spec
 
 - The delivery and invoice addresses must be the **same** to prevent fraud. For&nbsp;more information, see MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
 
-- You cannot [adjust payment link lifetimes](/faq/api/lifetime-of-a-payment-link).
+- You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).

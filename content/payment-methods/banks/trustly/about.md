@@ -18,7 +18,7 @@ Trustly is a quick, secure bank payment method that is available in 29 European 
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | |
 | **Currencies**  | EUR, GBP, SEK | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/trustly/user-guide/processing-refunds) | 
@@ -27,4 +27,4 @@ Trustly is a quick, secure bank payment method that is available in 29 European 
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).

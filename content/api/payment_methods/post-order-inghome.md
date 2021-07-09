@@ -117,7 +117,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## ING Home'Pay
 ### Direct - ING Home'Pay
 
-Creates an ING Home'Pay [Direct](/faq/api/difference-between-direct-and-redirect) order.
+Creates an ING Home'Pay [Direct](/developer/api/difference-between-direct-and-redirect) order.
 
 * Direct transaction requires all fields completed properly
 
@@ -159,7 +159,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------    
 __customer__ | object
@@ -178,7 +178,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay) on our documentation page.
 
 ### Redirect - ING Home'Pay
-Creates an ING Home'Pay [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates an ING Home'Pay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 
@@ -219,7 +219,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------    
 

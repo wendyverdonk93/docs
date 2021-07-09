@@ -87,7 +87,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
+Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
 
 ----------------
 __redirect_url__ | string
@@ -110,7 +110,7 @@ Displays the correct language and payment methods on the Payment page. It also h
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/faq/api/ip_address)
+The IP address of the customer. “Required” with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field.  [More info](/developer/api/validating-customer-ip-address)
 
 ----------------
 __gateway_info__ | object

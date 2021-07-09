@@ -17,7 +17,7 @@ Alipay is a leading global payment method that lets Chinese customers link their
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Wallet  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, USD | [More information](/faq/general/supported-currencies/) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/wallet/alipay/user-guide/processing-refunds/) | 
@@ -28,6 +28,6 @@ Alipay is a leading global payment method that lets Chinese customers link their
 
 - For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
 
-- You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+- You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
 - Currency conversion is processed in EUR only.

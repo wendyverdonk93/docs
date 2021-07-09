@@ -59,7 +59,7 @@ The API returns a unique UBO identifier, which you can use to submit the UBO's i
 See the [Add websites](add-websites) API reference for how to submit the following information about the merchant's website:
 
 - Website name and URL
-- [Notification URL](/faq/api/how-does-the-notification-url-work)
+- [Notification URL](/developer/api/notification-url)
 - Contact details for customer support
  
 The API returns an API key. 

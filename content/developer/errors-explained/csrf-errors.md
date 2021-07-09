@@ -6,6 +6,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/errors-explained/csrf
+    - /faq/errors-explained/csrf-errors
 ---
 
 The cross-site request forgery (CSRF) warning appears on payment pages when customers access them through POST requests.

@@ -17,7 +17,7 @@ Maestro is a debit card service owned by Mastercard. It is accepted across Europ
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Debit card  | |
-| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/maestro/user-guide/processing-refunds/) | 
@@ -26,4 +26,4 @@ Maestro is a debit card service owned by Mastercard. It is accepted across Europ
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).

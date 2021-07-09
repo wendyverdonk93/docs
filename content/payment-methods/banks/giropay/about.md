@@ -18,7 +18,7 @@ Giropay is the leading inter-bank payment method in Germany, connecting all majo
 |   |   |   |
 |---|---|---|
 | **Payment type**   | Bank  | |
-| **API flow**  | `Direct` / {{< br >}} `Redirect` | [More information](/faq/api/difference-between-direct-and-redirect) |
+| **API flow**  | `Direct` / {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Germany  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
 | **Refunds**  | Full and partial  | [More information](/payment-methods/banks/giropay/user-guide/processing-refunds) | 
@@ -27,6 +27,6 @@ Giropay is the leading inter-bank payment method in Germany, connecting all majo
 
 ## Product rules
 
-You can [adjust payment link lifetimes](/faq/api/adjusting-payment-link-lifetimes/).
+You can [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes/).
 
 

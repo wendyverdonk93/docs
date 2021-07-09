@@ -46,7 +46,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Bancontact QR
 
-Creates a Bancontact QR [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Bancontact QR [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 * Redirect transaction requires all fields completed properly
 

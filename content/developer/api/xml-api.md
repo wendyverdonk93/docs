@@ -1,9 +1,11 @@
 ---
 title: "XML API"
 weight: 12
-meta_title: "FAQ API Reference - XML API Reference - MultiSafepay Docs"
+meta_title: "API Documentation - XML API Reference - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+aliases:
+    - /faq/api/validating-customer-ip-address
 ---
 
 The XML API was superceeded by the [JSON API](/api).

@@ -47,7 +47,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## Visa
 
-Creates a Visa [Redirect](/faq/api/difference-between-direct-and-redirect) order.
+Creates a Visa [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
 {{< alert-notice >}} Besides the individual credit card gateways, MultiSafepay offers you a generic gateway called [CREDITCARD](https://docs.multisafepay.com/api/#credit-cards). This can save space on your mobile checkout. The disadvantage is that the customer can not immediately see which credit cards can be used. The correct credit card logo will appear automatically when the card holder provides the first digits of the credit card number. {{< /alert-notice >}}
 
@@ -93,7 +93,7 @@ __payment_options__ | object
 ----------------
 __notification_url__ | string
 
-Endpoint where we will send the notifications to [notification_url](/faq/api/how-does-the-notification-url-work)
+Endpoint where we will send the notifications to [notification_url](/developer/api/notification-url)
 
 ----------------
 __redirect_url__ | string

@@ -124,7 +124,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 ## Klarna
 ### Redirect - Klarna
-Creates a Klarna [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
+Creates a Klarna [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Processing transactions with Klarna (the old environment) is only available as a Redirect request.
 
@@ -169,7 +169,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 ----------------
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 __customer__ | object
@@ -230,12 +230,12 @@ The gender of the customer. (Required for Klarna, optional for Pay After Deliver
 ----------------
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)      
 
 ----------------
 __forwarded_ip__ | string
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
 
 ----------------    
 
@@ -244,7 +244,7 @@ Please note that *first_name* and *last_name* in both _customer_ and _delivery_ 
 Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
 
 ### Redirect - Klarna Payments
-Creates a Klarna Payments [Redirect](/faq/api/difference-between-direct-and-redirect) order to be paid after delivery
+Creates a Klarna Payments [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
 
 Please note this request is for Klarna Payments. This request can only be processed as a redirect request.
 
@@ -293,7 +293,7 @@ A text which will be shown with the order in your MultiSafepay account. If the c
 
 __payment_options__ | object
 
-Contains the redirect_url, cancel_url and [notification_url](/faq/api/how-does-the-notification-url-work)
+Contains the redirect_url, cancel_url and [notification_url](/developer/api/notification-url)
 
 ----------------
 
@@ -358,12 +358,12 @@ The email address to which the system can send payment instructions to the custo
 
 __ip_address__ | string
 
-The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/faq/api/ip_address)      
+The IP address of the customer. "Required" with post payment and credit card payment methods. Due to validation of the customer IP address, we need to receive the actual IP address of the end user within the ip_address field. [More info](/developer/api/validating-customer-ip-address)      
 
 ----------------
 __forwarded_ip__ | string
 
- The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/faq/api/ip_address).
+ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For) header of the customer request when using a proxy. For more information, see [`ip_address`](/developer/api/validating-customer-ip-address).
 
 ----------------    
 

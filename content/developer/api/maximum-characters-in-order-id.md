@@ -6,5 +6,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 read_more: "."
 aliases:
     - /faq/api/maximum-length-of-order-id
+    - /faq/api/maximum-characters-in-order-id
 ---
 The maximum number of characters in an `order_id` is 50. If you include more characters, you get a 1006 error.
