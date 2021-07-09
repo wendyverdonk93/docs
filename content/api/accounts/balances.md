@@ -49,7 +49,7 @@ The response is an array of objects that represent the balance of every availabl
 
 **account_id**  | integer
 
-The account ID of the affiliated MultiSafepay account.
+The account ID of the affiliated account.
 
 **amount_available** | integer
 
