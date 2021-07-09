@@ -18,9 +18,10 @@ The component:
 
 For more information, see [Payment Components](/integrations/payment-components/).
 
-## Activating the Credit Card Component
+If you're new to accepting credit card payments, apply to activate them.  
+Email applications to your account manager at <sales@multisafepay.com>
 
-To enable the Credit Card Component for your MultiSafepay account, email your account manager at <sales@multisafepay.com>
+## Activating the Credit Card Component
 
 To activate the component in your Magento 2 backend, follow these steps:
 
