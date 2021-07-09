@@ -70,7 +70,7 @@ The balance ID.
 
 **modified** | string
 
-The timestamp of the last modification of the balance. Modifications may result from incoming payments, refunds, charges, and payouts. **Format**: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)
+The timestamp of the last modification of the balance. Modifications include incoming payments, refunds, charges, and payouts. **Format**: [ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)
 
 
 {{< /description >}}
