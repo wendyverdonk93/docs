@@ -1,24 +1,23 @@
 ---
-title: "Dynamic 3D Secure"
-weight: 71
-meta_title: "Server to Server - Dynamic 3D Secure - MultiSafepay Docs"
+title : "Dynamic 3D Secure"
+weight: 110
+meta_title: "Credit card user guide - Dynamic 3D Secure - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
+read_more: "."
+aliases: 
+    - /tools/server2server/3d-dynamics/
 ---
-
-##  Dynamic 3D Secure
 
 [3D Secure](/faq/payment-regulations/about-3d-secure) is enabled by default for all credit card payments. 
 
-Dynamic 3D Secure lets you set rules to disable 3D Secure authentication for certain credit card payments, e.g. based on:
+Dynamic 3D Secure lets you set rules to disable 3D Secure authentication for certain credit card payments, e.g. based on the:
 
-* Transaction amount
-* Country (e.g. card country, IP country, customer country) 
+- Transaction amount
+- Country (e.g. card country, IP country, customer country) 
 
 The most common reason for disabling 3D Secure is if you have lots of customers outside Europe who don't have access to it. Consider setting a rule for transactions with a non-European card and a billing address outside of Europe.
 
 ## Increased risk of fraud
-
 Removing the layer of security provided by 3D Secure increases the risk of fraud. Liability doesn't change for payments processed without 3D Secure. Also, banks don't accept liability for fraudulent transactions so you bear the risk of chargebacks.
 
 ## Fees
