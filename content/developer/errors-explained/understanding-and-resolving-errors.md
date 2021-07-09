@@ -1,7 +1,7 @@
 ---
 title : "Understanding and resolving errors"
 weight: 1
-meta_title: "FAQ Errors - Understanding and resolving errors - MultiSafepay Docs"
+meta_title: "Errors - Understanding and resolving errors - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:

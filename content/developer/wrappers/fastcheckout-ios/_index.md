@@ -14,4 +14,5 @@ description: "The FastCheckout iOS SDK provides connections to MultiSafepay serv
 aliases: 
     - /integrations/fastcheckout-ios/
     - /integrations/sdk/fastcheckout-ios/
+    - /integrations/wrappers/fastcheckout-ios/
 ---

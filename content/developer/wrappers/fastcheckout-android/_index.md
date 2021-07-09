@@ -13,4 +13,5 @@ description: "The FastCheckout Android SDK provides connections to MultiSafepay 
 aliases: 
     - /integrations/fastcheckout-android/
     - /integrations/sdk/fastcheckout-android/
+    - /integrations/wrappers/fastcheckout-android/
 ---
