@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/vpay/what-is-vpay/
 ---
 
-V Pay is a debit card service owned by Visa. It is accepted across Europe. An additional layer of security is provided by mandatory [3D Secure](/faq/payment-regulations/about-3d-secure/) authentication, which requires cardholders to verify their identity.
+V Pay is a debit card service owned by Visa. It is accepted across Europe. An additional layer of security is provided by mandatory [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/) authentication, which requires cardholders to verify their identity.
 
 ### Summary
 

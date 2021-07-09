@@ -17,4 +17,4 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
 ## PSD2 implications
-For more information about how the Payment Services Directive 2 may affect surcharges or payment fees, see [Payment Services Directive 2](/faq/payment-regulations/payment-service-directive-2).
+For more information about how the Payment Services Directive 2 may affect surcharges or payment fees, see [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).

@@ -20,4 +20,4 @@ You can refund orders with a Fooman surchage applied in your [MultiSafepay accou
 The Integration Team will do their best to support you with installing Fooman, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
 ## PSD2 implications
-For more information about how the Payment Services Directive 2 may affect surcharges or payment fees, see [Payment Services Directive 2](/faq/payment-regulations/payment-service-directive-2).
+For more information about how the Payment Services Directive 2 may affect surcharges or payment fees, see [Payment Services Directive 2](/security-and-legal/payment-regulations/about-payment-service-directive-2).

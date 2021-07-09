@@ -1,11 +1,12 @@
 ---
 title: 'About deposits'
 weight: 3
-meta_title: "FAQ Risk and fraud - About deposits - MultiSafepay Docs"
+meta_title: "Risk and fraud - About deposits - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
     - /faq/risk-and-fraud/deposit
+    - /faq/risk-and-fraud/about-deposits
 ---
 
 MultiSafepay may request a deposit to cover our financial risks, e.g.:

@@ -1,7 +1,7 @@
 ---
 title : "3D Secure 2.0"
 weight: 1
-meta_title: "FAQ Payment regulations - 3D Secure 2.0 - MultiSafepay Docs"
+meta_title: "Payment regulations - 3D Secure 2.0 - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 aliases:
@@ -9,6 +9,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
     - /faq/general/what-is-3d-secure
     - /faq/payment-regulations/about-3d-secure/
+    - /faq/payment-regulations/3d-secure-2
 ---
 We are working on supporting 3DS 2.0 and we expect to rollout the support in 2021. In the meantime, transactions use 3DS 1.0 and are fully PSD2 compliant.
 

@@ -12,7 +12,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
 ---
 
-Postepay is a popular Visa or Mastercard-branded credit card in Italy. An additional layer of security is provided by Verified by Visa or or MasterCard SecureCode (branded versions of [3D Secure](/faq/payment-regulations/about-3d-secure/)), which require cardholders to verify their identity.
+Postepay is a popular Visa or Mastercard-branded credit card in Italy. An additional layer of security is provided by Verified by Visa or or MasterCard SecureCode (branded versions of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/)), which require cardholders to verify their identity.
 
 ### Summary
 

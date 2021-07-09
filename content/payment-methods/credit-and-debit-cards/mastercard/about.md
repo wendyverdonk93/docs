@@ -10,7 +10,7 @@ aliases:
     - /payment-methods/credit-and-debit-cards/mastercard/what-is-mastercard
 ---
 
-Mastercard is a leading global credit card scheme. An additional layer of security is provided by SecureCode (Mastercard's version of [3D Secure](/faq/payment-regulations/about-3d-secure/), which requires cardholders to verify their identity.
+Mastercard is a leading global credit card scheme. An additional layer of security is provided by SecureCode (Mastercard's version of [3D Secure](/security-and-legal/payment-regulations/about-3d-secure/), which requires cardholders to verify their identity.
 
 ### Summary
 
