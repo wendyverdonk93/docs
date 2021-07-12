@@ -36,7 +36,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-See also:
+## See also
 
 - [Processing refunds](/payment-methods/banks/bancontact/user-guide/processing-refunds/)
 - [Handling errors](/payment-methods/prepaid-cards/gift-cards/user-guide/handling-errors/)

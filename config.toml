@@ -90,12 +90,6 @@ name = "Shell"
     weight = 10
 
 [[menu.main]]
-    name = "Wrappers and SDKs"
-    url  = "/integrations/wrappers"
-    parent = "integrations"
-    weight = 40
-
-[[menu.main]]
     name = "Cash register software"
     url  = "/integrations/cash-register-software"
     parent = "integrations"
@@ -126,6 +120,12 @@ name = "Shell"
     weight = 50
 
 [[menu.main]]
+    name = "Account"
+    url  = "/account/"
+    pre = "fa fa-user-circle fa-lg"
+    weight = 20
+
+[[menu.main]]
     name = "Payment methods"
     url  = "/payment-methods/"
     pre = "fa fa-credit-card fa-lg"
@@ -135,7 +135,7 @@ name = "Shell"
     name = "API Reference"
     url  = "/api/"
     pre = "fa fa-code fa-lg"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
     name = "Tools"
