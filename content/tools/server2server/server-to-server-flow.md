@@ -1,9 +1,11 @@
 ---
 title: "How to process Server to Server credit card payments?"
-weight: 73
+breadcrumb_title: 'Payment flow'
+short_description: "Learn about server to server transactions"
+weight: 30
+layout: child
 meta_title: "Server to Server flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
 ---
 ## 3D enabled request
 To process a direct credit card transaction (server to server), use the _POST -/orders_ endpoint. 
@@ -46,7 +48,7 @@ By default this parameter is 'GET'.
 ```shell 
 "payment_options": {
     {
-        "notification_url": "https://my.notificatio.url",
+        "notification_url": "https://my.notification.url",
         "notification_method" : "POST",
         "cancel_url": null,
         "redirect_url": null,

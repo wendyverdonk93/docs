@@ -1,9 +1,11 @@
 ---
 pagetitle: "Server to Server integration for credit card"
-weight: 74
+breadcrumb_title: 'Integration'
+short_description: "Integrate server to server transactions"
+weight: 20
+layout: child
 title: "Server to Server"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
 ---
 By requesting the credit card details on the webshop, a 'direct' transaction can be created. Customers can finalize a credit card payment without being redirected to a MultiSafepay payment page, resulting in a faster checkout experience and more control for merchants.
 

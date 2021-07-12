@@ -1,9 +1,11 @@
 ---
 title: "Activate Server to Server credit card payments"
-weight: 72
+breadcrumb_title: 'Activation'
+short_description: "Activate server to server transactions"
+weight: 10
+layout: child
 meta_title: "Server to Server, how to active it? - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
 ---
 
 >_Before you proceed with processing direct credit card transactions, check with your account manager at MultiSafepay if you are eligible for the payment method_. 

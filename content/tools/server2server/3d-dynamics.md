@@ -1,9 +1,11 @@
 ---
 title: "Dynamic 3D Secure"
-weight: 71
+breadcrumb_title: "Dynamic 3D Secure"
+weight: 40
+layout: child
 meta_title: "Server to Server - Dynamic 3D Secure - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
-read_more: '.'
+short_description: "Set rules to disable 3D Secure authentication"
 ---
 
 ##  Dynamic 3D Secure
