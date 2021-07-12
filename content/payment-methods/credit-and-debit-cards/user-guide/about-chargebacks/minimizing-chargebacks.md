@@ -3,6 +3,7 @@ title : "Minimizing chargebacks"
 weight: 80
 meta_title: "Credit card user guide - Minimizing chargebacks - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
+short_description: "Minimize chargebacks by providing good customer service and using fraud protection"
 read_more: "."
 ---
 
@@ -16,7 +17,7 @@ Use [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/) fo
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 
 ## Non-delivery
-- Inform customers of both expected and acutal delivery times
+- Inform customers of both expected and actual delivery times
  - Document the delivery process, e.g. use Track & Trace with signature
  - Refund or cancel transactions if the goods won't arrive within the stated delivery time or not at all. 
 

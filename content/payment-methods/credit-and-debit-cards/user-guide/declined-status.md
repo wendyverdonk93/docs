@@ -4,6 +4,7 @@ weight: 50
 meta_title: "Credit card user guide - About Declined status - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+short_description: "Learn how customers can handle declined credit card transactions"
 aliases: 
     - /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
     - /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
