@@ -126,12 +126,6 @@ name = "Shell"
     weight = 50
 
 [[menu.main]]
-    name = "FAQs"
-    url  = "/faq/"
-    pre = "fa fa-question-circle-o fa-lg"
-    weight = 30
-
-[[menu.main]]
     name = "Payment methods"
     url  = "/payment-methods/"
     pre = "fa fa-credit-card fa-lg"
