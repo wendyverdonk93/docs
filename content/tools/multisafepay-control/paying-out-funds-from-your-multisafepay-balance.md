@@ -13,6 +13,7 @@ aliases:
     - /faq/finance/paying-out-funds-from-your-multisafepay-control
     - /tools/multisafepay-control/paying-out-your-balance/
     - /faq/general/bank-holidays
+    - /tools/multisafepay-control/autowithdrawl-updates
 ---
 
 You can pay out funds from your MultiSafepay account to your business bank account any time for 0,50 EUR each, except if:
@@ -47,20 +48,18 @@ Email the Risk Team at <risk@multisafepay.com>
 
 To schedule automatic payouts, follow these steps:
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
-2. Go to **Finance** > **Balance**.
-3. Select the IBAN number you want to pay out to.
-4. Schedule your payouts using the payout scheduler.
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com). 
+2. Go to **Finance** > **Payouts**.
+3. Under **Automatic withdrawals**, click **+ Add**.
+4. In the **Automatic withdrawals** window:
+    - Under **Select days**, select a specific day of the week, or the end of the month. 
+    - From the **Select currency** dropdown, select the currency. 
+    - If you want to schedule withdrawals only when your balance exceeds a specified amount, in the **Withdraw when balance exceeds** fields, enter the amount. 
+    - If you want to specify a minimum amount to retain in your balance, in the **Reserve amount** fields, enter an amount.
+    - From the **Select the account number** dropdown, select the business bank account number you want to transfer the withdrawal to.
+5. Click **Schedule payments**.
 
-{{< details title="About the payout scheduler" >}}
-
-The payout scheduler lets you:
-
-- Schedule automatic payouts on specific days of the week.
-- Schedule payments only when your MultiSafepay balance exceeds a specific amount.
-- Reserve a specific amount in your MultiSafepay balance, e.g. for refunds.
-
-{{< /details >}}
+{{< screen src="/img/Screenshot-Automatic-Withdrawals.png" align="center" class="medium-img desktop-radius" >}}
 
 ## Manual payouts
 
