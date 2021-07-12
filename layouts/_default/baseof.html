@@ -75,9 +75,11 @@
                 {{ partial "bottom-block" . }}
             </div>
         </section>
-        
-        {{ if in .Dir "magento2" }}
-        {{ partial "extdn" }}
+       
+        {{ with .File }}
+            {{ if in .Dir "magento2" }}
+                {{ partial "extdn" }}
+            {{ end }}
         {{ end }}
 
         <footer class="footer-background pt-5">

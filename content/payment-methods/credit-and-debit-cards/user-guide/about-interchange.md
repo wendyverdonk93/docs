@@ -4,6 +4,7 @@ weight: 20
 meta_title: "Credit card user guide - About Interchange++ - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+short_description: "Learn about the Interchange++ pricing model offered by some banks and card schemes"
 aliases: 
     - /payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
     - /payment-methods/creditcards/what-is-interchange/

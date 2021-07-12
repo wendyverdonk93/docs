@@ -1,6 +1,6 @@
 <div class="row pb-5 pt-4">
     {{ if (isset .Params "block-range-pages") }}
-        {{ range where .Pages ".Params.tags" "ne" "hidden" }}
+        {{ range append .Pages .Sections }}
         <div class="col-md-6">
             {{ if isset .Params "symlink" }}
             <a href="{{ .Params.symlink | absURL }}" class="row block-item my-3 mx-1 p-4">
