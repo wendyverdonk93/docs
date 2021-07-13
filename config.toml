@@ -71,6 +71,12 @@ name = "Shell"
     weight = 7
 
 [[menu.main]]
+    name = "Account"
+    url  = "/account/"
+    pre = "fa fa-user-circle fa-lg"
+    weight = 10
+
+[[menu.main]]
     name = "Payments"
     url  = "/payments/"
     identifier = "payments"
@@ -81,44 +87,32 @@ name = "Shell"
     name = "About payments"
     url  = "/payments/about/"
     parent = "payments"
-    weight = 10
+    weight = 210
 
 [[menu.main]]
     name = "Build your integration"
     url  = "/payments/integrations/"
     parent = "payments"
-    weight = 11
+    weight = 220
 
 [[menu.main]]
     name = "Add payment methods"
     url  = "/payments/methods/"
     parent = "payments"
     identifier = "payment-methods"
-    weight = 12
+    weight = 230
 
 [[menu.main]]
     name = "Customize your checkout"
     url  = "/payments/checkout"
     parent = "payments"
-    weight = 13
+    weight = 240
 
 [[menu.main]]
     name = "Boost your integration"
     url  = "/payments/boost"
     parent = "payments"
-    weight = 14
-
-[[menu.main]]
-    name = "Account"
-    url  = "/account/"
-    pre = "fa fa-user-circle fa-lg"
-    weight = 10
-
-[[menu.main]]
-    name = "API Reference"
-    url  = "/api/"
-    pre = "fa fa-code fa-lg"
-    weight = 30
+    weight = 250
 
 [[menu.main]]
     name = "Security and legal"
@@ -131,3 +125,9 @@ name = "Shell"
     url  = "/developer/"
     pre = "fa fa-cube fa-lg"
     weight = 70
+
+[[menu.main]]
+    name = "API Reference"
+    url  = "/api/"
+    pre = "fa fa-code fa-lg"
+    weight = 80

@@ -8,6 +8,10 @@ aliases:
 ---
 You can process refunds for all Shopware 5 payment methods except [post-payment methods](/payments/methods/billing-suite) from your:
 
-- Shopware 5 backend
-- [MultiSafepay account](https://merchant.multisafepay.com)
+Refund rules:
+
+- Full refunds from your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
+- Full refunds from your Shopware 5 backend 
+- No refunds for [post-payment methods](/payment-methods/billing-suite)
+
 
