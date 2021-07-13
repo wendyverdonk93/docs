@@ -1,7 +1,7 @@
 ---
-title: 'Zero Authorization'
+title: 'Zero authorization'
 weight: 40
-meta_title: "Zero Authorization - MultiSafepay Docs"
+meta_title: "Zero authorization - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "single"
 logo: '/svgs/Zero_Authorization.svg'
