@@ -14,4 +14,4 @@ Mastercard gives cardholders the right to claim chargebacks for up to 180 days a
 
 For more information, see [Chargebacks](/faq/chargebacks).
 
-To help reduce chargebacks, see [Displaying your logo in online banking](/payment-methods/credit-and-debit-cards/mastercard/user-guide/displaying-your-logo-in-online-banking).
+To help reduce chargebacks, see [Displaying your logo in online banking](/payments/methods/credit-and-debit-cards/mastercard/user-guide/displaying-your-logo-in-online-banking).

@@ -31,9 +31,9 @@ Requests to and responses from the MultiSafepay server are processed much faster
 We designed PayV2 pages to work responsively across different devices and browsers to give customers a seamless experience.
 
 ### Dynamic templates
-With PayV2, you can use dynamic templates to style payment pages through our API. For more information, see [Dynamic styling for payment pages](/tools/payment-pages/dynamic-styling-for-payment-pages/).
+With PayV2, you can use dynamic templates to style payment pages through our API. For more information, see [Dynamic styling for payment pages](/payments/checkout/payment-pages/dynamic-styling-for-payment-pages/).
 
 ### Languages
 PayV2 supports 5 more languages. For a list of supported languages, see FAQ - [Languages supported](/faq/general/languages-supported/).
 
-To activate PayV2, see [Activating PayV2](https://docs.multisafepay.com/tools/payment-pages/what-is-payv2).
+To activate PayV2, see [Activating PayV2](https://docs.multisafepay.com/payments/checkout/payment-pages/activating-payv2).

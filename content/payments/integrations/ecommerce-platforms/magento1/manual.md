@@ -56,10 +56,10 @@ Contact us:
     Make sure your selected payment methods are actived in your [MultiSafepay account](https://merchant.multisafepay.com).
 
 4. To configure MultiSafepay gift cards, go to the **MultiSafepay Gift Cards** page.  
-    Make sure gift cards are activated in your MultiSafepay account. For more information, see [Gift cards](/payment-methods/prepaid-cards/gift-cards).
+    Make sure gift cards are activated in your MultiSafepay account. For more information, see [Gift cards](/payments/methods/prepaid-cards/gift-cards).
 
 5. To configure FastCheckout settings, go to the **FastCheckout** page.    
-    For more information, see [FastCheckout](/payment-methods/fastcheckout).
+    For more information, see [FastCheckout](/payments/methods/fastcheckout).
 
 For any questions about the plugin:
 

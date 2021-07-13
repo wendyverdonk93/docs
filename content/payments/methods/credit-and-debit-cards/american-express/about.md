@@ -20,8 +20,8 @@ American Express is one of the biggest global credit card schemes, accepted in m
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, GBP, USD | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/credit-and-debit-cards/american-express/user-guide/processing-refunds/) | 
-| **Recurring payments**  | Yes | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/credit-and-debit-cards/american-express/user-guide/processing-refunds/) | 
+| **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks) {{< br >}} You are solely liable for paying chargebacks.  |
 
 ## Product rules

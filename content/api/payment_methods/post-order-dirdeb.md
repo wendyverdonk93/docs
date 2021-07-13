@@ -120,7 +120,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 Creates a SEPA Direct Debit [Redirect](/developer/api/difference-between-direct-and-redirect) order.
 
-{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay account. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](https://docs.multisafepay.com/tools/recurring-payments/recurring-payments-how-does-it-work) {{< /alert-notice >}}
+{{< alert-notice >}} The __recurring_id__ parameter can be used to process subsequent payments when the recurring option is enabled in your MultiSafepay account. The recurring_id must be included in the gateway info section of the request. Read more about [recurring payments](/payments/about/recurring-payments/processing-recurring-payments/) {{< /alert-notice >}}
 
 * Redirect transaction requires all fields completed properly
 
@@ -285,6 +285,6 @@ The [X-Forwarded-For](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit) on our docuemntation page.
+Read more about [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit) on our docuemntation page.
 
 {{< /description >}}

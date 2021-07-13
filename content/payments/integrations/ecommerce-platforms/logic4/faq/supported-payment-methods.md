@@ -9,32 +9,32 @@ aliases:
 
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa)
++ [American Express](/payments/methods/credit-and-debit-cards/american-express)
++ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
++ [Visa](/payments/methods/credit-and-debit-cards/visa)
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact)
-+ [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [Belfius](/payment-methods/banks/belfius)
-+ [Giropay](/payment-methods/banks/giropay)
-+ [iDEAL](/payment-methods/banks/ideal)
-+ [ING Home'Pay](/payment-methods/banks/ing-home-pay)
-+ [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
++ [Bancontact](/payments/methods/banks/bancontact)
++ [Bank transfer](/payments/methods/banks/bank-transfer)
++ [Belfius](/payments/methods/banks/belfius)
++ [Giropay](/payments/methods/banks/giropay)
++ [iDEAL](/payments/methods/banks/ideal)
++ [ING Home'Pay](/payments/methods/banks/ing-home-pay)
++ [KBC](/payments/methods/banks/kbc)
++ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
 + MultiSafepay Wallet
-+ [PayPal](/payment-methods/wallet/paypal)
-+ [SOFORT Banking](/payment-methods/banks/sofort-banking)
-+ [Trustly](/payment-methods/banks/trustly)
++ [PayPal](/payments/methods/wallet/paypal)
++ [SOFORT Banking](/payments/methods/banks/sofort-banking)
++ [Trustly](/payments/methods/banks/trustly)
 
 __Billing suites__
 
-+ [AfterPay](/payment-methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
-+ [Klarna](/payment-methods/billing-suite/klarna)
-+ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
-+ [in3](/payment-methods/billing-suite/in3)
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
++ [in3](/payments/methods/billing-suite/in3)
 
 
 

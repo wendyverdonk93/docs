@@ -13,9 +13,9 @@ aliases:
 
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. 
 
-Gift cards can be open-loop (redeemable at multiple merchants) or closed-loop (redeemable at one specific merchant). For more information, see [About open-loop and closed-loop gift cards](/payment-methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/).
+Gift cards can be open-loop (redeemable at multiple merchants) or closed-loop (redeemable at one specific merchant). For more information, see [About open-loop and closed-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/).
 
-In addition to accepting established gift card issuers, you can also [create your own custom gift card](/payment-methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/).
+In addition to accepting established gift card issuers, you can also [create your own custom gift card](/payments/methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/).
 
 {{< details title="Supported gift cards" >}}
 
@@ -42,7 +42,7 @@ MultiSafepay supports the following gift cards as standard:
 - [Winkelcheque](https://www.winkelcheque.nl/) 
 - [YourGift](https://www.yourgift.nl/)
 
-**Note:** Webshop Giftcard no longer offers [open-loop gift cards](/payment-methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
+**Note:** Webshop Giftcard no longer offers [open-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
 {{< /details >}}
 
@@ -54,15 +54,15 @@ MultiSafepay supports the following gift cards as standard:
 | **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium, the Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Only payments with a gift card **and** another payment method  | [More information](/payment-methods/prepaid-cards/gift-cards/user-guide/processing-refunds) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Only payments with a gift card **and** another payment method  | [More information](/payments/methods/prepaid-cards/gift-cards/user-guide/processing-refunds) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules
 
 - Customers can pay for an order using multiple gift cards of the same or different types.
 
-- For [open-loop gift cards](/payment-methods/prepaid-cards/gift-cards/user-guide/open-closed-loop/):
+- For [open-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/open-closed-loop/):
     - The maximum credit value is 150 EUR.
     - The maximum amount per transaction is 50 EUR. Any outstanding amount must be paid using another payment method.
 

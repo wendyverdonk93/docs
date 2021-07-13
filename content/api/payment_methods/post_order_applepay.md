@@ -125,5 +125,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 ----------------
 
 
-Read more about [Apple Pay](/payment-methods/wallet/applepay) on our documentation page.
+Read more about [Apple Pay](/payments/methods/wallet/applepay) on our documentation page.
 {{< /description >}}

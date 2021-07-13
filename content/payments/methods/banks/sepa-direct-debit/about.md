@@ -23,8 +23,8 @@ SEPA Direct Debit is a European payment method where customers authorize automat
 | **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | SEPA region  | [More information](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf) |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/banks/sepa-direct-debit/user-guide/processing-refunds) | 
-| **Recurring payments**  | Yes | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/banks/sepa-direct-debit/user-guide/processing-refunds) | 
+| **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | Yes | [More information](/faq/chargebacks)  |
 
 ## Product rules

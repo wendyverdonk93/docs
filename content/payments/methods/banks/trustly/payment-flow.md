@@ -38,7 +38,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 | In rare cases, the transaction is marked as **Uncleared**. {{< br >}} Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **Declined**, or **Expired**. {{< br >}} The **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
 
-For refund statuses, see [Processing refunds](/payment-methods/banks/trustly/user-guide/processing-refunds/).
+For refund statuses, see [Processing refunds](/payments/methods/banks/trustly/user-guide/processing-refunds/).
 
 
 

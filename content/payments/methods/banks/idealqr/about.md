@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/idealqr/what-is-idealqr/
 ---
 
-iDEAL QR is an additional service offered by the Dutch payment method [iDEAL](/payment-methods/banks/ideal).
+iDEAL QR is an additional service offered by the Dutch payment method [iDEAL](/payments/methods/banks/ideal).
  
 Customers pay by using their smartphone to scan a QR code, on paper or on screen. This lets you bring offline payments online. 
 
@@ -25,8 +25,8 @@ Customers pay by using their smartphone to scan a QR code, on paper or on screen
 | **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/banks/idealqr/user-guide/processing-refunds) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/banks/idealqr/user-guide/processing-refunds) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

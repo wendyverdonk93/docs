@@ -19,15 +19,15 @@ Klarna is an online post-payment method that lets customers pay for orders after
 | **API flow**  | `Direct`/`Redirect` {{< br >}} Both direct to the Klarna payment page| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Denmark, France, Germany, Italy, Norway, Spain, Sweden, Netherlands  | |
 | **Currencies**  | EUR, SEK, NOK, DKK | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/klarna/user-guide/processing-refunds) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/billing-suite/klarna/user-guide/processing-refunds) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Klarna requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Klarna requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 

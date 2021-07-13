@@ -241,7 +241,7 @@ __forwarded_ip__ | string
 
 Please note that *first_name* and *last_name* in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
+Read more about [Klarna](/payments/methods/billing-suite/klarna) on our documentation page.
 
 ### Redirect - Klarna Payments
 Creates a Klarna Payments [Redirect](/developer/api/difference-between-direct-and-redirect) order to be paid after delivery
@@ -369,6 +369,6 @@ __forwarded_ip__ | string
 
 Please note that *first_name* and *last_name* in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Klarna](/payment-methods/billing-suite/klarna) on our documentation page.
+Read more about [Klarna](/payments/methods/billing-suite/klarna) on our documentation page.
 
 {{< /description >}}

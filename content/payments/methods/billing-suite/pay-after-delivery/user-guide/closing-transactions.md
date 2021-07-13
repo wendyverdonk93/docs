@@ -6,7 +6,7 @@ read_more: "."
 weight: 
 ---
 
-If you have not yet shipped an order, you can cancel the transaction by performing a full refund. See [Processing refunds](/payment-methods/billing-suite/pay-after-delivery/faq/processing-refunds/).
+If you have not yet shipped an order, you can cancel the transaction by performing a full refund. See [Processing refunds](/payments/methods/billing-suite/pay-after-delivery/faq/processing-refunds/).
 
 If you have shipped an order and the customer fails to pay, you can no longer cancel the order. To close the transaction instead, follow the **Complete own funds** steps below.
 

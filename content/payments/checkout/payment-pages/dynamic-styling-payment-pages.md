@@ -5,11 +5,11 @@ meta_title: "Payment pages - Dynamic styling - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 aliases:
-    -/tools/payment-pages/dynamic-templates
+    -/payments/checkout/payment-pages/dynamic-styling-payment-pages/
 ---
 Merchants with a custom integration built using our [API](/api) can use dynamic styling to change the look and feel of V2 payment page templates for every transaction.
 
-For more information about V2 payment pages, see FAQ – [Difference between V1 and V2](https://docs.multisafepay.com/tools/payment-pages/difference-between-v1-and-v2).
+For more information about V2 payment pages, see FAQ – [Difference between V1 and V2](https://docs.multisafepay.com/payments/checkout/payment-pages/classic-payment-page).
 
 There are two ways of dynamically styling payment page templates:
 

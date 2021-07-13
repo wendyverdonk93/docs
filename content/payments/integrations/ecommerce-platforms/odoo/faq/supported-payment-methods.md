@@ -9,37 +9,37 @@ weight: 1
 
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
++ [American Express](/payments/methods/credit-and-debit-cards/american-express)
++ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
++ [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact)
-+ [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [Belfius](/payment-methods/banks/belfius)
-+ [Dotpay](/payment-methods/banks/dotpay)
-+ [EPS](/payment-methods/banks/eps)
-+ [Giropay](/payment-methods/banks/giropay)
-+ [iDEAL](/payment-methods/banks/ideal)
-+ [ING Home'Pay](/payment-methods/banks/ing-home-pay)
-+ [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payment-methods/banks/sofort-banking)
-+ [Trustly](/payment-methods/banks/trustly)
++ [Bancontact](/payments/methods/banks/bancontact)
++ [Bank transfer](/payments/methods/banks/bank-transfer)
++ [Belfius](/payments/methods/banks/belfius)
++ [Dotpay](/payments/methods/banks/dotpay)
++ [EPS](/payments/methods/banks/eps)
++ [Giropay](/payments/methods/banks/giropay)
++ [iDEAL](/payments/methods/banks/ideal)
++ [ING Home'Pay](/payments/methods/banks/ing-home-pay)
++ [KBC](/payments/methods/banks/kbc)
++ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
++ [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payments/methods/banks/sofort-banking)
++ [Trustly](/payments/methods/banks/trustly)
 
 __Billing suites__
 
-+ [AfterPay](/payment-methods/billing-suite/afterpay)
-+ [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand/)
-+ [E-Invoicing](/payment-methods/billing-suite/e-invoicing)
++ [AfterPay](/payments/methods/billing-suite/afterpay)
++ [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/)
++ [E-Invoicing](/payments/methods/billing-suite/e-invoicing)
 + [in3](https://docs.multisafepay.com/payment-methods/billing-suite/in3)
-+ [Klarna](/payment-methods/billing-suite/klarna)
-+ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
 __Wallets__ 
 
-+ [Alipay](/payment-methods/wallet/alipay)
-+ [Apple Pay](/payment-methods/wallet/applepay)
-+ [PayPal](/payment-methods/wallet/paypal)
++ [Alipay](/payments/methods/wallet/alipay)
++ [Apple Pay](/payments/methods/wallet/applepay)
++ [PayPal](/payments/methods/wallet/paypal)

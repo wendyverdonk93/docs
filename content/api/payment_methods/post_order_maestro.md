@@ -59,7 +59,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-Fixed value: [MAESTRO](/payment-methods/credit-and-debit-cards/maestro)
+Fixed value: [MAESTRO](/payments/methods/credit-and-debit-cards/maestro)
 
 ----------------
 __order_id__ | integer / string
@@ -110,4 +110,4 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 __Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
 
-Read more about [Maestro](/payment-methods/credit-and-debit-cards/maestro) on our documentation page.
+Read more about [Maestro](/payments/methods/credit-and-debit-cards/maestro) on our documentation page.

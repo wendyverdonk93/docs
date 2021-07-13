@@ -213,7 +213,7 @@ To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthel
 
 ----------------
 
-Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
+Read more about [PayPal](/payments/methods/wallet/paypal) on our documentation page.
 
 ### Direct - PayPal
 Creates a PayPal [Direct](/developer/api/difference-between-direct-and-redirect) order.
@@ -275,6 +275,6 @@ To be eligible for [PayPal Seller Protection](https://www.paypal.com/cs/smarthel
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [PayPal](/payment-methods/wallet/paypal) on our documentation page.
+Read more about [PayPal](/payments/methods/wallet/paypal) on our documentation page.
 
 {{< /description >}}

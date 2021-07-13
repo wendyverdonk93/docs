@@ -9,4 +9,4 @@ aliases:
 
 Our Magento 2 plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional [GraphQL support module](https://github.com/MultiSafepay/magento2-graphql).
 
-We also offer full extensions for ScandiPWA and Vue Storefront. For more information, see [PWA integrations](/integrations/pwa/). 
+We also offer full extensions for ScandiPWA and Vue Storefront. For more information, see [PWA integrations](/payments/integrations/pwa/). 

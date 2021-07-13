@@ -234,6 +234,6 @@ Customer will be redirected to this page after a failed payment.
 
 ----------------
 
-Read more about [Belfius](/payment-methods/banks/belfius) on our documentation page.
+Read more about [Belfius](/payments/methods/banks/belfius) on our documentation page.
 
 {{< /description >}}

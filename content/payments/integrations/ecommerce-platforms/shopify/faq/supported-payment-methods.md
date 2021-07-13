@@ -9,33 +9,33 @@ aliases:
 ---
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payment-methods/credit-and-debit-cards/dankort)
++ [American Express](/payments/methods/credit-and-debit-cards/american-express)
++ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
++ [Visa](/payments/methods/credit-and-debit-cards/visa), including [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires) and [Dankort](/payments/methods/credit-and-debit-cards/dankort)
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact)
-+ [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [Belfius](/payment-methods/banks/belfius)
-+ [Dotpay](/payment-methods/banks/dotpay)
-+ [EPS](/payment-methods/banks/eps)
-+ [Giropay](/payment-methods/banks/giropay)
-+ [iDEAL](/payment-methods/banks/ideal)
-+ [iDEAL QR](/payment-methods/banks/idealqr)
-+ [ING Home'Pay](/payment-methods/banks/ing-home-pay)
-+ [KBC](/payment-methods/banks/kbc)
-+ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
-+ [Request to Pay](/payment-methods/banks/request-to-pay)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payment-methods/banks/sofort-banking)
-+ [Trustly](/payment-methods/banks/trustly)
++ [Bancontact](/payments/methods/banks/bancontact)
++ [Bank transfer](/payments/methods/banks/bank-transfer)
++ [Belfius](/payments/methods/banks/belfius)
++ [Dotpay](/payments/methods/banks/dotpay)
++ [EPS](/payments/methods/banks/eps)
++ [Giropay](/payments/methods/banks/giropay)
++ [iDEAL](/payments/methods/banks/ideal)
++ [iDEAL QR](/payments/methods/banks/idealqr)
++ [ING Home'Pay](/payments/methods/banks/ing-home-pay)
++ [KBC](/payments/methods/banks/kbc)
++ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
++ [Request to Pay](/payments/methods/banks/request-to-pay)
++ [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payments/methods/banks/sofort-banking)
++ [Trustly](/payments/methods/banks/trustly)
 
 __Wallets__ 
 
-+ [Alipay](/payment-methods/wallet/alipay)
-+ [PayPal](/payment-methods/wallet/paypal)
++ [Alipay](/payments/methods/wallet/alipay)
++ [PayPal](/payments/methods/wallet/paypal)
 
 __Prepaid cards__ 
 
-+ [Paysafecard](/payment-methods/prepaid-cards/paysafecard)
++ [Paysafecard](/payments/methods/prepaid-cards/paysafecard)

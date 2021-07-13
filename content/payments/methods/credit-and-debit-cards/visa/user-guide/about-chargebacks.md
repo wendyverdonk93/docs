@@ -14,4 +14,4 @@ Visa gives cardholders the right to claim chargebacks for up to 180 days after t
 
 For more information, see [Chargebacks](/faq/chargebacks).
 
-To help reduce chargebacks, see [Displaying your logo in online banking](/payment-methods/credit-and-debit-cards/visa/user-guide/displaying-your-logo-in-online-banking).
+To help reduce chargebacks, see [Displaying your logo in online banking](/payments/methods/credit-and-debit-cards/visa/user-guide/displaying-your-logo-in-online-banking).

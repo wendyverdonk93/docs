@@ -5,7 +5,7 @@ meta_title: "Second chance - MultiSafepay Docs"
 layout: 'single'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Second Chance.svg'
-short_description: 'Send customers a friendly reminder to complete payments.'
+short_description: 'Send customers a friendly reminder to complete payments'
 aliases:
     - /tools/second-chance/about-second-chance/
     - /tools/second-chance/what-is-second-chance
@@ -15,6 +15,7 @@ aliases:
     - /tools/second-chance/customizing-second-chance/
     - /tools/second-chance/how-to-personalize-the-second-chance-e-mail
     - /tools/second-chance/how-does-it-work
+    - /tools/email-template
 ---
 
 Second Chance is an email service to remind customers about payments they initiated but didn't complete. The first email is sent 1 hour after the customer initiated the payment, and a second after 24 hours. The emails contain a link to a payment page complete the payment. 
@@ -57,18 +58,18 @@ Second Chance emails cannot be activated or sent to the customer while the statu
 
 Second Chance emails can't be sent for the following payments methods because they follow a different payment flow:
 
-- [Klarna](/payment-methods/billing-suite/klarna)
-- [AfterPay](/payment-methods/billing-suite/afterpay)
-- [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand)
-- [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
-- [Bank transfer](/payment-methods/banks/bank-transfer)
-- [Direct Debit](/payment-methods/banks/sepa-direct-debit)
+- [Klarna](/payments/methods/billing-suite/klarna)
+- [AfterPay](/payments/methods/billing-suite/afterpay)
+- [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand)
+- [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
+- [Bank transfer](/payments/methods/banks/bank-transfer)
+- [Direct Debit](/payments/methods/banks/sepa-direct-debit)
 
 {{< /details >}}
 
 {{< details title="Customer consent" >}}
 
-Under the [GDPR](/faq/gdpr/), you must obtain documented consent from the customer to send Second Chance emails. 
+Under the [GDPR](/security-and-legal/gdpr), you must obtain documented consent from the customer to send Second Chance emails. 
 
 {{< /details >}}
 

@@ -8,7 +8,7 @@ weight: 3
 
 PayV2 is the latest MultiSafepay payment page, starting with `payv2.multisafepay.com`. 
 
-For more information, see [PayV2](/tools/payment-pages/activating-payv2/).
+For more information, see [PayV2](/payments/checkout/payment-pages/activating-payv2/).
 
 To activate PayV2 pages, follow these steps:
 

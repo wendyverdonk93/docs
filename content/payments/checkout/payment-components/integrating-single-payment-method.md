@@ -213,6 +213,6 @@ PaymentComponent = new MultiSafepay({
 
 {{< two-buttons
 
-href-1="/integrations/payment-components" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
+href-1="/payments/checkout/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" 
 
-href-2="/integrations/payment-components/customizing-payment-components" header-2="Next" text-2="Customizing Payment Components" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+href-2="/payments/checkout/payment-components/customizing-payment-components" header-2="Next" text-2="Customizing Payment Components" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}

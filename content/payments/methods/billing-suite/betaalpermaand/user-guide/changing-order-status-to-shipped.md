@@ -19,7 +19,7 @@ To change the order status in your MultiSafepay account, follow these steps:
 5. Change the status to **Shipped**.
 6. Send the customer the Track & Trace details, if relevant.
 
-At this point, you also need to [provide the track-and-trace code](/payment-methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/).
+At this point, you also need to [provide the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/).
 
 ## In your backend
 

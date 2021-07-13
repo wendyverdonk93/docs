@@ -35,7 +35,7 @@ Create an action in the form of an email, text message, or letter. Multiple acti
 9. Enter a **Subject line**, e.g. "Invoice from Amazing Socks Ltd."
 10. **Plain body** indicates unformatted text. Design your preferred layout.
 11. Design and create the **Body HTML**.  
- - [Customize the email template](/payment-methods/billing-suite/e-invoicing/user-guide/customizing-e-invoices/) as required.  
+ - [Customize the email template](/payments/methods/billing-suite/e-invoicing/user-guide/customizing-e-invoices/) as required.  
  - For how to use the @@ tokens, see [Email template tokens](/tools/multisafepay-control/email-template-token).
 12. Create an action for every step in the collection flow. 
 

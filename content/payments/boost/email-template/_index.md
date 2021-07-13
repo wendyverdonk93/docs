@@ -5,13 +5,14 @@ meta_title: "Email template - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "single"
 logo: '/svgs/Email_template.svg'
-short_description: 'Customize templates to make your customer emails unique.'
+short_description: 'Customize templates to make your customer emails unique'
 aliases:
     - /tools/email-template/customizing-email-templates/
     - /tools/email-template/about-email-templates/
     - /tools/email-template/basic-information-on-email-template/
     - /tools/email-template/customizing-email-templates/
     - /tools/email-template/about-email-templates/
+    - /tools/email-template
 ---
 
 To speed up and customize customer emails, you can use preformatted and/or prewritten templates that you populate with relevant content.
@@ -28,25 +29,25 @@ To speed up and customize customer emails, you can use preformatted and/or prewr
 {{< details title="Template types" >}}
 
 **Bank transfer details email (to customer)**  
-For sending customers MultiSafepay's bank details when they select [Bank Transfer](/payment-methods/banks/bank-transfer) as payment method and you send a [`redirect`](/developer/api/difference-between-direct-and-redirect/) transaction request. 
+For sending customers MultiSafepay's bank details when they select [Bank Transfer](/payments/methods/banks/bank-transfer) as payment method and you send a [`redirect`](/developer/api/difference-between-direct-and-redirect/) transaction request. 
 
 **Chargeback email (to merchant)**  
-For notifying you when a customer requests a [chargeback](/payment-methods/credit-and-debit-cards/user-guide/chargebacks/) (recommended if you accept credit card payments).
+For notifying you when a customer requests a [chargeback](/payments/methods/credit-and-debit-cards/user-guide/chargebacks/) (recommended if you accept credit card payments).
 
 Make sure you add one or more email addresses to send these emails to in your MultiSafepay account, under 
 **Contact information** > **Chargeback email**. 
 
 **Manual capture reservation completed (to customer)**  
-For notifying customers that you have manually captured reserved funds for an [Uncleared transaction](/payment-methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). 
+For notifying customers that you have manually captured reserved funds for an [Uncleared transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). 
 
 **Manual capture reservation completed (to merchant)**  
-For confirming that you have manually captured reserved funds for an [Uncleared transaction](/payment-methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/).  
+For confirming that you have manually captured reserved funds for an [Uncleared transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/).  
 
 **Partial and/or full capture completed (to customer)**  
-For notifying customers that you have partially or fully captured reserved funds for an [Uncleared transaction](/payment-methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). 
+For notifying customers that you have partially or fully captured reserved funds for an [Uncleared transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/). 
 
 **Partial and/or full capture completed (to merchant)**  
-For confirming that you have partially or fully captured reserved funds for an [Uncleared transaction](/payment-methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/).
+For confirming that you have partially or fully captured reserved funds for an [Uncleared transaction](/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/).
 
 **Refund complete email (to customer)**  
 For notifying customers that you have processed their refund. 
@@ -54,7 +55,7 @@ For notifying customers that you have processed their refund.
 **Second Chance email (to customer)**  
 For sending customers a friendly reminder to complete a payment. 
 
-Make sure you have enabled [Second Chance](/tools/second-chance/) in your MultiSafepay account.
+Make sure you have enabled [Second Chance](/payments/boost/second-chance/) in your MultiSafepay account.
 
 **Transaction completed email (to customer)**  
 For sending payment confirmation to customers. 

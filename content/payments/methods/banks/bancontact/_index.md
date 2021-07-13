@@ -13,4 +13,4 @@ short_description: 'Leading Belgian payment method for online, mobile app, and P
 aliases: 
     - /support-tab/magento2/payment-methods/bancontact
 ---
-See also [Bancontact QR](/payment-methods/banks/bancontact-qr/).
+See also [Bancontact QR](/payments/methods/banks/bancontact-qr/).

@@ -10,7 +10,7 @@ aliases:
     - /faq/chargebacks/disputing-chargebacks/
 ---
 
-When a [cardholder](/payment-methods/credit-and-debit-cards/user-guide/glossary/#cardholder) requests a [chargeback](/payment-methods/credit-and-debit-cards/user-guide/glossary/#chargeback), they must provide a reason. This page sets out the chargeback reason codes for the major [card schemes](/payment-methods/credit-and-debit-cards/user-guide/glossary/#card-scheme). 
+When a [cardholder](/payments/methods/credit-and-debit-cards/user-guide/glossary/#cardholder) requests a [chargeback](/payments/methods/credit-and-debit-cards/user-guide/glossary/#chargeback), they must provide a reason. This page sets out the chargeback reason codes for the major [card schemes](/payments/methods/credit-and-debit-cards/user-guide/glossary/#card-scheme). 
 
 If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible. 
 
@@ -261,7 +261,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**.
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/#3d-secure).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure).
 
 {{< /details >}}
 
@@ -273,7 +273,7 @@ To dispute this type of chargeback, you need to provide proof that:
 
 - The receipt is signed, or 
 - The cardholder was present at the time of the transaction, or 
-- The transaction was verified by [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/#3d-secure)
+- The transaction was verified by [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure)
 
 {{< /details >}}
 
@@ -408,6 +408,6 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/#3d-secure).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure).
 
 {{< /details >}}

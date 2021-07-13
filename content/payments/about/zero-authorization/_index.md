@@ -11,9 +11,9 @@ aliases:
     - /tools/zero-authorization/how-to-activate-zero-authorization/
 ---
 
-Zero Authorization is a way of verifying a credit card without charging the cardholder. We charge an amount of 0 EUR (with or without [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/#3d-secure)) to the credit card, store the card details as a token, and then check if the card is legitimate. 
+Zero Authorization is a way of verifying a credit card without charging the cardholder. We charge an amount of 0 EUR (with or without [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure)) to the credit card, store the card details as a token, and then check if the card is legitimate. 
 
-You can then also use the token for [tokenization](/tools/tokenization/) or [Recurring Payments](/tools/recurring-payments).
+You can then also use the token for [tokenization](/payments/about/tokenization) or [Recurring Payments](/payments/about/recurring-payments/).
 
 Zero Authorization supports Maestro, Mastercard, and Visa, and is available in all countries and currencies.
 

@@ -23,19 +23,19 @@ Betaal per Maand bears the risk and guarantees settlement.
 | **API flow**  | `Direct`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](https://docs.multisafepay.com/faq/general/supported-currencies/) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/billing-suite/betaalpermaand/faq/processing-refunds/) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/billing-suite/betaalpermaand/faq/processing-refunds/) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ### Product rules
 
 - You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
-- See also User guide – [Known errors](/payment-methods/billing-suite/betaalpermaand/faq/known-errors/).
+- See also User guide – [Known errors](/payments/methods/billing-suite/betaalpermaand/faq/known-errors/).
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Betaal per Maand requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Betaal per Maand requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 

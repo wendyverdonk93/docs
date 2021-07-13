@@ -38,5 +38,5 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 
 ## See also
 
-- [Processing refunds](/payment-methods/banks/bancontact/user-guide/processing-refunds/)
-- [Handling errors](/payment-methods/prepaid-cards/gift-cards/user-guide/handling-errors/)
+- [Processing refunds](/payments/methods/banks/bancontact/user-guide/processing-refunds/)
+- [Handling errors](/payments/methods/prepaid-cards/gift-cards/user-guide/handling-errors/)

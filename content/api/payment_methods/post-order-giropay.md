@@ -97,5 +97,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [Giropay](/payment-methods/banks/giropay) on our documentation page.
+Read more about [Giropay](/payments/methods/banks/giropay) on our documentation page.
 {{< /description >}}

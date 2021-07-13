@@ -23,8 +23,8 @@ You can link Bank Transfer directly to your website. When a customer selects Ban
 | **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Europe (SEPA area)  | |
 | **Currencies**  | CZK, EUR, GBP, HUF, PLN | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/banks/bank-transfer/user-guide/processing-refunds) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/banks/bank-transfer/user-guide/processing-refunds) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 **Note:** USD is **not** supported due to extremely high transaction and currency conversion fees for customers.
@@ -64,5 +64,5 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 - To change how bank transfers are validated, check whether this is possible in your ecommerce platform backend.
 
-- See also [Emailing payment instructions to the customer yourself](/payment-methods/banks/bank-transfer/user-guide/emailing-payment-instructions/). 
+- See also [Emailing payment instructions to the customer yourself](/payments/methods/banks/bank-transfer/user-guide/emailing-payment-instructions/). 
 

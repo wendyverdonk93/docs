@@ -20,8 +20,8 @@ Alipay is a leading global payment method that lets Chinese customers link their
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | EUR, USD | [More information](/faq/general/supported-currencies/) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/wallet/alipay/user-guide/processing-refunds/) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/wallet/alipay/user-guide/processing-refunds/) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

@@ -175,7 +175,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay) on our documentation page.
+Read more about [ING Home'Pay](/payments/methods/banks/ing-home-pay) on our documentation page.
 
 ### Redirect - ING Home'Pay
 Creates an ING Home'Pay [Redirect](/developer/api/difference-between-direct-and-redirect) order.
@@ -224,5 +224,5 @@ Contains the redirect_url, cancel_url and [notification_url](/developer/api/noti
 ----------------    
 
 
-Read more about [ING Home'Pay](/payment-methods/banks/ing-home-pay) on our documentation page.
+Read more about [ING Home'Pay](/payments/methods/banks/ing-home-pay) on our documentation page.
 {{< /description >}}

@@ -215,7 +215,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
+Read more about [CBC](/payments/methods/banks/cbc) on our documentation page.
 
 ### Direct - CBC
 
@@ -271,5 +271,5 @@ Contains personal information about the customer.
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [CBC](/payment-methods/banks/cbc) on our documentation page.
+Read more about [CBC](/payments/methods/banks/cbc) on our documentation page.
 {{< /description >}}

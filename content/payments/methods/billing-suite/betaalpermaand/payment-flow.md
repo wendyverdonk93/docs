@@ -29,8 +29,8 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 3. | Once authorized, MultiSafepay sends a capture to Betaal per Maand. | Completed  | Uncleared  |
 |  | The transaction appears in both your MultiSafepay account and the backend of your ecommerce integration via the [Notification URL](/developer/api/notification-url/). | | |
 | 4. | Ship the order. | | |
-| 5. | [Change the order status to Shipped](/payment-methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared | 
-| 6. | [Provide the track-and-trace code](/payment-methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/) to MultiSafepay. | | |
+| 5. | [Change the order status to Shipped](/payments/methods/billing-suite/betaalpermaand/faq/changing-order-status-to-shipped/).  | Shipped | Uncleared | 
+| 6. | [Provide the track-and-trace code](/payments/methods/billing-suite/betaalpermaand/faq/providing-track-and-trace/) to MultiSafepay. | | |
 | 7. | MultiSafepay sends the track-and-trace code to Betaal per Maand to confirm shipment. | | |
 | 8. | Betaal per Maand invoices the customer. Settlement is now guaranteed.  | | |
 | 9. | The customer selects their preferred period and payment method for the monthly payment to Betaal per Maand. | | |
@@ -46,5 +46,5 @@ You can cancel payments before the funds are captured. After the funds are captu
 | The payment was cancelled.   | Void   | Cancelled   |
 | The customer did not complete the payment, and it expired. | Expired    | Expired    |
 
-For refund statuses, see [Processing refunds](/payment-methods/billing-suite/betaalpermaand/user-guide/processing-refunds).
+For refund statuses, see [Processing refunds](/payments/methods/billing-suite/betaalpermaand/user-guide/processing-refunds).
 

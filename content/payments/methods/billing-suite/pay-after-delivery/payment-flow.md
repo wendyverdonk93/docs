@@ -26,7 +26,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | 2. | Pay After Delivery authorizes the payment within 2 business days. |  |  | 
 | 3. | Once authorized, MultiSafepay sends Pay After Delivery a capture. | Completed | Uncleared | 
 | 4. | Ship the order. |  |  |
-| 5. | [Change the order status to Shipped](/payment-methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). | Shipped | Uncleared |
+| 5. | [Change the order status to Shipped](/payments/methods/billing-suite/pay-after-delivery/faq/changing-order-status-to-shipped/). | Shipped | Uncleared |
 | 6. | MultiFactor invoices the customer within 24 hours of changing to **Shipped** status. {{< br >}} Settlement is now guaranteed. |  |  |
 | 7. | The customer has 14 days to pay the invoice.  |  |  |
 | 8. | MultiSafepay adds the funds to your MultiSafepay balance within 30 days of changing to **Shipped** status.  | Shipped | Completed |
@@ -46,13 +46,13 @@ To stop sending reminders, credit the invoice for a zero amount.
 ### Unsuccessful statuses
 You can cancel payments before the funds are captured. After the funds are captured you can only process a refund.
 
-See also [Closing transactions](/payment-methods/billing-suite/pay-after-delivery/faq/closing-transactions).
+See also [Closing transactions](/payments/methods/billing-suite/pay-after-delivery/faq/closing-transactions).
 
 | Description  | Order status  | Transaction status  |
 |---|---|---| 
 | The transaction has been cancelled. | Void   | Cancelled | 
 | The customer did not complete the payment within 90 days and the transaction has expired. | Expired | Expired | 
 
-For refund statuses, see [Processing refunds](/payment-methods/billing-suite/pay-after-delivery/user-guide/processing-refunds/).
+For refund statuses, see [Processing refunds](/payments/methods/billing-suite/pay-after-delivery/user-guide/processing-refunds/).
 
 

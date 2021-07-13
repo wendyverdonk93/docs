@@ -11,4 +11,4 @@ faq: '.'
 logo: '/logo/Payment_methods/Bancontact.svg'
 short_description: 'Accept Bancontact payments via QR codes.'
 ---
-See also [Bancontact](/payment-methods/banks/bancontact/).
+See also [Bancontact](/payments/methods/banks/bancontact/).

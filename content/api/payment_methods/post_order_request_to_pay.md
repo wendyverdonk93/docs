@@ -226,6 +226,6 @@ __payment_options__ | object
 ----------------
 
 
-Read more about [Request to Pay](/payment-methods/banks/request-to-pay) on our documentation page.
+Read more about [Request to Pay](/payments/methods/banks/request-to-pay) on our documentation page.
 
 {{< /description >}}

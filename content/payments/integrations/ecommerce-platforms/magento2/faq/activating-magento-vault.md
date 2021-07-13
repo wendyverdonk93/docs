@@ -18,11 +18,11 @@ Magento Vault:
 - Increases conversion
 
 ## Activating Magento Vault
-To activate Magento Vault in your Magento back end, you must first enable [recurring payments](/tools/recurring-payments/) in your MultiSafepay account. 
+To activate Magento Vault in your Magento back end, you must first enable [recurring payments](/payments/about/recurring-payments/) in your MultiSafepay account. 
 
 For more information, see:
 
-- [How to activate Recurring Payments](/tools/recurring-payments/how-to-activate-recurring-payments/) 
-- [Requirements](/tools/recurring-payments/what-is-recurring-payments/#3-requirements)
+- [How to activate Recurring Payments](/payments/about/recurring-payments/activating-recurring-payments/) 
+- [Requirements](/payments/about/recurring-payments/about-recurring-payments/#requirements)
 
 For any questions about integrating Magento Vault, email the Integration Team at <integration@multisafepay.com>

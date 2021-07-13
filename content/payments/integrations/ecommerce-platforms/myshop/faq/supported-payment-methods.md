@@ -8,37 +8,37 @@ aliases:
 ---
 __Credit cards__
 
-+ [American Express](/payment-methods/credit-and-debit-cards/american-express)
-+ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/visa)
++ [American Express](/payments/methods/credit-and-debit-cards/american-express)
++ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
++ [Visa](/payments/methods/credit-and-debit-cards/visa)
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact)
-+ [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [Dotpay](/payment-methods/banks/dotpay)
-+ [EPS](/payment-methods/banks/eps)
-+ [Giropay](/payment-methods/banks/giropay)
-+ [iDEAL](/payment-methods/banks/ideal)
-+ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payment-methods/banks/sofort-banking)
++ [Bancontact](/payments/methods/banks/bancontact)
++ [Bank transfer](/payments/methods/banks/bank-transfer)
++ [Dotpay](/payments/methods/banks/dotpay)
++ [EPS](/payments/methods/banks/eps)
++ [Giropay](/payments/methods/banks/giropay)
++ [iDEAL](/payments/methods/banks/ideal)
++ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
++ [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
 
 __Billing suites__
 
-+ [Klarna](/payment-methods/billing-suite/klarna)
-+ [Pay After Delivery](/payment-methods/billing-suite/pay-after-delivery)
++ [Klarna](/payments/methods/billing-suite/klarna)
++ [Pay After Delivery](/payments/methods/billing-suite/pay-after-delivery)
 
 
 __Wallets__
 
-+ [FastCheckout](/payment-methods/fastcheckout)
-+ [PayPal](/payment-methods/wallet/paypal)
++ [FastCheckout](/payments/methods/fastcheckout)
++ [PayPal](/payments/methods/wallet/paypal)
 
 
 __Prepaid cards__
 
-+ [123TCS](/payment-methods/prepaid-cards/gift-cards)
-+ [Intersolve](/payment-methods/prepaid-cards/gift-cards)
-+ [Fashioncheque](/payment-methods/prepaid-cards/gift-cards)
++ [123TCS](/payments/methods/prepaid-cards/gift-cards)
++ [Intersolve](/payments/methods/prepaid-cards/gift-cards)
++ [Fashioncheque](/payments/methods/prepaid-cards/gift-cards)

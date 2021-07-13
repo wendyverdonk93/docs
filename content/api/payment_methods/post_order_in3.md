@@ -626,7 +626,7 @@ __forwarded_ip__ | string
 ----------------
 Please note that _first_name<_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [in3](/payment-methods/billing-suite/in3) on our documentation page.
+Read more about [in3](/payments/methods/billing-suite/in3) on our documentation page.
 
 ----------------
 
@@ -715,5 +715,5 @@ __forwarded_ip__ | string
 
 ----------------
 
-Read more about [in3](/payment-methods/billing-suite/in3) on our documentation page.
+Read more about [in3](/payments/methods/billing-suite/in3) on our documentation page.
 {{< /description >}}

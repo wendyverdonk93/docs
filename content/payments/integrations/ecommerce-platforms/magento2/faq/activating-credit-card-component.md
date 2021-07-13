@@ -16,7 +16,7 @@ The component:
 - Encrypts customer payment details for secure processing.
 - Shifts responsibility for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
 
-For more information, see [Payment Components](/integrations/payment-components/).
+For more information, see [Payment Components](/payments/checkout/payment-components/).
 
 If you're new to accepting credit card payments, apply to activate them.  
 Email applications to your account manager at <sales@multisafepay.com>

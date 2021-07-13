@@ -61,7 +61,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-Fixed value: [AMEX](/payment-methods/credit-and-debit-cards/american-express)
+Fixed value: [AMEX](/payments/methods/credit-and-debit-cards/american-express)
 
 ----------------
 __order_id__ | integer / string
@@ -112,5 +112,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 __Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
 
-Read more about [American Express](/payment-methods/credit-and-debit-cards/american-express) on our documentation page.
+Read more about [American Express](/payments/methods/credit-and-debit-cards/american-express) on our documentation page.
 {{< /description >}}

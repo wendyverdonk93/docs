@@ -7,5 +7,5 @@ aliases: [/integrations/woocommerce/faq/refunding-woocommerce/]
 ---
 You can process refunds directly from your WooCommerce backend, and from your [MultiSafepay account](https://merchant.multisafepay.com).
 
-You can process full and partial refunds for all payment methods, except [billing suites](/payment-methods/billing-suite) for which you can only process **full** refunds.
+You can process full and partial refunds for all payment methods, except [billing suites](/payments/methods/billing-suite) for which you can only process **full** refunds.
 

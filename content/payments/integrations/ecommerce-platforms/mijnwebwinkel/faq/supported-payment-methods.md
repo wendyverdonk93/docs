@@ -10,26 +10,26 @@ aliases:
 
 __Credit cards__
 
-+ [Mastercard](/payment-methods/credit-and-debit-cards/mastercard)
-+ [Visa](/payment-methods/credit-and-debit-cards/mastercard/visa)
++ [Mastercard](/payments/methods/credit-and-debit-cards/mastercard)
++ [Visa](/payments/methods/credit-and-debit-cards/mastercard/visa)
 
 __Banks__
 
-+ [Bancontact](/payment-methods/banks/bancontact)
-+ [Bank transfer](/payment-methods/banks/bank-transfer)
-+ [Giropay](/payment-methods/banks/giropay)
-+ [iDEAL](/payment-methods/banks/ideal)
-+ [Maestro](/payment-methods/credit-and-debit-cards/maestro)
-+ [SEPA Direct Debit](/payment-methods/banks/sepa-direct-debit)
-+ [SOFORT Banking](/payment-methods/banks/sofort-banking)
++ [Bancontact](/payments/methods/banks/bancontact)
++ [Bank transfer](/payments/methods/banks/bank-transfer)
++ [Giropay](/payments/methods/banks/giropay)
++ [iDEAL](/payments/methods/banks/ideal)
++ [Maestro](/payments/methods/credit-and-debit-cards/maestro)
++ [SEPA Direct Debit](/payments/methods/banks/sepa-direct-debit)
++ [SOFORT Banking](/payments/methods/banks/sofort-banking)
 
 __Billing suites__
 
-+ [Klarna](/payment-methods/billing-suite/klarna)
++ [Klarna](/payments/methods/billing-suite/klarna)
 
 __Wallets__
 
-+ [PayPal](/payment-methods/wallet/paypal)
++ [PayPal](/payments/methods/wallet/paypal)
 
 __Prepaid cards__
 

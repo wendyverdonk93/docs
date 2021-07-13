@@ -249,7 +249,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [bank transfers](/payment-methods/banks/bank-transfer) on our documentation page.
+Read more about [bank transfers](/payments/methods/banks/bank-transfer) on our documentation page.
 
 
 ### Direct - Bank transfer 

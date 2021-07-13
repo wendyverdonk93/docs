@@ -213,7 +213,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
+Read more about [SOFORT Banking](/payments/methods/banks/sofort-banking) on our documentation page.
 
 ### Direct - SOFORT
 Creates a SOFORT [Direct](/developer/api/difference-between-direct-and-redirect) order.
@@ -268,7 +268,7 @@ Contains the personal information of the customer. _Values for first_name and la
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [SOFORT Banking](/payment-methods/banks/sofort-banking) on our documentation page.
+Read more about [SOFORT Banking](/payments/methods/banks/sofort-banking) on our documentation page.
 
 
 {{< /description >}}

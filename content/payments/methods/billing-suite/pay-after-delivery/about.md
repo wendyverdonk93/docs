@@ -19,15 +19,15 @@ Pay After Delivery is MultiSafepay's own online post-payment method that lets cu
 | **API flow** | `Direct`/ `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) | 
 | **Countries** | Netherlands |  | 
 | **Currencies** | EUR | [More information](/faq/general/supported-currencies) |
-| **Refunds** | Full and partial | [More information](/payment-methods/billing-suite/pay-after-delivery/faq/processing-refunds/) |
-| **Recurring payments** | No | [More information](/tools/recurring-payments) |
+| **Refunds** | Full and partial | [More information](/payments/methods/billing-suite/pay-after-delivery/faq/processing-refunds/) |
+| **Recurring payments** | No | [More information](/payments/about/recurring-payments/) |
 | **Chargebacks** | No | [More information](/faq/chargebacks) |
 
 ### Product rules
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payment-methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Pay After Delivery requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, Pay After Delivery requires very precise order specifications. 
 
 {{< /details >}}
 

@@ -12,7 +12,7 @@ The best way of minimizing chargebacks is providing good customer service.
 We set out below ways to minimize the risk of the most common types of chargeback: 
 
 ## Fraud
-Use [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/) for all credit card transactions. 
+Use [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/) for all credit card transactions. 
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 

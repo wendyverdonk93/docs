@@ -29,7 +29,7 @@ Then, depending on the selected method, the customer fills out the payment detai
 
 {{< screen src="/gifs/dropin-component.gif" alt="Multiple payment methods Component" align="center" class="medium-img" screen_size="desktop" >}}
 
-{{< two-buttons href-2="/integrations/payment-components/integrating-multiple-payment-methods" header-2="Integration manual" text-2="Multiple payment methods" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payments/checkout/payment-components/integrating-multiple-payment-methods" header-2="Integration manual" text-2="Multiple payment methods" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 
 ### Single payment method
@@ -38,10 +38,10 @@ Embed a payment method of choice in your checkout. The customer completes the pa
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
 
-{{< two-buttons href-2="/integrations/payment-components/integrating-single-payment-method" header-2="Integration manual" text-2="Single payment method" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payments/checkout/payment-components/integrating-single-payment-method" header-2="Integration manual" text-2="Single payment method" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
 
 ## Customization
 
 You can customize the look of the payment component to match your brand's visual identity, and set the display language.
 
-For instructions, see [Customizing payment components](/integrations/payment-components/customizing-payment-components/).
+For instructions, see [Customizing payment components](/payments/checkout/payment-components/customizing-payment-components/).

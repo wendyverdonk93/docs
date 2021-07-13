@@ -37,6 +37,6 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payment-methods/banks/eps/user-guide/processing-refunds/).
+For refund statuses, see [Processing refunds](/payments/methods/banks/eps/user-guide/processing-refunds/).
 
 

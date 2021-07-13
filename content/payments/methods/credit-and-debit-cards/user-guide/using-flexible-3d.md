@@ -13,13 +13,13 @@ aliases:
 **Note:** MultiSafepay no longer supports Flexible 3D for merchants in Europe due to PSD2 regulations. If you are a European merchant with a lot of customers outside Europe and you need a more flexible setup, email your account manager at <sales@multisafepay.com>
 {{< /alert-notice >}}
 
-Flexible 3D lets you enable and disable mandatory [3D Secure](/payment-methods/credit-and-debit-cards/user-guide/glossary/) verification of credit card transactions via our API.
+Flexible 3D lets you enable and disable mandatory [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/) verification of credit card transactions via our API.
 
 For more information about 3D Secure, see [About 3D Secure](/security-and-legal/payment-regulations/about-3d-secure).
 
 Setting Flexible 3D to:
 
-- `false` disables 3D Secure verification and overrides [Dynamic 3D](/payment-methods/credit-and-debit-cards/user-guide/server-to-server) rules. The payment is classified as **"Not Enrolled, Liability".**
+- `false` disables 3D Secure verification and overrides [Dynamic 3D](/payments/methods/credit-and-debit-cards/user-guide/server-to-server) rules. The payment is classified as **"Not Enrolled, Liability".**
 
 - `true` enables 3D Secure verification and the payment is classified as **3D Secure Result: Enrolled Liability**.
 

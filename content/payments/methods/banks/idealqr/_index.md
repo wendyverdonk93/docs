@@ -14,5 +14,5 @@ aliases:
     - /support-tab/magento2/payment-methods/idealqr
     - /payment-methods/idealqr/
 ---
-See also [iDEAL](/payment-methods/banks/ideal/).
+See also [iDEAL](/payments/methods/banks/ideal/).
 

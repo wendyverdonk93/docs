@@ -98,5 +98,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [EPS](/payment-methods/banks/eps) on our documentation page.
+Read more about [EPS](/payments/methods/banks/eps) on our documentation page.
 {{< /description >}}

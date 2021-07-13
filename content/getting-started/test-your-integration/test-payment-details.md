@@ -153,7 +153,7 @@ Sample statuses:
 
 {{< details title="Recurring payments" >}}
 
-To enable [recurring payments](/tools/recurring-payments) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
+To enable [recurring payments](/payments/about/recurring-payments/) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
 
 {{< /details >}}
 
@@ -277,7 +277,7 @@ To test Klarna transactions, follow these steps:
 {{< br >}}The transaction status remains **Uncleared**.
 4. No invoice is generated in the test account so you can't change the transaction (financial) status to **Completed**. Alternatively, in your live MultiSafepay account, you can initiate the invoice process by changing the order status to **Shipped**, because the order is captured in Klarna.
 
-For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payment-methods/billing-suite/klarna).
+For more information about integrating Klarna with MultiSafepay, see Payment methods – [Klarna](/payments/methods/billing-suite/klarna).
 
 {{< /details >}}
 
@@ -428,7 +428,7 @@ For any questions, email the Integration Team at <integration@multisafepay.com>
 
 {{< details title="Apple Pay" >}}
 
-To test Apple Pay, see [Compatibility and testing](/payment-methods/wallet/applepay/#compatibility-and-testing) to learn how to test on supported devices.
+To test Apple Pay, see [Compatibility and testing](/payments/methods/wallet/applepay/#compatibility-and-testing) to learn how to test on supported devices.
 
 {{< /details >}}
 

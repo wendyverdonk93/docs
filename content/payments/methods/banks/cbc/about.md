@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/cbc/what-is-cbc/
 ---
 
-CBC is the online banking payment method of two of Belgium's largest banks: CBC which serves the French speaking population, and [KBC](/payment-methods/banks/kbc/) which serves the Dutch-speaking population.
+CBC is the online banking payment method of two of Belgium's largest banks: CBC which serves the French speaking population, and [KBC](/payments/methods/banks/kbc/) which serves the Dutch-speaking population.
 
 The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment gateway includes CBC and KBC as separate options because customers of one branch can't pay through the other.
 
@@ -23,8 +23,8 @@ The payment method functions the same for both the CBC branch and the KBC branch
 | **API flow**  | `Direct`/ {{< br >}} `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Belgium  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/banks/cbc/user-guide/processing-refunds) | 
-| **Recurring payments**  | No | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/banks/cbc/user-guide/processing-refunds) | 
+| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

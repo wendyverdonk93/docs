@@ -26,7 +26,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 |   | Flow | Order status | Transaction status |
 |---|---|---|---|
 | 1. | The customer initiates a transaction. | Initialized | Initialized |
-| 2. | MultiSafepay generates a payment link and redirects the customer to a [MultiSafepay payment page](/tools/payment-pages/what-is-payv2). |   |  |
+| 2. | MultiSafepay generates a payment link and redirects the customer to a [MultiSafepay payment page](/payments/checkout/payment-pages/activating-payv2). |   |  |
 | 3. | The customer authenticates their account and completes the payment. {{< br >}} **Note:** If the customer doesn't click the **Return to website** button, MultiSafepay doesn't receive an update and the transaction status remains **Initialized**. We import our bank statements daily and all incoming payments are then finalized. | | |
 | 4. | The transaction is successful. |  |  |
 | 5. | MultiSafepay collects the funds and adds them to your MultiSafepay balance.| Completed | Completed |
@@ -38,7 +38,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Cancelled   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payment-methods/banks/ing-home-pay/user-guide/processing-refunds/).
+For refund statuses, see [Processing refunds](/payments/methods/banks/ing-home-pay/user-guide/processing-refunds/).
 
 
 

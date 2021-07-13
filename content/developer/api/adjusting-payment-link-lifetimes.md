@@ -33,7 +33,7 @@ By default, you cannot adjust payment link lifetimes for post-payment methods, w
 For more information about payment link lifetimes, see API Reference - [Days Active, Seconds Active](/api/#days-active-seconds-active).
 
 ### Second Chance emails
-[Second Chance](/tools/second-chance) emails include a payment link as a gentle reminder to the customer, and they can complete the payment if they choose. 
+[Second Chance](/payments/boost/second-chance/) emails include a payment link as a gentle reminder to the customer, and they can complete the payment if they choose. 
 
 We send two Second Chance emails: one after 1 hour and the other after 24 hours. This cannot be adjusted. You can only enable or disable Second Chance. 
 

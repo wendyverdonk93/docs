@@ -7,5 +7,5 @@ read_more: "."
 aliases: [/integrations/magento2/faq/tokenization-magento2/]
 ---
 
-1. Read the page on [tokenization](/tools/tokenization/tokenization-api-level)
+1. Read the page on [tokenization](/payments/about/tokenization)
 2. Enable Tokenization via _Stores > Configuration > MultiSafepay > MultiSafepay Settings_

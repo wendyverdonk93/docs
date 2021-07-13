@@ -40,7 +40,7 @@ In your MultiSafepay account > **Transaction overview** > **Transaction details*
 | The transaction has been cancelled. | Void   | Void   |
 | The customer didn't complete the payment and the transaction expired after the predetermined period. | Expired | Expired |
 
-For refund statuses, see [Processing refunds](/payment-methods/wallet/applepay/user-guide/processing-refunds/).
+For refund statuses, see [Processing refunds](/payments/methods/wallet/applepay/user-guide/processing-refunds/).
 
 For more information about using Apple Pay, see Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 

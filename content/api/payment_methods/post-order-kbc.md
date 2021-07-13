@@ -215,7 +215,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [KBC](/payment-methods/banks/kbc) on our documentation page.
+Read more about [KBC](/payments/methods/banks/kbc) on our documentation page.
 
 ### Direct - KBC
 
@@ -271,5 +271,5 @@ Contains personal information about the customer.
 
 __Note: The ip_address parameter is not required, although its use is recommended to help detect fraudulent payments.__
 
-Read more about [KBC](/payment-methods/banks/kbc) on our documentation page.
+Read more about [KBC](/payments/methods/banks/kbc) on our documentation page.
 {{< /description >}}

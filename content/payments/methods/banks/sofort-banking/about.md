@@ -23,8 +23,8 @@ Once a payment is completed, the customer cannot reverse it and SOFORT Banking g
 | **API flow**  | `Direct`/`Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland  | |
 | **Currencies**  | EUR {{< br >}} **Note:** British Pounds (GBP), Swiss Francs (CHF) and Polish Zloty (PLN) are **not** supported. | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payment-methods/banks/sofort-banking/user-guide/processing-refunds) | 
-| **Recurring payments**  | Yes | [More information](/tools/recurring-payments)  |
+| **Refunds**  | Full and partial  | [More information](/payments/methods/banks/sofort-banking/user-guide/processing-refunds) | 
+| **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

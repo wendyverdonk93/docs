@@ -70,4 +70,4 @@ The Payment Component now looks as follows:
 
 {{< screen src="/img/Screenshot-Payment-Component.png" align="center" class="medium-img desktop-radius" >}}
 
-{{< two-buttons href-1="/integrations/payment-components" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}
+{{< two-buttons href-1="/payments/checkout/payment-components/" header-1="Overview" text-1="Payment Components" img-1="/svgs/arrow-thin-left.svg" alt-1="Left arrow" >}}

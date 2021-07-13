@@ -15,4 +15,4 @@ To enable tokenization, follow these steps:
 4. Set the **Tokenization** field to **YES**.
 5. Click **Save**.
 
-For more information, see [Tokenization](/tools/tokenization/tokenization-api-level).
+For more information, see [Tokenization](/payments/about/tokenization).

@@ -15,4 +15,4 @@ aliases:
     - /payment-methods/ideal/
 ---
 
-See also [iDEAL QR](/payment-methods/banks/idealqr/).
+See also [iDEAL QR](/payments/methods/banks/idealqr/).

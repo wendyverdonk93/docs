@@ -114,6 +114,6 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [Trustly](/payment-methods/banks/trustly) on our documentation page.
+Read more about [Trustly](/payments/methods/banks/trustly) on our documentation page.
 
 {{< /description >}}

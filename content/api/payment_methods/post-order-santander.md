@@ -175,5 +175,5 @@ __Note: The ip_address parameter is not required, although its use is recommende
 
 Please note that _first_name_ and _last_name_ in the _customer_ object requires minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [Betaal per Maand](/payment-methods/billing-suite/betaalpermaand) on our documentation page.
+Read more about [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand) on our documentation page.
 {{< /description >}}

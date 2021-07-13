@@ -19,7 +19,7 @@ To set the lifetime of pending payments orders, see Magento - [Pending payment o
 ## ERP systems
 For ERP systems, if the order status is **Declined**, successful payments often fail to process for orders with **Canceled** status.
 
-The lifetime of [bank transfers](/payment-methods/banks/bank-transfer/#how-does-it-work) is 86400 minutes (60 days).
+The lifetime of [bank transfers](/payments/methods/banks/bank-transfer/#how-does-it-work) is 86400 minutes (60 days).
 
 The order status changes to **Cancelled** in Magento 2 before the payment can be linked.
 
