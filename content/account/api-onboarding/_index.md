@@ -71,5 +71,4 @@ The API returns an API key.
 
 After submitting this information, MultiSafepay screens the merchant account, bank account, UBO details, and website. Once approved, the merchant can use their API key to start processing payments.
 
-For more information about the screening process, see Getting Started - [Onboarding](https://docs.multisafepay.com/faq/getting-started/onboarding/).
-
+For more information about the screening process, see Getting Started - [Onboard and go live](/getting-started/go-live/).
