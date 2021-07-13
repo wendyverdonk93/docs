@@ -237,7 +237,7 @@ The unique identifier of the [issuer](#gateway-issuers)
 
 ----------------
 
-Read more about [iDEAL](/payment-methods/banks/ideal) on our documentation page.
+Read more about [iDEAL](/payments/methods/banks/ideal) on our documentation page.
 
 {{< /description >}}
 

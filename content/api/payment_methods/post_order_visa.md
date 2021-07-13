@@ -65,7 +65,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-Fixed value: [VISA](/payment-methods/credit-and-debit-cards/visa)
+Fixed value: [VISA](/payments/methods/credit-and-debit-cards/visa)
 
 ----------------
 __order_id__ | integer / string
@@ -116,4 +116,4 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 **Note:** The `ip_address` and `e-mail address` parameters are not required, but we recommend using them to help detect fraudulent payments.
 
-For more information, see [Visa](/payment-methods/credit-and-debit-cards/visa).
+For more information, see [Visa](/payments/methods/credit-and-debit-cards/visa).

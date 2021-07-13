@@ -126,5 +126,5 @@ __Note: The ip_address parameter is not required, although its use is recommende
 
  The desired logo of a Co-branded credit card will only be shown if the locale is correctly supplied in a transaction request. 
 
-Please make sure to read more about [Cartes Bancaires](/payment-methods/credit-and-debit-cards/cartes-bancaires), [Dankort](/payment-methods/credit-and-debit-cards/dankort) and [Postepay](/payment-methods/credit-and-debit-cards/postepay) on our documentation page.
+Please make sure to read more about [Cartes Bancaires](/payments/methods/credit-and-debit-cards/cartes-bancaires), [Dankort](/payments/methods/credit-and-debit-cards/dankort) and [Postepay](/payments/methods/credit-and-debit-cards/postepay) on our documentation page.
 {{< /description >}}

@@ -124,6 +124,6 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [TrustPay](/payment-methods/banks/trustpay) on our documentation page.
+Read more about [TrustPay](/payments/methods/banks/trustpay) on our documentation page.
 
 {{< /description >}}

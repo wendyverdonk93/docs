@@ -373,7 +373,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing) on our documentation page.
+Read more about [E-Invoicing](/payments/methods/billing-suite/e-invoicing) on our documentation page.
 
 ### Redirect - E-invoicing
 
@@ -476,5 +476,5 @@ __Note: The ip_address parameter is not required, although its use is recommende
 
 Please note that _first_name_ and _last_name_ in both _customer_ and _delivery_ objects require minimum two characters per entry. Failing to do so might result in unexpected errors. Given the nature of this payment method, we recommend you to always require full names (not initials, abbreviations, acronyms).
 
-Read more about [E-Invoicing](/payment-methods/billing-suite/e-invoicing) on our documentation page.
+Read more about [E-Invoicing](/payments/methods/billing-suite/e-invoicing) on our documentation page.
 {{< /description >}}

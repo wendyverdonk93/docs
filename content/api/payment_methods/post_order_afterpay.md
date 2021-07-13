@@ -309,7 +309,7 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 **Note:** The `first_name` and `last_name` fields in both the `customer` and `delivery` objects require at least 2 characters. For Afterpay, we recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
-For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).
+For more information, see [AfterPay](/payments/methods/billing-suite/afterpay).
 
 ----------------
 
@@ -402,5 +402,5 @@ __forwarded_ip__ | string
 
 **Note:** The `first_name` and `last_name` fields in both the `customer` and `delivery` objects require at least 2 characters. For Afterpay, we recommend always requiring the customer to provide their full name, instead of initials or abbreviations.
 
-For more information, see [AfterPay](/payment-methods/billing-suite/afterpay).
+For more information, see [AfterPay](/payments/methods/billing-suite/afterpay).
 {{< /description >}}

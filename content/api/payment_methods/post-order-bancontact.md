@@ -96,5 +96,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [Bancontact](/payment-methods/banks/bancontact) on our documentation page.
+Read more about [Bancontact](/payments/methods/banks/bancontact) on our documentation page.
 {{< /description >}}

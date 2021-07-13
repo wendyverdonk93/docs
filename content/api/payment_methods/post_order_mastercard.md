@@ -65,7 +65,7 @@ Specifies the payment flow for the checkout process. Options: redirect.
 ----------------
 __gateway__ | string
 
-Fixed value: [MASTERCARD](/payment-methods/credit-and-debit-cards/mastercard)
+Fixed value: [MASTERCARD](/payments/methods/credit-and-debit-cards/mastercard)
 
 ----------------
 __order_id__ | integer / string
@@ -116,5 +116,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 __Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
 
-Read more about [Mastercard](/payment-methods/credit-and-debit-cards/mastercard) on our documentation page.
+Read more about [Mastercard](/payments/methods/credit-and-debit-cards/mastercard) on our documentation page.
 

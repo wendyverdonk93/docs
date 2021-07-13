@@ -108,6 +108,6 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 After placing the order, you will receive 2 links as response on a successfull Bancontact QR request: a payment link and a qr_url. This qr_url contains a deeplink to Bancontact/MisterCash which can be encoded into a QR image at any later point.
 
 
-Read more about [Bancontact](/payment-methods/banks/bancontact) on our documentation page.
+Read more about [Bancontact](/payments/methods/banks/bancontact) on our documentation page.
 
 {{< /description >}}

@@ -48,7 +48,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 ## Split Payments
 The split payment tool allows you to split the amount of a transaction over several MultiSafepay accounts. [Merchants](/faq/general/multisafepay-glossary/#merchant) can choose to split payments based on percentage, a fixed amount or a combination of the two.
 
-Read more about [split payments](/tools/split-payments) on our documentation page.
+Read more about [split payments](/payments/about/split-payments/) on our documentation page.
 
 **Parameters**
 
