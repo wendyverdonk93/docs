@@ -52,16 +52,10 @@ Email the Risk Team at <risk@multisafepay.com>
 
 Automatic payouts let you schedule payouts on a specific day.
 
-<<<<<<< HEAD:content/account/multisafepay-account/paying-out-funds-from-your-multisafepay-balance.md
-<<<<<<< HEAD:content/account/multisafepay-account/paying-out-funds-from-your-multisafepay-balance.md
 **Note:** To schedule auto-withdrawals for different currencies, you must have a MultiSafepay balance and an active bank account for each currency.
 
 To add a new automatic payout, follow these steps:
 
-=======
->>>>>>> DOCS-2515: Tech edit Email templates:content/tools/multisafepay-control/paying-out-funds-from-your-multisafepay-balance.md
-=======
->>>>>>> 7a4d616f5b2c2c82e4dac3806e7902429e0ce310:content/tools/multisafepay-control/paying-out-funds-from-your-multisafepay-balance.md
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com). 
 2. Go to **Finance** > **Payouts**.
 3. Under **Automatic withdrawals**, click **+ Add**.
