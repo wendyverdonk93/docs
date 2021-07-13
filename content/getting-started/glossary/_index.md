@@ -86,13 +86,13 @@ A software developer a merchant employs to work on the technical side of their i
 If a customer wants a merchant to return funds that have already been captured, the customer can request a refund. If the merchant refuses, the customer may request their bank to make a chargeback. If the merchant disagrees, they can dispute the chargeback.
 
 ### ecommerce platform
-An online [platform](/integrations/ecommerce-integrations/) merchants use for accepting payments, e.g. website, mobile app, [PWA](/integrations/pwa/). 
+An online [platform](/payments/integrations/ecommerce-platforms/) merchants use for accepting payments, e.g. website, mobile app, [PWA](/integrations/pwa/). 
 
 ### fraud
 When a person tries to receive products without paying for them by tricking a customer or merchant.
 
 ### integration
-Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/integrations/pwa/). Merchants may use [ecommerce platforms](/integrations/ecommerce-integrations/) or build a custom integration.
+Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/integrations/pwa/). Merchants may use [ecommerce platforms](/payments/integrations/ecommerce-platforms/) or build a custom integration.
 
 ### item
 A product or service in a customer's shopping cart and/or order.

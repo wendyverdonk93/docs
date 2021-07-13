@@ -25,11 +25,11 @@ We only support [`redirect`](/developer/api/difference-between-direct-and-redire
 ### Specific plugins
 For more information about a specific plugin, see:
 
-- [Craft commerce](/integrations/ecommerce-integrations/craftcommerce/faq/generic-gateways/)
-- [Drupal 8 & 9](/integrations/ecommerce-integrations/drupal8/faq/generic-gateways/)
-- [Magento 1](/integrations/ecommerce-integrations/magento1/faq/generic-gateways/)
-- [Magento 2](/integrations/ecommerce-integrations/magento2/faq/generic-gateways/)
-- [OpenCart](/integrations/ecommerce-integrations/opencart/faq/generic-gateways/)
-- [Shopware 5](/integrations/ecommerce-integrations/shopware5/faq/generic-gateways/)
-- [Shopware 6](/integrations/ecommerce-integrations/shopware6/faq/generic-gateways/)
-- [WooCommerce](/integrations/ecommerce-integrations/woocommerce/faq/generic-gateways/)
+- [Craft commerce](/payments/integrations/ecommerce-platforms/craftcommerce/faq/generic-gateways/)
+- [Drupal 8 & 9](/payments/integrations/ecommerce-platforms/drupal8/faq/configuring-generic-gateways/)
+- [Magento 1](/payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/)
+- [Magento 2](/payments/integrations/ecommerce-platforms/magento2/faq/configuring-generic-gateways/)
+- [OpenCart](/payments/integrations/ecommerce-platforms/opencart/faq/configuring-generic-gateways/)
+- [Shopware 5](/payments/integrations/ecommerce-platforms/shopware5/faq/configuring-generic-gateways/)
+- [Shopware 6](/payments/integrations/ecommerce-platforms/shopware6/faq/generic-gateways/)
+- [WooCommerce](/payments/integrations/ecommerce-platforms/woocommerce/faq/configuring-generic-gateways/)

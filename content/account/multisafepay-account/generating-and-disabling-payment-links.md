@@ -13,7 +13,7 @@ Payment links create a unique transaction in your [MultiSafepay account](https:/
 
 ### Supported payment methods and payment links 
 
-Check specific [payment methods](/payment-methods/) to see if manually generated payment links are supported.
+Check specific [payment methods](/payments/methods/) to see if manually generated payment links are supported.
 
 For example, post-payment methods such as AfterPay, Pay After Delivery, and Klarna do not support manually generated payment links, due to the insolvency process requirement which creates a different flow.
 
