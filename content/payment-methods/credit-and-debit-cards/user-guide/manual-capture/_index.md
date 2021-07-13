@@ -4,13 +4,13 @@ weight: 40
 meta_title: "Manual capture - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "single"
-logo: '/svgs/Manual_capture.svg'
 short_description: 'Receive credit card payments from your customers in full or partial captures.'
 aliases:
     - /tools/manual-capture/full-capture/
     - /tools/manual-capture/partial-capture/
     - /tools/manual-capture/what-is-a-manual-capture/
     - /tools/manual-capture/how-to-activate-manual-capture/
+    - /tools/manual-capture
 ---
 Manual Capture is a MultiSafepay tool that lets you capture credit card payments either partially or in full. It supports Maestro, Mastercard, and Visa.
 

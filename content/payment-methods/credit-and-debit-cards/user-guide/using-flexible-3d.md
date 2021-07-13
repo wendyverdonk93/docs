@@ -19,7 +19,7 @@ For more information about 3D Secure, see [About 3D Secure](/security-and-legal/
 
 Setting Flexible 3D to:
 
-- `false` disables 3D Secure verification and overrides [Dynamic 3D](/tools/server2server/3d-dynamics) rules. The payment is classified as **"Not Enrolled, Liability".**
+- `false` disables 3D Secure verification and overrides [Dynamic 3D](/payment-methods/credit-and-debit-cards/user-guide/server-to-server) rules. The payment is classified as **"Not Enrolled, Liability".**
 
 - `true` enables 3D Secure verification and the payment is classified as **3D Secure Result: Enrolled Liability**.
 
