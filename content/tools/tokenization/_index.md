@@ -22,7 +22,7 @@ Tokenization is mainly used for credit card, recurring, and subscription payment
 {{< details title="Supported payment methods" >}}
 
 - Visa
-- Mastecard
+- Mastercard
 - Maestro
 - Amex
 - iDEAL
