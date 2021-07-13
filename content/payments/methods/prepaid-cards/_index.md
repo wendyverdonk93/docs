@@ -10,4 +10,6 @@ weight: 40
 data:
   - { title: 'Paysafecard', url: 'paysafecard', logo: '/logo/Payment_methods/Paysafecard.svg' }
   - { title: 'Gift cards', url: 'gift-cards', logo: '/logo/Payment_methods/VVV_Giftcards.svg' }
+aliases:
+    - /payment-methods/prepaid-cards/
 --- 

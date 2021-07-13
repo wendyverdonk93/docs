@@ -7,4 +7,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Banks.svg'
 short_description: 'Accept payments with a range of banking solutions'
 weight: 10
+aliases:
+    - /payment-methods/banks/
 ---

@@ -6,4 +6,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 layout: 'paymentdetail'
 logo: '/svgs/Fastcheckout.svg'
 short_description: 'Accept payments using a secure, multi-currency MultiSafepay wallet.'
+aliases:
+    - /payment-methods/fast-checkout/
 ---

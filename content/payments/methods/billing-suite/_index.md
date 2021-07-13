@@ -13,7 +13,9 @@ data:
   - { title: 'Klarna', url: 'klarna', logo: '/logo/Payment_methods/Klarna.svg' }
   - { title: 'Betaal per Maand', url: 'betaalpermaand', logo: '/logo/Payment_methods/betaalpermaand.svg' }
   - { title: 'E-Invoicing', url: 'e-invoicing', logo: '/logo/Payment_methods/e-invoicing.svg' }
-aliases: [/payment-methods/pay-after-delivery/]
+aliases:
+    - /payment-methods/billing-suite/
+    - /payment-methods/pay-after-delivery/
 
 --- 
 

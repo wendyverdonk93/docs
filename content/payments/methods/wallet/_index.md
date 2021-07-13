@@ -10,4 +10,6 @@ weight: 30
 data:
   - { title: 'PayPal', url: 'paypal', logo: '/logo/Payment_methods/PayPal.svg' }
   - { title: 'Alipay', url: 'alipay', logo: '/logo/Payment_methods/Alipay.svg' }
+aliases:
+    - /payment-methods/wallet/
 --- 
