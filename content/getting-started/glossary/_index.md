@@ -82,7 +82,7 @@ A card issued by a bank that transfers funds directly from the customer's bank a
 ### developer
 A software developer a merchant employs to work on the technical side of their integration.
 
-## dispute
+### dispute
 If a customer wants a merchant to return funds that have already been captured, the customer can request a refund. If the merchant refuses, the customer may request their bank to make a chargeback. If the merchant disagrees, they can dispute the chargeback.
 
 ### ecommerce platform
