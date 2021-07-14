@@ -48,6 +48,7 @@ To stop sending reminders, you can either:
 
 Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
 Provide the following information:
+
 - Transaction details
 - Reason for your request
 - Expected date to start the billing process again
