@@ -89,7 +89,7 @@ For security reasons, you must always validate the payload to make the `POST` no
 For the response, we expect an empty page with either:
 
 - "OK" as the first two characters in the response body **or**
-- "MULTISAFEPAY_OK" anywhere in the reponse body
+- "MULTISAFEPAY_OK" anywhere in the response body
 
 If we don't receive "OK" or "MULTISAFEPAY_OK" in the response body, we resend the notification with a timestamp. Notifications are repeated twice within 15 minutes. 
 
