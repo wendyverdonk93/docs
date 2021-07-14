@@ -10,4 +10,6 @@ layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/VPay.svg' 
 short_description: 'Visa-branded credit card throughout Europe.'
+aliases:
+    - /payment-methods/credit-and-debit-cards/vpay
 ---

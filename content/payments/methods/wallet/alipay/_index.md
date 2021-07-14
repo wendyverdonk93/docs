@@ -13,6 +13,7 @@ short_description: 'Leading global digital wallet for Chinese customers.'
 aliases:
     - /support-tab/magento2/payment-methods/alipay
     - /payment-methods/alipay/
+    - /payment-methods/wallet/alipay
 ---
 
 

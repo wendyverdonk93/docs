@@ -12,5 +12,6 @@ logo: '/logo/Payment_methods/Belfius.svg'
 short_description: 'Accept online banking payments from Belfius customers in Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/belfius
+    - /payment-methods/banks/belfius
 ---
 

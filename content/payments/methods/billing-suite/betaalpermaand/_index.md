@@ -19,4 +19,5 @@ aliases:
     - /payment-methods/betaalpermaand/how-does-betaalplan-work
     - /payment-methods/betaalpermaand/refund-betaalplan
     - /payment-methods/betaalpermaand/what-is-betaalplan
+    - /payment-methods/billing-suite/betaalpermaand
 ---

@@ -13,6 +13,7 @@ short_description: 'Accept secure bank transfers from ING customers in Belgium.'
 aliases:
     - /support-tab/magento2/payment-methods/ing-home-pay
     - /payment-methods/ing-home-pay/
+    - /payment-methods/banks/ing-home-pay
 
 ---
 

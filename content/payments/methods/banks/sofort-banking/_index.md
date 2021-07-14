@@ -13,4 +13,5 @@ short_description: 'Accept secure bank transfers from a number of European count
 aliases:
     - /support-tab/magento2/payment-methods/sofort-banking
     - /payment-methods/sofort-banking/
+    - /payment-methods/banks/sofort-banking
 ---

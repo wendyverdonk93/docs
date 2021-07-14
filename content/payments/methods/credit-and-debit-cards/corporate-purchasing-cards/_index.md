@@ -6,4 +6,6 @@ tags: 'hidden'
 logo: '/svgs/Integrations.svg'
 short_description: 'Corporate purchasing cards'
 weight: 100
+aliases:
+    - /payment-methods/credit-and-debit-cards/corporate-purchasing-cards
 ---

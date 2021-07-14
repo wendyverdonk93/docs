@@ -13,6 +13,7 @@ short_description: 'Leading global credit card scheme.'
 aliases:
     - /support-tab/magento2/payment-methods/mastercard
     - /payment-methods/mastercard/
+    - /payment-methods/credit-and-debit-cards/mastercard
 ---
 
 

@@ -13,6 +13,7 @@ short_description: 'Popular post-payment method in Austria, Germany, and the Net
 aliases:
     - /support-tab/magento2/payment-methods/klarna
     - /payment-methods/klarna/
+    - /payment-methods/billing-suite/klarna
 ---
 
 {{< details title="Get support" >}}

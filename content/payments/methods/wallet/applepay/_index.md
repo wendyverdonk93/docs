@@ -12,6 +12,7 @@ logo: '/logo/Payment_methods/Apple.svg'
 short_description: 'Leading global digital wallet that supports near-field communication payments.'
 aliases:
     - /support-tab/magento2/payment-methods/applepay
+    - /payment-methods/wallet/applepay
 ---
 
 

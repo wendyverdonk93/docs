@@ -14,4 +14,5 @@ aliases:
     - /payment-methods/gift-cards/
     - /payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
     - /payment-methods/giftcards/branded-personalized-gift-card/
+    - /payment-methods/prepaid-cards/gift-cards
 ---

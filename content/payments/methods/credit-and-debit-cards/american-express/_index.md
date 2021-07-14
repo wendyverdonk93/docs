@@ -13,6 +13,7 @@ short_description: 'Global credit card scheme accepted in more than 160 countrie
 aliases:
     - /support-tab/magento2/payment-methods/american-express
     - /payment-methods/creditcards/american-express/
+    - /payment-methods/credit-and-debit-cards/american-express
 ---
 
 

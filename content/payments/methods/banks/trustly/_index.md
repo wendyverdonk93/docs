@@ -13,4 +13,5 @@ short_description: 'Accept online banking payments from a number of European cou
 aliases:
     - /support-tab/magento2/payment-methods/trustly
     - /payment-methods/trustly/
+    - /payment-methods/banks/trustly
 ---

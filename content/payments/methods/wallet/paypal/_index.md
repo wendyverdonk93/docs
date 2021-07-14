@@ -13,4 +13,5 @@ short_description: 'Leading global payment method that supports credit cards and
 aliases:
     - /support-tab/magento2/payment-methods/paypal
     - /payment-methods/paypal/
+    - /payment-methods/wallet/paypal
 ---

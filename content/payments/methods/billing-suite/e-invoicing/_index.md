@@ -18,6 +18,7 @@ aliases:
     - /payment-methods/e-invoicing/how-does-e-invoicing-work
     - /payment-methods/e-invoicing/refund
     - /payment-methods/e-invoicing/what-is-it
+    - /payment-methods/billing-suite/e-invoicing
 ---
 
 

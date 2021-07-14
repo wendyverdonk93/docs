@@ -17,5 +17,6 @@ aliases:
     - /payment-methods/billing-suite/pay-after-delivery/pay-after-delivery-testing
     - /payment-methods/billing-suite/pay-after-delivery/refund-pay-after-delivery
     - /payment-methods/billing-suite/pay-after-delivery/what-is-pay-after-delivery
+    - /payment-methods/billing-suite/pay-after-delivery
 ---
 

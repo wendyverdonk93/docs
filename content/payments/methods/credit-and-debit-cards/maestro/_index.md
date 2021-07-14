@@ -14,6 +14,7 @@ aliases:
     - /support-tab/magento2/payment-methods/maestro
     - /payment-methods/maestro/
     - /payment-methods/banks/maestro/
+    - /payment-methods/credit-and-debit-cards/maestro
 ---
 
 

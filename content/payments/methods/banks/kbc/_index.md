@@ -13,5 +13,6 @@ short_description: 'Accept online banking payments from KBC customers in Belgium
 aliases:
     - /support-tab/magento2/payment-methods/kbc
     - /payment-methods/kbc/
+    - /payment-methods/banks/kbc
 ---
 

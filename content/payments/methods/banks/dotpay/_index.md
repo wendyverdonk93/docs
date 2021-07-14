@@ -12,7 +12,7 @@ logo: '/logo/Payment_methods/Dotpay.svg'
 faq: '.'
 aliases:
     - /support-tab/magento2/payment-methods/dotpay
-
+    - /payment-methods/banks/dotpay
 ---
 
 

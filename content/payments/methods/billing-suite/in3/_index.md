@@ -17,4 +17,5 @@ aliases:
     - /payment-methods/billing-suite/in3/in3-testing/
     - /payment-methods/billing-suite/in3/refund-in3/
     - /payment-methods/billing-suite/in3/what-is-in3/
+    - /payment-methods/billing-suite/in3
 ---

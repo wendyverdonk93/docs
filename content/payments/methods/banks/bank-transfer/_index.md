@@ -12,4 +12,5 @@ logo: '/logo/Payment_methods/banktransfer-en.svg'
 short_description: 'A secure, trusted, international payment method within the SEPA region.'
 aliases: 
     - /support-tab/magento2/payment-methods/bank-transfer
+    - /payment-methods/banks/bank-transfer
 ---

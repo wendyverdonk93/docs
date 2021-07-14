@@ -18,6 +18,7 @@ aliases:
     - /payment-methods/afterpay/how-does-afterpay-work
     - /payment-methods/afterpay/refund-afterpay
     - /payment-methods/afterpay/what-is-afterpay
+    - /payment-methods/billing-suite/afterpay
 ---
 
 

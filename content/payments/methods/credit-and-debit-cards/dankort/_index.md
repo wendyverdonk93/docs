@@ -10,6 +10,8 @@ layout: 'single'
 faq: '.'
 logo: '/logo/Payment_methods/Dankort.svg' 
 short_description: 'Visa-branded credit card in Denmark.'
+aliases:
+    - /payment-methods/credit-and-debit-cards/dankort
 ---
 
 

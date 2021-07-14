@@ -12,4 +12,5 @@ logo: '/logo/Payment_methods/Giropay.svg'
 short_description: 'Leading payment method in Germany connecting all major German banks.'
 aliases:
     - /support-tab/magento2/payment-methods/giropay
+    - /payment-methods/banks/giropay
 ---

@@ -14,6 +14,7 @@ aliases:
     - /payment-methods/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
     - /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
+    - /payment-methods/credit-and-debit-cards/postepay
 ---
 
 

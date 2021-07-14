@@ -14,6 +14,7 @@ aliases:
     - /support-tab/magento2/payment-methods/visa
     - /payment-methods/credit-and-debit-cards/mastercard/visa
     - /payment-methods/visa/
+    - /payment-methods/credit-and-debit-cards/visa
 ---
 
 

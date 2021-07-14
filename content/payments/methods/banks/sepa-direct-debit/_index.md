@@ -11,7 +11,8 @@ faq: '.'
 logo: '/logo/Payment_methods/directdebit-en.svg' 
 short_description: 'Debit European customers directly from their bank account.'
 aliases:
-     - /support-tab/magento2/payment-methods/direct-debit
-     - /payment-methods/direct-debit/
-     - /payment-methods/banks/direct-debit/
+    - /support-tab/magento2/payment-methods/direct-debit
+    - /payment-methods/direct-debit/
+    - /payment-methods/banks/direct-debit/
+    - /payment-methods/banks/sepa-direct-debit
 ---

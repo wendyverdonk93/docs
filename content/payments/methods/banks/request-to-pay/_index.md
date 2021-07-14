@@ -13,4 +13,5 @@ short_description: 'Deutsche Bank payment method based on secure SEPA transfers.
 aliases:
     - /support-tab/magento2/payment-methods/request-to-pay
     - /payment-methods/banks/direct-bank-transfer/
+    - /payment-methods/banks/request-to-pay
 ---

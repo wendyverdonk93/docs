@@ -13,6 +13,7 @@ short_description: 'Leading payment method in the Netherlands connecting all maj
 aliases:
     - /support-tab/magento2/payment-methods/ideal
     - /payment-methods/ideal/
+    - /payment-methods/banks/ideal/
 ---
 
 See also [iDEAL QR](/payments/methods/banks/idealqr/).

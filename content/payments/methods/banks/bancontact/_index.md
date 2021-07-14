@@ -12,5 +12,6 @@ logo: '/logo/Payment_methods/Bancontact.svg'
 short_description: 'Leading Belgian payment method for online, mobile app, and POS payments.'
 aliases: 
     - /support-tab/magento2/payment-methods/bancontact
+    - /payment-methods/banks/bancontact
 ---
 See also [Bancontact QR](/payments/methods/banks/bancontact-qr/).

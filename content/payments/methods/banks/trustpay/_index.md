@@ -9,8 +9,9 @@ faq: '.'
 logo: '/logo/Payment_methods/TrustPay.svg' 
 short_description: 'Accept online banking payments from customers in the Czech Republic.'
 aliases:
-  - /support-tab/magento2/payment-methods/trustpay
-  - /payment-methods/trustpay/
+    - /support-tab/magento2/payment-methods/trustpay
+    - /payment-methods/trustpay/
+    - /payment-methods/banks/trustpay
 ---
 
 TrustPay is a bank payment method in the Czech Republic. Customers pay from their own online banking environment.

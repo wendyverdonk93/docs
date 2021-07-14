@@ -13,6 +13,7 @@ short_description: 'Accept iDEAL payments via QR codes on paper or screens.'
 aliases:
     - /support-tab/magento2/payment-methods/idealqr
     - /payment-methods/idealqr/
+    - /payment-methods/banks/idealqr
 ---
 See also [iDEAL](/payments/methods/banks/ideal/).
 

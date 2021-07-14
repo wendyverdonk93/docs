@@ -12,4 +12,5 @@ logo: '/logo/Payment_methods/EPS.svg'
 short_description: 'Accept online banking payments from customers of all Austrian banks.'
 aliases:
     - /support-tab/magento2/payment-methods/eps
+    - /payment-methods/banks/eps
 ---
