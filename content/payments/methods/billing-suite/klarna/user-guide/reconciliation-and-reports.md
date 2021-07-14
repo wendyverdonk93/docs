@@ -8,4 +8,4 @@ weight: 7
 
 MultiSafepay atuomatically reconciles with Klarna.
 
-Klarna transactions appear in all [MultiSafepay reports](/tools/accounting/reports/).
+Klarna transactions appear in all [MultiSafepay reports](/business/accounting/reports/).

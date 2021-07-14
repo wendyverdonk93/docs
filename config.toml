@@ -115,6 +115,12 @@ name = "Shell"
     weight = 250
 
 [[menu.main]]
+    name = "Business operations"
+    url  = "/business/"
+    pre = "fa fa-briefcase fa-lg"
+    weight = 30
+
+[[menu.main]]
     name = "Security and legal"
     url  = "/security-and-legal/"
     pre = "fa fa-lock fa-lg"

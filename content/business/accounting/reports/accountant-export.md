@@ -124,5 +124,5 @@ To request automated Accountant exports, email the following information to the 
 
 ## See also
 
-- [Transactions API endpoint](/tools/transactions-api-endpoint/) 
-- [Accounting integrations](/tools/accounting/accounting-integrations/)
+- [Transactions API endpoint](/business/accounting/transactions-api-endpoint/) 
+- [Accounting integrations](/business/accounting/integrations/)
