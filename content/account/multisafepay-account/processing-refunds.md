@@ -25,8 +25,7 @@ aliases:
     - /faq/finance/refund-more-than-original-amount
     - /tools/multisafepay-control/processing-refunds
 ---
-
-From your MultiSafepay account, you can process:
+## In yor MultiSafepay account
 
 {{< details title="Full refunds" >}}
   
@@ -78,9 +77,13 @@ Instead of deleting an item in the checkout editor, you may want to add a discou
 
 {{< /details >}}
 
-Depending on your integration with MultiSafepay, you may also be able to initiate refunds from your own backend.
+For support, email the Integration Team at <integration@multisafepay.com>
 
-## About refunds
+## In your backend
+
+You can process refunds in the backend of most ecommerce platforms. For more information, see the User guide in the integration manual for the relevant platform, e.g. Magento 2 – [Processing refunds](/payments/integrations/ecommerce-platforms/magento2/faq/processing-refunds/).
+
+## Refund rules
 
 {{< details title="Refunding more than the original transaction amount" >}}
 
@@ -178,5 +181,4 @@ For questions, email the Integration Team at <integration@multisafepay.com>
 
 {{< /details >}}
 
-- For general questions about refunds, email the Support Team at <support@multisafepay.com>
-- For questions about processing refunds in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
+For any questions, email the Support Team at <support@multisafepay.com>
