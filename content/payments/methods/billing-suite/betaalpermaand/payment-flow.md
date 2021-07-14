@@ -1,26 +1,23 @@
 ---
-title: 'Klarna payment flow'
+title: 'Betaal per Maand payment flow'
 breadcrumb_title: 'Payment flow'
 weight: 30
-meta_title: "Klarna payment flow - MultiSafepay Docs"
+meta_title: "Betaal per Maand payment flow - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Flow from start to finish, including order and transaction status changes"
 layout: 'child'
-logo: '/logo/Payment_methods/Klarna.svg'
 ---
 
 The table below shows a successful payment flow from start to finish.  
 
 {{< details title="About order and transaction statuses" >}}
-
+&nbsp;  
 In your MultiSafepay account > **Transaction overview** > **Transaction details** page under **Status history**, there are two statuses that change as the flow progresses: 
 
 - Order status: indicates the status of the customer's order with the merchant independent of the payment
 - Transaction status: indicates the status of settlement in your MultiSafepay balance
 
 {{< /details >}}
-
-### Payment flow
 
 |                       | Flow      | Order status | Transaction status |
 |--------------------------------|-----------|---|-----------------------------------------------------------------------------------------|
