@@ -1,8 +1,8 @@
 ---
-title: 'Payment components'
-breadcrumb_title: "Payment components"
+title: 'Payment Components'
+breadcrumb_title: "Payment Components"
 layout: 'single'
-meta_title: 'Payment components - MultiSafepay Docs'
+meta_title: 'Payment Components - MultiSafepay Docs'
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 logo: '/svgs/Payment pages.svg'
 short_description: 'MultiSafepay solution to embed payment methods in your ecommerce platform'
@@ -11,7 +11,7 @@ weight: 51
 aliases:
     - /tools/credit-card-component/
 ---
-Payment components are building blocks for embedding payment methods directly into your checkout page that:
+Payment Components are building blocks for embedding payment methods directly into your checkout page that:
 
 - Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
