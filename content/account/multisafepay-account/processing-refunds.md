@@ -25,7 +25,7 @@ aliases:
     - /faq/finance/refund-more-than-original-amount
     - /tools/multisafepay-control/processing-refunds
 ---
-## In yor MultiSafepay account
+## In your MultiSafepay account
 
 {{< details title="Full refunds" >}}
   
