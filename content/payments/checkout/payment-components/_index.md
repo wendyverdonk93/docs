@@ -19,21 +19,6 @@ Payment components are building blocks for embedding payment methods directly in
 
 ## Integration
 
-Integrate a payment component for:
-
-### Multiple payment methods
-
-First, within your checkout, the customer selects one of the available payment methods. 
-
-Then, depending on the selected method, the customer fills out the payment details form in your checkout or is redirected to the relevant payment page.
-
-{{< screen src="/gifs/dropin-component.gif" alt="Multiple payment methods Component" align="center" class="medium-img" screen_size="desktop" >}}
-
-{{< two-buttons href-2="/payments/checkout/payment-components/integrating-multiple-payment-methods" header-2="Integration manual" text-2="Multiple payment methods" img-2="/svgs/arrow-thin-right.svg" alt-2="Right arrow" >}}
-
-
-### Single payment method
-
 Embed a payment method of choice in your checkout. The customer completes the payment within your checkout or is redirected to the relevant payment page.
 
 {{< screen src="/gifs/credit-card-component.gif" alt="Credit Card Component" align="center" class="medium-img" screen_size="desktop" >}}
