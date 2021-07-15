@@ -25,8 +25,8 @@ Customers pay by using their smartphone to scan a QR code, on paper or on screen
 | **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | The Netherlands  | |
 | **Currencies**  | EUR | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
+| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 ## Product rules

@@ -20,9 +20,9 @@ Maestro is a debit card service owned by Mastercard. It is accepted across Europ
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks) |
+| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Chargebacks**  | Yes | [More information](/payments/chargebacks) |
 
 ## Product rules
 
@@ -52,6 +52,6 @@ You are solely liable for paying for chargebacks.
 
 Maestro gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
 
-For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
+For more information, see [Chargebacks](/payments/chargebacks).
 
 {{< /details >}}

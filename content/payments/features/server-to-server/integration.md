@@ -14,7 +14,7 @@ To integrate Server to Server using our API, see API Reference – [Server to Se
 
 Make a `direct` POST `/orders` request. 
 
-```shell 
+```
 "type": "direct",
 "gateway": "CREDITCARD",
 ```

@@ -206,6 +206,6 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/about/tokenization)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
 
 {{< /description >}}

@@ -21,9 +21,9 @@ Mastercard is a leading global credit card scheme. An additional layer of securi
 | **API flow**  | `Direct`/ {{< br >}} `Redirect`| [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Worldwide  | |
 | **Currencies**  | Multiple | [More information](/faq/general/supported-currencies) {{< br >}} Email requests to support a different currency to the Support Team at <support@multisafepay.com> | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
-| **Recurring payments**  | Yes | [More information](/payments/about/recurring-payments/)  |
-| **Chargebacks**  | Yes | [More information](/payments/refunds-and-chargebacks/chargebacks)  |
+| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Recurring payments**  | Yes | [More information](/payments/features/recurring-payments/)  |
+| **Chargebacks**  | Yes | [More information](/payments/chargebacks)  |
 
 ## Product rules
 
@@ -55,7 +55,7 @@ You are solely liable for paying for chargebacks.
 
 Mastercard gives cardholders the right to claim chargebacks for up to 180 days after the purchase.
 
-For more information, see [Chargebacks](/payments/refunds-and-chargebacks/chargebacks).
+For more information, see [Chargebacks](/payments/chargebacks).
 
 To help reduce chargebacks, see [Displaying your logo in online banking](/payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking).
 

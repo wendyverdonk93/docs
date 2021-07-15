@@ -4,6 +4,7 @@ weight: 60
 meta_title: "Credit card user guide - Chargeback reasons and required evidence - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+url: "/payments/chargebacks/reasons"
 short_description: "Learn about the reasons why cardholders may request a chargeback"
 aliases:
     - /faq/chargebacks/dispute-chargeback
@@ -279,7 +280,7 @@ To dispute this type of chargeback, you need to provide proof that:
 
 {{< details title="Reason code 4540: Card not present" >}}
 
-The cardholder denies participating in a [MOTO](/tools/mail-order-telephone-order) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
+The cardholder denies participating in a [MOTO](/payments/features/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
 
 To dispute this type of chargeback, you need to provide evidence that:
 

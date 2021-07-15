@@ -75,6 +75,6 @@ The position from which the tokens will be listed. If _offset_ is left empty, th
 
 ----------------
 
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/about/tokenization)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
 
 {{< /description >}}

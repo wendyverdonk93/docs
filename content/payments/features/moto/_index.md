@@ -4,6 +4,7 @@ weight: 100
 meta_title: "Credit card user guide - Using MOTO - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+logo: '/svgs/MOTO.svg'
 short_description: 'Accept credit card payments by mail or telephone by using MOTO'
 aliases: 
     - /tools/mail-order-telephone-order/

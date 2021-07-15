@@ -17,7 +17,7 @@ Direct calls connect directly to the specified payment method and either:
 - Generate a direct link to the payment method, e.g. specifying iDEAL in the `gateway` parameter takes the customer to the payment page of their bank. 
 - Complete the transaction immediately without the customer having to do anything. 
 
-You can make direct calls repeatedly, e.g. for [recurring payments](/payments/about/recurring-payments/).
+You can make direct calls repeatedly, e.g. for [recurring payments](/payments/features/recurring-payments/).
 
 ### Redirect calls
 

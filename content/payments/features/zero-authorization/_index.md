@@ -1,6 +1,6 @@
 ---
 title: 'Zero authorization'
-weight: 40
+weight: 30
 meta_title: "Zero authorization - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "single"
@@ -13,7 +13,7 @@ aliases:
 
 Zero Authorization is a way of verifying a credit card without charging the cardholder. We charge an amount of 0 EUR (with or without [3D Secure](/payments/methods/credit-and-debit-cards/user-guide/glossary/#3d-secure)) to the credit card, store the card details as a token, and then check if the card is legitimate. 
 
-You can then also use the token for [tokenization](/payments/about/tokenization) or [Recurring Payments](/payments/about/recurring-payments/).
+You can then also use the token for [tokenization](/payments/features/tokenization) or [Recurring Payments](/payments/features/recurring-payments/).
 
 Zero Authorization supports Maestro, Mastercard, and Visa, and is available in all countries and currencies.
 
