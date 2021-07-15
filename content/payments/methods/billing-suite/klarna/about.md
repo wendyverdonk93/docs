@@ -88,3 +88,4 @@ Instead of deleting an item in the checkout editor, you may want to add a discou
 {{< /details >}}
 
 - See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
+- You cannot adjust payment link lifetimes.
