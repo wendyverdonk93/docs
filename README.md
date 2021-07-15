@@ -2,11 +2,15 @@
   <img src="https://www.multisafepay.com/img/multisafepaylogo.svg" width="400px" position="center">
 </p>
 
-## About MultiSafepay
 MultiSafepay is a collecting payment service provider. We take care of contracts, technical integration, and payment collection for a range of payment methods. Start selling online today and manage all your transactions in one place.
 
-## MultiSafepay Docs
-Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support. Vist https://docs.multisafepay.com 
+At [MultiSafepay Docs](https://docs.multisafepay.com), you can:
+
+- Sign up.
+- Build and test your payments integration.
+- Explore our products and services. 
+- Use our API Reference, SDKs, and wrappers. 
+- Get support.
 
 To run this project, you will need to install Hugo CMS. See Hugo – [Installing](https://gohugo.io/getting-started/installing/).
 
