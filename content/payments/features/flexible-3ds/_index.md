@@ -4,6 +4,7 @@ weight: 90
 meta_title: "Credit card user guide - Using Flexible 3D - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
+logo: '/svgs/Flexible 3D.svg'
 short_description: 'Use 3D Secure verification to provide an extra layer of security to credit card payments'
 aliases: 
     - /tools/flexible_3d
@@ -19,7 +20,7 @@ For more information about 3D Secure, see [About 3D Secure](/security-and-legal/
 
 Setting Flexible 3D to:
 
-- `false` disables 3D Secure verification and overrides [Dynamic 3D](/payments/methods/credit-and-debit-cards/user-guide/server-to-server) rules. The payment is classified as **"Not Enrolled, Liability".**
+- `false` disables 3D Secure verification and overrides [Dynamic 3D](/payments/features/server-to-server) rules. The payment is classified as **"Not Enrolled, Liability".**
 
 - `true` enables 3D Secure verification and the payment is classified as **3D Secure Result: Enrolled Liability**.
 

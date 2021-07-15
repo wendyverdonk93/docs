@@ -231,5 +231,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [Server to Server](/payments/methods/credit-and-debit-cards/user-guide/server-to-server) on our documentation page.
+Read more about [Server to Server](/payments/features/server-to-server) on our documentation page.
 {{% /description %}}

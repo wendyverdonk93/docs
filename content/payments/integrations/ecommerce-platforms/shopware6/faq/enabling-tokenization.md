@@ -7,4 +7,4 @@ aliases:
     - /integrations/ecommerce-integrations/shopware6/faq/enable-tokenization-within-shopware6
 ---
 
-You need to enable tokenization in your MultiSafepay account and then in the plugin settings. For instructions, see [Tokenization](https://docs.multisafepay.com/payments/about/tokenization).
+You need to enable tokenization in your MultiSafepay account and then in the plugin settings. For instructions, see [Tokenization](https://docs.multisafepay.com/payments/features/tokenization).

@@ -12,7 +12,7 @@ To enable [tokenization](/tools/tokenization/):
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
-For more information, see [Tokenization](/payments/about/tokenization).
+For more information, see [Tokenization](/payments/features/tokenization).
 
 ### Credit cards
 Tokenization is not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.

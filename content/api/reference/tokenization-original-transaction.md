@@ -136,7 +136,7 @@ Customer will be redirected to this page after a failed payment.
 __customer__ | object
 
 ----------------
-Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/about/tokenization)
+Read our decicated documentation on [Tokenization](https://docs.multisafepay.com/payments/features/tokenization)
 
 __close_window__ | bool (optional)
 

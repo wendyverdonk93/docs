@@ -111,5 +111,5 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-Read more about [Manual Capture](/tools/manual-capture) on our documentation page.
+Read more about [Manual Capture](/payments/features/manual-capture) on our documentation page.
 {{% /description %}}

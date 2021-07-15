@@ -153,7 +153,7 @@ Sample statuses:
 
 {{< details title="Recurring payments" >}}
 
-To enable [recurring payments](/payments/about/recurring-payments/) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
+To enable [recurring payments](/payments/features/recurring-payments/) in your MultiSafepay test account, email the Integration Team at <integration@multisafepay.com> 
 
 {{< /details >}}
 

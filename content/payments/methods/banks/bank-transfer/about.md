@@ -23,8 +23,8 @@ You can link Bank Transfer directly to your website. When a customer selects Ban
 | **API flow**  | `Redirect` | [More information](/developer/api/difference-between-direct-and-redirect) |
 | **Countries**  | Europe (SEPA area)  | |
 | **Currencies**  | CZK, EUR, GBP, HUF, PLN | [More information](/faq/general/supported-currencies) | 
-| **Refunds**  | Full and partial  | [More information](/payments/refunds-and-chargebacks/refunds/) | 
-| **Recurring payments**  | No | [More information](/payments/about/recurring-payments/)  |
+| **Refunds**  | Full and partial  | [More information](/payments/refunds/) | 
+| **Recurring payments**  | No | [More information](/payments/features/recurring-payments/)  |
 | **Chargebacks**  | No | [More information](/faq/chargebacks)  |
 
 **Note:** USD is **not** supported due to extremely high transaction and currency conversion fees for customers.
