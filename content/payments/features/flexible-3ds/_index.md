@@ -5,7 +5,7 @@ meta_title: "Credit card user guide - Using Flexible 3D - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: "."
 logo: '/svgs/Flexible 3D.svg'
-short_description: 'Use 3D Secure verification to provide an extra layer of security to credit card payments'
+short_description: 'Use 3D Secure verification for extra security for credit card payments'
 aliases: 
     - /tools/flexible_3d
 ---
