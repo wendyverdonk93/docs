@@ -13,6 +13,7 @@ aliases:
 ---
 
 For payment methods where MultiSafepay is the collecting party, we are required to charge VAT on all: 
+
 - Transaction fees – charged as each transaction is processed
 - Bank fees – charged at the beginning of each month
 - Payout and refund fees 
