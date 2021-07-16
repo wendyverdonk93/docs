@@ -1,11 +1,11 @@
 ---
-title : "Processing refunds"
+title : "Refunds"
 weight: 20
-meta_title: "MultiSafepay account - Processing refunds - MultiSafepay Docs"
+meta_title: "Payments - Refunds - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 read_more: '.'
 url: "/payments/refunds"
-short_description: 'Process refunds in your MultiSafepay account, from your ready-made integration or through our API'
+short_description: 'Process refunds in your MultiSafepay account, from your ready-made integration, or via our API'
 aliases:
     - /faq/refunds
     - /faq/refunds/initiating-refunds/
