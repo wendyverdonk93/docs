@@ -9,6 +9,7 @@ aliases:
     - /integrations/ecommerce-integrations/magento2/faq/refunding-magento2/
 ---
 Refund types:
+
 - Full and partial refunds in your [MultiSafepay account](/account/multisafepay-account/processing-refunds/) 
 - Full and partial refunds and credit memos from your backend (see below)
 - [Refund with shopping cart](/api/#refund-with-shopping-cart) via our API (PATCH requests are not supported)
