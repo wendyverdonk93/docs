@@ -154,9 +154,6 @@ The Single Euro Payments Area (SEPA) is a European Union payment-integration ini
 ### shopping cart
 A container in the merchant's integration where customers place items for an order preparing for payment.
 
-### surcharge
-A fee merchants may charge customers on top of the retail price to cover the cost of accepting certain payment methods. Surcharges may be a fixed amount or a percentage of the total order amount.
-
 ### token/tokenization
 Tokenization is storing customer payment details as a token (a unique string of numbers). For customers, it makes future payments faster and easier. For merchants, it enables repeatedly debiting customers, e.g. for subscriptions. 
 

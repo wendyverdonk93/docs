@@ -9,7 +9,7 @@ aliases:
     - /integrations/magento2/faq/payment-fee-surcharges/
 ---
 
-Applying [surcharges](/faq/general/multisafepay-glossary/#surcharge) or payment fees is no longer supported in the Magento 2 plugin.
+Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is no longer supported in the Magento 2 plugin.
 
 ## Using Fooman
 To apply a surcharge or payment fee to a payment method, you can use the third-party [Fooman](https://store.fooman.co.nz/extensions/magento2) package.

@@ -8,7 +8,7 @@ aliases:
    - /integrations/prestashop-1-7/faq/payment-fee-surcharges/
 ---
 
-Applying [surcharges](/faq/general/multisafepay-glossary/#surcharge) or payment fees is not automatically supported in our PrestaShop 1.7 plugin.
+Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is not automatically supported in our PrestaShop 1.7 plugin.
 
 ## Support
 The Integration Team will do their best to support you, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.

@@ -8,7 +8,7 @@ aliases:
     - /integrations/prestashop-1-6/faq/payment-fee-surcharges/
 ---
 
-Applying [surcharges](/faq/general/multisafepay-glossary/#surcharge) or payment fees is not automatically enabled in our PrestaShop 1.6 plugin.
+Applying [surcharges](/security-and-legal/payment-regulations/about-surcharges/) or payment fees is not automatically enabled in our PrestaShop 1.6 plugin.
 
 ## Using BVK
 To apply a surcharge or payment fee to a payment method, you can use the third-party [BVK](https://www.bvkyazilim.com/cart/prestashop-modules) package.

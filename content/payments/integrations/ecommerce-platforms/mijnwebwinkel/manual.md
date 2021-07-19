@@ -28,7 +28,7 @@ You will need a MultiSafepay account. See [Getting started](/getting-started/).
 2. Add your MultiSafepay account ID, site ID, site security code, and [API key](/faq/general/multisafepay-glossary/#api-key).
 6. Select the relevant payment methods.
 
-**Note:** You can apply a [surcharge](/faq/general/multisafepay-glossary/#surcharge) to payment methods.
+**Note:** You can apply a [surcharge](/security-and-legal/payment-regulations/about-surcharges/) to payment methods.
 
 ### Further support
 
