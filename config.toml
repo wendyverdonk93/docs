@@ -84,9 +84,10 @@ name = "Shell"
     weight = 20
 
 [[menu.main]]
-    name = "About payments"
-    url  = "/payments/about/"
+    name = "Add payment methods"
+    url  = "/payments/methods/"
     parent = "payments"
+    identifier = "payment-methods"
     weight = 210
 
 [[menu.main]]
@@ -96,14 +97,7 @@ name = "Shell"
     weight = 220
 
 [[menu.main]]
-    name = "Add payment methods"
-    url  = "/payments/methods/"
-    parent = "payments"
-    identifier = "payment-methods"
-    weight = 230
-
-[[menu.main]]
-    name = "Customize your checkout"
+    name = "Choose your checkout"
     url  = "/payments/checkout"
     parent = "payments"
     weight = 240
@@ -113,6 +107,18 @@ name = "Shell"
     url  = "/payments/boost"
     parent = "payments"
     weight = 250
+
+[[menu.main]]
+    name = "Refunds and chargebacks"
+    url  = "/payments/refunds-and-chargebacks"
+    parent = "payments"
+    weight = 260
+
+[[menu.main]]
+    name = "Additional payment features"
+    url  = "/payments/features"
+    parent = "payments"
+    weight = 270
 
 [[menu.main]]
     name = "Business operations"
