@@ -54,6 +54,11 @@ As a partner or primary account holder, move funds from an affiliated account's 
 
 By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
 
+### Authentication
+Use your account-level API key. 
+
+To receive your account-level API key, email your account manager at <sales@multisafepay.com>
+
 ### Request parameters
 
 **affiliated_id** | query parameter

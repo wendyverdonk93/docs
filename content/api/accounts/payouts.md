@@ -67,6 +67,11 @@ As a partner or primary account holder, move funds from an affiliated account's 
 
 By default, payouts for affiliated accounts are disabled. To enable payouts for your affiliated accounts, email your account manager at <sales@multisafepay.com>
 
+### Authentication
+Use your account-level API key. 
+
+To receive your account-level API key, email your account manager at <sales@multisafepay.com>
+
 ### Request parameters
 
 **affiliated_id** | query parameter  

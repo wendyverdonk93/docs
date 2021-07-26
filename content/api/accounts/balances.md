@@ -37,6 +37,11 @@ As a partner or primary account holder, request the balance of an affiliated acc
 
 By default, balance requests are disabled. To enable balance requests for your account, email your account manager at <sales@multisafepay.com>
 
+### Authentication
+Use your account-level API key. 
+
+To receive your account-level API key, email your account manager at <sales@multisafepay.com>
+
 ### Request parameters
 
 **affiliated_id** | query parameter  
