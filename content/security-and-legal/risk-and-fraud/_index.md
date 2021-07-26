@@ -6,4 +6,6 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 logo: '/svgs/Risk and Fraud.svg'
 layout: 'faqplugins'
 short_description: "About how MultiSafepay prevents fraud and how to update company information"
+aliases: 
+    - /faq/risk-and-fraud/
 ---
