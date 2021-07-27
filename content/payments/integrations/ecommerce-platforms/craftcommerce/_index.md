@@ -23,7 +23,7 @@ This technical manual is for installing and configuring our free plugin for inte
 
 You can also install the plugin via the [Craft Plugin Store](https://plugins.craftcms.com/multisafepay).
 
-{{< details title=Features >}}
+{{< details title="Features" >}}
 &nbsp;  
 - Support for separate payment methods, billing suites, and gift cards
 - Partial and full refunds for non-billing suite payment methods
