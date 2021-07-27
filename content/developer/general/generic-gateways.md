@@ -29,6 +29,7 @@ For more information about a specific plugin, see:
 - [Drupal 8 & 9](/payments/integrations/ecommerce-platforms/drupal8/faq/configuring-generic-gateways/)
 - [Magento 1](/payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/)
 - [Magento 2](/payments/integrations/ecommerce-platforms/magento2/faq/configuring-generic-gateways/)
+- [Odoo](/payments/integrations/ecommerce-platforms/odoo/faq/generic-gateways/)
 - [OpenCart](/payments/integrations/ecommerce-platforms/opencart/faq/configuring-generic-gateways/)
 - [Shopware 5](/payments/integrations/ecommerce-platforms/shopware5/faq/configuring-generic-gateways/)
 - [Shopware 6](/payments/integrations/ecommerce-platforms/shopware6/faq/generic-gateways/)
