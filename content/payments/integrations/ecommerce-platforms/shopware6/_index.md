@@ -17,6 +17,7 @@ aliases:
     - /plugins/shopware6/manual
     - /integrations/plugins/shopware6/manual
     - /integrations/shopware6/manual
+    - /integrations/ecommerce-integrations/shopware6
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Shopware 6 webshop.

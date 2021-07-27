@@ -17,6 +17,7 @@ aliases:
     - /plugins/prestashop-1-6/manual
     - /integrations/plugins/prestashop-1-6/manual
     - /integrations/prestashop-1-6/manual
+    - /integrations/ecommerce-integrations/prestashop-1-6
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Prestashop 1.6 webshop.

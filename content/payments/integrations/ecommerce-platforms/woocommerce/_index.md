@@ -19,6 +19,7 @@ aliases:
     - /plugins/woocommerce/manual
     - /integrations/plugins/woocommerce/manual
     - /integrations/woocommerce/manual
+    - /integrations/ecommerce-integrations/woocommerce
 ---
 
 This technical manual is for installing and configuring the MultiSafepay plugin for WooCommerce. WooCommerce is a free, open-source ecommerce platform for Wordpress.

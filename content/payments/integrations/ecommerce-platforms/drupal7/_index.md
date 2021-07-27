@@ -15,6 +15,7 @@ aliases:
     - /plugins/drupal7
     - /integrations/plugins/drupal7
     - /integrations/drupal7
+    - /integrations/ecommerce-integrations/drupal7
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Drupal 7 webshop.

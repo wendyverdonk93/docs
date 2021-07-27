@@ -15,6 +15,7 @@ aliases:
     - /hosted/shoptrader/manual
     - /integrations/hosted/shoptrader/manual
     - /integrations/shoptrader/manual
+    - /integrations/ecommerce-integrations/shoptrader
 ---
 This free plugin to integrate MultiSafepay payment solutions into your Shoptrader webshop is developed and maintained by Shoptrader. 
 

@@ -12,6 +12,7 @@ aliases:
     - /hosted/ecwid
     - /integrations/hosted/ecwid
     - /integrations/ecwid
+    - /integrations/ecommerce-integrations/ecwid
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Ecwid store.

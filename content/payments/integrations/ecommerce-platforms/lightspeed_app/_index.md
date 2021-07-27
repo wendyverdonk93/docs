@@ -16,7 +16,7 @@ aliases:
     - /hosted/lightspeed_app
     - /integrations/hosted/lightspeed_app
     - /integrations/lightspeed_app
-    
+    - /integrations/ecommerce-integrations/lightspeed_app 
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your Lightspeed webshop. 

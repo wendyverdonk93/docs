@@ -15,6 +15,7 @@ aliases:
     - /hosted/logivert/manual
     - /integrations/hosted/logivert/manual
     - /integrations/logivert/manual
+    - /integrations/ecommerce-integrations/logivert
 ---
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your LogiVert app.
 

@@ -16,6 +16,7 @@ aliases:
     - /plugins/craftcommerce
     - /integrations/plugins/craftcommerce
     - /integrations/craftcommerce
+    - /integrations/ecommerce-integrations/craftcommerce
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Craft Commerce 3 webshop via Composer.

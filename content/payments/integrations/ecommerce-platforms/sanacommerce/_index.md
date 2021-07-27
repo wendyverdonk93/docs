@@ -13,6 +13,7 @@ aliases:
     - /hosted/sanacommerce
     - /integrations/hosted/sanacommerce
     - /integrations/sanacommerce
+    - /integrations/ecommerce-integrations/sanacommerce
 ---
 Free app to integrate MultiSafepay payment solutions into your Sana Commerce platform. You must use at least Sana Commerce version 9.3. 
 

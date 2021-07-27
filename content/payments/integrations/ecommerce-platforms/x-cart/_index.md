@@ -20,6 +20,7 @@ aliases:
     - /plugins/x-cart/manual
     - /integrations/plugins/x-cart/manual
     - /integrations/x-cart/manual
+    - /integrations/ecommerce-integrations/x-cart
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your X-Cart webshop.

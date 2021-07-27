@@ -19,7 +19,7 @@ aliases:
     - /plugins/virtuemart/manual
     - /integrations/plugins/virtuemart/manual
     - /integrations/virtuemart/manual
-
+    - /integrations/ecommerce-integrations/virtuemart
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your VirtueMart webshop.

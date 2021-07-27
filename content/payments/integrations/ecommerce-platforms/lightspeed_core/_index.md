@@ -18,6 +18,7 @@ aliases:
     - /integrations/hosted/lightspeed_core/manual
     - /integrations/lightspeed_core/manual
     - /integrations/lightspeed/manual
+    - /integrations/ecommerce-integrations/lightspeed_core
 ---
 
 This technical manual is for installing and configuring our free core integration for integrating MultiSafepay payment solutions into your Lightspeed webshop.

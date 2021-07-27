@@ -14,6 +14,7 @@ aliases:
     - /hosted/zilvercms
     - /integrations/hosted/zilvercms
     - /integrations/zilvercms
+    - /integrations/ecommerce-integrations/zilvercms
 ---
 
 This app is managed by our partner ZilverCMS. 

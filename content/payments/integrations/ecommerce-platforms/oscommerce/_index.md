@@ -17,6 +17,7 @@ aliases:
     - /plugins/oscommerce/manual
     - /integrations/plugins/oscommerce/manual
     - /integrations/oscommerce/manual
+    - /integrations/ecommerce-integrations/oscommerce
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your OsCommerce webshop.

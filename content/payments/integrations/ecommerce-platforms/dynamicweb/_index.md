@@ -12,6 +12,7 @@ aliases:
     - /hosted/dynamicweb
     - /integrations/hosted/dynamicweb
     - /integrations/dynamicweb
+    - /integrations/ecommerce-integrations/dynamicweb
 ---
 Free app to integrate MultiSafepay payment solutions into your Dynamicweb platform. 
 

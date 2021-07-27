@@ -18,6 +18,7 @@ aliases:
     - /plugins/zencart/manual
     - /integrations/plugins/zencart/manual
     - /integrations/zencart/manual
+    - /integrations/ecommerce-integrations/zencart
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Zen Cart webshop.

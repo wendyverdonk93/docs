@@ -18,6 +18,7 @@ aliases:
     - /plugins/opencart/manual
     - /integrations/plugins/opencart/manual
     - /integrations/opencart/manual
+    - /integrations/ecommerce-integrations/opencart
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your OpenCart webshop.

@@ -17,6 +17,7 @@ aliases:
     - /hosted/logic4/manual
     - /integrations/hosted/logic4/manual
     - /integrations/logic4/manual
+    - /integrations/ecommerce-integrations/logic4
 ---
 
 This technical manual is for installing and configuring our free plugin for integrating MultiSafepay payment solutions into your Logic4 webshop. This plugin is managed by our partner Logic4.

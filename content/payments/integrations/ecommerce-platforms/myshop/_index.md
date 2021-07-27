@@ -15,6 +15,7 @@ aliases:
     - /hosted/myshop/manual
     - /integrations/hosted/myshop/manual
     - /integrations/myshop/manual
+    - /integrations/ecommerce-integrations/myshop
 ---
 
 This technical manual is for installing and configuring our free app for integrating MultiSafepay payment solutions into your myShop. This app is managed by our partner myShop.
