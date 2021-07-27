@@ -14,7 +14,7 @@ extra_button:
     type: "primary"
 ---
 
-For plugins to reconicle Snelstart with the following ecommerce platforms, see Premarc:
+For plugins to reconcile Snelstart with the following ecommerce platforms, see Premarc:
 
 - [Shopify](https://www.snelkoppeling.eu/shopify)
 - [Magento](https://www.snelkoppeling.eu/magento)
