@@ -11,10 +11,6 @@ To integrate a payment component into your checkout for a single payment method,
 
 ## Step 1: Install
 
-### Prerequisites
-
-- [Bootstrap](https://getbootstrap.com/) version 3.0 or later
-
 ### Add elements to your checkout page
 **1.** Add the Payment Component CSS to the `<head>` of your checkout page:  
 ```
@@ -25,7 +21,6 @@ To integrate a payment component into your checkout for a single payment method,
 ```
 <script src="https://pay.multisafepay.com/sdk/components/v1/components.js"></script>
 ```
-**Note:** If you choose to host the Payment Component library on your own server, MultiSafepay is no longer responsible for [PCI DSS compliance](/faq/general/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss).
 
 **3.** Add the DOM element for the Payment Component UI in the `<body>` of your checkout page:
 ```
