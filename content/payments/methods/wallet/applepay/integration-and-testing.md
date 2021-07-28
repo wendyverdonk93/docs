@@ -12,9 +12,9 @@ aliases:
 ---
 ## Integration
 
-{{< two-buttons href-2="/payments/methods/wallet/applepay/direct-integration" text-2="Apple Pay direct" description-2="Integrate Apple Pay directly in your checkout" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/payments/methods/wallet/applepay/direct-integration" text-2="Apple Pay direct" description-2="Integrate Apple Pay directly in your checkout page" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
-{{< two-buttons href-2="/api/#apple-pay" text-2="Apple Pay redirect" description-2="Integrate Apple Pay through our payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
+{{< two-buttons href-2="/api/#apple-pay" text-2="Apple Pay redirect" description-2="Integrate Apple Pay using MultiSafepay payment pages" img-2="/logo/Payment_methods/Apple.svg" alt-2="Right arrow" >}}
 
 {{< br >}}
 
@@ -46,7 +46,7 @@ If any of these requirements is not met, Apple Pay doesn't appear on the checkou
 To test Apple Pay transactions, follow these steps:
 
 1. Click the **Apple Pay** button.  
-    - You can ignore the "This device is not supported" error.
+    You can ignore the "This device is not supported" error.
 2. Complete a payment using [test card data](/getting-started/test-your-integration/test-payment-details/#credit-and-debit-cards).
 3. The transaction is completed.
 

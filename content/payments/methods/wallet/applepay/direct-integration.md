@@ -8,103 +8,163 @@ short_description: "Integrating and testing Apple Pay direct"
 layout: 'single'
 ---
 
-With a direct integration of Apple Pay, customers can click the " Pay” button in your checkout and finalize the payment without being redirected to a payment page. 
+With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a payment page, using [tokenization](/payments/features/tokenization/).
 
 {{< screen src="/img/applePayHero.png" align="center" class="small-img desktop-radius" >}}
 {{< br >}}
 
 ## Prerequisites
 
-### Server requirements
+### Apple server requirements
 
-Apple has the following server requirements for incorporating Apple Pay in your integration:
+- All pages that include Apple Pay must be served over HTTPS.
+- Your domain must have a valid SSL certificate.
+- Your server must support the TLS protocol version 1.2 or later.
 
-- All pages that include Apple Pay must be served over HTTPS
-- Your domain must have a valid SSL certificate
-- Your server must support the TLS protocol version 1.2 or later
+For more information, see Apple Developer – [Setting up your server](https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server).
 
-For more information, see Apple Developer - [Setting Up Your Server](https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server).
+### Validate your domain
 
-### Domain validation
+**1.** Download the Apple Pay domain validation file for:
 
-To prepare for Apple Pay domain validation:
+- [Test payments](https://testmedia.multisafepay.com/.well-known/test/apple-developer-merchantid-domain-association)
+- [Live payments](https://media.multisafepay.com/.well-known/apple-developer-merchantid-domain-association)
 
-1. Download the _domain validation file_ for:
-	- [Test payments](https://testmedia.multisafepay.com/.well-known/test/apple-developer-merchantid-domain-association)
-	- [Live payments](https://media.multisafepay.com/.well-known/apple-developer-merchantid-domain-association)
-2. Place the domain validation file at `https://{your-domain}/.well-known/apple-developer-merchantid-domain-association`.
-
-### Request registration for Apple Pay
-
-Once you meet the server requirements and the domain validation file is in place, request registration for Apple Pay.
-
-To request registration for Apple Pay, email your account manager at <sales@multisafepay.com>
-
-**Note**: To offer Apple Pay with MultiSafepay, you don't need an Apple Merchant ID.
-
-## Initialization
-
-**1.** To check whether Apple Pay is supported on the customer's device, use the following conditional statement:
+**2.** Place the domain validation file at:
 ```
+https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
+```
+
+### Request registration 
+
+To request registration for Apple Pay direct, email your account manager at <sales@multisafepay.com>
+
+**Note**: You don't need an Apple Merchant ID to offer Apple Pay with MultiSafepay.
+
+## Client-side implementation 
+
+When the customer selects Apple Pay direct as a payment method, run the following script:
+
+```
+// Check if Apple Pay is supported on the customer's device.
 if (window.ApplePaySession && ApplePaySession.canMakePayments())
-```
 
-For more information, see Apple Developer - [Checking for Apple Pay Availability](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability).
+    // If Apple Pay is supported, display the  Pay button in your checkout page.
+    // Disable the button after the customer clicks or taps it to prevent them creating multiple Apple Pay sessions.
+    // Create a paymentRequest object containing details about the order
 
-**2.** If Apple Pay is supported, show the " Pay” button.
-
-For styling the button, see Apple&nbsp;Pay - [Buttons&nbsp;and&nbsp;Marks](https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark).
-
-
-### Create an Apple Pay session
-
-When a customer clicks the " Pay” button, create an Apple Pay session.
-
-First, create a `paymentRequest` object containing order details
-
-```
-var paymentRequest = {
-        "countryCode": "NL",
-        "currencyCode": "EUR",
-        "merchantCapabilities": ["supports3DS"],
-        "supportedNetworks": [ --> Only supported MSP networks can be used (For example discover is not allowed)
-            "visa",
-            "masterCard",
+    "var paymentRequest ="{
+        "countryCode":"NL",
+        "currencyCode":"EUR",
+        "merchantCapabilities":[
+            "supports3DS"
+        ],
+        // Only use supported MultiSafepay networks. Discover is not supported.  
+        "supportedNetworks":[
             "amex",
-            "discover"
+            "maestro",
+            "masterCard",
+            "visa",
+            "vPay"
         ],
- 
-        // Request additional data you need
-        "requiredBillingContactFields": [
+        // The Apple Pay API adds the billing address to the token. If the customer hasn't previously provided their billing address to Apple Pay, they are prompted to do so.
+        "requiredBillingContactFields":[
             "postalAddress"
-	    
-	    --> This info will be required from applepay to the customer, if customer does not have that info in the device, applepay will not allow to pay untill that is filled.
         ],
-        "total": {
-            "label": "Demo",
-            "type": "final",
-            "amount": 100  --> This amount is in euros, amount sent to MSP is in cents
+        "total":{
+            "label":"Demo",
+            "type":"final",
+            "amount":100 // The amount in the example code is in euros. The amount sent to MultiSafepay is in cents.
         }
     };
+
     var session = new ApplePaySession(1, paymentRequest);
-```
 
-var request = {
-  countryCode: 'US',
-  currencyCode: 'USD',
-  supportedNetworks: ['visa', 'masterCard', 'amex', 'discover'],
-  merchantCapabilities: ['supports3DS'],
-  total: { label: 'Your Merchant Name', amount: '10.00' },
+    // Implement a merchant validation callback.
+    session.onvalidatemerchant = function (event) {
+
+        // Send the following data to your server for later.
+        var validationUrl = event.validationURL;
+        var originDomain = window.location.hostname;        
+
+        // From your server, pass the session request to MultiSafepay.
+
+        //If the session is created successfully:
+        session.completeMerchantValidation(<apple-pay-payment-session-data>);
+    };
+
+    // Once the customer authorizes payment, implement a payment callback, which is executed after completeMerchantValidation. It receives the Apple Pay payment object, which includes the token.
+    session.onpaymentauthorized = function (event) {
+
+        // Pass the payment token to your server.
+        var payment = event.payment;
+
+        // From your server, create an order, including the token.
+
+        // If the transaction is successful:
+        session.completePayment(ApplePaySession.STATUS_SUCCESS);
+
+        // If the transaction is unsuccessful:
+        session.completePayment(ApplePaySession.STATUS_FAILURE);
+
+        // If the payment is unsuccessful, re-enable the  Pay button for the customer.
+    };
+ 
+    session.begin();
 }
-var session = new ApplePaySession(3, request);
-
+```
 
 {{< details title="Parameters" >}}
 
 |Name|Description|
 |---|---|
-|countryCode|ISO-1234 Country code|
+|`countryCode`| Format: [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) country code.|
 
 {{< /details >}}
 
-For more information, see Apple Developer - [Creating an Apple Pay Session](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session).
+For more information, see Apple Developer:
+
+- [Checking for Apple Pay availability](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability)
+- [Buttons&nbsp;and&nbsp;marks](https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark)
+- [Creating an Apple Pay session](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session)
+- [Providing merchant validation](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation)
+- [Apple Pay payment object](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment)
+
+## Pass the session data
+Retrieve the session data:
+
+**Request**
+```
+POST https://api.multisafepay.com/v1/json/wallets/sessions/applepay
+Authorization: Bearer <api-key>
+
+{
+    "validation_url": "<data from browser>",
+    "origin_domain": "<data from browser>"
+}
+```
+**Response**
+```
+200 OK
+
+{"data":{"session":"<apple-pay-payment-session-data>"},"success":true}
+```
+
+## Create an order
+
+From your server, [submit a transaction request](/api/#create-a-direct-order) to MultiSafepay, including the token.
+
+**Request**
+```
+POST https://api.multisafepay.com/v1/json/orders
+
+{
+    ...
+
+    "gateway_info": {
+        "payment_token": "<apple-pay-payment-token>"
+    }
+}
+```
+
+
