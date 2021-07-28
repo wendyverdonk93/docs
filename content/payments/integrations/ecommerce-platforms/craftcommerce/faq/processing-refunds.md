@@ -15,8 +15,8 @@ Refund rules:
     - Full and partial refunds
     - Refunding more than the original transaction is **not** supported
 - API: [Refund with shopping cart](/api/#refund-with-shopping-cart)
-- No refunds for [post-payment methods](/payment-methods/billing-suite)
-- Discounts and  are **not** supported.
+- No refunds for [post-payment methods](/payment-methods/billing-suite).
+- Discounts are **not** supported.
 
 To process refunds from the Craft Commerce admin panel:  
 
