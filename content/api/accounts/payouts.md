@@ -92,7 +92,7 @@ A description for the transaction. The description is displayed in the affiliate
 
 **var1** | string
 
-A variable used to store additional data. **Optional**.
+A variable for storing additional data. **Optional**.
 
 **var2** | string
 
