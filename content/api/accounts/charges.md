@@ -58,7 +58,7 @@ By default, charges are disabled. To enable charges for your account, email your
 
 **affiliated_id** | query parameter
 
-The account ID of the affiliated account that is to be debited. **Required**.
+The account ID of the affiliated account you want to debit. **Required**.
 
 **amount** | integer 
 
