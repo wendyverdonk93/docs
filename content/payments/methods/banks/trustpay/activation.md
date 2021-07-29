@@ -10,6 +10,16 @@ aliases:
     - /payment-methods/trustpay/activate-trustpay/
 ---
 
-Email applications to use TrustPay to your account manager at <sales@multisafepay.com>
+**1.** Check whether TrustPay is supported by your ecommerce platform.
 
-The Risk Team then checks your eligibility.
+**2.** To activate TrustPay:
+
+1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+2. Go to **Settings** > **Payment methods**.
+3. Under **Additional payment methods**, select the **TrustPay** checkbox.  
+    If TrustPay is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
+3. Click **Save changes**.  
+
+**3.** Enable TrustPay as a payment method in the backend of your ecommerce platform to finalize the connection.
+
+For any questions, email your account manager at <sales@multisafepay.com>

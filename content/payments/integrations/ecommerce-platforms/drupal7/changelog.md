@@ -25,7 +25,7 @@ Release date: Sep 1th, 2017
 + PLGDRPC-51 - Process shipped order status update for all payment methods
 + PLGDRPC-46 - Change forwarded_ip to use X-Forwarded-For instead of remote_addr
 + PLGDRPC-50 - Improve shipping call
-+ PLGDRPC-45 - Added support for AliPay, Dotpay, E-invoicing, EPS, TrustPay
++ PLGDRPC-45 - Added support for AliPay, Dotpay, E-Invoicing, EPS, TrustPay
 + PLGDRPC-44 - Gateway parfumcadeaukaart is wrong
 + PLGDRPC-43 - Add debug logger
 + PLGDRPC-41 - update Bancontact default name

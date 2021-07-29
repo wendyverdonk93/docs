@@ -135,7 +135,7 @@ This table lists the refund period for each payment method:
 | [Betaal per Maand](/payments/methods/billing-suite/betaalpermaand/) | 730 days |
 | [CBC](/payments/methods/banks/cbc/) | 730 days |
 | [Dotpay](/payments/methods/banks/dotpay/) | 730 days |
-| [E-invoicing](/payments/methods/billing-suite/e-invoicing/) | 730 days |
+| [E-Invoicing](/payments/methods/billing-suite/e-invoicing/) | 730 days |
 | [EPS](/payments/methods/banks/eps/) | 730 days |
 | [Giropay](/payments/methods/banks/giropay/) | 730 days |
 | [iDEAL](/payments/methods/banks/ideal/) | 730 days |

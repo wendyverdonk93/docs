@@ -1,8 +1,8 @@
 ---
-title: 'About E-invoicing'
-breadcrumb_title: 'About E-invoicing'
+title: 'About E-Invoicing'
+breadcrumb_title: 'About E-Invoicing'
 weight: 10
-meta_title: "About E-invoicing - MultiSafepay Docs"
+meta_title: "About E-Invoicing - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 short_description: "Key information, supported countries and currencies, product rules"
 layout: 'child'
@@ -27,7 +27,7 @@ E-Invoicing is a MultiSafepay post-payment method with automation tools that giv
 
 - You cannot [adjust payment link lifetimes](/developer/api/adjusting-payment-link-lifetimes).
 
-- E-invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
+- E-Invoicing supports different delivery and invoice addresses. Email a request to your account manager at <sales@multisafepay.com>
 
 - See also MultiFactor – [Shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies).
 
@@ -48,7 +48,7 @@ If a refund fails, email the Support Team at <support@multisafepay.com>
 
 {{< details title="Gift cards" >}}
 &nbsp;  
-Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, E-invoicing requires very precise order specifications. 
+Post-payment methods do not generally support entering [gift card](/payments/methods/prepaid-cards/gift-cards) details **after** the order is placed (for a whole or partial payment). This is because, as the collecting party, E-Invoicing requires very precise order specifications. 
 
 Our platform would interpret the gift card as a discount (not included in the shopping cart specification) and wouldn't generate the correct order information, e.g. for tax purposes. 
 

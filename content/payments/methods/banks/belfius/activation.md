@@ -18,7 +18,7 @@ aliases:
 All your websites:
 
 1. Go to **Settings** > **Payment methods**.
-2. Under **Standard payment methods**, select the **Belfius** checkbox.
+2. Under **Additional payment methods**, select the **Belfius** checkbox.
 3. Click **Save changes**.
 
 A specific website:

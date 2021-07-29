@@ -17,8 +17,8 @@ aliases:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Payment methods**.
-3. Under **Standard payment methods**, select the **ING Home'Pay** checkbox.    
-If ING Home'Pay is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
+3. Under **Additional payment methods**, select the **ING Home'Pay** checkbox.    
+    If ING Home'Pay is not visible as a payment method in your MultiSafepay account, email the Integration Team at <integration@multisafepay.com>
 4. Click **Save changes**.
 
 **3.** Enable ING Home'Pay as a payment method in the backend of your ecommerce platform to finalize the connection.

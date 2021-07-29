@@ -58,7 +58,7 @@ For the following payment methods, we have changed the payment flow from [redire
 - Afterpay
 - Request to Pay
 - Direct Debit
-- E-invoicing
+- E-Invoicing
 - in3 
 - Pay After Delivery (Betaal na Ontvangst)
 
