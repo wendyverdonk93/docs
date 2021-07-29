@@ -52,7 +52,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 
 As a partner or primary account holder, use /charges to move funds from an affiliated account balance to your own. 
 
-By default, charges are disabled. Contact your account manager to enable charges for your account.
+By default, charges are disabled. To enable charges for your account, email your account manager at <sales@multisafepay.com>
 
 ### Parameters
 
