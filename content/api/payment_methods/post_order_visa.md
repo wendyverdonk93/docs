@@ -114,6 +114,6 @@ Options: true, false. Set to true if you want to display the MultiSafepay paymen
 
 ----------------
 
-__Note: The ip_address and e-mail address parameters are not required, although their use is recommended to help detect fraudulent payments.__
+**Note:** The `ip_address` and `e-mail address` parameters are not required, but we recommend using them to help detect fraudulent payments.
 
 Read more about [Visa](/payment-methods/credit-and-debit-cards/visa) on our documentation page.
