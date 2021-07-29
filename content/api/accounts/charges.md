@@ -50,7 +50,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 {{< description >}}
 ## Charges
 
-As a partner or primary account holder, use charges to move funds from an affiliated account's balance to your own. 
+As a partner or primary account holder, use /charges to move funds from an affiliated account balance to your own. 
 
 By default, charges are disabled. Contact your account manager to enable charges for your account.
 
