@@ -96,7 +96,7 @@ A variable for storing additional data. **Optional**.
 
 **var2** | string
 
-A variable used to store additional data. **Optional**.
+A second variable for storing additional data. **Optional**.
 
 **var3** | string
 
