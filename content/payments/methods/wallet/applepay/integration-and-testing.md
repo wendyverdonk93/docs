@@ -11,7 +11,7 @@ aliases:
     - /payment-methods/wallet/applepay/apple-pay-guidelines
 ---
 ## Integration
-To integrate Apple Pay using our API, see API Reference – [Apple Pay](/api/#applepay).
+To integrate Apple Pay using our API, see API Reference – [Apple Pay](/api/#apple-pay).
 
 When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing).
 
