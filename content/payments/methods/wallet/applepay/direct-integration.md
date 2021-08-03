@@ -36,7 +36,7 @@ https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
 ```
 ### Request registration 
 
-To request registration for Apple Pay direct, email your account manager at <sales@multisafepay.com>
+To request registration for Apple Pay direct, email the relevant Site ID to your account manager at <sales@multisafepay.com>
 
 **Note**: You don't need an Apple Merchant ID to offer Apple Pay with MultiSafepay.
 
