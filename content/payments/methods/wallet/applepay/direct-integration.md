@@ -107,7 +107,7 @@ For more information about the `ApplePayRequest` object, see Apple Developer –
 **2.** Create an Apple Pay session.
 
 ```
-var session = new ApplePaySession(1, ApplePayRequest);
+var session = new ApplePaySession(10, ApplePayRequest);
 ```
 
 - As the first argument, specify the Apple Pay version your website supports. 
