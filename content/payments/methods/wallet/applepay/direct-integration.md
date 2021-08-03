@@ -55,8 +55,6 @@ For more information, see Apple Developer – [Checking for Apple Pay availabili
 
 **2.** If Apple Pay is supported, display the ** Pay** button in your checkout page.
 
-**Note:** Disable the button after the customer clicks or taps it to prevent them creating multiple Apple Pay sessions.
-
 For styling the button, see Apple Developer:
 
 - [Buttons&nbsp;and&nbsp;marks](https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark)
@@ -187,7 +185,6 @@ session.onpaymentauthorized = function (event) {
     };
     if (success == false) {
         session.completePayment(ApplePaySession.STATUS_FAILURE);
-    // Optionally, re-enable the  Pay button for the customer.
     };
 };
 ```
