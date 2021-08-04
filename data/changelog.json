@@ -2,6 +2,10 @@
     "entries" : 
     [   
         {
+            "date": "Aug 3, 2021",
+            "change": "New payment method: [Apple Pay direct](/payments/methods/wallet/applepay/direct-integration/)"
+        },
+        {
             "date": "Jul 21, 2021",
             "change": "New page: [Duopact](/business/accounting/accounting-integrations/yuki/integrations/duopact)"
         },
