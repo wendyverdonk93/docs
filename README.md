@@ -12,13 +12,11 @@ At [MultiSafepay Docs](https://docs.multisafepay.com), you can:
 - Use our API Reference, SDKs, and wrappers. 
 - Get support.
 
-To run this project, you will need to install Hugo CMS. See Hugo – [Installing](https://gohugo.io/getting-started/installing/).
+To build this project, you need to install the Hugo static site generator. See Hugo – [Installing](https://gohugo.io/getting-started/installing/).
 
-Then, clone this repository.
+If you want to suggest an improvement, [create a pull request](https://github.com/MultiSafepay/docsv2/pulls), or email the Docs Team at <docs@multisafepay.com> 
 
-If you want to suggest an improvement, [create a pull request](https://github.com/MultiSafepay/docsv2/pulls), or email the Integration Team at <integration@multisafepay.com> 
-
-We'll send you a  MultiSafepay t-shirt in thanks!
+We'll send you a MultiSafepay t-shirt in thanks!
 
 ## Support
 For support, create an issue in this repository or email the Integration Team at <integration@multisafepay.com>
