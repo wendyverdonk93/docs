@@ -189,7 +189,7 @@ session.onpaymentauthorized = function (event) {
 };
 ```
 
-The `payment` object contains the customer's encrypted payment details and, if requested, the `billingContact` and `shippingContact`.
+The `payment` object contains the customer's encrypted payment details (`payment.token`) and, if requested, the `billingContact` and `shippingContact`.
 
 For more information about the `payment` object, see Apple Developer:
 
@@ -198,7 +198,7 @@ For more information about the `payment` object, see Apple Developer:
 
 ### Server-side integration
 
-**1.** From your server, [create an Apple pay direct order](/api/#apple-pay---direct) using the `payment.token` property. To use the `payment.token` property in the order request, create a string from the object, escaping quotation marks. 
+**1.** From your server, [create an Apple pay direct order](/api/#apple-pay---direct) using the `payment.token` property. To use the `payment.token` property in the order request, convert it to an escaped JSON string.
 
 **2.** The billing and shipping details are not required for Apple Pay direct orders. 
 
