@@ -71,7 +71,7 @@ For all integrations, to set the notification URL in your MultiSafepay test acco
 3. In the **Notification URL** field, enter your [notification URL](/tools/multisafepay-control/setting-your-notification-url/).
 4. Click **Save**.
 
-**Note:** If you provide a `notification_url` in your `POST /orders` request, it overides the notification URL in your MultiSafepay test account. 
+**Note:** If you provide a `notification_url` in your `POST /orders` request, it overrides the notification URL in your MultiSafepay test account. 
 
 ## 5. Check your connection with MultiSafepay
 
