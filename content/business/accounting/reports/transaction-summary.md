@@ -9,8 +9,15 @@ aliases:
     - /tools/accounting/reports/transaction-summary/
 ---
 
-The Transaction summary provides an overview of all transactions within a specific timeframe
-- Includes: Currency, [transaction status](/api/multisafepay-statuses/), payment method, website, grouping of costs
+The Transaction summary provides an overview of all transactions within a specific timeframe.
+
+Includes:  
+
+- Currency
+- [Transaction status](/api/multisafepay-statuses/)
+- Payment method
+- Website
+- Grouping of costs
 
 Supported formats: Excel or PDF
 
@@ -24,16 +31,16 @@ Supported formats: Excel or PDF
 Columns:
 
 - Completed: the date the funds were settled in your MultiSafepay balance
-- mt merchant
-- mt description
-- mt customer email: the customer's email address
-- currency: the transaction currency
-- mt orderstatus: the [order status](/api/multisafepay-statuses) at the time the report was generated
-- mt pt code: the payment method
-- modifieddate: the date the transaction was modified
-- mt cust country: the customer's country
-- mt id: your transaction reference number
-- creditdebit: C means credit, D means debit
+- Mt merchant
+- Mt description
+- Mt customer email: the customer's email address
+- Currency: the transaction currency
+- Mt orderstatus: the [order status](/api/multisafepay-statuses) at the time the report was generated
+- Mt pt code: the payment method
+- Modifieddate: the date the transaction was modified
+- Mt cust country: the customer's country
+- Mt id: your transaction reference number
+- Creditdebit: C means credit, D means debit
 
 {{< /details >}}
 
