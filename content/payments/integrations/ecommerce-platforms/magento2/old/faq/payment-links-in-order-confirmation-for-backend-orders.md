@@ -4,6 +4,7 @@ meta_title: "Magento 2 plugin FAQ - Payment links - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
 read_more: "."
+noindex: 'true'
 aliases:
     - /magento2/faq/payment-links-in-order-confirmation-for-backend-orders
 ---

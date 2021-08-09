@@ -10,11 +10,11 @@
     {{ else }}<title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>{{ end }}
     {{ with .Description }}
     <meta name="description" content="{{ . }}"> {{ end }}
-    {{ if .Site.Params.noindex }}
+
+    {{ if or (.Site.Params.noindex) (isset .Params "noindex" ) }}
     <meta name=”robots” content=”noindex,nofollow” />
-
-
     {{ end }}
+
 
     {{ partial "meta/name-description" . }}
     {{ partial "meta/name-author" . }}

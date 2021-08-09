@@ -7,6 +7,7 @@ meta_description: "Sign up. Build and test your payments integration. Explore ou
 changelog: https://github.com/MultiSafepay/Magento2Msp/blob/master/CHANGELOG.md
 layout: 'single'
 faq: '.'
+noindex: 'true'
 ---
 
 {{< alert-notice >}} **Alert!** This plugin is end-of-life and we are phasing out support. Migrate to the [new plugin](/payments/integrations/ecommerce-platforms/magento2/) as soon as possible. {{< /alert-notice >}}

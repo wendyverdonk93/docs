@@ -3,6 +3,7 @@ title : "How can I generate a payment link in the backend of Magento 2?"
 meta_title: "Magento 2 payment link - MultiSafepay Docs"
 meta_description: "Sign up. Build and test your payments integration. Explore our products and services. Use our API Reference, SDKs, and wrappers. Get support."
 layout: "faqdetail"
+noindex: 'true'
 read_more: "."
 ---
 
