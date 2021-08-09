@@ -25,7 +25,7 @@ To view the site ID, API key, and secure code for a specific website:
 
 2. Go to **Settings** > **Website settings**.
 
-3. Click on the relvant website to view the **Website details** page.
+3. Click on the relevant website to view the **Website details** page.
 
 
 
