@@ -99,5 +99,3 @@ See [payment_options (object)](/api/#payment-options-object).
 ----------------
 
 {{< /description >}}
-
-
