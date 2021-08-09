@@ -15,6 +15,7 @@ Supported format: Excel
 
 {{< details title="Report contents" >}}
 &nbsp; 
+
 - Report created: the date the report was generated
 - Payout ID: the reference number for this payout
 - Logic: what time the payout was made
@@ -26,17 +27,17 @@ Supported format: Excel
 
 Columns:
 
-- created date: the date the transaction was initiated
-- completed date/time: the date and time the transaction was completed
-- mt status: the [transaction status](/api/multisafepay-statuses/)
-- mt order status: the [order status](/api/multisafepay-statuses/)
-- psp id: 
-- amount: the transaction amount in whole currency
-- amount cents: the transactio amount in cents
-- creditdebit: C means credit, D means debit
-- n code: see [N-codes for identifying payment methods](/reports/n-codes/)
-- payment type: a MultiSafepay fee, or the payment method
-- mt description: your description of the transaction 
+- Created date: the date the transaction was initiated
+- Completed date/time: the date and time the transaction was completed
+- Mt status: the [transaction status](/api/multisafepay-statuses/)
+- Mt order status: the [order status](/api/multisafepay-statuses/)
+- Psp id: 
+- Amount: the transaction amount in whole currency
+- Amount cents: the transactio amount in cents
+- Creditdebit: C means credit, D means debit
+- N code: see [N-codes for identifying payment methods](/reports/n-codes/)
+- Payment type: a MultiSafepay fee, or the payment method
+- Mt description: your description of the transaction 
 
 {{< /details >}}
 
