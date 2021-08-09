@@ -9,7 +9,7 @@ aliases:
 
 Payment method logos may be missing due to a theme that is causing them to not appear on your Lightspeed website. 
 
-To add missing payment method logogs, follow these steps:
+To add missing payment method logos, follow these steps:
 
 1. Download the logos from our [Github repo](https://github.com/MultiSafepay/MultiSafepay-icons).
 2. Rename the file with upper case formatting, e.g applepay.png > APPLEPAY.png.
