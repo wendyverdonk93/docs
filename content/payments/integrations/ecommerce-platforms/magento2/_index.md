@@ -2,7 +2,6 @@
 title: "MultiSafepay plugin for Magento 2"
 breadcrumb_title: "Magento 2"
 github_url : "https://github.com/MultiSafepay/Magento2"
-old_url : "/payments/integrations/ecommerce-platforms/magento2/old/"
 changelog_url : "."
 faq: "."
 layout: 'single-old-button'
@@ -27,7 +26,7 @@ aliases:
 
 This technical manual is for installing and configuring our new free plugin for integrating MultiSafepay payment solutions into your Magento 2 webshop.
 
-{{< alert-notice>}} If you are still using the [deprecated plugin](/payments/integrations/ecommerce-platforms/magento2/old/), we recommend migrating to this new version as soon as possible. {{< /alert-notice >}}
+{{< alert-notice>}} If you are still using the [deprecated plugin](https://github.com/MultiSafepay/Magento2Msp), we recommend migrating to this new version as soon as possible. {{< /alert-notice >}}
 
 {{< details title="Requirements" >}}
 
