@@ -50,9 +50,9 @@ Options:
 
 **Suppressing Second Chance emails after cancellation**
 
-When a customer plaes an order, goes to the checkout page, doesn't complete payment, but later returns and tries again, some webshops create a second order. If Second Chance emails are enabled, the customer still receives emails for the first order, even after they complete payment for the second order.
+When a customer places an order, goes to the checkout page, doesn't complete payment, but later returns and tries again, some webshops create a second order. If Second Chance emails are enabled, the customer still receives emails for the first order, even after they complete payment for the second order.
 
-Cancelling the first order doesn't suppress Second Chance emails.
+Cancelling the first order does **not** suppress Second Chance emails.
 
 To suppress Second Chance emails, send a `PATCH /orders` request containing the following parameters:
 ``` 
