@@ -94,7 +94,7 @@ For example, if an email template is set for a German customer, but the locale i
 {{< details title="Changing the from address" >}}
 &nbsp;  
 If you enter a different from address than noreply@multisafepay.com, we recommend adding the following DNS record to your domain to avoid emails being marked as spam:  
-'v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx'
+`v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx`
 {{< /details >}}
 
 **Step 5.** You can edit the text in the **Body plain** field, or if you know HTML and CSS, you can fully customize the content and layout in the **Body HTML** field. 
